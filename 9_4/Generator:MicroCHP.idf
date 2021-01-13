@@ -1,0 +1,10 @@
+Generator:MicroCHP,
+  ,   ! Name RefList: [GeneratorNames, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], #1
+  ,   ! Performance Parameters Name [MicroCHPParametersNames], #2
+  ,   ! Zone Name [ZoneNames], #3
+  ,   ! Cooling Water Inlet Node Name #4
+  ,   ! Cooling Water Outlet Node Name #5
+  ,   ! Air Inlet Node Name #6
+  ,   ! Air Outlet Node Name #7
+  ,   ! Generator Fuel Supply Name [GenFuelSupNames], #8
+  ;   ! Availability Schedule Name [ScheduleNames], #9

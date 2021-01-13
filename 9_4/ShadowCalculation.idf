@@ -1,0 +1,12 @@
+ShadowCalculation,
+  PolygonClipping,   ! Shading Calculation Method Def: PolygonClipping, [PolygonClipping, PixelCounting, Scheduled, Imported], #1
+  Periodic,   ! Shading Calculation Update Frequency Method Def: Periodic, [Periodic, Timestep], #2
+  20,   ! Shading Calculation Update Frequency Def: 20, #3
+  15000,   ! Maximum Figures in Shadow Overlap Calculations Def: 15000, #4
+  SutherlandHodgman,   ! Polygon Clipping Algorithm Def: SutherlandHodgman, [ConvexWeilerAtherton, SutherlandHodgman, SlaterBarskyandSutherlandHodgman], #5
+  512,   ! Pixel Counting Resolution Def: 512, #6
+  SimpleSkyDiffuseModeling,   ! Sky Diffuse Modeling Algorithm Def: SimpleSkyDiffuseModeling, [SimpleSkyDiffuseModeling, DetailedSkyDiffuseModeling], #7
+  No,   ! Output External Shading Calculation Results Def: No, [Yes, No], #8
+  No,   ! Disable Self-Shading Within Shading Zone Groups Def: No, [Yes, No], #9
+  No,   ! Disable Self-Shading From Shading Zone Groups to Other Zones Def: No, [Yes, No], #10
+  ;   ! Shading Zone Group 1 ZoneList Name [ZoneListNames], #11

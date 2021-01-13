@@ -1,0 +1,11 @@
+AirflowNetwork:OccupantVentilationControl,
+  ,   ! Name RefList: [AirflowNetworkOccupantVentilationControlNames], REQ, #1
+  0.0,   ! Minimum Opening Time {minutes}, Def: 0.0, #2
+  0.0,   ! Minimum Closing Time {minutes}, Def: 0.0, #3
+  ,   ! Thermal Comfort Low Temperature Curve Name [UnivariateFunctions], #4
+  10.0,   ! Thermal Comfort Temperature Boundary Point {C}, Def: 10.0, #5
+  ,   ! Thermal Comfort High Temperature Curve Name [UnivariateFunctions], #6
+  10.0,   ! Maximum Threshold for Persons Dissatisfied PPD {percent}, Def: 10.0, #7
+  No,   ! Occupancy Check Def: No, [Yes, No], #8
+  ,   ! Opening Probability Schedule Name [ScheduleNames], #9
+  ;   ! Closing Probability Schedule Name [ScheduleNames], #10

@@ -1,0 +1,16 @@
+AirTerminal:SingleDuct:VAV:Reheat:VariableSpeedFan,
+  ,   ! Name RefList: [AirTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Maximum Cooling Air Flow Rate {m3/s}, AS, REQ, #3
+  ,   ! Maximum Heating Air Flow Rate {m3/s}, AS, REQ, #4
+  ,   ! Zone Minimum Air Flow Fraction REQ, #5
+  ,   ! Air Inlet Node Name #6
+  ,   ! Air Outlet Node Name #7
+  ,   ! Fan Object Type [Fan:SystemModel, Fan:VariableVolume], REQ, #8
+  ,   ! Fan Name [FansVAV, FansSystemModel], REQ, #9
+  ,   ! Heating Coil Object Type [Coil:Heating:Water, Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam], REQ, #10
+  ,   ! Heating Coil Name [HeatingCoilName], REQ, #11
+  ,   ! Maximum Hot Water or Steam Flow Rate {m3/s}, AS, #12
+  0.0,   ! Minimum Hot Water or Steam Flow Rate {m3/s}, Def: 0.0, #13
+  0.001,   ! Heating Convergence Tolerance Def: 0.001, #14
+  ;   ! Minimum Air Flow Turndown Schedule Name [ScheduleNames], #15

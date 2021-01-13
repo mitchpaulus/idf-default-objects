@@ -1,0 +1,5 @@
+SetpointManager:Scheduled,
+  ,   ! Name REQ, #1
+  ,   ! Control Variable [Temperature, MaximumTemperature, MinimumTemperature, HumidityRatio, MaximumHumidityRatio, MinimumHumidityRatio, MassFlowRate, MaximumMassFlowRate, MinimumMassFlowRate], REQ, #2
+  ,   ! Schedule Name [ScheduleNames], REQ, #3
+  ;   ! Setpoint Node or NodeList Name REQ, #4

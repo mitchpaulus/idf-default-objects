@@ -1,0 +1,25 @@
+! Min Fields: 14
+Refrigeration:SecondarySystem,
+  ,   ! Name RefList: [RefrigerationCascadeCondenserAndSecondarySystemNames, RefrigerationSecondarySystemAndCascadeCondenserAndTransferLoadListNames], REQ, #1
+  ,   ! Refrigerated Case or Walkin or CaseAndWalkInList Name [RefrigerationCaseAndWalkInAndListNames], REQ, #2
+  ,   ! Circulating Fluid Type [FluidAlwaysLiquid, FluidPhaseChange], REQ, #3
+  ,   ! Circulating Fluid Name [FluidAndGlycolNames], REQ, #4
+  ,   ! Evaporator Capacity {W}, #5
+  ,   ! Evaporator Flow Rate for Secondary Fluid {m3/s}, #6
+  ,   ! Evaporator Evaporating Temperature {C}, REQ, #7
+  ,   ! Evaporator Approach Temperature Difference {deltaC}, REQ, #8
+  ,   ! Evaporator Range Temperature Difference {deltaC}, #9
+  1,   ! Number of Pumps in Loop Def: 1, #10
+  ,   ! Total Pump Flow Rate {m3/s}, #11
+  ,   ! Total Pump Power {W}, #12
+  ,   ! Total Pump Head {Pa}, #13
+  2.5,   ! PhaseChange Circulating Rate {dimensionless}, Def: 2.5, #14
+  Constant,   ! Pump Drive Type Def: Constant, [Constant, Variable], #15
+  ,   ! Variable Speed Pump Cubic Curve Name [UnivariateFunctions], #16
+  0.85,   ! Pump Motor Heat to Fluid {dimensionless}, Def: 0.85, #17
+  0.0,   ! Sum UA Distribution Piping {W/K}, Def: 0.0, #18
+  ,   ! Distribution Piping Zone Name [ZoneNames], #19
+  0.0,   ! Sum UA Receiver/Separator Shell {W/K}, Def: 0.0, #20
+  ,   ! Receiver/Separator Zone Name [ZoneNames], #21
+  0.0,   ! Evaporator Refrigerant Inventory {kg}, Def: 0.0, #22
+  General;   ! End-Use Subcategory Def: General, #23

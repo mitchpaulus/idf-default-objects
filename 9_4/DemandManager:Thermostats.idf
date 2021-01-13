@@ -1,0 +1,11 @@
+DemandManager:Thermostats,
+  ,   ! Name RefList: [DemandManagerNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Reset Control [Off, Fixed], REQ, #3
+  ,   ! Minimum Reset Duration {minutes}, #4
+  ,   ! Maximum Heating Setpoint Reset {C}, REQ, #5
+  ,   ! Maximum Cooling Setpoint Reset {C}, REQ, #6
+  ,   ! Reset Step Change #7
+  ,   ! Selection Control [All, RotateMany, RotateOne], REQ, #8
+  ,   ! Rotation Duration {minutes}, #9
+  ;   ! Thermostat 1 Name [ZoneControlThermostaticNames], REQ, #10

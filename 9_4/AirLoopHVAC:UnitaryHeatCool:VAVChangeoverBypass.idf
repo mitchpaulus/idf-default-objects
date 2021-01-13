@@ -1,0 +1,31 @@
+! Min Fields: 23
+AirLoopHVAC:UnitaryHeatCool:VAVChangeoverBypass,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Cooling Supply Air Flow Rate {m3/s}, AS, REQ, #3
+  ,   ! Heating Supply Air Flow Rate {m3/s}, AS, REQ, #4
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #5
+  ,   ! Cooling Outdoor Air Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! Heating Outdoor Air Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! No Load Outdoor Air Flow Rate {m3/s}, AS, #8
+  ,   ! Outdoor Air Flow Rate Multiplier Schedule Name [ScheduleNames], #9
+  ,   ! Air Inlet Node Name REQ, #10
+  ,   ! Bypass Duct Mixer Node Name REQ, #11
+  ,   ! Bypass Duct Splitter Node Name REQ, #12
+  ,   ! Air Outlet Node Name REQ, #13
+  ,   ! Outdoor Air Mixer Object Type [OutdoorAir:Mixer], REQ, #14
+  ,   ! Outdoor Air Mixer Name [OutdoorAirMixers], REQ, #15
+  ,   ! Supply Air Fan Object Type [Fan:SystemModel, Fan:OnOff, Fan:ConstantVolume], REQ, #16
+  ,   ! Supply Air Fan Name [FansCVandOnOff, FansSystemModel], REQ, #17
+  ,   ! Supply Air Fan Placement [BlowThrough, DrawThrough], REQ, #18
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #19
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:VariableSpeed, CoilSystem:Cooling:DX:HeatExchangerAssisted, Coil:Cooling:DX:TwoStageWithHumidityControlMode], REQ, #20
+  ,   ! Cooling Coil Name [CoolingCoilsDXMultiModeOrSingleSpeed, CoolingCoilsDXVariableSpeed], REQ, #21
+  ,   ! Heating Coil Object Type [Coil:Heating:DX:SingleSpeed, Coil:Heating:DX:VariableSpeed, Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Water, Coil:Heating:Steam], REQ, #22
+  ,   ! Heating Coil Name [HeatingCoilName, HeatingCoilsDXVariableSpeed], REQ, #23
+  ZonePriority,   ! Priority Control Mode Def: ZonePriority, [CoolingPriority, HeatingPriority, ZonePriority, LoadPriority], #24
+  8.0,   ! Minimum Outlet Air Temperature During Cooling Operation {C}, Def: 8.0, #25
+  50.0,   ! Maximum Outlet Air Temperature During Heating Operation {C}, Def: 50.0, #26
+  None,   ! Dehumidification Control Type Def: None, [None, Multimode, CoolReheat], #27
+  ,   ! Plenum or Mixer Inlet Node Name #28
+  0.25;   ! Minimum Runtime Before Operating Mode Change {hr}, Def: 0.25, #29

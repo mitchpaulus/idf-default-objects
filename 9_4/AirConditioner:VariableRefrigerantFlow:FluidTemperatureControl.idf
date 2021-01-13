@@ -1,0 +1,46 @@
+! Min Fields: 41
+AirConditioner:VariableRefrigerantFlow:FluidTemperatureControl,
+  ,   ! Heat Pump Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Terminal Unit List Name [ZoneTerminalUnitListNames], REQ, #3
+  R410A,   ! Refrigerant Type Def: R410A, [FluidNames], #4
+  40000,   ! Rated Evaporative Capacity {W}, Def: 40000, AS, #5
+  0.35,   ! Rated Compressor Power Per Unit of Rated Evaporative Capacity {dimensionless}, Def: 0.35, #6
+  -6.0,   ! Minimum Outdoor Air Temperature in Cooling Mode {C}, Def: -6.0, #7
+  43.0,   ! Maximum Outdoor Air Temperature in Cooling Mode {C}, Def: 43.0, #8
+  -20.0,   ! Minimum Outdoor Air Temperature in Heating Mode {C}, Def: -20.0, #9
+  16.0,   ! Maximum Outdoor Air Temperature in Heating Mode {C}, Def: 16.0, #10
+  3,   ! Reference Outdoor Unit Superheating {deltaC}, Def: 3, #11
+  5,   ! Reference Outdoor Unit Subcooling {deltaC}, Def: 5, #12
+  VariableTemp,   ! Refrigerant Temperature Control Algorithm for Indoor Unit Def: VariableTemp, [ConstantTemp, VariableTemp], #13
+  6.0,   ! Reference Evaporating Temperature for Indoor Unit {C}, Def: 6.0, #14
+  44.0,   ! Reference Condensing Temperature for Indoor Unit {C}, Def: 44.0, #15
+  4.0,   ! Variable Evaporating Temperature Minimum for Indoor Unit {C}, Def: 4.0, #16
+  13.0,   ! Variable Evaporating Temperature Maximum for Indoor Unit {C}, Def: 13.0, #17
+  42.0,   ! Variable Condensing Temperature Minimum for Indoor Unit {C}, Def: 42.0, #18
+  46.0,   ! Variable Condensing Temperature Maximum for Indoor Unit {C}, Def: 46.0, #19
+  4.25E-3,   ! Outdoor Unit Fan Power Per Unit of Rated Evaporative Capacity {dimensionless}, Def: 4.25E-3, #20
+  7.50E-5,   ! Outdoor Unit Fan Flow Rate Per Unit of Rated Evaporative Capacity {m3/s-W}, Def: 7.50E-5, #21
+  ,   ! Outdoor Unit Evaporating Temperature Function of Superheating Curve Name [UnivariateFunctions], REQ, #22
+  ,   ! Outdoor Unit Condensing Temperature Function of Subcooling Curve Name [UnivariateFunctions], REQ, #23
+  0.0762,   ! Diameter of Main Pipe Connecting Outdoor Unit to the First Branch Joint {m}, Def: 0.0762, #24
+  30.0,   ! Length of Main Pipe Connecting Outdoor Unit to the First Branch Joint {m}, Def: 30.0, #25
+  36.0,   ! Equivalent Length of Main Pipe Connecting Outdoor Unit to the First Branch Joint {m}, Def: 36.0, #26
+  5.0,   ! Height Difference Between Outdoor Unit and Indoor Units {m}, Def: 5.0, #27
+  0.02,   ! Main Pipe Insulation Thickness {m}, Def: 0.02, #28
+  0.032,   ! Main Pipe Insulation Thermal Conductivity {W/m-K}, Def: 0.032, #29
+  33.0,   ! Crankcase Heater Power per Compressor {W}, Def: 33.0, #30
+  2,   ! Number of Compressors {dimensionless}, Def: 2, #31
+  0.5,   ! Ratio of Compressor Size to Total Compressor Capacity {W/W}, Def: 0.5, #32
+  5.0,   ! Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater {C}, Def: 5.0, #33
+  Resistive,   ! Defrost Strategy Def: Resistive, [ReverseCycle, Resistive], #34
+  Timed,   ! Defrost Control Def: Timed, [Timed, OnDemand], #35
+  ,   ! Defrost Energy Input Ratio Modifier Function of Temperature Curve Name [BivariateFunctions], #36
+  0.058333,   ! Defrost Time Period Fraction Def: 0.058333, #37
+  0.0,   ! Resistive Defrost Heater Capacity {W}, Def: 0.0, AS, #38
+  5.0,   ! Maximum Outdoor Dry-bulb Temperature for Defrost Operation {C}, Def: 5.0, #39
+  4500000.0,   ! Compressor maximum delta Pressure {Pa}, Def: 4500000.0, #40
+  2,   ! Number of Compressor Loading Index Entries Def: 2, #41
+  ,   ! Compressor Speed at Loading Index 1 {rev/min}, REQ, #42
+  ,   ! Loading Index 1 Evaporative Capacity Multiplier Function of Temperature Curve Name [BivariateFunctions], REQ, #43
+  ;   ! Loading Index 1 Compressor Power Multiplier Function of Temperature Curve Name [BivariateFunctions], REQ, #44

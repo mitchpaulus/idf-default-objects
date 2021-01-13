@@ -1,0 +1,13 @@
+! Min Fields: 6
+Refrigeration:Compressor,
+  ,   ! Name RefList: [RefrigerationCompressorAndListNames, RefrigerationCompressorNames], REQ, #1
+  ,   ! Refrigeration Compressor Power Curve Name [BivariateFunctions], REQ, #2
+  ,   ! Refrigeration Compressor Capacity Curve Name [BivariateFunctions], REQ, #3
+  ,   ! Rated Superheat {deltaC}, #4
+  ,   ! Rated Return Gas Temperature {C}, #5
+  ,   ! Rated Liquid Temperature {C}, #6
+  ,   ! Rated Subcooling {deltaC}, #7
+  General,   ! End-Use Subcategory Def: General, #8
+  Subcritical,   ! Mode of Operation Def: Subcritical, [Subcritical, Transcritical], #9
+  ,   ! Transcritical Compressor Power Curve Name [BivariateFunctions], #10
+  ;   ! Transcritical Compressor Capacity Curve Name [BivariateFunctions], #11

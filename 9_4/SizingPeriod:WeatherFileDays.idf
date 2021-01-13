@@ -1,0 +1,9 @@
+SizingPeriod:WeatherFileDays,
+  ,   ! Name RefList: [RunPeriodsAndDesignDays], REQ, #1
+  ,   ! Begin Month REQ, #2
+  ,   ! Begin Day of Month REQ, #3
+  ,   ! End Month REQ, #4
+  ,   ! End Day of Month REQ, #5
+  Monday,   ! Day of Week for Start Day Def: Monday, [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, SummerDesignDay, WinterDesignDay, CustomDay1, CustomDay2], #6
+  Yes,   ! Use Weather File Daylight Saving Period Def: Yes, [Yes, No], #7
+  Yes;   ! Use Weather File Rain and Snow Indicators Def: Yes, [Yes, No], #8

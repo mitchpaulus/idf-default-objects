@@ -1,0 +1,20 @@
+GroundHeatTransfer:Basement:MatlProps,
+  ,   ! NMAT: Number of materials in this domain REQ, #1
+  2243,   ! Density for Foundation Wall {kg/m3}, Def: 2243, #2
+  2243,   ! density for Floor Slab {kg/m3}, Def: 2243, #3
+  311,   ! density for Ceiling {kg/m3}, Def: 311, #4
+  1500,   ! density for Soil {kg/m3}, Def: 1500, #5
+  2000,   ! density for Gravel {kg/m3}, Def: 2000, #6
+  449,   ! density for Wood {kg/m3}, Def: 449, #7
+  880,   ! Specific heat for foundation wall {J/kg-K}, Def: 880, #8
+  880,   ! Specific heat for floor slab {J/kg-K}, Def: 880, #9
+  1530,   ! Specific heat for ceiling {J/kg-K}, Def: 1530, #10
+  840,   ! Specific heat for soil {J/kg-K}, Def: 840, #11
+  720,   ! Specific heat for gravel {J/kg-K}, Def: 720, #12
+  1530,   ! Specific heat for wood {J/kg-K}, Def: 1530, #13
+  1.4,   ! Thermal conductivity for foundation wall {W/m-K}, Def: 1.4, #14
+  1.4,   ! Thermal conductivity for floor slab {W/m-K}, Def: 1.4, #15
+  0.09,   ! Thermal conductivity for ceiling {W/m-K}, Def: 0.09, #16
+  1.1,   ! thermal conductivity for soil {W/m-K}, Def: 1.1, #17
+  1.9,   ! thermal conductivity for gravel {W/m-K}, Def: 1.9, #18
+  0.12;   ! thermal conductivity for wood {W/m-K}, Def: 0.12, #19

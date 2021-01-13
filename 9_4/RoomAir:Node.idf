@@ -1,0 +1,26 @@
+RoomAir:Node,
+  ,   ! Name RefList: [RoomAirNodes], #1
+  ,   ! Node Type [Inlet, Floor, Control, Ceiling, MundtRoom, Return], REQ, #2
+  ,   ! Zone Name [ZoneNames], REQ, #3
+  ,   ! Height of Nodal Control Volume Center {m}, REQ, #4
+  ,   ! Surface 1 Name [AllHeatTranSurfNames], #5
+  ,   ! Surface 2 Name [AllHeatTranSurfNames], #6
+  ,   ! Surface 3 Name [AllHeatTranSurfNames], #7
+  ,   ! Surface 4 Name [AllHeatTranSurfNames], #8
+  ,   ! Surface 5 Name [AllHeatTranSurfNames], #9
+  ,   ! Surface 6 Name [AllHeatTranSurfNames], #10
+  ,   ! Surface 7 Name [AllHeatTranSurfNames], #11
+  ,   ! Surface 8 Name [AllHeatTranSurfNames], #12
+  ,   ! Surface 9 Name [AllHeatTranSurfNames], #13
+  ,   ! Surface 10 Name [AllHeatTranSurfNames], #14
+  ,   ! Surface 11 Name [AllHeatTranSurfNames], #15
+  ,   ! Surface 12 Name [AllHeatTranSurfNames], #16
+  ,   ! Surface 13 Name [AllHeatTranSurfNames], #17
+  ,   ! Surface 14 Name [AllHeatTranSurfNames], #18
+  ,   ! Surface 15 Name [AllHeatTranSurfNames], #19
+  ,   ! Surface 16 Name [AllHeatTranSurfNames], #20
+  ,   ! Surface 17 Name [AllHeatTranSurfNames], #21
+  ,   ! Surface 18 Name [AllHeatTranSurfNames], #22
+  ,   ! Surface 19 Name [AllHeatTranSurfNames], #23
+  ,   ! Surface 20 Name [AllHeatTranSurfNames], #24
+  ;   ! Surface 21 Name [AllHeatTranSurfNames], #25

@@ -1,0 +1,13 @@
+! Min Fields: 7
+WindowMaterial:GasMixture,
+  ,   ! Name RefList: [MaterialName, WindowGasAndGasMixtures], REQ, #1
+  ,   ! Thickness {m}, REQ, #2
+  ,   ! Number of Gases in Mixture REQ, #3
+  ,   ! Gas 1 Type [Air, Argon, Krypton, Xenon], REQ, #4
+  ,   ! Gas 1 Fraction REQ, #5
+  ,   ! Gas 2 Type [Air, Argon, Krypton, Xenon], REQ, #6
+  ,   ! Gas 2 Fraction REQ, #7
+  ,   ! Gas 3 Type [Air, Argon, Krypton, Xenon], #8
+  ,   ! Gas 3 Fraction #9
+  ,   ! Gas 4 Type [Air, Argon, Krypton, Xenon], #10
+  ;   ! Gas 4 Fraction #11

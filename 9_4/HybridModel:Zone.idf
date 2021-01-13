@@ -1,0 +1,21 @@
+HybridModel:Zone,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  No,   ! Calculate Zone Internal Thermal Mass Def: No, [No, Yes], #3
+  No,   ! Calculate Zone Air Infiltration Rate Def: No, [No, Yes], #4
+  No,   ! Calculate Zone People Count Def: No, [No, Yes], #5
+  ,   ! Zone Measured Air Temperature Schedule Name [ScheduleNames], #6
+  ,   ! Zone Measured Air Humidity Ratio Schedule Name [ScheduleNames], #7
+  ,   ! Zone Measured Air CO2 Concentration Schedule Name [ScheduleNames], #8
+  ,   ! Zone Input People Activity Schedule Name [ScheduleNames], #9
+  ,   ! Zone Input People Sensible Heat Fraction Schedule Name [ScheduleNames], #10
+  ,   ! Zone Input People Radiant Heat Fraction Schedule Name [ScheduleNames], #11
+  ,   ! Zone Input People CO2 Generation Rate Schedule Name [ScheduleNames], #12
+  ,   ! Zone Input Supply Air Temperature Schedule Name [ScheduleNames], #13
+  ,   ! Zone Input Supply Air Mass Flow Rate Schedule Name [ScheduleNames], #14
+  ,   ! Zone Input Supply Air Humidity Ratio Schedule Name [ScheduleNames], #15
+  ,   ! Zone Input Supply Air CO2 Concentration Schedule Name [ScheduleNames], #16
+  ,   ! Begin Month REQ, #17
+  ,   ! Begin Day of Month REQ, #18
+  ,   ! End Month REQ, #19
+  ;   ! End Day of Month REQ, #20

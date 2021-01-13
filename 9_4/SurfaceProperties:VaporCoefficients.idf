@@ -1,0 +1,7 @@
+! Min Fields: 4
+SurfaceProperties:VaporCoefficients,
+  ,   ! Surface Name [SurfaceNames], REQ, #1
+  No,   ! Constant External Vapor Transfer Coefficient Def: No, [Yes, No], #2
+  0,   ! External Vapor Coefficient Value {kg/Pa-s-m2}, Def: 0, #3
+  No,   ! Constant Internal vapor Transfer Coefficient Def: No, [Yes, No], #4
+  0;   ! Internal Vapor Coefficient Value {kg/Pa-s-m2}, Def: 0, #5

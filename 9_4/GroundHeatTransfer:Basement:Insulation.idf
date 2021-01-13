@@ -1,0 +1,3 @@
+GroundHeatTransfer:Basement:Insulation,
+  ,   ! REXT: R Value of any exterior insulation {m2-K/W}, #1
+  ;   ! INSFULL: Flag: Is the wall fully insulated? [TRUE, FALSE], REQ, #2

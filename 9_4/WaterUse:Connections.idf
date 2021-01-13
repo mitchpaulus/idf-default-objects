@@ -1,0 +1,12 @@
+WaterUse:Connections,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Inlet Node Name #2
+  ,   ! Outlet Node Name #3
+  ,   ! Supply Water Storage Tank Name [WaterStorageTankNames], #4
+  ,   ! Reclamation Water Storage Tank Name [WaterStorageTankNames], #5
+  ,   ! Hot Water Supply Temperature Schedule Name [ScheduleNames], #6
+  ,   ! Cold Water Supply Temperature Schedule Name [ScheduleNames], #7
+  None,   ! Drain Water Heat Exchanger Type Def: None, [None, Ideal, CounterFlow, CrossFlow], #8
+  Plant,   ! Drain Water Heat Exchanger Destination Def: Plant, [Plant, Equipment, PlantAndEquipment], #9
+  ,   ! Drain Water Heat Exchanger U-Factor Times Area {W/K}, #10
+  ;   ! Water Use Equipment 1 Name [WaterUseEquipmentNames], REQ, #11

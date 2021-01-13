@@ -1,0 +1,24 @@
+! Min Fields: 21
+GroundHeatExchanger:Slinky,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Inlet Node Name REQ, #2
+  ,   ! Outlet Node Name REQ, #3
+  0.002,   ! Design Flow Rate {m3/s}, Def: 0.002, #4
+  1.08,   ! Soil Thermal Conductivity {W/m-K}, Def: 1.08, #5
+  962,   ! Soil Density {kg/m3}, Def: 962, #6
+  2576,   ! Soil Specific Heat {J/kg-K}, Def: 2576, #7
+  0.4,   ! Pipe Thermal Conductivity {W/m-K}, Def: 0.4, #8
+  641,   ! Pipe Density {kg/m3}, Def: 641, #9
+  2405,   ! Pipe Specific Heat {J/kg-K}, Def: 2405, #10
+  0.02667,   ! Pipe Outer Diameter {m}, Def: 0.02667, #11
+  0.002413,   ! Pipe Thickness {m}, Def: 0.002413, #12
+  ,   ! Heat Exchanger Configuration [Vertical, Horizontal], #13
+  1.0,   ! Coil Diameter {m}, Def: 1.0, #14
+  0.20,   ! Coil Pitch {m}, Def: 0.20, #15
+  1.8,   ! Trench Depth {m}, Def: 1.8, #16
+  10,   ! Trench Length {m}, Def: 10, #17
+  1,   ! Number of Trenches Def: 1, #18
+  2.0,   ! Horizontal Spacing Between Pipes {m}, Def: 2.0, #19
+  ,   ! Undisturbed Ground Temperature Model Type [Site:GroundTemperature:Undisturbed:FiniteDifference, Site:GroundTemperature:Undisturbed:KusudaAchenbach, Site:GroundTemperature:Undisturbed:Xing], REQ, #20
+  ,   ! Undisturbed Ground Temperature Model Name [UndisturbedGroundTempModels], REQ, #21
+  ;   ! Maximum Length of Simulation {years}, #22

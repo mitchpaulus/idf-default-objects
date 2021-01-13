@@ -1,0 +1,25 @@
+! Min Fields: 10
+Refrigeration:Condenser:EvaporativeCooled,
+  ,   ! Name RefList: [RefrigerationAllTypesCondenserNames, DesuperHeatingCoilSources], REQ, #1
+  ,   ! Rated Effective Total Heat Rejection Rate {W}, REQ, #2
+  0.0,   ! Rated Subcooling Temperature Difference {deltaC}, Def: 0.0, #3
+  Fixed,   ! Fan Speed Control Type Def: Fixed, [Fixed, FixedLinear, VariableSpeed, TwoSpeed], #4
+  ,   ! Rated Fan Power {W}, REQ, #5
+  0.2,   ! Minimum Fan Air Flow Ratio {dimensionless}, Def: 0.2, #6
+  6.63,   ! Approach Temperature Constant Term {C}, Def: 6.63, #7
+  0.468,   ! Approach Temperature Coefficient 2 {C}, Def: 0.468, #8
+  17.93,   ! Approach Temperature Coefficient 3 {C}, Def: 17.93, #9
+  -0.322,   ! Approach Temperature Coefficient 4 {dimensionless}, Def: -0.322, #10
+  0.50,   ! Minimum Capacity Factor {dimensionless}, Def: 0.50, #11
+  5.0,   ! Maximum Capacity Factor {dimensionless}, Def: 5.0, #12
+  ,   ! Air Inlet Node Name #13
+  autocalculate,   ! Rated Air Flow Rate {m3/s}, Def: autocalculate, AC, #14
+  200.0,   ! Basin Heater Capacity {W/K}, Def: 200.0, #15
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #16
+  1000.0,   ! Rated Water Pump Power {W}, Def: 1000.0, AC, #17
+  ,   ! Evaporative Water Supply Tank Name [WaterStorageTankNames], #18
+  ,   ! Evaporative Condenser Availability Schedule Name [ScheduleNames], #19
+  General,   ! End-Use Subcategory Def: General, #20
+  0.0,   ! Condenser Refrigerant Operating Charge Inventory {kg}, Def: 0.0, #21
+  0.0,   ! Condensate Receiver Refrigerant Inventory {kg}, Def: 0.0, #22
+  0.0;   ! Condensate Piping Refrigerant Inventory {kg}, Def: 0.0, #23

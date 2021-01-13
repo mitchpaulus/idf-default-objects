@@ -1,0 +1,31 @@
+! Min Fields: 29
+ChillerHeaterPerformance:Electric:EIR,
+  ,   ! Name RefList: [ChillerHeaterEIRNames], REQ, #1
+  ,   ! Reference Cooling Mode Evaporator Capacity {W}, AS, REQ, #2
+  ,   ! Reference Cooling Mode COP {W/W}, REQ, #3
+  6.67,   ! Reference Cooling Mode Leaving Chilled Water Temperature {C}, Def: 6.67, #4
+  29.44,   ! Reference Cooling Mode Entering Condenser Fluid Temperature {C}, Def: 29.44, #5
+  35.0,   ! Reference Cooling Mode Leaving Condenser Water Temperature {C}, Def: 35.0, #6
+  0.75,   ! Reference Heating Mode Cooling Capacity Ratio Def: 0.75, #7
+  1.38,   ! Reference Heating Mode Cooling Power Input Ratio Def: 1.38, #8
+  6.67,   ! Reference Heating Mode Leaving Chilled Water Temperature {C}, Def: 6.67, #9
+  49,   ! Reference Heating Mode Leaving Condenser Water Temperature {C}, Def: 49, #10
+  29.44,   ! Reference Heating Mode Entering Condenser Fluid Temperature {C}, Def: 29.44, #11
+  12.22,   ! Heating Mode Entering Chilled Water Temperature Low Limit {C}, Def: 12.22, #12
+  ConstantFlow,   ! Chilled Water Flow Mode Type Def: ConstantFlow, [ConstantFlow, VariableFlow], #13
+  ,   ! Design Chilled Water Flow Rate {m3/s}, AS, #14
+  ,   ! Design Condenser Water Flow Rate {m3/s}, AS, #15
+  0.0,   ! Design Hot Water Flow Rate {m3/s}, Def: 0.0, #16
+  1.0,   ! Compressor Motor Efficiency Def: 1.0, #17
+  WaterCooled,   ! Condenser Type Def: WaterCooled, [AirCooled, WaterCooled], #18
+  EnteringCondenser,   ! Cooling Mode Temperature Curve Condenser Water Independent Variable Def: EnteringCondenser, [EnteringCondenser, LeavingCondenser], #19
+  ,   ! Cooling Mode Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #20
+  ,   ! Cooling Mode Electric Input to Cooling Output Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #21
+  ,   ! Cooling Mode Electric Input to Cooling Output Ratio Function of Part Load Ratio Curve Name [UnivariateFunctions, BivariateFunctions], REQ, #22
+  1.0,   ! Cooling Mode Cooling Capacity Optimum Part Load Ratio Def: 1.0, #23
+  LeavingCondenser,   ! Heating Mode Temperature Curve Condenser Water Independent Variable Def: LeavingCondenser, [EnteringCondenser, LeavingCondenser], #24
+  ,   ! Heating Mode Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #25
+  ,   ! Heating Mode Electric Input to Cooling Output Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #26
+  ,   ! Heating Mode Electric Input to Cooling Output Ratio Function of Part Load Ratio Curve Name [UnivariateFunctions, BivariateFunctions], REQ, #27
+  1.0,   ! Heating Mode Cooling Capacity Optimum Part Load Ratio Def: 1.0, #28
+  1.0;   ! Sizing Factor Def: 1.0, #29

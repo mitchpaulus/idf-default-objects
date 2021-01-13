@@ -1,0 +1,21 @@
+Curve:QuadLinear,
+  ,   ! Name RefList: [QuadvariateFunctions], REQ, #1
+  ,   ! Coefficient1 Constant REQ, #2
+  ,   ! Coefficient2 w REQ, #3
+  ,   ! Coefficient3 x REQ, #4
+  ,   ! Coefficient4 y REQ, #5
+  ,   ! Coefficient5 z REQ, #6
+  ,   ! Minimum Value of w REQ, #7
+  ,   ! Maximum Value of w REQ, #8
+  ,   ! Minimum Value of x REQ, #9
+  ,   ! Maximum Value of x REQ, #10
+  ,   ! Minimum Value of y REQ, #11
+  ,   ! Maximum Value of y REQ, #12
+  ,   ! Minimum Value of z REQ, #13
+  ,   ! Maximum Value of z REQ, #14
+  ,   ! Minimum Curve Output #15
+  ,   ! Maximum Curve Output #16
+  Dimensionless,   ! Input Unit Type for w Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance, VolumetricFlowPerPower], #17
+  Dimensionless,   ! Input Unit Type for x Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance, VolumetricFlowPerPower], #18
+  Dimensionless,   ! Input Unit Type for y Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance, VolumetricFlowPerPower], #19
+  Dimensionless;   ! Input Unit Type for z Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance, VolumetricFlowPerPower], #20

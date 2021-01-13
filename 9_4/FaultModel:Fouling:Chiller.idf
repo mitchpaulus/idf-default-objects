@@ -1,0 +1,8 @@
+! Min Fields: 6
+FaultModel:Fouling:Chiller,
+  ,   ! Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Severity Schedule Name [ScheduleNames], #3
+  ,   ! Chiller Object Type [Chiller:Electric, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine], REQ, #4
+  ,   ! Chiller Object Name [Chillers], REQ, #5
+  1;   ! Fouling Factor {dimensionless}, Def: 1, #6

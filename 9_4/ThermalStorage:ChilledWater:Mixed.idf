@@ -1,0 +1,23 @@
+ThermalStorage:ChilledWater:Mixed,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  0.1,   ! Tank Volume {m3}, Def: 0.1, #2
+  ,   ! Setpoint Temperature Schedule Name [ScheduleNames], #3
+  0.5,   ! Deadband Temperature Difference {deltaC}, Def: 0.5, #4
+  ,   ! Minimum Temperature Limit {C}, #5
+  ,   ! Nominal Cooling Capacity {W}, #6
+  ,   ! Ambient Temperature Indicator [Schedule, Zone, Outdoors], REQ, #7
+  ,   ! Ambient Temperature Schedule Name [ScheduleNames], #8
+  ,   ! Ambient Temperature Zone Name [ZoneNames], #9
+  ,   ! Ambient Temperature Outdoor Air Node Name #10
+  ,   ! Heat Gain Coefficient from Ambient Temperature {W/K}, #11
+  ,   ! Use Side Inlet Node Name #12
+  ,   ! Use Side Outlet Node Name #13
+  1.0,   ! Use Side Heat Transfer Effectiveness Def: 1.0, #14
+  ,   ! Use Side Availability Schedule Name [ScheduleNames], #15
+  autosize,   ! Use Side Design Flow Rate {m3/s}, Def: autosize, AS, #16
+  ,   ! Source Side Inlet Node Name #17
+  ,   ! Source Side Outlet Node Name #18
+  1.0,   ! Source Side Heat Transfer Effectiveness Def: 1.0, #19
+  ,   ! Source Side Availability Schedule Name [ScheduleNames], #20
+  autosize,   ! Source Side Design Flow Rate {m3/s}, Def: autosize, AS, #21
+  4.0;   ! Tank Recovery Time {hr}, Def: 4.0, #22

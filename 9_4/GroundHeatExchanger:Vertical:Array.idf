@@ -1,0 +1,6 @@
+GroundHeatExchanger:Vertical:Array,
+  ,   ! Name RefList: [GroundHeatExchangerVerticalArrayNames], REQ, #1
+  ,   ! GHE:Vertical:Properties Object Name [GroundHeatExchangerVerticalPropertiesNames], REQ, #2
+  ,   ! Number of Boreholes in X-Direction REQ, #3
+  ,   ! Number of Boreholes in Y-Direction REQ, #4
+  ;   ! Borehole Spacing {m}, REQ, #5

@@ -1,0 +1,6 @@
+SizingPeriod:WeatherFileConditionType,
+  ,   ! Name RefList: [RunPeriodsAndDesignDays], REQ, #1
+  ,   ! Period Selection [SummerExtreme, SummerTypical, WinterExtreme, WinterTypical, AutumnTypical, SpringTypical, WetSeason, DrySeason, NoDrySeason, NoWetSeason, TropicalHot, TropicalCold, NoDrySeasonMax, NoDrySeasonMin, NoWetSeasonMax, NoWetSeasonMin], REQ, #2
+  Monday,   ! Day of Week for Start Day Def: Monday, [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, SummerDesignDay, WinterDesignDay, CustomDay1, CustomDay2], #3
+  Yes,   ! Use Weather File Daylight Saving Period Def: Yes, [Yes, No], #4
+  Yes;   ! Use Weather File Rain and Snow Indicators Def: Yes, [Yes, No], #5

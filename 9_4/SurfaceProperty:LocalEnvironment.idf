@@ -1,0 +1,7 @@
+! Min Fields: 3
+SurfaceProperty:LocalEnvironment,
+  ,   ! Name RefList: [SurfaceLocalEnvironmentNames], REQ, #1
+  ,   ! Exterior Surface Name [SurfaceNames], #2
+  ,   ! External Shading Fraction Schedule Name [ScheduleNames], #3
+  ,   ! Surrounding Surfaces Object Name [SurroundingSurfacesNames], #4
+  ;   ! Outdoor Air Node Name [OutdoorAirNodeNames], #5

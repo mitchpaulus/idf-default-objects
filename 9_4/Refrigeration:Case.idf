@@ -1,0 +1,38 @@
+! Min Fields: 28
+Refrigeration:Case,
+  ,   ! Name RefList: [RefrigerationCaseAndWalkInAndListNames, RefrigerationCaseAndWalkInNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], REQ, #3
+  23.9,   ! Rated Ambient Temperature {C}, Def: 23.9, #4
+  55.0,   ! Rated Ambient Relative Humidity {percent}, Def: 55.0, #5
+  1900,   ! Rated Total Cooling Capacity per Unit Length {W/m}, Def: 1900, #6
+  0.3,   ! Rated Latent Heat Ratio Def: 0.3, #7
+  0.85,   ! Rated Runtime Fraction Def: 0.85, #8
+  3.0,   ! Case Length {m}, Def: 3.0, #9
+  1.1,   ! Case Operating Temperature {C}, Def: 1.1, #10
+  CaseTemperatureMethod,   ! Latent Case Credit Curve Type Def: CaseTemperatureMethod, [CaseTemperatureMethod, RelativeHumidityMethod, DewpointMethod], #11
+  ,   ! Latent Case Credit Curve Name [UnivariateFunctions], REQ, #12
+  75.0,   ! Standard Case Fan Power per Unit Length {W/m}, Def: 75.0, #13
+  75.0,   ! Operating Case Fan Power per Unit Length {W/m}, Def: 75.0, #14
+  90.0,   ! Standard Case Lighting Power per Unit Length {W/m}, Def: 90.0, #15
+  ,   ! Installed Case Lighting Power per Unit Length {W/m}, #16
+  ,   ! Case Lighting Schedule Name [ScheduleNames], #17
+  1.0,   ! Fraction of Lighting Energy to Case Def: 1.0, #18
+  0,   ! Case Anti-Sweat Heater Power per Unit Length {W/m}, Def: 0, #19
+  0,   ! Minimum Anti-Sweat Heater Power per Unit Length {W/m}, Def: 0, #20
+  None,   ! Anti-Sweat Heater Control Type Def: None, [None, Constant, Linear, DewpointMethod, HeatBalanceMethod], #21
+  -10.0,   ! Humidity at Zero Anti-Sweat Heater Energy {percent}, Def: -10.0, #22
+  1.5,   ! Case Height {m}, Def: 1.5, #23
+  1.0,   ! Fraction of Anti-Sweat Heater Energy to Case Def: 1.0, #24
+  0.0,   ! Case Defrost Power per Unit Length {W/m}, Def: 0.0, #25
+  OffCycle,   ! Case Defrost Type Def: OffCycle, [None, OffCycle, HotGas, Electric, HotFluid, HotGasWithTemperatureTermination, ElectricWithTemperatureTermination, HotFluidWithTemperatureTermination], #26
+  ,   ! Case Defrost Schedule Name [ScheduleNames], #27
+  ,   ! Case Defrost Drip-Down Schedule Name [ScheduleNames], #28
+  None,   ! Defrost Energy Correction Curve Type Def: None, [None, CaseTemperatureMethod, RelativeHumidityMethod, DewpointMethod], #29
+  ,   ! Defrost Energy Correction Curve Name [UnivariateFunctions], #30
+  0.0,   ! Under Case HVAC Return Air Fraction Def: 0.0, #31
+  ,   ! Refrigerated Case Restocking Schedule Name [ScheduleNames], #32
+  ,   ! Case Credit Fraction Schedule Name [ScheduleNames], #33
+  ,   ! Design Evaporator Temperature or Brine Inlet Temperature {C}, #34
+  0.0,   ! Average Refrigerant Charge Inventory {kg/m}, Def: 0.0, #35
+  ;   ! Under Case HVAC Return Air Node Name #36

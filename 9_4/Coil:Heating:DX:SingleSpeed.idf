@@ -1,0 +1,33 @@
+! Min Fields: 21
+Coil:Heating:DX:SingleSpeed,
+  ,   ! Name RefList: [HeatingCoilsDX, HeatingCoilsDXSingleSpeed, AFNCoilNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Gross Rated Heating Capacity {W}, AS, REQ, #3
+  ,   ! Gross Rated Heating COP {W/W}, REQ, #4
+  ,   ! Rated Air Flow Rate {m3/s}, AS, REQ, #5
+  773.3,   ! Rated Supply Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #6
+  ,   ! Air Inlet Node Name REQ, #7
+  ,   ! Air Outlet Node Name REQ, #8
+  ,   ! Heating Capacity Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], REQ, #9
+  ,   ! Heating Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #10
+  ,   ! Energy Input Ratio Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], REQ, #11
+  ,   ! Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #12
+  ,   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #13
+  ,   ! Defrost Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #14
+  -8.0,   ! Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}, Def: -8.0, #15
+  ,   ! Outdoor Dry-Bulb Temperature to Turn On Compressor {C}, #16
+  5.0,   ! Maximum Outdoor Dry-Bulb Temperature for Defrost Operation {C}, Def: 5.0, #17
+  0.0,   ! Crankcase Heater Capacity {W}, Def: 0.0, #18
+  10.0,   ! Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater Operation {C}, Def: 10.0, #19
+  ReverseCycle,   ! Defrost Strategy Def: ReverseCycle, [ReverseCycle, Resistive], #20
+  Timed,   ! Defrost Control Def: Timed, [Timed, OnDemand], #21
+  0.058333,   ! Defrost Time Period Fraction Def: 0.058333, #22
+  0.0,   ! Resistive Defrost Heater Capacity {W}, Def: 0.0, AS, #23
+  4,   ! Region number for calculating HSPF Def: 4, #24
+  ,   ! Evaporator Air Inlet Node Name #25
+  ,   ! Zone Name for Evaporator Placement #26
+  ,   ! Secondary Coil Air Flow Rate {m3/s}, AS, #27
+  1.25,   ! Secondary Coil Fan Flow Scaling Factor {m3/s}, Def: 1.25, #28
+  ,   ! Nominal Sensible Heat Ratio of Secondary Coil {m3/s}, #29
+  ,   ! Sensible Heat Ratio Modifier Function of Temperature Curve Name [BivariateFunctions], #30
+  ;   ! Sensible Heat Ratio Modifier Function of Flow Fraction Curve Name [UnivariateFunctions], #31

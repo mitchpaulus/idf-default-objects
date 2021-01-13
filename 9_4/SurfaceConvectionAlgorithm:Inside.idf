@@ -1,0 +1,2 @@
+SurfaceConvectionAlgorithm:Inside,
+  TARP;   ! Algorithm Def: TARP, [Simple, TARP, CeilingDiffuser, AdaptiveConvectionAlgorithm], #1

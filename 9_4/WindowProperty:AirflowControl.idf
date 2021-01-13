@@ -1,0 +1,10 @@
+! Min Fields: 7
+WindowProperty:AirflowControl,
+  ,   ! Name [SubSurfNames], REQ, #1
+  IndoorAir,   ! Airflow Source Def: IndoorAir, [IndoorAir, OutdoorAir], #2
+  OutdoorAir,   ! Airflow Destination Def: OutdoorAir, [IndoorAir, OutdoorAir, ReturnAir], #3
+  0.0,   ! Maximum Flow Rate {m3/s-m}, Def: 0.0, #4
+  AlwaysOnAtMaximumFlow,   ! Airflow Control Type Def: AlwaysOnAtMaximumFlow, [AlwaysOnAtMaximumFlow, AlwaysOff, ScheduledOnly], #5
+  No,   ! Airflow Is Scheduled Def: No, [Yes, No], #6
+  ,   ! Airflow Multiplier Schedule Name [ScheduleNames], #7
+  ;   ! Airflow Return Air Node Name #8

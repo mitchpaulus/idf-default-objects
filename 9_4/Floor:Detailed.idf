@@ -1,0 +1,14 @@
+! Min Fields: 18
+Floor:Detailed,
+  ,   ! Name RefList: [SurfaceNames, SurfAndSubSurfNames, AllHeatTranSurfNames, OutFaceEnvNames, AllHeatTranAngFacNames, RadiantSurfaceNames, AllShadingAndHTSurfNames, FloorSurfaceNames], REQ, #1
+  ,   ! Construction Name [ConstructionNames], REQ, #2
+  ,   ! Zone Name [ZoneNames], REQ, #3
+  ,   ! Outside Boundary Condition [Adiabatic, Surface, Zone, Outdoors, Foundation, Ground, GroundFCfactorMethod, OtherSideCoefficients, OtherSideConditionsModel, GroundSlabPreprocessorAverage, GroundSlabPreprocessorCore, GroundSlabPreprocessorPerimeter, GroundBasementPreprocessorAverageWall, GroundBasementPreprocessorAverageFloor, GroundBasementPreprocessorUpperWall, GroundBasementPreprocessorLowerWall], REQ, #4
+  ,   ! Outside Boundary Condition Object [OutFaceEnvNames], #5
+  SunExposed,   ! Sun Exposure Def: SunExposed, [SunExposed, NoSun], #6
+  WindExposed,   ! Wind Exposure Def: WindExposed, [WindExposed, NoWind], #7
+  autocalculate,   ! View Factor to Ground Def: autocalculate, AC, #8
+  autocalculate,   ! Number of Vertices Def: autocalculate, AC, #9
+  ,   ! Vertex 1 X-coordinate {m}, REQ, #10
+  ,   ! Vertex 1 Y-coordinate {m}, REQ, #11
+  ;   ! Vertex 1 Z-coordinate {m}, REQ, #12

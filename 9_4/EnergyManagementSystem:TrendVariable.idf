@@ -1,0 +1,5 @@
+! Min Fields: 3
+EnergyManagementSystem:TrendVariable,
+  ,   ! Name REQ, #1
+  ,   ! EMS Variable Name REQ, #2
+  ;   ! Number of Timesteps to be Logged REQ, #3

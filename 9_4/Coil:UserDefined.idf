@@ -1,0 +1,16 @@
+! Min Fields: 9
+Coil:UserDefined,
+  ,   ! Name RefList: [UserDefinedCoil, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Overall Model Simulation Program Calling Manager Name [ProgramNames], #2
+  ,   ! Model Setup and Sizing Program Calling Manager Name [ProgramNames], REQ, #3
+  ,   ! Number of Air Connections REQ, #4
+  ,   ! Air Connection 1 Inlet Node Name REQ, #5
+  ,   ! Air Connection 1 Outlet Node Name REQ, #6
+  ,   ! Air Connection 2 Inlet Node Name #7
+  ,   ! Air Connection 2 Outlet Node Name #8
+  ,   ! Plant Connection is Used [Yes, No], #9
+  ,   ! Plant Connection Inlet Node Name #10
+  ,   ! Plant Connection Outlet Node Name #11
+  ,   ! Supply Inlet Water Storage Tank Name [WaterStorageTankNames], #12
+  ,   ! Collection Outlet Water Storage Tank Name [WaterStorageTankNames], #13
+  ;   ! Ambient Zone Name [ZoneNames], #14

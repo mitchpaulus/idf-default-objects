@@ -1,0 +1,14 @@
+! Min Fields: 12
+ZoneInfiltration:DesignFlowRate,
+  ,   ! Name REQ, #1
+  ,   ! Zone or ZoneList Name [ZoneAndZoneListNames], REQ, #2
+  ,   ! Schedule Name [ScheduleNames], REQ, #3
+  Flow/Zone,   ! Design Flow Rate Calculation Method Def: Flow/Zone, [Flow/Zone, Flow/Area, Flow/ExteriorArea, Flow/ExteriorWallArea, AirChanges/Hour], #4
+  ,   ! Design Flow Rate {m3/s}, #5
+  ,   ! Flow per Zone Floor Area {m3/s-m2}, #6
+  ,   ! Flow per Exterior Surface Area {m3/s-m2}, #7
+  ,   ! Air Changes per Hour {1/hr}, #8
+  1,   ! Constant Term Coefficient Def: 1, #9
+  0,   ! Temperature Term Coefficient Def: 0, #10
+  0,   ! Velocity Term Coefficient Def: 0, #11
+  0;   ! Velocity Squared Term Coefficient Def: 0, #12

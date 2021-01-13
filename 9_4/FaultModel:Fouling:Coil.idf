@@ -1,0 +1,12 @@
+! Min Fields: 6
+FaultModel:Fouling:Coil,
+  ,   ! Name REQ, #1
+  ,   ! Coil Name [SimpleCoils], REQ, #2
+  ,   ! Availability Schedule Name [ScheduleNames], #3
+  ,   ! Severity Schedule Name [ScheduleNames], #4
+  FouledUARated,   ! Fouling Input Method Def: FouledUARated, [FouledUARated, FoulingFactor], #5
+  ,   ! UAFouled {W/K}, #6
+  0.0,   ! Water Side Fouling Factor {m2-K/W}, Def: 0.0, #7
+  0.0,   ! Air Side Fouling Factor {m2-K/W}, Def: 0.0, #8
+  ,   ! Outside Coil Surface Area {m2}, #9
+  0.07;   ! Inside to Outside Coil Surface Area Ratio {dimensionless}, Def: 0.07, #10

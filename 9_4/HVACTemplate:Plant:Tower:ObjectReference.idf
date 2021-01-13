@@ -1,0 +1,7 @@
+! Min Fields: 4
+HVACTemplate:Plant:Tower:ObjectReference,
+  ,   ! Name REQ, #1
+  CoolingTower:SingleSpeed,   ! Cooling Tower Object Type Def: CoolingTower:SingleSpeed, [CoolingTower:SingleSpeed, CoolingTower:TwoSpeed, CoolingTower:VariableSpeed], #2
+  ,   ! Cooling Tower Name [CoolingTowers], REQ, #3
+  ,   ! Priority #4
+  ;   ! Template Plant Loop Type [ChilledWater, MixedWater], #5

@@ -1,0 +1,25 @@
+Site:GroundDomain:Basement,
+  ,   ! Name REQ, #1
+  10,   ! Ground Domain Depth {m}, Def: 10, #2
+  1,   ! Aspect Ratio Def: 1, #3
+  5,   ! Perimeter Offset {m}, Def: 5, #4
+  1.5,   ! Soil Thermal Conductivity {W/m-K}, Def: 1.5, #5
+  2800,   ! Soil Density {kg/m3}, Def: 2800, #6
+  850,   ! Soil Specific Heat {J/kg-K}, Def: 850, #7
+  30,   ! Soil Moisture Content Volume Fraction {percent}, Def: 30, #8
+  50,   ! Soil Moisture Content Volume Fraction at Saturation {percent}, Def: 50, #9
+  ,   ! Undisturbed Ground Temperature Model Type [Site:GroundTemperature:Undisturbed:FiniteDifference, Site:GroundTemperature:Undisturbed:KusudaAchenbach, Site:GroundTemperature:Undisturbed:Xing], REQ, #10
+  ,   ! Undisturbed Ground Temperature Model Name [UndisturbedGroundTempModels], REQ, #11
+  0.4,   ! Evapotranspiration Ground Cover Parameter Def: 0.4, #12
+  ,   ! Basement Floor Boundary Condition Model Name [OSCMNames], REQ, #13
+  No,   ! Horizontal Insulation Def: No, [Yes, No], #14
+  ,   ! Horizontal Insulation Material Name [MaterialName], #15
+  Full,   ! Horizontal Insulation Extents Def: Full, [Perimeter, Full], #16
+  ,   ! Perimeter Horizontal Insulation Width {m}, #17
+  ,   ! Basement Wall Depth {m}, #18
+  ,   ! Basement Wall Boundary Condition Model Name [OSCMNames], REQ, #19
+  No,   ! Vertical Insulation Def: No, [Yes, No], #20
+  ,   ! Basement Wall Vertical Insulation Material Name [MaterialName], #21
+  ,   ! Vertical Insulation Depth {m}, #22
+  Hourly,   ! Simulation Timestep Def: Hourly, [Timestep, Hourly], #23
+  4;   ! Mesh Density Parameter Def: 4, #24

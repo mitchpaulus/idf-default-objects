@@ -1,0 +1,21 @@
+! Min Fields: 18
+ZoneHVAC:OutdoorAirUnit,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], REQ, #3
+  ,   ! Outdoor Air Flow Rate {m3/s}, AS, REQ, #4
+  ,   ! Outdoor Air Schedule Name [ScheduleNames], REQ, #5
+  ,   ! Supply Fan Name [FansCVandVAV, FansSystemModel], REQ, #6
+  DrawThrough,   ! Supply Fan Placement Def: DrawThrough, [BlowThrough, DrawThrough], #7
+  ,   ! Exhaust Fan Name [FansCVandVAV, FansSystemModel], #8
+  ,   ! Exhaust Air Flow Rate {m3/s}, AS, #9
+  ,   ! Exhaust Air Schedule Name [ScheduleNames], #10
+  NeutralControl,   ! Unit Control Type Def: NeutralControl, [NeutralControl, TemperatureControl], #11
+  ,   ! High Air Control Temperature Schedule Name [ScheduleNames], #12
+  ,   ! Low Air Control Temperature Schedule Name [ScheduleNames], #13
+  ,   ! Outdoor Air Node Name REQ, #14
+  ,   ! AirOutlet Node Name REQ, #15
+  ,   ! AirInlet Node Name #16
+  ,   ! Supply FanOutlet Node Name REQ, #17
+  ,   ! Outdoor Air Unit List Name [OutdoorAirUnitEquipmentLists], REQ, #18
+  ;   ! Availability Manager List Name [SystemAvailabilityManagerLists], #19

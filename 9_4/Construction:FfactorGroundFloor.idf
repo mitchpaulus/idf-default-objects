@@ -1,0 +1,5 @@
+Construction:FfactorGroundFloor,
+  ,   ! Name RefList: [ConstructionNames], REQ, #1
+  ,   ! F-Factor {W/m-K}, REQ, #2
+  ,   ! Area {m2}, REQ, #3
+  ;   ! PerimeterExposed {m}, REQ, #4

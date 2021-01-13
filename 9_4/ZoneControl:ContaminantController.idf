@@ -1,0 +1,10 @@
+! Min Fields: 4
+ZoneControl:ContaminantController,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Carbon Dioxide Control Availability Schedule Name [ScheduleNames], #3
+  ,   ! Carbon Dioxide Setpoint Schedule Name [ScheduleNames], #4
+  ,   ! Minimum Carbon Dioxide Concentration Schedule Name [ScheduleNames], #5
+  ,   ! Maximum Carbon Dioxide Concentration Schedule Name [ScheduleNames], #6
+  ,   ! Generic Contaminant Control Availability Schedule Name [ScheduleNames], #7
+  ;   ! Generic Contaminant Setpoint Schedule Name [ScheduleNames], #8

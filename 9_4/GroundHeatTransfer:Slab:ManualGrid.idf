@@ -1,0 +1,6 @@
+GroundHeatTransfer:Slab:ManualGrid,
+  ,   ! NX: Number of cells in the X direction REQ, #1
+  ,   ! NY: Number of cells in the Y direction REQ, #2
+  ,   ! NZ: Number of cells in the Z direction REQ, #3
+  ,   ! IBOX: X direction cell indicator of slab edge REQ, #4
+  ;   ! JBOX: Y direction cell indicator of slab edge REQ, #5

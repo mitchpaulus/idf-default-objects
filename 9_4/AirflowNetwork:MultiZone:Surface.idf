@@ -1,0 +1,17 @@
+! Min Fields: 4
+AirflowNetwork:MultiZone:Surface,
+  ,   ! Surface Name [SurfAndSubSurfNames], REQ, #1
+  ,   ! Leakage Component Name [SurfaceAirflowLeakageNames], REQ, #2
+  ,   ! External Node Name [ExternalNodeNames, OutdoorAirNodeNames], #3
+  1.0,   ! Window/Door Opening Factor, or Crack Factor {dimensionless}, Def: 1.0, #4
+  ZoneLevel,   ! Ventilation Control Mode Def: ZoneLevel, [Temperature, Enthalpy, Constant, ASHRAE55Adaptive, CEN15251Adaptive, NoVent, ZoneLevel, AdjacentTemperature, AdjacentEnthalpy], #5
+  ,   ! Ventilation Control Zone Temperature Setpoint Schedule Name [ScheduleNames], #6
+  0.0,   ! Minimum Venting Open Factor {dimensionless}, Def: 0.0, #7
+  0.0,   ! Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}, Def: 0.0, #8
+  100.0,   ! Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}, Def: 100.0, #9
+  0.0,   ! Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}, Def: 0.0, #10
+  300000.0,   ! Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}, Def: 300000.0, #11
+  ,   ! Venting Availability Schedule Name [ScheduleNames], #12
+  ,   ! Occupant Ventilation Control Name [AirflowNetworkOccupantVentilationControlNames], #13
+  PolygonHeight,   ! Equivalent Rectangle Method Def: PolygonHeight, [PolygonHeight, BaseSurfaceAspectRatio, UserDefinedAspectRatio], #14
+  1.0;   ! Equivalent Rectangle Aspect Ratio {dimensionless}, Def: 1.0, #15

@@ -1,0 +1,12 @@
+! Min Fields: 9
+HVACTemplate:Plant:Tower,
+  ,   ! Name REQ, #1
+  ,   ! Tower Type [SingleSpeed, TwoSpeed], REQ, #2
+  autosize,   ! High Speed Nominal Capacity {W}, Def: autosize, AS, #3
+  autosize,   ! High Speed Fan Power {W}, Def: autosize, AS, #4
+  autosize,   ! Low Speed Nominal Capacity {W}, Def: autosize, AS, #5
+  autosize,   ! Low Speed Fan Power {W}, Def: autosize, AS, #6
+  autosize,   ! Free Convection Capacity {W}, Def: autosize, AS, #7
+  ,   ! Priority #8
+  1.0,   ! Sizing Factor Def: 1.0, #9
+  ;   ! Template Plant Loop Type [ChilledWater, MixedWater], #10

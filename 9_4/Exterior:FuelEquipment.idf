@@ -1,0 +1,6 @@
+Exterior:FuelEquipment,
+  ,   ! Name REQ, #1
+  ,   ! Fuel Use Type [Electricity, Water, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Diesel, Gasoline, Coal, OtherFuel1, OtherFuel2, Steam, DistrictHeating, DistrictCooling], REQ, #2
+  ,   ! Schedule Name [ScheduleNames], REQ, #3
+  ,   ! Design Level {W}, REQ, #4
+  General;   ! End-Use Subcategory Def: General, #5

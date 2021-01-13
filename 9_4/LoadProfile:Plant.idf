@@ -1,0 +1,7 @@
+LoadProfile:Plant,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Inlet Node Name REQ, #2
+  ,   ! Outlet Node Name REQ, #3
+  ,   ! Load Schedule Name [ScheduleNames], REQ, #4
+  ,   ! Peak Flow Rate {m3/s}, REQ, #5
+  ;   ! Flow Rate Fraction Schedule Name [ScheduleNames], REQ, #6

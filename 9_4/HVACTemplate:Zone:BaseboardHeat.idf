@@ -1,0 +1,15 @@
+! Min Fields: 11
+HVACTemplate:Zone:BaseboardHeat,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Template Thermostat Name [CompactHVACThermostats], #2
+  ,   ! Zone Heating Sizing Factor #3
+  HotWater,   ! Baseboard Heating Type Def: HotWater, [HotWater, Electric], #4
+  ,   ! Baseboard Heating Availability Schedule Name [ScheduleNames], #5
+  autosize,   ! Baseboard Heating Capacity {W}, Def: autosize, AS, #6
+  ,   ! Dedicated Outdoor Air System Name [HVACTemplateDOASSystems], #7
+  Flow/Person,   ! Outdoor Air Method Def: Flow/Person, [Flow/Person, Flow/Zone, Flow/Area, Sum, Maximum, DetailedSpecification], #8
+  0.00944,   ! Outdoor Air Flow Rate per Person {m3/s}, Def: 0.00944, #9
+  0.0,   ! Outdoor Air Flow Rate per Zone Floor Area {m3/s-m2}, Def: 0.0, #10
+  0.0,   ! Outdoor Air Flow Rate per Zone {m3/s}, Def: 0.0, #11
+  ,   ! Design Specification Outdoor Air Object name [DesignSpecificationOutdoorAirNames], #12
+  ;   ! Design Specification Zone Air Distribution Object Name [DesignSpecificationZoneAirDistributionNames], #13

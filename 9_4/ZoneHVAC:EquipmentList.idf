@@ -1,0 +1,10 @@
+! Min Fields: 8
+ZoneHVAC:EquipmentList,
+  ,   ! Name RefList: [ZoneEquipmentLists], REQ, #1
+  SequentialLoad,   ! Load Distribution Scheme Def: SequentialLoad, [SequentialLoad, UniformLoad, UniformPLR, SequentialUniformPLR], #2
+  ,   ! Zone Equipment 1 Object Type [ZoneHVAC:TerminalUnit:VariableRefrigerantFlow, ZoneHVAC:AirDistributionUnit, ZoneHVAC:EnergyRecoveryVentilator, ZoneHVAC:EvaporativeCoolerUnit, ZoneHVAC:HybridUnitaryHVAC, ZoneHVAC:ForcedAir:UserDefined, ZoneHVAC:FourPipeFanCoil, ZoneHVAC:OutdoorAirUnit, ZoneHVAC:PackagedTerminalAirConditioner, ZoneHVAC:PackagedTerminalHeatPump, ZoneHVAC:UnitHeater, ZoneHVAC:UnitVentilator, ZoneHVAC:VentilatedSlab, ZoneHVAC:WaterToAirHeatPump, ZoneHVAC:WindowAirConditioner, ZoneHVAC:Baseboard:RadiantConvective:Electric, ZoneHVAC:Baseboard:RadiantConvective:Water, ZoneHVAC:Baseboard:RadiantConvective:Steam, ZoneHVAC:CoolingPanel:RadiantConvective:Water, ZoneHVAC:Baseboard:Convective:Electric, ZoneHVAC:Baseboard:Convective:Water, ZoneHVAC:HighTemperatureRadiant, ZoneHVAC:LowTemperatureRadiant:VariableFlow, ZoneHVAC:LowTemperatureRadiant:ConstantFlow, ZoneHVAC:LowTemperatureRadiant:Electric, ZoneHVAC:Dehumidifier:DX, ZoneHVAC:IdealLoadsAirSystem, ZoneHVAC:RefrigerationChillerSet, Fan:ZoneExhaust, WaterHeater:HeatPump:PumpedCondenser, WaterHeater:HeatPump:WrappedCondenser, HeatExchanger:AirToAir:FlatPlate, AirLoopHVAC:UnitarySystem], REQ, #3
+  ,   ! Zone Equipment 1 Name [ZoneEquipmentNames], REQ, #4
+  ,   ! Zone Equipment 1 Cooling Sequence REQ, #5
+  ,   ! Zone Equipment 1 Heating or No-Load Sequence REQ, #6
+  ,   ! Zone Equipment 1 Sequential Cooling Fraction Schedule Name [ScheduleNames], #7
+  ;   ! Zone Equipment 1 Sequential Heating Fraction Schedule Name [ScheduleNames], #8

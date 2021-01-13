@@ -1,0 +1,5 @@
+! Min Fields: 3
+SurfaceProperty:HeatBalanceSourceTerm,
+  ,   ! Surface Name [SurfaceNames], REQ, #1
+  ,   ! Inside Face Heat Source Term Schedule Name [ScheduleNames], #2
+  ;   ! Outside Face Heat Source Term Schedule Name [ScheduleNames], #3

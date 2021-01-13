@@ -1,0 +1,43 @@
+ComfortViewFactorAngles,
+  ,   ! Name RefList: [AllHeatTranAngFacNames], #1
+  ,   ! Zone Name [ZoneNames], #2
+  ,   ! Surface 1 Name [AllHeatTranSurfNames], #3
+  ,   ! Angle Factor 1 #4
+  ,   ! Surface 2 Name [AllHeatTranSurfNames], #5
+  ,   ! Angle Factor 2 #6
+  ,   ! Surface 3 Name [AllHeatTranSurfNames], #7
+  ,   ! Angle Factor 3 #8
+  ,   ! Surface 4 Name [AllHeatTranSurfNames], #9
+  ,   ! Angle Factor 4 #10
+  ,   ! Surface 5 Name [AllHeatTranSurfNames], #11
+  ,   ! Angle Factor 5 #12
+  ,   ! Surface 6 Name [AllHeatTranSurfNames], #13
+  ,   ! Angle Factor 6 #14
+  ,   ! Surface 7 Name [AllHeatTranSurfNames], #15
+  ,   ! Angle Factor 7 #16
+  ,   ! Surface 8 Name [AllHeatTranSurfNames], #17
+  ,   ! Angle Factor 8 #18
+  ,   ! Surface 9 Name [AllHeatTranSurfNames], #19
+  ,   ! Angle Factor 9 #20
+  ,   ! Surface 10 Name [AllHeatTranSurfNames], #21
+  ,   ! Angle Factor 10 #22
+  ,   ! Surface 11 Name [AllHeatTranSurfNames], #23
+  ,   ! Angle Factor 11 #24
+  ,   ! Surface 12 Name [AllHeatTranSurfNames], #25
+  ,   ! Angle Factor 12 #26
+  ,   ! Surface 13 Name [AllHeatTranSurfNames], #27
+  ,   ! Angle Factor 13 #28
+  ,   ! Surface 14 Name [AllHeatTranSurfNames], #29
+  ,   ! Angle Factor 14 #30
+  ,   ! Surface 15 Name [AllHeatTranSurfNames], #31
+  ,   ! Angle Factor 15 #32
+  ,   ! Surface 16 Name [AllHeatTranSurfNames], #33
+  ,   ! Angle Factor 16 #34
+  ,   ! Surface 17 Name [AllHeatTranSurfNames], #35
+  ,   ! Angle Factor 17 #36
+  ,   ! Surface 18 Name [AllHeatTranSurfNames], #37
+  ,   ! Angle Factor 18 #38
+  ,   ! Surface 19 Name [AllHeatTranSurfNames], #39
+  ,   ! Angle Factor 19 #40
+  ,   ! Surface 20 Name [AllHeatTranSurfNames], #41
+  ;   ! Angle Factor 20 #42

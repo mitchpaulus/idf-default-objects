@@ -1,0 +1,9 @@
+Generator:FuelCell:ElectricalStorage,
+  ,   ! Name RefList: [FCStorageNames], REQ, #1
+  ,   ! Choice of Model [SimpleEfficiencyWithConstraints], #2
+  ,   ! Nominal Charging Energetic Efficiency #3
+  ,   ! Nominal Discharging Energetic Efficiency #4
+  ,   ! Simple Maximum Capacity {J}, #5
+  ,   ! Simple Maximum Power Draw {W}, #6
+  ,   ! Simple Maximum Power Store {W}, #7
+  ;   ! Initial Charge State {J}, #8

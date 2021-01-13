@@ -1,0 +1,7 @@
+! Min Fields: 5
+CoilSystem:Cooling:Water:HeatExchangerAssisted,
+  ,   ! Name RefList: [CoolingCoilsWater, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Heat Exchanger Object Type [HeatExchanger:AirToAir:FlatPlate, HeatExchanger:AirToAir:SensibleAndLatent], REQ, #2
+  ,   ! Heat Exchanger Name REQ, #3
+  ,   ! Cooling Coil Object Type [Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry], REQ, #4
+  ;   ! Cooling Coil Name [CoolingCoilsWaterNoHX], REQ, #5

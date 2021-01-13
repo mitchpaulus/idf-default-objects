@@ -1,0 +1,33 @@
+! Min Fields: 4
+PlantEquipmentOperation:HeatingLoad,
+  ,   ! Name RefList: [ControlSchemeList], REQ, #1
+  ,   ! Load Range 1 Lower Limit {W}, REQ, #2
+  ,   ! Load Range 1 Upper Limit {W}, REQ, #3
+  ,   ! Range 1 Equipment List Name [PlantAndCondenserEquipmentLists], REQ, #4
+  ,   ! Load Range 2 Lower Limit {W}, #5
+  ,   ! Load Range 2 Upper Limit {W}, #6
+  ,   ! Range 2 Equipment List Name [PlantAndCondenserEquipmentLists], #7
+  ,   ! Load Range 3 Lower Limit {W}, #8
+  ,   ! Load Range 3 Upper Limit {W}, #9
+  ,   ! Range 3 Equipment List Name [PlantAndCondenserEquipmentLists], #10
+  ,   ! Load Range 4 Lower Limit {W}, #11
+  ,   ! Load Range 4 Upper Limit {W}, #12
+  ,   ! Range 4 Equipment List Name [PlantAndCondenserEquipmentLists], #13
+  ,   ! Load Range 5 Lower Limit {W}, #14
+  ,   ! Load Range 5 Upper Limit {W}, #15
+  ,   ! Range 5 Equipment List Name [PlantAndCondenserEquipmentLists], #16
+  ,   ! Load Range 6 Lower Limit {W}, #17
+  ,   ! Load Range 6 Upper Limit {W}, #18
+  ,   ! Range 6 Equipment List Name [PlantAndCondenserEquipmentLists], #19
+  ,   ! Load Range 7 Lower Limit {W}, #20
+  ,   ! Load Range 7 Upper Limit {W}, #21
+  ,   ! Range 7 Equipment List Name [PlantAndCondenserEquipmentLists], #22
+  ,   ! Load Range 8 Lower Limit {W}, #23
+  ,   ! Load Range 8 Upper Limit {W}, #24
+  ,   ! Range 8 Equipment List Name [PlantAndCondenserEquipmentLists], #25
+  ,   ! Load Range 9 Lower Limit {W}, #26
+  ,   ! Load Range 9 Upper Limit {W}, #27
+  ,   ! Range 9 Equipment List Name [PlantAndCondenserEquipmentLists], #28
+  ,   ! Load Range 10 Lower Limit {W}, #29
+  ,   ! Load Range 10 Upper Limit {W}, #30
+  ;   ! Range 10 Equipment List Name [PlantAndCondenserEquipmentLists], #31

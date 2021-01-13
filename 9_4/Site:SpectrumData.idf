@@ -1,0 +1,10 @@
+! Min Fields: 8
+Site:SpectrumData,
+  ,   ! Name RefList: [SpectrumDataNames], REQ, #1
+  ,   ! Spectrum Data Type [Solar, Visible], REQ, #2
+  ,   ! Wavelength {micron}, #3
+  ,   ! Spectrum #4
+  ,   ! Wavelength {micron}, #5
+  ,   ! Spectrum #6
+  ,   ! Wavelength {micron}, #7
+  ;   ! Spectrum #8

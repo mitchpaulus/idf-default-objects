@@ -1,0 +1,7 @@
+! Min Fields: 5
+Daylighting:DELight:ComplexFenestration,
+  ,   ! Name REQ, #1
+  ,   ! Complex Fenestration Type REQ, #2
+  ,   ! Building Surface Name [SurfaceNames], REQ, #3
+  ,   ! Window Name [SubSurfNames], REQ, #4
+  0.0;   ! Fenestration Rotation {deg}, Def: 0.0, #5

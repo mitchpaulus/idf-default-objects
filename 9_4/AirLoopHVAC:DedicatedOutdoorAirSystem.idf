@@ -1,0 +1,13 @@
+! Min Fields: 11
+AirLoopHVAC:DedicatedOutdoorAirSystem,
+  ,   ! Name RefList: [DOASAirLoops], REQ, #1
+  ,   ! AirLoopHVAC:OutdoorAirSystem Name [validBranchEquipmentNames], #2
+  ,   ! Availability Schedule Name [ScheduleNames], #3
+  ,   ! AirLoopHVAC:Mixer Name [AirLoopHVACMixerNames], REQ, #4
+  ,   ! AirLoopHVAC:Splitter Name [AirLoopHVACSplitterNames], REQ, #5
+  ,   ! Preheat Design Temperature {C}, REQ, #6
+  ,   ! Preheat Design Humidity Ratio {kgWater/kgDryAir}, REQ, #7
+  ,   ! Precool Design Temperature {C}, REQ, #8
+  ,   ! Precool Design Humidity Ratio {kgWater/kgDryAir}, REQ, #9
+  ,   ! Number of AirLoopHVAC REQ, #10
+  ;   ! AirLoopHVAC 1 Name [AirPrimaryLoops], #11

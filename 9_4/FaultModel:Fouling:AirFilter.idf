@@ -1,0 +1,8 @@
+! Min Fields: 6
+FaultModel:Fouling:AirFilter,
+  ,   ! Name REQ, #1
+  ,   ! Fan Object Type [Fan:OnOff, Fan:ConstantVolume, Fan:VariableVolume], REQ, #2
+  ,   ! Fan Name [FansCVandOnOffandVAV, FansSystemModel], REQ, #3
+  ,   ! Availability Schedule Name [ScheduleNames], #4
+  ,   ! Pressure Fraction Schedule Name [ScheduleNames], REQ, #5
+  ;   ! Fan Curve Name [UnivariateFunctions], REQ, #6

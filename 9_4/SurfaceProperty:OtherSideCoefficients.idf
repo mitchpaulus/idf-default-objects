@@ -1,0 +1,16 @@
+! Min Fields: 8
+SurfaceProperty:OtherSideCoefficients,
+  ,   ! Name RefList: [OutFaceEnvNames], REQ, #1
+  ,   ! Combined Convective/Radiative Film Coefficient {W/m2-K}, REQ, #2
+  0,   ! Constant Temperature {C}, Def: 0, #3
+  1,   ! Constant Temperature Coefficient Def: 1, #4
+  0,   ! External Dry-Bulb Temperature Coefficient Def: 0, #5
+  0,   ! Ground Temperature Coefficient Def: 0, #6
+  0,   ! Wind Speed Coefficient Def: 0, #7
+  0,   ! Zone Air Temperature Coefficient Def: 0, #8
+  ,   ! Constant Temperature Schedule Name [ScheduleNames], #9
+  No,   ! Sinusoidal Variation of Constant Temperature Coefficient Def: No, [Yes, No], #10
+  24,   ! Period of Sinusoidal Variation {hr}, Def: 24, #11
+  0,   ! Previous Other Side Temperature Coefficient Def: 0, #12
+  ,   ! Minimum Other Side Temperature Limit {C}, #13
+  ;   ! Maximum Other Side Temperature Limit {C}, #14

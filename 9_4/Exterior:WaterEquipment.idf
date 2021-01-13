@@ -1,0 +1,6 @@
+Exterior:WaterEquipment,
+  ,   ! Name REQ, #1
+  Water,   ! Fuel Use Type Def: Water, [Water], #2
+  ,   ! Schedule Name [ScheduleNames], REQ, #3
+  ,   ! Design Level {m3/s}, REQ, #4
+  General;   ! End-Use Subcategory Def: General, #5

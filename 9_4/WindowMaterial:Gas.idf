@@ -1,0 +1,16 @@
+! Min Fields: 3
+WindowMaterial:Gas,
+  ,   ! Name RefList: [MaterialName, WindowGasAndGasMixtures], REQ, #1
+  ,   ! Gas Type [Air, Argon, Krypton, Xenon, Custom], REQ, #2
+  ,   ! Thickness {m}, REQ, #3
+  ,   ! Conductivity Coefficient A {W/m-K}, #4
+  ,   ! Conductivity Coefficient B {W/m-K2}, #5
+  ,   ! Conductivity Coefficient C {W/m-K3}, #6
+  ,   ! Viscosity Coefficient A {kg/m-s}, #7
+  ,   ! Viscosity Coefficient B {kg/m-s-K}, #8
+  ,   ! Viscosity Coefficient C {kg/m-s-K2}, #9
+  ,   ! Specific Heat Coefficient A {J/kg-K}, #10
+  ,   ! Specific Heat Coefficient B {J/kg-K2}, #11
+  ,   ! Specific Heat Coefficient C {J/kg-K3}, #12
+  ,   ! Molecular Weight {g/mol}, #13
+  ;   ! Specific Heat Ratio #14

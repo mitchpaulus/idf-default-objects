@@ -1,0 +1,5 @@
+! Min Fields: 3
+SurfaceProperty:HeatTransferAlgorithm:MultipleSurface,
+  ,   ! Name REQ, #1
+  ,   ! Surface Type [AllExteriorSurfaces, AllExteriorWalls, AllExteriorRoofs, AllExteriorFloors, AllGroundContactSurfaces, AllInteriorSurfaces, AllInteriorWalls, AllInteriorCeilings, AllInteriorFloors], REQ, #2
+  ConductionTransferFunction;   ! Algorithm Def: ConductionTransferFunction, [ConductionTransferFunction, MoisturePenetrationDepthConductionTransferFunction, ConductionFiniteDifference, CombinedHeatAndMoistureFiniteElement], #3

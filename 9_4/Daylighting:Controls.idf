@@ -1,0 +1,18 @@
+! Min Fields: 16
+Daylighting:Controls,
+  ,   ! Name RefList: [DaylightingControlNames], REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  SplitFlux,   ! Daylighting Method Def: SplitFlux, [SplitFlux, DElight], #3
+  ,   ! Availability Schedule Name [ScheduleNames], #4
+  Continuous,   ! Lighting Control Type Def: Continuous, [Continuous, Stepped, ContinuousOff], #5
+  0.3,   ! Minimum Input Power Fraction for Continuous or ContinuousOff Dimming Control Def: 0.3, #6
+  0.2,   ! Minimum Light Output Fraction for Continuous or ContinuousOff Dimming Control Def: 0.2, #7
+  1,   ! Number of Stepped Control Steps Def: 1, #8
+  1.0,   ! Probability Lighting will be Reset When Needed in Manual Stepped Control Def: 1.0, #9
+  ,   ! Glare Calculation Daylighting Reference Point Name [DaylightReferencePointNames], #10
+  0,   ! Glare Calculation Azimuth Angle of View Direction Clockwise from Zone y-Axis {deg}, Def: 0, #11
+  22,   ! Maximum Allowable Discomfort Glare Index Def: 22, #12
+  ,   ! DElight Gridding Resolution {m2}, #13
+  ,   ! Daylighting Reference Point 1 Name [DaylightReferencePointNames], REQ, #14
+  1.0,   ! Fraction of Zone Controlled by Reference Point 1 Def: 1.0, #15
+  500;   ! Illuminance Setpoint at Reference Point 1 {lux}, Def: 500, #16

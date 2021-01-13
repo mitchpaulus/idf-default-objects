@@ -1,0 +1,5 @@
+! Min Fields: 3
+AirflowNetwork:Distribution:Component:Leak,
+  ,   ! Name RefList: [AirflowNetworkComponentNames], REQ, #1
+  ,   ! Air Mass Flow Coefficient {kg/s}, REQ, #2
+  0.65;   ! Air Mass Flow Exponent {dimensionless}, Def: 0.65, #3

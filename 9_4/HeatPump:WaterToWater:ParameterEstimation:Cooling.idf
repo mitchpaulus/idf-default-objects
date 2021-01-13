@@ -1,0 +1,24 @@
+! Min Fields: 20
+HeatPump:WaterToWater:ParameterEstimation:Cooling,
+  ,   ! Name RefList: [validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Source Side Inlet Node Name REQ, #2
+  ,   ! Source Side Outlet Node Name REQ, #3
+  ,   ! Load Side Inlet Node Name REQ, #4
+  ,   ! Load Side Outlet Node Name REQ, #5
+  ,   ! Nominal COP {W/W}, #6
+  ,   ! Nominal Capacity {W}, #7
+  ,   ! Minimum Part Load Ratio #8
+  ,   ! Maximum Part Load Ratio #9
+  ,   ! Optimum Part Load Ratio #10
+  ,   ! Load Side Flow Rate {m3/s}, #11
+  ,   ! Source Side Flow Rate {m3/s}, #12
+  ,   ! Load Side Heat Transfer Coefficient {W/K}, #13
+  ,   ! Source Side Heat Transfer Coefficient {W/K}, #14
+  ,   ! Piston Displacement {m3/s}, #15
+  ,   ! Compressor Clearance Factor #16
+  ,   ! Compressor Suction and Discharge Pressure Drop {Pa}, #17
+  ,   ! Superheating {C}, #18
+  ,   ! Constant Part of Electromechanical Power Losses {W}, #19
+  ,   ! Loss Factor #20
+  500000000,   ! High Pressure Cut Off {Pa}, Def: 500000000, #21
+  0.0;   ! Low Pressure Cut Off {Pa}, Def: 0.0, #22

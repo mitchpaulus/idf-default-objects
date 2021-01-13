@@ -1,0 +1,41 @@
+! Min Fields: 32
+WaterHeater:HeatPump:PumpedCondenser,
+  ,   ! Name RefList: [validPlantEquipmentNames, validBranchEquipmentNames, ZoneEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Compressor Setpoint Temperature Schedule Name [ScheduleNames], REQ, #3
+  5.0,   ! Dead Band Temperature Difference {deltaC}, Def: 5.0, #4
+  ,   ! Condenser Water Inlet Node Name REQ, #5
+  ,   ! Condenser Water Outlet Node Name REQ, #6
+  ,   ! Condenser Water Flow Rate {m3/s}, AC, #7
+  ,   ! Evaporator Air Flow Rate {m3/s}, AC, #8
+  ,   ! Inlet Air Configuration [Schedule, ZoneAirOnly, OutdoorAirOnly, ZoneAndOutdoorAir], REQ, #9
+  ,   ! Air Inlet Node Name #10
+  ,   ! Air Outlet Node Name #11
+  ,   ! Outdoor Air Node Name #12
+  ,   ! Exhaust Air Node Name #13
+  ,   ! Inlet Air Temperature Schedule Name [ScheduleNames], #14
+  ,   ! Inlet Air Humidity Schedule Name [ScheduleNames], #15
+  ,   ! Inlet Air Zone Name [ZoneNames], #16
+  WaterHeater:Mixed,   ! Tank Object Type Def: WaterHeater:Mixed, [WaterHeater:Mixed, WaterHeater:Stratified], #17
+  ,   ! Tank Name [WaterHeaterNames], REQ, #18
+  ,   ! Tank Use Side Inlet Node Name #19
+  ,   ! Tank Use Side Outlet Node Name #20
+  Coil:WaterHeating:AirToWaterHeatPump:Pumped,   ! DX Coil Object Type Def: Coil:WaterHeating:AirToWaterHeatPump:Pumped, [Coil:WaterHeating:AirToWaterHeatPump:Pumped, Coil:WaterHeating:AirToWaterHeatPump:VariableSpeed, CoilSystem:IntegratedHeatPump:AirSource], #21
+  ,   ! DX Coil Name [HeatPumpWaterHeaterDXCoilsPumped, HeatPumpWaterHeaterDXCoilsVariableSpeed, IntegratedHeatPumps], REQ, #22
+  10,   ! Minimum Inlet Air Temperature for Compressor Operation {C}, Def: 10, #23
+  48.88888888889,   ! Maximum Inlet Air Temperature for Compressor Operation {C}, Def: 48.88888888889, #24
+  ,   ! Compressor Location [Schedule, Zone, Outdoors], REQ, #25
+  ,   ! Compressor Ambient Temperature Schedule Name [ScheduleNames], #26
+  Fan:OnOff,   ! Fan Object Type Def: Fan:OnOff, [Fan:SystemModel, Fan:OnOff], #27
+  ,   ! Fan Name [FansOnOff, FansSystemModel], REQ, #28
+  DrawThrough,   ! Fan Placement Def: DrawThrough, [BlowThrough, DrawThrough], #29
+  0.0,   ! On Cycle Parasitic Electric Load {W}, Def: 0.0, #30
+  0.0,   ! Off Cycle Parasitic Electric Load {W}, Def: 0.0, #31
+  Outdoors,   ! Parasitic Heat Rejection Location Def: Outdoors, [Zone, Outdoors], #32
+  ,   ! Inlet Air Mixer Node Name #33
+  ,   ! Outlet Air Splitter Node Name #34
+  ,   ! Inlet Air Mixer Schedule Name [ScheduleNames], #35
+  Simultaneous,   ! Tank Element Control Logic Def: Simultaneous, [MutuallyExclusive, Simultaneous], #36
+  ,   ! Control Sensor 1 Height In Stratified Tank {m}, #37
+  1.0,   ! Control Sensor 1 Weight {dimensionless}, Def: 1.0, #38
+  ;   ! Control Sensor 2 Height In Stratified Tank {m}, #39

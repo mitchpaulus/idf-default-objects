@@ -1,0 +1,15 @@
+AvailabilityManager:OptimumStart,
+  ,   ! Name RefList: [SystemAvailabilityManagers], REQ, #1
+  ,   ! Applicability Schedule Name [ScheduleNames], REQ, #2
+  ,   ! Fan Schedule Name [ScheduleNames], REQ, #3
+  ControlZone,   ! Control Type Def: ControlZone, [StayOff, ControlZone, MaximumofZoneList], #4
+  ,   ! Control Zone Name [ZoneNames], #5
+  ,   ! Zone List Name [ZoneListNames], #6
+  6,   ! Maximum Value for Optimum Start Time {hr}, Def: 6, #7
+  AdaptiveASHRAE,   ! Control Algorithm Def: AdaptiveASHRAE, [ConstantTemperatureGradient, AdaptiveTemperatureGradient, AdaptiveASHRAE, ConstantStartTime], #8
+  ,   ! Constant Temperature Gradient during Cooling {deltaC/hr}, #9
+  ,   ! Constant Temperature Gradient during Heating {deltaC/hr}, #10
+  ,   ! Initial Temperature Gradient during Cooling {deltaC/hr}, #11
+  ,   ! Initial Temperature Gradient during Heating {deltaC/hr}, #12
+  ,   ! Constant Start Time {hr}, #13
+  2;   ! Number of Previous Days {days}, Def: 2, #14

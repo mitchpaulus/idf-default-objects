@@ -1,0 +1,34 @@
+! Min Fields: 28
+ElectricEquipment:ITE:AirCooled,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  FlowFromSystem,   ! Air Flow Calculation Method Def: FlowFromSystem, [FlowFromSystem, FlowControlWithApproachTemperatures], #3
+  Watts/Unit,   ! Design Power Input Calculation Method Def: Watts/Unit, [Watts/Unit, Watts/Area], #4
+  ,   ! Watts per Unit {W}, #5
+  1,   ! Number of Units Def: 1, #6
+  ,   ! Watts per Zone Floor Area {W/m2}, #7
+  ,   ! Design Power Input Schedule Name [ScheduleNames], #8
+  ,   ! CPU Loading  Schedule Name [ScheduleNames], #9
+  ,   ! CPU Power Input Function of Loading and Air Temperature Curve Name [BivariateFunctions], REQ, #10
+  0.0,   ! Design Fan Power Input Fraction Def: 0.0, #11
+  ,   ! Design Fan Air Flow Rate per Power Input {m3/s-W}, REQ, #12
+  ,   ! Air Flow Function of Loading and Air Temperature Curve Name [BivariateFunctions], REQ, #13
+  ,   ! Fan Power Input Function of Flow Curve Name [UnivariateFunctions], REQ, #14
+  15.0,   ! Design Entering Air Temperature {C}, Def: 15.0, #15
+  None,   ! Environmental Class Def: None, [None, A1, A2, A3, A4, B, C], #16
+  AdjustedSupply,   ! Air Inlet Connection Type Def: AdjustedSupply, [AdjustedSupply, ZoneAirNode, RoomAirModel], #17
+  ,   ! Air Inlet Room Air Model Node Name [RoomAirNodes], #18
+  ,   ! Air Outlet Room Air Model Node Name [RoomAirNodes], #19
+  ,   ! Supply Air Node Name #20
+  0.0,   ! Design Recirculation Fraction Def: 0.0, #21
+  ,   ! Recirculation Function of Loading and Supply Temperature Curve Name [BivariateFunctions], #22
+  1.0,   ! Design Electric Power Supply Efficiency Def: 1.0, #23
+  ,   ! Electric Power Supply Efficiency Function of Part Load Ratio Curve Name [UnivariateFunctions], #24
+  1.0,   ! Fraction of Electric Power Supply Losses to Zone Def: 1.0, #25
+  ITE-CPU,   ! CPU End-Use Subcategory Def: ITE-CPU, #26
+  ITE-Fans,   ! Fan End-Use Subcategory Def: ITE-Fans, #27
+  ITE-UPS,   ! Electric Power Supply End-Use Subcategory Def: ITE-UPS, #28
+  ,   ! Supply Temperature Difference {deltaC}, #29
+  ,   ! Supply Temperature Difference Schedule [ScheduleNames], #30
+  ,   ! Return Temperature Difference {deltaC}, #31
+  ;   ! Return Temperature Difference Schedule [ScheduleNames], #32

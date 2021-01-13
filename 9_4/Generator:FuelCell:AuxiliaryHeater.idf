@@ -1,0 +1,13 @@
+Generator:FuelCell:AuxiliaryHeater,
+  ,   ! Name RefList: [FCAuxHeatNames], REQ, #1
+  ,   ! Excess Air Ratio #2
+  ,   ! Ancillary Power Constant Term #3
+  ,   ! Ancillary Power Linear Term #4
+  ,   ! Skin Loss U-Factor Times Area Value {W/K}, #5
+  ,   ! Skin Loss Destination [SurroundingZone, AirInletForFuelCell], #6
+  ,   ! Zone Name to Receive Skin Losses [ZoneNames], #7
+  ,   ! Heating Capacity Units [Watts, kmol/s], #8
+  ,   ! Maximum Heating Capacity in Watts {W}, #9
+  ,   ! Minimum Heating Capacity in Watts {W}, #10
+  ,   ! Maximum Heating Capacity in Kmol per Second {kmol/s}, #11
+  ;   ! Minimum Heating Capacity in Kmol per Second {kmol/s}, #12

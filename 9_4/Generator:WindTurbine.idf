@@ -1,0 +1,28 @@
+! Min Fields: 26
+Generator:WindTurbine,
+  ,   ! Name RefList: [GeneratorNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  HorizontalAxisWindTurbine,   ! Rotor Type Def: HorizontalAxisWindTurbine, [HorizontalAxisWindTurbine, VerticalAxisWindTurbine], #3
+  VariableSpeedVariablePitch,   ! Power Control Def: VariableSpeedVariablePitch, [FixedSpeedFixedPitch, FixedSpeedVariablePitch, VariableSpeedFixedPitch, VariableSpeedVariablePitch], #4
+  ,   ! Rated Rotor Speed {rev/min}, REQ, #5
+  ,   ! Rotor Diameter {m}, REQ, #6
+  ,   ! Overall Height {m}, REQ, #7
+  3,   ! Number of Blades Def: 3, #8
+  ,   ! Rated Power {W}, REQ, #9
+  ,   ! Rated Wind Speed {m/s}, REQ, #10
+  ,   ! Cut In Wind Speed {m/s}, REQ, #11
+  ,   ! Cut Out Wind Speed {m/s}, REQ, #12
+  0.835,   ! Fraction system Efficiency Def: 0.835, #13
+  5.0,   ! Maximum Tip Speed Ratio Def: 5.0, #14
+  0.25,   ! Maximum Power Coefficient Def: 0.25, #15
+  ,   ! Annual Local Average Wind Speed {m/s}, #16
+  50.0,   ! Height for Local Average Wind Speed {m}, Def: 50.0, #17
+  ,   ! Blade Chord Area {m2}, #18
+  0.9,   ! Blade Drag Coefficient Def: 0.9, #19
+  0.05,   ! Blade Lift Coefficient Def: 0.05, #20
+  0.5176,   ! Power Coefficient C1 Def: 0.5176, #21
+  116.0,   ! Power Coefficient C2 Def: 116.0, #22
+  0.4,   ! Power Coefficient C3 Def: 0.4, #23
+  0.0,   ! Power Coefficient C4 Def: 0.0, #24
+  5.0,   ! Power Coefficient C5 Def: 5.0, #25
+  21.0;   ! Power Coefficient C6 Def: 21.0, #26

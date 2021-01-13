@@ -1,0 +1,3 @@
+ExternalInterface:Variable,
+  ,   ! Name REQ, #1
+  ;   ! Initial Value REQ, #2

@@ -1,0 +1,38 @@
+FuelFactors,
+  ,   ! Existing Fuel Resource Name [Electricity, NaturalGas, FuelOilNo1, FuelOilNo2, Coal, Gasoline, Propane, Diesel, OtherFuel1, OtherFuel2], #1
+  ,   ! Units of Measure #2
+  ,   ! Energy per Unit Factor #3
+  ,   ! Source Energy Factor {J/J}, #4
+  ,   ! Source Energy Schedule Name [ScheduleNames], #5
+  ,   ! CO2 Emission Factor {g/MJ}, #6
+  ,   ! CO2 Emission Factor Schedule Name [ScheduleNames], #7
+  ,   ! CO Emission Factor {g/MJ}, #8
+  ,   ! CO Emission Factor Schedule Name [ScheduleNames], #9
+  ,   ! CH4 Emission Factor {g/MJ}, #10
+  ,   ! CH4 Emission Factor Schedule Name [ScheduleNames], #11
+  ,   ! NOx Emission Factor {g/MJ}, #12
+  ,   ! NOx Emission Factor Schedule Name [ScheduleNames], #13
+  ,   ! N2O Emission Factor {g/MJ}, #14
+  ,   ! N2O Emission Factor Schedule Name [ScheduleNames], #15
+  ,   ! SO2 Emission Factor {g/MJ}, #16
+  ,   ! SO2 Emission Factor Schedule Name [ScheduleNames], #17
+  ,   ! PM Emission Factor {g/MJ}, #18
+  ,   ! PM Emission Factor Schedule Name [ScheduleNames], #19
+  ,   ! PM10 Emission Factor {g/MJ}, #20
+  ,   ! PM10 Emission Factor Schedule Name [ScheduleNames], #21
+  ,   ! PM2.5 Emission Factor {g/MJ}, #22
+  ,   ! PM2.5 Emission Factor Schedule Name [ScheduleNames], #23
+  ,   ! NH3 Emission Factor {g/MJ}, #24
+  ,   ! NH3 Emission Factor Schedule Name [ScheduleNames], #25
+  ,   ! NMVOC Emission Factor {g/MJ}, #26
+  ,   ! NMVOC Emission Factor Schedule Name [ScheduleNames], #27
+  ,   ! Hg Emission Factor {g/MJ}, #28
+  ,   ! Hg Emission Factor Schedule Name [ScheduleNames], #29
+  ,   ! Pb Emission Factor {g/MJ}, #30
+  ,   ! Pb Emission Factor Schedule Name [ScheduleNames], #31
+  ,   ! Water Emission Factor {L/MJ}, #32
+  ,   ! Water Emission Factor Schedule Name [ScheduleNames], #33
+  ,   ! Nuclear High Level Emission Factor {g/MJ}, #34
+  ,   ! Nuclear High Level Emission Factor Schedule Name [ScheduleNames], #35
+  ,   ! Nuclear Low Level Emission Factor {m3/MJ}, #36
+  ;   ! Nuclear Low Level Emission Factor Schedule Name [ScheduleNames], #37

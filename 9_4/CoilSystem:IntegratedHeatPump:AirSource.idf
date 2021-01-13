@@ -1,0 +1,21 @@
+CoilSystem:IntegratedHeatPump:AirSource,
+  ,   ! Name RefList: [IntegratedHeatPumps], REQ, #1
+  ,   ! Supply Hot Water Flow Sensor Node Name REQ, #2
+  ,   ! Space Cooling Coil  Name [CoolingCoilsDXVariableSpeed], REQ, #3
+  ,   ! Space Heating Coil Name [HeatingCoilsDXVariableSpeed], #4
+  ,   ! Dedicated Water Heating Coil Name [HeatPumpWaterHeaterDXCoilsVariableSpeed], #5
+  ,   ! SCWH Coil Name [HeatPumpWaterHeaterDXCoilsVariableSpeed], #6
+  ,   ! SCDWH Cooling Coil Name [CoolingCoilsDXVariableSpeed], #7
+  ,   ! SCDWH Water Heating Coil Name [HeatPumpWaterHeaterDXCoilsVariableSpeed], #8
+  ,   ! SHDWH Heating Coil Name [HeatingCoilsDXVariableSpeed], #9
+  ,   ! SHDWH Water Heating Coil Name [HeatPumpWaterHeaterDXCoilsVariableSpeed], #10
+  20.0,   ! Indoor Temperature Limit for SCWH Mode {C}, Def: 20.0, #11
+  27.0,   ! Ambient Temperature Limit for SCWH Mode {C}, Def: 27.0, #12
+  20.0,   ! Indoor Temperature above Which WH has Higher Priority {C}, Def: 20.0, #13
+  20.0,   ! Ambient Temperature above Which WH has Higher Priority {C}, Def: 20.0, #14
+  0,   ! Flag to Indicate Load Control in SCWH Mode {dimensionless}, Def: 0, #15
+  1,   ! Minimum Speed Level for SCWH Mode {dimensionless}, Def: 1, #16
+  0.0,   ! Maximum Water Flow Volume before Switching from SCDWH to SCWH Mode {m3}, Def: 0.0, #17
+  1,   ! Minimum Speed Level for SCDWH Mode {dimensionless}, Def: 1, #18
+  360.0,   ! Maximum Running Time before Allowing Electric Resistance Heat Use during SHDWH Mode {s}, Def: 360.0, #19
+  1;   ! Minimum Speed Level for SHDWH Mode {dimensionless}, Def: 1, #20

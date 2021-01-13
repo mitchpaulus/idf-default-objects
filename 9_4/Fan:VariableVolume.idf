@@ -1,0 +1,20 @@
+! Min Fields: 17
+Fan:VariableVolume,
+  ,   ! Name RefList: [Fans, FansVAV, FansCVandVAV, FansOnOffandVAV, FansCVandOnOffandVAV, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  0.7,   ! Fan Total Efficiency Def: 0.7, #3
+  ,   ! Pressure Rise {Pa}, REQ, #4
+  ,   ! Maximum Flow Rate {m3/s}, AS, #5
+  Fraction,   ! Fan Power Minimum Flow Rate Input Method Def: Fraction, [Fraction, FixedFlowRate], #6
+  0.25,   ! Fan Power Minimum Flow Fraction Def: 0.25, #7
+  ,   ! Fan Power Minimum Air Flow Rate {m3/s}, #8
+  0.9,   ! Motor Efficiency Def: 0.9, #9
+  1.0,   ! Motor In Airstream Fraction Def: 1.0, #10
+  ,   ! Fan Power Coefficient 1 #11
+  ,   ! Fan Power Coefficient 2 #12
+  ,   ! Fan Power Coefficient 3 #13
+  ,   ! Fan Power Coefficient 4 #14
+  ,   ! Fan Power Coefficient 5 #15
+  ,   ! Air Inlet Node Name REQ, #16
+  ,   ! Air Outlet Node Name REQ, #17
+  General;   ! End-Use Subcategory Def: General, #18

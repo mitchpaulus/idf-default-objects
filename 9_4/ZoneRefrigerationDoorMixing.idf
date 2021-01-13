@@ -1,0 +1,9 @@
+! Min Fields: 4
+ZoneRefrigerationDoorMixing,
+  ,   ! Name REQ, #1
+  ,   ! Zone 1 Name [ZoneNames], REQ, #2
+  ,   ! Zone 2 Name [ZoneNames], REQ, #3
+  ,   ! Schedule Name [ScheduleNames], REQ, #4
+  3.0,   ! Door Height {m}, Def: 3.0, #5
+  9.,   ! Door Area {m2}, Def: 9., #6
+  None;   ! Door Protection Type Def: None, [None, AirCurtain, StripCurtain], #7

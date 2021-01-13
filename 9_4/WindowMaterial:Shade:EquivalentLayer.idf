@@ -1,0 +1,14 @@
+! Min Fields: 6
+WindowMaterial:Shade:EquivalentLayer,
+  ,   ! Name RefList: [WindowEquivalentLayerMaterialNames], REQ, #1
+  0.0,   ! Shade Beam-Beam Solar Transmittance {dimensionless}, Def: 0.0, #2
+  ,   ! Front Side Shade Beam-Diffuse Solar Transmittance {dimensionless}, REQ, #3
+  ,   ! Back Side Shade Beam-Diffuse Solar Transmittance {dimensionless}, REQ, #4
+  ,   ! Front Side Shade Beam-Diffuse Solar Reflectance {dimensionless}, REQ, #5
+  ,   ! Back Side Shade Beam-Diffuse Solar Reflectance {dimensionless}, REQ, #6
+  ,   ! Shade Beam-Beam Visible Transmittance at Normal Incidence {dimensionless}, #7
+  ,   ! Shade Beam-Diffuse Visible Transmittance at Normal Incidence {dimensionless}, #8
+  ,   ! Shade Beam-Diffuse Visible Reflectance at Normal Incidence {dimensionless}, #9
+  0.05,   ! Shade Material Infrared Transmittance {dimensionless}, Def: 0.05, #10
+  0.91,   ! Front Side Shade Material Infrared Emissivity {dimensionless}, Def: 0.91, #11
+  0.91;   ! Back Side Shade Material Infrared Emissivity {dimensionless}, Def: 0.91, #12

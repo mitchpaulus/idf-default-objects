@@ -1,0 +1,13 @@
+! Min Fields: 9
+GroundHeatExchanger:System,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Inlet Node Name REQ, #2
+  ,   ! Outlet Node Name REQ, #3
+  ,   ! Design Flow Rate {m3/s}, REQ, #4
+  ,   ! Undisturbed Ground Temperature Model Type [Site:GroundTemperature:Undisturbed:FiniteDifference, Site:GroundTemperature:Undisturbed:KusudaAchenbach, Site:GroundTemperature:Undisturbed:Xing], REQ, #5
+  ,   ! Undisturbed Ground Temperature Model Name [UndisturbedGroundTempModels], REQ, #6
+  ,   ! Ground Thermal Conductivity {W/m-K}, REQ, #7
+  ,   ! Ground Thermal Heat Capacity {J/m3-K}, REQ, #8
+  ,   ! GHE:Vertical:ResponseFactors Object Name [GroundHeatExchangerVerticalResponseFactorNames], #9
+  ,   ! GHE:Vertical:Array Object Name [GroundHeatExchangerVerticalArrayNames], #10
+  ;   ! GHE:Vertical:Single Object Name 1 [GroundHeatExchangerVerticalSingleNames], #11

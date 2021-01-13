@@ -1,0 +1,7 @@
+RoomAir:TemperaturePattern:ConstantGradient,
+  ,   ! Room Air Temperature Pattern Constant Gradient Name REQ, #1
+  ,   ! Control Integer for Pattern Control Schedule Name REQ, #2
+  ,   ! Thermostat Offset {deltaC}, #3
+  ,   ! Return Air Offset {deltaC}, #4
+  ,   ! Exhaust Air Offset {deltaC}, #5
+  ;   ! Temperature Gradient {K/m}, #6

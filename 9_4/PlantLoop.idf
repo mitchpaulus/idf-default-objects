@@ -1,0 +1,26 @@
+! Min Fields: 18
+PlantLoop,
+  ,   ! Name RefList: [PlantLoops], REQ, #1
+  Water,   ! Fluid Type Def: Water, [Water, Steam, UserDefinedFluidType], #2
+  ,   ! User Defined Fluid Type [FluidAndGlycolNames], #3
+  ,   ! Plant Equipment Operation Scheme Name [PlantOperationSchemes], REQ, #4
+  ,   ! Loop Temperature Setpoint Node Name REQ, #5
+  ,   ! Maximum Loop Temperature {C}, REQ, #6
+  ,   ! Minimum Loop Temperature {C}, REQ, #7
+  ,   ! Maximum Loop Flow Rate {m3/s}, AS, REQ, #8
+  0.0,   ! Minimum Loop Flow Rate {m3/s}, Def: 0.0, #9
+  Autocalculate,   ! Plant Loop Volume {m3}, Def: Autocalculate, AC, #10
+  ,   ! Plant Side Inlet Node Name REQ, #11
+  ,   ! Plant Side Outlet Node Name REQ, #12
+  ,   ! Plant Side Branch List Name [BranchLists], REQ, #13
+  ,   ! Plant Side Connector List Name [ConnectorLists], #14
+  ,   ! Demand Side Inlet Node Name REQ, #15
+  ,   ! Demand Side Outlet Node Name REQ, #16
+  ,   ! Demand Side Branch List Name [BranchLists], REQ, #17
+  ,   ! Demand Side Connector List Name [ConnectorLists], #18
+  SequentialLoad,   ! Load Distribution Scheme Def: SequentialLoad, [Optimal, SequentialLoad, UniformLoad, UniformPLR, SequentialUniformPLR], #19
+  ,   ! Availability Manager List Name [SystemAvailabilityManagerLists], #20
+  SingleSetpoint,   ! Plant Loop Demand Calculation Scheme Def: SingleSetpoint, [SingleSetpoint, DualSetpointDeadband], #21
+  None,   ! Common Pipe Simulation Def: None, [CommonPipe, TwoWayCommonPipe, None], #22
+  None,   ! Pressure Simulation Type Def: None, [PumpPowerCorrection, LoopFlowCorrection, None], #23
+  2.0;   ! Loop Circulation Time {minutes}, Def: 2.0, #24

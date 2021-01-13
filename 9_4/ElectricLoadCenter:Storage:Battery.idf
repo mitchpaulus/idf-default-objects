@@ -1,0 +1,22 @@
+ElectricLoadCenter:Storage:Battery,
+  ,   ! Name RefList: [ElecStorageList], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], #3
+  0,   ! Radiative Fraction Def: 0, #4
+  1,   ! Number of Battery Modules in Parallel Def: 1, #5
+  1,   ! Number of Battery Modules in Series Def: 1, #6
+  ,   ! Maximum Module Capacity {Ah}, #7
+  1.0,   ! Initial Fractional State of Charge Def: 1.0, #8
+  ,   ! Fraction of Available Charge Capacity #9
+  ,   ! Change Rate from Bound Charge to Available Charge {1/hr}, #10
+  ,   ! Fully Charged Module Open Circuit Voltage {V}, #11
+  ,   ! Fully Discharged Module Open Circuit Voltage {V}, #12
+  ,   ! Voltage Change Curve Name for Charging [UnivariateFunctions], #13
+  ,   ! Voltage Change Curve Name for Discharging [UnivariateFunctions], #14
+  ,   ! Module Internal Electrical Resistance {ohms}, #15
+  ,   ! Maximum Module Discharging Current {A}, #16
+  ,   ! Module Cut-off Voltage {V}, #17
+  1.0,   ! Module Charge Rate Limit Def: 1.0, #18
+  No,   ! Battery Life Calculation Def: No, [Yes, No], #19
+  10,   ! Number of Cycle Bins Def: 10, #20
+  ;   ! Battery Life Curve Name [UnivariateFunctions], #21

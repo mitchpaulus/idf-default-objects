@@ -1,0 +1,13 @@
+! Min Fields: 11
+WindowMaterial:Screen:EquivalentLayer,
+  ,   ! Name RefList: [WindowEquivalentLayerMaterialNames], REQ, #1
+  autocalculate,   ! Screen Beam-Beam Solar Transmittance {dimensionless}, Def: autocalculate, AC, #2
+  ,   ! Screen Beam-Diffuse Solar Transmittance {dimensionless}, REQ, #3
+  ,   ! Screen Beam-Diffuse Solar Reflectance {dimensionless}, REQ, #4
+  ,   ! Screen Beam-Beam Visible Transmittance {dimensionless}, REQ, #5
+  ,   ! Screen Beam-Diffuse Visible Transmittance {dimensionless}, REQ, #6
+  ,   ! Screen Beam-Diffuse Visible Reflectance {dimensionless}, REQ, #7
+  0.02,   ! Screen Infrared Transmittance {dimensionless}, Def: 0.02, #8
+  0.93,   ! Screen Infrared Emissivity {dimensionless}, Def: 0.93, #9
+  0.025,   ! Screen Wire Spacing {m}, Def: 0.025, #10
+  0.005;   ! Screen Wire Diameter {m}, Def: 0.005, #11

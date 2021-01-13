@@ -1,0 +1,23 @@
+! Min Fields: 20
+GroundHeatExchanger:HorizontalTrench,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Inlet Node Name REQ, #2
+  ,   ! Outlet Node Name REQ, #3
+  ,   ! Design Flow Rate {m3/s}, REQ, #4
+  50,   ! Trench Length in Pipe Axial Direction {m}, Def: 50, #5
+  1,   ! Number of Trenches Def: 1, #6
+  1.0,   ! Horizontal Spacing Between Pipes {m}, Def: 1.0, #7
+  0.016,   ! Pipe Inner Diameter {m}, Def: 0.016, #8
+  0.026,   ! Pipe Outer Diameter {m}, Def: 0.026, #9
+  1.5,   ! Burial Depth {m}, Def: 1.5, #10
+  1.08,   ! Soil Thermal Conductivity {W/m-K}, Def: 1.08, #11
+  962,   ! Soil Density {kg/m3}, Def: 962, #12
+  2576,   ! Soil Specific Heat {J/kg-K}, Def: 2576, #13
+  0.3895,   ! Pipe Thermal Conductivity {W/m-K}, Def: 0.3895, #14
+  641,   ! Pipe Density {kg/m3}, Def: 641, #15
+  2405,   ! Pipe Specific Heat {J/kg-K}, Def: 2405, #16
+  30,   ! Soil Moisture Content Percent {percent}, Def: 30, #17
+  50,   ! Soil Moisture Content Percent at Saturation {percent}, Def: 50, #18
+  ,   ! Undisturbed Ground Temperature Model Type [Site:GroundTemperature:Undisturbed:FiniteDifference, Site:GroundTemperature:Undisturbed:KusudaAchenbach, Site:GroundTemperature:Undisturbed:Xing], REQ, #19
+  ,   ! Undisturbed Ground Temperature Model Name [UndisturbedGroundTempModels], REQ, #20
+  0.4;   ! Evapotranspiration Ground Cover Parameter Def: 0.4, #21

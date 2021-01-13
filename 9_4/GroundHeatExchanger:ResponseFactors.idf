@@ -1,0 +1,8 @@
+! Min Fields: 5
+GroundHeatExchanger:ResponseFactors,
+  ,   ! Name RefList: [GroundHeatExchangerVerticalResponseFactorNames], REQ, #1
+  ,   ! GHE:Vertical:Properties Object Name [GroundHeatExchangerVerticalPropertiesNames], REQ, #2
+  ,   ! Number of Boreholes REQ, #3
+  0.0005,   ! G-Function Reference Ratio {dimensionless}, Def: 0.0005, #4
+  ,   ! g-Function Ln(T/Ts) Value 1 REQ, #5
+  ;   ! g-Function g Value 1 REQ, #6

@@ -1,0 +1,5 @@
+! Min Fields: 3
+Connector:Mixer,
+  ,   ! Name RefList: [PlantConnectors], REQ, #1
+  ,   ! Outlet Branch Name [Branches], REQ, #2
+  ;   ! Inlet Branch 1 Name [Branches], REQ, #3

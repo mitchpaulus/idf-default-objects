@@ -1,0 +1,38 @@
+UtilityCost:Charge:Block,
+  ,   ! Utility Cost Charge Block Name REQ, #1
+  ,   ! Tariff Name [UtilityCostTariffs], REQ, #2
+  ,   ! Source Variable REQ, #3
+  Annual,   ! Season Def: Annual, [Annual, Summer, Winter, Spring, Fall], #4
+  ,   ! Category Variable Name [EnergyCharges, DemandCharges, ServiceCharges, Basis, Adjustment, Surcharge, Subtotal, Taxes, Total, NotIncluded], REQ, #5
+  ,   ! Remaining Into Variable #6
+  ,   ! Block Size Multiplier Value or Variable Name #7
+  ,   ! Block Size 1 Value or Variable Name #8
+  ,   ! Block 1 Cost per Unit Value or Variable Name #9
+  ,   ! Block Size 2 Value or Variable Name #10
+  ,   ! Block 2 Cost per Unit Value or Variable Name #11
+  ,   ! Block Size 3 Value or Variable Name #12
+  ,   ! Block 3 Cost per Unit Value or Variable Name #13
+  ,   ! Block Size 4 Value or Variable Name #14
+  ,   ! Block 4 Cost per Unit Value or Variable Name #15
+  ,   ! Block Size 5 Value or Variable Name #16
+  ,   ! Block 5 Cost per Unit Value or Variable Name #17
+  ,   ! Block Size 6 Value or Variable Name #18
+  ,   ! Block 6 Cost per Unit Value or Variable Name #19
+  ,   ! Block Size 7 Value or Variable Name #20
+  ,   ! Block 7 Cost per Unit Value or Variable Name #21
+  ,   ! Block Size 8 Value or Variable Name #22
+  ,   ! Block 8 Cost per Unit Value or Variable Name #23
+  ,   ! Block Size 9 Value or Variable Name #24
+  ,   ! Block 9 Cost per Unit Value or Variable Name #25
+  ,   ! Block Size 10 Value or Variable Name #26
+  ,   ! Block 10 Cost per Unit Value or Variable Name #27
+  ,   ! Block Size 11 Value or Variable Name #28
+  ,   ! Block 11 Cost per Unit Value or Variable Name #29
+  ,   ! Block Size 12 Value or Variable Name #30
+  ,   ! Block 12 Cost per Unit Value or Variable Name #31
+  ,   ! Block Size 13 Value or Variable Name #32
+  ,   ! Block 13 Cost per Unit Value or Variable Name #33
+  ,   ! Block Size 14 Value or Variable Name #34
+  ,   ! Block 14 Cost per Unit Value or Variable Name #35
+  ,   ! Block Size 15 Value or Variable Name #36
+  ;   ! Block 15 Cost per Unit Value or Variable Name #37

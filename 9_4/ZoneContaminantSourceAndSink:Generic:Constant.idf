@@ -1,0 +1,7 @@
+ZoneContaminantSourceAndSink:Generic:Constant,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Design Generation Rate {m3/s}, #3
+  ,   ! Generation Schedule Name [ScheduleNames], REQ, #4
+  ,   ! Design Removal Coefficient {m3/s}, #5
+  ;   ! Removal Schedule Name [ScheduleNames], REQ, #6

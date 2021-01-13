@@ -1,0 +1,46 @@
+! Min Fields: 44
+CoolingTowerPerformance:CoolTools,
+  ,   ! Name RefList: [VariableSpeedTowerCoefficient], REQ, #1
+  ,   ! Minimum Inlet Air Wet-Bulb Temperature {C}, REQ, #2
+  ,   ! Maximum Inlet Air Wet-Bulb Temperature {C}, REQ, #3
+  ,   ! Minimum Range Temperature {deltaC}, REQ, #4
+  ,   ! Maximum Range Temperature {deltaC}, REQ, #5
+  ,   ! Minimum Approach Temperature {deltaC}, REQ, #6
+  ,   ! Maximum Approach Temperature {deltaC}, REQ, #7
+  ,   ! Minimum Water Flow Rate Ratio REQ, #8
+  ,   ! Maximum Water Flow Rate Ratio REQ, #9
+  ,   ! Coefficient 1 REQ, #10
+  ,   ! Coefficient 2 REQ, #11
+  ,   ! Coefficient 3 REQ, #12
+  ,   ! Coefficient 4 REQ, #13
+  ,   ! Coefficient 5 REQ, #14
+  ,   ! Coefficient 6 REQ, #15
+  ,   ! Coefficient 7 REQ, #16
+  ,   ! Coefficient 8 REQ, #17
+  ,   ! Coefficient 9 REQ, #18
+  ,   ! Coefficient 10 REQ, #19
+  ,   ! Coefficient 11 REQ, #20
+  ,   ! Coefficient 12 REQ, #21
+  ,   ! Coefficient 13 REQ, #22
+  ,   ! Coefficient 14 REQ, #23
+  ,   ! Coefficient 15 REQ, #24
+  ,   ! Coefficient 16 REQ, #25
+  ,   ! Coefficient 17 REQ, #26
+  ,   ! Coefficient 18 REQ, #27
+  ,   ! Coefficient 19 REQ, #28
+  ,   ! Coefficient 20 REQ, #29
+  ,   ! Coefficient 21 REQ, #30
+  ,   ! Coefficient 22 REQ, #31
+  ,   ! Coefficient 23 REQ, #32
+  ,   ! Coefficient 24 REQ, #33
+  ,   ! Coefficient 25 REQ, #34
+  ,   ! Coefficient 26 REQ, #35
+  ,   ! Coefficient 27 REQ, #36
+  ,   ! Coefficient 28 REQ, #37
+  ,   ! Coefficient 29 REQ, #38
+  ,   ! Coefficient 30 REQ, #39
+  ,   ! Coefficient 31 REQ, #40
+  ,   ! Coefficient 32 REQ, #41
+  ,   ! Coefficient 33 REQ, #42
+  ,   ! Coefficient 34 REQ, #43
+  ;   ! Coefficient 35 REQ, #44

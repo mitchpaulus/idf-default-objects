@@ -1,0 +1,143 @@
+! Min Fields: 33
+Coil:WaterHeating:AirToWaterHeatPump:VariableSpeed,
+  ,   ! Name RefList: [HeatPumpWaterHeaterDXCoilsVariableSpeed], REQ, #1
+  1,   ! Number of Speeds {dimensionless}, Def: 1, #2
+  1,   ! Nominal Speed Level {dimensionless}, Def: 1, #3
+  ,   ! Rated Water Heating Capacity {W}, REQ, #4
+  19.7,   ! Rated Evaporator Inlet Air Dry-Bulb Temperature {C}, Def: 19.7, #5
+  13.5,   ! Rated Evaporator Inlet Air Wet-Bulb Temperature {C}, Def: 13.5, #6
+  57.5,   ! Rated Condenser Inlet Water Temperature {C}, Def: 57.5, #7
+  ,   ! Rated Evaporator Air Flow Rate {m3/s}, AC, #8
+  ,   ! Rated Condenser Water Flow Rate {m3/s}, AC, #9
+  Yes,   ! Evaporator Fan Power Included in Rated COP Def: Yes, [Yes, No], #10
+  No,   ! Condenser Pump Power Included in Rated COP Def: No, [Yes, No], #11
+  No,   ! Condenser Pump Heat Included in Rated Heating Capacity and Rated COP Def: No, [Yes, No], #12
+  0.2,   ! Fraction of Condenser Pump Heat to Water Def: 0.2, #13
+  ,   ! Evaporator Air Inlet Node Name REQ, #14
+  ,   ! Evaporator Air Outlet Node Name REQ, #15
+  ,   ! Condenser Water Inlet Node Name REQ, #16
+  ,   ! Condenser Water Outlet Node Name REQ, #17
+  0,   ! Crankcase Heater Capacity {W}, Def: 0, #18
+  10,   ! Maximum Ambient Temperature for Crankcase Heater Operation {C}, Def: 10, #19
+  WetBulbTemperature,   ! Evaporator Air Temperature Type for Curve Objects Def: WetBulbTemperature, [DryBulbTemperature, WetBulbTemperature], #20
+  ,   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], #21
+  ,   ! Rated Water Heating Capacity at Speed 1 {W}, REQ, #22
+  3.2,   ! Rated Water Heating COP at Speed 1 {W/W}, Def: 3.2, #23
+  0.85,   ! Rated Sensible Heat Ratio at Speed 1 Def: 0.85, #24
+  ,   ! Speed 1 Reference Unit Rated Air Flow Rate {m3/s}, REQ, #25
+  ,   ! Speed 1 Reference Unit Rated Water Flow Rate {m3/s}, REQ, #26
+  ,   ! Speed 1 Reference Unit Water Pump Input Power At Rated Conditions {W}, REQ, #27
+  ,   ! Speed 1 Total WH Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #28
+  ,   ! Speed 1 Total WH Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], REQ, #29
+  ,   ! Speed 1 Total WH Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], REQ, #30
+  ,   ! Speed 1 COP Function of Temperature Curve Name [BivariateFunctions], REQ, #31
+  ,   ! Speed 1 COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], REQ, #32
+  ,   ! Speed 1 COP Function of Water Flow Fraction Curve Name [UnivariateFunctions], REQ, #33
+  ,   ! Rated Water Heating Capacity at Speed 2 {W}, #34
+  3.2,   ! Rated Water Heating COP at Speed 2 {W/W}, Def: 3.2, #35
+  0.85,   ! Rated Sensible Heat Ratio at Speed 2 Def: 0.85, #36
+  ,   ! Speed 2 Reference Unit Rated Air Flow Rate {m3/s}, #37
+  ,   ! Speed 2 Reference Unit Rated Water Flow Rate {m3/s}, #38
+  ,   ! Speed 2 Reference Unit Water Pump Input Power At Rated Conditions {dimensionless}, #39
+  ,   ! Speed 2 Total WH Capacity Function of Temperature Curve Name [BivariateFunctions], #40
+  ,   ! Speed 2 Total WH Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #41
+  ,   ! Speed 2 Total WH Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #42
+  ,   ! Speed 2 COP Function of Temperature Curve Name [BivariateFunctions], #43
+  ,   ! Speed 2 COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], #44
+  ,   ! Speed 2 COP Function of Water Flow Fraction Curve Name [UnivariateFunctions], #45
+  ,   ! Rated Water Heating Capacity at speed 3 {W}, #46
+  3.2,   ! Rated Water Heating COP at Speed 3 {W/W}, Def: 3.2, #47
+  0.85,   ! Rated Sensible Heat Ratio at Speed 3 Def: 0.85, #48
+  ,   ! Speed 3 Reference Unit Rated Air Flow Rate {m3/s}, #49
+  ,   ! Speed 3 Reference Unit Rated Water Flow Rate {m3/s}, #50
+  ,   ! Speed 3 Reference Unit Water Pump Input Power At Rated Conditions {dimensionless}, #51
+  ,   ! Speed 3 Total WH Capacity Function of Temperature Curve Name [BivariateFunctions], #52
+  ,   ! Speed 3 Total WH Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #53
+  ,   ! Speed 3 Total WH Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #54
+  ,   ! Speed 3 COP Function of Temperature Curve Name [BivariateFunctions], #55
+  ,   ! Speed 3 COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], #56
+  ,   ! Speed 3 COP Function of Water Flow Fraction Curve Name [UnivariateFunctions], #57
+  ,   ! Rated Water Heating Capacity at Speed 4 {W}, #58
+  3.2,   ! Rated Water Heating COP at Speed 4 {W/W}, Def: 3.2, #59
+  0.85,   ! Rated Sensible Heat Ratio at Speed 4 Def: 0.85, #60
+  ,   ! Speed 4 Reference Unit Rated Air Flow Rate {m3/s}, #61
+  ,   ! Speed 4 Reference Unit Rated Water Flow Rate {m3/s}, #62
+  ,   ! Speed 4 Reference Unit Water Pump Input Power At Rated Conditions {dimensionless}, #63
+  ,   ! Speed 4 Total WH Capacity Function of Temperature Curve Name [BivariateFunctions], #64
+  ,   ! Speed 4 Total WH Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #65
+  ,   ! Speed 4 Total WH Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #66
+  ,   ! Speed 4 COP Function of Temperature Curve Name [BivariateFunctions], #67
+  ,   ! Speed 4 COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], #68
+  ,   ! Speed 4 COP Function of Water Flow Fraction Curve Name [UnivariateFunctions], #69
+  ,   ! Rated Water Heating Capacity at Speed 5 {W}, #70
+  3.2,   ! Rated Water Heating COP at Speed 5 {W/W}, Def: 3.2, #71
+  0.85,   ! Rated Sensible Heat Ratio at Speed 5 Def: 0.85, #72
+  ,   ! Speed 5 Reference Unit Rated Air Flow Rate {m3/s}, #73
+  ,   ! Speed 5 Reference Unit Rated Water Flow Rate {m3/s}, #74
+  ,   ! Speed 5 Reference Unit Water Pump Input Power At Rated Conditions {dimensionless}, #75
+  ,   ! Speed 5 Total WH Capacity Function of Temperature Curve Name [BivariateFunctions], #76
+  ,   ! Speed 5 Total WH Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #77
+  ,   ! Speed 5 Total WH Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #78
+  ,   ! Speed 5 COP Function of Temperature Curve Name [BivariateFunctions], #79
+  ,   ! Speed 5 COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], #80
+  ,   ! Speed 5 COP Function of Water Flow Fraction Curve Name [UnivariateFunctions], #81
+  ,   ! Rated Water Heating Capacity at Speed 6 {W}, #82
+  3.2,   ! Rated Water Heating COP at Speed 6 {W/W}, Def: 3.2, #83
+  0.85,   ! Rated Sensible Heat Ratio at Speed 6 Def: 0.85, #84
+  ,   ! Speed 6 Reference Unit Rated Air Flow Rate {m3/s}, #85
+  ,   ! Speed 6 Reference Unit Rated Water Flow Rate {m3/s}, #86
+  ,   ! Speed 6 Reference Unit Water Pump Input Power At Rated Conditions {dimensionless}, #87
+  ,   ! Speed 6 Total WH Capacity Function of Temperature Curve Name [BivariateFunctions], #88
+  ,   ! Speed 6 Total WH Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #89
+  ,   ! Speed 6 Total WH Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #90
+  ,   ! Speed 6 COP Function of Temperature Curve Name [BivariateFunctions], #91
+  ,   ! Speed 6 COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], #92
+  ,   ! Speed 6 COP Function of Water Flow Fraction Curve Name [UnivariateFunctions], #93
+  ,   ! Rated Water Heating Capacity at Speed 7 {W}, #94
+  3.2,   ! Rated Water Heating COP at Speed 7 {W/W}, Def: 3.2, #95
+  0.85,   ! Rated Sensible Heat Ratio at Speed 7 Def: 0.85, #96
+  ,   ! Speed 7 Reference Unit Rated Air Flow Rate {m3/s}, #97
+  ,   ! Speed 7 Reference Unit Rated Water Flow Rate {m3/s}, #98
+  ,   ! Speed 7 Reference Unit Water Pump Input Power At Rated Conditions {dimensionless}, #99
+  ,   ! Speed 7 Total WH Capacity Function of Temperature Curve Name [BivariateFunctions], #100
+  ,   ! Speed 7 Total WH Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #101
+  ,   ! Speed 7 Total WH Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #102
+  ,   ! Speed 7 COP Function of Temperature Curve Name [BivariateFunctions], #103
+  ,   ! Speed 7 COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], #104
+  ,   ! Speed 7 COP Function of Water Flow Fraction Curve Name [UnivariateFunctions], #105
+  ,   ! Rated Water Heating Capacity at Speed 8 {W}, #106
+  3.2,   ! Rated Water Heating COP at Speed 8 {W/W}, Def: 3.2, #107
+  0.85,   ! Rated Sensible Heat Ratio at Speed 8 Def: 0.85, #108
+  ,   ! Speed 8 Reference Unit Rated Air Flow Rate {m3/s}, #109
+  ,   ! Speed 8 Reference Unit Rated Water Flow Rate {m3/s}, #110
+  ,   ! Speed 8 Reference Unit Water Pump Input Power At Rated Conditions {dimensionless}, #111
+  ,   ! Speed 8 Total WH Capacity Function of Temperature Curve Name [BivariateFunctions], #112
+  ,   ! Speed 8 Total WH Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #113
+  ,   ! Speed 8 Total WH Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #114
+  ,   ! Speed 8 COP Function of Temperature Curve Name [BivariateFunctions], #115
+  ,   ! Speed 8 COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], #116
+  ,   ! Speed 8 COP Function of Water Flow Fraction Curve Name [UnivariateFunctions], #117
+  ,   ! Rated Water Heating Capacity at Speed 9 {W}, #118
+  3.2,   ! Rated Water Heating COP at Speed 9 {W/W}, Def: 3.2, #119
+  0.85,   ! Rated Sensible Heat Ratio at Speed 9 Def: 0.85, #120
+  ,   ! Speed 9 Reference Unit Rated Air Flow Rate {m3/s}, #121
+  ,   ! Speed 9 Reference Unit Rated Water Flow Rate {m3/s}, #122
+  ,   ! Speed 9 Reference Unit Water Pump Input Power At Rated Conditions {dimensionless}, #123
+  ,   ! Speed 9 Total WH Capacity Function of Temperature Curve Name [BivariateFunctions], #124
+  ,   ! Speed 9 Total WH Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #125
+  ,   ! Speed 9 Total WH Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #126
+  ,   ! Speed 9 COP Function of Temperature Curve Name [BivariateFunctions], #127
+  ,   ! Speed 9 COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], #128
+  ,   ! Speed 9 COP Function of Water Flow Fraction Curve Name [UnivariateFunctions], #129
+  ,   ! Rated Water Heating Capacity at Speed 10 {W}, #130
+  3.2,   ! Rated Water Heating COP at Speed 10 {W/W}, Def: 3.2, #131
+  0.85,   ! Rated Sensible Heat Ratio at Speed 10 Def: 0.85, #132
+  ,   ! Speed 10 Reference Unit Rated Air Flow Rate {m3/s}, #133
+  ,   ! Speed 10 Reference Unit Rated Water Flow Rate {m3/s}, #134
+  ,   ! Speed 10 Reference Unit Water Pump Input Power At Rated Conditions {dimensionless}, #135
+  ,   ! Speed 10 Total WH Capacity Function of Temperature Curve Name [BivariateFunctions], #136
+  ,   ! Speed 10 Total WH Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #137
+  ,   ! Speed 10 Total WH Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #138
+  ,   ! Speed 10 COP Function of Temperature Curve Name [BivariateFunctions], #139
+  ,   ! Speed 10 COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], #140
+  ;   ! Speed 10 COP Function of Water Flow Fraction Curve Name [UnivariateFunctions], #141

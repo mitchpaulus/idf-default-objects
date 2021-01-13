@@ -1,0 +1,8 @@
+! Min Fields: 6
+FaultModel:TemperatureSensorOffset:CondenserSupplyWater,
+  ,   ! Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Severity Schedule Name [ScheduleNames], #3
+  ,   ! Cooling Tower Object Type [CoolingTower:SingleSpeed, CoolingTower:TwoSpeed, CoolingTower:VariableSpeed, CoolingTower:VariableSpeed:MERKEL], REQ, #4
+  ,   ! Cooling Tower Object Name [CoolingTowers], REQ, #5
+  0.0;   ! Reference Sensor Offset {deltaC}, Def: 0.0, #6

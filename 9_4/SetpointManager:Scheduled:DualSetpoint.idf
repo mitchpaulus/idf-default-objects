@@ -1,0 +1,6 @@
+SetpointManager:Scheduled:DualSetpoint,
+  ,   ! Name REQ, #1
+  Temperature,   ! Control Variable Def: Temperature, [Temperature], #2
+  ,   ! High Setpoint Schedule Name [ScheduleNames], REQ, #3
+  ,   ! Low Setpoint Schedule Name [ScheduleNames], REQ, #4
+  ;   ! Setpoint Node or NodeList Name REQ, #5

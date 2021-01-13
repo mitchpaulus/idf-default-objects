@@ -1,0 +1,18 @@
+! Min Fields: 7
+Construction:InternalSource,
+  ,   ! Name RefList: [ConstructionNames], REQ, #1
+  ,   ! Source Present After Layer Number REQ, #2
+  ,   ! Temperature Calculation Requested After Layer Number REQ, #3
+  ,   ! Dimensions for the CTF Calculation REQ, #4
+  ,   ! Tube Spacing {m}, REQ, #5
+  0.0,   ! Two-Dimensional Temperature Calculation Position {dimensionless}, Def: 0.0, REQ, #6
+  ,   ! Outside Layer [MaterialName], REQ, #7
+  ,   ! Layer 2 [MaterialName], #8
+  ,   ! Layer 3 [MaterialName], #9
+  ,   ! Layer 4 [MaterialName], #10
+  ,   ! Layer 5 [MaterialName], #11
+  ,   ! Layer 6 [MaterialName], #12
+  ,   ! Layer 7 [MaterialName], #13
+  ,   ! Layer 8 [MaterialName], #14
+  ,   ! Layer 9 [MaterialName], #15
+  ;   ! Layer 10 [MaterialName], #16

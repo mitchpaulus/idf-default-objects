@@ -1,0 +1,4 @@
+! Min Fields: 2
+ThermostatSetpoint:ThermalComfort:Fanger:SingleHeatingOrCooling,
+  ,   ! Name RefList: [ThermalComfortControlTypeNames], REQ, #1
+  ;   ! Fanger Thermal Comfort Schedule Name [ScheduleNames], REQ, #2

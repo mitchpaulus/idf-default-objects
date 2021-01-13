@@ -1,0 +1,25 @@
+! Min Fields: 21
+HVACTemplate:Zone:Unitary,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Template Unitary System Name [CompactHVACSystemUnitary], REQ, #2
+  ,   ! Template Thermostat Name [CompactHVACThermostats], #3
+  autosize,   ! Supply Air Maximum Flow Rate {m3/s}, Def: autosize, AS, #4
+  ,   ! Zone Heating Sizing Factor #5
+  ,   ! Zone Cooling Sizing Factor #6
+  Flow/Person,   ! Outdoor Air Method Def: Flow/Person, [Flow/Person, Flow/Zone, Flow/Area, Sum, Maximum, DetailedSpecification], #7
+  0.00944,   ! Outdoor Air Flow Rate per Person {m3/s}, Def: 0.00944, #8
+  0.0,   ! Outdoor Air Flow Rate per Zone Floor Area {m3/s-m2}, Def: 0.0, #9
+  0.0,   ! Outdoor Air Flow Rate per Zone {m3/s}, Def: 0.0, #10
+  ,   ! Supply Plenum Name [ZoneNames], #11
+  ,   ! Return Plenum Name [ZoneNames], #12
+  None,   ! Baseboard Heating Type Def: None, [HotWater, Electric, None], #13
+  ,   ! Baseboard Heating Availability Schedule Name [ScheduleNames], #14
+  autosize,   ! Baseboard Heating Capacity {W}, Def: autosize, AS, #15
+  SystemSupplyAirTemperature,   ! Zone Cooling Design Supply Air Temperature Input Method Def: SystemSupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference, SystemSupplyAirTemperature], #16
+  12.8,   ! Zone Cooling Design Supply Air Temperature {C}, Def: 12.8, #17
+  11.11,   ! Zone Cooling Design Supply Air Temperature Difference {deltaC}, Def: 11.11, #18
+  SystemSupplyAirTemperature,   ! Zone Heating Design Supply Air Temperature Input Method Def: SystemSupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference, SystemSupplyAirTemperature], #19
+  50.0,   ! Zone Heating Design Supply Air Temperature {C}, Def: 50.0, #20
+  30.0,   ! Zone Heating Design Supply Air Temperature Difference {deltaC}, Def: 30.0, #21
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames], #22
+  ;   ! Design Specification Zone Air Distribution Object Name [DesignSpecificationZoneAirDistributionNames], #23

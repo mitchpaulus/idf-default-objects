@@ -1,0 +1,6 @@
+! Min Fields: 4
+AirflowNetwork:MultiZone:ReferenceCrackConditions,
+  ,   ! Name RefList: [ReferenceCrackConditions], REQ, #1
+  20,   ! Reference Temperature {C}, Def: 20, #2
+  101325,   ! Reference Barometric Pressure {Pa}, Def: 101325, #3
+  0;   ! Reference Humidity Ratio {kgWater/kgDryAir}, Def: 0, #4

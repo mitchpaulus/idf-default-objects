@@ -1,0 +1,23 @@
+! Min Fields: 18
+AirTerminal:SingleDuct:VAV:Reheat,
+  ,   ! Name RefList: [AirTerminalUnitNames, AFNTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Damper Air Outlet Node Name REQ, #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Maximum Air Flow Rate {m3/s}, AS, REQ, #5
+  Constant,   ! Zone Minimum Air Flow Input Method Def: Constant, [Constant, FixedFlowRate, Scheduled], #6
+  autosize,   ! Constant Minimum Air Flow Fraction Def: autosize, AS, #7
+  autosize,   ! Fixed Minimum Air Flow Rate {m3/s}, Def: autosize, AS, #8
+  ,   ! Minimum Air Flow Fraction Schedule Name [ScheduleNames], #9
+  ,   ! Reheat Coil Object Type [Coil:Heating:Water, Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam], REQ, #10
+  ,   ! Reheat Coil Name [HeatingCoilName], REQ, #11
+  ,   ! Maximum Hot Water or Steam Flow Rate {m3/s}, AS, #12
+  0.0,   ! Minimum Hot Water or Steam Flow Rate {m3/s}, Def: 0.0, #13
+  ,   ! Air Outlet Node Name REQ, #14
+  0.001,   ! Convergence Tolerance Def: 0.001, #15
+  ReverseWithLimits,   ! Damper Heating Action Def: ReverseWithLimits, [Normal, Reverse, ReverseWithLimits], #16
+  autosize,   ! Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}, Def: autosize, AS, #17
+  autosize,   ! Maximum Flow Fraction During Reheat Def: autosize, AS, #18
+  ,   ! Maximum Reheat Air Temperature {C}, #19
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames], #20
+  ;   ! Minimum Air Flow Turndown Schedule Name [ScheduleNames], #21

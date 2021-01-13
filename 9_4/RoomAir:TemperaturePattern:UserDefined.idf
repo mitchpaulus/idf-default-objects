@@ -1,0 +1,5 @@
+RoomAir:TemperaturePattern:UserDefined,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Availability Schedule Name [ScheduleNames], #3
+  ;   ! Pattern Control Schedule Name [ScheduleNames], REQ, #4

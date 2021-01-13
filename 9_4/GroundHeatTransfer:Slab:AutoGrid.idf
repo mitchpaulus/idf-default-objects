@@ -1,0 +1,6 @@
+GroundHeatTransfer:Slab:AutoGrid,
+  ,   ! SLABX: X dimension of the building slab {m}, REQ, #1
+  ,   ! SLABY: Y dimension of the building slab {m}, REQ, #2
+  0.1,   ! SLABDEPTH: Thickness of slab on grade {m}, Def: 0.1, #3
+  15.0,   ! CLEARANCE: Distance from edge of slab to domain edge {m}, Def: 15.0, #4
+  15.0;   ! ZCLEARANCE: Distance from bottom of slab to domain bottom {m}, Def: 15.0, #5

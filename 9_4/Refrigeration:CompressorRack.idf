@@ -1,0 +1,28 @@
+! Min Fields: 25
+Refrigeration:CompressorRack,
+  ,   ! Name RefList: [DesuperHeatingCoilSources, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  Outdoors,   ! Heat Rejection Location Def: Outdoors, [Outdoors, Zone], #2
+  2.0,   ! Design Compressor Rack COP {W/W}, Def: 2.0, #3
+  ,   ! Compressor Rack COP Function of Temperature Curve Name [UnivariateFunctions], REQ, #4
+  250.0,   ! Design Condenser Fan Power {W}, Def: 250.0, #5
+  ,   ! Condenser Fan Power Function of Temperature Curve Name [UnivariateFunctions], #6
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, EvaporativelyCooled, WaterCooled], #7
+  ,   ! Water-Cooled Condenser Inlet Node Name #8
+  ,   ! Water-Cooled Condenser Outlet Node Name #9
+  VariableFlow,   ! Water-Cooled Loop Flow Type Def: VariableFlow, [VariableFlow, ConstantFlow], #10
+  ,   ! Water-Cooled Condenser Outlet Temperature Schedule Name [ScheduleNames], #11
+  ,   ! Water-Cooled Condenser Design Flow Rate {m3/s}, #12
+  ,   ! Water-Cooled Condenser Maximum Flow Rate {m3/s}, #13
+  55.0,   ! Water-Cooled Condenser Maximum Water Outlet Temperature {C}, Def: 55.0, #14
+  10.0,   ! Water-Cooled Condenser Minimum Water Inlet Temperature {C}, Def: 10.0, #15
+  ,   ! Evaporative Condenser Availability Schedule Name [ScheduleNames], #16
+  0.9,   ! Evaporative Condenser Effectiveness {dimensionless}, Def: 0.9, #17
+  Autocalculate,   ! Evaporative Condenser Air Flow Rate {m3/s}, Def: Autocalculate, AC, #18
+  200.0,   ! Basin Heater Capacity {W/K}, Def: 200.0, #19
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #20
+  1000.0,   ! Design Evaporative Condenser Water Pump Power {W}, Def: 1000.0, AC, #21
+  ,   ! Evaporative Water Supply Tank Name [WaterStorageTankNames], #22
+  ,   ! Condenser Air Inlet Node Name #23
+  General,   ! End-Use Subcategory Def: General, #24
+  ,   ! Refrigeration Case Name or WalkIn Name or CaseAndWalkInList Name [RefrigerationCaseAndWalkInAndListNames], #25
+  ;   ! Heat Rejection Zone Name [ZoneNames], #26

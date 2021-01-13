@@ -1,0 +1,19 @@
+! Min Fields: 7
+Refrigeration:System,
+  ,   ! Name RefList: [RefrigerationSystemNames], REQ, #1
+  ,   ! Refrigerated Case or Walkin or CaseAndWalkInList Name [RefrigerationCaseAndWalkInAndListNames], #2
+  ,   ! Refrigeration Transfer Load or TransferLoad List Name [RefrigerationSecondarySystemAndCascadeCondenserAndTransferLoadListNames], #3
+  ,   ! Refrigeration Condenser Name [RefrigerationAllTypesCondenserNames], REQ, #4
+  ,   ! Compressor or CompressorList Name [RefrigerationCompressorAndListNames], REQ, #5
+  ,   ! Minimum Condensing Temperature {C}, REQ, #6
+  ,   ! Refrigeration System Working Fluid Type [FluidNames], REQ, #7
+  ConstantSuctionTemperature,   ! Suction Temperature Control Type Def: ConstantSuctionTemperature, [FloatSuctionTemperature, ConstantSuctionTemperature], #8
+  ,   ! Mechanical Subcooler Name [RefrigerationSubcoolerNames], #9
+  ,   ! Liquid Suction Heat Exchanger Subcooler Name [RefrigerationSubcoolerNames], #10
+  0.0,   ! Sum UA Suction Piping {W/K}, Def: 0.0, #11
+  ,   ! Suction Piping Zone Name [ZoneNames], #12
+  General,   ! End-Use Subcategory Def: General, #13
+  1,   ! Number of Compressor Stages Def: 1, [1, 2], #14
+  None,   ! Intercooler Type Def: None, [None, Flash Intercooler, Shell-and-Coil Intercooler], #15
+  0.8,   ! Shell-and-Coil Intercooler Effectiveness Def: 0.8, #16
+  ;   ! High-Stage Compressor or CompressorList Name [RefrigerationCompressorAndListNames], #17

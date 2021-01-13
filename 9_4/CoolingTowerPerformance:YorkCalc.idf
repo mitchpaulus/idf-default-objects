@@ -1,0 +1,39 @@
+! Min Fields: 37
+CoolingTowerPerformance:YorkCalc,
+  ,   ! Name RefList: [VariableSpeedTowerCoefficient], REQ, #1
+  ,   ! Minimum Inlet Air Wet-Bulb Temperature {C}, REQ, #2
+  ,   ! Maximum Inlet Air Wet-Bulb Temperature {C}, REQ, #3
+  ,   ! Minimum Range Temperature {deltaC}, REQ, #4
+  ,   ! Maximum Range Temperature {deltaC}, REQ, #5
+  ,   ! Minimum Approach Temperature {deltaC}, REQ, #6
+  ,   ! Maximum Approach Temperature {deltaC}, REQ, #7
+  ,   ! Minimum Water Flow Rate Ratio REQ, #8
+  ,   ! Maximum Water Flow Rate Ratio REQ, #9
+  ,   ! Maximum Liquid to Gas Ratio REQ, #10
+  ,   ! Coefficient 1 REQ, #11
+  ,   ! Coefficient 2 REQ, #12
+  ,   ! Coefficient 3 REQ, #13
+  ,   ! Coefficient 4 REQ, #14
+  ,   ! Coefficient 5 REQ, #15
+  ,   ! Coefficient 6 REQ, #16
+  ,   ! Coefficient 7 REQ, #17
+  ,   ! Coefficient 8 REQ, #18
+  ,   ! Coefficient 9 REQ, #19
+  ,   ! Coefficient 10 REQ, #20
+  ,   ! Coefficient 11 REQ, #21
+  ,   ! Coefficient 12 REQ, #22
+  ,   ! Coefficient 13 REQ, #23
+  ,   ! Coefficient 14 REQ, #24
+  ,   ! Coefficient 15 REQ, #25
+  ,   ! Coefficient 16 REQ, #26
+  ,   ! Coefficient 17 REQ, #27
+  ,   ! Coefficient 18 REQ, #28
+  ,   ! Coefficient 19 REQ, #29
+  ,   ! Coefficient 20 REQ, #30
+  ,   ! Coefficient 21 REQ, #31
+  ,   ! Coefficient 22 REQ, #32
+  ,   ! Coefficient 23 REQ, #33
+  ,   ! Coefficient 24 REQ, #34
+  ,   ! Coefficient 25 REQ, #35
+  ,   ! Coefficient 26 REQ, #36
+  ;   ! Coefficient 27 REQ, #37

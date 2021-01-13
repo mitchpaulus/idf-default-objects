@@ -1,0 +1,14 @@
+! Min Fields: 9
+Fan:OnOff,
+  ,   ! Name RefList: [Fans, FansCVandOnOff, FansOnOff, FansOnOffandVAV, FansCVandOnOffandVAV], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  0.6,   ! Fan Total Efficiency Def: 0.6, #3
+  ,   ! Pressure Rise {Pa}, REQ, #4
+  ,   ! Maximum Flow Rate {m3/s}, AS, #5
+  0.8,   ! Motor Efficiency Def: 0.8, #6
+  1.0,   ! Motor In Airstream Fraction Def: 1.0, #7
+  ,   ! Air Inlet Node Name REQ, #8
+  ,   ! Air Outlet Node Name REQ, #9
+  ,   ! Fan Power Ratio Function of Speed Ratio Curve Name [UnivariateFunctions], #10
+  ,   ! Fan Efficiency Ratio Function of Speed Ratio Curve Name [UnivariateFunctions], #11
+  General;   ! End-Use Subcategory Def: General, #12

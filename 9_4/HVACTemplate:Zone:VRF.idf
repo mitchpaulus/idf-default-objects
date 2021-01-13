@@ -1,0 +1,46 @@
+! Min Fields: 44
+HVACTemplate:Zone:VRF,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Template VRF System Name [CompactHVACSystemVRF], REQ, #2
+  ,   ! Template Thermostat Name [CompactHVACThermostats], #3
+  ,   ! Zone Heating Sizing Factor #4
+  ,   ! Zone Cooling Sizing Factor #5
+  1.0,   ! Rated Total Heating Capacity Sizing Ratio {W/W}, Def: 1.0, #6
+  autosize,   ! Cooling Supply Air Flow Rate {m3/s}, Def: autosize, AS, #7
+  autosize,   ! No Cooling Supply Air Flow Rate {m3/s}, Def: autosize, AS, #8
+  autosize,   ! Heating Supply Air Flow Rate {m3/s}, Def: autosize, AS, #9
+  autosize,   ! No Heating Supply Air Flow Rate {m3/s}, Def: autosize, AS, #10
+  autosize,   ! Cooling Outdoor Air Flow Rate {m3/s}, Def: autosize, AS, #11
+  autosize,   ! Heating Outdoor Air Flow Rate {m3/s}, Def: autosize, AS, #12
+  autosize,   ! No Load Outdoor Air Flow Rate {m3/s}, Def: autosize, AS, #13
+  Flow/Person,   ! Outdoor Air Method Def: Flow/Person, [Flow/Person, Flow/Zone, Flow/Area, Sum, Maximum, DetailedSpecification], #14
+  0.00944,   ! Outdoor Air Flow Rate per Person {m3/s}, Def: 0.00944, #15
+  0.0,   ! Outdoor Air Flow Rate per Zone Floor Area {m3/s-m2}, Def: 0.0, #16
+  0.0,   ! Outdoor Air Flow Rate per Zone {m3/s}, Def: 0.0, #17
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames], #18
+  ,   ! Design Specification Zone Air Distribution Object Name [DesignSpecificationZoneAirDistributionNames], #19
+  ,   ! System Availability Schedule Name [ScheduleNames], #20
+  ,   ! Supply Fan Operating Mode Schedule Name [ScheduleNames], #21
+  BlowThrough,   ! Supply Air Fan placement Def: BlowThrough, [BlowThrough, DrawThrough], #22
+  0.7,   ! Supply Fan Total Efficiency Def: 0.7, #23
+  75,   ! Supply Fan Delta Pressure {Pa}, Def: 75, #24
+  0.9,   ! Supply Fan Motor Efficiency Def: 0.9, #25
+  VariableRefrigerantFlowDX,   ! Cooling Coil Type Def: VariableRefrigerantFlowDX, [VariableRefrigerantFlowDX, None], #26
+  ,   ! Cooling Coil Availability Schedule Name [ScheduleNames], #27
+  autosize,   ! Cooling Coil Gross Rated Total Capacity {W}, Def: autosize, AS, #28
+  autosize,   ! Cooling Coil Gross Rated Sensible Heat Ratio Def: autosize, AS, #29
+  VariableRefrigerantFlowDX,   ! Heat Pump Heating Coil Type Def: VariableRefrigerantFlowDX, [VariableRefrigerantFlowDX, None], #30
+  ,   ! Heat Pump Heating Coil Availability Schedule Name [ScheduleNames], #31
+  autosize,   ! Heat Pump Heating Coil Gross Rated Capacity {W}, Def: autosize, AS, #32
+  0,   ! Zone Terminal Unit On Parasitic Electric Energy Use {W}, Def: 0, #33
+  0,   ! Zone Terminal Unit Off Parasitic Electric Energy Use {W}, Def: 0, #34
+  ,   ! Dedicated Outdoor Air System Name [HVACTemplateDOASSystems], #35
+  SupplyAirTemperature,   ! Zone Cooling Design Supply Air Temperature Input Method Def: SupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference], #36
+  14.0,   ! Zone Cooling Design Supply Air Temperature {C}, Def: 14.0, #37
+  11.11,   ! Zone Cooling Design Supply Air Temperature Difference {deltaC}, Def: 11.11, #38
+  SupplyAirTemperature,   ! Zone Heating Design Supply Air Temperature Input Method Def: SupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference], #39
+  50.0,   ! Zone Heating Design Supply Air Temperature {C}, Def: 50.0, #40
+  30.0,   ! Zone Heating Design Supply Air Temperature Difference {deltaC}, Def: 30.0, #41
+  None,   ! Baseboard Heating Type Def: None, [HotWater, Electric, None], #42
+  ,   ! Baseboard Heating Availability Schedule Name [ScheduleNames], #43
+  autosize;   ! Baseboard Heating Capacity {W}, Def: autosize, AS, #44

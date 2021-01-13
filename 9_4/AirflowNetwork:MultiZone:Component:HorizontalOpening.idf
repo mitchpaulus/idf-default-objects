@@ -1,0 +1,7 @@
+! Min Fields: 5
+AirflowNetwork:MultiZone:Component:HorizontalOpening,
+  ,   ! Name RefList: [SurfaceAirflowLeakageNames], REQ, #1
+  ,   ! Air Mass Flow Coefficient When Opening is Closed {kg/s-m}, REQ, #2
+  .65,   ! Air Mass Flow Exponent When Opening is Closed {dimensionless}, Def: .65, #3
+  90,   ! Sloping Plane Angle {deg}, Def: 90, #4
+  ;   ! Discharge Coefficient {dimensionless}, REQ, #5

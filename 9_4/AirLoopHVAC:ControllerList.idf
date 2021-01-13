@@ -1,0 +1,18 @@
+AirLoopHVAC:ControllerList,
+  ,   ! Name RefList: [ControllerLists], REQ, #1
+  ,   ! Controller 1 Object Type [Controller:WaterCoil, Controller:OutdoorAir], REQ, #2
+  ,   ! Controller 1 Name [AirLoopControllers], REQ, #3
+  ,   ! Controller 2 Object Type [Controller:WaterCoil, Controller:OutdoorAir], #4
+  ,   ! Controller 2 Name [AirLoopControllers], #5
+  ,   ! Controller 3 Object Type [Controller:WaterCoil, Controller:OutdoorAir], #6
+  ,   ! Controller 3 Name [AirLoopControllers], #7
+  ,   ! Controller 4 Object Type [Controller:WaterCoil, Controller:OutdoorAir], #8
+  ,   ! Controller 4 Name [AirLoopControllers], #9
+  ,   ! Controller 5 Object Type [Controller:WaterCoil, Controller:OutdoorAir], #10
+  ,   ! Controller 5 Name [AirLoopControllers], #11
+  ,   ! Controller 6 Object Type [Controller:WaterCoil, Controller:OutdoorAir], #12
+  ,   ! Controller 6 Name [AirLoopControllers], #13
+  ,   ! Controller 7 Object Type [Controller:WaterCoil, Controller:OutdoorAir], #14
+  ,   ! Controller 7 Name [AirLoopControllers], #15
+  ,   ! Controller 8 Object Type [Controller:WaterCoil, Controller:OutdoorAir], #16
+  ;   ! Controller 8 Name [AirLoopControllers], #17

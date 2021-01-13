@@ -1,0 +1,23 @@
+! Min Fields: 18
+CondenserLoop,
+  ,   ! Name RefList: [PlantLoops], REQ, #1
+  Water,   ! Fluid Type Def: Water, [Water, UserDefinedFluidType], #2
+  ,   ! User Defined Fluid Type [FluidAndGlycolNames], #3
+  ,   ! Condenser Equipment Operation Scheme Name [CondenserOperationSchemes], REQ, #4
+  ,   ! Condenser Loop Temperature Setpoint Node Name REQ, #5
+  ,   ! Maximum Loop Temperature {C}, REQ, #6
+  ,   ! Minimum Loop Temperature {C}, REQ, #7
+  ,   ! Maximum Loop Flow Rate {m3/s}, AS, REQ, #8
+  0.0,   ! Minimum Loop Flow Rate {m3/s}, Def: 0.0, #9
+  Autocalculate,   ! Condenser Loop Volume {m3}, Def: Autocalculate, AC, #10
+  ,   ! Condenser Side Inlet Node Name REQ, #11
+  ,   ! Condenser Side Outlet Node Name REQ, #12
+  ,   ! Condenser Side Branch List Name [BranchLists], REQ, #13
+  ,   ! Condenser Side Connector List Name [ConnectorLists], REQ, #14
+  ,   ! Demand Side Inlet Node Name REQ, #15
+  ,   ! Demand Side Outlet Node Name REQ, #16
+  ,   ! Condenser Demand Side Branch List Name [BranchLists], REQ, #17
+  ,   ! Condenser Demand Side Connector List Name [ConnectorLists], REQ, #18
+  SequentialLoad,   ! Load Distribution Scheme Def: SequentialLoad, [Optimal, SequentialLoad, UniformLoad, UniformPLR, SequentialUniformPLR], #19
+  None,   ! Pressure Simulation Type Def: None, [PumpPowerCorrection, LoopFlowCorrection, None], #20
+  2.0;   ! Loop Circulation Time {minutes}, Def: 2.0, #21

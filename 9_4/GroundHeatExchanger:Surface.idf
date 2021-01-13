@@ -1,0 +1,11 @@
+GroundHeatExchanger:Surface,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Construction Name [ConstructionNames], REQ, #2
+  ,   ! Fluid Inlet Node Name REQ, #3
+  ,   ! Fluid Outlet Node Name REQ, #4
+  ,   ! Hydronic Tubing Inside Diameter {m}, #5
+  ,   ! Number of Tubing Circuits #6
+  ,   ! Hydronic Tube Spacing {m}, #7
+  ,   ! Surface Length {m}, #8
+  ,   ! Surface Width {m}, #9
+  Ground;   ! Lower Surface Environment Def: Ground, [Ground, Exposed], #10

@@ -1,0 +1,6 @@
+! Min Fields: 4
+AirflowNetwork:Distribution:Node,
+  ,   ! Name RefList: [AirflowNetworkNodeAndZoneNames], REQ, #1
+  ,   ! Component Name or Node Name #2
+  Other,   ! Component Object Type or Node Type Def: Other, [AirLoopHVAC:ZoneMixer, AirLoopHVAC:ZoneSplitter, AirLoopHVAC:OutdoorAirSystem, OAMixerOutdoorAirStreamNode, OutdoorAir:NodeList, OutdoorAir:Node, Other], #3
+  0.0;   ! Node Height {m}, Def: 0.0, #4

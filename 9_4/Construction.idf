@@ -1,0 +1,12 @@
+Construction,
+  ,   ! Name RefList: [ConstructionNames], REQ, #1
+  ,   ! Outside Layer [MaterialName], REQ, #2
+  ,   ! Layer 2 [MaterialName], #3
+  ,   ! Layer 3 [MaterialName], #4
+  ,   ! Layer 4 [MaterialName], #5
+  ,   ! Layer 5 [MaterialName], #6
+  ,   ! Layer 6 [MaterialName], #7
+  ,   ! Layer 7 [MaterialName], #8
+  ,   ! Layer 8 [MaterialName], #9
+  ,   ! Layer 9 [MaterialName], #10
+  ;   ! Layer 10 [MaterialName], #11

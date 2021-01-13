@@ -1,0 +1,10 @@
+DemandManager:Lights,
+  ,   ! Name RefList: [DemandManagerNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Limit Control [Off, Fixed], REQ, #3
+  ,   ! Minimum Limit Duration {minutes}, #4
+  ,   ! Maximum Limit Fraction #5
+  ,   ! Limit Step Change #6
+  ,   ! Selection Control [All, RotateMany, RotateOne], REQ, #7
+  ,   ! Rotation Duration {minutes}, #8
+  ;   ! Lights 1 Name [LightsNames], REQ, #9

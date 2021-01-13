@@ -1,0 +1,5 @@
+! Min Fields: 3
+MaterialProperty:HeatAndMoistureTransfer:Settings,
+  ,   ! Material Name [MaterialName], REQ, #1
+  ,   ! Porosity {m3/m3}, REQ, #2
+  0.2;   ! Initial Water Content Ratio {kg/kg}, Def: 0.2, #3

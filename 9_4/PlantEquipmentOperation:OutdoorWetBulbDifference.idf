@@ -1,0 +1,34 @@
+! Min Fields: 5
+PlantEquipmentOperation:OutdoorWetBulbDifference,
+  ,   ! Name RefList: [ControlSchemeList], REQ, #1
+  ,   ! Reference Temperature Node Name REQ, #2
+  ,   ! Wet-Bulb Temperature Difference Range 1 Lower Limit {deltaC}, REQ, #3
+  ,   ! Wet-Bulb Temperature Difference Range 1 Upper Limit {deltaC}, REQ, #4
+  ,   ! Range 1 Equipment List Name [PlantAndCondenserEquipmentLists], REQ, #5
+  ,   ! Wet-Bulb Temperature Difference Range 2 Lower Limit {deltaC}, #6
+  ,   ! Wet-Bulb Temperature Difference Range 2 Upper Limit {deltaC}, #7
+  ,   ! Range 2 Equipment List Name [PlantAndCondenserEquipmentLists], #8
+  ,   ! Wet-Bulb Temperature Difference Range 3 Lower Limit {deltaC}, #9
+  ,   ! Wet-Bulb Temperature Difference Range 3 Upper Limit {deltaC}, #10
+  ,   ! Range 3 Equipment List Name [PlantAndCondenserEquipmentLists], #11
+  ,   ! Wet-Bulb Temperature Difference Range 4 Lower Limit {deltaC}, #12
+  ,   ! Wet-Bulb Temperature Difference Range 4 Upper Limit {deltaC}, #13
+  ,   ! Range 4 Equipment List Name [PlantAndCondenserEquipmentLists], #14
+  ,   ! Wet-Bulb Temperature Difference Range 5 Lower Limit {deltaC}, #15
+  ,   ! Wet-Bulb Temperature Difference Range 5 Upper Limit {deltaC}, #16
+  ,   ! Range 5 Equipment List Name [PlantAndCondenserEquipmentLists], #17
+  ,   ! Wet-Bulb Temperature Difference Range 6 Lower Limit {deltaC}, #18
+  ,   ! Wet-Bulb Temperature Difference Range 6 Upper Limit {deltaC}, #19
+  ,   ! Range 6 Equipment List Name [PlantAndCondenserEquipmentLists], #20
+  ,   ! Wet-Bulb Temperature Difference Range 7 Lower Limit {deltaC}, #21
+  ,   ! Wet-Bulb Temperature Difference Range 7 Upper Limit {deltaC}, #22
+  ,   ! Range 7 Equipment List Name [PlantAndCondenserEquipmentLists], #23
+  ,   ! Wet-Bulb Temperature Difference Range 8 Lower Limit {deltaC}, #24
+  ,   ! Wet-Bulb Temperature Difference Range 8 Upper Limit {deltaC}, #25
+  ,   ! Range 8 Equipment List Name [PlantAndCondenserEquipmentLists], #26
+  ,   ! Wet-Bulb Temperature Difference Range 9 Lower Limit {deltaC}, #27
+  ,   ! Wet-Bulb Temperature Difference Range 9 Upper Limit {deltaC}, #28
+  ,   ! Range 9 Equipment List Name [PlantAndCondenserEquipmentLists], #29
+  ,   ! Wet-Bulb Temperature Difference Range 10 Lower Limit {deltaC}, #30
+  ,   ! Wet-Bulb Temperature Difference Range 10 Upper Limit {deltaC}, #31
+  ;   ! Range 10 Equipment List Name [PlantAndCondenserEquipmentLists], #32

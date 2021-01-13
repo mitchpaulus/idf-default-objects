@@ -1,0 +1,49 @@
+! Min Fields: 43
+Chiller:EngineDriven,
+  ,   ! Name RefList: [Chillers, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, WaterCooled, EvaporativelyCooled], #2
+  ,   ! Nominal Capacity {W}, AS, REQ, #3
+  ,   ! Nominal COP {W/W}, REQ, #4
+  ,   ! Chilled Water Inlet Node Name REQ, #5
+  ,   ! Chilled Water Outlet Node Name REQ, #6
+  ,   ! Condenser Inlet Node Name #7
+  ,   ! Condenser Outlet Node Name #8
+  ,   ! Minimum Part Load Ratio #9
+  ,   ! Maximum Part Load Ratio #10
+  ,   ! Optimum Part Load Ratio #11
+  ,   ! Design Condenser Inlet Temperature {C}, #12
+  ,   ! Temperature Rise Coefficient REQ, #13
+  ,   ! Design Chilled Water Outlet Temperature {C}, #14
+  ,   ! Design Chilled Water Flow Rate {m3/s}, AS, #15
+  ,   ! Design Condenser Water Flow Rate {m3/s}, AS, #16
+  ,   ! Coefficient 1 of Capacity Ratio Curve #17
+  ,   ! Coefficient 2 of Capacity Ratio Curve #18
+  ,   ! Coefficient 3 of Capacity Ratio Curve #19
+  ,   ! Coefficient 1 of Power Ratio Curve #20
+  ,   ! Coefficient 2 of Power Ratio Curve #21
+  ,   ! Coefficient 3 of Power Ratio Curve #22
+  ,   ! Coefficient 1 of Full Load Ratio Curve #23
+  ,   ! Coefficient 2 of Full Load Ratio Curve #24
+  ,   ! Coefficient 3 of Full Load Ratio Curve #25
+  ,   ! Chilled Water Outlet Temperature Lower Limit {C}, #26
+  ,   ! Fuel Use Curve Name [UnivariateFunctions], #27
+  ,   ! Jacket Heat Recovery Curve Name [UnivariateFunctions], #28
+  ,   ! Lube Heat Recovery Curve Name [UnivariateFunctions], #29
+  ,   ! Total Exhaust Energy Curve Name [UnivariateFunctions], #30
+  ,   ! Exhaust Temperature Curve Name [UnivariateFunctions], #31
+  ,   ! Coefficient 1 of U-Factor Times Area Curve #32
+  ,   ! Coefficient 2 of U-Factor Times Area Curve #33
+  ,   ! Maximum Exhaust Flow per Unit of Power Output {(kg/s)/W}, #34
+  ,   ! Design Minimum Exhaust Temperature {C}, #35
+  ,   ! Fuel Type [NaturalGas, Propane, Diesel, Gasoline, FuelOilNo1, FuelOilNo2, OtherFuel1, OtherFuel2], REQ, #36
+  ,   ! Fuel Higher Heating Value {kJ/kg}, #37
+  0.0,   ! Design Heat Recovery Water Flow Rate {m3/s}, Def: 0.0, AS, #38
+  ,   ! Heat Recovery Inlet Node Name #39
+  ,   ! Heat Recovery Outlet Node Name #40
+  NotModulated,   ! Chiller Flow Mode Def: NotModulated, [ConstantFlow, LeavingSetpointModulated, NotModulated], #41
+  60.0,   ! Maximum Temperature for Heat Recovery at Heat Recovery Outlet Node {C}, Def: 60.0, #42
+  1.0,   ! Sizing Factor Def: 1.0, #43
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #44
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #45
+  ,   ! Basin Heater Operating Schedule Name [ScheduleNames], #46
+  ;   ! Condenser Heat Recovery Relative Capacity Fraction #47

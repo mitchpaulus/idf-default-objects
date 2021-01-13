@@ -1,0 +1,8 @@
+! Min Fields: 6
+AirTerminal:DualDuct:ConstantVolume,
+  ,   ! Name RefList: [AirTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Outlet Node Name REQ, #3
+  ,   ! Hot Air Inlet Node Name REQ, #4
+  ,   ! Cold Air Inlet Node Name REQ, #5
+  ;   ! Maximum Air Flow Rate {m3/s}, AS, REQ, #6

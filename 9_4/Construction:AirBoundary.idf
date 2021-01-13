@@ -1,0 +1,7 @@
+Construction:AirBoundary,
+  ,   ! Name RefList: [ConstructionNames], REQ, #1
+  GroupedZones,   ! Solar and Daylighting Method Def: GroupedZones, [GroupedZones, InteriorWindow], #2
+  GroupedZones,   ! Radiant Exchange Method Def: GroupedZones, [GroupedZones, IRTSurface], #3
+  None,   ! Air Exchange Method Def: None, [None, SimpleMixing], #4
+  0.5,   ! Simple Mixing Air Changes per Hour {1/hr}, Def: 0.5, #5
+  ;   ! Simple Mixing Schedule Name [ScheduleNames], #6

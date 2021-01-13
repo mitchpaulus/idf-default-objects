@@ -1,0 +1,15 @@
+! Min Fields: 11
+OtherEquipment,
+  ,   ! Name REQ, #1
+  None,   ! Fuel Type Def: None, [None, Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Diesel, Gasoline, Coal, OtherFuel1, OtherFuel2, Steam, DistrictHeating, DistrictCooling], #2
+  ,   ! Zone or ZoneList Name [ZoneAndZoneListNames], REQ, #3
+  ,   ! Schedule Name [ScheduleNames], REQ, #4
+  EquipmentLevel,   ! Design Level Calculation Method Def: EquipmentLevel, [EquipmentLevel, Watts/Area, Watts/Person, Power/Area, Power/Person], #5
+  ,   ! Design Level {W}, #6
+  ,   ! Power per Zone Floor Area {W/m2}, #7
+  ,   ! Power per Person {W/person}, #8
+  0,   ! Fraction Latent Def: 0, #9
+  0,   ! Fraction Radiant Def: 0, #10
+  0,   ! Fraction Lost Def: 0, #11
+  0.0,   ! Carbon Dioxide Generation Rate {m3/s-W}, Def: 0.0, #12
+  General;   ! End-Use Subcategory Def: General, #13

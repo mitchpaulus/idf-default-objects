@@ -1,0 +1,17 @@
+Curve:QuadraticLinear,
+  ,   ! Name RefList: [BivariateFunctions], REQ, #1
+  ,   ! Coefficient1 Constant REQ, #2
+  ,   ! Coefficient2 x REQ, #3
+  ,   ! Coefficient3 x**2 REQ, #4
+  ,   ! Coefficient4 y REQ, #5
+  ,   ! Coefficient5 x*y REQ, #6
+  ,   ! Coefficient6 x**2*y REQ, #7
+  ,   ! Minimum Value of x REQ, #8
+  ,   ! Maximum Value of x REQ, #9
+  ,   ! Minimum Value of y REQ, #10
+  ,   ! Maximum Value of y REQ, #11
+  ,   ! Minimum Curve Output #12
+  ,   ! Maximum Curve Output #13
+  Dimensionless,   ! Input Unit Type for X Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance], #14
+  Dimensionless,   ! Input Unit Type for Y Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance], #15
+  Dimensionless;   ! Output Unit Type Def: Dimensionless, [Dimensionless, Capacity, Power, Temperature], #16

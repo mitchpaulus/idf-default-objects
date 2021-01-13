@@ -1,0 +1,3 @@
+SurfaceProperty:OtherSideConditionsModel,
+  ,   ! Name RefList: [OSCMNames, OutFaceEnvNames], REQ, #1
+  GapConvectionRadiation;   ! Type of Modeling Def: GapConvectionRadiation, [GapConvectionRadiation, UndergroundPipingSystemSurface, GroundCoupledSurface, ConvectiveUnderwater], #2

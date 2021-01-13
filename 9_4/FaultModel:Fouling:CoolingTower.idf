@@ -1,0 +1,8 @@
+! Min Fields: 6
+FaultModel:Fouling:CoolingTower,
+  ,   ! Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Severity Schedule Name [ScheduleNames], #3
+  ,   ! Cooling Tower Object Type [CoolingTower:SingleSpeed, CoolingTower:TwoSpeed, CoolingTower:VariableSpeed:MERKEL], REQ, #4
+  ,   ! Cooling Tower Object Name [CoolingTowersWithUA], REQ, #5
+  ;   ! Reference UA Reduction Factor {dimensionless}, #6

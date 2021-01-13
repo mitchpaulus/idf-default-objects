@@ -1,0 +1,90 @@
+! Min Fields: 25
+Coil:Heating:DX:VariableSpeed,
+  ,   ! Name RefList: [HeatingCoilsDXVariableSpeed], REQ, #1
+  ,   ! Indoor Air Inlet Node Name REQ, #2
+  ,   ! Indoor Air Outlet Node Name REQ, #3
+  2,   ! Number of Speeds {dimensionless}, Def: 2, #4
+  2,   ! Nominal Speed Level {dimensionless}, Def: 2, #5
+  autosize,   ! Rated Heating Capacity At Selected Nominal Speed Level {W}, Def: autosize, AS, #6
+  autosize,   ! Rated Air Flow Rate At Selected Nominal Speed Level {m3/s}, Def: autosize, AS, #7
+  ,   ! Energy Part Load Fraction Curve Name [UnivariateFunctions], REQ, #8
+  ,   ! Defrost Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #9
+  -8.0,   ! Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}, Def: -8.0, #10
+  ,   ! Outdoor Dry-Bulb Temperature to Turn On Compressor {C}, #11
+  5.0,   ! Maximum Outdoor Dry-Bulb Temperature for Defrost Operation {C}, Def: 5.0, #12
+  0.0,   ! Crankcase Heater Capacity {W}, Def: 0.0, #13
+  10.0,   ! Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater Operation {C}, Def: 10.0, #14
+  ReverseCycle,   ! Defrost Strategy Def: ReverseCycle, [ReverseCycle, Resistive], #15
+  Timed,   ! Defrost Control Def: Timed, [Timed, OnDemand], #16
+  0.058333,   ! Defrost Time Period Fraction Def: 0.058333, #17
+  0.0,   ! Resistive Defrost Heater Capacity {W}, Def: 0.0, AS, #18
+  ,   ! Speed 1 Reference Unit Gross Rated Heating Capacity {W}, REQ, #19
+  ,   ! Speed 1 Reference Unit Gross Rated Heating COP {W/W}, REQ, #20
+  ,   ! Speed 1 Reference Unit Rated Air Flow Rate {m3/s}, REQ, #21
+  ,   ! Speed 1 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #22
+  ,   ! Speed 1 Total  Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], REQ, #23
+  ,   ! Speed 1 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #24
+  ,   ! Speed 1 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], REQ, #25
+  ,   ! Speed 2 Reference Unit Gross Rated Heating Capacity {W}, #26
+  ,   ! Speed 2 Reference Unit Gross Rated Heating COP {W/W}, #27
+  ,   ! Speed 2 Reference Unit Rated Air Flow Rate {m3/s}, #28
+  ,   ! Speed 2 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #29
+  ,   ! Speed 2 Total  Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #30
+  ,   ! Speed 2 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #31
+  ,   ! Speed 2 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #32
+  ,   ! Speed 3 Reference Unit Gross Rated Heating Capacity {W}, #33
+  ,   ! Speed 3 Reference Unit Gross Rated Heating COP {W/W}, #34
+  ,   ! Speed 3 Reference Unit Rated Air Flow Rate {m3/s}, #35
+  ,   ! Speed 3 Heating Capacity Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #36
+  ,   ! Speed 3 Total  Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #37
+  ,   ! Speed 3 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #38
+  ,   ! Speed 3 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #39
+  ,   ! Speed 4 Reference Unit Gross Rated Heating Capacity {W}, #40
+  ,   ! Speed 4 Reference Unit Gross Rated Heating COP {W/W}, #41
+  ,   ! Speed 4 Reference Unit Rated Air Flow Rate {m3/s}, #42
+  ,   ! Speed 4 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #43
+  ,   ! Speed 4 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #44
+  ,   ! Speed 4 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #45
+  ,   ! Speed 4 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #46
+  ,   ! Speed 5 Reference Unit Gross Rated Heating Capacity {W}, #47
+  ,   ! Speed 5 Reference Unit Gross Rated Heating COP {W/W}, #48
+  ,   ! Speed 5 Reference Unit Rated Air Flow Rate {m3/s}, #49
+  ,   ! Speed 5 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #50
+  ,   ! Speed 5 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #51
+  ,   ! Speed 5 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #52
+  ,   ! Speed 5 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #53
+  ,   ! Speed 6 Reference Unit Gross Rated Heating Capacity {W}, #54
+  ,   ! Speed 6 Reference Unit Gross Rated Heating COP {W/W}, #55
+  ,   ! Speed 6 Reference Unit Rated Air Flow Rate {m3/s}, #56
+  ,   ! Speed 6 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #57
+  ,   ! Speed 6 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #58
+  ,   ! Speed 6 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #59
+  ,   ! Speed 6 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #60
+  ,   ! Speed 7 Reference Unit Gross Rated Heating Capacity {W}, #61
+  ,   ! Speed 7 Reference Unit Gross Rated Heating COP {W/W}, #62
+  ,   ! Speed 7 Reference Unit Rated Air Flow Rate {m3/s}, #63
+  ,   ! Speed 7 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #64
+  ,   ! Speed 7 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #65
+  ,   ! Speed 7 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #66
+  ,   ! Speed 7 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #67
+  ,   ! Speed 8 Reference Unit Gross Rated Heating Capacity {W}, #68
+  ,   ! Speed 8 Reference Unit Gross Rated Heating COP {W/W}, #69
+  ,   ! Speed 8 Reference Unit Rated Air Flow Rate {m3/s}, #70
+  ,   ! Speed 8 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #71
+  ,   ! Speed 8 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #72
+  ,   ! Speed 8 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #73
+  ,   ! Speed 8 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #74
+  ,   ! Speed 9 Reference Unit Gross Rated Heating Capacity {W}, #75
+  ,   ! Speed 9 Reference Unit Gross Rated Heating COP {W/W}, #76
+  ,   ! Speed 9 Reference Unit Rated Air Flow Rate {m3/s}, #77
+  ,   ! Speed 9 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #78
+  ,   ! Speed 9 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #79
+  ,   ! Speed 9 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #80
+  ,   ! Speed 9 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #81
+  ,   ! Speed 10 Reference Unit Gross Rated Heating Capacity {W}, #82
+  ,   ! Speed 10 Reference Unit Gross Rated Heating COP {W/W}, #83
+  ,   ! Speed 10 Reference Unit Rated Air Flow Rate {m3/s}, #84
+  ,   ! Speed 10 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #85
+  ,   ! Speed 10 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #86
+  ,   ! Speed 10 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #87
+  ;   ! Speed 10 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #88

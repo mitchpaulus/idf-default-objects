@@ -1,0 +1,5 @@
+SurfaceProperty:SolarIncidentInside,
+  ,   ! Name REQ, #1
+  ,   ! Surface Name [SurfaceNames], REQ, #2
+  ,   ! Construction Name [ConstructionNames], REQ, #3
+  ;   ! Inside Surface Incident Sun Solar Radiation Schedule Name [ScheduleNames], REQ, #4

@@ -1,0 +1,18 @@
+! Min Fields: 12
+ZoneHVAC:Baseboard:RadiantConvective:Water,
+  ,   ! Name RefList: [validBranchEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Inlet Node Name REQ, #3
+  ,   ! Outlet Node Name REQ, #4
+  87.78,   ! Rated Average Water Temperature {C}, Def: 87.78, #5
+  0.063,   ! Rated Water Mass Flow Rate {kg/s}, Def: 0.063, #6
+  HeatingDesignCapacity,   ! Heating Design Capacity Method Def: HeatingDesignCapacity, [HeatingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedHeatingCapacity], #7
+  autosize,   ! Heating Design Capacity {W}, Def: autosize, AS, #8
+  ,   ! Heating Design Capacity Per Floor Area {W/m2}, #9
+  1.0,   ! Fraction of Autosized Heating Design Capacity Def: 1.0, #10
+  ,   ! Maximum Water Flow Rate {m3/s}, AS, REQ, #11
+  0.001,   ! Convergence Tolerance Def: 0.001, #12
+  ,   ! Fraction Radiant REQ, #13
+  ,   ! Fraction of Radiant Energy Incident on People #14
+  ,   ! Surface 1 Name [AllHeatTranSurfNames], #15
+  ;   ! Fraction of Radiant Energy to Surface 1 #16

@@ -1,0 +1,4 @@
+! Min Fields: 2
+Refrigeration:CompressorList,
+  ,   ! Name RefList: [RefrigerationCompressorAndListNames], REQ, #1
+  ;   ! Refrigeration Compressor 1 Name [RefrigerationCompressorNames], REQ, #2

@@ -1,0 +1,7 @@
+WindowMaterial:Gap,
+  ,   ! Name RefList: [CFSGap], REQ, #1
+  ,   ! Thickness {m}, REQ, #2
+  ,   ! Gas (or Gas Mixture) [WindowGasAndGasMixtures], REQ, #3
+  101325,   ! Pressure {Pa}, Def: 101325, #4
+  ,   ! Deflection State [WindowGapDeflectionStates], #5
+  ;   ! Support Pillar [WindowGapSupportPillars], #6

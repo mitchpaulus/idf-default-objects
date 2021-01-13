@@ -1,0 +1,17 @@
+! Min Fields: 3
+WindowMaterial:Gap:EquivalentLayer,
+  ,   ! Name RefList: [WindowEquivalentLayerMaterialNames], REQ, #1
+  ,   ! Gas Type [AIR, ARGON, KRYPTON, XENON, CUSTOM], REQ, #2
+  ,   ! Thickness {m}, REQ, #3
+  ,   ! Gap Vent Type [Sealed, VentedIndoor, VentedOutdoor], REQ, #4
+  ,   ! Conductivity Coefficient A {W/m-K}, #5
+  ,   ! Conductivity Coefficient B {W/m-K2}, #6
+  ,   ! Conductivity Coefficient C {W/m-K3}, #7
+  ,   ! Viscosity Coefficient A {kg/m-s}, #8
+  ,   ! Viscosity Coefficient B {kg/m-s-K}, #9
+  ,   ! Viscosity Coefficient C {kg/m-s-K2}, #10
+  ,   ! Specific Heat Coefficient A {J/kg-K}, #11
+  ,   ! Specific Heat Coefficient B {J/kg-K2}, #12
+  ,   ! Specific Heat Coefficient C {J/kg-K3}, #13
+  ,   ! Molecular Weight {g/mol}, #14
+  ;   ! Specific Heat Ratio #15

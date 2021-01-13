@@ -1,0 +1,6 @@
+! Min Fields: 5
+RoomAirSettings:AirflowNetwork,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Control Point RoomAirflowNetwork:Node Name [RoomAirflowNetworkNodes], #3
+  ;   ! RoomAirflowNetwork:Node Name 1 [RoomAirflowNetworkNodes], #4

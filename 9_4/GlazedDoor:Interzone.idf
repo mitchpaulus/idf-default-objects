@@ -1,0 +1,10 @@
+GlazedDoor:Interzone,
+  ,   ! Name RefList: [SubSurfNames, SurfAndSubSurfNames, AllHeatTranSurfNames, OutFaceEnvNames, AllHeatTranAngFacNames, AllShadingAndHTSurfNames], REQ, #1
+  ,   ! Construction Name [ConstructionNames], REQ, #2
+  ,   ! Building Surface Name [SurfaceNames], REQ, #3
+  ,   ! Outside Boundary Condition Object [OutFaceEnvNames], #4
+  1.0,   ! Multiplier Def: 1.0, #5
+  ,   ! Starting X Coordinate {m}, #6
+  ,   ! Starting Z Coordinate {m}, #7
+  ,   ! Length {m}, #8
+  ;   ! Height {m}, #9

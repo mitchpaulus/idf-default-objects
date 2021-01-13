@@ -1,0 +1,5 @@
+! Min Fields: 1
+CondenserEquipmentList,
+  ,   ! Name RefList: [PlantAndCondenserEquipmentLists, CondenserEquipmentLists], REQ, #1
+  ,   ! Equipment 1 Object Type [validCondenserEquipmentTypes], #2
+  ;   ! Equipment 1 Name [validCondenserEquipmentNames], #3

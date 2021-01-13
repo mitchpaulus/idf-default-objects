@@ -1,0 +1,11 @@
+! Min Fields: 7
+EnergyManagementSystem:MeteredOutputVariable,
+  ,   ! Name REQ, #1
+  ,   ! EMS Variable Name REQ, #2
+  ,   ! Update Frequency [ZoneTimestep, SystemTimestep], REQ, #3
+  ,   ! EMS Program or Subroutine Name #4
+  ,   ! Resource Type [Electricity, NaturalGas, Gasoline, Diesel, Coal, FuelOilNo1, FuelOilNo2, Propane, OtherFuel1, OtherFuel2, WaterUse, OnSiteWaterProduced, MainsWaterSupply, RainWaterCollected, WellWaterDrawn, CondensateWaterCollected, EnergyTransfer, Steam, DistrictCooling, DistrictHeating, ElectricityProducedOnSite, SolarWaterHeating, SolarAirHeating], REQ, #5
+  ,   ! Group Type [Building, HVAC, Plant, System], REQ, #6
+  ,   ! End-Use Category [Heating, Cooling, InteriorLights, ExteriorLights, InteriorEquipment, ExteriorEquipment, Fans, Pumps, HeatRejection, Humidifier, HeatRecovery, WaterSystems, Refrigeration, OnSiteGeneration, HeatingCoils, CoolingCoils, Chillers, Boilers, Baseboard, HeatRecoveryForCooling, HeatRecoveryForHeating], REQ, #7
+  ,   ! End-Use Subcategory #8
+  ;   ! Units #9

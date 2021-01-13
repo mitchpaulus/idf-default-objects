@@ -1,0 +1,8 @@
+! Min Fields: 5
+Curve:Functional:PressureDrop,
+  ,   ! Name RefList: [UnivariateFunctions], REQ, #1
+  ,   ! Diameter {m}, REQ, #2
+  ,   ! Minor Loss Coefficient {dimensionless}, #3
+  ,   ! Length {m}, #4
+  ,   ! Roughness {m}, #5
+  ;   ! Fixed Friction Factor #6

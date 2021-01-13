@@ -1,0 +1,40 @@
+! Min Fields: 16
+CoolingTower:SingleSpeed,
+  ,   ! Name RefList: [CoolingTowers, CoolingTowersWithUA, validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  ,   ! Design Water Flow Rate {m3/s}, AS, #4
+  ,   ! Design Air Flow Rate {m3/s}, AS, REQ, #5
+  ,   ! Design Fan Power {W}, AS, REQ, #6
+  ,   ! Design U-Factor Times Area Value {W/K}, AS, #7
+  0.0,   ! Free Convection Regime Air Flow Rate {m3/s}, Def: 0.0, AC, #8
+  0.1,   ! Free Convection Regime Air Flow Rate Sizing Factor Def: 0.1, #9
+  0.0,   ! Free Convection Regime U-Factor Times Area Value {W/K}, Def: 0.0, AC, #10
+  0.1,   ! Free Convection U-Factor Times Area Value Sizing Factor Def: 0.1, #11
+  UFactorTimesAreaAndDesignWaterFlowRate,   ! Performance Input Method Def: UFactorTimesAreaAndDesignWaterFlowRate, [UFactorTimesAreaAndDesignWaterFlowRate, NominalCapacity], #12
+  1.25,   ! Heat Rejection Capacity and Nominal Capacity Sizing Ratio Def: 1.25, #13
+  ,   ! Nominal Capacity {W}, #14
+  ,   ! Free Convection Capacity {W}, AC, #15
+  0.1,   ! Free Convection Nominal Capacity Sizing Factor Def: 0.1, #16
+  35.0,   ! Design Inlet Air Dry-Bulb Temperature {C}, Def: 35.0, #17
+  25.6,   ! Design Inlet Air Wet-Bulb Temperature {C}, Def: 25.6, #18
+  autosize,   ! Design Approach Temperature {deltaC}, Def: autosize, AS, #19
+  autosize,   ! Design Range Temperature {deltaC}, Def: autosize, AS, #20
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #21
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #22
+  ,   ! Basin Heater Operating Schedule Name [ScheduleNames], #23
+  ,   ! Evaporation Loss Mode [LossFactor, SaturatedExit], #24
+  0.2,   ! Evaporation Loss Factor {percent/K}, Def: 0.2, #25
+  0.008,   ! Drift Loss Percent {percent}, Def: 0.008, #26
+  ,   ! Blowdown Calculation Mode [ConcentrationRatio, ScheduledRate], #27
+  3.0,   ! Blowdown Concentration Ratio Def: 3.0, #28
+  ,   ! Blowdown Makeup Water Usage Schedule Name [ScheduleNames], #29
+  ,   ! Supply Water Storage Tank Name [WaterStorageTankNames], #30
+  ,   ! Outdoor Air Inlet Node Name #31
+  FanCycling,   ! Capacity Control Def: FanCycling, [FanCycling, FluidBypass], #32
+  1,   ! Number of Cells Def: 1, #33
+  MinimalCell,   ! Cell Control Def: MinimalCell, [MinimalCell, MaximalCell], #34
+  0.33,   ! Cell Minimum  Water Flow Rate Fraction Def: 0.33, #35
+  2.5,   ! Cell Maximum Water Flow Rate Fraction Def: 2.5, #36
+  1.0,   ! Sizing Factor Def: 1.0, #37
+  General;   ! End-Use Subcategory Def: General, #38

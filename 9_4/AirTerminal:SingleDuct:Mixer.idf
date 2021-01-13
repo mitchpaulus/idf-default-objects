@@ -1,0 +1,10 @@
+AirTerminal:SingleDuct:Mixer,
+  ,   ! Name RefList: [AirTerminalUnitNames], REQ, #1
+  ,   ! ZoneHVAC Unit Object Type [ZoneHVAC:FourPipeFanCoil, ZoneHVAC:WaterToAirHeatPump, ZoneHVAC:PackagedTerminalAirConditioner, ZoneHVAC:PackagedTerminalHeatPump, ZoneHVAC:TerminalUnit:VariableRefrigerantFlow, ZoneHVAC:UnitVentilator, AirLoopHVAC:UnitarySystem], REQ, #2
+  ,   ! ZoneHVAC Unit Object Name [DOAToZonalUnit], REQ, #3
+  ,   ! Mixer Outlet Node Name REQ, #4
+  ,   ! Mixer Primary Air Inlet Node Name REQ, #5
+  ,   ! Mixer Secondary Air Inlet Node Name REQ, #6
+  ,   ! Mixer Connection Type [InletSide, SupplySide], REQ, #7
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames], #8
+  CurrentOccupancy;   ! Per Person Ventilation Rate Mode Def: CurrentOccupancy, [CurrentOccupancy, DesignOccupancy], #9

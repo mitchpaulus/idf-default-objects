@@ -1,0 +1,20 @@
+AirLoopHVAC:OutdoorAirSystem:EquipmentList,
+  ,   ! Name RefList: [AirLoopOAEquipmentLists], REQ, #1
+  ,   ! Component 1 Object Type [validOASysEquipmentTypes], REQ, #2
+  ,   ! Component 1 Name [validOASysEquipmentNames], REQ, #3
+  ,   ! Component 2 Object Type [validOASysEquipmentTypes], #4
+  ,   ! Component 2 Name [validOASysEquipmentNames], #5
+  ,   ! Component 3 Object Type [validOASysEquipmentTypes], #6
+  ,   ! Component 3 Name [validOASysEquipmentNames], #7
+  ,   ! Component 4 Object Type [validOASysEquipmentTypes], #8
+  ,   ! Component 4 Name [validOASysEquipmentNames], #9
+  ,   ! Component 5 Object Type [validOASysEquipmentTypes], #10
+  ,   ! Component 5 Name [validOASysEquipmentNames], #11
+  ,   ! Component 6 Object Type [validOASysEquipmentTypes], #12
+  ,   ! Component 6 Name [validOASysEquipmentNames], #13
+  ,   ! Component 7 Object Type [validOASysEquipmentTypes], #14
+  ,   ! Component 7 Name [validOASysEquipmentNames], #15
+  ,   ! Component 8 Object Type [validOASysEquipmentTypes], #16
+  ,   ! Component 8 Name [validOASysEquipmentNames], #17
+  ,   ! Component 9 Object Type [validOASysEquipmentTypes], #18
+  ;   ! Component 9 Name [validOASysEquipmentNames], #19

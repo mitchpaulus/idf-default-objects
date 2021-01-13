@@ -1,0 +1,13 @@
+ZoneControl:Thermostat,
+  ,   ! Name RefList: [ZoneControlThermostaticNames], REQ, #1
+  ,   ! Zone or ZoneList Name [ZoneAndZoneListNames], REQ, #2
+  ,   ! Control Type Schedule Name [ScheduleNames], REQ, #3
+  ,   ! Control 1 Object Type [ThermostatSetpoint:SingleHeating, ThermostatSetpoint:SingleCooling, ThermostatSetpoint:SingleHeatingOrCooling, ThermostatSetpoint:DualSetpoint], REQ, #4
+  ,   ! Control 1 Name [ControlTypeNames], REQ, #5
+  ,   ! Control 2 Object Type [ThermostatSetpoint:SingleHeating, ThermostatSetpoint:SingleCooling, ThermostatSetpoint:SingleHeatingOrCooling, ThermostatSetpoint:DualSetpoint], #6
+  ,   ! Control 2 Name [ControlTypeNames], #7
+  ,   ! Control 3 Object Type [ThermostatSetpoint:SingleHeating, ThermostatSetpoint:SingleCooling, ThermostatSetpoint:SingleHeatingOrCooling, ThermostatSetpoint:DualSetpoint], #8
+  ,   ! Control 3 Name [ControlTypeNames], #9
+  ,   ! Control 4 Object Type [ThermostatSetpoint:SingleHeating, ThermostatSetpoint:SingleCooling, ThermostatSetpoint:SingleHeatingOrCooling, ThermostatSetpoint:DualSetpoint], #10
+  ,   ! Control 4 Name [ControlTypeNames], #11
+  0.0;   ! Temperature Difference Between Cutout And Setpoint {deltaC}, Def: 0.0, #12

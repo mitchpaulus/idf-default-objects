@@ -1,0 +1,29 @@
+Coil:Cooling:WaterToAirHeatPump:EquationFit,
+  ,   ! Name RefList: [CoolingCoilsWaterToAirHP, validBranchEquipmentNames, DesuperHeatingWaterOnlySources], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Air Outlet Node Name REQ, #5
+  ,   ! Rated Air Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! Rated Water Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Gross Rated Total Cooling Capacity {W}, AS, REQ, #8
+  ,   ! Gross Rated Sensible Cooling Capacity {W}, AS, REQ, #9
+  ,   ! Gross Rated Cooling COP {W/W}, REQ, #10
+  ,   ! Total Cooling Capacity Coefficient 1 REQ, #11
+  ,   ! Total Cooling Capacity Coefficient 2 REQ, #12
+  ,   ! Total Cooling Capacity Coefficient 3 REQ, #13
+  ,   ! Total Cooling Capacity Coefficient 4 REQ, #14
+  ,   ! Total Cooling Capacity Coefficient 5 REQ, #15
+  ,   ! Sensible Cooling Capacity Coefficient 1 REQ, #16
+  ,   ! Sensible Cooling Capacity Coefficient 2 REQ, #17
+  ,   ! Sensible Cooling Capacity Coefficient 3 REQ, #18
+  ,   ! Sensible Cooling Capacity Coefficient 4 REQ, #19
+  ,   ! Sensible Cooling Capacity Coefficient 5 REQ, #20
+  ,   ! Sensible Cooling Capacity Coefficient 6 REQ, #21
+  ,   ! Cooling Power Consumption Coefficient 1 REQ, #22
+  ,   ! Cooling Power Consumption Coefficient 2 REQ, #23
+  ,   ! Cooling Power Consumption Coefficient 3 REQ, #24
+  ,   ! Cooling Power Consumption Coefficient 4 REQ, #25
+  ,   ! Cooling Power Consumption Coefficient 5 REQ, #26
+  0.0,   ! Nominal Time for Condensate Removal to Begin {s}, Def: 0.0, #27
+  0.0;   ! Ratio of Initial Moisture Evaporation Rate and Steady State Latent Capacity {dimensionless}, Def: 0.0, #28

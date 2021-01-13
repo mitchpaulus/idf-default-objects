@@ -1,0 +1,6 @@
+ConnectorList,
+  ,   ! Name RefList: [ConnectorLists], REQ, #1
+  ,   ! Connector 1 Object Type [Connector:Splitter, Connector:Mixer], REQ, #2
+  ,   ! Connector 1 Name [PlantConnectors], REQ, #3
+  ,   ! Connector 2 Object Type [Connector:Splitter, Connector:Mixer], #4
+  ;   ! Connector 2 Name [PlantConnectors], #5

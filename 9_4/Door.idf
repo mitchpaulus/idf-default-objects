@@ -1,0 +1,9 @@
+Door,
+  ,   ! Name RefList: [SubSurfNames, SurfAndSubSurfNames, AllHeatTranSurfNames, OutFaceEnvNames, AllHeatTranAngFacNames, RadiantSurfaceNames, AllShadingAndHTSurfNames], REQ, #1
+  ,   ! Construction Name [ConstructionNames], REQ, #2
+  ,   ! Building Surface Name [SurfaceNames], REQ, #3
+  1.0,   ! Multiplier Def: 1.0, #4
+  ,   ! Starting X Coordinate {m}, #5
+  ,   ! Starting Z Coordinate {m}, #6
+  ,   ! Length {m}, #7
+  ;   ! Height {m}, #8

@@ -1,0 +1,20 @@
+! Min Fields: 12
+WindowMaterial:ComplexShade,
+  ,   ! Name RefList: [WindowComplexShades], REQ, #1
+  OtherShadingType,   ! Layer Type Def: OtherShadingType, [VenetianHorizontal, VenetianVertical, Woven, Perforated, BSDF, OtherShadingType], #2
+  0.002,   ! Thickness {m}, Def: 0.002, #3
+  1,   ! Conductivity {W/m-K}, Def: 1, #4
+  0,   ! IR Transmittance Def: 0, #5
+  0.84,   ! Front Emissivity Def: 0.84, #6
+  0.84,   ! Back Emissivity Def: 0.84, #7
+  0,   ! Top Opening Multiplier Def: 0, #8
+  0,   ! Bottom Opening Multiplier Def: 0, #9
+  0,   ! Left Side Opening Multiplier Def: 0, #10
+  0,   ! Right Side Opening Multiplier Def: 0, #11
+  0.05,   ! Front Opening Multiplier Def: 0.05, #12
+  0.016,   ! Slat Width {m}, Def: 0.016, #13
+  0.012,   ! Slat Spacing {m}, Def: 0.012, #14
+  0.0006,   ! Slat Thickness {m}, Def: 0.0006, #15
+  90,   ! Slat Angle {deg}, Def: 90, #16
+  160.0,   ! Slat Conductivity {W/m-K}, Def: 160.0, #17
+  0;   ! Slat Curve {m}, Def: 0, #18

@@ -1,0 +1,17 @@
+! Min Fields: 15
+HeatExchanger:AirToAir:FlatPlate,
+  ,   ! Name RefList: [HXAirToAirNames, AFNHeatExchangerNames, validBranchEquipmentNames, validOASysEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Flow Arrangement Type [CounterFlow, ParallelFlow, CrossFlowBothUnmixed], #3
+  Yes,   ! Economizer Lockout Def: Yes, [Yes, No], #4
+  ,   ! Ratio of Supply to Secondary hA Values #5
+  autosize,   ! Nominal Supply Air Flow Rate {m3/s}, Def: autosize, AS, #6
+  ,   ! Nominal Supply Air Inlet Temperature {C}, REQ, #7
+  ,   ! Nominal Supply Air Outlet Temperature {C}, REQ, #8
+  ,   ! Nominal Secondary Air Flow Rate {m3/s}, AS, REQ, #9
+  ,   ! Nominal Secondary Air Inlet Temperature {C}, REQ, #10
+  ,   ! Nominal Electric Power {W}, #11
+  ,   ! Supply Air Inlet Node Name REQ, #12
+  ,   ! Supply Air Outlet Node Name REQ, #13
+  ,   ! Secondary Air Inlet Node Name REQ, #14
+  ;   ! Secondary Air Outlet Node Name REQ, #15

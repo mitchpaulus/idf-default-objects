@@ -1,0 +1,4 @@
+! Min Fields: 2
+AirflowNetwork:Distribution:Component:ConstantPressureDrop,
+  ,   ! Name RefList: [AirflowNetworkComponentNames], REQ, #1
+  ;   ! Pressure Difference Across the Component {Pa}, REQ, #2

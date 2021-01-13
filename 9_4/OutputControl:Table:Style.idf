@@ -1,0 +1,3 @@
+OutputControl:Table:Style,
+  Comma,   ! Column Separator Def: Comma, [Comma, Tab, Fixed, HTML, XML, CommaAndHTML, CommaAndXML, TabAndHTML, XMLandHTML, All], #1
+  None;   ! Unit Conversion Def: None, [None, JtoKWH, JtoMJ, JtoGJ, InchPound], #2

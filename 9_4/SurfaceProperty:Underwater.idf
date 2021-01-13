@@ -1,0 +1,6 @@
+! Min Fields: 3
+SurfaceProperty:Underwater,
+  ,   ! Name RefList: [SurfacePropUnderWaterNames], REQ, #1
+  ,   ! Distance from Surface Centroid to Leading Edge of Boundary Layer {m}, REQ, #2
+  ,   ! Free Stream Water Temperature Schedule {C}, [ScheduleNames], REQ, #3
+  ;   ! Free Stream Water Velocity Schedule {m/s}, [ScheduleNames], #4

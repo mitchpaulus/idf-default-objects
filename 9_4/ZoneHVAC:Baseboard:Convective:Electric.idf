@@ -1,0 +1,9 @@
+! Min Fields: 7
+ZoneHVAC:Baseboard:Convective:Electric,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  HeatingDesignCapacity,   ! Heating Design Capacity Method Def: HeatingDesignCapacity, [HeatingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedHeatingCapacity], #3
+  autosize,   ! Heating Design Capacity {W}, Def: autosize, AS, #4
+  ,   ! Heating Design Capacity Per Floor Area {W/m2}, #5
+  1.0,   ! Fraction of Autosized Heating Design Capacity Def: 1.0, #6
+  1.0;   ! Efficiency Def: 1.0, #7

@@ -1,0 +1,12 @@
+GroundHeatExchanger:Pond,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Fluid Inlet Node Name REQ, #2
+  ,   ! Fluid Outlet Node Name REQ, #3
+  ,   ! Pond Depth {m}, REQ, #4
+  ,   ! Pond Area {m2}, REQ, #5
+  ,   ! Hydronic Tubing Inside Diameter {m}, REQ, #6
+  ,   ! Hydronic Tubing Outside Diameter {m}, REQ, #7
+  ,   ! Hydronic Tubing Thermal Conductivity {W/m-K}, REQ, #8
+  ,   ! Ground Thermal Conductivity {W/m2-K}, REQ, #9
+  ,   ! Number of Tubing Circuits REQ, #10
+  ;   ! Length of Each Tubing Circuit {m}, REQ, #11

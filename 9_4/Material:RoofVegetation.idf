@@ -1,0 +1,21 @@
+! Min Fields: 19
+Material:RoofVegetation,
+  ,   ! Name RefList: [MaterialName], REQ, #1
+  .2,   ! Height of Plants {m}, Def: .2, #2
+  1.0,   ! Leaf Area Index {dimensionless}, Def: 1.0, #3
+  0.22,   ! Leaf Reflectivity {dimensionless}, Def: 0.22, #4
+  0.95,   ! Leaf Emissivity Def: 0.95, #5
+  180.0,   ! Minimum Stomatal Resistance {s/m}, Def: 180.0, #6
+  Green Roof Soil,   ! Soil Layer Name Def: Green Roof Soil, #7
+  MediumRough,   ! Roughness Def: MediumRough, [VeryRough, MediumRough, Rough, Smooth, MediumSmooth, VerySmooth], #8
+  0.1,   ! Thickness {m}, Def: 0.1, #9
+  0.35,   ! Conductivity of Dry Soil {W/m-K}, Def: 0.35, #10
+  1100,   ! Density of Dry Soil {kg/m3}, Def: 1100, #11
+  1200,   ! Specific Heat of Dry Soil {J/kg-K}, Def: 1200, #12
+  .9,   ! Thermal Absorptance Def: .9, #13
+  .70,   ! Solar Absorptance Def: .70, #14
+  .75,   ! Visible Absorptance Def: .75, #15
+  0.3,   ! Saturation Volumetric Moisture Content of the Soil Layer Def: 0.3, #16
+  0.01,   ! Residual Volumetric Moisture Content of the Soil Layer Def: 0.01, #17
+  0.1,   ! Initial Volumetric Moisture Content of the Soil Layer Def: 0.1, #18
+  Advanced;   ! Moisture Diffusion Calculation Method Def: Advanced, [Simple, Advanced], #19

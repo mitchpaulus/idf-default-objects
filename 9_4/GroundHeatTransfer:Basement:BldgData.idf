@@ -1,0 +1,6 @@
+GroundHeatTransfer:Basement:BldgData,
+  0.2,   ! DWALL: Wall thickness {m}, Def: 0.2, #1
+  0.1,   ! DSLAB: Floor slab thickness {m}, Def: 0.1, #2
+  0.3,   ! DGRAVXY: Width of gravel pit beside basement wall {m}, Def: 0.3, #3
+  0.2,   ! DGRAVZN: Gravel depth extending above the floor slab {m}, Def: 0.2, #4
+  0.1;   ! DGRAVZP: Gravel depth below the floor slab {m}, Def: 0.1, #5

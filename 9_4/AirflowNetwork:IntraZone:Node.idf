@@ -1,0 +1,6 @@
+! Min Fields: 2
+AirflowNetwork:IntraZone:Node,
+  ,   ! Name RefList: [AirflowNetworkNodeNames], REQ, #1
+  ,   ! RoomAir:Node:AirflowNetwork Name [RoomAirflowNetworkNodes], REQ, #2
+  ,   ! Zone Name [AirFlowNetworkMultizoneZones], REQ, #3
+  0.0;   ! Node Height {m}, Def: 0.0, #4

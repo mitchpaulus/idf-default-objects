@@ -1,0 +1,6 @@
+ZoneControl:Thermostat:OperativeTemperature,
+  ,   ! Thermostat Name [ZoneControlThermostaticNames], REQ, #1
+  ,   ! Radiative Fraction Input Mode [Constant, Scheduled], REQ, #2
+  ,   ! Fixed Radiative Fraction #3
+  ,   ! Radiative Fraction Schedule Name [ScheduleNames], #4
+  None;   ! Adaptive Comfort Model Type Def: None, [None, AdaptiveASH55CentralLine, AdaptiveASH5580PercentUpperLine, AdaptiveASH5590PercentUpperLine, AdaptiveCEN15251CentralLine, AdaptiveCEN15251CategoryIUpperLine, AdaptiveCEN15251CategoryIIUpperLine, AdaptiveCEN15251CategoryIIIUpperLine], #5

@@ -1,0 +1,41 @@
+! Min Fields: 39
+HVACTemplate:System:VRF,
+  ,   ! Name RefList: [CompactHVACSystemVRF, HVACTemplateSystems], REQ, #1
+  ,   ! System Availability Schedule Name [ScheduleNames], #2
+  autosize,   ! Gross Rated Total Cooling Capacity {W}, Def: autosize, AS, #3
+  3.3,   ! Gross Rated Cooling COP {W/W}, Def: 3.3, #4
+  -6.0,   ! Minimum Outdoor Temperature in Cooling Mode {C}, Def: -6.0, #5
+  43.0,   ! Maximum Outdoor Temperature in Cooling Mode {C}, Def: 43.0, #6
+  autosize,   ! Gross Rated Heating Capacity {W}, Def: autosize, AS, #7
+  1.0,   ! Rated Heating Capacity Sizing Ratio {W/W}, Def: 1.0, #8
+  3.4,   ! Gross Rated Heating COP {W/W}, Def: 3.4, #9
+  -20.0,   ! Minimum Outdoor Temperature in Heating Mode {C}, Def: -20.0, #10
+  16.0,   ! Maximum Outdoor Temperature in Heating Mode {C}, Def: 16.0, #11
+  0.15,   ! Minimum Heat Pump Part-Load Ratio {dimensionless}, Def: 0.15, #12
+  ,   ! Zone Name for Master Thermostat Location [ZoneNames], #13
+  MasterThermostatPriority,   ! Master Thermostat Priority Control Type Def: MasterThermostatPriority, [LoadPriority, ZonePriority, ThermostatOffsetPriority, MasterThermostatPriority, Scheduled], #14
+  ,   ! Thermostat Priority Schedule Name [ScheduleNames], #15
+  No,   ! Heat Pump Waste Heat Recovery Def: No, [No, Yes], #16
+  30.0,   ! Equivalent Piping Length used for Piping Correction Factor in Cooling Mode {m}, Def: 30.0, #17
+  10.0,   ! Vertical Height used for Piping Correction Factor {m}, Def: 10.0, #18
+  30.0,   ! Equivalent Piping Length used for Piping Correction Factor in Heating Mode {m}, Def: 30.0, #19
+  33.0,   ! Crankcase Heater Power per Compressor {W}, Def: 33.0, #20
+  2,   ! Number of Compressors {dimensionless}, Def: 2, #21
+  0.5,   ! Ratio of Compressor Size to Total Compressor Capacity {W/W}, Def: 0.5, #22
+  5.0,   ! Maximum Outdoor Dry-bulb Temperature for Crankcase Heater {C}, Def: 5.0, #23
+  Resistive,   ! Defrost Strategy Def: Resistive, [ReverseCycle, Resistive], #24
+  Timed,   ! Defrost Control Def: Timed, [Timed, OnDemand], #25
+  0.058333,   ! Defrost Time Period Fraction {dimensionless}, Def: 0.058333, #26
+  autosize,   ! Resistive Defrost Heater Capacity {W}, Def: autosize, AS, #27
+  5.0,   ! Maximum Outdoor Dry-bulb Temperature for Defrost Operation {C}, Def: 5.0, #28
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, EvaporativelyCooled, WaterCooled], #29
+  autosize,   ! Water Condenser Volume Flow Rate {m3/s}, Def: autosize, AS, #30
+  0.9,   ! Evaporative Condenser Effectiveness {dimensionless}, Def: 0.9, #31
+  autosize,   ! Evaporative Condenser Air Flow Rate {m3/s}, Def: autosize, AS, #32
+  0.0,   ! Evaporative Condenser Pump Rated Power Consumption {W}, Def: 0.0, AS, #33
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #34
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #35
+  ,   ! Basin Heater Operating Schedule Name [ScheduleNames], #36
+  Electricity,   ! Fuel Type Def: Electricity, [Electricity, NaturalGas, Propane, Diesel, Gasoline, FuelOilNo1, FuelOilNo2, OtherFuel1, OtherFuel2], #37
+  -15,   ! Minimum Outdoor Temperature in Heat Recovery Mode {C}, Def: -15, #38
+  45;   ! Maximum Outdoor Temperature in Heat Recovery Mode {C}, Def: 45, #39

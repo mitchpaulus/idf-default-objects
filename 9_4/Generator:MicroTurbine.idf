@@ -1,0 +1,41 @@
+! Min Fields: 11
+Generator:MicroTurbine,
+  ,   ! Name RefList: [GeneratorNames, MicroTurbineGeneratorNames, validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Reference Electrical Power Output {W}, REQ, #2
+  0.0,   ! Minimum Full Load Electrical Power Output {W}, Def: 0.0, #3
+  ,   ! Maximum Full Load Electrical Power Output {W}, #4
+  ,   ! Reference Electrical Efficiency Using Lower Heating Value REQ, #5
+  15.0,   ! Reference Combustion Air Inlet Temperature {C}, Def: 15.0, #6
+  0.00638,   ! Reference Combustion Air Inlet Humidity Ratio {kgWater/kgDryAir}, Def: 0.00638, #7
+  0.0,   ! Reference Elevation {m}, Def: 0.0, #8
+  ,   ! Electrical Power Function of Temperature and Elevation Curve Name [BivariateFunctions], REQ, #9
+  ,   ! Electrical Efficiency Function of Temperature Curve Name [UnivariateFunctions], REQ, #10
+  ,   ! Electrical Efficiency Function of Part Load Ratio Curve Name [UnivariateFunctions], REQ, #11
+  NaturalGas,   ! Fuel Type Def: NaturalGas, [NaturalGas, Propane], #12
+  50000,   ! Fuel Higher Heating Value {kJ/kg}, Def: 50000, #13
+  45450,   ! Fuel Lower Heating Value {kJ/kg}, Def: 45450, #14
+  0.0,   ! Standby Power {W}, Def: 0.0, #15
+  0.0,   ! Ancillary Power {W}, Def: 0.0, #16
+  ,   ! Ancillary Power Function of Fuel Input Curve Name [UnivariateFunctions], #17
+  ,   ! Heat Recovery Water Inlet Node Name #18
+  ,   ! Heat Recovery Water Outlet Node Name #19
+  0.0,   ! Reference Thermal Efficiency Using Lower Heat Value Def: 0.0, #20
+  ,   ! Reference Inlet Water Temperature {C}, #21
+  PlantControl,   ! Heat Recovery Water Flow Operating Mode Def: PlantControl, [PlantControl, InternalControl], #22
+  ,   ! Reference Heat Recovery Water Flow Rate {m3/s}, #23
+  ,   ! Heat Recovery Water Flow Rate Function of Temperature and Power Curve Name [BivariateFunctions], #24
+  ,   ! Thermal Efficiency Function of Temperature and Elevation Curve Name [BivariateFunctions], #25
+  ,   ! Heat Recovery Rate Function of Part Load Ratio Curve Name [UnivariateFunctions], #26
+  ,   ! Heat Recovery Rate Function of Inlet Water Temperature Curve Name [UnivariateFunctions], #27
+  ,   ! Heat Recovery Rate Function of Water Flow Rate Curve Name [UnivariateFunctions], #28
+  0.0,   ! Minimum Heat Recovery Water Flow Rate {m3/s}, Def: 0.0, #29
+  0.0,   ! Maximum Heat Recovery Water Flow Rate {m3/s}, Def: 0.0, #30
+  ,   ! Maximum Heat Recovery Water Temperature {C}, #31
+  ,   ! Combustion Air Inlet Node Name #32
+  ,   ! Combustion Air Outlet Node Name #33
+  ,   ! Reference Exhaust Air Mass Flow Rate {kg/s}, #34
+  ,   ! Exhaust Air Flow Rate Function of Temperature Curve Name [UnivariateFunctions], #35
+  ,   ! Exhaust Air Flow Rate Function of Part Load Ratio Curve Name [UnivariateFunctions], #36
+  ,   ! Nominal Exhaust Air Outlet Temperature #37
+  ,   ! Exhaust Air Temperature Function of Temperature Curve Name [UnivariateFunctions], #38
+  ;   ! Exhaust Air Temperature Function of Part Load Ratio Curve Name [UnivariateFunctions], #39

@@ -1,0 +1,9 @@
+! Min Fields: 5
+Refrigeration:Subcooler,
+  ,   ! Name RefList: [RefrigerationSubcoolerNames], REQ, #1
+  LiquidSuction,   ! Subcooler Type Def: LiquidSuction, [Mechanical, LiquidSuction], #2
+  ,   ! Liquid Suction Design Subcooling Temperature Difference {deltaC}, #3
+  ,   ! Design Liquid Inlet Temperature {C}, #4
+  ,   ! Design Vapor Inlet Temperature {C}, #5
+  ,   ! Capacity-Providing System [RefrigerationSystemNames], #6
+  ;   ! Outlet Control Temperature {C}, #7

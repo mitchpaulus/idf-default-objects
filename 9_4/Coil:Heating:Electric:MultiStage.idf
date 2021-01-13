@@ -1,0 +1,15 @@
+Coil:Heating:Electric:MultiStage,
+  ,   ! Name RefList: [HeatingCoilsElectricMultiStage], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Temperature Setpoint Node Name #5
+  ,   ! Number of Stages REQ, #6
+  ,   ! Stage 1 Efficiency {W/W}, REQ, #7
+  ,   ! Stage 1 Nominal Capacity {W}, AS, REQ, #8
+  ,   ! Stage 2 Efficiency {W/W}, #9
+  ,   ! Stage 2 Nominal Capacity {W}, AS, #10
+  ,   ! Stage 3 Efficiency {W/W}, #11
+  ,   ! Stage 3 Nominal Capacity {W}, AS, #12
+  ,   ! Stage 4 Efficiency {W/W}, #13
+  ;   ! Stage 4 Nominal Capacity {W}, AS, #14

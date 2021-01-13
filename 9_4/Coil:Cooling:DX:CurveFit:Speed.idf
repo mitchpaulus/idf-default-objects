@@ -1,0 +1,21 @@
+! Min Fields: 15
+Coil:Cooling:DX:CurveFit:Speed,
+  ,   ! Name RefList: [DXCoolingSpeedNames], REQ, #1
+  ,   ! Gross Total Cooling Capacity Fraction REQ, #2
+  ,   ! Evaporator Air Flow Rate Fraction REQ, #3
+  ,   ! Condenser Air Flow Rate Fraction #4
+  autosize,   ! Gross Sensible Heat Ratio Def: autosize, AS, #5
+  3.0,   ! Gross Cooling COP {W/W}, Def: 3.0, #6
+  1.0,   ! Active Fraction of Coil Face Area Def: 1.0, #7
+  773.3,   ! Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #8
+  1.0,   ! Evaporative Condenser Pump Power Fraction Def: 1.0, #9
+  0.9,   ! Evaporative Condenser Effectiveness {dimensionless}, Def: 0.9, #10
+  ,   ! Total Cooling Capacity Modifier Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #11
+  ,   ! Total Cooling Capacity Modifier Function of Air Flow Fraction Curve Name [UnivariateFunctions], #12
+  ,   ! Energy Input Ratio Modifier Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #13
+  ,   ! Energy Input Ratio Modifier Function of Air Flow Fraction Curve Name [UnivariateFunctions], #14
+  ,   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], #15
+  0.2,   ! Rated Waste Heat Fraction of Power Input {dimensionless}, Def: 0.2, #16
+  ,   ! Waste Heat Modifier Function of Temperature Curve Name [BivariateFunctions], #17
+  ,   ! Sensible Heat Ratio Modifier Function of Temperature Curve Name [BivariateFunctions], #18
+  ;   ! Sensible Heat Ratio Modifier Function of Flow Fraction Curve Name [UnivariateFunctions], #19

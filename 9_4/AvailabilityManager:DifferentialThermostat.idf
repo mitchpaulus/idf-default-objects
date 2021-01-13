@@ -1,0 +1,6 @@
+AvailabilityManager:DifferentialThermostat,
+  ,   ! Name RefList: [SystemAvailabilityManagers], REQ, #1
+  ,   ! Hot Node Name REQ, #2
+  ,   ! Cold Node Name REQ, #3
+  ,   ! Temperature Difference On Limit {deltaC}, REQ, #4
+  ;   ! Temperature Difference Off Limit {deltaC}, #5

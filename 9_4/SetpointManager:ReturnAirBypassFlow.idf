@@ -1,0 +1,6 @@
+! Min Fields: 4
+SetpointManager:ReturnAirBypassFlow,
+  ,   ! Name REQ, #1
+  Flow,   ! Control Variable Def: Flow, [Flow], #2
+  ,   ! HVAC Air Loop Name [AirPrimaryLoops], REQ, #3
+  ;   ! Temperature Setpoint Schedule Name [ScheduleNames], #4

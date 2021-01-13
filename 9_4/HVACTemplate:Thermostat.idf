@@ -1,0 +1,7 @@
+! Min Fields: 5
+HVACTemplate:Thermostat,
+  ,   ! Name RefList: [CompactHVACThermostats], REQ, #1
+  ,   ! Heating Setpoint Schedule Name [ScheduleNames], #2
+  ,   ! Constant Heating Setpoint {C}, #3
+  ,   ! Cooling Setpoint Schedule Name [ScheduleNames], #4
+  ;   ! Constant Cooling Setpoint {C}, #5

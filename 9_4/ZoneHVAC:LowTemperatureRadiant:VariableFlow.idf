@@ -1,0 +1,36 @@
+! Min Fields: 33
+ZoneHVAC:LowTemperatureRadiant:VariableFlow,
+  ,   ! Name RefList: [validBranchEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], #3
+  ,   ! Surface Name or Radiant Surface Group Name [RadiantSurfaceNames, RadiantGroupNames], #4
+  ConvectionOnly,   ! Fluid to Radiant Surface Heat Transfer Model Def: ConvectionOnly, [ConvectionOnly, ISOStandard], #5
+  0.013,   ! Hydronic Tubing Inside Diameter {m}, Def: 0.013, #6
+  0.016,   ! Hydronic Tubing Outside Diameter {m}, Def: 0.016, #7
+  autosize,   ! Hydronic Tubing Length {m}, Def: autosize, AS, #8
+  0.35,   ! Hydronic Tubing Conductivity {W/m-K}, Def: 0.35, #9
+  MeanAirTemperature,   ! Temperature Control Type Def: MeanAirTemperature, [MeanAirTemperature, MeanRadiantTemperature, OperativeTemperature, OutdoorDryBulbTemperature, OutdoorWetBulbTemperature, SurfaceFaceTemperature, SurfaceInteriorTemperature], #10
+  HalfFlowPower,   ! Setpoint Control Type Def: HalfFlowPower, [HalfFlowPower, ZeroFlowPower], #11
+  HeatingDesignCapacity,   ! Heating Design Capacity Method Def: HeatingDesignCapacity, [HeatingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedHeatingCapacity], #12
+  autosize,   ! Heating Design Capacity {W}, Def: autosize, AS, #13
+  ,   ! Heating Design Capacity Per Floor Area {W/m2}, #14
+  1.0,   ! Fraction of Autosized Heating Design Capacity Def: 1.0, #15
+  ,   ! Maximum Hot Water Flow {m3/s}, AS, #16
+  ,   ! Heating Water Inlet Node Name #17
+  ,   ! Heating Water Outlet Node Name #18
+  0.5,   ! Heating Control Throttling Range {deltaC}, Def: 0.5, #19
+  ,   ! Heating Control Temperature Schedule Name [ScheduleNames], #20
+  CoolingDesignCapacity,   ! Cooling Design Capacity Method Def: CoolingDesignCapacity, [None, CoolingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedCoolingCapacity], #21
+  ,   ! Cooling Design Capacity {W}, AS, #22
+  ,   ! Cooling Design Capacity Per Floor Area {W/m2}, #23
+  ,   ! Fraction of Autosized Cooling Design Capacity #24
+  ,   ! Maximum Cold Water Flow {m3/s}, AS, #25
+  ,   ! Cooling Water Inlet Node Name #26
+  ,   ! Cooling Water Outlet Node Name #27
+  0.5,   ! Cooling Control Throttling Range {deltaC}, Def: 0.5, #28
+  ,   ! Cooling Control Temperature Schedule Name [ScheduleNames], #29
+  SimpleOff,   ! Condensation Control Type Def: SimpleOff, [Off, SimpleOff, VariableOff], #30
+  1.0,   ! Condensation Control Dewpoint Offset {C}, Def: 1.0, #31
+  OnePerSurface,   ! Number of Circuits Def: OnePerSurface, [OnePerSurface, CalculateFromCircuitLength], #32
+  106.7,   ! Circuit Length {m}, Def: 106.7, #33
+  ;   ! Changeover Delay Time Period Schedule [ScheduleNames], #34

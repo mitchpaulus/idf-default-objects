@@ -1,0 +1,16 @@
+! Min Fields: 11
+AirTerminal:SingleDuct:VAV:HeatAndCool:Reheat,
+  ,   ! Name RefList: [AirTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Damper Air Outlet Node Name REQ, #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Maximum Air Flow Rate {m3/s}, AS, REQ, #5
+  ,   ! Zone Minimum Air Flow Fraction REQ, #6
+  ,   ! Reheat Coil Object Type [Coil:Heating:Water, Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam], REQ, #7
+  ,   ! Reheat Coil Name [HeatingCoilName], REQ, #8
+  ,   ! Maximum Hot Water or Steam Flow Rate {m3/s}, AS, #9
+  0.0,   ! Minimum Hot Water or Steam Flow Rate {m3/s}, Def: 0.0, #10
+  ,   ! Air Outlet Node Name REQ, #11
+  0.001,   ! Convergence Tolerance Def: 0.001, #12
+  ,   ! Maximum Reheat Air Temperature {C}, #13
+  ;   ! Minimum Air Flow Turndown Schedule Name [ScheduleNames], #14

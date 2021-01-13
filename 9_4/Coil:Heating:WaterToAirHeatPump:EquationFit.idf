@@ -1,0 +1,20 @@
+Coil:Heating:WaterToAirHeatPump:EquationFit,
+  ,   ! Name RefList: [HeatingCoilsWaterToAirHP, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Air Outlet Node Name REQ, #5
+  ,   ! Rated Air Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! Rated Water Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Gross Rated Heating Capacity {W}, AS, REQ, #8
+  ,   ! Gross Rated Heating COP {W/W}, REQ, #9
+  ,   ! Heating Capacity Coefficient 1 REQ, #10
+  ,   ! Heating Capacity Coefficient 2 REQ, #11
+  ,   ! Heating Capacity Coefficient 3 REQ, #12
+  ,   ! Heating Capacity Coefficient 4 REQ, #13
+  ,   ! Heating Capacity Coefficient 5 REQ, #14
+  ,   ! Heating Power Consumption Coefficient 1 REQ, #15
+  ,   ! Heating Power Consumption Coefficient 2 REQ, #16
+  ,   ! Heating Power Consumption Coefficient 3 REQ, #17
+  ,   ! Heating Power Consumption Coefficient 4 REQ, #18
+  ;   ! Heating Power Consumption Coefficient 5 REQ, #19

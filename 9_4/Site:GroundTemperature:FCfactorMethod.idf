@@ -1,0 +1,14 @@
+! Min Fields: 12
+Site:GroundTemperature:FCfactorMethod,
+  13,   ! January Ground Temperature {C}, Def: 13, #1
+  13,   ! February Ground Temperature {C}, Def: 13, #2
+  13,   ! March Ground Temperature {C}, Def: 13, #3
+  13,   ! April Ground Temperature {C}, Def: 13, #4
+  13,   ! May Ground Temperature {C}, Def: 13, #5
+  13,   ! June Ground Temperature {C}, Def: 13, #6
+  13,   ! July Ground Temperature {C}, Def: 13, #7
+  13,   ! August Ground Temperature {C}, Def: 13, #8
+  13,   ! September Ground Temperature {C}, Def: 13, #9
+  13,   ! October Ground Temperature {C}, Def: 13, #10
+  13,   ! November Ground Temperature {C}, Def: 13, #11
+  13;   ! December Ground Temperature {C}, Def: 13, #12

@@ -1,0 +1,9 @@
+! Min Fields: 4
+ZoneHVAC:AirDistributionUnit,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Air Distribution Unit Outlet Node Name REQ, #2
+  ,   ! Air Terminal Object Type [AirTerminal:DualDuct:ConstantVolume, AirTerminal:DualDuct:VAV, AirTerminal:SingleDuct:ConstantVolume:Reheat, AirTerminal:SingleDuct:ConstantVolume:NoReheat, AirTerminal:SingleDuct:ConstantVolume:FourPipeBeam, AirTerminal:SingleDuct:VAV:Reheat, AirTerminal:SingleDuct:VAV:NoReheat, AirTerminal:SingleDuct:SeriesPIU:Reheat, AirTerminal:SingleDuct:ParallelPIU:Reheat, AirTerminal:SingleDuct:ConstantVolume:FourPipeInduction, AirTerminal:SingleDuct:VAV:Reheat:VariableSpeedFan, AirTerminal:SingleDuct:VAV:HeatAndCool:Reheat, AirTerminal:SingleDuct:VAV:HeatAndCool:NoReheat, AirTerminal:SingleDuct:ConstantVolume:CooledBeam, AirTerminal:DualDuct:VAV:OutdoorAir, AirTerminal:SingleDuct:UserDefined, AirTerminal:SingleDuct:Mixer], REQ, #3
+  ,   ! Air Terminal Name [AirTerminalUnitNames], REQ, #4
+  0,   ! Nominal Upstream Leakage Fraction Def: 0, #5
+  0,   ! Constant Downstream Leakage Fraction Def: 0, #6
+  ;   ! Design Specification Air Terminal Sizing Object Name [DesignSpecificationAirTerminalSizingName], #7

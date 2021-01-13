@@ -1,0 +1,6 @@
+PerformancePrecisionTradeoffs,
+  No,   ! Use Coil Direct Solutions Def: No, [Yes, No], #1
+  ScriptF,   ! Zone Radiant Exchange Algorithm Def: ScriptF, [ScriptF, CarrollMRT], #2
+  Normal,   ! Override Mode Def: Normal, [Normal, Mode01, Mode02, Mode03, Mode04, Mode05, Mode06, Mode07, Advanced], #3
+  0.3,   ! MaxZoneTempDiff Def: 0.3, #4
+  0.002;   ! MaxAllowedDelTemp Def: 0.002, #5

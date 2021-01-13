@@ -1,0 +1,108 @@
+! Min Fields: 89
+Coil:Cooling:DX:SingleSpeed:ThermalStorage,
+  ,   ! Name RefList: [CoolingCoilsDX, CoolingCoilsDXSingleSpeed, CoolingCoilsDXMultiModeOrSingleSpeed, AFNCoilNames, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Operating Mode Control Method [ScheduledModes, EMSControlled], REQ, #3
+  ,   ! Operation Mode Control Schedule Name [ScheduleNames], #4
+  ,   ! Storage Type [Water, UserDefinedFluidType, Ice], REQ, #5
+  ,   ! User Defined Fluid Type [FluidAndGlycolNames], #6
+  ,   ! Fluid Storage Volume {m3}, AC, #7
+  ,   ! Ice Storage Capacity {GJ}, AC, #8
+  ,   ! Storage Capacity Sizing Factor {hr}, #9
+  ,   ! Storage Tank Ambient Temperature Node Name REQ, #10
+  ,   ! Storage Tank to Ambient U-value Times Area Heat Transfer Coefficient {W/K}, REQ, #11
+  ,   ! Fluid Storage Tank Rating Temperature {C}, #12
+  ,   ! Rated Evaporator Air Flow Rate {m3/s}, AS, REQ, #13
+  ,   ! Evaporator Air Inlet Node Name REQ, #14
+  ,   ! Evaporator Air Outlet Node Name REQ, #15
+  ,   ! Cooling Only Mode Available [Yes, No], REQ, #16
+  ,   ! Cooling Only Mode Rated Total Evaporator Cooling Capacity {W}, AS, #17
+  0.7,   ! Cooling Only Mode Rated Sensible Heat Ratio Def: 0.7, #18
+  3.0,   ! Cooling Only Mode Rated COP {W/W}, Def: 3.0, #19
+  ,   ! Cooling Only Mode Total Evaporator Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #20
+  ,   ! Cooling Only Mode Total Evaporator Cooling Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], #21
+  ,   ! Cooling Only Mode Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #22
+  ,   ! Cooling Only Mode Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #23
+  ,   ! Cooling Only Mode Part Load Fraction Correlation Curve Name [UnivariateFunctions], #24
+  ,   ! Cooling Only Mode Sensible Heat Ratio Function of Temperature Curve Name [BivariateFunctions], #25
+  ,   ! Cooling Only Mode Sensible Heat Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #26
+  ,   ! Cooling And Charge Mode Available [Yes, No], REQ, #27
+  ,   ! Cooling And Charge Mode Rated Total Evaporator Cooling Capacity {W}, AC, #28
+  0.5,   ! Cooling And Charge Mode Capacity Sizing Factor Def: 0.5, #29
+  ,   ! Cooling And Charge Mode Rated Storage Charging Capacity {W}, AC, #30
+  0.5,   ! Cooling And Charge Mode Storage Capacity Sizing Factor Def: 0.5, #31
+  0.7,   ! Cooling And Charge Mode Rated Sensible Heat Ratio Def: 0.7, #32
+  3.0,   ! Cooling And Charge Mode Cooling Rated COP {W/W}, Def: 3.0, #33
+  3.0,   ! Cooling And Charge Mode Charging Rated COP {W/W}, Def: 3.0, #34
+  ,   ! Cooling And Charge Mode Total Evaporator Cooling Capacity Function of Temperature Curve Name [TrivariateFunctions], #35
+  ,   ! Cooling And Charge Mode Total Evaporator Cooling Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], #36
+  ,   ! Cooling And Charge Mode Evaporator Energy Input Ratio Function of Temperature Curve Name [TrivariateFunctions], #37
+  ,   ! Cooling And Charge Mode Evaporator Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #38
+  ,   ! Cooling And Charge Mode Evaporator Part Load Fraction Correlation Curve Name [UnivariateFunctions], #39
+  ,   ! Cooling And Charge Mode Storage Charge Capacity Function of Temperature Curve Name [TrivariateFunctions], #40
+  ,   ! Cooling And Charge Mode Storage Charge Capacity Function of Total Evaporator PLR Curve Name [UnivariateFunctions], #41
+  ,   ! Cooling And Charge Mode Storage Energy Input Ratio Function of Temperature Curve Name [TrivariateFunctions], #42
+  ,   ! Cooling And Charge Mode Storage Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #43
+  ,   ! Cooling And Charge Mode Storage Energy Part Load Fraction Correlation Curve Name [UnivariateFunctions], #44
+  ,   ! Cooling And Charge Mode Sensible Heat Ratio Function of Temperature Curve Name [BivariateFunctions, TrivariateFunctions], #45
+  ,   ! Cooling And Charge Mode Sensible Heat Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #46
+  ,   ! Cooling And Discharge Mode Available [Yes, No], REQ, #47
+  ,   ! Cooling And Discharge Mode Rated Total Evaporator Cooling Capacity {W}, AC, #48
+  1.0,   ! Cooling And Discharge Mode Evaporator Capacity Sizing Factor Def: 1.0, #49
+  ,   ! Cooling And Discharge Mode Rated Storage Discharging Capacity {W}, AC, #50
+  1.0,   ! Cooling And Discharge Mode Storage Discharge Capacity Sizing Factor Def: 1.0, #51
+  0.7,   ! Cooling And Discharge Mode Rated Sensible Heat Ratio Def: 0.7, #52
+  3.0,   ! Cooling And Discharge Mode Cooling Rated COP {W/W}, Def: 3.0, #53
+  3.0,   ! Cooling And Discharge Mode Discharging Rated COP {W/W}, Def: 3.0, #54
+  ,   ! Cooling And Discharge Mode Total Evaporator Cooling Capacity Function of Temperature Curve Name [TrivariateFunctions], #55
+  ,   ! Cooling And Discharge Mode Total Evaporator Cooling Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], #56
+  ,   ! Cooling And Discharge Mode Evaporator Energy Input Ratio Function of Temperature Curve Name [TrivariateFunctions], #57
+  ,   ! Cooling And Discharge Mode Evaporator Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #58
+  ,   ! Cooling And Discharge Mode Evaporator Part Load Fraction Correlation Curve Name [UnivariateFunctions], #59
+  ,   ! Cooling And Discharge Mode Storage Discharge Capacity Function of Temperature Curve Name [TrivariateFunctions], #60
+  ,   ! Cooling And Discharge Mode Storage Discharge Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], #61
+  ,   ! Cooling And Discharge Mode Storage Discharge Capacity Function of Total Evaporator PLR Curve Name [UnivariateFunctions], #62
+  ,   ! Cooling And Discharge Mode Storage Energy Input Ratio Function of Temperature Curve Name [TrivariateFunctions], #63
+  ,   ! Cooling And Discharge Mode Storage Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #64
+  ,   ! Cooling And Discharge Mode Storage Energy Part Load Fraction Correlation Curve Name [UnivariateFunctions], #65
+  ,   ! Cooling And Discharge Mode Sensible Heat Ratio Function of Temperature Curve Name [BivariateFunctions, TrivariateFunctions], #66
+  ,   ! Cooling And Discharge Mode Sensible Heat Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #67
+  ,   ! Charge Only Mode Available [Yes, No], REQ, #68
+  ,   ! Charge Only Mode Rated Storage Charging Capacity {W}, AC, #69
+  1.0,   ! Charge Only Mode Capacity Sizing Factor Def: 1.0, #70
+  3.0,   ! Charge Only Mode Charging Rated COP {W/W}, Def: 3.0, #71
+  ,   ! Charge Only Mode Storage Charge Capacity Function of Temperature Curve Name [BivariateFunctions], #72
+  ,   ! Charge Only Mode Storage Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #73
+  ,   ! Discharge Only Mode Available [Yes, No], REQ, #74
+  ,   ! Discharge Only Mode Rated Storage Discharging Capacity {W}, AC, #75
+  1.0,   ! Discharge Only Mode Capacity Sizing Factor Def: 1.0, #76
+  ,   ! Discharge Only Mode Rated Sensible Heat Ratio #77
+  3.0,   ! Discharge Only Mode Rated COP {W/W}, Def: 3.0, #78
+  ,   ! Discharge Only Mode Storage Discharge Capacity Function of Temperature Curve Name [BivariateFunctions], #79
+  ,   ! Discharge Only Mode Storage Discharge Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], #80
+  ,   ! Discharge Only Mode Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #81
+  ,   ! Discharge Only Mode Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #82
+  ,   ! Discharge Only Mode Part Load Fraction Correlation Curve Name [UnivariateFunctions], #83
+  ,   ! Discharge Only Mode Sensible Heat Ratio Function of Temperature Curve Name [BivariateFunctions, TrivariateFunctions], #84
+  ,   ! Discharge Only Mode Sensible Heat Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #85
+  ,   ! Ancillary Electric Power {W}, #86
+  ,   ! Cold Weather Operation Minimum Outdoor Air Temperature {C}, #87
+  ,   ! Cold Weather Operation Ancillary Power {W}, #88
+  ,   ! Condenser Air Inlet Node Name REQ, #89
+  ,   ! Condenser Air Outlet Node Name REQ, #90
+  ,   ! Condenser Design Air Flow Rate {m3/s}, AC, REQ, #91
+  1.0,   ! Condenser Air Flow Sizing Factor Def: 1.0, #92
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, EvaporativelyCooled], #93
+  0.7,   ! Evaporative Condenser Effectiveness {dimensionless}, Def: 0.7, #94
+  0.0,   ! Evaporative Condenser Pump Rated Power Consumption {W}, Def: 0.0, AS, #95
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #96
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #97
+  ,   ! Basin Heater Availability Schedule Name [ScheduleNames], #98
+  ,   ! Supply Water Storage Tank Name [WaterStorageTankNames], #99
+  ,   ! Condensate Collection Water Storage Tank Name [WaterStorageTankNames], #100
+  ,   ! Storage Tank Plant Connection Inlet Node Name #101
+  ,   ! Storage Tank Plant Connection Outlet Node Name #102
+  ,   ! Storage Tank Plant Connection Design Flow Rate {m3/s}, #103
+  0.7,   ! Storage Tank Plant Connection Heat Transfer Effectiveness Def: 0.7, #104
+  ,   ! Storage Tank Minimum Operating Limit Fluid Temperature {C}, #105
+  ;   ! Storage Tank Maximum Operating Limit Fluid Temperature {C}, #106

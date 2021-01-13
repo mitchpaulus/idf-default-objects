@@ -1,0 +1,14 @@
+! Min Fields: 7
+HVACTemplate:Plant:Boiler,
+  ,   ! Name REQ, #1
+  ,   ! Boiler Type [DistrictHotWater, HotWaterBoiler, CondensingHotWaterBoiler], REQ, #2
+  autosize,   ! Capacity {W}, Def: autosize, AS, #3
+  0.8,   ! Efficiency Def: 0.8, #4
+  ,   ! Fuel Type [Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Coal, Diesel, Gasoline, OtherFuel1, OtherFuel2], #5
+  ,   ! Priority #6
+  1.0,   ! Sizing Factor Def: 1.0, #7
+  0.0,   ! Minimum Part Load Ratio Def: 0.0, #8
+  1.1,   ! Maximum Part Load Ratio Def: 1.1, #9
+  1.0,   ! Optimum Part Load Ratio Def: 1.0, #10
+  100.0,   ! Water Outlet Upper Temperature Limit {C}, Def: 100.0, #11
+  ;   ! Template Plant Loop Type [HotWater, MixedWater], #12

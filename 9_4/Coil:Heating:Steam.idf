@@ -1,0 +1,12 @@
+Coil:Heating:Steam,
+  ,   ! Name RefList: [HeatingCoilName, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Maximum Steam Flow Rate {m3/s}, AS, #3
+  ,   ! Degree of SubCooling {C}, #4
+  20.0,   ! Degree of Loop SubCooling {C}, Def: 20.0, #5
+  ,   ! Water Inlet Node Name REQ, #6
+  ,   ! Water Outlet Node Name REQ, #7
+  ,   ! Air Inlet Node Name REQ, #8
+  ,   ! Air Outlet Node Name REQ, #9
+  ,   ! Coil Control Type [TemperatureSetpointControl, ZoneLoadControl], #10
+  ;   ! Temperature Setpoint Node Name #11

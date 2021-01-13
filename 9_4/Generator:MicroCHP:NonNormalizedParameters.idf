@@ -1,0 +1,28 @@
+Generator:MicroCHP:NonNormalizedParameters,
+  ,   ! Name RefList: [MicroCHPParametersNames], #1
+  ,   ! Maximum Electric Power {W}, #2
+  ,   ! Minimum Electric Power {W}, #3
+  ,   ! Minimum Cooling Water Flow Rate {kg/s}, #4
+  ,   ! Maximum Cooling Water Temperature {C}, #5
+  ,   ! Electrical Efficiency Curve Name [TrivariateFunctions], #6
+  ,   ! Thermal Efficiency Curve Name [TrivariateFunctions], #7
+  ,   ! Cooling Water Flow Rate Mode [PlantControl, InternalControl], #8
+  ,   ! Cooling Water Flow Rate Curve Name [BivariateFunctions], #9
+  ,   ! Air Flow Rate Curve Name [UnivariateFunctions], #10
+  ,   ! Maximum Net Electrical Power Rate of Change {W/s}, #11
+  ,   ! Maximum Fuel Flow Rate of Change {kg/s2}, #12
+  ,   ! Heat Exchanger U-Factor Times Area Value {W/K}, #13
+  ,   ! Skin Loss U-Factor Times Area Value {W/K}, #14
+  ,   ! Skin Loss Radiative Fraction #15
+  ,   ! Aggregated Thermal Mass of Energy Conversion Portion of Generator {W/K}, #16
+  ,   ! Aggregated Thermal Mass of Heat Recovery Portion of Generator {W/K}, #17
+  ,   ! Standby Power {W}, #18
+  ,   ! Warm Up Mode [NominalEngineTemperature, TimeDelay], #19
+  ,   ! Warm Up Fuel Flow Rate Coefficient #20
+  ,   ! Nominal Engine Operating Temperature {C}, #21
+  ,   ! Warm Up Power Coefficient #22
+  ,   ! Warm Up Fuel Flow Rate Limit Ratio #23
+  ,   ! Warm Up Delay Time {s}, #24
+  ,   ! Cool Down Power {W}, #25
+  ,   ! Cool Down Delay Time {s}, #26
+  ;   ! Restart Mode [MandatoryCoolDown, OptionalCoolDown], #27

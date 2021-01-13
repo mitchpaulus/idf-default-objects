@@ -1,0 +1,25 @@
+Coil:Cooling:Water:DetailedGeometry,
+  ,   ! Name RefList: [CoolingCoilName, CoolingCoilsWater, CoolingCoilsWaterNoHX, AFNCoilNames, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  autosize,   ! Maximum Water Flow Rate {m3/s}, Def: autosize, AS, #3
+  autosize,   ! Tube Outside Surface Area {m2}, Def: autosize, AS, #4
+  autosize,   ! Total Tube Inside Area {m2}, Def: autosize, AS, #5
+  autosize,   ! Fin Surface Area {m2}, Def: autosize, AS, #6
+  autosize,   ! Minimum Airflow Area {m2}, Def: autosize, AS, #7
+  autosize,   ! Coil Depth {m}, Def: autosize, AS, #8
+  autosize,   ! Fin Diameter {m}, Def: autosize, AS, #9
+  .0015,   ! Fin Thickness {m}, Def: .0015, #10
+  .01445,   ! Tube Inside Diameter {m}, Def: .01445, #11
+  .0159,   ! Tube Outside Diameter {m}, Def: .0159, #12
+  386.0,   ! Tube Thermal Conductivity {W/m-K}, Def: 386.0, #13
+  204.0,   ! Fin Thermal Conductivity {W/m-K}, Def: 204.0, #14
+  .0018,   ! Fin Spacing {m}, Def: .0018, #15
+  .026,   ! Tube Depth Spacing {m}, Def: .026, #16
+  4,   ! Number of Tube Rows Def: 4, #17
+  autosize,   ! Number of Tubes per Row Def: autosize, AS, #18
+  ,   ! Water Inlet Node Name REQ, #19
+  ,   ! Water Outlet Node Name REQ, #20
+  ,   ! Air Inlet Node Name REQ, #21
+  ,   ! Air Outlet Node Name REQ, #22
+  ,   ! Condensate Collection Water Storage Tank Name [WaterStorageTankNames], #23
+  ;   ! Design Water Temperature Difference {deltaC}, #24

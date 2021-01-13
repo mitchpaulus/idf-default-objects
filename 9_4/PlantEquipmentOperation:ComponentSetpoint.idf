@@ -1,0 +1,63 @@
+! Min Fields: 7
+PlantEquipmentOperation:ComponentSetpoint,
+  ,   ! Name RefList: [ControlSchemeList], REQ, #1
+  ,   ! Equipment 1 Object Type REQ, #2
+  ,   ! Equipment 1 Name REQ, #3
+  ,   ! Demand Calculation 1 Node Name REQ, #4
+  ,   ! Setpoint 1 Node Name REQ, #5
+  ,   ! Component 1 Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! Operation 1 Type [Heating, Cooling, Dual], REQ, #7
+  ,   ! Equipment 2 Object Type #8
+  ,   ! Equipment 2 Name #9
+  ,   ! Demand Calculation 2 Node Name #10
+  ,   ! Setpoint 2 Node Name #11
+  ,   ! Component 2 Flow Rate {m3/s}, AS, #12
+  ,   ! Operation 2 Type [Heating, Cooling, Dual], #13
+  ,   ! Equipment 3 Object Type #14
+  ,   ! Equipment 3 Name #15
+  ,   ! Demand Calculation 3 Node Name #16
+  ,   ! Setpoint 3 Node Name #17
+  ,   ! Component 3 Flow Rate {m3/s}, AS, #18
+  ,   ! Operation 3 Type [Heating, Cooling, Dual], #19
+  ,   ! Equipment 4 Object Type #20
+  ,   ! Equipment 4 Name #21
+  ,   ! Demand Calculation 4 Node Name #22
+  ,   ! Setpoint 4 Node Name #23
+  ,   ! Component 4 Flow Rate {m3/s}, AS, #24
+  ,   ! Operation 4 Type [Heating, Cooling, Dual], #25
+  ,   ! Equipment 5 Object Type #26
+  ,   ! Equipment 5 Name #27
+  ,   ! Demand Calculation 5 Node Name #28
+  ,   ! Setpoint 5 Node Name #29
+  ,   ! Component 5 Flow Rate {m3/s}, AS, #30
+  ,   ! Operation 5 Type [Heating, Cooling, Dual], #31
+  ,   ! Equipment 6 Object Type #32
+  ,   ! Equipment 6 Name #33
+  ,   ! Demand Calculation 6 Node Name #34
+  ,   ! Setpoint 6 Node Name #35
+  ,   ! Component 6 Flow Rate {m3/s}, AS, #36
+  ,   ! Operation 6 Type [Heating, Cooling, Dual], #37
+  ,   ! Equipment 7 Object Type #38
+  ,   ! Equipment 7 Name #39
+  ,   ! Demand Calculation 7 Node Name #40
+  ,   ! Setpoint 7 Node Name #41
+  ,   ! Component 7 Flow Rate {m3/s}, AS, #42
+  ,   ! Operation 7 Type [Heating, Cooling, Dual], #43
+  ,   ! Equipment 8 Object Type #44
+  ,   ! Equipment 8 Name #45
+  ,   ! Demand Calculation 8 Node Name #46
+  ,   ! Setpoint 8 Node Name #47
+  ,   ! Component 8 Flow Rate {m3/s}, AS, #48
+  ,   ! Operation 8 Type [Heating, Cooling, Dual], #49
+  ,   ! Equipment 9 Object Type #50
+  ,   ! Equipment 9 Name #51
+  ,   ! Demand Calculation 9 Node Name #52
+  ,   ! Setpoint 9 Node Name #53
+  ,   ! Component 9 Flow Rate {m3/s}, AS, #54
+  ,   ! Operation 9 Type [Heating, Cooling, Dual], #55
+  ,   ! Equipment 10 Object Type #56
+  ,   ! Equipment 10 Name #57
+  ,   ! Demand Calculation 10 Node Name #58
+  ,   ! Setpoint 10 Node Name #59
+  ,   ! Component 10 Flow Rate {m3/s}, AS, #60
+  ;   ! Operation 10 Type [Heating, Cooling, Dual], #61

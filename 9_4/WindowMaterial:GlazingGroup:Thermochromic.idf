@@ -1,0 +1,5 @@
+! Min Fields: 3
+WindowMaterial:GlazingGroup:Thermochromic,
+  ,   ! Name RefList: [MaterialName, GlazingMaterialName], REQ, #1
+  ,   ! Optical Data Temperature 1 {C}, REQ, #2
+  ;   ! Window Material Glazing Name 1 [GlazingMaterialName], REQ, #3

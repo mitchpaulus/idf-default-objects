@@ -1,0 +1,7 @@
+! Min Fields: 5
+SetpointManager:MultiZone:Heating:Average,
+  ,   ! Name REQ, #1
+  ,   ! HVAC Air Loop Name [AirPrimaryLoops], REQ, #2
+  20.,   ! Minimum Setpoint Temperature {C}, Def: 20., #3
+  50.,   ! Maximum Setpoint Temperature {C}, Def: 50., #4
+  ;   ! Setpoint Node or NodeList Name REQ, #5

@@ -1,0 +1,22 @@
+MaterialProperty:VariableThermalConductivity,
+  ,   ! Name [MaterialName], REQ, #1
+  ,   ! Temperature 1 {C}, REQ, #2
+  ,   ! Thermal Conductivity 1 {W/m-K}, REQ, #3
+  ,   ! Temperature 2 {C}, REQ, #4
+  ,   ! Thermal Conductivity 2 {W/m-K}, REQ, #5
+  ,   ! Temperature 3 {C}, REQ, #6
+  ,   ! Thermal Conductivity 3 {W/m-K}, REQ, #7
+  ,   ! Temperature 4 {C}, #8
+  ,   ! Thermal Conductivity 4 {W/m-K}, #9
+  ,   ! Temperature 5 {C}, #10
+  ,   ! Thermal Conductivity 5 {W/m-K}, #11
+  ,   ! Temperature 6 {C}, #12
+  ,   ! Thermal Conductivity 6 {W/m-K}, #13
+  ,   ! Temperature 7 {C}, #14
+  ,   ! Thermal Conductivity 7 {W/m-K}, #15
+  ,   ! Temperature 8 {C}, #16
+  ,   ! Thermal Conductivity 8 {W/m-K}, #17
+  ,   ! Temperature 9 {C}, #18
+  ,   ! Thermal Conductivity 9 {W/m-K}, #19
+  ,   ! Temperature 10 {C}, #20
+  ;   ! Thermal Conductivity 10 {W/m-K}, #21

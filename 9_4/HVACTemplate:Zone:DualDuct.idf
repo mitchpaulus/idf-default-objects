@@ -1,0 +1,28 @@
+! Min Fields: 26
+HVACTemplate:Zone:DualDuct,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Template Dual Duct System Name [CompactHVACSystemDualDuct], REQ, #2
+  ,   ! Template Thermostat Name [CompactHVACThermostats], #3
+  autosize,   ! Supply Air Maximum Flow Rate {m3/s}, Def: autosize, AS, #4
+  ,   ! Zone Heating Sizing Factor #5
+  ,   ! Zone Cooling Sizing Factor #6
+  0.2,   ! Zone Minimum Air Flow Fraction Def: 0.2, #7
+  Flow/Person,   ! Outdoor Air Method Def: Flow/Person, [Flow/Person, Flow/Zone, Flow/Area, Sum, Maximum, DetailedSpecification], #8
+  0.00944,   ! Outdoor Air Flow Rate per Person {m3/s}, Def: 0.00944, #9
+  0.0,   ! Outdoor Air Flow Rate per Zone Floor Area {m3/s-m2}, Def: 0.0, #10
+  0.0,   ! Outdoor Air Flow Rate per Zone {m3/s}, Def: 0.0, #11
+  ,   ! Design Specification Outdoor Air Object Name for Sizing [DesignSpecificationOutdoorAirNames], #12
+  ,   ! Design Specification Zone Air Distribution Object Name [DesignSpecificationZoneAirDistributionNames], #13
+  ,   ! Design Specification Outdoor Air Object Name for Control [DesignSpecificationOutdoorAirNames], #14
+  ,   ! Cold Supply Plenum Name [ZoneNames], #15
+  ,   ! Hot Supply Plenum Name [ZoneNames], #16
+  ,   ! Return Plenum Name [ZoneNames], #17
+  None,   ! Baseboard Heating Type Def: None, [HotWater, Electric, None], #18
+  ,   ! Baseboard Heating Availability Schedule Name [ScheduleNames], #19
+  autosize,   ! Baseboard Heating Capacity {W}, Def: autosize, AS, #20
+  SystemSupplyAirTemperature,   ! Zone Cooling Design Supply Air Temperature Input Method Def: SystemSupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference, SystemSupplyAirTemperature], #21
+  12.8,   ! Zone Cooling Design Supply Air Temperature {C}, Def: 12.8, #22
+  11.11,   ! Zone Cooling Design Supply Air Temperature Difference {deltaC}, Def: 11.11, #23
+  SystemSupplyAirTemperature,   ! Zone Heating Design Supply Air Temperature Input Method Def: SystemSupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference, SystemSupplyAirTemperature], #24
+  50.0,   ! Zone Heating Design Supply Air Temperature {C}, Def: 50.0, #25
+  30.0;   ! Zone Heating Design Supply Air Temperature Difference {deltaC}, Def: 30.0, #26

@@ -1,0 +1,5 @@
+Output:JSON,
+  ,   ! Option Type [TimeSeries, TimeSeriesAndTabular], REQ, #1
+  Yes,   ! Output JSON Def: Yes, [Yes, No], #2
+  No,   ! Output CBOR Def: No, [Yes, No], #3
+  No;   ! Output MessagePack Def: No, [Yes, No], #4

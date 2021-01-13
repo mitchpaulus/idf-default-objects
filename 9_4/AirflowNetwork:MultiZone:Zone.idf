@@ -1,0 +1,14 @@
+! Min Fields: 8
+AirflowNetwork:MultiZone:Zone,
+  ,   ! Zone Name RefList: [AirFlowNetworkMultizoneZones], [ZoneNames], REQ, #1
+  NoVent,   ! Ventilation Control Mode Def: NoVent, [Temperature, Enthalpy, Constant, ASHRAE55Adaptive, CEN15251Adaptive, NoVent], #2
+  ,   ! Ventilation Control Zone Temperature Setpoint Schedule Name [ScheduleNames], #3
+  0.0,   ! Minimum Venting Open Factor {dimensionless}, Def: 0.0, #4
+  0.0,   ! Indoor and Outdoor Temperature Difference Lower Limit For Maximum Venting Open Factor {deltaC}, Def: 0.0, #5
+  100.0,   ! Indoor and Outdoor Temperature Difference Upper Limit for Minimum Venting Open Factor {deltaC}, Def: 100.0, #6
+  0.0,   ! Indoor and Outdoor Enthalpy Difference Lower Limit For Maximum Venting Open Factor {deltaJ/kg}, Def: 0.0, #7
+  300000.0,   ! Indoor and Outdoor Enthalpy Difference Upper Limit for Minimum Venting Open Factor {deltaJ/kg}, Def: 300000.0, #8
+  ,   ! Venting Availability Schedule Name [ScheduleNames], #9
+  Standard,   ! Single Sided Wind Pressure Coefficient Algorithm Def: Standard, [Advanced, Standard], #10
+  10.0,   ! Facade Width {m}, Def: 10.0, #11
+  ;   ! Occupant Ventilation Control Name [AirflowNetworkOccupantVentilationControlNames], #12

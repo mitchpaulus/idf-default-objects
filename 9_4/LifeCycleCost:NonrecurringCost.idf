@@ -1,0 +1,7 @@
+LifeCycleCost:NonrecurringCost,
+  ,   ! Name REQ, #1
+  Construction,   ! Category Def: Construction, [Construction, Salvage, OtherCapital], #2
+  ,   ! Cost #3
+  ServicePeriod,   ! Start of Costs Def: ServicePeriod, [ServicePeriod, BasePeriod], #4
+  ,   ! Years from Start #5
+  ;   ! Months from Start #6

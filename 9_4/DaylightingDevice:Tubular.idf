@@ -1,0 +1,11 @@
+! Min Fields: 7
+DaylightingDevice:Tubular,
+  ,   ! Name REQ, #1
+  ,   ! Dome Name [SubSurfNames], REQ, #2
+  ,   ! Diffuser Name [SubSurfNames], REQ, #3
+  ,   ! Construction Name [ConstructionNames], REQ, #4
+  ,   ! Diameter {m}, REQ, #5
+  ,   ! Total Length {m}, REQ, #6
+  0.28,   ! Effective Thermal Resistance {m2-K/W}, Def: 0.28, #7
+  ,   ! Transition Zone 1 Name [ZoneNames], #8
+  ;   ! Transition Zone 1 Length {m}, #9

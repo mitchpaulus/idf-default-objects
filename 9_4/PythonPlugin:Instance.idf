@@ -1,0 +1,6 @@
+! Min Fields: 4
+PythonPlugin:Instance,
+  ,   ! Name REQ, #1
+  No,   ! Run During Warmup Days Def: No, [Yes, No], REQ, #2
+  ,   ! Python Module Name REQ, #3
+  ;   ! Plugin Class Name REQ, #4

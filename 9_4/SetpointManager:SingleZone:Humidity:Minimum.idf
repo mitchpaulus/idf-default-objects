@@ -1,0 +1,4 @@
+SetpointManager:SingleZone:Humidity:Minimum,
+  ,   ! Name REQ, #1
+  ,   ! Setpoint Node or NodeList Name REQ, #2
+  ;   ! Control Zone Air Node Name REQ, #3

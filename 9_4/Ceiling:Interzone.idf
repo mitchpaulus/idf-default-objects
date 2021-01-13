@@ -1,0 +1,12 @@
+Ceiling:Interzone,
+  ,   ! Name RefList: [SurfaceNames, SurfAndSubSurfNames, AllHeatTranSurfNames, OutFaceEnvNames, AllHeatTranAngFacNames, RadiantSurfaceNames, AllShadingAndHTSurfNames], REQ, #1
+  ,   ! Construction Name [ConstructionNames], REQ, #2
+  ,   ! Zone Name [ZoneNames], REQ, #3
+  ,   ! Outside Boundary Condition Object [OutFaceEnvNames], REQ, #4
+  ,   ! Azimuth Angle {deg}, #5
+  0,   ! Tilt Angle {deg}, Def: 0, #6
+  ,   ! Starting X Coordinate {m}, #7
+  ,   ! Starting Y Coordinate {m}, #8
+  ,   ! Starting Z Coordinate {m}, #9
+  ,   ! Length {m}, #10
+  ;   ! Width {m}, #11

@@ -1,0 +1,29 @@
+! Min Fields: 25
+AirLoopHVAC:UnitaryHeatPump:WaterToAir,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Supply Air Flow Rate {m3/s}, AS, REQ, #5
+  ,   ! Controlling Zone or Thermostat Location [ZoneNames], REQ, #6
+  ,   ! Supply Air Fan Object Type [Fan:OnOff], REQ, #7
+  ,   ! Supply Air Fan Name [FansOnOff], REQ, #8
+  ,   ! Heating Coil Object Type [Coil:Heating:WaterToAirHeatPump:ParameterEstimation, Coil:Heating:WaterToAirHeatPump:EquationFit, Coil:Heating:WaterToAirHeatPump:VariableSpeedEquationFit], REQ, #9
+  ,   ! Heating Coil Name [HeatingCoilsWaterToAirHP, HeatingCoilsWaterToAirVSHP], REQ, #10
+  0.001,   ! Heating Convergence Def: 0.001, #11
+  ,   ! Cooling Coil Object Type [Coil:Cooling:WaterToAirHeatPump:ParameterEstimation, Coil:Cooling:WaterToAirHeatPump:EquationFit, Coil:Cooling:WaterToAirHeatPump:VariableSpeedEquationFit], REQ, #12
+  ,   ! Cooling Coil Name [CoolingCoilsWaterToAirHP, CoolingCoilsWaterToAirVSHP], REQ, #13
+  0.001,   ! Cooling Convergence Def: 0.001, #14
+  2.5,   ! Maximum Cycling Rate {cycles/hr}, Def: 2.5, #15
+  60.0,   ! Heat Pump Time Constant {s}, Def: 60.0, #16
+  0.01,   ! Fraction of On-Cycle Power Use Def: 0.01, #17
+  60,   ! Heat Pump Fan Delay Time {s}, Def: 60, #18
+  ,   ! Supplemental Heating Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Water, Coil:Heating:Steam], REQ, #19
+  ,   ! Supplemental Heating Coil Name [HeatingCoilName], REQ, #20
+  ,   ! Maximum Supply Air Temperature from Supplemental Heater {C}, AS, REQ, #21
+  21.0,   ! Maximum Outdoor Dry-Bulb Temperature for Supplemental Heater Operation {C}, Def: 21.0, #22
+  ,   ! Outdoor Dry-Bulb Temperature Sensor Node Name #23
+  BlowThrough,   ! Fan Placement Def: BlowThrough, [BlowThrough, DrawThrough], #24
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #25
+  None,   ! Dehumidification Control Type Def: None, [None, CoolReheat], #26
+  Cycling;   ! Heat Pump Coil Water Flow Mode Def: Cycling, [Constant, Cycling, ConstantOnDemand], #27

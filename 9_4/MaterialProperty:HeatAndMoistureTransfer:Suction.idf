@@ -1,0 +1,53 @@
+MaterialProperty:HeatAndMoistureTransfer:Suction,
+  ,   ! Material Name [MaterialName], REQ, #1
+  ,   ! Number of Suction points REQ, #2
+  ,   ! Moisture Content 1 {kg/m3}, REQ, #3
+  ,   ! Liquid Transport Coefficient 1 {m2/s}, REQ, #4
+  ,   ! Moisture Content 2 {kg/m3}, #5
+  ,   ! Liquid Transport Coefficient 2 {m2/s}, #6
+  ,   ! Moisture Content 3 {kg/m3}, #7
+  ,   ! Liquid Transport Coefficient 3 {m2/s}, #8
+  ,   ! Moisture Content 4 {kg/m3}, #9
+  ,   ! Liquid Transport Coefficient 4 {m2/s}, #10
+  ,   ! Moisture Content 5 {kg/m3}, #11
+  ,   ! Liquid Transport Coefficient 5 {m2/s}, #12
+  ,   ! Moisture Content 6 {kg/m3}, #13
+  ,   ! Liquid Transport Coefficient 6 {m2/s}, #14
+  ,   ! Moisture Content 7 {kg/m3}, #15
+  ,   ! Liquid Transport Coefficient 7 {m2/s}, #16
+  ,   ! Moisture Content 8 {kg/m3}, #17
+  ,   ! Liquid Transport Coefficient 8 {m2/s}, #18
+  ,   ! Moisture Content 9 {kg/m3}, #19
+  ,   ! Liquid Transport Coefficient 9 {m2/s}, #20
+  ,   ! Moisture Content 10 {kg/m3}, #21
+  ,   ! Liquid Transport Coefficient 10 {m2/s}, #22
+  ,   ! Moisture Content 11 {kg/m3}, #23
+  ,   ! Liquid Transport Coefficient 11 {m2/s}, #24
+  ,   ! Moisture Content 12 {kg/m3}, #25
+  ,   ! Liquid Transport Coefficient 12 {m2/s}, #26
+  ,   ! Moisture Content 13 {kg/m3}, #27
+  ,   ! Liquid Transport Coefficient 13 {m2/s}, #28
+  ,   ! Moisture Content 14 {kg/m3}, #29
+  ,   ! Liquid Transport Coefficient 14 {m2/s}, #30
+  ,   ! Moisture Content 15 {kg/m3}, #31
+  ,   ! Liquid Transport Coefficient 15 {m2/s}, #32
+  ,   ! Moisture Content 16 {kg/m3}, #33
+  ,   ! Liquid Transport Coefficient 16 {m2/s}, #34
+  ,   ! Moisture Content 17 {kg/m3}, #35
+  ,   ! Liquid Transport Coefficient 17 {m2/s}, #36
+  ,   ! Moisture Content 18 {kg/m3}, #37
+  ,   ! Liquid Transport Coefficient 18 {m2/s}, #38
+  ,   ! Moisture Content 19 {kg/m3}, #39
+  ,   ! Liquid Transport Coefficient 19 {m2/s}, #40
+  ,   ! Moisture Content 20 {kg/m3}, #41
+  ,   ! Liquid Transport Coefficient 20 {m2/s}, #42
+  ,   ! Moisture Content 21 {kg/m3}, #43
+  ,   ! Liquid Transport Coefficient 21 {m2/s}, #44
+  ,   ! Moisture Content 22 {kg/m3}, #45
+  ,   ! Liquid Transport Coefficient 22 {m2/s}, #46
+  ,   ! Moisture Content 23 {kg/m3}, #47
+  ,   ! Liquid Transport Coefficient 23 {m2/s}, #48
+  ,   ! Moisture Content 24 {kg/m3}, #49
+  ,   ! Liquid Transport Coefficient 24 {m2/s}, #50
+  ,   ! Moisture Content 25 {kg/m3}, #51
+  ;   ! Liquid Transport Coefficient 25 {m2/s}, #52

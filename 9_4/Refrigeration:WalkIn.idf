@@ -1,0 +1,35 @@
+! Min Fields: 28
+Refrigeration:WalkIn,
+  ,   ! Name RefList: [RefrigerationCaseAndWalkInNames, RefrigerationCaseAndWalkInAndListNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Rated Coil Cooling Capacity {W}, REQ, #3
+  ,   ! Operating Temperature {C}, REQ, #4
+  ,   ! Rated Cooling Source Temperature {C}, REQ, #5
+  ,   ! Rated Total Heating Power {W}, REQ, #6
+  ,   ! Heating Power Schedule Name [ScheduleNames], #7
+  375.0,   ! Rated Cooling Coil Fan Power {W}, Def: 375.0, #8
+  0.0,   ! Rated Circulation Fan Power {W}, Def: 0.0, #9
+  ,   ! Rated Total Lighting Power {W}, REQ, #10
+  ,   ! Lighting Schedule Name [ScheduleNames], #11
+  Electric,   ! Defrost Type Def: Electric, [HotFluid, Electric, None, OffCycle], #12
+  TimeSchedule,   ! Defrost Control Type Def: TimeSchedule, [TimeSchedule, TemperatureTermination], #13
+  ,   ! Defrost Schedule Name [ScheduleNames], REQ, #14
+  ,   ! Defrost Drip-Down Schedule Name [ScheduleNames], #15
+  ,   ! Defrost Power {W}, #16
+  ,   ! Temperature Termination Defrost Fraction to Ice {dimensionless}, #17
+  ,   ! Restocking Schedule Name [ScheduleNames], #18
+  0.0,   ! Average Refrigerant Charge Inventory {kg}, Def: 0.0, #19
+  ,   ! Insulated Floor Surface Area {m2}, REQ, #20
+  0.3154,   ! Insulated Floor U-Value {W/m2-K}, Def: 0.3154, #21
+  ,   ! Zone 1 Name [ZoneNames], REQ, #22
+  ,   ! Total Insulated Surface Area Facing Zone 1 {m2}, REQ, #23
+  0.3154,   ! Insulated Surface U-Value Facing Zone 1 {W/m2-K}, Def: 0.3154, #24
+  0.0,   ! Area of Glass Reach In Doors Facing Zone 1 {m2}, Def: 0.0, #25
+  1.5,   ! Height of Glass Reach In Doors Facing Zone 1 {m}, Def: 1.5, #26
+  1.136,   ! Glass Reach In Door U Value Facing Zone 1 {W/m2-K}, Def: 1.136, #27
+  ,   ! Glass Reach In Door Opening Schedule Name Facing Zone 1 [ScheduleNames], #28
+  0.0,   ! Area of Stocking Doors Facing Zone 1 {m2}, Def: 0.0, #29
+  3.0,   ! Height of Stocking Doors Facing Zone 1 {m}, Def: 3.0, #30
+  0.3785,   ! Stocking Door U Value Facing Zone 1 {W/m2-K}, Def: 0.3785, #31
+  ,   ! Stocking Door Opening Schedule Name Facing Zone 1 [ScheduleNames], #32
+  AirCurtain;   ! Stocking Door Opening Protection Type Facing Zone 1 Def: AirCurtain, [None, AirCurtain, StripCurtain], #33

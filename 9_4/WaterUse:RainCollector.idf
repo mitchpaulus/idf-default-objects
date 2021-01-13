@@ -1,0 +1,8 @@
+WaterUse:RainCollector,
+  ,   ! Name REQ, #1
+  ,   ! Storage Tank Name [WaterStorageTankNames], REQ, #2
+  ,   ! Loss Factor Mode [Constant, Scheduled], #3
+  ,   ! Collection Loss Factor #4
+  ,   ! Collection Loss Factor Schedule Name [ScheduleNames], #5
+  ,   ! Maximum Collection Rate {m3/s}, #6
+  ;   ! Collection Surface 1 Name [AllShadingAndHTSurfNames], REQ, #7

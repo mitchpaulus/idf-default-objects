@@ -1,0 +1,16 @@
+Refrigeration:TranscriticalSystem,
+  ,   ! Name RefList: [RefrigerationSystemNames], REQ, #1
+  ,   ! System Type [SingleStage, TwoStage], REQ, #2
+  ,   ! Medium Temperature Refrigerated Case or Walkin or CaseAndWalkInList Name [RefrigerationCaseAndWalkInAndListNames], REQ, #3
+  ,   ! Low Temperature Refrigerated Case or Walkin or CaseAndWalkInList Name [RefrigerationCaseAndWalkInAndListNames], #4
+  ,   ! Refrigeration Gas Cooler Name [RefrigerationAllTypesGasCoolerNames], REQ, #5
+  ,   ! High Pressure Compressor or CompressorList Name [RefrigerationCompressorAndListNames], REQ, #6
+  ,   ! Low Pressure Compressor or CompressorList Name [RefrigerationCompressorAndListNames], #7
+  4000000,   ! Receiver Pressure {Pa}, Def: 4000000, #8
+  0.4,   ! Subcooler Effectiveness Def: 0.4, #9
+  ,   ! Refrigeration System Working Fluid Type [FluidNames], REQ, #10
+  0.0,   ! Sum UA Suction Piping for Medium Temperature Loads {W/K}, Def: 0.0, #11
+  ,   ! Medium Temperature Suction Piping Zone Name [ZoneNames], #12
+  0.0,   ! Sum UA Suction Piping for Low Temperature Loads {W/K}, Def: 0.0, #13
+  ,   ! Low Temperature Suction Piping Zone Name [ZoneNames], #14
+  General;   ! End-Use Subcategory Def: General, #15

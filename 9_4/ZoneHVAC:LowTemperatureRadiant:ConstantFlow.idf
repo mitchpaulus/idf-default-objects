@@ -1,0 +1,36 @@
+! Min Fields: 33
+ZoneHVAC:LowTemperatureRadiant:ConstantFlow,
+  ,   ! Name RefList: [validBranchEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], #3
+  ,   ! Surface Name or Radiant Surface Group Name [RadiantSurfaceNames, RadiantGroupNames], #4
+  ConvectionOnly,   ! Fluid to Radiant Surface Heat Transfer Model Def: ConvectionOnly, [ConvectionOnly, ISOStandard], #5
+  0.013,   ! Hydronic Tubing Inside Diameter {m}, Def: 0.013, #6
+  0.016,   ! Hydronic Tubing Outside Diameter {m}, Def: 0.016, #7
+  autosize,   ! Hydronic Tubing Length {m}, Def: autosize, AS, #8
+  0.35,   ! Hydronic Tubing Conductivity {W/m-K}, Def: 0.35, #9
+  MeanAirTemperature,   ! Temperature Control Type Def: MeanAirTemperature, [MeanAirTemperature, MeanRadiantTemperature, OperativeTemperature, OutdoorDryBulbTemperature, OutdoorWetBulbTemperature, SurfaceFaceTemperature, SurfaceInteriorTemperature, RunningMeanOutdoorDryBulbTemperature], #10
+  0.8,   ! Running Mean Outdoor Dry-Bulb Temperature Weighting Factor Def: 0.8, #11
+  ,   ! Rated Flow Rate {m3/s}, AS, #12
+  ,   ! Pump Flow Rate Schedule Name [ScheduleNames], #13
+  179352,   ! Rated Pump Head {Pa}, Def: 179352, #14
+  ,   ! Rated Power Consumption {W}, #15
+  0.9,   ! Motor Efficiency Def: 0.9, #16
+  0.0,   ! Fraction of Motor Inefficiencies to Fluid Stream Def: 0.0, #17
+  ,   ! Heating Water Inlet Node Name #18
+  ,   ! Heating Water Outlet Node Name #19
+  ,   ! Heating High Water Temperature Schedule Name [ScheduleNames], #20
+  ,   ! Heating Low Water Temperature Schedule Name [ScheduleNames], #21
+  ,   ! Heating High Control Temperature Schedule Name [ScheduleNames], #22
+  ,   ! Heating Low Control Temperature Schedule Name [ScheduleNames], #23
+  ,   ! Cooling Water Inlet Node Name #24
+  ,   ! Cooling Water Outlet Node Name #25
+  ,   ! Cooling High Water Temperature Schedule Name [ScheduleNames], #26
+  ,   ! Cooling Low Water Temperature Schedule Name [ScheduleNames], #27
+  ,   ! Cooling High Control Temperature Schedule Name [ScheduleNames], #28
+  ,   ! Cooling Low Control Temperature Schedule Name [ScheduleNames], #29
+  SimpleOff,   ! Condensation Control Type Def: SimpleOff, [Off, SimpleOff, VariableOff], #30
+  1.0,   ! Condensation Control Dewpoint Offset {C}, Def: 1.0, #31
+  OnePerSurface,   ! Number of Circuits Def: OnePerSurface, [OnePerSurface, CalculateFromCircuitLength], #32
+  106.7,   ! Circuit Length {m}, Def: 106.7, #33
+  ;   ! Changeover Delay Time Period Schedule [ScheduleNames], #34

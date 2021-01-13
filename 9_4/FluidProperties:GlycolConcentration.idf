@@ -1,0 +1,5 @@
+FluidProperties:GlycolConcentration,
+  ,   ! Name RefList: [FluidAndGlycolNames], REQ, #1
+  ,   ! Glycol Type [EthyleneGlycol, PropyleneGlycol, UserDefinedGlycolType], REQ, #2
+  ,   ! User Defined Glycol Name [FluidAndGlycolNames], #3
+  ;   ! Glycol Concentration #4

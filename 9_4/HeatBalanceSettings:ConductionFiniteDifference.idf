@@ -1,0 +1,5 @@
+HeatBalanceSettings:ConductionFiniteDifference,
+  FullyImplicitFirstOrder,   ! Difference Scheme Def: FullyImplicitFirstOrder, [CrankNicholsonSecondOrder, FullyImplicitFirstOrder], #1
+  3,   ! Space Discretization Constant Def: 3, #2
+  1.0,   ! Relaxation Factor Def: 1.0, #3
+  0.002;   ! Inside Face Surface Temperature Convergence Criteria Def: 0.002, #4

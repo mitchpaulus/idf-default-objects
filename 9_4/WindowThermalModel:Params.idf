@@ -1,0 +1,9 @@
+WindowThermalModel:Params,
+  ,   ! Name RefList: [WindowThermalModelParameters], REQ, #1
+  ISO15099,   ! standard Def: ISO15099, [ISO15099, EN673Declared, EN673Design], #2
+  ISO15099,   ! Thermal Model Def: ISO15099, [ISO15099, ScaledCavityWidth, ConvectiveScalarModel_NoSDThickness, ConvectiveScalarModel_withSDThickness], #3
+  1,   ! SDScalar Def: 1, #4
+  NoDeflection,   ! Deflection Model Def: NoDeflection, [NoDeflection, TemperatureAndPressureInput, MeasuredDeflection], #5
+  13.238,   ! Vacuum Pressure Limit {Pa}, Def: 13.238, #6
+  25,   ! Initial temperature {C}, Def: 25, #7
+  101325;   ! Initial pressure {Pa}, Def: 101325, #8

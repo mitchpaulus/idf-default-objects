@@ -1,0 +1,14 @@
+! Min Fields: 12
+Site:GroundTemperature:Shallow,
+  13,   ! January Surface Ground Temperature {C}, Def: 13, #1
+  13,   ! February Surface Ground Temperature {C}, Def: 13, #2
+  13,   ! March Surface Ground Temperature {C}, Def: 13, #3
+  13,   ! April Surface Ground Temperature {C}, Def: 13, #4
+  13,   ! May Surface Ground Temperature {C}, Def: 13, #5
+  13,   ! June Surface Ground Temperature {C}, Def: 13, #6
+  13,   ! July Surface Ground Temperature {C}, Def: 13, #7
+  13,   ! August Surface Ground Temperature {C}, Def: 13, #8
+  13,   ! September Surface Ground Temperature {C}, Def: 13, #9
+  13,   ! October Surface Ground Temperature {C}, Def: 13, #10
+  13,   ! November Surface Ground Temperature {C}, Def: 13, #11
+  13;   ! December Surface Ground Temperature {C}, Def: 13, #12

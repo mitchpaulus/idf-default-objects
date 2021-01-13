@@ -1,0 +1,40 @@
+! Min Fields: 27
+Chiller:Electric,
+  ,   ! Name RefList: [Chillers, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, WaterCooled, EvaporativelyCooled], #2
+  ,   ! Nominal Capacity {W}, AS, REQ, #3
+  ,   ! Nominal COP {W/W}, REQ, #4
+  ,   ! Chilled Water Inlet Node Name REQ, #5
+  ,   ! Chilled Water Outlet Node Name REQ, #6
+  ,   ! Condenser Inlet Node Name #7
+  ,   ! Condenser Outlet Node Name #8
+  ,   ! Minimum Part Load Ratio #9
+  ,   ! Maximum Part Load Ratio #10
+  ,   ! Optimum Part Load Ratio #11
+  ,   ! Design Condenser Inlet Temperature {C}, #12
+  ,   ! Temperature Rise Coefficient REQ, #13
+  ,   ! Design Chilled Water Outlet Temperature {C}, #14
+  ,   ! Design Chilled Water Flow Rate {m3/s}, AS, #15
+  ,   ! Design Condenser Fluid Flow Rate {m3/s}, AS, #16
+  ,   ! Coefficient 1 of Capacity Ratio Curve #17
+  ,   ! Coefficient 2 of Capacity Ratio Curve #18
+  ,   ! Coefficient 3 of Capacity Ratio Curve #19
+  ,   ! Coefficient 1 of Power Ratio Curve #20
+  ,   ! Coefficient 2 of Power Ratio Curve #21
+  ,   ! Coefficient 3 of Power Ratio Curve #22
+  ,   ! Coefficient 1 of Full Load Ratio Curve #23
+  ,   ! Coefficient 2 of Full Load Ratio Curve #24
+  ,   ! Coefficient 3 of Full Load Ratio Curve #25
+  ,   ! Chilled Water Outlet Temperature Lower Limit {C}, #26
+  NotModulated,   ! Chiller Flow Mode Def: NotModulated, [ConstantFlow, LeavingSetpointModulated, NotModulated], #27
+  0.0,   ! Design Heat Recovery Water Flow Rate {m3/s}, Def: 0.0, AS, #28
+  ,   ! Heat Recovery Inlet Node Name #29
+  ,   ! Heat Recovery Outlet Node Name #30
+  1.0,   ! Sizing Factor Def: 1.0, #31
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #32
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #33
+  ,   ! Basin Heater Operating Schedule Name [ScheduleNames], #34
+  ,   ! Condenser Heat Recovery Relative Capacity Fraction #35
+  ,   ! Heat Recovery Inlet High Temperature Limit Schedule Name [ScheduleNames], #36
+  ,   ! Heat Recovery Leaving Temperature Setpoint Node Name #37
+  General;   ! End-Use Subcategory Def: General, #38

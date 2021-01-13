@@ -1,0 +1,5 @@
+Site:WaterMainsTemperature,
+  CorrelationFromWeatherFile,   ! Calculation Method Def: CorrelationFromWeatherFile, [Schedule, Correlation, CorrelationFromWeatherFile], REQ, #1
+  ,   ! Temperature Schedule Name [ScheduleNames], #2
+  ,   ! Annual Average Outdoor Air Temperature {C}, #3
+  ;   ! Maximum Difference In Monthly Average Outdoor Air Temperatures {deltaC}, #4

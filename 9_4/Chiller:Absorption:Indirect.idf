@@ -1,0 +1,33 @@
+! Min Fields: 17
+Chiller:Absorption:Indirect,
+  ,   ! Name RefList: [Chillers, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Nominal Capacity {W}, AS, REQ, #2
+  ,   ! Nominal Pumping Power {W}, AS, REQ, #3
+  ,   ! Chilled Water Inlet Node Name REQ, #4
+  ,   ! Chilled Water Outlet Node Name REQ, #5
+  ,   ! Condenser Inlet Node Name REQ, #6
+  ,   ! Condenser Outlet Node Name REQ, #7
+  ,   ! Minimum Part Load Ratio #8
+  ,   ! Maximum Part Load Ratio #9
+  ,   ! Optimum Part Load Ratio #10
+  30.0,   ! Design Condenser Inlet Temperature {C}, Def: 30.0, #11
+  15.0,   ! Condenser Inlet Temperature Lower Limit {C}, Def: 15.0, #12
+  5.0,   ! Chilled Water Outlet Temperature Lower Limit {C}, Def: 5.0, #13
+  autosize,   ! Design Chilled Water Flow Rate {m3/s}, Def: autosize, AS, #14
+  autosize,   ! Design Condenser Water Flow Rate {m3/s}, Def: autosize, AS, #15
+  NotModulated,   ! Chiller Flow Mode Def: NotModulated, [ConstantFlow, LeavingSetpointModulated, NotModulated], #16
+  ,   ! Generator Heat Input Function of Part Load Ratio Curve Name [UnivariateFunctions], REQ, #17
+  ,   ! Pump Electric Input Function of Part Load Ratio Curve Name [UnivariateFunctions], #18
+  ,   ! Generator Inlet Node Name #19
+  ,   ! Generator Outlet Node Name #20
+  ,   ! Capacity Correction Function of Condenser Temperature Curve Name [UnivariateFunctions], #21
+  ,   ! Capacity Correction Function of Chilled Water Temperature Curve Name [UnivariateFunctions], #22
+  ,   ! Capacity Correction Function of Generator Temperature Curve Name [UnivariateFunctions], #23
+  ,   ! Generator Heat Input Correction Function of Condenser Temperature Curve Name [UnivariateFunctions], #24
+  ,   ! Generator Heat Input Correction Function of Chilled Water Temperature Curve Name [UnivariateFunctions], #25
+  Steam,   ! Generator Heat Source Type Def: Steam, [HotWater, Steam], #26
+  ,   ! Design Generator Fluid Flow Rate {m3/s}, AS, #27
+  0.0,   ! Temperature Lower Limit Generator Inlet {C}, Def: 0.0, #28
+  1.0,   ! Degree of Subcooling in Steam Generator {C}, Def: 1.0, #29
+  0.0,   ! Degree of Subcooling in Steam Condensate Loop {C}, Def: 0.0, #30
+  1.0;   ! Sizing Factor Def: 1.0, #31

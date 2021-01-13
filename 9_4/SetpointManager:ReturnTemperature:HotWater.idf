@@ -1,0 +1,10 @@
+! Min Fields: 7
+SetpointManager:ReturnTemperature:HotWater,
+  ,   ! Name REQ, #1
+  ,   ! Plant Loop Supply Outlet Node REQ, #2
+  ,   ! Plant Loop Supply Inlet Node REQ, #3
+  77,   ! Minimum Supply Temperature Setpoint {C}, Def: 77, #4
+  82,   ! Maximum Supply Temperature Setpoint {C}, Def: 82, #5
+  ,   ! Return Temperature Setpoint Input Type [Constant, Scheduled, ReturnTemperatureSetpoint], REQ, #6
+  71,   ! Return Temperature Setpoint Constant Value {C}, Def: 71, #7
+  ;   ! Return Temperature Setpoint Schedule Name [ScheduleNames], #8

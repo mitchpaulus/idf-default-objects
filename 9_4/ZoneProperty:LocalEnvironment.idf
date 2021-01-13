@@ -1,0 +1,5 @@
+! Min Fields: 3
+ZoneProperty:LocalEnvironment,
+  ,   ! Name RefList: [ZoneLocalEnvironmentNames], REQ, #1
+  ,   ! Zone Name [ZoneNames], #2
+  ;   ! Outdoor Air Node Name [OutdoorAirNodeNames], #3

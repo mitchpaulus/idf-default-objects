@@ -1,0 +1,6 @@
+SolarCollector:UnglazedTranspired:Multisystem,
+  ,   ! Solar Collector Name [UTSCNames], REQ, #1
+  ,   ! Outdoor Air System 1 Collector Inlet Node #2
+  ,   ! Outdoor Air System 1 Collector Outlet Node #3
+  ,   ! Outdoor Air System 1 Mixed Air Node #4
+  ;   ! Outdoor Air System 1 Zone Node #5

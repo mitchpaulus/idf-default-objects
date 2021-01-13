@@ -1,0 +1,11 @@
+! Min Fields: 8
+ZoneBaseboard:OutdoorTemperatureControlled,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Schedule Name [ScheduleNames], REQ, #3
+  ,   ! Capacity at Low Temperature {W}, REQ, #4
+  ,   ! Low Temperature {C}, REQ, #5
+  ,   ! Capacity at High Temperature {W}, REQ, #6
+  ,   ! High Temperature {C}, REQ, #7
+  0,   ! Fraction Radiant Def: 0, #8
+  General;   ! End-Use Subcategory Def: General, #9

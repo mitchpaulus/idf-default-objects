@@ -1,0 +1,27 @@
+! Min Fields: 18
+ZoneHVAC:PackagedTerminalAirConditioner,
+  ,   ! Name RefList: [DOAToZonalUnit, ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Outdoor Air Mixer Object Type [OutdoorAir:Mixer], #5
+  ,   ! Outdoor Air Mixer Name [OutdoorAirMixers], #6
+  ,   ! Cooling Supply Air Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Heating Supply Air Flow Rate {m3/s}, AS, REQ, #8
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #9
+  ,   ! Cooling Outdoor Air Flow Rate {m3/s}, AS, REQ, #10
+  ,   ! Heating Outdoor Air Flow Rate {m3/s}, AS, REQ, #11
+  ,   ! No Load Outdoor Air Flow Rate {m3/s}, AS, #12
+  ,   ! Supply Air Fan Object Type [Fan:SystemModel, Fan:OnOff, Fan:ConstantVolume], REQ, #13
+  ,   ! Supply Air Fan Name [FansCVandOnOff, FansSystemModel], REQ, #14
+  ,   ! Heating Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Water, Coil:Heating:Steam], REQ, #15
+  ,   ! Heating Coil Name [HeatingCoilName], REQ, #16
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:VariableSpeed, CoilSystem:Cooling:DX:HeatExchangerAssisted], REQ, #17
+  ,   ! Cooling Coil Name [CoolingCoilsDXSingleSpeed, CoolingCoilsDXVariableSpeed], REQ, #18
+  DrawThrough,   ! Fan Placement Def: DrawThrough, [BlowThrough, DrawThrough], #19
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #20
+  ,   ! Availability Manager List Name [SystemAvailabilityManagerLists], #21
+  ,   ! Design Specification ZoneHVAC Sizing Object Name [DesignSpecificationZoneHVACSizingName], #22
+  None,   ! Capacity Control Method Def: None, [None, SingleZoneVAV], #23
+  autosize,   ! Minimum Supply Air Temperature in Cooling Mode {C}, Def: autosize, AS, #24
+  autosize;   ! Maximum Supply Air Temperature in Heating Mode {C}, Def: autosize, AS, #25

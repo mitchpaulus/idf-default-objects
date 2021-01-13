@@ -1,0 +1,8 @@
+RoomAir:TemperaturePattern:SurfaceMapping,
+  ,   ! Name REQ, #1
+  ,   ! Control Integer for Pattern Control Schedule Name REQ, #2
+  ,   ! Thermostat Offset {deltaC}, #3
+  ,   ! Return Air Offset {deltaC}, #4
+  ,   ! Exhaust Air Offset {deltaC}, #5
+  ,   ! Surface Name Pair 1 [AllHeatTranSurfNames], REQ, #6
+  ;   ! Delta Adjacent Air Temperature Pair 1 {deltaC}, REQ, #7

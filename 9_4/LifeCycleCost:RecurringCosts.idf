@@ -1,0 +1,11 @@
+! Min Fields: 7
+LifeCycleCost:RecurringCosts,
+  ,   ! Name REQ, #1
+  Maintenance,   ! Category Def: Maintenance, [Maintenance, Repair, Operation, Replacement, MinorOverhaul, MajorOverhaul, OtherOperational], #2
+  ,   ! Cost #3
+  ServicePeriod,   ! Start of Costs Def: ServicePeriod, [ServicePeriod, BasePeriod], #4
+  ,   ! Years from Start #5
+  ,   ! Months from Start #6
+  1,   ! Repeat Period Years Def: 1, #7
+  0,   ! Repeat Period Months Def: 0, #8
+  ;   ! Annual escalation rate #9

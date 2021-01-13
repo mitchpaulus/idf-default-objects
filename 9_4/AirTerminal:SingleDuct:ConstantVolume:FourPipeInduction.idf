@@ -1,0 +1,20 @@
+! Min Fields: 18
+AirTerminal:SingleDuct:ConstantVolume:FourPipeInduction,
+  ,   ! Name RefList: [AirTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Maximum Total Air Flow Rate {m3/s}, AS, REQ, #3
+  2.5,   ! Induction Ratio Def: 2.5, #4
+  ,   ! Supply Air Inlet Node Name REQ, #5
+  ,   ! Induced Air Inlet Node Name REQ, #6
+  ,   ! Air Outlet Node Name REQ, #7
+  ,   ! Heating Coil Object Type [Coil:Heating:Water], REQ, #8
+  ,   ! Heating Coil Name [HeatingCoilName], REQ, #9
+  ,   ! Maximum Hot Water Flow Rate {m3/s}, AS, #10
+  0.0,   ! Minimum Hot Water Flow Rate {m3/s}, Def: 0.0, #11
+  0.001,   ! Heating Convergence Tolerance Def: 0.001, #12
+  ,   ! Cooling Coil Object Type [Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry], #13
+  ,   ! Cooling Coil Name [CoolingCoilName], #14
+  ,   ! Maximum Cold Water Flow Rate {m3/s}, AS, #15
+  0.0,   ! Minimum Cold Water Flow Rate {m3/s}, Def: 0.0, #16
+  0.001,   ! Cooling Convergence Tolerance Def: 0.001, #17
+  ;   ! Zone Mixer Name [ZoneMixers], REQ, #18

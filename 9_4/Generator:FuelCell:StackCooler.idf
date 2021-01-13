@@ -1,0 +1,22 @@
+Generator:FuelCell:StackCooler,
+  ,   ! Name RefList: [FCStackCoolerNames, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Heat Recovery Water Inlet Node Name #2
+  ,   ! Heat Recovery Water Outlet Node Name #3
+  ,   ! Nominal Stack Temperature {C}, #4
+  ,   ! Actual Stack Temperature {C}, #5
+  ,   ! Coefficient r0 #6
+  ,   ! Coefficient r1 #7
+  ,   ! Coefficient r2 #8
+  ,   ! Coefficient r3 #9
+  ,   ! Stack Coolant Flow Rate {kg/s}, #10
+  ,   ! Stack Cooler U-Factor Times Area Value {W/K}, #11
+  ,   ! Fs-cogen Adjustment Factor #12
+  ,   ! Stack Cogeneration Exchanger Area {m2}, #13
+  ,   ! Stack Cogeneration Exchanger Nominal Flow Rate {kg/s}, #14
+  ,   ! Stack Cogeneration Exchanger Nominal Heat Transfer Coefficient {W/m2-K}, #15
+  ,   ! Stack Cogeneration Exchanger Nominal Heat Transfer Coefficient Exponent #16
+  ,   ! Stack Cooler Pump Power {W}, #17
+  ,   ! Stack Cooler Pump Heat Loss Fraction #18
+  ,   ! Stack Air Cooler Fan Coefficient f0 #19
+  ,   ! Stack Air Cooler Fan Coefficient f1 #20
+  ;   ! Stack Air Cooler Fan Coefficient f2 #21

@@ -1,0 +1,7 @@
+! Min Fields: 3
+ShadingProperty:Reflectance,
+  ,   ! Shading Surface Name [AllShadingSurfNames], REQ, #1
+  0.2,   ! Diffuse Solar Reflectance of Unglazed Part of Shading Surface Def: 0.2, #2
+  0.2,   ! Diffuse Visible Reflectance of Unglazed Part of Shading Surface Def: 0.2, #3
+  0.0,   ! Fraction of Shading Surface That Is Glazed Def: 0.0, #4
+  ;   ! Glazing Construction Name #5

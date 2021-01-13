@@ -1,0 +1,61 @@
+ZoneHVAC:HybridUnitaryHVAC,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Availability Manager List Name [SystemAvailabilityManagerLists], #3
+  ,   ! Minimum Supply Air Temperature Schedule Name [ScheduleNames], #4
+  ,   ! Maximum Supply Air Temperature Schedule Name [ScheduleNames], #5
+  ,   ! Minimum Supply Air Humidity Ratio Schedule Name [ScheduleNames], #6
+  ,   ! Maximum Supply Air Humidity Ratio Schedule Name [ScheduleNames], #7
+  Automatic,   ! Method to Choose Controlled Inputs and Part Runtime Fraction Def: Automatic, [Automatic, User Defined], #8
+  ,   ! Return Air Node Name REQ, #9
+  ,   ! Outdoor Air Node Name REQ, #10
+  ,   ! Supply Air Node Name REQ, #11
+  ,   ! Relief Node Name #12
+  ,   ! System Maximum Supply Air Flow Rate {m3/s}, #13
+  ,   ! External Static Pressure at System Maximum Supply Air Flow Rate {Pa}, #14
+  No,   ! Fan Heat Included in Lookup Tables Def: No, [No, Yes], #15
+  SupplyAirStream,   ! Fan Heat Gain Location Def: SupplyAirStream, [MixedAirStream, SupplyAirStream], #16
+  1.0,   ! Fan Heat In Air Stream Fraction Def: 1.0, #17
+  1,   ! Scaling Factor Def: 1, #18
+  10,   ! Minimum Time Between Mode Change {minutes}, Def: 10, #19
+  Electricity,   ! First Fuel Type Def: Electricity, [None, Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Diesel, Gasoline, Coal, OtherFuel1, OtherFuel2, Steam, DistrictHeating, DistrictCooling], #20
+  None,   ! Second Fuel Type Def: None, [None, Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Diesel, Gasoline, Coal, OtherFuel1, OtherFuel2, Steam, DistrictHeating, DistrictCooling], #21
+  None,   ! Third Fuel Type Def: None, [None, Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Diesel, Gasoline, Coal, OtherFuel1, OtherFuel2, Steam, DistrictHeating, DistrictCooling], #22
+  Electricity Use,   ! Objective Function to Minimize Def: Electricity Use, [Electricity Use, Second Fuel Use, Third Fuel Use, Water Use], #23
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames], #24
+  ,   ! Mode 0 Name #25
+  ,   ! Mode 0 Supply Air Temperature Lookup Table Name [MultivariateFunctions], #26
+  ,   ! Mode 0 Supply Air Humidity Ratio Lookup Table Name [MultivariateFunctions], #27
+  ,   ! Mode 0 System Electric Power Lookup Table Name [MultivariateFunctions], #28
+  ,   ! Mode 0 Supply Fan Electric Power Lookup Table Name [MultivariateFunctions], #29
+  ,   ! Mode 0 External Static Pressure Lookup Table Name [MultivariateFunctions], #30
+  ,   ! Mode 0 System Second Fuel Consumption Lookup Table Name [MultivariateFunctions], #31
+  ,   ! Mode 0 System Third Fuel Consumption Lookup Table Name [MultivariateFunctions], #32
+  ,   ! Mode 0 System Water Use Lookup Table Name [MultivariateFunctions], #33
+  0.00,   ! Mode 0 Outdoor Air Fraction Def: 0.00, #34
+  0.00,   ! Mode 0 Supply Air Mass Flow Rate Ratio Def: 0.00, #35
+  ,   ! Mode 1 Name #36
+  ,   ! Mode 1 Supply Air Temperature Lookup Table Name [MultivariateFunctions], #37
+  ,   ! Mode 1 Supply Air Humidity Ratio Lookup Table Name [MultivariateFunctions], #38
+  ,   ! Mode 1 System Electric Power Lookup Table Name [MultivariateFunctions], #39
+  ,   ! Mode 1 Supply Fan Electric Power Lookup Table Name [MultivariateFunctions], #40
+  ,   ! Mode 1 External Static Pressure Lookup Table Name [MultivariateFunctions], #41
+  ,   ! Mode 1 System Second Fuel Consumption Lookup Table Name [MultivariateFunctions], #42
+  ,   ! Mode 1 System Third Fuel Consumption Lookup Table Name [MultivariateFunctions], #43
+  ,   ! Mode 1 System Water Use Lookup Table Name [MultivariateFunctions], #44
+  ,   ! Mode 1 Minimum Outdoor Air Temperature {C}, #45
+  ,   ! Mode 1 Maximum Outdoor Air Temperature {C}, #46
+  0.00,   ! Mode 1 Minimum Outdoor Air Humidity Ratio {kgWater/kgDryAir}, Def: 0.00, #47
+  0.10,   ! Mode 1 Maximum Outdoor Air Humidity Ratio {kgWater/kgDryAir}, Def: 0.10, #48
+  0.00,   ! Mode 1 Minimum Outdoor Air Relative Humidity {percent}, Def: 0.00, #49
+  100.00,   ! Mode 1 Maximum Outdoor Air Relative Humidity {percent}, Def: 100.00, #50
+  ,   ! Mode 1 Minimum Return Air Temperature {C}, #51
+  ,   ! Mode 1 Maximum Return Air Temperature {C}, #52
+  0.00,   ! Mode 1 Minimum Return Air Humidity Ratio {kgWater/kgDryAir}, Def: 0.00, #53
+  0.10,   ! Mode 1 Maximum Return Air Humidity Ratio {kgWater/kgDryAir}, Def: 0.10, #54
+  0.00,   ! Mode 1 Minimum Return Air Relative Humidity {percent}, Def: 0.00, #55
+  100.00,   ! Mode 1 Maximum Return Air Relative Humidity {percent}, Def: 100.00, #56
+  0.10,   ! Mode 1 Minimum Outdoor Air Fraction Def: 0.10, #57
+  1.00,   ! Mode 1 Maximum Outdoor Air Fraction Def: 1.00, #58
+  0.10,   ! Mode 1 Minimum Supply Air Mass Flow Rate Ratio Def: 0.10, #59
+  1.00;   ! Mode 1 Maximum Supply Air Mass Flow Rate Ratio Def: 1.00, #60

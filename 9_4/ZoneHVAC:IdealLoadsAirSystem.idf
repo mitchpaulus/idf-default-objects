@@ -1,0 +1,30 @@
+! Min Fields: 27
+ZoneHVAC:IdealLoadsAirSystem,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Supply Air Node Name REQ, #3
+  ,   ! Zone Exhaust Air Node Name #4
+  ,   ! System Inlet Air Node Name #5
+  50,   ! Maximum Heating Supply Air Temperature {C}, Def: 50, #6
+  13,   ! Minimum Cooling Supply Air Temperature {C}, Def: 13, #7
+  0.0156,   ! Maximum Heating Supply Air Humidity Ratio {kgWater/kgDryAir}, Def: 0.0156, #8
+  0.0077,   ! Minimum Cooling Supply Air Humidity Ratio {kgWater/kgDryAir}, Def: 0.0077, #9
+  NoLimit,   ! Heating Limit Def: NoLimit, [NoLimit, LimitFlowRate, LimitCapacity, LimitFlowRateAndCapacity], #10
+  ,   ! Maximum Heating Air Flow Rate {m3/s}, AS, #11
+  ,   ! Maximum Sensible Heating Capacity {W}, AS, #12
+  NoLimit,   ! Cooling Limit Def: NoLimit, [NoLimit, LimitFlowRate, LimitCapacity, LimitFlowRateAndCapacity], #13
+  ,   ! Maximum Cooling Air Flow Rate {m3/s}, AS, #14
+  ,   ! Maximum Total Cooling Capacity {W}, AS, #15
+  ,   ! Heating Availability Schedule Name [ScheduleNames], #16
+  ,   ! Cooling Availability Schedule Name [ScheduleNames], #17
+  ConstantSensibleHeatRatio,   ! Dehumidification Control Type Def: ConstantSensibleHeatRatio, [ConstantSensibleHeatRatio, Humidistat, None, ConstantSupplyHumidityRatio], #18
+  0.7,   ! Cooling Sensible Heat Ratio {dimensionless}, Def: 0.7, #19
+  None,   ! Humidification Control Type Def: None, [None, Humidistat, ConstantSupplyHumidityRatio], #20
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames], #21
+  ,   ! Outdoor Air Inlet Node Name #22
+  None,   ! Demand Controlled Ventilation Type Def: None, [None, OccupancySchedule, CO2Setpoint], #23
+  NoEconomizer,   ! Outdoor Air Economizer Type Def: NoEconomizer, [NoEconomizer, DifferentialDryBulb, DifferentialEnthalpy], #24
+  None,   ! Heat Recovery Type Def: None, [None, Sensible, Enthalpy], #25
+  0.70,   ! Sensible Heat Recovery Effectiveness {dimensionless}, Def: 0.70, #26
+  0.65,   ! Latent Heat Recovery Effectiveness {dimensionless}, Def: 0.65, #27
+  ;   ! Design Specification ZoneHVAC Sizing Object Name [DesignSpecificationZoneHVACSizingName], #28

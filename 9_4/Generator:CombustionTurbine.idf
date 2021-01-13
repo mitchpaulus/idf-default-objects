@@ -1,0 +1,26 @@
+! Min Fields: 22
+Generator:CombustionTurbine,
+  ,   ! Name RefList: [GeneratorNames, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Rated Power Output {W}, #2
+  ,   ! Electric Circuit Node Name #3
+  ,   ! Minimum Part Load Ratio #4
+  ,   ! Maximum Part Load Ratio #5
+  ,   ! Optimum Part Load Ratio #6
+  ,   ! Part Load Based Fuel Input Curve Name [UnivariateFunctions], #7
+  ,   ! Temperature Based Fuel Input Curve Name [UnivariateFunctions], #8
+  ,   ! Exhaust Flow Curve Name [UnivariateFunctions], #9
+  ,   ! Part Load Based Exhaust Temperature Curve Name [UnivariateFunctions], #10
+  ,   ! Temperature Based Exhaust Temperature Curve Name [UnivariateFunctions], #11
+  ,   ! Heat Recovery Lube Energy Curve Name [UnivariateFunctions], #12
+  ,   ! Coefficient 1 of U-Factor Times Area Curve #13
+  ,   ! Coefficient 2 of U-Factor Times Area Curve #14
+  ,   ! Maximum Exhaust Flow per Unit of Power Output {(kg/s)/W}, #15
+  ,   ! Design Minimum Exhaust Temperature {C}, #16
+  ,   ! Design Air Inlet Temperature {C}, #17
+  ,   ! Fuel Higher Heating Value {kJ/kg}, #18
+  0.0,   ! Design Heat Recovery Water Flow Rate {m3/s}, Def: 0.0, #19
+  ,   ! Heat Recovery Inlet Node Name #20
+  ,   ! Heat Recovery Outlet Node Name #21
+  NaturalGas,   ! Fuel Type Def: NaturalGas, [NaturalGas, Propane, Diesel, Gasoline, FuelOilNo1, FuelOilNo2, OtherFuel1, OtherFuel2], #22
+  80.0,   ! Heat Recovery Maximum Temperature {C}, Def: 80.0, #23
+  ;   ! Outdoor Air Inlet Node Name #24

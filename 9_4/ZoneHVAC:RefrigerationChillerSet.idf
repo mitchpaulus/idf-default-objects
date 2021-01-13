@@ -1,0 +1,8 @@
+! Min Fields: 6
+ZoneHVAC:RefrigerationChillerSet,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], #3
+  ,   ! Air Inlet Node Name #4
+  ,   ! Air Outlet Node Name #5
+  ;   ! Air Chiller 1 Name [RefrigerationAirChillerNames], #6

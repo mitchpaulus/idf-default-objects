@@ -1,0 +1,10 @@
+! Min Fields: 1
+DesignSpecification:OutdoorAir,
+  ,   ! Name RefList: [DesignSpecificationOutdoorAirNames], REQ, #1
+  Flow/Person,   ! Outdoor Air Method Def: Flow/Person, [Flow/Person, Flow/Area, Flow/Zone, AirChanges/Hour, Sum, Maximum, IndoorAirQualityProcedure, ProportionalControlBasedOnDesignOccupancy, ProportionalControlBasedonOccupancySchedule], #2
+  0.00944,   ! Outdoor Air Flow per Person {m3/s-person}, Def: 0.00944, #3
+  0.0,   ! Outdoor Air Flow per Zone Floor Area {m3/s-m2}, Def: 0.0, #4
+  0.0,   ! Outdoor Air Flow per Zone {m3/s}, Def: 0.0, #5
+  0.0,   ! Outdoor Air Flow Air Changes per Hour {1/hr}, Def: 0.0, #6
+  ,   ! Outdoor Air Schedule Name [ScheduleNames], #7
+  ;   ! Proportional Control Minimum Outdoor Air Flow Rate Schedule Name [ScheduleNames], #8

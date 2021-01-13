@@ -1,0 +1,6 @@
+! Min Fields: 1
+PythonPlugin:SearchPaths,
+  ,   ! Name REQ, #1
+  Yes,   ! Add Current Working Directory to Search Path Def: Yes, [Yes, No], REQ, #2
+  Yes,   ! Add Input File Directory to Search Path Def: Yes, [Yes, No], REQ, #3
+  ;   ! Search Path 1 #4

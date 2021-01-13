@@ -1,0 +1,11 @@
+WaterUse:Equipment,
+  ,   ! Name RefList: [WaterUseEquipmentNames], REQ, #1
+  General,   ! End-Use Subcategory Def: General, #2
+  ,   ! Peak Flow Rate {m3/s}, REQ, #3
+  ,   ! Flow Rate Fraction Schedule Name [ScheduleNames], #4
+  ,   ! Target Temperature Schedule Name [ScheduleNames], #5
+  ,   ! Hot Water Supply Temperature Schedule Name [ScheduleNames], #6
+  ,   ! Cold Water Supply Temperature Schedule Name [ScheduleNames], #7
+  ,   ! Zone Name [ZoneNames], #8
+  ,   ! Sensible Fraction Schedule Name [ScheduleNames], #9
+  ;   ! Latent Fraction Schedule Name [ScheduleNames], #10

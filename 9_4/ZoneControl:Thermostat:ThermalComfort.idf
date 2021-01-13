@@ -1,0 +1,17 @@
+! Min Fields: 9
+ZoneControl:Thermostat:ThermalComfort,
+  ,   ! Name REQ, #1
+  ,   ! Zone or ZoneList Name [ZoneAndZoneListNames], REQ, #2
+  PeopleAverage,   ! Averaging Method Def: PeopleAverage, [SpecificObject, ObjectAverage, PeopleAverage], #3
+  ,   ! Specific People Name [PeopleNames], #4
+  0,   ! Minimum Dry-Bulb Temperature Setpoint {C}, Def: 0, #5
+  50,   ! Maximum Dry-Bulb Temperature Setpoint {C}, Def: 50, #6
+  ,   ! Thermal Comfort Control Type Schedule Name [ScheduleNames], REQ, #7
+  ,   ! Thermal Comfort Control 1 Object Type [ThermostatSetpoint:ThermalComfort:Fanger:SingleHeating, ThermostatSetpoint:ThermalComfort:Fanger:SingleCooling, ThermostatSetpoint:ThermalComfort:Fanger:SingleHeatingOrCooling, ThermostatSetpoint:ThermalComfort:Fanger:DualSetpoint], REQ, #8
+  ,   ! Thermal Comfort Control 1 Name [ThermalComfortControlTypeNames], REQ, #9
+  ,   ! Thermal Comfort Control 2 Object Type [ThermostatSetpoint:ThermalComfort:Fanger:SingleHeating, ThermostatSetpoint:ThermalComfort:Fanger:SingleCooling, ThermostatSetpoint:ThermalComfort:Fanger:SingleHeatingOrCooling, ThermostatSetpoint:ThermalComfort:Fanger:DualSetpoint], #10
+  ,   ! Thermal Comfort Control 2 Name [ThermalComfortControlTypeNames], #11
+  ,   ! Thermal Comfort Control 3 Object Type [ThermostatSetpoint:ThermalComfort:Fanger:SingleHeating, ThermostatSetpoint:ThermalComfort:Fanger:SingleCooling, ThermostatSetpoint:ThermalComfort:Fanger:SingleHeatingOrCooling, ThermostatSetpoint:ThermalComfort:Fanger:DualSetpoint], #12
+  ,   ! Thermal Comfort Control 3 Name [ThermalComfortControlTypeNames], #13
+  ,   ! Thermal Comfort Control 4 Object Type [ThermostatSetpoint:ThermalComfort:Fanger:SingleHeating, ThermostatSetpoint:ThermalComfort:Fanger:SingleCooling, ThermostatSetpoint:ThermalComfort:Fanger:SingleHeatingOrCooling, ThermostatSetpoint:ThermalComfort:Fanger:DualSetpoint], #14
+  ;   ! Thermal Comfort Control 4 Name [ThermalComfortControlTypeNames], #15

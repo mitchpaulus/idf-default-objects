@@ -1,0 +1,42 @@
+! Min Fields: 40
+HVACTemplate:Zone:PTAC,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Template Thermostat Name [CompactHVACThermostats], #2
+  autosize,   ! Cooling Supply Air Flow Rate {m3/s}, Def: autosize, AS, #3
+  autosize,   ! Heating Supply Air Flow Rate {m3/s}, Def: autosize, AS, #4
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #5
+  ,   ! Zone Heating Sizing Factor #6
+  ,   ! Zone Cooling Sizing Factor #7
+  Flow/Person,   ! Outdoor Air Method Def: Flow/Person, [Flow/Person, Flow/Zone, Flow/Area, Sum, Maximum, DetailedSpecification], #8
+  0.00944,   ! Outdoor Air Flow Rate per Person {m3/s}, Def: 0.00944, #9
+  0.0,   ! Outdoor Air Flow Rate per Zone Floor Area {m3/s-m2}, Def: 0.0, #10
+  0.0,   ! Outdoor Air Flow Rate per Zone {m3/s}, Def: 0.0, #11
+  ,   ! System Availability Schedule Name [ScheduleNames], #12
+  ,   ! Supply Fan Operating Mode Schedule Name [ScheduleNames], #13
+  DrawThrough,   ! Supply Fan Placement Def: DrawThrough, [BlowThrough, DrawThrough], #14
+  0.7,   ! Supply Fan Total Efficiency Def: 0.7, #15
+  75,   ! Supply Fan Delta Pressure {Pa}, Def: 75, #16
+  0.9,   ! Supply Fan Motor Efficiency Def: 0.9, #17
+  SingleSpeedDX,   ! Cooling Coil Type Def: SingleSpeedDX, [SingleSpeedDX], #18
+  ,   ! Cooling Coil Availability Schedule Name [ScheduleNames], #19
+  autosize,   ! Cooling Coil Gross Rated Total Capacity {W}, Def: autosize, AS, #20
+  autosize,   ! Cooling Coil Gross Rated Sensible Heat Ratio Def: autosize, AS, #21
+  3.0,   ! Cooling Coil Gross Rated Cooling COP {W/W}, Def: 3.0, #22
+  Electric,   ! Heating Coil Type Def: Electric, [Electric, HotWater, Gas], #23
+  ,   ! Heating Coil Availability Schedule Name [ScheduleNames], #24
+  autosize,   ! Heating Coil Capacity {W}, Def: autosize, AS, #25
+  0.8,   ! Gas Heating Coil Efficiency Def: 0.8, #26
+  0.0,   ! Gas Heating Coil Parasitic Electric Load {W}, Def: 0.0, #27
+  ,   ! Dedicated Outdoor Air System Name [HVACTemplateDOASSystems], #28
+  SupplyAirTemperature,   ! Zone Cooling Design Supply Air Temperature Input Method Def: SupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference], #29
+  14.0,   ! Zone Cooling Design Supply Air Temperature {C}, Def: 14.0, #30
+  11.11,   ! Zone Cooling Design Supply Air Temperature Difference {deltaC}, Def: 11.11, #31
+  SupplyAirTemperature,   ! Zone Heating Design Supply Air Temperature Input Method Def: SupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference], #32
+  50.0,   ! Zone Heating Design Supply Air Temperature {C}, Def: 50.0, #33
+  30.0,   ! Zone Heating Design Supply Air Temperature Difference {deltaC}, Def: 30.0, #34
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames], #35
+  ,   ! Design Specification Zone Air Distribution Object Name [DesignSpecificationZoneAirDistributionNames], #36
+  None,   ! Baseboard Heating Type Def: None, [HotWater, Electric, None], #37
+  ,   ! Baseboard Heating Availability Schedule Name [ScheduleNames], #38
+  autosize,   ! Baseboard Heating Capacity {W}, Def: autosize, AS, #39
+  None;   ! Capacity Control Method Def: None, [None, SingleZoneVAV], #40

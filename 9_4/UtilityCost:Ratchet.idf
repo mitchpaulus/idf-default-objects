@@ -1,0 +1,9 @@
+UtilityCost:Ratchet,
+  ,   ! Name REQ, #1
+  ,   ! Tariff Name [UtilityCostTariffs], REQ, #2
+  ,   ! Baseline Source Variable REQ, #3
+  ,   ! Adjustment Source Variable REQ, #4
+  ,   ! Season From [Annual, Summer, Winter, Spring, Fall, Monthly], #5
+  ,   ! Season To [Annual, Summer, Winter, Spring, Fall], #6
+  ,   ! Multiplier Value or Variable Name #7
+  ;   ! Offset Value or Variable Name #8

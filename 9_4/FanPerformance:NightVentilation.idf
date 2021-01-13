@@ -1,0 +1,7 @@
+FanPerformance:NightVentilation,
+  ,   ! Fan Name [FansCVandVAV, FansComponentModel], REQ, #1
+  ,   ! Fan Total Efficiency REQ, #2
+  ,   ! Pressure Rise {Pa}, REQ, #3
+  ,   ! Maximum Flow Rate {m3/s}, AS, #4
+  ,   ! Motor Efficiency REQ, #5
+  1.0;   ! Motor in Airstream Fraction Def: 1.0, #6

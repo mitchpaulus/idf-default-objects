@@ -1,0 +1,26 @@
+! Min Fields: 14
+Fan:SystemModel,
+  ,   ! Name RefList: [Fans, FansSystemModel, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Design Maximum Air Flow Rate {m3/s}, AS, REQ, #5
+  Discrete,   ! Speed Control Method Def: Discrete, [Continuous, Discrete], #6
+  0.2,   ! Electric Power Minimum Flow Rate Fraction Def: 0.2, #7
+  ,   ! Design Pressure Rise {Pa}, REQ, #8
+  0.9,   ! Motor Efficiency Def: 0.9, #9
+  1.0,   ! Motor In Air Stream Fraction Def: 1.0, #10
+  autosize,   ! Design Electric Power Consumption {W}, Def: autosize, AS, #11
+  PowerPerFlowPerPressure,   ! Design Power Sizing Method Def: PowerPerFlowPerPressure, [PowerPerFlow, PowerPerFlowPerPressure, TotalEfficiencyAndPressure], #12
+  ,   ! Electric Power Per Unit Flow Rate {W/(m3/s)}, #13
+  1.66667,   ! Electric Power Per Unit Flow Rate Per Unit Pressure {W/((m3/s)-Pa)}, Def: 1.66667, #14
+  0.7,   ! Fan Total Efficiency Def: 0.7, #15
+  ,   ! Electric Power Function of Flow Fraction Curve Name [UnivariateFunctions], #16
+  ,   ! Night Ventilation Mode Pressure Rise {Pa}, #17
+  ,   ! Night Ventilation Mode Flow Fraction #18
+  ,   ! Motor Loss Zone Name [ZoneNames], #19
+  ,   ! Motor Loss Radiative Fraction #20
+  General,   ! End-Use Subcategory Def: General, #21
+  1,   ! Number of Speeds Def: 1, #22
+  ,   ! Speed 1 Flow Fraction #23
+  ;   ! Speed 1 Electric Power Fraction #24

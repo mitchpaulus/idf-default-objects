@@ -1,0 +1,21 @@
+PhotovoltaicPerformance:EquivalentOne-Diode,
+  ,   ! Name RefList: [PVModules], #1
+  ,   ! Cell type [CrystallineSilicon, AmorphousSilicon], #2
+  36,   ! Number of Cells in Series {dimensionless}, Def: 36, #3
+  0.89,   ! Active Area {m2}, Def: 0.89, #4
+  0.95,   ! Transmittance Absorptance Product {dimensionless}, Def: 0.95, #5
+  1.12,   ! Semiconductor Bandgap {eV}, Def: 1.12, #6
+  1000000.0,   ! Shunt Resistance {ohms}, Def: 1000000.0, #7
+  6.5,   ! Short Circuit Current {A}, Def: 6.5, #8
+  21.6,   ! Open Circuit Voltage {V}, Def: 21.6, #9
+  25,   ! Reference Temperature {C}, Def: 25, #10
+  1000,   ! Reference Insolation {W/m2}, Def: 1000, #11
+  5.9,   ! Module Current at Maximum Power {A}, Def: 5.9, #12
+  17,   ! Module Voltage at Maximum Power {V}, Def: 17, #13
+  0.02,   ! Temperature Coefficient of Short Circuit Current {A/K}, Def: 0.02, #14
+  -0.079,   ! Temperature Coefficient of Open Circuit Voltage {V/K}, Def: -0.079, #15
+  20,   ! Nominal Operating Cell Temperature Test Ambient Temperature {C}, Def: 20, #16
+  40,   ! Nominal Operating Cell Temperature Test Cell Temperature {C}, Def: 40, #17
+  800,   ! Nominal Operating Cell Temperature Test Insolation {W/m2}, Def: 800, #18
+  30,   ! Module Heat Loss Coefficient {W/m2-K}, Def: 30, #19
+  50000;   ! Total Heat Capacity {J/m2-K}, Def: 50000, #20

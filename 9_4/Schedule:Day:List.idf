@@ -1,0 +1,7 @@
+! Min Fields: 5
+Schedule:Day:List,
+  ,   ! Name RefList: [DayScheduleNames], REQ, #1
+  ,   ! Schedule Type Limits Name [ScheduleTypeLimitsNames], #2
+  No,   ! Interpolate to Timestep Def: No, [Average, Linear, No], #3
+  ,   ! Minutes per Item #4
+  0.0;   ! Value 1 Def: 0.0, #5

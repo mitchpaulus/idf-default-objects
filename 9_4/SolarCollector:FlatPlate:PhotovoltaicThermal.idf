@@ -1,0 +1,11 @@
+SolarCollector:FlatPlate:PhotovoltaicThermal,
+  ,   ! Name RefList: [validOASysEquipmentNames, validBranchEquipmentNames, validPlantEquipmentNames], RefClassList: [validOASysEquipmentTypes, validBranchEquipmentTypes, validPlantEquipmentTypes], #1
+  ,   ! Surface Name [AllShadingAndHTSurfNames], REQ, #2
+  ,   ! Photovoltaic-Thermal Model Performance Name [FlatPlatePVTParameters], #3
+  ,   ! Photovoltaic Name [PVGeneratorNames], #4
+  ,   ! Thermal Working Fluid Type [Water, Air], #5
+  ,   ! Water Inlet Node Name #6
+  ,   ! Water Outlet Node Name #7
+  ,   ! Air Inlet Node Name #8
+  ,   ! Air Outlet Node Name #9
+  ;   ! Design Flow Rate {m3/s}, AS, #10

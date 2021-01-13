@@ -1,0 +1,6 @@
+SurfaceContaminantSourceAndSink:Generic:BoundaryLayerDiffusion,
+  ,   ! Name REQ, #1
+  ,   ! Surface Name [SurfaceNames], REQ, #2
+  ,   ! Mass Transfer Coefficient {m/s}, #3
+  ,   ! Schedule Name [ScheduleNames], REQ, #4
+  ;   ! Henry Adsorption Constant or Partition Coefficient {dimensionless}, #5

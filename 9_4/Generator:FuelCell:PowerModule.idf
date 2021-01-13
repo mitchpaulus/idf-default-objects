@@ -1,0 +1,34 @@
+Generator:FuelCell:PowerModule,
+  ,   ! Name RefList: [FCPMNames], REQ, #1
+  ,   ! Efficiency Curve Mode [Annex42, Normalized], #2
+  ,   ! Efficiency Curve Name [UnivariateFunctions], REQ, #3
+  ,   ! Nominal Efficiency #4
+  ,   ! Nominal Electrical Power {W}, #5
+  ,   ! Number of Stops at Start of Simulation #6
+  ,   ! Cycling Performance Degradation Coefficient #7
+  ,   ! Number of Run Hours at Beginning of Simulation {hr}, #8
+  ,   ! Accumulated Run Time Degradation Coefficient #9
+  ,   ! Run Time Degradation Initiation Time Threshold {hr}, #10
+  ,   ! Power Up Transient Limit {W/s}, #11
+  ,   ! Power Down Transient Limit {W/s}, #12
+  ,   ! Start Up Time {s}, #13
+  ,   ! Start Up Fuel {kmol}, #14
+  ,   ! Start Up Electricity Consumption {J}, #15
+  ,   ! Start Up Electricity Produced {J}, #16
+  ,   ! Shut Down Time {s}, #17
+  ,   ! Shut Down Fuel {kmol}, #18
+  ,   ! Shut Down Electricity Consumption {J}, #19
+  ,   ! Ancillary Electricity Constant Term #20
+  ,   ! Ancillary Electricity Linear Term #21
+  ,   ! Skin Loss Calculation Mode [ConstantRate, UAForProcessGasTemperature, QuadraticFunctionOfFuelRate], #22
+  ,   ! Zone Name [ZoneNames], #23
+  ,   ! Skin Loss Radiative Fraction #24
+  ,   ! Constant Skin Loss Rate {W}, #25
+  ,   ! Skin Loss U-Factor Times Area Term {W/K}, #26
+  ,   ! Skin Loss Quadratic Curve Name [UnivariateFunctions], #27
+  ,   ! Dilution Air Flow Rate {kmol/s}, #28
+  ,   ! Stack Heat loss to Dilution Air {W}, #29
+  ,   ! Dilution Inlet Air Node Name #30
+  ,   ! Dilution Outlet Air Node Name #31
+  ,   ! Minimum Operating Point {W}, #32
+  ;   ! Maximum Operating Point {W}, #33

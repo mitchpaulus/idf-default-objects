@@ -1,0 +1,7 @@
+! Min Fields: 4
+AirflowNetwork:Distribution:Linkage,
+  ,   ! Name REQ, #1
+  ,   ! Node 1 Name [AirflowNetworkNodeAndZoneNames], REQ, #2
+  ,   ! Node 2 Name [AirflowNetworkNodeAndZoneNames], REQ, #3
+  ,   ! Component Name [AirflowNetworkComponentNames, FansCVandOnOffandVAV, AFNCoilNames, AFNHeatExchangerNames, AFNTerminalUnitNames], REQ, #4
+  ;   ! Thermal Zone Name [ZoneNames], #5

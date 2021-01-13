@@ -1,0 +1,48 @@
+! Min Fields: 46
+HVACTemplate:System:DedicatedOutdoorAir,
+  ,   ! Name RefList: [HVACTemplateDOASSystems, HVACTemplateSystems], #1
+  ,   ! System Availability Schedule Name [ScheduleNames], #2
+  DirectIntoZone,   ! Air Outlet Type Def: DirectIntoZone, [DirectIntoZone], #3
+  autosize,   ! Supply Fan Flow Rate {m3/s}, Def: autosize, AS, #4
+  0.7,   ! Supply Fan Total Efficiency Def: 0.7, #5
+  1000,   ! Supply Fan Delta Pressure {Pa}, Def: 1000, #6
+  0.9,   ! Supply Fan Motor Efficiency Def: 0.9, #7
+  1.0,   ! Supply Fan Motor in Air Stream Fraction Def: 1.0, #8
+  DrawThrough,   ! Supply Fan Placement Def: DrawThrough, [DrawThrough, BlowThrough], #9
+  ChilledWater,   ! Cooling Coil Type Def: ChilledWater, [ChilledWater, ChilledWaterDetailedFlatModel, TwoSpeedDX, TwoStageDX, TwoStageHumidityControlDX, HeatExchangerAssistedChilledWater, HeatExchangerAssistedDX, None], #10
+  ,   ! Cooling Coil Availability Schedule Name [ScheduleNames], #11
+  FixedSetpoint,   ! Cooling Coil Setpoint Control Type Def: FixedSetpoint, [FixedSetpoint, Scheduled, OutdoorAirTemperatureReset], #12
+  12.8,   ! Cooling Coil Design Setpoint {C}, Def: 12.8, #13
+  ,   ! Cooling Coil Setpoint Schedule Name [ScheduleNames], #14
+  15.6,   ! Cooling Coil Setpoint at Outdoor Dry-Bulb Low {C}, Def: 15.6, #15
+  15.6,   ! Cooling Coil Reset Outdoor Dry-Bulb Low {C}, Def: 15.6, #16
+  12.8,   ! Cooling Coil Setpoint at Outdoor Dry-Bulb High {C}, Def: 12.8, #17
+  23.3,   ! Cooling Coil Reset Outdoor Dry-Bulb High {C}, Def: 23.3, #18
+  autosize,   ! DX Cooling Coil Gross Rated Total Capacity {W}, Def: autosize, AS, #19
+  autosize,   ! DX Cooling Coil Gross Rated Sensible Heat Ratio Def: autosize, AS, #20
+  3.0,   ! DX Cooling Coil Gross Rated COP {W/W}, Def: 3.0, #21
+  HotWater,   ! Heating Coil Type Def: HotWater, [HotWater, Electric, Gas, None], #22
+  ,   ! Heating Coil Availability Schedule Name [ScheduleNames], #23
+  FixedSetpoint,   ! Heating Coil Setpoint Control Type Def: FixedSetpoint, [FixedSetpoint, Scheduled, OutdoorAirTemperatureReset], #24
+  12.2,   ! Heating Coil Design Setpoint {C}, Def: 12.2, #25
+  ,   ! Heating Coil Setpoint Schedule Name [ScheduleNames], #26
+  15.0,   ! Heating Coil Setpoint at Outdoor Dry-Bulb Low {C}, Def: 15.0, #27
+  7.8,   ! Heating Coil Reset Outdoor Dry-Bulb Low {C}, Def: 7.8, #28
+  12.2,   ! Heating Coil Setpoint at Outdoor Dry-Bulb High {C}, Def: 12.2, #29
+  12.2,   ! Heating Coil Reset Outdoor Dry-Bulb High {C}, Def: 12.2, #30
+  0.8,   ! Gas Heating Coil Efficiency Def: 0.8, #31
+  0.0,   ! Gas Heating Coil Parasitic Electric Load {W}, Def: 0.0, #32
+  None,   ! Heat Recovery Type Def: None, [None, Sensible, Enthalpy], #33
+  0.70,   ! Heat Recovery Sensible Effectiveness Def: 0.70, #34
+  0.65,   ! Heat Recovery Latent Effectiveness Def: 0.65, #35
+  Plate,   ! Heat Recovery Heat Exchanger Type Def: Plate, [Plate, Rotary], #36
+  None,   ! Heat Recovery Frost Control Type Def: None, [None, ExhaustAirRecirculation, ExhaustOnly, MinimumExhaustTemperature], #37
+  None,   ! Dehumidification Control Type Def: None, [None, CoolReheatHeatingCoil, CoolReheatDesuperheater, Multimode], #38
+  0.00924,   ! Dehumidification Setpoint {kgWater/kgDryAir}, Def: 0.00924, #39
+  None,   ! Humidifier Type Def: None, [None, ElectricSteam], #40
+  ,   ! Humidifier Availability Schedule Name [ScheduleNames], #41
+  0.000001,   ! Humidifier Rated Capacity {m3/s}, Def: 0.000001, #42
+  autosize,   ! Humidifier Rated Electric Power {W}, Def: autosize, AS, #43
+  0.003,   ! Humidifier Constant Setpoint {kgWater/kgDryAir}, Def: 0.003, #44
+  ,   ! Dehumidification Setpoint Schedule Name [ScheduleNames], #45
+  ;   ! Humidifier Setpoint Schedule Name [ScheduleNames], #46

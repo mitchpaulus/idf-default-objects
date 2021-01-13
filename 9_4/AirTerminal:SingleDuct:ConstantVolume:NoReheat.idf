@@ -1,0 +1,9 @@
+! Min Fields: 5
+AirTerminal:SingleDuct:ConstantVolume:NoReheat,
+  ,   ! Name RefList: [AirTerminalUnitNames, AFNTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Maximum Air Flow Rate {m3/s}, AS, REQ, #5
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames], #6
+  CurrentOccupancy;   ! Per Person Ventilation Rate Mode Def: CurrentOccupancy, [CurrentOccupancy, DesignOccupancy], #7
