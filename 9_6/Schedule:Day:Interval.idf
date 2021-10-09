@@ -1,0 +1,7 @@
+! Min Fields: 5
+Schedule:Day:Interval,
+  ,   ! Name RefList: [DayScheduleNames], REQ, #1
+  ,   ! Schedule Type Limits Name [ScheduleTypeLimitsNames], #2
+  No,   ! Interpolate to Timestep Def: No, [Average, Linear, No], #3
+  ,   ! Time 1 {hh:mm}, #4
+  ;   ! Value Until Time 1 #5

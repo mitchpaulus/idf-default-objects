@@ -1,0 +1,35 @@
+! Min Fields: 21
+HVACTemplate:Plant:ChilledWaterLoop,
+  ,   ! Name REQ, #1
+  ,   ! Pump Schedule Name [ScheduleNames], #2
+  Intermittent,   ! Pump Control Type Def: Intermittent, [Intermittent, Continuous], #3
+  Default,   ! Chiller Plant Operation Scheme Type Def: Default, [Default, UserDefined], #4
+  ,   ! Chiller Plant Equipment Operation Schemes Name [PlantOperationSchemes], #5
+  ,   ! Chilled Water Setpoint Schedule Name [ScheduleNames], #6
+  7.22,   ! Chilled Water Design Setpoint {C}, Def: 7.22, #7
+  ConstantPrimaryNoSecondary,   ! Chilled Water Pump Configuration Def: ConstantPrimaryNoSecondary, [ConstantPrimaryNoSecondary, VariablePrimaryNoSecondary, ConstantPrimaryVariableSecondary], #8
+  179352,   ! Primary Chilled Water Pump Rated Head {Pa}, Def: 179352, #9
+  179352,   ! Secondary Chilled Water Pump Rated Head {Pa}, Def: 179352, #10
+  Default,   ! Condenser Plant Operation Scheme Type Def: Default, [Default, UserDefined], #11
+  ,   ! Condenser Equipment Operation Schemes Name [CondenserOperationSchemes], #12
+  ,   ! Condenser Water Temperature Control Type [OutdoorWetBulbTemperature, SpecifiedSetpoint], #13
+  ,   ! Condenser Water Setpoint Schedule Name [ScheduleNames], #14
+  29.4,   ! Condenser Water Design Setpoint {C}, Def: 29.4, #15
+  179352,   ! Condenser Water Pump Rated Head {Pa}, Def: 179352, #16
+  None,   ! Chilled Water Setpoint Reset Type Def: None, [None, OutdoorAirTemperatureReset], #17
+  12.2,   ! Chilled Water Setpoint at Outdoor Dry-Bulb Low {C}, Def: 12.2, #18
+  15.6,   ! Chilled Water Reset Outdoor Dry-Bulb Low {C}, Def: 15.6, #19
+  6.7,   ! Chilled Water Setpoint at Outdoor Dry-Bulb High {C}, Def: 6.7, #20
+  26.7,   ! Chilled Water Reset Outdoor Dry-Bulb High {C}, Def: 26.7, #21
+  SinglePump,   ! Chilled Water Primary Pump Type Def: SinglePump, [SinglePump, PumpPerChiller, TwoHeaderedPumps, ThreeHeaderedPumps, FourHeaderedPumps, FiveHeaderedPumps], #22
+  SinglePump,   ! Chilled Water Secondary Pump Type Def: SinglePump, [SinglePump, TwoHeaderedPumps, ThreeHeaderedPumps, FourHeaderedPumps, FiveHeaderedPumps], #23
+  SinglePump,   ! Condenser Water Pump Type Def: SinglePump, [SinglePump, PumpPerTower, TwoHeaderedPumps, ThreeHeaderedPumps, FourHeaderedPumps, FiveHeaderedPumps], #24
+  Yes,   ! Chilled Water Supply Side Bypass Pipe Def: Yes, [Yes, No], #25
+  Yes,   ! Chilled Water Demand Side Bypass Pipe Def: Yes, [Yes, No], #26
+  Yes,   ! Condenser Water Supply Side Bypass Pipe Def: Yes, [Yes, No], #27
+  Yes,   ! Condenser Water Demand Side Bypass Pipe Def: Yes, [Yes, No], #28
+  Water,   ! Fluid Type Def: Water, [Water, EthyleneGlycol30, EthyleneGlycol40, EthyleneGlycol50, EthyleneGlycol60, PropyleneGlycol30, PropyleneGlycol40, PropyleneGlycol50, PropyleneGlycol60], #29
+  6.67,   ! Loop Design Delta Temperature {deltaC}, Def: 6.67, #30
+  ,   ! Minimum Outdoor Dry Bulb Temperature {C}, #31
+  SequentialLoad,   ! Chilled Water Load Distribution Scheme Def: SequentialLoad, [Optimal, SequentialLoad, UniformLoad, UniformPLR, SequentialUniformPLR], #32
+  SequentialLoad;   ! Condenser Water Load Distribution Scheme Def: SequentialLoad, [Optimal, SequentialLoad, UniformLoad, UniformPLR, SequentialUniformPLR], #33

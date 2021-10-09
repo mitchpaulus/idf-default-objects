@@ -1,0 +1,5 @@
+! Min Fields: 3
+ExternalInterface:Schedule,
+  ,   ! Name RefList: [ScheduleNames], REQ, #1
+  ,   ! Schedule Type Limits Name [ScheduleTypeLimitsNames], #2
+  ;   ! Initial Value REQ, #3

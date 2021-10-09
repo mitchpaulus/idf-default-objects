@@ -1,0 +1,18 @@
+AirTerminal:SingleDuct:ParallelPIU:Reheat,
+  ,   ! Name RefList: [AirTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Maximum Primary Air Flow Rate {m3/s}, AS, REQ, #3
+  ,   ! Maximum Secondary Air Flow Rate {m3/s}, AS, REQ, #4
+  ,   ! Minimum Primary Air Flow Fraction AS, REQ, #5
+  ,   ! Fan On Flow Fraction AS, REQ, #6
+  ,   ! Supply Air Inlet Node Name #7
+  ,   ! Secondary Air Inlet Node Name #8
+  ,   ! Outlet Node Name #9
+  ,   ! Reheat Coil Air Inlet Node Name #10
+  ,   ! Zone Mixer Name [ZoneMixers], #11
+  ,   ! Fan Name [FansCV, FansSystemModel], #12
+  ,   ! Reheat Coil Object Type [Coil:Heating:Water, Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam], REQ, #13
+  ,   ! Reheat Coil Name [HeatingCoilName], REQ, #14
+  ,   ! Maximum Hot Water or Steam Flow Rate {m3/s}, AS, #15
+  0.0,   ! Minimum Hot Water or Steam Flow Rate {m3/s}, Def: 0.0, #16
+  0.001;   ! Convergence Tolerance Def: 0.001, #17

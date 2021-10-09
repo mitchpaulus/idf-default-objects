@@ -1,0 +1,63 @@
+! Min Fields: 61
+HVACTemplate:System:UnitaryHeatPump:AirToAir,
+  ,   ! Name RefList: [CompactHVACSystemUnitary, HVACTemplateSystems], REQ, #1
+  ,   ! System Availability Schedule Name [ScheduleNames], #2
+  ,   ! Control Zone or Thermostat Location Name [ZoneNames], REQ, #3
+  autosize,   ! Cooling Supply Air Flow Rate {m3/s}, Def: autosize, AS, #4
+  autosize,   ! Heating Supply Air Flow Rate {m3/s}, Def: autosize, AS, #5
+  autosize,   ! No Load Supply Air Flow Rate {m3/s}, Def: autosize, AS, #6
+  ,   ! Supply Fan Operating Mode Schedule Name [ScheduleNames], #7
+  BlowThrough,   ! Supply Fan Placement Def: BlowThrough, [BlowThrough, DrawThrough], #8
+  0.7,   ! Supply Fan Total Efficiency Def: 0.7, #9
+  600,   ! Supply Fan Delta Pressure {Pa}, Def: 600, #10
+  0.9,   ! Supply Fan Motor Efficiency Def: 0.9, #11
+  1.0,   ! Supply Fan Motor in Air Stream Fraction Def: 1.0, #12
+  SingleSpeedDX,   ! Cooling Coil Type Def: SingleSpeedDX, [SingleSpeedDX], #13
+  ,   ! Cooling Coil Availability Schedule Name [ScheduleNames], #14
+  12.8,   ! Cooling Design Supply Air Temperature {C}, Def: 12.8, #15
+  autosize,   ! Cooling Coil Gross Rated Total Capacity {W}, Def: autosize, AS, #16
+  autosize,   ! Cooling Coil Gross Rated Sensible Heat Ratio Def: autosize, AS, #17
+  3.0,   ! Cooling Coil Gross Rated COP {W/W}, Def: 3.0, #18
+  SingleSpeedDXHeatPump,   ! Heat Pump Heating Coil Type Def: SingleSpeedDXHeatPump, [SingleSpeedDXHeatPump], #19
+  ,   ! Heat Pump Heating Coil Availability Schedule Name [ScheduleNames], #20
+  50.0,   ! Heating Design Supply Air Temperature {C}, Def: 50.0, #21
+  autosize,   ! Heat Pump Heating Coil Gross Rated Capacity {W}, Def: autosize, AS, #22
+  2.75,   ! Heat Pump Heating Coil Rated COP {W/W}, Def: 2.75, #23
+  -8.0,   ! Heat Pump Heating Minimum Outdoor Dry-Bulb Temperature {C}, Def: -8.0, #24
+  5.0,   ! Heat Pump Defrost Maximum Outdoor Dry-Bulb Temperature {C}, Def: 5.0, #25
+  ReverseCycle,   ! Heat Pump Defrost Strategy Def: ReverseCycle, [ReverseCycle, Resistive], #26
+  Timed,   ! Heat Pump Defrost Control Def: Timed, [Timed, OnDemand], #27
+  0.058333,   ! Heat Pump Defrost Time Period Fraction Def: 0.058333, #28
+  Electric,   ! Supplemental Heating Coil Type Def: Electric, [Electric, Gas, HotWater], #29
+  ,   ! Supplemental Heating Coil Availability Schedule Name [ScheduleNames], #30
+  autosize,   ! Supplemental Heating Coil Capacity {W}, Def: autosize, AS, #31
+  21.0,   ! Supplemental Heating Coil Maximum Outdoor Dry-Bulb Temperature {C}, Def: 21.0, #32
+  0.8,   ! Supplemental Gas Heating Coil Efficiency Def: 0.8, #33
+  0.0,   ! Supplemental Gas Heating Coil Parasitic Electric Load {W}, Def: 0.0, #34
+  autosize,   ! Maximum Outdoor Air Flow Rate {m3/s}, Def: autosize, AS, #35
+  autosize,   ! Minimum Outdoor Air Flow Rate {m3/s}, Def: autosize, AS, #36
+  ,   ! Minimum Outdoor Air Schedule Name [ScheduleNames], #37
+  NoEconomizer,   ! Economizer Type Def: NoEconomizer, [FixedDryBulb, FixedEnthalpy, DifferentialDryBulb, DifferentialEnthalpy, FixedDewPointAndDryBulb, ElectronicEnthalpy, DifferentialDryBulbAndEnthalpy, NoEconomizer], #38
+  NoLockout,   ! Economizer Lockout Def: NoLockout, [NoLockout, LockoutWithHeating, LockoutWithCompressor], #39
+  ,   ! Economizer Maximum Limit Dry-Bulb Temperature {C}, #40
+  ,   ! Economizer Maximum Limit Enthalpy {J/kg}, #41
+  ,   ! Economizer Maximum Limit Dewpoint Temperature {C}, #42
+  ,   ! Economizer Minimum Limit Dry-Bulb Temperature {C}, #43
+  ,   ! Supply Plenum Name [ZoneNames], #44
+  ,   ! Return Plenum Name [ZoneNames], #45
+  StayOff,   ! Night Cycle Control Def: StayOff, [StayOff, CycleOnAny, CycleOnControlZone], #46
+  ,   ! Night Cycle Control Zone Name [ZoneNames], #47
+  None,   ! Heat Recovery Type Def: None, [None, Sensible, Enthalpy], #48
+  0.70,   ! Sensible Heat Recovery Effectiveness Def: 0.70, #49
+  0.65,   ! Latent Heat Recovery Effectiveness Def: 0.65, #50
+  None,   ! Humidifier Type Def: None, [None, ElectricSteam], #51
+  ,   ! Humidifier Availability Schedule Name [ScheduleNames], #52
+  0.000001,   ! Humidifier Rated Capacity {m3/s}, Def: 0.000001, #53
+  autosize,   ! Humidifier Rated Electric Power {W}, Def: autosize, AS, #54
+  ,   ! Humidifier Control Zone Name [ZoneNames], #55
+  30.0,   ! Humidifier Setpoint {percent}, Def: 30.0, #56
+  No,   ! Return Fan Def: No, [Yes, No], #57
+  0.7,   ! Return Fan Total Efficiency Def: 0.7, #58
+  500,   ! Return Fan Delta Pressure {Pa}, Def: 500, #59
+  0.9,   ! Return Fan Motor Efficiency Def: 0.9, #60
+  1.0;   ! Return Fan Motor in Air Stream Fraction Def: 1.0, #61

@@ -1,0 +1,10 @@
+! Min Fields: 8
+Controller:MechanicalVentilation,
+  ,   ! Name RefList: [ControllerMechanicalVentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  No,   ! Demand Controlled Ventilation Def: No, [Yes, No], #3
+  Standard62.1VentilationRateProcedure,   ! System Outdoor Air Method Def: Standard62.1VentilationRateProcedure, [ZoneSum, Standard62.1VentilationRateProcedure, Standard62.1VentilationRateProcedureWithLimit, IndoorAirQualityProcedure, ProportionalControlBasedOnDesignOccupancy, ProportionalControlBasedOnOccupancySchedule, IndoorAirQualityProcedureGenericContaminant, IndoorAirQualityProcedureCombined, ProportionalControlBasedOnDesignOARate], #4
+  1.0,   ! Zone Maximum Outdoor Air Fraction {dimensionless}, Def: 1.0, #5
+  ,   ! Zone or ZoneList 1 Name [ZoneAndZoneListNames], REQ, #6
+  ,   ! Design Specification Outdoor Air Object Name 1 [DesignSpecificationOutdoorAirNames, DSOASpaceListNames], #7
+  ;   ! Design Specification Zone Air Distribution Object Name 1 [DesignSpecificationZoneAirDistributionNames], #8

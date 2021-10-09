@@ -1,0 +1,11 @@
+! Min Fields: 7
+Coil:Heating:Desuperheater,
+  ,   ! Name RefList: [HeatingCoilsDesuperheater, AFNCoilNames, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Heat Reclaim Recovery Efficiency #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Air Outlet Node Name REQ, #5
+  ,   ! Heating Source Object Type [Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:VariableSpeed, Coil:Cooling:DX:TwoSpeed, Coil:Cooling:DX:TwoStageWithHumidityControlMode, Refrigeration:CompressorRack, Refrigeration:Condenser:AirCooled, Refrigeration:Condenser:EvaporativeCooled, Refrigeration:Condenser:WaterCooled], REQ, #6
+  ,   ! Heating Source Name [DesuperHeatingCoilSources], REQ, #7
+  ,   ! Temperature Setpoint Node Name #8
+  ;   ! Parasitic Electric Load {W}, #9

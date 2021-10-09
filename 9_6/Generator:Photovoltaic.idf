@@ -1,0 +1,8 @@
+Generator:Photovoltaic,
+  ,   ! Name RefList: [GeneratorNames, PVGeneratorNames], REQ, #1
+  ,   ! Surface Name [AllShadingAndHTSurfNames], REQ, #2
+  ,   ! Photovoltaic Performance Object Type [PhotovoltaicPerformance:Simple, PhotovoltaicPerformance:EquivalentOne-Diode, PhotovoltaicPerformance:Sandia], #3
+  ,   ! Module Performance Name [PVModules], #4
+  Decoupled,   ! Heat Transfer Integration Mode Def: Decoupled, [Decoupled, DecoupledUllebergDynamic, IntegratedSurfaceOutsideFace, IntegratedTranspiredCollector, IntegratedExteriorVentedCavity, PhotovoltaicThermalSolarCollector], #5
+  1,   ! Number of Series Strings in Parallel {dimensionless}, Def: 1, #6
+  1;   ! Number of Modules in Series {dimensionless}, Def: 1, #7

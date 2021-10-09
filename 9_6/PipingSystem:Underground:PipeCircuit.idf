@@ -1,0 +1,17 @@
+! Min Fields: 15
+PipingSystem:Underground:PipeCircuit,
+  ,   ! Name RefList: [PipingSystemUndergroundCircuitNames, validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Pipe Thermal Conductivity {W/m-K}, REQ, #2
+  ,   ! Pipe Density {kg/m3}, REQ, #3
+  ,   ! Pipe Specific Heat {J/kg-K}, REQ, #4
+  ,   ! Pipe Inner Diameter {m}, REQ, #5
+  ,   ! Pipe Outer Diameter {m}, REQ, #6
+  ,   ! Design Flow Rate {m3/s}, REQ, #7
+  ,   ! Circuit Inlet Node REQ, #8
+  ,   ! Circuit Outlet Node REQ, #9
+  0.001,   ! Convergence Criterion for the Inner Radial Iteration Loop {deltaC}, Def: 0.001, #10
+  500,   ! Maximum Iterations in the Inner Radial Iteration Loop Def: 500, #11
+  3,   ! Number of Soil Nodes in the Inner Radial Near Pipe Mesh Region Def: 3, #12
+  ,   ! Radial Thickness of Inner Radial Near Pipe Mesh Region REQ, #13
+  ,   ! Number of Pipe Segments Entered for this Pipe Circuit REQ, #14
+  ;   ! Pipe Segment 1 [PipingSystemUndergroundSegmentNames], REQ, #15

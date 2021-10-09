@@ -1,0 +1,9 @@
+Refrigeration:Condenser:Cascade,
+  ,   ! Name RefList: [RefrigerationAllTypesCondenserNames, RefrigerationCascadeCondenserAndSecondarySystemNames, RefrigerationSecondarySystemAndCascadeCondenserAndTransferLoadListNames], REQ, #1
+  ,   ! Rated Condensing Temperature {C}, REQ, #2
+  3.0,   ! Rated Approach Temperature Difference {deltaC}, Def: 3.0, #3
+  ,   ! Rated Effective Total Heat Rejection Rate {W}, REQ, #4
+  Fixed,   ! Condensing Temperature Control Type Def: Fixed, [Fixed, Float], #5
+  ,   ! Condenser Refrigerant Operating Charge Inventory {kg}, #6
+  ,   ! Condensate Receiver Refrigerant Inventory {kg}, #7
+  ;   ! Condensate Piping Refrigerant Inventory {kg}, #8

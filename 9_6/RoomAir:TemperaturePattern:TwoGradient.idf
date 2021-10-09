@@ -1,0 +1,13 @@
+RoomAir:TemperaturePattern:TwoGradient,
+  ,   ! Room Air Temperature Pattern Two Gradient Name REQ, #1
+  ,   ! Control Integer for Pattern Control Schedule Name REQ, #2
+  ,   ! Thermostat Height {m}, #3
+  ,   ! Return Air Height {m}, #4
+  ,   ! Exhaust Air Height {m}, #5
+  ,   ! Temperature Gradient Lower Bound {K/m}, #6
+  ,   ! Temperature Gradient Upper  Bound {K/m}, #7
+  ,   ! Gradient Interpolation Mode [OutdoorDryBulbTemperature, ZoneDryBulbTemperature, ZoneAndOutdoorTemperatureDifference, SensibleCoolingLoad, SensibleHeatingLoad], #8
+  ,   ! Upper Temperature Bound {C}, #9
+  ,   ! Lower Temperature Bound {C}, #10
+  ,   ! Upper Heat Rate Bound {W}, #11
+  ;   ! Lower Heat Rate Bound {W}, #12

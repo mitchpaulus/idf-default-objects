@@ -1,0 +1,9 @@
+! Min Fields: 7
+Schedule:Year,
+  ,   ! Name RefList: [ScheduleNames], REQ, #1
+  ,   ! Schedule Type Limits Name [ScheduleTypeLimitsNames], #2
+  ,   ! Schedule:Week Name 1 [WeekScheduleNames], REQ, #3
+  ,   ! Start Month 1 REQ, #4
+  ,   ! Start Day 1 REQ, #5
+  ,   ! End Month 1 REQ, #6
+  ;   ! End Day 1 REQ, #7

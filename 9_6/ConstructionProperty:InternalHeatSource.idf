@@ -1,0 +1,8 @@
+ConstructionProperty:InternalHeatSource,
+  ,   ! Name RefList: [InternalHeatSourceNames], REQ, #1
+  ,   ! Construction Name [ConstructionNames], #2
+  ,   ! Thermal Source Present After Layer Number REQ, #3
+  ,   ! Temperature Calculation Requested After Layer Number REQ, #4
+  ,   ! Dimensions for the CTF Calculation REQ, #5
+  ,   ! Tube Spacing {m}, REQ, #6
+  0.0;   ! Two-Dimensional Temperature Calculation Position {dimensionless}, Def: 0.0, REQ, #7

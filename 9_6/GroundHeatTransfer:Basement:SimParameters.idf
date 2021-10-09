@@ -1,0 +1,3 @@
+GroundHeatTransfer:Basement:SimParameters,
+  ,   ! F: Multiplier for the ADI solution #1
+  15;   ! IYRS: Maximum number of yearly iterations: Def: 15, #2

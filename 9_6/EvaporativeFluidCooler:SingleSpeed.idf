@@ -1,0 +1,27 @@
+! Min Fields: 10
+EvaporativeFluidCooler:SingleSpeed,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  ,   ! Design Air Flow Rate {m3/s}, AS, REQ, #4
+  ,   ! Design Air Flow Rate Fan Power {W}, AS, REQ, #5
+  ,   ! Design Spray Water Flow Rate {m3/s}, REQ, #6
+  ,   ! Performance Input Method [UFactorTimesAreaAndDesignWaterFlowRate, StandardDesignCapacity, UserSpecifiedDesignCapacity], #7
+  ,   ! Outdoor Air Inlet Node Name #8
+  1.25,   ! Heat Rejection Capacity and Nominal Capacity Sizing Ratio Def: 1.25, #9
+  ,   ! Standard Design Capacity {W}, #10
+  ,   ! Design Air Flow Rate U-factor Times Area Value {W/K}, AS, #11
+  ,   ! Design Water Flow Rate {m3/s}, AS, #12
+  ,   ! User Specified Design Capacity {W}, #13
+  ,   ! Design Entering Water Temperature {C}, #14
+  ,   ! Design Entering Air Temperature {C}, #15
+  ,   ! Design Entering Air Wet-bulb Temperature {C}, #16
+  FanCycling,   ! Capacity Control Def: FanCycling, [FanCycling, FluidBypass], #17
+  1.0,   ! Sizing Factor Def: 1.0, #18
+  SaturatedExit,   ! Evaporation Loss Mode Def: SaturatedExit, [LossFactor, SaturatedExit], #19
+  ,   ! Evaporation Loss Factor {percent/K}, #20
+  0.008,   ! Drift Loss Percent {percent}, Def: 0.008, #21
+  ConcentrationRatio,   ! Blowdown Calculation Mode Def: ConcentrationRatio, [ConcentrationRatio, ScheduledRate], #22
+  3.0,   ! Blowdown Concentration Ratio Def: 3.0, #23
+  ,   ! Blowdown Makeup Water Usage Schedule Name [ScheduleNames], #24
+  ;   ! Supply Water Storage Tank Name [WaterStorageTankNames], #25

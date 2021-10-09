@@ -1,0 +1,8 @@
+! Min Fields: 6
+ExternalInterface:FunctionalMockupUnitImport:To:Schedule,
+  ,   ! Name RefList: [ScheduleNames], REQ, #1
+  ,   ! Schedule Type Limits Names [ScheduleTypeLimitsNames], #2
+  ,   ! FMU File Name [FMUFileName], REQ, #3
+  ,   ! FMU Instance Name REQ, #4
+  ,   ! FMU Variable Name REQ, #5
+  ;   ! Initial Value REQ, #6

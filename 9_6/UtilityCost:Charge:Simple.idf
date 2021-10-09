@@ -1,0 +1,7 @@
+UtilityCost:Charge:Simple,
+  ,   ! Utility Cost Charge Simple Name REQ, #1
+  ,   ! Tariff Name [UtilityCostTariffs], REQ, #2
+  ,   ! Source Variable REQ, #3
+  ,   ! Season [Annual, Summer, Winter, Spring, Fall], #4
+  ,   ! Category Variable Name [EnergyCharges, DemandCharges, ServiceCharges, Basis, Adjustment, Surcharge, Subtotal, Taxes, Total, NotIncluded], REQ, #5
+  ;   ! Cost per Unit Value or Variable Name REQ, #6

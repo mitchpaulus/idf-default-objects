@@ -1,0 +1,18 @@
+Refrigeration:Condenser:WaterCooled,
+  ,   ! Name RefList: [RefrigerationAllTypesCondenserNames, DesuperHeatingCoilSources, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Rated Effective Total Heat Rejection Rate {W}, #2
+  ,   ! Rated Condensing Temperature {C}, REQ, #3
+  0.0,   ! Rated Subcooling Temperature Difference {deltaC}, Def: 0.0, #4
+  ,   ! Rated Water Inlet Temperature {C}, REQ, #5
+  ,   ! Water Inlet Node Name #6
+  ,   ! Water Outlet Node Name #7
+  VariableFlow,   ! Water-Cooled Loop Flow Type Def: VariableFlow, [VariableFlow, ConstantFlow], #8
+  ,   ! Water Outlet Temperature Schedule Name [ScheduleNames], #9
+  ,   ! Water Design Flow Rate {m3/s}, #10
+  ,   ! Water Maximum Flow Rate {m3/s}, #11
+  55.0,   ! Water Maximum Water Outlet Temperature {C}, Def: 55.0, #12
+  10.0,   ! Water Minimum Water Inlet Temperature {C}, Def: 10.0, #13
+  General,   ! End-Use Subcategory Def: General, #14
+  ,   ! Condenser Refrigerant Operating Charge Inventory {kg}, #15
+  ,   ! Condensate Receiver Refrigerant Inventory {kg}, #16
+  ;   ! Condensate Piping Refrigerant Inventory {kg}, #17

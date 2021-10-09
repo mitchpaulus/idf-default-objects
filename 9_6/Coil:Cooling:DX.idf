@@ -1,0 +1,12 @@
+! Min Fields: 8
+Coil:Cooling:DX,
+  ,   ! Name RefList: [CoilCoolingDX, AFNCoilNames], REQ, #1
+  ,   ! Evaporator Inlet Node Name REQ, #2
+  ,   ! Evaporator Outlet Node Name REQ, #3
+  ,   ! Availability Schedule Name [ScheduleNames], #4
+  ,   ! Condenser Zone Name [ZoneNames], #5
+  ,   ! Condenser Inlet Node Name REQ, #6
+  ,   ! Condenser Outlet Node Name REQ, #7
+  ,   ! Performance Object Name [DXCoolingPerformanceNames], REQ, #8
+  ,   ! Condensate Collection Water Storage Tank Name [WaterStorageTankNames], #9
+  ;   ! Evaporative Condenser Supply Water Storage Tank Name [WaterStorageTankNames], #10

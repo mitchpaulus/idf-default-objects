@@ -1,0 +1,12 @@
+! Min Fields: 7
+SolarCollectorPerformance:FlatPlate,
+  ,   ! Name RefList: [FlatPlateSolarCollectorParameters], REQ, #1
+  ,   ! Gross Area {m2}, REQ, #2
+  Water,   ! Test Fluid Def: Water, [Water], #3
+  ,   ! Test Flow Rate {m3/s}, REQ, #4
+  ,   ! Test Correlation Type [Inlet, Average, Outlet], REQ, #5
+  ,   ! Coefficient 1 of Efficiency Equation {dimensionless}, REQ, #6
+  ,   ! Coefficient 2 of Efficiency Equation {W/m2-K}, REQ, #7
+  ,   ! Coefficient 3 of Efficiency Equation {W/m2-K2}, #8
+  ,   ! Coefficient 2 of Incident Angle Modifier #9
+  ;   ! Coefficient 3 of Incident Angle Modifier #10

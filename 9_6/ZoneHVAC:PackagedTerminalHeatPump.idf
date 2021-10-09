@@ -1,0 +1,33 @@
+! Min Fields: 26
+ZoneHVAC:PackagedTerminalHeatPump,
+  ,   ! Name RefList: [DOAToZonalUnit, ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Outdoor Air Mixer Object Type [OutdoorAir:Mixer], #5
+  ,   ! Outdoor Air Mixer Name [OutdoorAirMixers], #6
+  ,   ! Cooling Supply Air Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Heating Supply Air Flow Rate {m3/s}, AS, REQ, #8
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #9
+  ,   ! Cooling Outdoor Air Flow Rate {m3/s}, AS, REQ, #10
+  ,   ! Heating Outdoor Air Flow Rate {m3/s}, AS, REQ, #11
+  ,   ! No Load Outdoor Air Flow Rate {m3/s}, AS, #12
+  ,   ! Supply Air Fan Object Type [Fan:SystemModel, Fan:OnOff, Fan:ConstantVolume], REQ, #13
+  ,   ! Supply Air Fan Name [FansCVandOnOff, FansSystemModel], REQ, #14
+  ,   ! Heating Coil Object Type [Coil:Heating:DX:SingleSpeed, Coil:Heating:DX:VariableSpeed], REQ, #15
+  ,   ! Heating Coil Name [HeatingCoilsDXSingleSpeed, HeatingCoilsDXVariableSpeed], REQ, #16
+  0.001,   ! Heating Convergence Tolerance {dimensionless}, Def: 0.001, #17
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:VariableSpeed, CoilSystem:Cooling:DX:HeatExchangerAssisted], REQ, #18
+  ,   ! Cooling Coil Name [CoolingCoilsDXSingleSpeed, CoolingCoilsDXVariableSpeed], REQ, #19
+  0.001,   ! Cooling Convergence Tolerance {dimensionless}, Def: 0.001, #20
+  ,   ! Supplemental Heating Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Water, Coil:Heating:Steam], REQ, #21
+  ,   ! Supplemental Heating Coil Name [HeatingCoilName], REQ, #22
+  ,   ! Maximum Supply Air Temperature from Supplemental Heater {C}, AS, REQ, #23
+  21.0,   ! Maximum Outdoor Dry-Bulb Temperature for Supplemental Heater Operation {C}, Def: 21.0, #24
+  DrawThrough,   ! Fan Placement Def: DrawThrough, [BlowThrough, DrawThrough], #25
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #26
+  ,   ! Availability Manager List Name [SystemAvailabilityManagerLists], #27
+  ,   ! Design Specification ZoneHVAC Sizing Object Name [DesignSpecificationZoneHVACSizingName], #28
+  None,   ! Capacity Control Method Def: None, [None, SingleZoneVAV], #29
+  autosize,   ! Minimum Supply Air Temperature in Cooling Mode {C}, Def: autosize, AS, #30
+  autosize;   ! Maximum Supply Air Temperature in Heating Mode {C}, Def: autosize, AS, #31

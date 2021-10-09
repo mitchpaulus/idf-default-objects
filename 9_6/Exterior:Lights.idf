@@ -1,0 +1,6 @@
+Exterior:Lights,
+  ,   ! Name RefList: [ExteriorLightsNames], REQ, #1
+  ,   ! Schedule Name [ScheduleNames], REQ, #2
+  ,   ! Design Level {W}, REQ, #3
+  ,   ! Control Option [ScheduleNameOnly, AstronomicalClock], #4
+  General;   ! End-Use Subcategory Def: General, #5

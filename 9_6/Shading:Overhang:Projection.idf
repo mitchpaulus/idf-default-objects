@@ -1,0 +1,8 @@
+Shading:Overhang:Projection,
+  ,   ! Name RefList: [AttachedShadingSurfNames, AllShadingAndHTSurfNames, AllShadingSurfNames], REQ, #1
+  ,   ! Window or Door Name [SubSurfNames], REQ, #2
+  ,   ! Height above Window or Door {m}, #3
+  90,   ! Tilt Angle from Window/Door {deg}, Def: 90, #4
+  ,   ! Left extension from Window/Door Width {m}, #5
+  ,   ! Right extension from Window/Door Width {m}, #6
+  ;   ! Depth as Fraction of Window/Door Height {dimensionless}, #7

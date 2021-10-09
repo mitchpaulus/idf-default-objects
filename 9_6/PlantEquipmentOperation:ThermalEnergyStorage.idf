@@ -1,0 +1,67 @@
+! Min Fields: 7
+PlantEquipmentOperation:ThermalEnergyStorage,
+  ,   ! Name RefList: [ControlSchemeList], REQ, #1
+  ,   ! On-Peak Schedule [ScheduleNames], REQ, #2
+  ,   ! Charging Availability Schedule [ScheduleNames], REQ, #3
+  ,   ! Non-Charging Chilled Water Temperature {C}, REQ, #4
+  ,   ! Charging Chilled Water Temperature {C}, REQ, #5
+  ,   ! Component 1 Object Type [ThermalStorage:Ice:Simple, ThermalStorage:Ice:Detailed, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:Electric, Chiller:Absorption:Indirect, Chiller:Absorption, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine], REQ, #6
+  ,   ! Component 1 Name [IceThermalStorageEquipment, Chillers], REQ, #7
+  ,   ! Component 1 Demand Calculation Node Name REQ, #8
+  ,   ! Component 1 Setpoint Node Name REQ, #9
+  ,   ! Component 1 Flow Rate {m3/s}, AS, REQ, #10
+  ,   ! Component 1 Operation Type [Heating, Cooling, Dual], REQ, #11
+  ,   ! Component 2 Object Type [ThermalStorage:Ice:Simple, ThermalStorage:Ice:Detailed, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:Electric, Chiller:Absorption:Indirect, Chiller:Absorption, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine], #12
+  ,   ! Component 2 Name [IceThermalStorageEquipment, Chillers], #13
+  ,   ! Component 2 Demand Calculation Node Name #14
+  ,   ! Component 2 Setpoint Node Name #15
+  ,   ! Component 2 Flow Rate {m3/s}, AS, #16
+  ,   ! Component 2 Operation Type [Heating, Cooling, Dual], #17
+  ,   ! Component 3 Object Type [ThermalStorage:Ice:Simple, ThermalStorage:Ice:Detailed, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:Electric, Chiller:Absorption:Indirect, Chiller:Absorption, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine], #18
+  ,   ! Component 3 Name [IceThermalStorageEquipment, Chillers], #19
+  ,   ! Component 3 Demand Calculation Node Name #20
+  ,   ! Component 3 Setpoint Node Name #21
+  ,   ! Component 3 Flow Rate {m3/s}, AS, #22
+  ,   ! Component 3 Operation Type [Heating, Cooling, Dual], #23
+  ,   ! Component 4 Object Type [ThermalStorage:Ice:Simple, ThermalStorage:Ice:Detailed, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:Electric, Chiller:Absorption:Indirect, Chiller:Absorption, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine], #24
+  ,   ! Component 4 Name [IceThermalStorageEquipment, Chillers], #25
+  ,   ! Component 4 Demand Calculation Node Name #26
+  ,   ! Component 4 Setpoint Node Name #27
+  ,   ! Component 4 Flow Rate {m3/s}, AS, #28
+  ,   ! Component 4 Operation Type [Heating, Cooling, Dual], #29
+  ,   ! Component 5 Object Type [ThermalStorage:Ice:Simple, ThermalStorage:Ice:Detailed, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:Electric, Chiller:Absorption:Indirect, Chiller:Absorption, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine], #30
+  ,   ! Component 5 Name [IceThermalStorageEquipment, Chillers], #31
+  ,   ! Component 5 Demand Calculation Node Name #32
+  ,   ! Component 5 Setpoint Node Name #33
+  ,   ! Component 5 Flow Rate {m3/s}, AS, #34
+  ,   ! Component 5 Operation Type [Heating, Cooling, Dual], #35
+  ,   ! Component 6 Object Type [ThermalStorage:Ice:Simple, ThermalStorage:Ice:Detailed, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:Electric, Chiller:Absorption:Indirect, Chiller:Absorption, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine], #36
+  ,   ! Component 6 Name [IceThermalStorageEquipment, Chillers], #37
+  ,   ! Component 6 Demand Calculation Node Name #38
+  ,   ! Component 6 Setpoint Node Name #39
+  ,   ! Component 6 Flow Rate {m3/s}, AS, #40
+  ,   ! Component 6 Operation Type [Heating, Cooling, Dual], #41
+  ,   ! Component 7 Object Type [ThermalStorage:Ice:Simple, ThermalStorage:Ice:Detailed, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:Electric, Chiller:Absorption:Indirect, Chiller:Absorption, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine], #42
+  ,   ! Component 7 Name [IceThermalStorageEquipment, Chillers], #43
+  ,   ! Component 7 Demand Calculation Node Name #44
+  ,   ! Component 7 Setpoint Node Name #45
+  ,   ! Component 7 Flow Rate {m3/s}, AS, #46
+  ,   ! Component 7 Operation Type [Heating, Cooling, Dual], #47
+  ,   ! Component 8 Object Type [ThermalStorage:Ice:Simple, ThermalStorage:Ice:Detailed, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:Electric, Chiller:Absorption:Indirect, Chiller:Absorption, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine], #48
+  ,   ! Component 8 Name [IceThermalStorageEquipment, Chillers], #49
+  ,   ! Component 8 Demand Calculation Node Name #50
+  ,   ! Component 8 Setpoint Node Name #51
+  ,   ! Component 8 Flow Rate {m3/s}, AS, #52
+  ,   ! Component 8 Operation Type [Heating, Cooling, Dual], #53
+  ,   ! Component 9 Object Type [ThermalStorage:Ice:Simple, ThermalStorage:Ice:Detailed, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:Electric, Chiller:Absorption:Indirect, Chiller:Absorption, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine], #54
+  ,   ! Component 9 Name [IceThermalStorageEquipment, Chillers], #55
+  ,   ! Component 9 Demand Calculation Node Name #56
+  ,   ! Component 9 Setpoint Node Name #57
+  ,   ! Component 9 Flow Rate {m3/s}, AS, #58
+  ,   ! Component 9 Operation Type [Heating, Cooling, Dual], #59
+  ,   ! Component 10 Object Type [ThermalStorage:Ice:Simple, ThermalStorage:Ice:Detailed, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:Electric, Chiller:Absorption:Indirect, Chiller:Absorption, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine], #60
+  ,   ! Component 10 Name [IceThermalStorageEquipment, Chillers], #61
+  ,   ! Component 10 Demand Calculation Node Name #62
+  ,   ! Component 10 Setpoint Node Name #63
+  ,   ! Component 10 Flow Rate {m3/s}, AS, #64
+  ;   ! Component 10 Operation Type [Heating, Cooling, Dual], #65

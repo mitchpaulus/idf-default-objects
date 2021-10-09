@@ -1,0 +1,20 @@
+! Min Fields: 15
+ZoneHVAC:EvaporativeCoolerUnit,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Availability Manager List Name [SystemAvailabilityManagerLists], #3
+  ,   ! Outdoor Air Inlet Node Name REQ, #4
+  ,   ! Cooler Outlet Node Name REQ, #5
+  ,   ! Zone Relief Air Node Name #6
+  ,   ! Supply Air Fan Object Type [Fan:SystemModel, Fan:ComponentModel, Fan:ConstantVolume, Fan:OnOff, Fan:VariableVolume], REQ, #7
+  ,   ! Supply Air Fan Name [Fans], REQ, #8
+  ,   ! Design Supply Air Flow Rate {m3/s}, AS, REQ, #9
+  ,   ! Fan Placement [BlowThrough, DrawThrough], REQ, #10
+  ,   ! Cooler Unit Control Method [ZoneTemperatureDeadbandOnOffCycling, ZoneCoolingLoadOnOffCycling, ZoneCoolingLoadVariableSpeedFan], REQ, #11
+  1.0,   ! Throttling Range Temperature Difference {deltaC}, Def: 1.0, #12
+  100.0,   ! Cooling Load Control Threshold Heat Transfer Rate {W}, Def: 100.0, #13
+  ,   ! First Evaporative Cooler Object Type [EvaporativeCooler:Direct:CelDekPad, EvaporativeCooler:Direct:ResearchSpecial, EvaporativeCooler:Indirect:CelDekPad, EvaporativeCooler:Indirect:WetCoil, EvaporativeCooler:Indirect:ResearchSpecial], REQ, #14
+  ,   ! First Evaporative Cooler Object Name [EvapCoolerNames], REQ, #15
+  ,   ! Second Evaporative Cooler Object Type [EvaporativeCooler:Direct:CelDekPad, EvaporativeCooler:Direct:ResearchSpecial, EvaporativeCooler:Indirect:CelDekPad, EvaporativeCooler:Indirect:WetCoil, EvaporativeCooler:Indirect:ResearchSpecial], #16
+  ,   ! Second Evaporative Cooler Name [EvapCoolerNames], #17
+  ;   ! Design Specification ZoneHVAC Sizing Object Name [DesignSpecificationZoneHVACSizingName], #18

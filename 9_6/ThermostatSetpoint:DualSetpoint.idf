@@ -1,0 +1,4 @@
+ThermostatSetpoint:DualSetpoint,
+  ,   ! Name RefList: [ControlTypeNames], REQ, #1
+  ,   ! Heating Setpoint Temperature Schedule Name [ScheduleNames], #2
+  ;   ! Cooling Setpoint Temperature Schedule Name [ScheduleNames], #3

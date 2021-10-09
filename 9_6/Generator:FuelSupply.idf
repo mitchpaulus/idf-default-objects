@@ -1,0 +1,37 @@
+Generator:FuelSupply,
+  ,   ! Name RefList: [GenFuelSupNames], REQ, #1
+  ,   ! Fuel Temperature Modeling Mode [TemperatureFromAirNode, Scheduled], #2
+  ,   ! Fuel Temperature Reference Node Name #3
+  ,   ! Fuel Temperature Schedule Name [ScheduleNames], #4
+  ,   ! Compressor Power Multiplier Function of Fuel Rate Curve Name [UnivariateFunctions], #5
+  ,   ! Compressor Heat Loss Factor #6
+  ,   ! Fuel Type [GaseousConstituents, LiquidGeneric], #7
+  ,   ! Liquid Generic Fuel Lower Heating Value {kJ/kg}, #8
+  ,   ! Liquid Generic Fuel Higher Heating Value {kJ/kg}, #9
+  ,   ! Liquid Generic Fuel Molecular Weight {g/mol}, #10
+  ,   ! Liquid Generic Fuel CO2 Emission Factor #11
+  ,   ! Number of Constituents in Gaseous Constituent Fuel Supply #12
+  ,   ! Constituent 1 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon, Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #13
+  ,   ! Constituent 1 Molar Fraction #14
+  ,   ! Constituent 2 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon, Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #15
+  ,   ! Constituent 2 Molar Fraction #16
+  ,   ! Constituent 3 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon, Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #17
+  ,   ! Constituent 3 Molar Fraction #18
+  ,   ! Constituent 4 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon, Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #19
+  ,   ! Constituent 4 Molar Fraction #20
+  ,   ! Constituent 5 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon, Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #21
+  ,   ! Constituent 5 Molar Fraction #22
+  ,   ! Constituent 6 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon, Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #23
+  ,   ! Constituent 6 Molar Fraction #24
+  ,   ! Constituent 7 Name [Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #25
+  ,   ! Constituent 7 Molar Fraction #26
+  ,   ! Constituent 8 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon, Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #27
+  ,   ! Constituent 8 Molar Fraction #28
+  ,   ! Constituent 9 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon, Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #29
+  ,   ! Constituent 9 Molar Fraction #30
+  ,   ! Constituent 10 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon, Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #31
+  ,   ! Constituent 10 Molar Fraction #32
+  ,   ! Constituent 11 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon, Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #33
+  ,   ! Constituent 11 Molar Fraction #34
+  ,   ! Constituent 12 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon, Hydrogen, Methane, Ethane, Propane, Butane, Pentane, Hexane, Methanol, Ethanol], #35
+  ;   ! Constituent 12 Molar Fraction #36

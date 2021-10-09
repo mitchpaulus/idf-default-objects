@@ -1,0 +1,36 @@
+! Min Fields: 23
+EvaporativeFluidCooler:TwoSpeed,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  ,   ! High Fan Speed Air Flow Rate {m3/s}, AS, REQ, #4
+  ,   ! High Fan Speed Fan Power {W}, AS, REQ, #5
+  ,   ! Low Fan Speed Air Flow Rate {m3/s}, AC, REQ, #6
+  0.5,   ! Low Fan Speed Air Flow Rate Sizing Factor Def: 0.5, #7
+  ,   ! Low Fan Speed Fan Power {W}, AC, REQ, #8
+  0.16,   ! Low Fan Speed Fan Power Sizing Factor Def: 0.16, #9
+  ,   ! Design Spray Water Flow Rate {m3/s}, REQ, #10
+  ,   ! Performance Input Method [UFactorTimesAreaAndDesignWaterFlowRate, StandardDesignCapacity, UserSpecifiedDesignCapacity], REQ, #11
+  ,   ! Outdoor Air Inlet Node Name #12
+  1.25,   ! Heat Rejection Capacity and Nominal Capacity Sizing Ratio Def: 1.25, #13
+  ,   ! High Speed Standard Design Capacity {W}, #14
+  ,   ! Low Speed Standard Design Capacity {W}, AC, #15
+  0.5,   ! Low Speed Standard Capacity Sizing Factor Def: 0.5, #16
+  ,   ! High Fan Speed U-factor Times Area Value {W/K}, AS, #17
+  ,   ! Low Fan Speed U-factor Times Area Value {W/K}, AC, #18
+  0.6,   ! Low Fan Speed U-Factor Times Area Sizing Factor Def: 0.6, #19
+  ,   ! Design Water Flow Rate {m3/s}, AS, #20
+  ,   ! High Speed User Specified Design Capacity {W}, #21
+  ,   ! Low Speed User Specified Design Capacity {W}, AC, #22
+  0.5,   ! Low Speed User Specified Design Capacity Sizing Factor Def: 0.5, #23
+  ,   ! Design Entering Water Temperature {C}, #24
+  ,   ! Design Entering Air Temperature {C}, #25
+  ,   ! Design Entering Air Wet-bulb Temperature {C}, #26
+  1.0,   ! High Speed Sizing Factor Def: 1.0, #27
+  SaturatedExit,   ! Evaporation Loss Mode Def: SaturatedExit, [LossFactor, SaturatedExit], #28
+  ,   ! Evaporation Loss Factor {percent/K}, #29
+  0.008,   ! Drift Loss Percent {percent}, Def: 0.008, #30
+  ConcentrationRatio,   ! Blowdown Calculation Mode Def: ConcentrationRatio, [ConcentrationRatio, ScheduledRate], #31
+  3.0,   ! Blowdown Concentration Ratio Def: 3.0, #32
+  ,   ! Blowdown Makeup Water Usage Schedule Name [ScheduleNames], #33
+  ;   ! Supply Water Storage Tank Name [WaterStorageTankNames], #34

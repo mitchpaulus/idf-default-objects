@@ -1,0 +1,4 @@
+AirLoopHVAC:Splitter,
+  ,   ! Name RefList: [AirLoopHVACSplitterNames], REQ, #1
+  ,   ! Inlet Node Name REQ, #2
+  ;   ! Outlet 1 Node Name REQ, #3

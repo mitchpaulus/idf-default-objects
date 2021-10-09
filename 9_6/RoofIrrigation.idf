@@ -1,0 +1,4 @@
+RoofIrrigation,
+  ,   ! Irrigation Model Type [Schedule, SmartSchedule], #1
+  ,   ! Irrigation Rate Schedule Name [ScheduleNames], #2
+  40.0;   ! Irrigation Maximum Saturation Threshold {percent}, Def: 40.0, #3

@@ -1,0 +1,39 @@
+! Min Fields: 3
+AirflowNetwork:MultiZone:WindPressureCoefficientArray,
+  ,   ! Name RefList: [WPCSetNames], REQ, #1
+  ,   ! Wind Direction 1 {deg}, REQ, #2
+  ,   ! Wind Direction 2 {deg}, REQ, #3
+  ,   ! Wind Direction 3 {deg}, #4
+  ,   ! Wind Direction 4 {deg}, #5
+  ,   ! Wind Direction 5 {deg}, #6
+  ,   ! Wind Direction 6 {deg}, #7
+  ,   ! Wind Direction 7 {deg}, #8
+  ,   ! Wind Direction 8 {deg}, #9
+  ,   ! Wind Direction 9 {deg}, #10
+  ,   ! Wind Direction 10 {deg}, #11
+  ,   ! Wind Direction 11 {deg}, #12
+  ,   ! Wind Direction 12 {deg}, #13
+  ,   ! Wind Direction 13 {deg}, #14
+  ,   ! Wind Direction 14 {deg}, #15
+  ,   ! Wind Direction 15 {deg}, #16
+  ,   ! Wind Direction 16 {deg}, #17
+  ,   ! Wind Direction 17 {deg}, #18
+  ,   ! Wind Direction 18 {deg}, #19
+  ,   ! Wind Direction 19 {deg}, #20
+  ,   ! Wind Direction 20 {deg}, #21
+  ,   ! Wind Direction 21 {deg}, #22
+  ,   ! Wind Direction 22 {deg}, #23
+  ,   ! Wind Direction 23 {deg}, #24
+  ,   ! Wind Direction 24 {deg}, #25
+  ,   ! Wind Direction 25 {deg}, #26
+  ,   ! Wind Direction 26 {deg}, #27
+  ,   ! Wind Direction 27 {deg}, #28
+  ,   ! Wind Direction 28 {deg}, #29
+  ,   ! Wind Direction 29 {deg}, #30
+  ,   ! Wind Direction 30 {deg}, #31
+  ,   ! Wind Direction 31 {deg}, #32
+  ,   ! Wind Direction 32 {deg}, #33
+  ,   ! Wind Direction 33 {deg}, #34
+  ,   ! Wind Direction 34 {deg}, #35
+  ,   ! Wind Direction 35 {deg}, #36
+  ;   ! Wind Direction 36 {deg}, #37

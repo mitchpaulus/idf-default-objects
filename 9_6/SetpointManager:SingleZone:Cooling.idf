@@ -1,0 +1,10 @@
+! Min Fields: 8
+SetpointManager:SingleZone:Cooling,
+  ,   ! Name REQ, #1
+  Temperature,   ! Control Variable Def: Temperature, [Temperature], #2
+  -99,   ! Minimum Supply Air Temperature {C}, Def: -99, #3
+  99,   ! Maximum Supply Air Temperature {C}, Def: 99, #4
+  ,   ! Control Zone Name [ZoneNames], REQ, #5
+  ,   ! Zone Node Name REQ, #6
+  ,   ! Zone Inlet Node Name REQ, #7
+  ;   ! Setpoint Node or NodeList Name REQ, #8

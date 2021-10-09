@@ -1,0 +1,6 @@
+GroundHeatTransfer:Slab:BoundConds,
+  ,   ! EVTR: Is surface evapotranspiration modeled [TRUE, FALSE], REQ, #1
+  ,   ! FIXBC: is the lower boundary at a fixed temperature [TRUE, FALSE], REQ, #2
+  ,   ! TDEEPin {C}, #3
+  ,   ! USRHflag: Is the ground surface h specified by the user? [TRUE, FALSE], REQ, #4
+  ;   ! USERH: User specified ground surface heat transfer coefficient {W/m2-K}, #5

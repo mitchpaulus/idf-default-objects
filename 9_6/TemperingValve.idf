@@ -1,0 +1,7 @@
+TemperingValve,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Inlet Node Name REQ, #2
+  ,   ! Outlet Node Name REQ, #3
+  ,   ! Stream 2 Source Node Name REQ, #4
+  ,   ! Temperature Setpoint Node Name REQ, #5
+  ;   ! Pump Outlet Node Name REQ, #6

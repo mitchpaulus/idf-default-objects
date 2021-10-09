@@ -1,0 +1,7 @@
+DaylightingDevice:Shelf,
+  ,   ! Name REQ, #1
+  ,   ! Window Name [SubSurfNames], REQ, #2
+  ,   ! Inside Shelf Name [SurfaceNames], #3
+  ,   ! Outside Shelf Name [AttachedShadingSurfNames], #4
+  ,   ! Outside Shelf Construction Name [ConstructionNames], #5
+  ;   ! View Factor to Outside Shelf #6

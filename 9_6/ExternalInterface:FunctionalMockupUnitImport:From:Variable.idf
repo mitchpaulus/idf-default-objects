@@ -1,0 +1,7 @@
+! Min Fields: 5
+ExternalInterface:FunctionalMockupUnitImport:From:Variable,
+  ,   ! Output:Variable Index Key Name REQ, #1
+  ,   ! Output:Variable Name REQ, #2
+  ,   ! FMU File Name [FMUFileName], REQ, #3
+  ,   ! FMU Instance Name REQ, #4
+  ;   ! FMU Variable Name REQ, #5

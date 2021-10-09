@@ -1,0 +1,55 @@
+! Min Fields: 14
+AirLoopHVAC:UnitarySystem,
+  ,   ! Name RefList: [DOAToZonalUnit, validBranchEquipmentNames, validOASysEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  Load,   ! Control Type Def: Load, [Load, SetPoint, SingleZoneVAV], #2
+  ,   ! Controlling Zone or Thermostat Location [ZoneNames], #3
+  None,   ! Dehumidification Control Type Def: None, [None, Multimode, CoolReheat], #4
+  ,   ! Availability Schedule Name [ScheduleNames], #5
+  ,   ! Air Inlet Node Name REQ, #6
+  ,   ! Air Outlet Node Name REQ, #7
+  ,   ! Supply Fan Object Type [Fan:SystemModel, Fan:OnOff, Fan:ConstantVolume, Fan:VariableVolume, Fan:ComponentModel], #8
+  ,   ! Supply Fan Name [Fans], #9
+  ,   ! Fan Placement [BlowThrough, DrawThrough], #10
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #11
+  ,   ! Heating Coil Object Type [Coil:Heating:DX:SingleSpeed, Coil:Heating:DX:MultiSpeed, Coil:Heating:DX:VariableSpeed, Coil:Heating:WaterToAirHeatPump:ParameterEstimation, Coil:Heating:WaterToAirHeatPump:EquationFit, Coil:Heating:WaterToAirHeatPump:VariableSpeedEquationFit, Coil:Heating:Fuel, Coil:Heating:Gas:MultiStage, Coil:Heating:Electric, Coil:Heating:Electric:MultiStage, Coil:Heating:Water, Coil:Heating:Steam, Coil:Heating:Desuperheater, Coil:UserDefined], #12
+  ,   ! Heating Coil Name [HeatingCoilsDX, HeatingCoilsDXMultiSpeed, HeatingCoilsDXVariableSpeed, HeatingCoilsWaterToAirHP, HeatingCoilsWaterToAirVSHP, HeatingCoilName, HeatingCoilsElectricMultiStage, HeatingCoilsGasMultiStage, HeatingCoilsDesuperheater, UserDefinedCoil], #13
+  1.0,   ! DX Heating Coil Sizing Ratio Def: 1.0, #14
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX, Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:TwoSpeed, Coil:Cooling:DX:MultiSpeed, Coil:Cooling:DX:VariableSpeed, Coil:Cooling:DX:TwoStageWithHumidityControlMode, Coil:Cooling:DX:SingleSpeed:ThermalStorage, CoilSystem:Cooling:DX:HeatExchangerAssisted, Coil:Cooling:WaterToAirHeatPump:ParameterEstimation, Coil:Cooling:WaterToAirHeatPump:EquationFit, Coil:Cooling:WaterToAirHeatPump:VariableSpeedEquationFit, Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry, CoilSystem:Cooling:Water:HeatExchangerAssisted, Coil:UserDefined], #15
+  ,   ! Cooling Coil Name [CoilCoolingDX, CoolingCoilsDX, CoolingCoilsDXMultiSpeed, CoolingCoilsDXVariableSpeed, CoolingCoilsWaterToAirHP, CoolingCoilsWaterToAirVSHP, CoolingCoilsWater, UserDefinedCoil], #16
+  No,   ! Use DOAS DX Cooling Coil Def: No, [Yes, No], #17
+  2.0,   ! Minimum Supply Air Temperature {C}, Def: 2.0, AS, #18
+  SensibleOnlyLoadControl,   ! Latent Load Control Def: SensibleOnlyLoadControl, [SensibleOnlyLoadControl, LatentOnlyLoadControl, LatentWithSensibleLoadControl, LatentOrSensibleLoadControl], #19
+  ,   ! Supplemental Heating Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Desuperheater, Coil:Heating:Water, Coil:Heating:Steam, Coil:UserDefined], #20
+  ,   ! Supplemental Heating Coil Name [HeatingCoilName, HeatingCoilsDesuperheater, UserDefinedCoil], #21
+  ,   ! Cooling Supply Air Flow Rate Method [None, SupplyAirFlowRate, FlowPerFloorArea, FractionOfAutosizedCoolingValue, FlowPerCoolingCapacity], #22
+  ,   ! Cooling Supply Air Flow Rate {m3/s}, AS, #23
+  ,   ! Cooling Supply Air Flow Rate Per Floor Area {m3/s-m2}, #24
+  ,   ! Cooling Fraction of Autosized Cooling Supply Air Flow Rate #25
+  ,   ! Cooling Supply Air Flow Rate Per Unit of Capacity {m3/s-W}, #26
+  ,   ! Heating Supply Air Flow Rate Method [None, SupplyAirFlowRate, FlowPerFloorArea, FractionOfAutosizedHeatingValue, FlowPerHeatingCapacity], #27
+  ,   ! Heating Supply Air Flow Rate {m3/s}, AS, #28
+  ,   ! Heating Supply Air Flow Rate Per Floor Area {m3/s-m2}, #29
+  ,   ! Heating Fraction of Autosized Heating Supply Air Flow Rate #30
+  ,   ! Heating Supply Air Flow Rate Per Unit of Capacity {m3/s-W}, #31
+  ,   ! No Load Supply Air Flow Rate Method [None, SupplyAirFlowRate, FlowPerFloorArea, FractionOfAutosizedCoolingValue, FractionOfAutosizedHeatingValue, FlowPerCoolingCapacity, FlowPerHeatingCapacity], #32
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #33
+  ,   ! No Load Supply Air Flow Rate Per Floor Area {m3/s-m2}, #34
+  ,   ! No Load Fraction of Autosized Cooling Supply Air Flow Rate #35
+  ,   ! No Load Fraction of Autosized Heating Supply Air Flow Rate #36
+  ,   ! No Load Supply Air Flow Rate Per Unit of Capacity During Cooling Operation {m3/s-W}, #37
+  ,   ! No Load Supply Air Flow Rate Per Unit of Capacity During Heating Operation {m3/s-W}, #38
+  80.0,   ! Maximum Supply Air Temperature {C}, Def: 80.0, AS, #39
+  21.0,   ! Maximum Outdoor Dry-Bulb Temperature for Supplemental Heater Operation {C}, Def: 21.0, #40
+  ,   ! Outdoor Dry-Bulb Temperature Sensor Node Name #41
+  2.5,   ! Maximum Cycling Rate {cycles/hr}, Def: 2.5, #42
+  60.0,   ! Heat Pump Time Constant {s}, Def: 60.0, #43
+  0.01,   ! Fraction of On-Cycle Power Use Def: 0.01, #44
+  60,   ! Heat Pump Fan Delay Time {s}, Def: 60, #45
+  0,   ! Ancillary On-Cycle Electric Power {W}, Def: 0, #46
+  0,   ! Ancillary Off-Cycle Electric Power {W}, Def: 0, #47
+  0.0,   ! Design Heat Recovery Water Flow Rate {m3/s}, Def: 0.0, #48
+  80.0,   ! Maximum Temperature for Heat Recovery {C}, Def: 80.0, #49
+  ,   ! Heat Recovery Water Inlet Node Name #50
+  ,   ! Heat Recovery Water Outlet Node Name #51
+  ,   ! Design Specification Multispeed Object Type [UnitarySystemPerformance:Multispeed], #52
+  ;   ! Design Specification Multispeed Object Name [UnitarySystemPerformaceNames], #53

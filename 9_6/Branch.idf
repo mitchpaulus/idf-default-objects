@@ -1,0 +1,7 @@
+Branch,
+  ,   ! Name RefList: [Branches], REQ, #1
+  ,   ! Pressure Drop Curve Name [UnivariateFunctions], #2
+  ,   ! Component 1 Object Type [validBranchEquipmentTypes], REQ, #3
+  ,   ! Component 1 Name [validBranchEquipmentNames], REQ, #4
+  ,   ! Component 1 Inlet Node Name REQ, #5
+  ;   ! Component 1 Outlet Node Name REQ, #6

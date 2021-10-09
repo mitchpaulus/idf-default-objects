@@ -1,0 +1,8 @@
+RoomAir:TemperaturePattern:NondimensionalHeight,
+  ,   ! Name REQ, #1
+  ,   ! Control Integer for Pattern Control Schedule Name REQ, #2
+  ,   ! Thermostat Offset {deltaC}, #3
+  ,   ! Return Air Offset {deltaC}, #4
+  ,   ! Exhaust Air Offset {deltaC}, #5
+  ,   ! Pair 1 Zeta Nondimensional Height REQ, #6
+  ;   ! Pair 1 Delta Adjacent Air Temperature {deltaC}, REQ, #7

@@ -1,0 +1,33 @@
+! Min Fields: 15
+CoolingTower:VariableSpeed,
+  ,   ! Name RefList: [CoolingTowers, validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  YorkCalc,   ! Model Type Def: YorkCalc, [CoolToolsCrossFlow, CoolToolsUserDefined, YorkCalc, YorkCalcUserDefined], #4
+  ,   ! Model Coefficient Name [VariableSpeedTowerCoefficient], #5
+  25.6,   ! Design Inlet Air Wet-Bulb Temperature {C}, Def: 25.6, #6
+  3.9,   ! Design Approach Temperature {deltaC}, Def: 3.9, #7
+  5.6,   ! Design Range Temperature {deltaC}, Def: 5.6, #8
+  ,   ! Design Water Flow Rate {m3/s}, AS, REQ, #9
+  ,   ! Design Air Flow Rate {m3/s}, AS, REQ, #10
+  ,   ! Design Fan Power {W}, AS, REQ, #11
+  ,   ! Fan Power Ratio Function of Air Flow Rate Ratio Curve Name [UnivariateFunctions], #12
+  0.2,   ! Minimum Air Flow Rate Ratio Def: 0.2, #13
+  0.125,   ! Fraction of Tower Capacity in Free Convection Regime Def: 0.125, #14
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #15
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #16
+  ,   ! Basin Heater Operating Schedule Name [ScheduleNames], #17
+  ,   ! Evaporation Loss Mode [LossFactor, SaturatedExit], #18
+  0.2,   ! Evaporation Loss Factor {percent/K}, Def: 0.2, #19
+  ,   ! Drift Loss Percent {percent}, #20
+  ,   ! Blowdown Calculation Mode [ConcentrationRatio, ScheduledRate], #21
+  3.0,   ! Blowdown Concentration Ratio Def: 3.0, #22
+  ,   ! Blowdown Makeup Water Usage Schedule Name [ScheduleNames], #23
+  ,   ! Supply Water Storage Tank Name [WaterStorageTankNames], #24
+  ,   ! Outdoor Air Inlet Node Name #25
+  1,   ! Number of Cells Def: 1, #26
+  MinimalCell,   ! Cell Control Def: MinimalCell, [MinimalCell, MaximalCell], #27
+  0.33,   ! Cell Minimum  Water Flow Rate Fraction Def: 0.33, #28
+  2.5,   ! Cell Maximum Water Flow Rate Fraction Def: 2.5, #29
+  1.0,   ! Sizing Factor Def: 1.0, #30
+  General;   ! End-Use Subcategory Def: General, #31

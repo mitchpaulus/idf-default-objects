@@ -1,0 +1,4 @@
+! Min Fields: 2
+EnergyManagementSystem:ConstructionIndexVariable,
+  ,   ! Name REQ, #1
+  ;   ! Construction Object Name [ConstructionNames], REQ, #2

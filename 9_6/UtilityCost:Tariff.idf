@@ -1,0 +1,16 @@
+UtilityCost:Tariff,
+  ,   ! Name RefList: [UtilityCostTariffs], REQ, #1
+  ,   ! Output Meter Name REQ, #2
+  ,   ! Conversion Factor Choice [UserDefined, kWh, Therm, MMBtu, MJ, kBtu, MCF, CCF, m3, gal, kgal], #3
+  ,   ! Energy Conversion Factor #4
+  ,   ! Demand Conversion Factor #5
+  ,   ! Time of Use Period Schedule Name [ScheduleNames], #6
+  ,   ! Season Schedule Name [ScheduleNames], #7
+  ,   ! Month Schedule Name [ScheduleNames], #8
+  ,   ! Demand Window Length [QuarterHour, HalfHour, FullHour, Day, Week], #9
+  ,   ! Monthly Charge or Variable Name #10
+  ,   ! Minimum Monthly Charge or Variable Name #11
+  ,   ! Real Time Pricing Charge Schedule Name [ScheduleNames], #12
+  ,   ! Customer Baseline Load Schedule Name [ScheduleNames], #13
+  ,   ! Group Name #14
+  BuyFromUtility;   ! Buy Or Sell Def: BuyFromUtility, [BuyFromUtility, SellToUtility, NetMetering], #15

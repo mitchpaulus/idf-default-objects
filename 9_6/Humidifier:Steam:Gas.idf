@@ -1,0 +1,13 @@
+Humidifier:Steam:Gas,
+  ,   ! Name RefList: [validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Rated Capacity {m3/s}, AS, #3
+  ,   ! Rated Gas Use Rate {W}, AS, #4
+  0.80,   ! Thermal Efficiency {dimensionless}, Def: 0.80, #5
+  ,   ! Thermal Efficiency Modifier Curve Name [UnivariateFunctions], #6
+  ,   ! Rated Fan Power {W}, #7
+  0.0,   ! Auxiliary Electric Power {W}, Def: 0.0, #8
+  ,   ! Air Inlet Node Name #9
+  ,   ! Air Outlet Node Name #10
+  ,   ! Water Storage Tank Name [WaterStorageTankNames], #11
+  FixedInletWaterTemperature;   ! Inlet Water Temperature Option Def: FixedInletWaterTemperature, [FixedInletWaterTemperature, VariableInletWaterTemperature], #12

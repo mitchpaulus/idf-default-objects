@@ -1,0 +1,16 @@
+! Min Fields: 11
+HeatPump:WaterToWater:EquationFit:Cooling,
+  ,   ! Name RefList: [WWHPCoolingNames, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Source Side Inlet Node Name REQ, #2
+  ,   ! Source Side Outlet Node Name REQ, #3
+  ,   ! Load Side Inlet Node Name REQ, #4
+  ,   ! Load Side Outlet Node Name REQ, #5
+  ,   ! Reference Load Side Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! Reference Source Side Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Reference Cooling Capacity {W}, AS, REQ, #8
+  ,   ! Reference Cooling Power Consumption {W}, AS, REQ, #9
+  ,   ! Cooling Capacity Curve Name [QuadvariateFunctions], REQ, #10
+  ,   ! Cooling Compressor Power Curve Name [QuadvariateFunctions], REQ, #11
+  8.0,   ! Reference Coefficient of Performance {W/W}, Def: 8.0, #12
+  1.0,   ! Sizing Factor Def: 1.0, #13
+  ;   ! Companion Heating Heat Pump Name [WWHPHeatingNames], #14

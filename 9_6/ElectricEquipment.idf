@@ -1,0 +1,13 @@
+! Min Fields: 10
+ElectricEquipment,
+  ,   ! Name RefList: [ElectricEquipmentNames], REQ, #1
+  ,   ! Zone or ZoneList or Space or SpaceList Name [ZoneAndZoneListNames, SpaceAndSpaceListNames], REQ, #2
+  ,   ! Schedule Name [ScheduleNames], REQ, #3
+  EquipmentLevel,   ! Design Level Calculation Method Def: EquipmentLevel, [EquipmentLevel, Watts/Area, Watts/Person], #4
+  ,   ! Design Level {W}, #5
+  ,   ! Watts per Zone Floor Area {W/m2}, #6
+  ,   ! Watts per Person {W/person}, #7
+  0,   ! Fraction Latent Def: 0, #8
+  0,   ! Fraction Radiant Def: 0, #9
+  0,   ! Fraction Lost Def: 0, #10
+  General;   ! End-Use Subcategory Def: General, #11

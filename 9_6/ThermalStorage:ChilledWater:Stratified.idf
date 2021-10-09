@@ -1,0 +1,44 @@
+ThermalStorage:ChilledWater:Stratified,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Tank Volume {m3}, REQ, #2
+  ,   ! Tank Height {m}, REQ, #3
+  VerticalCylinder,   ! Tank Shape Def: VerticalCylinder, [VerticalCylinder, HorizontalCylinder, Other], #4
+  ,   ! Tank Perimeter {m}, #5
+  ,   ! Setpoint Temperature Schedule Name [ScheduleNames], #6
+  0.0,   ! Deadband Temperature Difference {deltaC}, Def: 0.0, #7
+  ,   ! Temperature Sensor Height {m}, #8
+  ,   ! Minimum Temperature Limit {C}, #9
+  ,   ! Nominal Cooling Capacity {W}, #10
+  ,   ! Ambient Temperature Indicator [Schedule, Zone, Outdoors], REQ, #11
+  ,   ! Ambient Temperature Schedule Name [ScheduleNames], #12
+  ,   ! Ambient Temperature Zone Name [ZoneNames], #13
+  ,   ! Ambient Temperature Outdoor Air Node Name #14
+  ,   ! Uniform Skin Loss Coefficient per Unit Area to Ambient Temperature {W/m2-K}, #15
+  ,   ! Use Side Inlet Node Name #16
+  ,   ! Use Side Outlet Node Name #17
+  1.0,   ! Use Side Heat Transfer Effectiveness Def: 1.0, #18
+  ,   ! Use Side Availability Schedule Name [ScheduleNames], #19
+  autocalculate,   ! Use Side Inlet Height {m}, Def: autocalculate, AC, #20
+  0.0,   ! Use Side Outlet Height {m}, Def: 0.0, #21
+  autosize,   ! Use Side Design Flow Rate {m3/s}, Def: autosize, AS, #22
+  ,   ! Source Side Inlet Node Name #23
+  ,   ! Source Side Outlet Node Name #24
+  1.0,   ! Source Side Heat Transfer Effectiveness Def: 1.0, #25
+  ,   ! Source Side Availability Schedule Name [ScheduleNames], #26
+  0.0,   ! Source Side Inlet Height {m}, Def: 0.0, #27
+  autocalculate,   ! Source Side Outlet Height {m}, Def: autocalculate, AC, #28
+  autosize,   ! Source Side Design Flow Rate {m3/s}, Def: autosize, AS, #29
+  4.0,   ! Tank Recovery Time {hr}, Def: 4.0, #30
+  Fixed,   ! Inlet Mode Def: Fixed, [Fixed, Seeking], #31
+  1,   ! Number of Nodes Def: 1, #32
+  0.0,   ! Additional Destratification Conductivity {W/m-K}, Def: 0.0, #33
+  0.0,   ! Node 1 Additional Loss Coefficient {W/K}, Def: 0.0, #34
+  0.0,   ! Node 2 Additional Loss Coefficient {W/K}, Def: 0.0, #35
+  0.0,   ! Node 3 Additional Loss Coefficient {W/K}, Def: 0.0, #36
+  0.0,   ! Node 4 Additional Loss Coefficient {W/K}, Def: 0.0, #37
+  0.0,   ! Node 5 Additional Loss Coefficient {W/K}, Def: 0.0, #38
+  0.0,   ! Node 6 Additional Loss Coefficient {W/K}, Def: 0.0, #39
+  0.0,   ! Node 7 Additional Loss Coefficient {W/K}, Def: 0.0, #40
+  0.0,   ! Node 8 Additional Loss Coefficient {W/K}, Def: 0.0, #41
+  0.0,   ! Node 9 Additional Loss Coefficient {W/K}, Def: 0.0, #42
+  0.0;   ! Node 10 Additional Loss Coefficient {W/K}, Def: 0.0, #43

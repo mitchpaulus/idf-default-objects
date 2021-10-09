@@ -1,0 +1,29 @@
+! Min Fields: 27
+Sizing:Zone,
+  ,   ! Zone or ZoneList Name [ZoneAndZoneListNames], REQ, #1
+  SupplyAirTemperature,   ! Zone Cooling Design Supply Air Temperature Input Method Def: SupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference], #2
+  ,   ! Zone Cooling Design Supply Air Temperature {C}, #3
+  ,   ! Zone Cooling Design Supply Air Temperature Difference {deltaC}, #4
+  SupplyAirTemperature,   ! Zone Heating Design Supply Air Temperature Input Method Def: SupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference], #5
+  ,   ! Zone Heating Design Supply Air Temperature {C}, #6
+  ,   ! Zone Heating Design Supply Air Temperature Difference {deltaC}, #7
+  ,   ! Zone Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}, REQ, #8
+  ,   ! Zone Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}, REQ, #9
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames, DSOASpaceListNames], #10
+  ,   ! Zone Heating Sizing Factor #11
+  ,   ! Zone Cooling Sizing Factor #12
+  DesignDay,   ! Cooling Design Air Flow Method Def: DesignDay, [Flow/Zone, DesignDay, DesignDayWithLimit], #13
+  0,   ! Cooling Design Air Flow Rate {m3/s}, Def: 0, #14
+  .000762,   ! Cooling Minimum Air Flow per Zone Floor Area {m3/s-m2}, Def: .000762, #15
+  0,   ! Cooling Minimum Air Flow {m3/s}, Def: 0, #16
+  0.2,   ! Cooling Minimum Air Flow Fraction Def: 0.2, #17
+  DesignDay,   ! Heating Design Air Flow Method Def: DesignDay, [Flow/Zone, DesignDay, DesignDayWithLimit], #18
+  0,   ! Heating Design Air Flow Rate {m3/s}, Def: 0, #19
+  .002032,   ! Heating Maximum Air Flow per Zone Floor Area {m3/s-m2}, Def: .002032, #20
+  .1415762,   ! Heating Maximum Air Flow {m3/s}, Def: .1415762, #21
+  0.3,   ! Heating Maximum Air Flow Fraction Def: 0.3, #22
+  ,   ! Design Specification Zone Air Distribution Object Name [DesignSpecificationZoneAirDistributionNames], #23
+  No,   ! Account for Dedicated Outdoor Air System Def: No, [Yes, No], #24
+  NeutralSupplyAir,   ! Dedicated Outdoor Air System Control Strategy Def: NeutralSupplyAir, [NeutralSupplyAir, NeutralDehumidifiedSupplyAir, ColdSupplyAir], #25
+  autosize,   ! Dedicated Outdoor Air Low Setpoint Temperature for Design {C}, Def: autosize, AS, #26
+  autosize;   ! Dedicated Outdoor Air High Setpoint Temperature for Design {C}, Def: autosize, AS, #27

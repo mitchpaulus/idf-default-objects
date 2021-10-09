@@ -1,0 +1,11 @@
+! Min Fields: 9
+Site:GroundTemperature:Undisturbed:Xing,
+  ,   ! Name RefList: [UndisturbedGroundTempModels], REQ, #1
+  ,   ! Soil Thermal Conductivity {W/m-K}, REQ, #2
+  ,   ! Soil Density {kg/m3}, REQ, #3
+  ,   ! Soil Specific Heat {J/kg-K}, REQ, #4
+  ,   ! Average Soil Surface Tempeature {C}, REQ, #5
+  ,   ! Soil Surface Temperature Amplitude 1 {deltaC}, REQ, #6
+  ,   ! Soil Surface Temperature Amplitude 2 {deltaC}, REQ, #7
+  ,   ! Phase Shift of Temperature Amplitude 1 {days}, REQ, #8
+  ;   ! Phase Shift of Temperature Amplitude 2 {days}, REQ, #9

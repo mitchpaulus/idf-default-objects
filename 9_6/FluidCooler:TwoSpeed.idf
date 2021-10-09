@@ -1,0 +1,23 @@
+! Min Fields: 20
+FluidCooler:TwoSpeed,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  NominalCapacity,   ! Performance Input Method Def: NominalCapacity, [UFactorTimesAreaAndDesignWaterFlowRate, NominalCapacity], #4
+  ,   ! High Fan Speed U-factor Times Area Value {W/K}, AS, #5
+  ,   ! Low Fan Speed U-factor Times Area Value {W/K}, AC, #6
+  0.6,   ! Low Fan Speed U-Factor Times Area Sizing Factor Def: 0.6, #7
+  ,   ! High Speed Nominal Capacity {W}, #8
+  ,   ! Low Speed Nominal Capacity {W}, AC, #9
+  0.5,   ! Low Speed Nominal Capacity Sizing Factor Def: 0.5, #10
+  ,   ! Design Entering Water Temperature {C}, REQ, #11
+  ,   ! Design Entering Air Temperature {C}, REQ, #12
+  ,   ! Design Entering Air Wet-bulb Temperature {C}, REQ, #13
+  ,   ! Design Water Flow Rate {m3/s}, AS, REQ, #14
+  ,   ! High Fan Speed Air Flow Rate {m3/s}, AS, REQ, #15
+  ,   ! High Fan Speed Fan Power {W}, AS, REQ, #16
+  ,   ! Low Fan Speed Air Flow Rate {m3/s}, AC, REQ, #17
+  0.5,   ! Low Fan Speed Air Flow Rate Sizing Factor Def: 0.5, #18
+  ,   ! Low Fan Speed Fan Power {W}, AC, REQ, #19
+  0.16,   ! Low Fan Speed Fan Power Sizing Factor Def: 0.16, #20
+  ;   ! Outdoor Air Inlet Node Name #21

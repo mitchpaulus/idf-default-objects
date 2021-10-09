@@ -1,0 +1,24 @@
+! Min Fields: 11
+CoilPerformance:DX:Cooling,
+  ,   ! Name RefList: [CoilPerformanceDX], REQ, #1
+  ,   ! Gross Rated Total Cooling Capacity {W}, AS, REQ, #2
+  ,   ! Gross Rated Sensible Heat Ratio AS, REQ, #3
+  3.0,   ! Gross Rated Cooling COP {W/W}, Def: 3.0, #4
+  ,   ! Rated Air Flow Rate {m3/s}, AS, REQ, #5
+  0.0,   ! Fraction of Air Flow Bypassed Around Coil Def: 0.0, #6
+  ,   ! Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #7
+  ,   ! Total Cooling Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #8
+  ,   ! Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #9
+  ,   ! Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #10
+  ,   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #11
+  0.0,   ! Nominal Time for Condensate Removal to Begin {s}, Def: 0.0, #12
+  0.0,   ! Ratio of Initial Moisture Evaporation Rate and Steady State Latent Capacity {dimensionless}, Def: 0.0, #13
+  0.0,   ! Maximum Cycling Rate {cycles/hr}, Def: 0.0, #14
+  0.0,   ! Latent Capacity Time Constant {s}, Def: 0.0, #15
+  ,   ! Condenser Air Inlet Node Name #16
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, EvaporativelyCooled], #17
+  0.9,   ! Evaporative Condenser Effectiveness {dimensionless}, Def: 0.9, #18
+  ,   ! Evaporative Condenser Air Flow Rate {m3/s}, AS, #19
+  0.0,   ! Evaporative Condenser Pump Rated Power Consumption {W}, Def: 0.0, AS, #20
+  ,   ! Sensible Heat Ratio Function of Temperature Curve Name [BivariateFunctions], #21
+  ;   ! Sensible Heat Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #22

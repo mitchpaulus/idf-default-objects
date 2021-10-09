@@ -1,0 +1,53 @@
+MaterialProperty:HeatAndMoistureTransfer:SorptionIsotherm,
+  ,   ! Material Name [MaterialName], REQ, #1
+  ,   ! Number of Isotherm Coordinates REQ, #2
+  ,   ! Relative Humidity Fraction 1 {dimensionless}, REQ, #3
+  ,   ! Moisture Content 1 {kg/m3}, REQ, #4
+  ,   ! Relative Humidity Fraction 2 {dimensionless}, #5
+  ,   ! Moisture Content 2 {kg/m3}, #6
+  ,   ! Relative Humidity Fraction 3 {dimensionless}, #7
+  ,   ! Moisture Content 3 {kg/m3}, #8
+  ,   ! Relative Humidity Fraction 4 {dimensionless}, #9
+  ,   ! Moisture Content 4 {kg/m3}, #10
+  ,   ! Relative Humidity Fraction 5 {dimensionless}, #11
+  ,   ! Moisture Content 5 {kg/m3}, #12
+  ,   ! Relative Humidity Fraction 6 {dimensionless}, #13
+  ,   ! Moisture Content 6 {kg/m3}, #14
+  ,   ! Relative Humidity Fraction 7 {dimensionless}, #15
+  ,   ! Moisture Content 7 {kg/m3}, #16
+  ,   ! Relative Humidity Fraction 8 {dimensionless}, #17
+  ,   ! Moisture Content 8 {kg/m3}, #18
+  ,   ! Relative Humidity Fraction 9 {dimensionless}, #19
+  ,   ! Moisture Content 9 {kg/m3}, #20
+  ,   ! Relative Humidity Fraction 10 {dimensionless}, #21
+  ,   ! Moisture Content 10 {kg/m3}, #22
+  ,   ! Relative Humidity Fraction 11 {dimensionless}, #23
+  ,   ! Moisture Content 11 {kg/m3}, #24
+  ,   ! Relative Humidity Fraction 12 {dimensionless}, #25
+  ,   ! Moisture Content 12 {kg/m3}, #26
+  ,   ! Relative Humidity Fraction 13 {dimensionless}, #27
+  ,   ! Moisture Content 13 {kg/m3}, #28
+  ,   ! Relative Humidity Fraction 14 {dimensionless}, #29
+  ,   ! Moisture Content 14 {kg/m3}, #30
+  ,   ! Relative Humidity Fraction 15 {dimensionless}, #31
+  ,   ! Moisture Content 15 {kg/m3}, #32
+  ,   ! Relative Humidity Fraction 16 {dimensionless}, #33
+  ,   ! Moisture Content 16 {kg/m3}, #34
+  ,   ! Relative Humidity Fraction 17 {dimensionless}, #35
+  ,   ! Moisture Content 17 {kg/m3}, #36
+  ,   ! Relative Humidity Fraction 18 {dimensionless}, #37
+  ,   ! Moisture Content 18 {kg/m3}, #38
+  ,   ! Relative Humidity Fraction 19 {dimensionless}, #39
+  ,   ! Moisture Content 19 {kg/m3}, #40
+  ,   ! Relative Humidity Fraction 20 {dimensionless}, #41
+  ,   ! Moisture Content 20 {kg/m3}, #42
+  ,   ! Relative Humidity Fraction 21 {dimensionless}, #43
+  ,   ! Moisture Content 21 {kg/m3}, #44
+  ,   ! Relative Humidity Fraction 22 {dimensionless}, #45
+  ,   ! Moisture Content 22 {kg/m3}, #46
+  ,   ! Relative Humidity Fraction 23 {dimensionless}, #47
+  ,   ! Moisture Content 23 {kg/m3}, #48
+  ,   ! Relative Humidity Fraction 24 {dimensionless}, #49
+  ,   ! Moisture Content 24 {kg/m3}, #50
+  ,   ! Relative Humidity Fraction 25 {dimensionless}, #51
+  ;   ! Moisture Content 25 {kg/m3}, #52

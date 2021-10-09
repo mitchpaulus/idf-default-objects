@@ -1,0 +1,16 @@
+Coil:Cooling:WaterToAirHeatPump:EquationFit,
+  ,   ! Name RefList: [CoolingCoilsWaterToAirHP, validBranchEquipmentNames, DesuperHeatingWaterOnlySources], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Air Outlet Node Name REQ, #5
+  ,   ! Rated Air Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! Rated Water Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Gross Rated Total Cooling Capacity {W}, AS, REQ, #8
+  ,   ! Gross Rated Sensible Cooling Capacity {W}, AS, REQ, #9
+  ,   ! Gross Rated Cooling COP {W/W}, REQ, #10
+  ,   ! Total Cooling Capacity Curve Name [QuadvariateFunctions], REQ, #11
+  ,   ! Sensible Cooling Capacity Curve Name [QuintvariateFunctions], REQ, #12
+  ,   ! Cooling Power Consumption Curve Name [QuadvariateFunctions], REQ, #13
+  0.0,   ! Nominal Time for Condensate Removal to Begin {s}, Def: 0.0, #14
+  0.0;   ! Ratio of Initial Moisture Evaporation Rate and Steady State Latent Capacity {dimensionless}, Def: 0.0, #15

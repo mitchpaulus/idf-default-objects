@@ -1,0 +1,11 @@
+! Min Fields: 4
+ElectricLoadCenter:Storage:Converter,
+  ,   ! Name RefList: [ConverterList], #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  SimpleFixed,   ! Power Conversion Efficiency Method Def: SimpleFixed, [SimpleFixed, FunctionOfPower], #3
+  0.95,   ! Simple Fixed Efficiency Def: 0.95, #4
+  ,   ! Design Maximum Continuous Input Power {W}, #5
+  ,   ! Efficiency Function of Power Curve Name [UnivariateFunctions], #6
+  ,   ! Ancillary Power Consumed In Standby {W}, #7
+  ,   ! Zone Name [ZoneNames], #8
+  ;   ! Radiative Fraction #9

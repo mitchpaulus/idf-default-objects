@@ -1,0 +1,3 @@
+Output:SQLite,
+  ,   ! Option Type [Simple, SimpleAndTabular], #1
+  UseOutputControlTableStyle;   ! Unit Conversion for Tabular Data Def: UseOutputControlTableStyle, [UseOutputControlTableStyle, None, JtoKWH, JtoMJ, JtoGJ, InchPound], #2

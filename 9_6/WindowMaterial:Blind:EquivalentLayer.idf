@@ -1,0 +1,26 @@
+! Min Fields: 10
+WindowMaterial:Blind:EquivalentLayer,
+  ,   ! Name RefList: [WindowEquivalentLayerMaterialNames], REQ, #1
+  Horizontal,   ! Slat Orientation Def: Horizontal, [Horizontal, Vertical], #2
+  ,   ! Slat Width {m}, REQ, #3
+  ,   ! Slat Separation {m}, REQ, #4
+  0.0015,   ! Slat Crown {m}, Def: 0.0015, #5
+  45,   ! Slat Angle {deg}, Def: 45, #6
+  0,   ! Front Side Slat Beam-Diffuse Solar Transmittance Def: 0, #7
+  0,   ! Back Side Slat Beam-Diffuse Solar Transmittance {dimensionless}, Def: 0, #8
+  ,   ! Front Side Slat Beam-Diffuse Solar Reflectance {dimensionless}, REQ, #9
+  ,   ! Back Side Slat Beam-Diffuse Solar Reflectance {dimensionless}, REQ, #10
+  0,   ! Front Side Slat Beam-Diffuse Visible Transmittance {dimensionless}, Def: 0, #11
+  0,   ! Back Side Slat Beam-Diffuse Visible Transmittance {dimensionless}, Def: 0, #12
+  ,   ! Front Side Slat Beam-Diffuse Visible Reflectance {dimensionless}, #13
+  ,   ! Back Side Slat Beam-Diffuse Visible Reflectance {dimensionless}, #14
+  0,   ! Slat Diffuse-Diffuse Solar Transmittance {dimensionless}, Def: 0, #15
+  ,   ! Front Side Slat Diffuse-Diffuse Solar Reflectance {dimensionless}, REQ, #16
+  ,   ! Back Side Slat Diffuse-Diffuse Solar Reflectance {dimensionless}, REQ, #17
+  ,   ! Slat Diffuse-Diffuse Visible Transmittance #18
+  ,   ! Front Side Slat Diffuse-Diffuse Visible Reflectance {dimensionless}, #19
+  ,   ! Back Side Slat Diffuse-Diffuse Visible Reflectance {dimensionless}, #20
+  0,   ! Slat Infrared Transmittance Def: 0, #21
+  0.9,   ! Front Side Slat Infrared Emissivity {dimensionless}, Def: 0.9, #22
+  0.9,   ! Back Side Slat Infrared Emissivity {dimensionless}, Def: 0.9, #23
+  FixedSlatAngle;   ! Slat Angle Control Def: FixedSlatAngle, [FixedSlatAngle, MaximizeSolar, BlockBeamSolar], #24

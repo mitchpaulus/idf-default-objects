@@ -1,0 +1,14 @@
+! Min Fields: 12
+Site:GroundTemperature:BuildingSurface,
+  18,   ! January Ground Temperature {C}, Def: 18, #1
+  18,   ! February Ground Temperature {C}, Def: 18, #2
+  18,   ! March Ground Temperature {C}, Def: 18, #3
+  18,   ! April Ground Temperature {C}, Def: 18, #4
+  18,   ! May Ground Temperature {C}, Def: 18, #5
+  18,   ! June Ground Temperature {C}, Def: 18, #6
+  18,   ! July Ground Temperature {C}, Def: 18, #7
+  18,   ! August Ground Temperature {C}, Def: 18, #8
+  18,   ! September Ground Temperature {C}, Def: 18, #9
+  18,   ! October Ground Temperature {C}, Def: 18, #10
+  18,   ! November Ground Temperature {C}, Def: 18, #11
+  18;   ! December Ground Temperature {C}, Def: 18, #12

@@ -1,0 +1,11 @@
+! Min Fields: 9
+Controller:WaterCoil,
+  ,   ! Name RefList: [AirLoopControllers, WaterCoilControllers], REQ, #1
+  ,   ! Control Variable [Temperature, HumidityRatio, TemperatureAndHumidityRatio], REQ, #2
+  ,   ! Action [Normal, Reverse], #3
+  ,   ! Actuator Variable [Flow], REQ, #4
+  ,   ! Sensor Node Name REQ, #5
+  ,   ! Actuator Node Name REQ, #6
+  autosize,   ! Controller Convergence Tolerance {deltaC}, Def: autosize, AS, #7
+  autosize,   ! Maximum Actuated Flow {m3/s}, Def: autosize, AS, #8
+  0.0;   ! Minimum Actuated Flow {m3/s}, Def: 0.0, #9

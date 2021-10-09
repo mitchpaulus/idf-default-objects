@@ -1,0 +1,40 @@
+! Min Fields: 37
+Sizing:System,
+  ,   ! AirLoop Name [AirPrimaryLoops], REQ, #1
+  Sensible,   ! Type of Load to Size On Def: Sensible, [Sensible, Total, VentilationRequirement], #2
+  autosize,   ! Design Outdoor Air Flow Rate {m3/s}, Def: autosize, AS, #3
+  autosize,   ! Central Heating Maximum System Air Flow Ratio Def: autosize, AS, #4
+  ,   ! Preheat Design Temperature {C}, REQ, #5
+  ,   ! Preheat Design Humidity Ratio {kgWater/kgDryAir}, REQ, #6
+  ,   ! Precool Design Temperature {C}, REQ, #7
+  ,   ! Precool Design Humidity Ratio {kgWater/kgDryAir}, REQ, #8
+  ,   ! Central Cooling Design Supply Air Temperature {C}, REQ, #9
+  ,   ! Central Heating Design Supply Air Temperature {C}, REQ, #10
+  NonCoincident,   ! Type of Zone Sum to Use Def: NonCoincident, [Coincident, NonCoincident], #11
+  No,   ! 100% Outdoor Air in Cooling Def: No, [Yes, No], #12
+  No,   ! 100% Outdoor Air in Heating Def: No, [Yes, No], #13
+  0.008,   ! Central Cooling Design Supply Air Humidity Ratio {kgWater/kgDryAir}, Def: 0.008, #14
+  0.008,   ! Central Heating Design Supply Air Humidity Ratio {kgWater/kgDryAir}, Def: 0.008, #15
+  DesignDay,   ! Cooling Supply Air Flow Rate Method Def: DesignDay, [Flow/System, DesignDay, FlowPerFloorArea, FractionOfAutosizedCoolingAirflow, FlowPerCoolingCapacity], #16
+  0,   ! Cooling Supply Air Flow Rate {m3/s}, Def: 0, #17
+  ,   ! Cooling Supply Air Flow Rate Per Floor Area {m3/s-m2}, #18
+  ,   ! Cooling Fraction of Autosized Cooling Supply Air Flow Rate #19
+  ,   ! Cooling Supply Air Flow Rate Per Unit Cooling Capacity {m3/s-W}, #20
+  DesignDay,   ! Heating Supply Air Flow Rate Method Def: DesignDay, [Flow/System, DesignDay, FlowPerFloorArea, FractionOfAutosizedHeatingAirflow, FractionOfAutosizedCoolingAirflow, FlowPerHeatingCapacity], #21
+  0,   ! Heating Supply Air Flow Rate {m3/s}, Def: 0, #22
+  ,   ! Heating Supply Air Flow Rate Per Floor Area {m3/s-m2}, #23
+  ,   ! Heating Fraction of Autosized Heating Supply Air Flow Rate #24
+  ,   ! Heating Fraction of Autosized Cooling Supply Air Flow Rate #25
+  ,   ! Heating Supply Air Flow Rate Per Unit Heating Capacity {m3/s-W}, #26
+  ZoneSum,   ! System Outdoor Air Method Def: ZoneSum, [ZoneSum, Standard62.1VentilationRateProcedure, Standard62.1SimplifiedProcedure], #27
+  1.0,   ! Zone Maximum Outdoor Air Fraction {dimensionless}, Def: 1.0, #28
+  CoolingDesignCapacity,   ! Cooling Design Capacity Method Def: CoolingDesignCapacity, [None, CoolingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedCoolingCapacity], #29
+  autosize,   ! Cooling Design Capacity {W}, Def: autosize, AS, #30
+  ,   ! Cooling Design Capacity Per Floor Area {W/m2}, #31
+  ,   ! Fraction of Autosized Cooling Design Capacity #32
+  HeatingDesignCapacity,   ! Heating Design Capacity Method Def: HeatingDesignCapacity, [None, HeatingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedHeatingCapacity], #33
+  autosize,   ! Heating Design Capacity {W}, Def: autosize, AS, #34
+  ,   ! Heating Design Capacity Per Floor Area {W/m2}, #35
+  ,   ! Fraction of Autosized Heating Design Capacity #36
+  OnOff,   ! Central Cooling Capacity Control Method Def: OnOff, [VAV, Bypass, VT, OnOff], #37
+  autosize;   ! Occupant Diversity Def: autosize, AS, #38

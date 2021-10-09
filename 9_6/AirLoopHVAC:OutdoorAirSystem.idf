@@ -1,0 +1,5 @@
+! Min Fields: 3
+AirLoopHVAC:OutdoorAirSystem,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Controller List Name [ControllerLists], #2
+  ;   ! Outdoor Air Equipment List Name [AirLoopOAEquipmentLists], REQ, #3

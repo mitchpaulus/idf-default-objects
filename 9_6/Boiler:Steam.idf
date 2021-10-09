@@ -1,0 +1,17 @@
+Boiler:Steam,
+  ,   ! Name RefList: [validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Fuel Type [Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Coal, Diesel, Gasoline, OtherFuel1, OtherFuel2], REQ, #2
+  160000,   ! Maximum Operating Pressure {Pa}, Def: 160000, REQ, #3
+  0.8,   ! Theoretical Efficiency Def: 0.8, REQ, #4
+  100,   ! Design Outlet Steam Temperature {C}, Def: 100, REQ, #5
+  ,   ! Nominal Capacity {W}, AS, #6
+  ,   ! Minimum Part Load Ratio #7
+  ,   ! Maximum Part Load Ratio #8
+  ,   ! Optimum Part Load Ratio #9
+  ,   ! Coefficient 1 of Fuel Use Function of Part Load Ratio Curve #10
+  ,   ! Coefficient 2 of Fuel Use Function of Part Load Ratio Curve #11
+  ,   ! Coefficient 3 of Fuel Use Function of Part Load Ratio Curve #12
+  ,   ! Water Inlet Node Name #13
+  ,   ! Steam Outlet Node Name #14
+  1.0,   ! Sizing Factor Def: 1.0, #15
+  General;   ! End-Use Subcategory Def: General, #16

@@ -1,0 +1,6 @@
+! Min Fields: 4
+AirflowNetwork:Distribution:Component:HeatExchanger,
+  ,   ! HeatExchanger Name RefList: [AirflowNetworkComponentNames], [AFNHeatExchangerNames], REQ, #1
+  ,   ! HeatExchanger Object Type [HeatExchanger:AirToAir:FlatPlate, HeatExchanger:AirToAir:SensibleAndLatent, HeatExchanger:Desiccant:BalancedFlow], REQ, #2
+  ,   ! Air Path Length {m}, REQ, #3
+  ;   ! Air Path Hydraulic Diameter {m}, REQ, #4

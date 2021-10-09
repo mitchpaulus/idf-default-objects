@@ -1,0 +1,17 @@
+! Min Fields: 7
+RunPeriod,
+  ,   ! Name RefList: [RunPeriodsAndDesignDays], REQ, #1
+  ,   ! Begin Month REQ, #2
+  ,   ! Begin Day of Month REQ, #3
+  ,   ! Begin Year #4
+  ,   ! End Month REQ, #5
+  ,   ! End Day of Month REQ, #6
+  ,   ! End Year #7
+  ,   ! Day of Week for Start Day [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday], #8
+  Yes,   ! Use Weather File Holidays and Special Days Def: Yes, [Yes, No], #9
+  Yes,   ! Use Weather File Daylight Saving Period Def: Yes, [Yes, No], #10
+  No,   ! Apply Weekend Holiday Rule Def: No, [Yes, No], #11
+  Yes,   ! Use Weather File Rain Indicators Def: Yes, [Yes, No], #12
+  Yes,   ! Use Weather File Snow Indicators Def: Yes, [Yes, No], #13
+  No,   ! Treat Weather as Actual Def: No, [Yes, No], #14
+  Hour24;   ! First Hour Interpolation Starting Values Def: Hour24, [Hour1, Hour24], #15

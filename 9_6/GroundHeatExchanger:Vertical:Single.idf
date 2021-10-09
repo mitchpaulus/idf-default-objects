@@ -1,0 +1,5 @@
+GroundHeatExchanger:Vertical:Single,
+  ,   ! Name RefList: [GroundHeatExchangerVerticalSingleNames], REQ, #1
+  ,   ! GHE:Vertical:Properties Object Name [GroundHeatExchangerVerticalPropertiesNames], REQ, #2
+  ,   ! X-Location {m}, REQ, #3
+  ;   ! Y-Location {m}, REQ, #4

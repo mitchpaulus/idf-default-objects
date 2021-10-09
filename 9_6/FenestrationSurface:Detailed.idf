@@ -1,0 +1,23 @@
+! Min Fields: 18
+FenestrationSurface:Detailed,
+  ,   ! Name RefList: [SubSurfNames, GlazedExtSubSurfNames, SurfAndSubSurfNames, AllHeatTranSurfNames, OutFaceEnvNames, AllHeatTranAngFacNames, RadiantSurfaceNames, AllShadingAndHTSurfNames], REQ, #1
+  ,   ! Surface Type [Window, Door, GlassDoor, TubularDaylightDome, TubularDaylightDiffuser], REQ, #2
+  ,   ! Construction Name [ConstructionNames, ComplexFenestrationStates], REQ, #3
+  ,   ! Building Surface Name [SurfaceNames], REQ, #4
+  ,   ! Outside Boundary Condition Object [OutFaceEnvNames], #5
+  autocalculate,   ! View Factor to Ground Def: autocalculate, AC, #6
+  ,   ! Frame and Divider Name [WindowFrameAndDividerNames], #7
+  1.0,   ! Multiplier Def: 1.0, #8
+  autocalculate,   ! Number of Vertices Def: autocalculate, AC, #9
+  ,   ! Vertex 1 X-coordinate {m}, REQ, #10
+  ,   ! Vertex 1 Y-coordinate {m}, REQ, #11
+  ,   ! Vertex 1 Z-coordinate {m}, REQ, #12
+  ,   ! Vertex 2 X-coordinate {m}, REQ, #13
+  ,   ! Vertex 2 Y-coordinate {m}, REQ, #14
+  ,   ! Vertex 2 Z-coordinate {m}, REQ, #15
+  ,   ! Vertex 3 X-coordinate {m}, REQ, #16
+  ,   ! Vertex 3 Y-coordinate {m}, REQ, #17
+  ,   ! Vertex 3 Z-coordinate {m}, REQ, #18
+  ,   ! Vertex 4 X-coordinate {m}, #19
+  ,   ! Vertex 4 Y-coordinate {m}, #20
+  ;   ! Vertex 4 Z-coordinate {m}, #21

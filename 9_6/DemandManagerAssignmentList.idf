@@ -1,0 +1,11 @@
+DemandManagerAssignmentList,
+  ,   ! Name REQ, #1
+  ,   ! Meter Name REQ, #2
+  ,   ! Demand Limit Schedule Name [ScheduleNames], #3
+  ,   ! Demand Limit Safety Fraction REQ, #4
+  ,   ! Billing Period Schedule Name [ScheduleNames], #5
+  ,   ! Peak Period Schedule Name [ScheduleNames], #6
+  ,   ! Demand Window Length {minutes}, REQ, #7
+  ,   ! Demand Manager Priority [Sequential, All], REQ, #8
+  ,   ! DemandManager 1 Object Type [DemandManager:ExteriorLights, DemandManager:Lights, DemandManager:ElectricEquipment, DemandManager:Thermostats, DemandManager:Ventilation], #9
+  ;   ! DemandManager 1 Name [DemandManagerNames], #10

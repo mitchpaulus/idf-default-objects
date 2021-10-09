@@ -1,0 +1,21 @@
+WaterUse:Storage,
+  ,   ! Name RefList: [WaterStorageTankNames], REQ, #1
+  ,   ! Water Quality Subcategory #2
+  ,   ! Maximum Capacity {m3}, #3
+  ,   ! Initial Volume {m3}, #4
+  ,   ! Design In Flow Rate {m3/s}, #5
+  ,   ! Design Out Flow Rate {m3/s}, #6
+  ,   ! Overflow Destination [WaterStorageTankNames], #7
+  ,   ! Type of Supply Controlled by Float Valve [None, Mains, GroundwaterWell, OtherTank], #8
+  ,   ! Float Valve On Capacity {m3}, #9
+  ,   ! Float Valve Off Capacity {m3}, #10
+  ,   ! Backup Mains Capacity {m3}, #11
+  ,   ! Other Tank Name [WaterStorageTankNames], #12
+  ,   ! Water Thermal Mode [ScheduledTemperature, ThermalModel], #13
+  ,   ! Water Temperature Schedule Name [ScheduleNames], REQ, #14
+  ,   ! Ambient Temperature Indicator [Schedule, Zone, Outdoors], #15
+  ,   ! Ambient Temperature Schedule Name [ScheduleNames], #16
+  ,   ! Zone Name [ZoneNames], #17
+  ,   ! Tank Surface Area {m2}, #18
+  ,   ! Tank U Value {W/m2-K}, #19
+  ;   ! Tank Outside Surface Material Name [MaterialName], #20

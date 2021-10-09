@@ -1,0 +1,18 @@
+! Min Fields: 16
+ZoneHVAC:LowTemperatureRadiant:VariableFlow,
+  ,   ! Name RefList: [validBranchEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Design Object [RadiantDesignObject], #2
+  ,   ! Availability Schedule Name [ScheduleNames], #3
+  ,   ! Zone Name [ZoneNames], #4
+  ,   ! Surface Name or Radiant Surface Group Name [RadiantSurfaceNames, RadiantGroupNames], #5
+  autosize,   ! Hydronic Tubing Length {m}, Def: autosize, AS, #6
+  autosize,   ! Heating Design Capacity {W}, Def: autosize, AS, #7
+  ,   ! Maximum Hot Water Flow {m3/s}, AS, #8
+  ,   ! Heating Water Inlet Node Name #9
+  ,   ! Heating Water Outlet Node Name #10
+  ,   ! Cooling Design Capacity {W}, AS, #11
+  ,   ! Maximum Cold Water Flow {m3/s}, AS, #12
+  ,   ! Cooling Water Inlet Node Name #13
+  ,   ! Cooling Water Outlet Node Name #14
+  OnePerSurface,   ! Number of Circuits Def: OnePerSurface, [OnePerSurface, CalculateFromCircuitLength], #15
+  106.7;   ! Circuit Length {m}, Def: 106.7, #16

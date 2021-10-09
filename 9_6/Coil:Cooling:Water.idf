@@ -1,0 +1,19 @@
+! Min Fields: 15
+Coil:Cooling:Water,
+  ,   ! Name RefList: [CoolingCoilName, CoolingCoilsWater, CoolingCoilsWaterNoHX, AFNCoilNames, SimpleCoils, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  autosize,   ! Design Water Flow Rate {m3/s}, Def: autosize, AS, #3
+  autosize,   ! Design Air Flow Rate {m3/s}, Def: autosize, AS, #4
+  autosize,   ! Design Inlet Water Temperature {C}, Def: autosize, AS, #5
+  autosize,   ! Design Inlet Air Temperature {C}, Def: autosize, AS, #6
+  autosize,   ! Design Outlet Air Temperature {C}, Def: autosize, AS, #7
+  autosize,   ! Design Inlet Air Humidity Ratio {kgWater/kgDryAir}, Def: autosize, AS, #8
+  autosize,   ! Design Outlet Air Humidity Ratio {kgWater/kgDryAir}, Def: autosize, AS, #9
+  ,   ! Water Inlet Node Name REQ, #10
+  ,   ! Water Outlet Node Name REQ, #11
+  ,   ! Air Inlet Node Name REQ, #12
+  ,   ! Air Outlet Node Name REQ, #13
+  SimpleAnalysis,   ! Type of Analysis Def: SimpleAnalysis, [SimpleAnalysis, DetailedAnalysis], #14
+  CounterFlow,   ! Heat Exchanger Configuration Def: CounterFlow, [CrossFlow, CounterFlow], #15
+  ,   ! Condensate Collection Water Storage Tank Name [WaterStorageTankNames], #16
+  ;   ! Design Water Temperature Difference {deltaC}, #17

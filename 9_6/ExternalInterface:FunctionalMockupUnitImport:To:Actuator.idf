@@ -1,0 +1,10 @@
+! Min Fields: 8
+ExternalInterface:FunctionalMockupUnitImport:To:Actuator,
+  ,   ! Name REQ, #1
+  ,   ! Actuated Component Unique Name REQ, #2
+  ,   ! Actuated Component Type REQ, #3
+  ,   ! Actuated Component Control Type REQ, #4
+  ,   ! FMU File Name [FMUFileName], REQ, #5
+  ,   ! FMU Instance Name REQ, #6
+  ,   ! FMU Variable Name REQ, #7
+  ;   ! Initial Value REQ, #8

@@ -1,0 +1,11 @@
+! Min Fields: 5
+Schedule:File,
+  ,   ! Name RefList: [ScheduleNames], REQ, #1
+  ,   ! Schedule Type Limits Name [ScheduleTypeLimitsNames], #2
+  ,   ! File Name REQ, #3
+  ,   ! Column Number REQ, #4
+  ,   ! Rows to Skip at Top REQ, #5
+  8760,   ! Number of Hours of Data Def: 8760, #6
+  Comma,   ! Column Separator Def: Comma, [Comma, Tab, Space, Semicolon], #7
+  No,   ! Interpolate to Timestep Def: No, [Yes, No], #8
+  ;   ! Minutes per Item #9

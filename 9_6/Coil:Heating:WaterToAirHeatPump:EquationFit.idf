@@ -1,0 +1,12 @@
+Coil:Heating:WaterToAirHeatPump:EquationFit,
+  ,   ! Name RefList: [HeatingCoilsWaterToAirHP, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Air Outlet Node Name REQ, #5
+  ,   ! Rated Air Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! Rated Water Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Gross Rated Heating Capacity {W}, AS, REQ, #8
+  ,   ! Gross Rated Heating COP {W/W}, REQ, #9
+  ,   ! Heating Capacity Curve Name [QuadvariateFunctions], REQ, #10
+  ;   ! Heating Power Consumption Curve Name [QuadvariateFunctions], REQ, #11

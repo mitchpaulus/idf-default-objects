@@ -1,0 +1,9 @@
+! Min Fields: 13
+Shading:Zone:Detailed,
+  ,   ! Name RefList: [AttachedShadingSurfNames, AllShadingAndHTSurfNames, AllShadingSurfNames], REQ, #1
+  ,   ! Base Surface Name [SurfaceNames], REQ, #2
+  ,   ! Transmittance Schedule Name [ScheduleNames], #3
+  autocalculate,   ! Number of Vertices Def: autocalculate, AC, #4
+  ,   ! Vertex 1 X-coordinate {m}, REQ, #5
+  ,   ! Vertex 1 Y-coordinate {m}, REQ, #6
+  ;   ! Vertex 1 Z-coordinate {m}, REQ, #7

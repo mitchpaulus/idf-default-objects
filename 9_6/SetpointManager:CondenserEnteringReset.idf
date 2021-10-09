@@ -1,0 +1,12 @@
+! Min Fields: 10
+SetpointManager:CondenserEnteringReset,
+  ,   ! Name REQ, #1
+  Temperature,   ! Control Variable Def: Temperature, [Temperature], #2
+  ,   ! Default Condenser Entering Water Temperature Schedule Name [ScheduleNames], REQ, #3
+  ,   ! Minimum Design Wetbulb Temperature Curve Name [QuadvariateFunctions], REQ, #4
+  ,   ! Minimum Outside Air Wetbulb Temperature Curve Name [QuadvariateFunctions], REQ, #5
+  ,   ! Optimized Cond Entering Water Temperature Curve Name [QuadvariateFunctions], REQ, #6
+  11.1,   ! Minimum Lift {deltaC}, Def: 11.1, #7
+  32,   ! Maximum Condenser Entering Water Temperature {C}, Def: 32, #8
+  25.56,   ! Cooling Tower Design Inlet Air Wet-Bulb Temperature {C}, Def: 25.56, #9
+  ;   ! Setpoint Node or NodeList Name REQ, #10

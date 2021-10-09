@@ -1,0 +1,9 @@
+ComplexFenestrationProperty:SolarAbsorbedLayers,
+  ,   ! Name REQ, #1
+  ,   ! Fenestration Surface [SubSurfNames], REQ, #2
+  ,   ! Construction Name [ComplexFenestrationStates], REQ, #3
+  ,   ! Layer 1 Solar Radiation Absorbed Schedule Name [ScheduleNames], REQ, #4
+  ,   ! Layer 2 Solar Radiation Absorbed Schedule Name [ScheduleNames], #5
+  ,   ! Layer 3 Solar Radiation Absorbed Schedule Name [ScheduleNames], #6
+  ,   ! Layer 4 Solar Radiation Absorbed Schedule Name [ScheduleNames], #7
+  ;   ! Layer 5 Solar Radiation Absorbed Schedule Name [ScheduleNames], #8

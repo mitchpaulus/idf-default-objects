@@ -1,0 +1,36 @@
+! Min Fields: 34
+HVACTemplate:Zone:FanCoil,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Template Thermostat Name [CompactHVACThermostats], #2
+  autosize,   ! Supply Air Maximum Flow Rate {m3/s}, Def: autosize, AS, #3
+  ,   ! Zone Heating Sizing Factor #4
+  ,   ! Zone Cooling Sizing Factor #5
+  Flow/Person,   ! Outdoor Air Method Def: Flow/Person, [Flow/Person, Flow/Zone, Flow/Area, Sum, Maximum, DetailedSpecification], #6
+  0.00944,   ! Outdoor Air Flow Rate per Person {m3/s}, Def: 0.00944, #7
+  0.0,   ! Outdoor Air Flow Rate per Zone Floor Area {m3/s-m2}, Def: 0.0, #8
+  0.0,   ! Outdoor Air Flow Rate per Zone {m3/s}, Def: 0.0, #9
+  ,   ! System Availability Schedule Name [ScheduleNames], #10
+  0.7,   ! Supply Fan Total Efficiency Def: 0.7, #11
+  75,   ! Supply Fan Delta Pressure {Pa}, Def: 75, #12
+  0.9,   ! Supply Fan Motor Efficiency Def: 0.9, #13
+  1.0,   ! Supply Fan Motor in Air Stream Fraction Def: 1.0, #14
+  ChilledWater,   ! Cooling Coil Type Def: ChilledWater, [ChilledWater, ChilledWaterDetailedFlatModel, HeatExchangerAssistedChilledWater], #15
+  ,   ! Cooling Coil Availability Schedule Name [ScheduleNames], #16
+  14.0,   ! Cooling Coil Design Setpoint {C}, Def: 14.0, #17
+  HotWater,   ! Heating Coil Type Def: HotWater, [HotWater, Electric], #18
+  ,   ! Heating Coil Availability Schedule Name [ScheduleNames], #19
+  50.0,   ! Heating Coil Design Setpoint {C}, Def: 50.0, #20
+  ,   ! Dedicated Outdoor Air System Name [HVACTemplateDOASSystems], #21
+  SupplyAirTemperature,   ! Zone Cooling Design Supply Air Temperature Input Method Def: SupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference], #22
+  11.11,   ! Zone Cooling Design Supply Air Temperature Difference {deltaC}, Def: 11.11, #23
+  SupplyAirTemperature,   ! Zone Heating Design Supply Air Temperature Input Method Def: SupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference], #24
+  30.0,   ! Zone Heating Design Supply Air Temperature Difference {deltaC}, Def: 30.0, #25
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames, DSOASpaceListNames], #26
+  ,   ! Design Specification Zone Air Distribution Object Name [DesignSpecificationZoneAirDistributionNames], #27
+  ,   ! Capacity Control Method [ConstantFanVariableFlow, CyclingFan, VariableFanVariableFlow, VariableFanConstantFlow, MultiSpeedFan, ASHRAE90VariableFan], #28
+  0.33,   ! Low Speed Supply Air Flow Ratio Def: 0.33, #29
+  0.66,   ! Medium Speed Supply Air Flow Ratio Def: 0.66, #30
+  ,   ! Outdoor Air Schedule Name [ScheduleNames], #31
+  None,   ! Baseboard Heating Type Def: None, [HotWater, Electric, None], #32
+  ,   ! Baseboard Heating Availability Schedule Name [ScheduleNames], #33
+  autosize;   ! Baseboard Heating Capacity {W}, Def: autosize, AS, #34

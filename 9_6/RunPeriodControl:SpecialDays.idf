@@ -1,0 +1,6 @@
+! Min Fields: 4
+RunPeriodControl:SpecialDays,
+  ,   ! Name REQ, #1
+  ,   ! Start Date REQ, #2
+  1,   ! Duration {days}, Def: 1, #3
+  Holiday;   ! Special Day Type Def: Holiday, [Holiday, SummerDesignDay, WinterDesignDay, CustomDay1, CustomDay2], #4

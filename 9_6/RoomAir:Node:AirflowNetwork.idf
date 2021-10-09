@@ -1,0 +1,7 @@
+RoomAir:Node:AirflowNetwork,
+  ,   ! Name RefList: [RoomAirflowNetworkNodes], #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Fraction of Zone Air Volume #3
+  ,   ! RoomAir:Node:AirflowNetwork:AdjacentSurfaceList Name [RoomAirNodeSurfaceLists], #4
+  ,   ! RoomAir:Node:AirflowNetwork:InternalGains Name [RoomAirNodeGains], #5
+  ;   ! RoomAir:Node:AirflowNetwork:HVACEquipment Name [RoomAirNodeHVACEquipment], #6

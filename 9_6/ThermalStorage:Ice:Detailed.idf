@@ -1,0 +1,17 @@
+! Min Fields: 14
+ThermalStorage:Ice:Detailed,
+  ,   ! Name RefList: [IceThermalStorageEquipment, validBranchEquipmentNames, validPlantEquipmentNames], RefClassList: [validBranchEquipmentTypes, validPlantEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Capacity {GJ}, REQ, #3
+  ,   ! Inlet Node Name REQ, #4
+  ,   ! Outlet Node Name REQ, #5
+  ,   ! Discharging Curve Variable Specifications [FractionChargedLMTD, FractionDischargedLMTD, LMTDMassFlow, LMTDFractionCharged], REQ, #6
+  ,   ! Discharging Curve Name [BivariateFunctions], REQ, #7
+  ,   ! Charging Curve Variable Specifications [FractionChargedLMTD, FractionDischargedLMTD, LMTDMassFlow, LMTDFractionCharged], REQ, #8
+  ,   ! Charging Curve Name [BivariateFunctions], REQ, #9
+  ,   ! Timestep of the Curve Data {hr}, #10
+  ,   ! Parasitic Electric Load During Discharging {dimensionless}, #11
+  ,   ! Parasitic Electric Load During Charging {dimensionless}, #12
+  ,   ! Tank Loss Coefficient {dimensionless}, #13
+  0.0,   ! Freezing Temperature of Storage Medium {C}, Def: 0.0, #14
+  OutsideMelt;   ! Thaw Process Indicator Def: OutsideMelt, [InsideMelt, OutsideMelt], #15

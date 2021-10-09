@@ -1,0 +1,7 @@
+! Min Fields: 5
+AirflowNetwork:Distribution:Component:LeakageRatio,
+  ,   ! Name RefList: [AirflowNetworkComponentNames], REQ, #1
+  ,   ! Effective Leakage Ratio {dimensionless}, #2
+  ,   ! Maximum Flow Rate {m3/s}, REQ, #3
+  ,   ! Reference Pressure Difference {Pa}, REQ, #4
+  0.65;   ! Air Mass Flow Exponent {dimensionless}, Def: 0.65, #5

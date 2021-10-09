@@ -1,0 +1,25 @@
+Generator:FuelCell:ExhaustGasToWaterHeatExchanger,
+  ,   ! Name RefList: [FCExhaustHXNames, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Heat Recovery Water Inlet Node Name #2
+  ,   ! Heat Recovery Water Outlet Node Name #3
+  ,   ! Heat Recovery Water Maximum Flow Rate {m3/s}, #4
+  ,   ! Exhaust Outlet Air Node Name #5
+  ,   ! Heat Exchanger Calculation Method [FixedEffectiveness, EmpiricalUAeff, FundementalUAeff, Condensing], #6
+  ,   ! Method 1 Heat Exchanger Effectiveness #7
+  ,   ! Method 2 Parameter hxs0 #8
+  ,   ! Method 2 Parameter hxs1 #9
+  ,   ! Method 2 Parameter hxs2 #10
+  ,   ! Method 2 Parameter hxs3 #11
+  ,   ! Method 2 Parameter hxs4 #12
+  ,   ! Method 3 h0Gas Coefficient #13
+  ,   ! Method 3 NdotGasRef Coefficient #14
+  ,   ! Method 3 n Coefficient #15
+  ,   ! Method 3 Gas Area {m2}, #16
+  ,   ! Method 3 h0 Water Coefficient #17
+  ,   ! Method 3 N dot Water ref Coefficient #18
+  ,   ! Method 3 m Coefficient #19
+  ,   ! Method 3 Water Area {m2}, #20
+  ,   ! Method 3 F Adjustment Factor #21
+  ,   ! Method 4 hxl1 Coefficient #22
+  ,   ! Method 4 hxl2 Coefficient #23
+  ;   ! Method 4 Condensation Threshold {C}, #24

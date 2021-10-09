@@ -1,0 +1,4 @@
+! Min Fields: 2
+Parametric:Logic,
+  ,   ! Name REQ, #1
+  ;   ! Parametric Logic Line 1 #2

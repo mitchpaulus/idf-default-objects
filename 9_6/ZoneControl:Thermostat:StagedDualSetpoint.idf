@@ -1,0 +1,17 @@
+ZoneControl:Thermostat:StagedDualSetpoint,
+  ,   ! Name RefList: [ZoneControlThermostaticNames], REQ, #1
+  ,   ! Zone or ZoneList Name [ZoneAndZoneListNames], REQ, #2
+  ,   ! Number of Heating Stages REQ, #3
+  ,   ! Heating Temperature Setpoint Schedule Name [ScheduleNames], #4
+  1.1,   ! Heating Throttling Temperature Range {deltaC}, Def: 1.1, #5
+  ,   ! Stage 1 Heating Temperature Offset {deltaC}, REQ, #6
+  ,   ! Stage 2 Heating Temperature Offset {deltaC}, #7
+  ,   ! Stage 3 Heating Temperature Offset {deltaC}, #8
+  ,   ! Stage 4 Heating Temperature Offset {deltaC}, #9
+  ,   ! Number of Cooling Stages REQ, #10
+  ,   ! Cooling Temperature Setpoint Base Schedule Name [ScheduleNames], #11
+  1.1,   ! Cooling Throttling Temperature Range {deltaC}, Def: 1.1, #12
+  ,   ! Stage 1 Cooling Temperature Offset {deltaC}, REQ, #13
+  ,   ! Stage 2 Cooling Temperature Offset {deltaC}, #14
+  ,   ! Stage 3 Cooling Temperature Offset {deltaC}, #15
+  ;   ! Stage 4 Cooling Temperature Offset {deltaC}, #16

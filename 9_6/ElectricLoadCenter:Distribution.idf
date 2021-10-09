@@ -1,0 +1,22 @@
+ElectricLoadCenter:Distribution,
+  ,   ! Name REQ, #1
+  ,   ! Generator List Name [GeneratorLists], #2
+  ,   ! Generator Operation Scheme Type [Baseload, DemandLimit, TrackElectrical, TrackSchedule, TrackMeter, FollowThermal, FollowThermalLimitElectrical], #3
+  ,   ! Generator Demand Limit Scheme Purchased Electric Demand Limit {W}, #4
+  ,   ! Generator Track Schedule Name Scheme Schedule Name [ScheduleNames], #5
+  ,   ! Generator Track Meter Scheme Meter Name #6
+  AlternatingCurrent,   ! Electrical Buss Type Def: AlternatingCurrent, [AlternatingCurrent, AlternatingCurrentWithStorage, DirectCurrentWithInverter, DirectCurrentWithInverterDCStorage, DirectCurrentWithInverterACStorage], #7
+  ,   ! Inverter Name [InverterList], #8
+  ,   ! Electrical Storage Object Name [ElecStorageList], #9
+  ,   ! Transformer Object Name [TransformerNames], #10
+  TrackFacilityElectricDemandStoreExcessOnSite,   ! Storage Operation Scheme Def: TrackFacilityElectricDemandStoreExcessOnSite, [TrackFacilityElectricDemandStoreExcessOnSite, TrackMeterDemandStoreExcessOnSite, TrackChargeDischargeSchedules, FacilityDemandLeveling], #11
+  ,   ! Storage Control Track Meter Name #12
+  ,   ! Storage Converter Object Name [ConverterList], #13
+  1.0,   ! Maximum Storage State of Charge Fraction Def: 1.0, #14
+  0.0,   ! Minimum Storage State of Charge Fraction Def: 0.0, #15
+  ,   ! Design Storage Control Charge Power {W}, #16
+  ,   ! Storage Charge Power Fraction Schedule Name [ScheduleNames], #17
+  ,   ! Design Storage Control Discharge Power {W}, #18
+  ,   ! Storage Discharge Power Fraction Schedule Name [ScheduleNames], #19
+  ,   ! Storage Control Utility Demand Target {W}, #20
+  ;   ! Storage Control Utility Demand Target Fraction Schedule Name [ScheduleNames], #21

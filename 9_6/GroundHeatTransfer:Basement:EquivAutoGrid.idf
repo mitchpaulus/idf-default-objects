@@ -1,0 +1,4 @@
+GroundHeatTransfer:Basement:EquivAutoGrid,
+  15,   ! CLEARANCE: Distance from outside of wall to edge of 3-D ground domain {m}, Def: 15, #1
+  0.1,   ! SlabDepth: Thickness of the floor slab {m}, Def: 0.1, #2
+  2;   ! BaseDepth: Depth of the basement wall below grade {m}, Def: 2, #3

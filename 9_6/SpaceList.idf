@@ -1,0 +1,4 @@
+! Min Fields: 2
+SpaceList,
+  ,   ! Name RefList: [SpaceListNames, SpaceAndSpaceListNames], REQ, #1
+  ;   ! Space 1 Name [SpaceNames], REQ, #2

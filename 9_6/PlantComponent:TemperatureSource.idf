@@ -1,0 +1,8 @@
+PlantComponent:TemperatureSource,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Inlet Node REQ, #2
+  ,   ! Outlet Node REQ, #3
+  ,   ! Design Volume Flow Rate {m3/s}, AS, REQ, #4
+  ,   ! Temperature Specification Type [Constant, Scheduled], #5
+  ,   ! Source Temperature {C}, #6
+  ;   ! Source Temperature Schedule Name {C}, [ScheduleNames], #7

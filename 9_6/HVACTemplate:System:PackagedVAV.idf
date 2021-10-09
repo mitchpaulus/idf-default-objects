@@ -1,0 +1,61 @@
+! Min Fields: 59
+HVACTemplate:System:PackagedVAV,
+  ,   ! Name RefList: [CompactHVACSystemVAV, HVACTemplateSystems], REQ, #1
+  ,   ! System Availability Schedule Name [ScheduleNames], #2
+  autosize,   ! Supply Fan Maximum Flow Rate {m3/s}, Def: autosize, AS, #3
+  autosize,   ! Supply Fan Minimum Flow Rate {m3/s}, Def: autosize, AS, #4
+  DrawThrough,   ! Supply Fan Placement Def: DrawThrough, [DrawThrough, BlowThrough], #5
+  0.7,   ! Supply Fan Total Efficiency Def: 0.7, #6
+  1000,   ! Supply Fan Delta Pressure {Pa}, Def: 1000, #7
+  0.9,   ! Supply Fan Motor Efficiency Def: 0.9, #8
+  1.0,   ! Supply Fan Motor in Air Stream Fraction Def: 1.0, #9
+  TwoSpeedDX,   ! Cooling Coil Type Def: TwoSpeedDX, [TwoSpeedDX, TwoSpeedHumidControlDX], #10
+  ,   ! Cooling Coil Availability Schedule Name [ScheduleNames], #11
+  ,   ! Cooling Coil Setpoint Schedule Name [ScheduleNames], #12
+  12.8,   ! Cooling Coil Design Setpoint {C}, Def: 12.8, #13
+  autosize,   ! Cooling Coil Gross Rated Total Capacity {W}, Def: autosize, AS, #14
+  autosize,   ! Cooling Coil Gross Rated Sensible Heat Ratio Def: autosize, AS, #15
+  3.0,   ! Cooling Coil Gross Rated COP {W/W}, Def: 3.0, #16
+  None,   ! Heating Coil Type Def: None, [HotWater, Electric, Gas, None], #17
+  ,   ! Heating Coil Availability Schedule Name [ScheduleNames], #18
+  ,   ! Heating Coil Setpoint Schedule Name [ScheduleNames], #19
+  10.0,   ! Heating Coil Design Setpoint {C}, Def: 10.0, #20
+  autosize,   ! Heating Coil Capacity {W}, Def: autosize, AS, #21
+  0.8,   ! Gas Heating Coil Efficiency Def: 0.8, #22
+  0.0,   ! Gas Heating Coil Parasitic Electric Load {W}, Def: 0.0, #23
+  autosize,   ! Maximum Outdoor Air Flow Rate {m3/s}, Def: autosize, AS, #24
+  autosize,   ! Minimum Outdoor Air Flow Rate {m3/s}, Def: autosize, AS, #25
+  ProportionalMinimum,   ! Minimum Outdoor Air Control Type Def: ProportionalMinimum, [FixedMinimum, ProportionalMinimum], #26
+  ,   ! Minimum Outdoor Air Schedule Name [ScheduleNames], #27
+  NoEconomizer,   ! Economizer Type Def: NoEconomizer, [FixedDryBulb, FixedEnthalpy, DifferentialDryBulb, DifferentialEnthalpy, FixedDewPointAndDryBulb, ElectronicEnthalpy, DifferentialDryBulbAndEnthalpy, NoEconomizer], #28
+  NoLockout,   ! Economizer Lockout Def: NoLockout, [NoLockout, LockoutWithHeating, LockoutWithCompressor], #29
+  ,   ! Economizer Maximum Limit Dry-Bulb Temperature {C}, #30
+  ,   ! Economizer Maximum Limit Enthalpy {J/kg}, #31
+  ,   ! Economizer Maximum Limit Dewpoint Temperature {C}, #32
+  ,   ! Economizer Minimum Limit Dry-Bulb Temperature {C}, #33
+  ,   ! Supply Plenum Name [ZoneNames], #34
+  ,   ! Return Plenum Name [ZoneNames], #35
+  InletVaneDampers,   ! Supply Fan Part-Load Power Coefficients Def: InletVaneDampers, [InletVaneDampers, OutletDampers, VariableSpeedMotor, ASHRAE90.1-2004AppendixG, VariableSpeedMotorPressureReset], #36
+  StayOff,   ! Night Cycle Control Def: StayOff, [StayOff, CycleOnAny, CycleOnControlZone, CycleOnAnyZoneFansOnly], #37
+  ,   ! Night Cycle Control Zone Name [ZoneNames], #38
+  None,   ! Heat Recovery Type Def: None, [None, Sensible, Enthalpy], #39
+  0.70,   ! Sensible Heat Recovery Effectiveness Def: 0.70, #40
+  0.65,   ! Latent Heat Recovery Effectiveness Def: 0.65, #41
+  None,   ! Cooling Coil Setpoint Reset Type Def: None, [None, Warmest, OutdoorAirTemperatureReset, WarmestTemperatureFirst], #42
+  None,   ! Heating Coil Setpoint Reset Type Def: None, [None, OutdoorAirTemperatureReset], #43
+  None,   ! Dehumidification Control Type Def: None, [None, CoolReheat], #44
+  ,   ! Dehumidification Control Zone Name [ZoneNames], #45
+  60.0,   ! Dehumidification Setpoint {percent}, Def: 60.0, #46
+  None,   ! Humidifier Type Def: None, [None, ElectricSteam], #47
+  ,   ! Humidifier Availability Schedule Name [ScheduleNames], #48
+  0.000001,   ! Humidifier Rated Capacity {m3/s}, Def: 0.000001, #49
+  autosize,   ! Humidifier Rated Electric Power {W}, Def: autosize, AS, #50
+  ,   ! Humidifier Control Zone Name [ZoneNames], #51
+  30.0,   ! Humidifier Setpoint {percent}, Def: 30.0, #52
+  NonCoincident,   ! Sizing Option Def: NonCoincident, [Coincident, NonCoincident], #53
+  No,   ! Return Fan Def: No, [Yes, No], #54
+  0.7,   ! Return Fan Total Efficiency Def: 0.7, #55
+  500,   ! Return Fan Delta Pressure {Pa}, Def: 500, #56
+  0.9,   ! Return Fan Motor Efficiency Def: 0.9, #57
+  1.0,   ! Return Fan Motor in Air Stream Fraction Def: 1.0, #58
+  InletVaneDampers;   ! Return Fan Part-Load Power Coefficients Def: InletVaneDampers, [InletVaneDampers, OutletDampers, VariableSpeedMotor, ASHRAE90.1-2004AppendixG, VariableSpeedMotorPressureReset], #59

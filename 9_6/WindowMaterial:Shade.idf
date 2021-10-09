@@ -1,0 +1,17 @@
+! Min Fields: 15
+WindowMaterial:Shade,
+  ,   ! Name RefList: [MaterialName, WindowShadesScreensAndBlinds], REQ, #1
+  ,   ! Solar Transmittance {dimensionless}, REQ, #2
+  ,   ! Solar Reflectance {dimensionless}, REQ, #3
+  ,   ! Visible Transmittance {dimensionless}, REQ, #4
+  ,   ! Visible Reflectance {dimensionless}, REQ, #5
+  ,   ! Infrared Hemispherical Emissivity {dimensionless}, REQ, #6
+  ,   ! Infrared Transmittance {dimensionless}, REQ, #7
+  ,   ! Thickness {m}, REQ, #8
+  ,   ! Conductivity {W/m-K}, REQ, #9
+  0.050,   ! Shade to Glass Distance {m}, Def: 0.050, #10
+  0.5,   ! Top Opening Multiplier Def: 0.5, #11
+  0.5,   ! Bottom Opening Multiplier Def: 0.5, #12
+  0.5,   ! Left-Side Opening Multiplier Def: 0.5, #13
+  0.5,   ! Right-Side Opening Multiplier Def: 0.5, #14
+  0.0;   ! Airflow Permeability {dimensionless}, Def: 0.0, #15

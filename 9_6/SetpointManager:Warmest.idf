@@ -1,0 +1,8 @@
+SetpointManager:Warmest,
+  ,   ! Name REQ, #1
+  Temperature,   ! Control Variable Def: Temperature, [Temperature], #2
+  ,   ! HVAC Air Loop Name [AirPrimaryLoops], REQ, #3
+  12.,   ! Minimum Setpoint Temperature {C}, Def: 12., #4
+  18.,   ! Maximum Setpoint Temperature {C}, Def: 18., #5
+  MaximumTemperature,   ! Strategy Def: MaximumTemperature, [MaximumTemperature], #6
+  ;   ! Setpoint Node or NodeList Name REQ, #7

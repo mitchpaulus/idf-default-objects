@@ -1,0 +1,26 @@
+! Min Fields: 24
+ZoneHVAC:LowTemperatureRadiant:ConstantFlow,
+  ,   ! Name RefList: [validBranchEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Design Object [RadiantDesignObject], #2
+  ,   ! Availability Schedule Name [ScheduleNames], #3
+  ,   ! Zone Name [ZoneNames], #4
+  ,   ! Surface Name or Radiant Surface Group Name [RadiantSurfaceNames, RadiantGroupNames], #5
+  autosize,   ! Hydronic Tubing Length {m}, Def: autosize, AS, #6
+  ,   ! Rated Flow Rate {m3/s}, AS, #7
+  ,   ! Pump Flow Rate Schedule Name [ScheduleNames], #8
+  179352,   ! Rated Pump Head {Pa}, Def: 179352, #9
+  ,   ! Rated Power Consumption {W}, #10
+  ,   ! Heating Water Inlet Node Name #11
+  ,   ! Heating Water Outlet Node Name #12
+  ,   ! Heating High Water Temperature Schedule Name [ScheduleNames], #13
+  ,   ! Heating Low Water Temperature Schedule Name [ScheduleNames], #14
+  ,   ! Heating High Control Temperature Schedule Name [ScheduleNames], #15
+  ,   ! Heating Low Control Temperature Schedule Name [ScheduleNames], #16
+  ,   ! Cooling Water Inlet Node Name #17
+  ,   ! Cooling Water Outlet Node Name #18
+  ,   ! Cooling High Water Temperature Schedule Name [ScheduleNames], #19
+  ,   ! Cooling Low Water Temperature Schedule Name [ScheduleNames], #20
+  ,   ! Cooling High Control Temperature Schedule Name [ScheduleNames], #21
+  ,   ! Cooling Low Control Temperature Schedule Name [ScheduleNames], #22
+  OnePerSurface,   ! Number of Circuits Def: OnePerSurface, [OnePerSurface, CalculateFromCircuitLength], #23
+  106.7;   ! Circuit Length {m}, Def: 106.7, #24

@@ -1,0 +1,4 @@
+WindowGap:SupportPillar,
+  ,   ! Name RefList: [WindowGapSupportPillars], REQ, #1
+  0.04,   ! Spacing {m}, Def: 0.04, #2
+  0.0004;   ! Radius {m}, Def: 0.0004, #3

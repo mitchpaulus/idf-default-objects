@@ -1,0 +1,9 @@
+! Min Fields: 2
+ZoneControl:Thermostat:TemperatureAndHumidity,
+  ,   ! Thermostat Name [ZoneControlThermostaticNames], REQ, #1
+  ,   ! Dehumidifying Relative Humidity Setpoint Schedule Name [ScheduleNames], REQ, #2
+  Overcool,   ! Dehumidification Control Type Def: Overcool, [Overcool, None], #3
+  Constant,   ! Overcool Range Input Method Def: Constant, [Constant, Scheduled], #4
+  1.7,   ! Overcool Constant Range {deltaC}, Def: 1.7, #5
+  ,   ! Overcool Range Schedule Name [ScheduleNames], #6
+  3.6;   ! Overcool Control Ratio {percent/K}, Def: 3.6, #7

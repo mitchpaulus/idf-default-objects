@@ -1,0 +1,7 @@
+! Min Fields: 5
+SetpointManager:MultiZone:Humidity:Minimum,
+  ,   ! Name REQ, #1
+  ,   ! HVAC Air Loop Name [AirPrimaryLoops], REQ, #2
+  0.005,   ! Minimum Setpoint Humidity Ratio {kgWater/kgDryAir}, Def: 0.005, #3
+  0.012,   ! Maximum Setpoint Humidity Ratio {kgWater/kgDryAir}, Def: 0.012, #4
+  ;   ! Setpoint Node or NodeList Name REQ, #5

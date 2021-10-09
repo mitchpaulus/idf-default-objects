@@ -1,0 +1,26 @@
+Curve:ChillerPartLoadWithLift,
+  ,   ! Name RefList: [TrivariateFunctions], REQ, #1
+  ,   ! Coefficient1 C1 REQ, #2
+  ,   ! Coefficient2 C2 REQ, #3
+  ,   ! Coefficient3 C3 REQ, #4
+  ,   ! Coefficient4 C4 REQ, #5
+  ,   ! Coefficient5 C5 REQ, #6
+  ,   ! Coefficient6 C6 REQ, #7
+  ,   ! Coefficient7 C7 REQ, #8
+  ,   ! Coefficient8 C8 REQ, #9
+  ,   ! Coefficient9 C9 REQ, #10
+  ,   ! Coefficient10 C10 REQ, #11
+  ,   ! Coefficient11 C11 REQ, #12
+  ,   ! Coefficient12 C12 REQ, #13
+  ,   ! Minimum Value of x REQ, #14
+  ,   ! Maximum Value of x REQ, #15
+  ,   ! Minimum Value of y REQ, #16
+  ,   ! Maximum Value of y REQ, #17
+  ,   ! Minimum Value of z REQ, #18
+  ,   ! Maximum Value of z REQ, #19
+  ,   ! Minimum Curve Output #20
+  ,   ! Maximum Curve Output #21
+  Dimensionless,   ! Input Unit Type for x Def: Dimensionless, [Dimensionless], #22
+  Dimensionless,   ! Input Unit Type for y Def: Dimensionless, [Dimensionless], #23
+  Dimensionless,   ! Input Unit Type for z Def: Dimensionless, [Dimensionless], #24
+  Dimensionless;   ! Output Unit Type Def: Dimensionless, [Dimensionless], #25

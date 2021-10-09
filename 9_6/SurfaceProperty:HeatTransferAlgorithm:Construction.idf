@@ -1,0 +1,5 @@
+! Min Fields: 3
+SurfaceProperty:HeatTransferAlgorithm:Construction,
+  ,   ! Name #1
+  ConductionTransferFunction,   ! Algorithm Def: ConductionTransferFunction, [ConductionTransferFunction, MoisturePenetrationDepthConductionTransferFunction, ConductionFiniteDifference, CombinedHeatAndMoistureFiniteElement], #2
+  ;   ! Construction Name [ConstructionNames], REQ, #3

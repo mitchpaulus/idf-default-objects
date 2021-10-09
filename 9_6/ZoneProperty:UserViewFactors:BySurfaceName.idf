@@ -1,0 +1,5 @@
+ZoneProperty:UserViewFactors:BySurfaceName,
+  ,   ! Zone or ZoneList or Space or SpaceList Name [SpaceNames, SpaceListNames, ZoneNames, ZoneListNames], #1
+  ,   ! From Surface 1 [AllHeatTranSurfNames], #2
+  ,   ! To Surface 1 [AllHeatTranSurfNames], #3
+  ;   ! View Factor 1 #4

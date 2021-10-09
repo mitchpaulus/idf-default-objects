@@ -1,0 +1,17 @@
+! Min Fields: 14
+HeatPump:PlantLoop:EIR:Cooling,
+  ,   ! Name RefList: [PLHPCoolingNames, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Load Side Inlet Node Name REQ, #2
+  ,   ! Load Side Outlet Node Name REQ, #3
+  WaterSource,   ! Condenser Type Def: WaterSource, [WaterSource, AirSource], REQ, #4
+  ,   ! Source Side Inlet Node Name REQ, #5
+  ,   ! Source Side Outlet Node Name REQ, #6
+  ,   ! Companion Heat Pump Name [PLHPHeatingNames], #7
+  autosize,   ! Load Side Reference Flow Rate {m3/s}, Def: autosize, AS, REQ, #8
+  autosize,   ! Source Side Reference Flow Rate {m3/s}, Def: autosize, AS, REQ, #9
+  autosize,   ! Reference Capacity {W}, Def: autosize, AS, REQ, #10
+  7.5,   ! Reference Coefficient of Performance {W/W}, Def: 7.5, REQ, #11
+  1.0,   ! Sizing Factor Def: 1.0, REQ, #12
+  ,   ! Capacity Modifier Function of Temperature Curve Name [BivariateFunctions], REQ, #13
+  ,   ! Electric Input to Output Ratio Modifier Function of Temperature Curve Name [BivariateFunctions], REQ, #14
+  ;   ! Electric Input to Output Ratio Modifier Function of Part Load Ratio Curve Name [UniVariateFunctions], REQ, #15

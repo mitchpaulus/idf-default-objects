@@ -1,0 +1,53 @@
+MaterialProperty:HeatAndMoistureTransfer:ThermalConductivity,
+  ,   ! Material Name [MaterialName], REQ, #1
+  ,   ! Number of Thermal Coordinates REQ, #2
+  ,   ! Moisture Content 1 {kg/m3}, REQ, #3
+  ,   ! Thermal Conductivity 1 {W/m-K}, REQ, #4
+  ,   ! Moisture Content 2 {kg/m3}, #5
+  ,   ! Thermal Conductivity 2 {W/m-K}, #6
+  ,   ! Moisture Content 3 {kg/m3}, #7
+  ,   ! Thermal Conductivity 3 {W/m-K}, #8
+  ,   ! Moisture Content 4 {kg/m3}, #9
+  ,   ! Thermal Conductivity 4 {W/m-K}, #10
+  ,   ! Moisture Content 5 {kg/m3}, #11
+  ,   ! Thermal Conductivity 5 {W/m-K}, #12
+  ,   ! Moisture Content 6 {kg/m3}, #13
+  ,   ! Thermal Conductivity 6 {W/m-K}, #14
+  ,   ! Moisture Content 7 {kg/m3}, #15
+  ,   ! Thermal Conductivity 7 {W/m-K}, #16
+  ,   ! Moisture Content 8 {kg/m3}, #17
+  ,   ! Thermal Conductivity 8 {W/m-K}, #18
+  ,   ! Moisture Content 9 {kg/m3}, #19
+  ,   ! Thermal Conductivity 9 {W/m-K}, #20
+  ,   ! Moisture Content 10 {kg/m3}, #21
+  ,   ! Thermal Conductivity 10 {W/m-K}, #22
+  ,   ! Moisture Content 11 {kg/m3}, #23
+  ,   ! Thermal Conductivity 11 {W/m-K}, #24
+  ,   ! Moisture Content 12 {kg/m3}, #25
+  ,   ! Thermal Conductivity 12 {W/m-K}, #26
+  ,   ! Moisture Content 13 {kg/m3}, #27
+  ,   ! Thermal Conductivity 13 {W/m-K}, #28
+  ,   ! Moisture Content 14 {kg/m3}, #29
+  ,   ! Thermal Conductivity 14 {W/m-K}, #30
+  ,   ! Moisture Content 15 {kg/m3}, #31
+  ,   ! Thermal Conductivity 15 {W/m-K}, #32
+  ,   ! Moisture Content 16 {kg/m3}, #33
+  ,   ! Thermal Conductivity 16 {W/m-K}, #34
+  ,   ! Moisture Content 17 {kg/m3}, #35
+  ,   ! Thermal Conductivity 17 {W/m-K}, #36
+  ,   ! Moisture Content 18 {kg/m3}, #37
+  ,   ! Thermal Conductivity 18 {W/m-K}, #38
+  ,   ! Moisture Content 19 {kg/m3}, #39
+  ,   ! Thermal Conductivity 19 {W/m-K}, #40
+  ,   ! Moisture Content 20 {kg/m3}, #41
+  ,   ! Thermal Conductivity 20 {W/m-K}, #42
+  ,   ! Moisture Content 21 {kg/m3}, #43
+  ,   ! Thermal Conductivity 21 {W/m-K}, #44
+  ,   ! Moisture Content 22 {kg/m3}, #45
+  ,   ! Thermal Conductivity 22 {W/m-K}, #46
+  ,   ! Moisture Content 23 {kg/m3}, #47
+  ,   ! Thermal Conductivity 23 {W/m-K}, #48
+  ,   ! Moisture Content 24 {kg/m3}, #49
+  ,   ! Thermal Conductivity 24 {W/m-K}, #50
+  ,   ! Moisture Content 25 {kg/m3}, #51
+  ;   ! Thermal Conductivity 25 {W/m-K}, #52

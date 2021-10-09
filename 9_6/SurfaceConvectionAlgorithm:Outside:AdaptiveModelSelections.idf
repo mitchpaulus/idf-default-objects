@@ -1,0 +1,15 @@
+! Min Fields: 13
+SurfaceConvectionAlgorithm:Outside:AdaptiveModelSelections,
+  ,   ! Name #1
+  TARPWindward,   ! Wind Convection Windward Vertical Wall Equation Source Def: TARPWindward, [SimpleCombined, TARPWindward, MoWiTTWindward, DOE2Windward, NusseltJurges, McAdams, Mitchell, BlockenWindward, EmmelVertical, UserCurve], #2
+  ,   ! Wind Convection Windward Equation Vertical Wall User Curve Name [UserConvectionOutsideModels], #3
+  TARPLeeward,   ! Wind Convection Leeward Vertical Wall Equation Source Def: TARPLeeward, [SimpleCombined, TARPLeeward, MoWiTTLeeward, DOE2Leeward, EmmelVertical, NusseltJurges, McAdams, Mitchell, UserCurve], #4
+  ,   ! Wind Convection Leeward Vertical Wall Equation User Curve Name [UserConvectionOutsideModels], #5
+  ClearRoof,   ! Wind Convection Horizontal Roof Equation Source Def: ClearRoof, [SimpleCombined, TARPWindward, MoWiTTWindward, DOE2Windward, NusseltJurges, McAdams, Mitchell, BlockenWindward, EmmelRoof, ClearRoof, UserCurve], #6
+  ,   ! Wind Convection Horizontal Roof User Curve Name [UserConvectionOutsideModels], #7
+  ASHRAEVerticalWall,   ! Natural Convection Vertical Wall Equation Source Def: ASHRAEVerticalWall, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, FohannoPolidoriVerticalWall, ISO15099Windows, UserCurve, None], #8
+  ,   ! Natural Convection Vertical Wall Equation User Curve Name [UserConvectionOutsideModels], #9
+  WaltonStableHorizontalOrTilt,   ! Natural Convection Stable Horizontal Equation Source Def: WaltonStableHorizontalOrTilt, [WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, UserCurve, None], #10
+  ,   ! Natural Convection Stable Horizontal Equation User Curve Name [UserConvectionOutsideModels], #11
+  WaltonUnstableHorizontalOrTilt,   ! Natural Convection Unstable Horizontal Equation Source Def: WaltonUnstableHorizontalOrTilt, [WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, UserCurve, None], #12
+  ;   ! Natural Convection Unstable Horizontal Equation User Curve Name [UserConvectionOutsideModels], #13

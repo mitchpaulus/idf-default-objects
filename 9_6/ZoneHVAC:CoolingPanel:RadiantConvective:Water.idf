@@ -1,0 +1,23 @@
+! Min Fields: 18
+ZoneHVAC:CoolingPanel:RadiantConvective:Water,
+  ,   ! Name RefList: [validBranchEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], REQ, #2
+  ,   ! Water Inlet Node Name REQ, #3
+  ,   ! Water Outlet Node Name REQ, #4
+  5.0,   ! Rated Inlet Water Temperature {C}, Def: 5.0, #5
+  24.0,   ! Rated Inlet Space Temperature {C}, Def: 24.0, #6
+  0.063,   ! Rated Water Mass Flow Rate {kg/s}, Def: 0.063, #7
+  CoolingDesignCapacity,   ! Cooling Design Capacity Method Def: CoolingDesignCapacity, [None, CoolingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedCoolingCapacity], #8
+  ,   ! Cooling Design Capacity {W}, AS, #9
+  ,   ! Cooling Design Capacity Per Floor Area {W/m2}, #10
+  ,   ! Fraction of Autosized Cooling Design Capacity #11
+  ,   ! Maximum Chilled Water Flow Rate {m3/s}, AS, REQ, #12
+  MeanAirTemperature,   ! Control Type Def: MeanAirTemperature, [MeanAirTemperature, MeanRadiantTemperature, OperativeTemperature, OutdoorDryBulbTemperature, OutdoorWetBulbTemperature, ZoneTotalLoad, ZoneConvectiveLoad], #13
+  0.5,   ! Cooling Control Throttling Range {deltaC}, Def: 0.5, #14
+  ,   ! Cooling Control Temperature Schedule Name [ScheduleNames], #15
+  SimpleOff,   ! Condensation Control Type Def: SimpleOff, [Off, SimpleOff, VariableOff], #16
+  1.0,   ! Condensation Control Dewpoint Offset {C}, Def: 1.0, #17
+  ,   ! Fraction Radiant REQ, #18
+  ,   ! Fraction of Radiant Energy Incident on People #19
+  ,   ! Surface 1 Name [AllHeatTranSurfNames], #20
+  ;   ! Fraction of Radiant Energy to Surface 1 #21

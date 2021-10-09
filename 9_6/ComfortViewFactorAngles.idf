@@ -1,0 +1,203 @@
+ComfortViewFactorAngles,
+  ,   ! Name RefList: [AllHeatTranAngFacNames], #1
+  ,   ! Zone Name [ZoneNames], #2
+  ,   ! Surface 1 Name [AllHeatTranSurfNames], #3
+  ,   ! Angle Factor 1 #4
+  ,   ! Surface 2 Name [AllHeatTranSurfNames], #5
+  ,   ! Angle Factor 2 #6
+  ,   ! Surface 3 Name [AllHeatTranSurfNames], #7
+  ,   ! Angle Factor 3 #8
+  ,   ! Surface 4 Name [AllHeatTranSurfNames], #9
+  ,   ! Angle Factor 4 #10
+  ,   ! Surface 5 Name [AllHeatTranSurfNames], #11
+  ,   ! Angle Factor 5 #12
+  ,   ! Surface 6 Name [AllHeatTranSurfNames], #13
+  ,   ! Angle Factor 6 #14
+  ,   ! Surface 7 Name [AllHeatTranSurfNames], #15
+  ,   ! Angle Factor 7 #16
+  ,   ! Surface 8 Name [AllHeatTranSurfNames], #17
+  ,   ! Angle Factor 8 #18
+  ,   ! Surface 9 Name [AllHeatTranSurfNames], #19
+  ,   ! Angle Factor 9 #20
+  ,   ! Surface 10 Name [AllHeatTranSurfNames], #21
+  ,   ! Angle Factor 10 #22
+  ,   ! Surface 11 Name [AllHeatTranSurfNames], #23
+  ,   ! Angle Factor 11 #24
+  ,   ! Surface 12 Name [AllHeatTranSurfNames], #25
+  ,   ! Angle Factor 12 #26
+  ,   ! Surface 13 Name [AllHeatTranSurfNames], #27
+  ,   ! Angle Factor 13 #28
+  ,   ! Surface 14 Name [AllHeatTranSurfNames], #29
+  ,   ! Angle Factor 14 #30
+  ,   ! Surface 15 Name [AllHeatTranSurfNames], #31
+  ,   ! Angle Factor 15 #32
+  ,   ! Surface 16 Name [AllHeatTranSurfNames], #33
+  ,   ! Angle Factor 16 #34
+  ,   ! Surface 17 Name [AllHeatTranSurfNames], #35
+  ,   ! Angle Factor 17 #36
+  ,   ! Surface 18 Name [AllHeatTranSurfNames], #37
+  ,   ! Angle Factor 18 #38
+  ,   ! Surface 19 Name [AllHeatTranSurfNames], #39
+  ,   ! Angle Factor 19 #40
+  ,   ! Surface 20 Name [AllHeatTranSurfNames], #41
+  ,   ! Angle Factor 20 #42
+  ,   ! Surface 21 Name [AllHeatTranSurfNames], #43
+  ,   ! Angle Factor 21 #44
+  ,   ! Surface 22 Name [AllHeatTranSurfNames], #45
+  ,   ! Angle Factor 22 #46
+  ,   ! Surface 23 Name [AllHeatTranSurfNames], #47
+  ,   ! Angle Factor 23 #48
+  ,   ! Surface 24 Name [AllHeatTranSurfNames], #49
+  ,   ! Angle Factor 24 #50
+  ,   ! Surface 25 Name [AllHeatTranSurfNames], #51
+  ,   ! Angle Factor 25 #52
+  ,   ! Surface 26 Name [AllHeatTranSurfNames], #53
+  ,   ! Angle Factor 26 #54
+  ,   ! Surface 27 Name [AllHeatTranSurfNames], #55
+  ,   ! Angle Factor 27 #56
+  ,   ! Surface 28 Name [AllHeatTranSurfNames], #57
+  ,   ! Angle Factor 28 #58
+  ,   ! Surface 29 Name [AllHeatTranSurfNames], #59
+  ,   ! Angle Factor 29 #60
+  ,   ! Surface 30 Name [AllHeatTranSurfNames], #61
+  ,   ! Angle Factor 30 #62
+  ,   ! Surface 31 Name [AllHeatTranSurfNames], #63
+  ,   ! Angle Factor 31 #64
+  ,   ! Surface 32 Name [AllHeatTranSurfNames], #65
+  ,   ! Angle Factor 32 #66
+  ,   ! Surface 33 Name [AllHeatTranSurfNames], #67
+  ,   ! Angle Factor 33 #68
+  ,   ! Surface 34 Name [AllHeatTranSurfNames], #69
+  ,   ! Angle Factor 34 #70
+  ,   ! Surface 35 Name [AllHeatTranSurfNames], #71
+  ,   ! Angle Factor 35 #72
+  ,   ! Surface 36 Name [AllHeatTranSurfNames], #73
+  ,   ! Angle Factor 36 #74
+  ,   ! Surface 37 Name [AllHeatTranSurfNames], #75
+  ,   ! Angle Factor 37 #76
+  ,   ! Surface 38 Name [AllHeatTranSurfNames], #77
+  ,   ! Angle Factor 38 #78
+  ,   ! Surface 39 Name [AllHeatTranSurfNames], #79
+  ,   ! Angle Factor 39 #80
+  ,   ! Surface 40 Name [AllHeatTranSurfNames], #81
+  ,   ! Angle Factor 40 #82
+  ,   ! Surface 41 Name [AllHeatTranSurfNames], #83
+  ,   ! Angle Factor 41 #84
+  ,   ! Surface 42 Name [AllHeatTranSurfNames], #85
+  ,   ! Angle Factor 42 #86
+  ,   ! Surface 43 Name [AllHeatTranSurfNames], #87
+  ,   ! Angle Factor 43 #88
+  ,   ! Surface 44 Name [AllHeatTranSurfNames], #89
+  ,   ! Angle Factor 44 #90
+  ,   ! Surface 45 Name [AllHeatTranSurfNames], #91
+  ,   ! Angle Factor 45 #92
+  ,   ! Surface 46 Name [AllHeatTranSurfNames], #93
+  ,   ! Angle Factor 46 #94
+  ,   ! Surface 47 Name [AllHeatTranSurfNames], #95
+  ,   ! Angle Factor 47 #96
+  ,   ! Surface 48 Name [AllHeatTranSurfNames], #97
+  ,   ! Angle Factor 48 #98
+  ,   ! Surface 49 Name [AllHeatTranSurfNames], #99
+  ,   ! Angle Factor 49 #100
+  ,   ! Surface 50 Name [AllHeatTranSurfNames], #101
+  ,   ! Angle Factor 50 #102
+  ,   ! Surface 51 Name [AllHeatTranSurfNames], #103
+  ,   ! Angle Factor 51 #104
+  ,   ! Surface 52 Name [AllHeatTranSurfNames], #105
+  ,   ! Angle Factor 52 #106
+  ,   ! Surface 53 Name [AllHeatTranSurfNames], #107
+  ,   ! Angle Factor 53 #108
+  ,   ! Surface 54 Name [AllHeatTranSurfNames], #109
+  ,   ! Angle Factor 54 #110
+  ,   ! Surface 55 Name [AllHeatTranSurfNames], #111
+  ,   ! Angle Factor 55 #112
+  ,   ! Surface 56 Name [AllHeatTranSurfNames], #113
+  ,   ! Angle Factor 56 #114
+  ,   ! Surface 57 Name [AllHeatTranSurfNames], #115
+  ,   ! Angle Factor 57 #116
+  ,   ! Surface 58 Name [AllHeatTranSurfNames], #117
+  ,   ! Angle Factor 58 #118
+  ,   ! Surface 59 Name [AllHeatTranSurfNames], #119
+  ,   ! Angle Factor 59 #120
+  ,   ! Surface 60 Name [AllHeatTranSurfNames], #121
+  ,   ! Angle Factor 60 #122
+  ,   ! Surface 61 Name [AllHeatTranSurfNames], #123
+  ,   ! Angle Factor 61 #124
+  ,   ! Surface 62 Name [AllHeatTranSurfNames], #125
+  ,   ! Angle Factor 62 #126
+  ,   ! Surface 63 Name [AllHeatTranSurfNames], #127
+  ,   ! Angle Factor 63 #128
+  ,   ! Surface 64 Name [AllHeatTranSurfNames], #129
+  ,   ! Angle Factor 64 #130
+  ,   ! Surface 65 Name [AllHeatTranSurfNames], #131
+  ,   ! Angle Factor 65 #132
+  ,   ! Surface 66 Name [AllHeatTranSurfNames], #133
+  ,   ! Angle Factor 66 #134
+  ,   ! Surface 67 Name [AllHeatTranSurfNames], #135
+  ,   ! Angle Factor 67 #136
+  ,   ! Surface 68 Name [AllHeatTranSurfNames], #137
+  ,   ! Angle Factor 68 #138
+  ,   ! Surface 69 Name [AllHeatTranSurfNames], #139
+  ,   ! Angle Factor 69 #140
+  ,   ! Surface 70 Name [AllHeatTranSurfNames], #141
+  ,   ! Angle Factor 70 #142
+  ,   ! Surface 71 Name [AllHeatTranSurfNames], #143
+  ,   ! Angle Factor 71 #144
+  ,   ! Surface 72 Name [AllHeatTranSurfNames], #145
+  ,   ! Angle Factor 72 #146
+  ,   ! Surface 73 Name [AllHeatTranSurfNames], #147
+  ,   ! Angle Factor 73 #148
+  ,   ! Surface 74 Name [AllHeatTranSurfNames], #149
+  ,   ! Angle Factor 74 #150
+  ,   ! Surface 75 Name [AllHeatTranSurfNames], #151
+  ,   ! Angle Factor 75 #152
+  ,   ! Surface 76 Name [AllHeatTranSurfNames], #153
+  ,   ! Angle Factor 76 #154
+  ,   ! Surface 77 Name [AllHeatTranSurfNames], #155
+  ,   ! Angle Factor 77 #156
+  ,   ! Surface 78 Name [AllHeatTranSurfNames], #157
+  ,   ! Angle Factor 78 #158
+  ,   ! Surface 79 Name [AllHeatTranSurfNames], #159
+  ,   ! Angle Factor 79 #160
+  ,   ! Surface 80 Name [AllHeatTranSurfNames], #161
+  ,   ! Angle Factor 80 #162
+  ,   ! Surface 81 Name [AllHeatTranSurfNames], #163
+  ,   ! Angle Factor 81 #164
+  ,   ! Surface 82 Name [AllHeatTranSurfNames], #165
+  ,   ! Angle Factor 82 #166
+  ,   ! Surface 83 Name [AllHeatTranSurfNames], #167
+  ,   ! Angle Factor 83 #168
+  ,   ! Surface 84 Name [AllHeatTranSurfNames], #169
+  ,   ! Angle Factor 84 #170
+  ,   ! Surface 85 Name [AllHeatTranSurfNames], #171
+  ,   ! Angle Factor 85 #172
+  ,   ! Surface 86 Name [AllHeatTranSurfNames], #173
+  ,   ! Angle Factor 86 #174
+  ,   ! Surface 87 Name [AllHeatTranSurfNames], #175
+  ,   ! Angle Factor 87 #176
+  ,   ! Surface 88 Name [AllHeatTranSurfNames], #177
+  ,   ! Angle Factor 88 #178
+  ,   ! Surface 89 Name [AllHeatTranSurfNames], #179
+  ,   ! Angle Factor 89 #180
+  ,   ! Surface 90 Name [AllHeatTranSurfNames], #181
+  ,   ! Angle Factor 90 #182
+  ,   ! Surface 91 Name [AllHeatTranSurfNames], #183
+  ,   ! Angle Factor 91 #184
+  ,   ! Surface 92 Name [AllHeatTranSurfNames], #185
+  ,   ! Angle Factor 92 #186
+  ,   ! Surface 93 Name [AllHeatTranSurfNames], #187
+  ,   ! Angle Factor 93 #188
+  ,   ! Surface 94 Name [AllHeatTranSurfNames], #189
+  ,   ! Angle Factor 94 #190
+  ,   ! Surface 95 Name [AllHeatTranSurfNames], #191
+  ,   ! Angle Factor 95 #192
+  ,   ! Surface 96 Name [AllHeatTranSurfNames], #193
+  ,   ! Angle Factor 96 #194
+  ,   ! Surface 97 Name [AllHeatTranSurfNames], #195
+  ,   ! Angle Factor 97 #196
+  ,   ! Surface 98 Name [AllHeatTranSurfNames], #197
+  ,   ! Angle Factor 98 #198
+  ,   ! Surface 99 Name [AllHeatTranSurfNames], #199
+  ,   ! Angle Factor 99 #200
+  ,   ! Surface 100 Name [AllHeatTranSurfNames], #201
+  ;   ! Angle Factor 100 #202

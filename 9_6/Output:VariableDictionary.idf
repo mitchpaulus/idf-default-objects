@@ -1,0 +1,4 @@
+! Min Fields: 1
+Output:VariableDictionary,
+  regular,   ! Key Field Def: regular, [IDF, regular], #1
+  ;   ! Sort Option [Name, Unsorted], #2

@@ -1,0 +1,13 @@
+! Min Fields: 11
+GroundHeatExchanger:Vertical:Properties,
+  ,   ! Name RefList: [GroundHeatExchangerVerticalPropertiesNames], REQ, #1
+  ,   ! Depth of Top of Borehole {m}, REQ, #2
+  ,   ! Borehole Length {m}, REQ, #3
+  ,   ! Borehole Diameter {m}, REQ, #4
+  ,   ! Grout Thermal Conductivity {W/m-K}, REQ, #5
+  ,   ! Grout Thermal Heat Capacity {J/m3-K}, REQ, #6
+  ,   ! Pipe Thermal Conductivity {W/m-K}, REQ, #7
+  ,   ! Pipe Thermal Heat Capacity {J/m3-K}, REQ, #8
+  ,   ! Pipe Outer Diameter {m}, REQ, #9
+  ,   ! Pipe Thickness {m}, REQ, #10
+  ;   ! U-Tube Distance {m}, REQ, #11

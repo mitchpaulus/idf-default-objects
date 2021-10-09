@@ -1,0 +1,15 @@
+MaterialProperty:PhaseChangeHysteresis,
+  ,   ! Name [MaterialName], REQ, #1
+  ,   ! Latent Heat during the Entire Phase Change Process {J/kg}, REQ, #2
+  ,   ! Liquid State Thermal Conductivity {W/m-K}, REQ, #3
+  ,   ! Liquid State Density {kg/m3}, REQ, #4
+  ,   ! Liquid State Specific Heat {J/kg-K}, REQ, #5
+  ,   ! High Temperature Difference of Melting Curve {deltaC}, REQ, #6
+  ,   ! Peak Melting Temperature {C}, REQ, #7
+  ,   ! Low Temperature Difference of Melting Curve {deltaC}, REQ, #8
+  ,   ! Solid State Thermal Conductivity {W/m-K}, REQ, #9
+  ,   ! Solid State Density {kg/m3}, REQ, #10
+  ,   ! Solid State Specific Heat {J/kg-K}, REQ, #11
+  ,   ! High Temperature Difference of Freezing Curve {deltaC}, REQ, #12
+  ,   ! Peak Freezing Temperature {C}, REQ, #13
+  ;   ! Low Temperature Difference of Freezing Curve {deltaC}, REQ, #14

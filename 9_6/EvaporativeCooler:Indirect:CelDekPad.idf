@@ -1,0 +1,16 @@
+! Min Fields: 14
+EvaporativeCooler:Indirect:CelDekPad,
+  ,   ! Name RefList: [EvapCoolerNames, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  autosize,   ! Direct Pad Area {m2}, Def: autosize, AS, #3
+  autosize,   ! Direct Pad Depth {m}, Def: autosize, AS, #4
+  ,   ! Recirculating Water Pump Power Consumption {W}, REQ, #5
+  ,   ! Secondary Air Fan Flow Rate {m3/s}, REQ, #6
+  ,   ! Secondary Air Fan Total Efficiency #7
+  ,   ! Secondary Air Fan Delta Pressure {Pa}, REQ, #8
+  ,   ! Indirect Heat Exchanger Effectiveness REQ, #9
+  ,   ! Primary Air Inlet Node Name REQ, #10
+  ,   ! Primary Air Outlet Node Name REQ, #11
+  ,   ! Control Type #12
+  ,   ! Water Supply Storage Tank Name [WaterStorageTankNames], #13
+  ;   ! Secondary Air Inlet Node Name #14

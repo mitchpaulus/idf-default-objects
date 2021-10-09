@@ -1,0 +1,14 @@
+! Min Fields: 12
+Site:GroundTemperature:Deep,
+  16,   ! January Deep Ground Temperature {C}, Def: 16, #1
+  16,   ! February Deep Ground Temperature {C}, Def: 16, #2
+  16,   ! March Deep Ground Temperature {C}, Def: 16, #3
+  16,   ! April Deep Ground Temperature {C}, Def: 16, #4
+  16,   ! May Deep Ground Temperature {C}, Def: 16, #5
+  16,   ! June Deep Ground Temperature {C}, Def: 16, #6
+  16,   ! July Deep Ground Temperature {C}, Def: 16, #7
+  16,   ! August Deep Ground Temperature {C}, Def: 16, #8
+  16,   ! September Deep Ground Temperature {C}, Def: 16, #9
+  16,   ! October Deep Ground Temperature {C}, Def: 16, #10
+  16,   ! November Deep Ground Temperature {C}, Def: 16, #11
+  16;   ! December Deep Ground Temperature {C}, Def: 16, #12

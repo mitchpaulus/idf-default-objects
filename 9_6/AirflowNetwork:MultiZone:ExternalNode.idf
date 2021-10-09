@@ -1,0 +1,7 @@
+! Min Fields: 3
+AirflowNetwork:MultiZone:ExternalNode,
+  ,   ! Name RefList: [ExternalNodeNames], REQ, #1
+  0.0,   ! External Node Height {m}, Def: 0.0, #2
+  ,   ! Wind Pressure Coefficient Curve Name [WPCValueNames, UnivariateFunctions], REQ, #3
+  No,   ! Symmetric Wind Pressure Coefficient Curve Def: No, [Yes, No], #4
+  Absolute;   ! Wind Angle Type Def: Absolute, [Absolute, Relative], #5

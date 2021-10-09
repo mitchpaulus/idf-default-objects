@@ -1,0 +1,7 @@
+! Min Fields: 3
+Space,
+  ,   ! Name RefList: [SpaceNames, SpaceAndSpaceListNames], REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  autocalculate,   ! Floor Area {m2}, Def: autocalculate, AC, #3
+  General,   ! Space Type Def: General, #4
+  ;   ! Tag 1 #5

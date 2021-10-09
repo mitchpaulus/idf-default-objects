@@ -1,0 +1,15 @@
+! Min Fields: 12
+FluidCooler:SingleSpeed,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  NominalCapacity,   ! Performance Input Method Def: NominalCapacity, [UFactorTimesAreaAndDesignWaterFlowRate, NominalCapacity], #4
+  ,   ! Design Air Flow Rate U-factor Times Area Value {W/K}, AS, #5
+  ,   ! Nominal Capacity {W}, #6
+  ,   ! Design Entering Water Temperature {C}, REQ, #7
+  ,   ! Design Entering Air Temperature {C}, REQ, #8
+  ,   ! Design Entering Air Wetbulb Temperature {C}, REQ, #9
+  ,   ! Design Water Flow Rate {m3/s}, AS, REQ, #10
+  ,   ! Design Air Flow Rate {m3/s}, AS, REQ, #11
+  ,   ! Design Air Flow Rate Fan Power {W}, AS, REQ, #12
+  ;   ! Outdoor Air Inlet Node Name #13

@@ -1,0 +1,23 @@
+! Min Fields: 19
+AirLoopHVAC:UnitaryHeatPump:AirToAir,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Cooling Supply Air Flow Rate {m3/s}, AS, REQ, #5
+  ,   ! Heating Supply Air Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #7
+  ,   ! Controlling Zone or Thermostat Location [ZoneNames], REQ, #8
+  ,   ! Supply Air Fan Object Type [Fan:OnOff, Fan:ConstantVolume], REQ, #9
+  ,   ! Supply Air Fan Name [FansCVandOnOff], REQ, #10
+  ,   ! Heating Coil Object Type [Coil:Heating:DX:SingleSpeed, Coil:Heating:DX:VariableSpeed, CoilSystem:IntegratedHeatPump:AirSource], REQ, #11
+  ,   ! Heating Coil Name [HeatingCoilsDXSingleSpeed, HeatingCoilsDXVariableSpeed, IntegratedHeatPumps], REQ, #12
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:VariableSpeed, CoilSystem:Cooling:DX:HeatExchangerAssisted, CoilSystem:IntegratedHeatPump:AirSource], REQ, #13
+  ,   ! Cooling Coil Name [CoolingCoilsDXSingleSpeed, CoolingCoilsDXVariableSpeed, IntegratedHeatPumps], REQ, #14
+  ,   ! Supplemental Heating Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Water, Coil:Heating:Steam], REQ, #15
+  ,   ! Supplemental Heating Coil Name [HeatingCoilName], REQ, #16
+  ,   ! Maximum Supply Air Temperature from Supplemental Heater {C}, AS, REQ, #17
+  21.0,   ! Maximum Outdoor Dry-Bulb Temperature for Supplemental Heater Operation {C}, Def: 21.0, #18
+  BlowThrough,   ! Fan Placement Def: BlowThrough, [BlowThrough, DrawThrough], #19
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #20
+  None;   ! Dehumidification Control Type Def: None, [None, Multimode, CoolReheat], #21

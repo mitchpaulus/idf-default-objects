@@ -1,0 +1,9 @@
+UtilityCost:Qualify,
+  ,   ! Utility Cost Qualify Name REQ, #1
+  ,   ! Tariff Name [UtilityCostTariffs], REQ, #2
+  ,   ! Variable Name REQ, #3
+  Maximum,   ! Qualify Type Def: Maximum, [Minimum, Maximum], #4
+  ,   ! Threshold Value or Variable Name REQ, #5
+  ,   ! Season [Annual, Summer, Winter, Spring, Fall], #6
+  Consecutive,   ! Threshold Test Def: Consecutive, [Count, Consecutive], #7
+  ;   ! Number of Months #8

@@ -1,0 +1,8 @@
+Generator:FuelCell:WaterSupply,
+  ,   ! Name RefList: [FCWaterSupNames], REQ, #1
+  ,   ! Reformer Water Flow Rate Function of Fuel Rate Curve Name [UnivariateFunctions], #2
+  ,   ! Reformer Water Pump Power Function of Fuel Rate Curve Name [UnivariateFunctions], #3
+  ,   ! Pump Heat Loss Factor #4
+  ,   ! Water Temperature Modeling Mode [TemperatureFromAirNode, TemperatureFromWaterNode, TemperatureFromSchedule, MainsWaterTemperature], #5
+  ,   ! Water Temperature Reference Node Name #6
+  ;   ! Water Temperature Schedule Name [ScheduleNames], #7

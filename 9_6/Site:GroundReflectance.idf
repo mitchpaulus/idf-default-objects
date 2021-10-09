@@ -1,0 +1,14 @@
+! Min Fields: 12
+Site:GroundReflectance,
+  0.2,   ! January Ground Reflectance {dimensionless}, Def: 0.2, #1
+  0.2,   ! February Ground Reflectance {dimensionless}, Def: 0.2, #2
+  0.2,   ! March Ground Reflectance {dimensionless}, Def: 0.2, #3
+  0.2,   ! April Ground Reflectance {dimensionless}, Def: 0.2, #4
+  0.2,   ! May Ground Reflectance {dimensionless}, Def: 0.2, #5
+  0.2,   ! June Ground Reflectance {dimensionless}, Def: 0.2, #6
+  0.2,   ! July Ground Reflectance {dimensionless}, Def: 0.2, #7
+  0.2,   ! August Ground Reflectance {dimensionless}, Def: 0.2, #8
+  0.2,   ! September Ground Reflectance {dimensionless}, Def: 0.2, #9
+  0.2,   ! October Ground Reflectance {dimensionless}, Def: 0.2, #10
+  0.2,   ! November Ground Reflectance {dimensionless}, Def: 0.2, #11
+  0.2;   ! December Ground Reflectance {dimensionless}, Def: 0.2, #12

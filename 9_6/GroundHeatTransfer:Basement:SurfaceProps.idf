@@ -1,0 +1,9 @@
+! Min Fields: 7
+GroundHeatTransfer:Basement:SurfaceProps,
+  0.16,   ! ALBEDO: Surface albedo for No snow conditions Def: 0.16, #1
+  0.40,   ! ALBEDO: Surface albedo for snow conditions Def: 0.40, #2
+  0.94,   ! EPSLN: Surface emissivity No Snow Def: 0.94, #3
+  0.86,   ! EPSLN: Surface emissivity with Snow Def: 0.86, #4
+  6.0,   ! VEGHT: Surface roughness No snow conditions {cm}, Def: 6.0, #5
+  0.25,   ! VEGHT: Surface roughness Snow conditions {cm}, Def: 0.25, #6
+  FALSE;   ! PET: Flag, Potential evapotranspiration on? Def: FALSE, [TRUE, FALSE], #7

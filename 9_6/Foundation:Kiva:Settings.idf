@@ -1,0 +1,13 @@
+Foundation:Kiva:Settings,
+  1.73,   ! Soil Conductivity {W/m-K}, Def: 1.73, #1
+  1842,   ! Soil Density {kg/m3}, Def: 1842, #2
+  419,   ! Soil Specific Heat {J/kg-K}, Def: 419, #3
+  0.9,   ! Ground Solar Absorptivity {dimensionless}, Def: 0.9, #4
+  0.9,   ! Ground Thermal Absorptivity {dimensionless}, Def: 0.9, #5
+  0.03,   ! Ground Surface Roughness {m}, Def: 0.03, #6
+  40,   ! Far-Field Width {m}, Def: 40, #7
+  Autoselect,   ! Deep-Ground Boundary Condition Def: Autoselect, [ZeroFlux, GroundWater, Autoselect], #8
+  autocalculate,   ! Deep-Ground Depth {m}, Def: autocalculate, AC, #9
+  0.02,   ! Minimum Cell Dimension {m}, Def: 0.02, #10
+  1.5,   ! Maximum Cell Growth Coefficient {dimensionless}, Def: 1.5, #11
+  Hourly;   ! Simulation Timestep Def: Hourly, [Hourly, Timestep], #12

@@ -1,0 +1,19 @@
+! Min Fields: 11
+EvaporativeCooler:Direct:ResearchSpecial,
+  ,   ! Name RefList: [EvapCoolerNames, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Cooler Design Effectiveness #3
+  ,   ! Effectiveness Flow Ratio Modifier Curve Name [UnivariateFunctions], #4
+  autosize,   ! Primary Air Design Flow Rate {m3/s}, Def: autosize, AS, #5
+  autosize,   ! Recirculating Water Pump Design Power {W}, Def: autosize, AS, #6
+  90.0,   ! Water Pump Power Sizing Factor {W/(m3/s)}, Def: 90.0, #7
+  ,   ! Water Pump Power Modifier Curve Name [UnivariateFunctions], #8
+  ,   ! Air Inlet Node Name REQ, #9
+  ,   ! Air Outlet Node Name REQ, #10
+  ,   ! Sensor Node Name REQ, #11
+  ,   ! Water Supply Storage Tank Name [WaterStorageTankNames], #12
+  ,   ! Drift Loss Fraction #13
+  ,   ! Blowdown Concentration Ratio #14
+  ,   ! Evaporative Operation Minimum Drybulb Temperature #15
+  ,   ! Evaporative Operation Maximum Limit Wetbulb Temperature #16
+  ;   ! Evaporative Operation Maximum Limit Drybulb Temperature #17

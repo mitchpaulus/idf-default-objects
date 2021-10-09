@@ -1,0 +1,4 @@
+Pipe:Adiabatic,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Inlet Node Name REQ, #2
+  ;   ! Outlet Node Name REQ, #3

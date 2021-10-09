@@ -1,0 +1,6 @@
+DistrictCooling,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Chilled Water Inlet Node Name REQ, #2
+  ,   ! Chilled Water Outlet Node Name REQ, #3
+  ,   ! Nominal Capacity {W}, AS, #4
+  ;   ! Capacity Fraction Schedule Name [ScheduleNames], #5

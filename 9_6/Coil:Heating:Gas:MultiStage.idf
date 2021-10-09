@@ -1,0 +1,22 @@
+! Min Fields: 8
+Coil:Heating:Gas:MultiStage,
+  ,   ! Name RefList: [HeatingCoilsGasMultiStage], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Temperature Setpoint Node Name #5
+  ,   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], #6
+  ,   ! Parasitic Gas Load {W}, #7
+  ,   ! Number of Stages REQ, #8
+  ,   ! Stage 1 Gas Burner Efficiency {W/W}, REQ, #9
+  ,   ! Stage 1 Nominal Capacity {W}, AS, REQ, #10
+  ,   ! Stage 1 Parasitic Electric Load {W}, #11
+  ,   ! Stage 2 Gas Burner Efficiency {W/W}, #12
+  ,   ! Stage 2 Nominal Capacity {W}, AS, #13
+  ,   ! Stage 2 Parasitic Electric Load {W}, #14
+  ,   ! Stage 3 Gas Burner Efficiency {W/W}, #15
+  ,   ! Stage 3 Nominal Capacity {W}, AS, #16
+  ,   ! Stage 3 Parasitic Electric Load {W}, #17
+  ,   ! Stage 4 Gas Burner Efficiency {W/W}, #18
+  ,   ! Stage 4 Nominal Capacity {W}, AS, #19
+  ;   ! Stage 4 Parasitic Electric Load {W}, #20

@@ -1,0 +1,29 @@
+! Min Fields: 18
+Coil:Cooling:WaterToAirHeatPump:ParameterEstimation,
+  ,   ! Name RefList: [CoolingCoilsWaterToAirHP, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Compressor Type [Reciprocating, Rotary, Scroll], REQ, #2
+  R22,   ! Refrigerant Type Def: R22, [FluidNames], #3
+  ,   ! Design Source Side Flow Rate {m3/s}, REQ, #4
+  ,   ! Nominal Cooling Coil Capacity {W}, REQ, #5
+  0.0,   ! Nominal Time for Condensate Removal to Begin {s}, Def: 0.0, #6
+  0.0,   ! Ratio of Initial Moisture Evaporation Rate and Steady State Latent Capacity {dimensionless}, Def: 0.0, #7
+  ,   ! High Pressure Cutoff {Pa}, REQ, #8
+  ,   ! Low Pressure Cutoff {Pa}, REQ, #9
+  ,   ! Water Inlet Node Name REQ, #10
+  ,   ! Water Outlet Node Name REQ, #11
+  ,   ! Air Inlet Node Name REQ, #12
+  ,   ! Air Outlet Node Name REQ, #13
+  ,   ! Load Side Total Heat Transfer Coefficient {W/K}, REQ, #14
+  ,   ! Load Side Outside Surface Heat Transfer Coefficient {W/K}, REQ, #15
+  ,   ! Superheat Temperature at the Evaporator Outlet {C}, REQ, #16
+  ,   ! Compressor Power Losses {W}, REQ, #17
+  ,   ! Compressor Efficiency REQ, #18
+  ,   ! Compressor Piston Displacement {m3/s}, #19
+  ,   ! Compressor Suction/Discharge Pressure Drop {Pa}, #20
+  ,   ! Compressor Clearance Factor {dimensionless}, #21
+  ,   ! Refrigerant Volume Flow Rate {m3/s}, #22
+  ,   ! Volume Ratio {dimensionless}, #23
+  ,   ! Leak Rate Coefficient #24
+  ,   ! Source Side Heat Transfer Coefficient {W/K}, #25
+  ,   ! Source Side Heat Transfer Resistance1 {dimensionless}, #26
+  ;   ! Source Side Heat Transfer Resistance2 {W/K}, #27

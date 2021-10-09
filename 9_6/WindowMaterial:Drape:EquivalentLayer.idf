@@ -1,0 +1,16 @@
+! Min Fields: 4
+WindowMaterial:Drape:EquivalentLayer,
+  ,   ! Name RefList: [WindowEquivalentLayerMaterialNames], REQ, #1
+  0.0,   ! Drape Beam-Beam Solar Transmittance at Normal Incidence {dimensionless}, Def: 0.0, #2
+  ,   ! Front Side Drape Beam-Diffuse Solar Transmittance {dimensionless}, REQ, #3
+  ,   ! Back Side Drape Beam-Diffuse Solar Transmittance {dimensionless}, REQ, #4
+  ,   ! Front Side Drape Beam-Diffuse Solar Reflectance {dimensionless}, REQ, #5
+  ,   ! Back Side Drape Beam-Diffuse Solar Reflectance {dimensionless}, REQ, #6
+  ,   ! Drape Beam-Beam Visible Transmittance {dimensionless}, #7
+  ,   ! Drape Beam-Diffuse Visible Transmittance {dimensionless}, #8
+  ,   ! Drape Beam-Diffuse Visible Reflectance {dimensionless}, #9
+  0.05,   ! Drape Material Infrared Transmittance {dimensionless}, Def: 0.05, #10
+  0.87,   ! Front Side Drape Material Infrared Emissivity {dimensionless}, Def: 0.87, #11
+  0.87,   ! Back Side Drape Material Infrared Emissivity {dimensionless}, Def: 0.87, #12
+  0,   ! Width of Pleated Fabric {m}, Def: 0, #13
+  0;   ! Length of Pleated Fabric {m}, Def: 0, #14

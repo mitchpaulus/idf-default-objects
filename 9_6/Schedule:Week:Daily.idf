@@ -1,0 +1,15 @@
+! Min Fields: 13
+Schedule:Week:Daily,
+  ,   ! Name RefList: [WeekScheduleNames], REQ, #1
+  ,   ! Sunday Schedule:Day Name [DayScheduleNames], REQ, #2
+  ,   ! Monday Schedule:Day Name [DayScheduleNames], REQ, #3
+  ,   ! Tuesday Schedule:Day Name [DayScheduleNames], REQ, #4
+  ,   ! Wednesday Schedule:Day Name [DayScheduleNames], REQ, #5
+  ,   ! Thursday Schedule:Day Name [DayScheduleNames], REQ, #6
+  ,   ! Friday Schedule:Day Name [DayScheduleNames], REQ, #7
+  ,   ! Saturday Schedule:Day Name [DayScheduleNames], REQ, #8
+  ,   ! Holiday Schedule:Day Name [DayScheduleNames], REQ, #9
+  ,   ! SummerDesignDay Schedule:Day Name [DayScheduleNames], REQ, #10
+  ,   ! WinterDesignDay Schedule:Day Name [DayScheduleNames], REQ, #11
+  ,   ! CustomDay1 Schedule:Day Name [DayScheduleNames], REQ, #12
+  ;   ! CustomDay2 Schedule:Day Name [DayScheduleNames], REQ, #13

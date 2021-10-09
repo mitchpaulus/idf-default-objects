@@ -1,0 +1,6 @@
+SurfaceConvectionAlgorithm:Outside:UserCurve,
+  ,   ! Name RefList: [UserConvectionOutsideModels, UserConvectionModels], #1
+  HeightAdjust,   ! Wind Speed Type for Curve Def: HeightAdjust, [WeatherFile, HeightAdjust, ParallelComponent, ParallelComponentHeightAdjust], #2
+  ,   ! Hf Function of Wind Speed Curve Name [UnivariateFunctions], #3
+  ,   ! Hn Function of Temperature Difference Curve Name [UnivariateFunctions], #4
+  ;   ! Hn Function of Temperature Difference Divided by Height Curve Name [UnivariateFunctions], #5

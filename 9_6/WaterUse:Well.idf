@@ -1,0 +1,13 @@
+WaterUse:Well,
+  ,   ! Name REQ, #1
+  ,   ! Storage Tank Name [WaterStorageTankNames], REQ, #2
+  ,   ! Pump Depth {m}, #3
+  ,   ! Pump Rated Flow Rate {m3/s}, #4
+  ,   ! Pump Rated Head {Pa}, #5
+  ,   ! Pump Rated Power Consumption {W}, #6
+  ,   ! Pump Efficiency #7
+  ,   ! Well Recovery Rate {m3/s}, #8
+  ,   ! Nominal Well Storage Volume {m3}, #9
+  ,   ! Water Table Depth Mode [Constant, Scheduled], #10
+  ,   ! Water Table Depth {m}, #11
+  ;   ! Water Table Depth Schedule Name [ScheduleNames], #12

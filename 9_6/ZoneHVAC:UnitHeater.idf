@@ -1,0 +1,18 @@
+! Min Fields: 11
+ZoneHVAC:UnitHeater,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name #3
+  ,   ! Air Outlet Node Name #4
+  ,   ! Supply Air Fan Object Type [Fan:OnOff, Fan:ConstantVolume, Fan:VariableVolume, Fan:SystemModel], REQ, #5
+  ,   ! Supply Air Fan Name [FansCVandOnOffandVAV, FansSystemModel], REQ, #6
+  ,   ! Maximum Supply Air Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Heating Coil Object Type [Coil:Heating:Water, Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam], REQ, #8
+  ,   ! Heating Coil Name [HeatingCoilName], REQ, #9
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #10
+  ,   ! Supply Air Fan Operation During No Heating [Yes, No], REQ, #11
+  ,   ! Maximum Hot Water or Steam Flow Rate {m3/s}, AS, #12
+  0,   ! Minimum Hot Water or Steam Flow Rate {m3/s}, Def: 0, #13
+  0.001,   ! Heating Convergence Tolerance Def: 0.001, #14
+  ,   ! Availability Manager List Name [SystemAvailabilityManagerLists], #15
+  ;   ! Design Specification ZoneHVAC Sizing Object Name [DesignSpecificationZoneHVACSizingName], #16

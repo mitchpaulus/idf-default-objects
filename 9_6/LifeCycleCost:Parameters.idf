@@ -1,0 +1,15 @@
+! Min Fields: 11
+LifeCycleCost:Parameters,
+  ,   ! Name REQ, #1
+  EndOfYear,   ! Discounting Convention Def: EndOfYear, [EndOfYear, MidYear, BeginningOfYear], #2
+  ConstantDollar,   ! Inflation Approach Def: ConstantDollar, [ConstantDollar, CurrentDollar], #3
+  ,   ! Real Discount Rate #4
+  ,   ! Nominal Discount Rate #5
+  ,   ! Inflation #6
+  January,   ! Base Date Month Def: January, [January, February, March, April, May, June, July, August, September, October, November, December], #7
+  ,   ! Base Date Year #8
+  January,   ! Service Date Month Def: January, [January, February, March, April, May, June, July, August, September, October, November, December], #9
+  ,   ! Service Date Year #10
+  ,   ! Length of Study Period in Years #11
+  ,   ! Tax rate #12
+  None;   ! Depreciation Method Def: None, [ModifiedAcceleratedCostRecoverySystem-3year, ModifiedAcceleratedCostRecoverySystem-5year, ModifiedAcceleratedCostRecoverySystem-7year, ModifiedAcceleratedCostRecoverySystem-10year, ModifiedAcceleratedCostRecoverySystem-15year, ModifiedAcceleratedCostRecoverySystem-20year, StraightLine-27year, StraightLine-31year, StraightLine-39year, StraightLine-40year, None], #13

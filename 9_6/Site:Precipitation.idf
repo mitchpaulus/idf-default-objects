@@ -1,0 +1,5 @@
+Site:Precipitation,
+  ,   ! Precipitation Model Type [ScheduleAndDesignLevel], #1
+  ,   ! Design Level for Total Annual Precipitation {m/yr}, #2
+  ,   ! Precipitation Rates Schedule Name [ScheduleNames], #3
+  ;   ! Average Total Annual Precipitation {m/yr}, #4

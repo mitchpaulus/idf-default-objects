@@ -1,0 +1,4 @@
+AirLoopHVAC:ZoneMixer,
+  ,   ! Name RefList: [ZoneMixers, ReturnPathComponentNames], REQ, #1
+  ,   ! Outlet Node Name REQ, #2
+  ;   ! Inlet 1 Node Name REQ, #3

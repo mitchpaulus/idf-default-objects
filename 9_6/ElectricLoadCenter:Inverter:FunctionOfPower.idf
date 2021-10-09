@@ -1,0 +1,12 @@
+ElectricLoadCenter:Inverter:FunctionOfPower,
+  ,   ! Name RefList: [InverterList], #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], #3
+  ,   ! Radiative Fraction #4
+  ,   ! Efficiency Function of Power Curve Name [UnivariateFunctions], #5
+  ,   ! Rated Maximum Continuous Input Power {W}, #6
+  ,   ! Minimum Efficiency #7
+  ,   ! Maximum Efficiency #8
+  ,   ! Minimum Power Output {W}, #9
+  ,   ! Maximum Power Output {W}, #10
+  ;   ! Ancillary Power Consumed In Standby {W}, #11

@@ -1,0 +1,6 @@
+ZoneAirBalance:OutdoorAir,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  Quadrature,   ! Air Balance Method Def: Quadrature, [Quadrature, None], #3
+  0,   ! Induced Outdoor Air Due to Unbalanced Duct Leakage {m3/s}, Def: 0, #4
+  ;   ! Induced Outdoor Air Schedule Name [ScheduleNames], #5

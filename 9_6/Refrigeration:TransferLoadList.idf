@@ -1,0 +1,3 @@
+Refrigeration:TransferLoadList,
+  ,   ! Name RefList: [RefrigerationSecondarySystemAndCascadeCondenserAndTransferLoadListNames], REQ, #1
+  ;   ! Cascade Condenser Name or Secondary System 1 Name [RefrigerationCascadeCondenserAndSecondarySystemNames], REQ, #2

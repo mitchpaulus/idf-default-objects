@@ -1,0 +1,3 @@
+Output:Meter:MeterFileOnly,
+  ,   ! Key Name REQ, #1
+  Hourly;   ! Reporting Frequency Def: Hourly, [Detailed, Timestep, Hourly, Daily, Monthly, RunPeriod, Environment, Annual], #2

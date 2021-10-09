@@ -1,0 +1,22 @@
+! Min Fields: 17
+AirLoopHVAC:Unitary:Furnace:HeatCool,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Furnace Air Inlet Node Name REQ, #3
+  ,   ! Furnace Air Outlet Node Name REQ, #4
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #5
+  80.0,   ! Maximum Supply Air Temperature {C}, Def: 80.0, AS, #6
+  ,   ! Cooling Supply Air Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Heating Supply Air Flow Rate {m3/s}, AS, REQ, #8
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #9
+  ,   ! Controlling Zone or Thermostat Location [ZoneNames], REQ, #10
+  ,   ! Supply Fan Object Type [Fan:OnOff, Fan:ConstantVolume], REQ, #11
+  ,   ! Supply Fan Name [FansCVandOnOff], REQ, #12
+  BlowThrough,   ! Fan Placement Def: BlowThrough, [BlowThrough, DrawThrough], #13
+  ,   ! Heating Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Water, Coil:Heating:Steam], REQ, #14
+  ,   ! Heating Coil Name [HeatingCoilName], REQ, #15
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:VariableSpeed, CoilSystem:Cooling:DX:HeatExchangerAssisted], REQ, #16
+  ,   ! Cooling Coil Name [CoolingCoilsDXSingleSpeed, CoolingCoilsDXVariableSpeed], REQ, #17
+  None,   ! Dehumidification Control Type Def: None, [None, Multimode, CoolReheat], #18
+  ,   ! Reheat Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Desuperheater, Coil:Heating:Water, Coil:Heating:Steam], #19
+  ;   ! Reheat Coil Name [HeatingCoilName], #20

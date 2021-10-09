@@ -1,0 +1,13 @@
+SurfaceProperty:ExteriorNaturalVentedCavity,
+  ,   ! Name REQ, #1
+  ,   ! Boundary Conditions Model Name [OSCMNames], REQ, #2
+  ,   ! Area Fraction of Openings {dimensionless}, #3
+  ,   ! Thermal Emissivity of Exterior Baffle Material {dimensionless}, #4
+  ,   ! Solar Absorbtivity of Exterior Baffle {dimensionless}, #5
+  ,   ! Height Scale for Buoyancy-Driven Ventilation {m}, #6
+  ,   ! Effective Thickness of Cavity Behind Exterior Baffle {m}, #7
+  1.0,   ! Ratio of Actual Surface Area to Projected Surface Area {dimensionless}, Def: 1.0, #8
+  ,   ! Roughness of Exterior Surface [VeryRough, Rough, MediumRough, MediumSmooth, Smooth, VerySmooth], REQ, #9
+  0.25,   ! Effectiveness for Perforations with Respect to Wind {dimensionless}, Def: 0.25, #10
+  0.65,   ! Discharge Coefficient for Openings with Respect to Buoyancy Driven Flow {dimensionless}, Def: 0.65, #11
+  ;   ! Surface 1 Name [AllShadingAndHTSurfNames], REQ, #12

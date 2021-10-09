@@ -1,0 +1,13 @@
+SetpointManager:OutdoorAirReset,
+  ,   ! Name REQ, #1
+  Temperature,   ! Control Variable Def: Temperature, [Temperature, MaximumTemperature, MinimumTemperature], #2
+  ,   ! Setpoint at Outdoor Low Temperature {C}, REQ, #3
+  ,   ! Outdoor Low Temperature {C}, REQ, #4
+  ,   ! Setpoint at Outdoor High Temperature {C}, REQ, #5
+  ,   ! Outdoor High Temperature {C}, REQ, #6
+  ,   ! Setpoint Node or NodeList Name REQ, #7
+  ,   ! Schedule Name [ScheduleNames], #8
+  ,   ! Setpoint at Outdoor Low Temperature 2 {C}, #9
+  ,   ! Outdoor Low Temperature 2 {C}, #10
+  ,   ! Setpoint at Outdoor High Temperature 2 {C}, #11
+  ;   ! Outdoor High Temperature 2 {C}, #12

@@ -1,0 +1,9 @@
+! Min Fields: 4
+Sizing:Plant,
+  ,   ! Plant or Condenser Loop Name [PlantLoops], REQ, #1
+  ,   ! Loop Type [Heating, Cooling, Condenser, Steam], REQ, #2
+  ,   ! Design Loop Exit Temperature {C}, REQ, #3
+  ,   ! Loop Design Temperature Difference {deltaC}, REQ, #4
+  NonCoincident,   ! Sizing Option Def: NonCoincident, [Coincident, NonCoincident], #5
+  1,   ! Zone Timesteps in Averaging Window Def: 1, #6
+  ;   ! Coincident Sizing Factor Mode [None, GlobalHeatingSizingFactor, GlobalCoolingSizingFactor, LoopComponentSizingFactor], #7

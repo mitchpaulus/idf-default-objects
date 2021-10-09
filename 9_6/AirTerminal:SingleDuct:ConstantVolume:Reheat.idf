@@ -1,0 +1,12 @@
+AirTerminal:SingleDuct:ConstantVolume:Reheat,
+  ,   ! Name RefList: [AirTerminalUnitNames, AFNTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Outlet Node Name REQ, #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Maximum Air Flow Rate {m3/s}, AS, REQ, #5
+  ,   ! Reheat Coil Object Type [Coil:Heating:Water, Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam], REQ, #6
+  ,   ! Reheat Coil Name [HeatingCoilName], REQ, #7
+  ,   ! Maximum Hot Water or Steam Flow Rate {m3/s}, AS, #8
+  0.0,   ! Minimum Hot Water or Steam Flow Rate {m3/s}, Def: 0.0, #9
+  0.001,   ! Convergence Tolerance Def: 0.001, #10
+  ;   ! Maximum Reheat Air Temperature {C}, #11

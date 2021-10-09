@@ -1,0 +1,10 @@
+! Min Fields: 7
+SolarCollector:IntegralCollectorStorage,
+  ,   ! Name RefList: [validBranchEquipmentNames, validPlantEquipmentNames], RefClassList: [validBranchEquipmentTypes, validPlantEquipmentTypes], REQ, #1
+  ,   ! IntegralCollectorStorageParameters Name [CollectorStoragePerformance], REQ, #2
+  ,   ! Surface Name [AllShadingAndHTSurfNames], REQ, #3
+  AmbientAir,   ! Bottom Surface Boundary Conditions Type Def: AmbientAir, [OtherSideConditionsModel, AmbientAir], #4
+  ,   ! Boundary Condition Model Name #5
+  ,   ! Inlet Node Name REQ, #6
+  ,   ! Outlet Node Name REQ, #7
+  ;   ! Maximum Flow Rate {m3/s}, #8

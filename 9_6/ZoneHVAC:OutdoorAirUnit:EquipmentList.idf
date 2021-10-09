@@ -1,0 +1,18 @@
+ZoneHVAC:OutdoorAirUnit:EquipmentList,
+  ,   ! Name RefList: [OutdoorAirUnitEquipmentLists], REQ, #1
+  ,   ! Component 1 Object Type [Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam, Coil:Heating:Water, Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry, CoilSystem:Cooling:Water:HeatexchangerAssisted, CoilSystem:Cooling:DX, CoilSystem:Heating:DX, HeatExchanger:AirToAir:FlatPlate, HeatExchanger:AirToAir:SensibleAndLatent, Dehumidifier:Desiccant:NoFans, AirLoopHVAC:UnitarySystem], #2
+  ,   ! Component 1 Name #3
+  ,   ! Component 2 Object Type [Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam, Coil:Heating:Water, Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry, CoilSystem:Cooling:Water:HeatexchangerAssisted, CoilSystem:Cooling:DX, CoilSystem:Heating:DX, HeatExchanger:AirToAir:FlatPlate, HeatExchanger:AirToAir:SensibleAndLatent, Dehumidifier:Desiccant:NoFans, AirLoopHVAC:UnitarySystem], #4
+  ,   ! Component 2 Name #5
+  ,   ! Component 3 Object Type [Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam, Coil:Heating:Water, Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry, CoilSystem:Cooling:Water:HeatexchangerAssisted, CoilSystem:Cooling:DX, CoilSystem:Heating:DX, HeatExchanger:AirToAir:FlatPlate, HeatExchanger:AirToAir:SensibleAndLatent, Dehumidifier:Desiccant:NoFans, AirLoopHVAC:UnitarySystem], #6
+  ,   ! Component 3 Name #7
+  ,   ! Component 4 Object Type [Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam, Coil:Heating:Water, Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry, CoilSystem:Cooling:Water:HeatexchangerAssisted, CoilSystem:Cooling:DX, CoilSystem:Heating:DX, HeatExchanger:AirToAir:FlatPlate, HeatExchanger:AirToAir:SensibleAndLatent, Dehumidifier:Desiccant:NoFans, AirLoopHVAC:UnitarySystem], #8
+  ,   ! Component 4 Name #9
+  ,   ! Component 5 Object Type [Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam, Coil:Heating:Water, Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry, CoilSystem:Cooling:Water:HeatexchangerAssisted, CoilSystem:Cooling:DX, CoilSystem:Heating:DX, HeatExchanger:AirToAir:FlatPlate, HeatExchanger:AirToAir:SensibleAndLatent, Dehumidifier:Desiccant:NoFans, AirLoopHVAC:UnitarySystem], #10
+  ,   ! Component 5 Name #11
+  ,   ! Component 6 Object Type [Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam, Coil:Heating:Water, Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry, CoilSystem:Cooling:Water:HeatexchangerAssisted, CoilSystem:Cooling:DX, CoilSystem:Heating:DX, HeatExchanger:AirToAir:FlatPlate, HeatExchanger:AirToAir:SensibleAndLatent, Dehumidifier:Desiccant:NoFans, AirLoopHVAC:UnitarySystem], #12
+  ,   ! Component 6 Name #13
+  ,   ! Component 7 Object Type [Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam, Coil:Heating:Water, Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry, CoilSystem:Cooling:Water:HeatexchangerAssisted, CoilSystem:Cooling:DX, CoilSystem:Heating:DX, HeatExchanger:AirToAir:FlatPlate, HeatExchanger:AirToAir:SensibleAndLatent, Dehumidifier:Desiccant:NoFans, AirLoopHVAC:UnitarySystem], #14
+  ,   ! Component 7 Name #15
+  ,   ! Component 8 Object Type [Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam, Coil:Heating:Water, Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry, CoilSystem:Cooling:Water:HeatexchangerAssisted, CoilSystem:Cooling:DX, CoilSystem:Heating:DX, HeatExchanger:AirToAir:FlatPlate, HeatExchanger:AirToAir:SensibleAndLatent, Dehumidifier:Desiccant:NoFans, AirLoopHVAC:UnitarySystem], #16
+  ;   ! Component 8 Name #17

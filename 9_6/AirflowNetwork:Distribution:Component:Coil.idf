@@ -1,0 +1,6 @@
+! Min Fields: 4
+AirflowNetwork:Distribution:Component:Coil,
+  ,   ! Coil Name RefList: [AirflowNetworkComponentNames], [AFNCoilNames], REQ, #1
+  ,   ! Coil Object Type [Coil:Cooling:DX, Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:TwoSpeed, Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:DX:SingleSpeed, Coil:Cooling:Water, Coil:Heating:Water, Coil:Cooling:Water:DetailedGeometry, Coil:Cooling:DX:TwoStageWithHumidityControlMode, Coil:Cooling:DX:MultiSpeed, Coil:Heating:DX:MultiSpeed, Coil:Heating:Desuperheater], REQ, #2
+  ,   ! Air Path Length {m}, REQ, #3
+  ;   ! Air Path Hydraulic Diameter {m}, REQ, #4

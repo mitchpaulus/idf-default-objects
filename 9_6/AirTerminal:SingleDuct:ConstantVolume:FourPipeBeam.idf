@@ -1,0 +1,28 @@
+AirTerminal:SingleDuct:ConstantVolume:FourPipeBeam,
+  ,   ! Name RefList: [AirTerminalUnitNames, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Primary Air Availability Schedule Name [ScheduleNames], #2
+  ,   ! Cooling Availability Schedule Name [ScheduleNames], #3
+  ,   ! Heating Availability Schedule Name [ScheduleNames], #4
+  ,   ! Primary Air Inlet Node Name REQ, #5
+  ,   ! Primary Air Outlet Node Name REQ, #6
+  ,   ! Chilled Water Inlet Node Name #7
+  ,   ! Chilled Water Outlet Node Name #8
+  ,   ! Hot Water Inlet Node Name #9
+  ,   ! Hot Water Outlet Node Name #10
+  autosize,   ! Design Primary Air Volume Flow Rate {m3/s}, Def: autosize, AS, #11
+  autosize,   ! Design Chilled Water Volume Flow Rate {m3/s}, Def: autosize, AS, #12
+  autosize,   ! Design Hot Water Volume Flow Rate {m3/s}, Def: autosize, AS, #13
+  autosize,   ! Zone Total Beam Length {m}, Def: autosize, AS, #14
+  0.035,   ! Rated Primary Air Flow Rate per Beam Length {m3/s-m}, Def: 0.035, #15
+  600.0,   ! Beam Rated Cooling Capacity per Beam Length {W/m}, Def: 600.0, #16
+  10.0,   ! Beam Rated Cooling Room Air Chilled Water Temperature Difference {deltaC}, Def: 10.0, #17
+  0.00005,   ! Beam Rated Chilled Water Volume Flow Rate per Beam Length {m3/s-m}, Def: 0.00005, #18
+  ,   ! Beam Cooling Capacity Temperature Difference Modification Factor Curve Name [UnivariateFunctions], #19
+  ,   ! Beam Cooling Capacity Air Flow Modification Factor Curve Name [UnivariateFunctions], #20
+  ,   ! Beam Cooling Capacity Chilled Water Flow Modification Factor Curve Name [UnivariateFunctions], #21
+  1500.0,   ! Beam Rated Heating Capacity per Beam Length {W/m}, Def: 1500.0, #22
+  27.8,   ! Beam Rated Heating Room Air Hot Water Temperature Difference {deltaC}, Def: 27.8, #23
+  0.00005,   ! Beam Rated Hot Water Volume Flow Rate per Beam Length {m3/s-m}, Def: 0.00005, #24
+  ,   ! Beam Heating Capacity Temperature Difference Modification Factor Curve Name [UnivariateFunctions], #25
+  ,   ! Beam Heating Capacity Air Flow Modification Factor Curve Name [UnivariateFunctions], #26
+  ;   ! Beam Heating Capacity Hot Water Flow Modification Factor Curve Name [UnivariateFunctions], #27

@@ -1,0 +1,4 @@
+! Min Fields: 2
+EnergyManagementSystem:CurveOrTableIndexVariable,
+  ,   ! Name REQ, #1
+  ;   ! Curve or Table Object Name [UnivariateFunctions, BivariateFunctions, TrivariateFunctions, QuadvariateFunctions, QuintvariateFunctions, MultivariateFunctions], REQ, #2

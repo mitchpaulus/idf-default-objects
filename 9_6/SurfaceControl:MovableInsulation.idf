@@ -1,0 +1,5 @@
+SurfaceControl:MovableInsulation,
+  ,   ! Insulation Type [Outside, Inside], REQ, #1
+  ,   ! Surface Name [SurfaceNames], REQ, #2
+  ,   ! Material Name [MaterialName], REQ, #3
+  ;   ! Schedule Name [ScheduleNames], REQ, #4

@@ -1,0 +1,8 @@
+ComponentCost:Adjustments,
+  ,   ! Miscellaneous Cost per Conditioned Area {$/m2}, #1
+  ,   ! Design and Engineering Fees {dimensionless}, #2
+  ,   ! Contractor Fee {dimensionless}, #3
+  ,   ! Contingency {dimensionless}, #4
+  ,   ! Permits, Bonding and Insurance {dimensionless}, #5
+  ,   ! Commissioning Fee {dimensionless}, #6
+  ;   ! Regional Adjustment Factor {dimensionless}, #7

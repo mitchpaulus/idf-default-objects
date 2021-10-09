@@ -1,0 +1,8 @@
+! Min Fields: 6
+FaultModel:TemperatureSensorOffset:ChillerSupplyWater,
+  ,   ! Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Severity Schedule Name [ScheduleNames], #3
+  ,   ! Chiller Object Type [Chiller:Electric, Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR, Chiller:ConstantCOP, Chiller:EngineDriven, Chiller:CombustionTurbine, Chiller:Absorption, Chiller:Absorption:Indirect], REQ, #4
+  ,   ! Chiller Object Name [Chillers], REQ, #5
+  0.0;   ! Reference Sensor Offset {deltaC}, Def: 0.0, #6

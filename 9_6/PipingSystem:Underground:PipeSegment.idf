@@ -1,0 +1,6 @@
+! Min Fields: 4
+PipingSystem:Underground:PipeSegment,
+  ,   ! Name RefList: [PipingSystemUndergroundSegmentNames], REQ, #1
+  ,   ! X Position {m}, REQ, #2
+  ,   ! Y Position {m}, REQ, #3
+  ;   ! Flow Direction [IncreasingZ, DecreasingZ], REQ, #4

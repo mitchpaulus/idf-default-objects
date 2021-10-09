@@ -1,0 +1,8 @@
+GroundHeatTransfer:Basement:ManualGrid,
+  ,   ! NX: Number of cells in the X direction: 20] REQ, #1
+  ,   ! NY: Number of cells in the Y direction: 20] REQ, #2
+  ,   ! NZAG: Number of cells in the Z direction. above grade: 4 Always] REQ, #3
+  ,   ! NZBG: Number of cells in Z direction. below grade: 10-35] REQ, #4
+  ,   ! IBASE: X direction cell indicator of slab edge: 5-20] REQ, #5
+  ,   ! JBASE: Y direction cell indicator of slab edge: 5-20] REQ, #6
+  ;   ! KBASE: Z direction cell indicator of the top of the floor slab: 5-20] REQ, #7

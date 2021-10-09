@@ -1,0 +1,30 @@
+! Min Fields: 21
+EvaporativeCooler:Indirect:ResearchSpecial,
+  ,   ! Name RefList: [EvapCoolerNames, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Cooler Wetbulb Design Effectiveness REQ, #3
+  ,   ! Wetbulb Effectiveness Flow Ratio Modifier Curve Name [UnivariateFunctions], #4
+  ,   ! Cooler Drybulb Design Effectiveness #5
+  ,   ! Drybulb Effectiveness Flow Ratio Modifier Curve Name [UnivariateFunctions], #6
+  autosize,   ! Recirculating Water Pump Design Power {W}, Def: autosize, AS, #7
+  90.0,   ! Water Pump Power Sizing Factor {W/(m3/s)}, Def: 90.0, #8
+  ,   ! Water Pump Power Modifier Curve Name [UnivariateFunctions], #9
+  autosize,   ! Secondary Air Design Flow Rate {m3/s}, Def: autosize, AS, #10
+  1.0,   ! Secondary Air Flow Scaling Factor {dimensionless}, Def: 1.0, #11
+  autosize,   ! Secondary Air Fan Design Power {W}, Def: autosize, AS, #12
+  250.0,   ! Secondary Air Fan Sizing Specific Power {W/(m3/s)}, Def: 250.0, #13
+  ,   ! Secondary Air Fan Power Modifier Curve Name [UnivariateFunctions], #14
+  ,   ! Primary Air Inlet Node Name REQ, #15
+  ,   ! Primary Air Outlet Node Name REQ, #16
+  autosize,   ! Primary Air Design Flow Rate {m3/s}, Def: autosize, AS, #17
+  ,   ! Dewpoint Effectiveness Factor #18
+  ,   ! Secondary Air Inlet Node Name REQ, #19
+  ,   ! Secondary Air Outlet Node Name REQ, #20
+  ,   ! Sensor Node Name REQ, #21
+  ,   ! Relief Air Inlet Node Name #22
+  ,   ! Water Supply Storage Tank Name [WaterStorageTankNames], #23
+  0.0,   ! Drift Loss Fraction Def: 0.0, #24
+  ,   ! Blowdown Concentration Ratio #25
+  ,   ! Evaporative Operation Minimum Limit Secondary Air Drybulb Temperature #26
+  ,   ! Evaporative Operation Maximum Limit Outdoor Wetbulb Temperature #27
+  ;   ! Dry Operation Maximum Limit Outdoor Drybulb Temperature #28

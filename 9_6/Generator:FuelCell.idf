@@ -1,0 +1,11 @@
+Generator:FuelCell,
+  ,   ! Name RefList: [GeneratorNames], REQ, #1
+  ,   ! Power Module Name [FCPMNames], REQ, #2
+  ,   ! Air Supply Name [FCAirSupNames], REQ, #3
+  ,   ! Fuel Supply Name [GenFuelSupNames], REQ, #4
+  ,   ! Water Supply Name [FCWaterSupNames], REQ, #5
+  ,   ! Auxiliary Heater Name [FCAuxHeatNames], REQ, #6
+  ,   ! Heat Exchanger Name [FCExhaustHXNames], REQ, #7
+  ,   ! Electrical Storage Name [FCStorageNames], REQ, #8
+  ,   ! Inverter Name [FCInverterNames], REQ, #9
+  ;   ! Stack Cooler Name [FCStackCoolerNames], #10

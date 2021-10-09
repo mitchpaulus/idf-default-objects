@@ -1,0 +1,88 @@
+! Min Fields: 10
+ZoneThermalChimney,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Availability Schedule Name [ScheduleNames], #3
+  ,   ! Width of the Absorber Wall {m}, REQ, #4
+  ,   ! Cross Sectional Area of Air Channel Outlet {m2}, REQ, #5
+  0.8,   ! Discharge Coefficient Def: 0.8, #6
+  ,   ! Zone 1 Name [ZoneNames], REQ, #7
+  ,   ! Distance from Top of Thermal Chimney to Inlet 1 {m}, REQ, #8
+  1.0,   ! Relative Ratios of Air Flow Rates Passing through Zone 1 Def: 1.0, #9
+  ,   ! Cross Sectional Areas of Air Channel Inlet 1 {m2}, REQ, #10
+  ,   ! Zone 2 Name [ZoneNames], #11
+  ,   ! Distance from Top of Thermal Chimney to Inlet 2 {m}, #12
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 2 #13
+  ,   ! Cross Sectional Areas of Air Channel Inlet 2 {m2}, #14
+  ,   ! Zone 3 Name [ZoneNames], #15
+  ,   ! Distance from Top of Thermal Chimney to Inlet 3 {m}, #16
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 3 #17
+  ,   ! Cross Sectional Areas of Air Channel Inlet 3 {m2}, #18
+  ,   ! Zone 4 Name [ZoneNames], #19
+  ,   ! Distance from Top of Thermal Chimney to Inlet 4 {m}, #20
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 4 #21
+  ,   ! Cross Sectional Areas of Air Channel Inlet 4 {m2}, #22
+  ,   ! Zone 5 Name [ZoneNames], #23
+  ,   ! Distance from Top of Thermal Chimney to Inlet 5 {m}, #24
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 5 #25
+  ,   ! Cross Sectional Areas of Air Channel Inlet 5 {m2}, #26
+  ,   ! Zone 6 Name [ZoneNames], #27
+  ,   ! Distance from Top of Thermal Chimney to Inlet 6 {m}, #28
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 6 #29
+  ,   ! Cross Sectional Areas of Air Channel Inlet 6 {m2}, #30
+  ,   ! Zone 7 Name [ZoneNames], #31
+  ,   ! Distance from Top of Thermal Chimney to Inlet 7 {m}, #32
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 7 #33
+  ,   ! Cross Sectional Areas of Air Channel Inlet 7 {m2}, #34
+  ,   ! Zone 8 Name [ZoneNames], #35
+  ,   ! Distance from Top of Thermal Chimney to Inlet 8 {m}, #36
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 8 #37
+  ,   ! Cross Sectional Areas of Air Channel Inlet 8 {m2}, #38
+  ,   ! Zone 9 Name [ZoneNames], #39
+  ,   ! Distance from Top of Thermal Chimney to Inlet 9 {m}, #40
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 9 #41
+  ,   ! Cross Sectional Areas of Air Channel Inlet 9 {m2}, #42
+  ,   ! Zone 10 Name [ZoneNames], #43
+  ,   ! Distance from Top of Thermal Chimney to Inlet 10 {m}, #44
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 10 #45
+  ,   ! Cross Sectional Areas of Air Channel Inlet 10 {m2}, #46
+  ,   ! Zone 11 Name [ZoneNames], #47
+  ,   ! Distance from Top of Thermal Chimney to Inlet 11 {m}, #48
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 11 #49
+  ,   ! Cross Sectional Areas of Air Channel Inlet 11 {m2}, #50
+  ,   ! Zone 12 Name [ZoneNames], #51
+  ,   ! Distance from Top of Thermal Chimney to Inlet 12 {m}, #52
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 12 #53
+  ,   ! Cross Sectional Areas of Air Channel Inlet 12 {m2}, #54
+  ,   ! Zone 13 Name [ZoneNames], #55
+  ,   ! Distance from Top of Thermal Chimney to Inlet 13 {m}, #56
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 13 #57
+  ,   ! Cross Sectional Areas of Air Channel Inlet 13 {m2}, #58
+  ,   ! Zone 14 Name [ZoneNames], #59
+  ,   ! Distance from Top of Thermal Chimney to Inlet 14 {m}, #60
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 14 #61
+  ,   ! Cross Sectional Areas of Air Channel Inlet 14 {m2}, #62
+  ,   ! Zone 15 Name [ZoneNames], #63
+  ,   ! Distance from Top of Thermal Chimney to Inlet 15 {m}, #64
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 15 #65
+  ,   ! Cross Sectional Areas of Air Channel Inlet 15 {m2}, #66
+  ,   ! Zone 16 Name [ZoneNames], #67
+  ,   ! Distance from Top of Thermal Chimney to Inlet 16 {m}, #68
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 16 #69
+  ,   ! Cross Sectional Areas of Air Channel Inlet 16 {m2}, #70
+  ,   ! Zone 17 Name [ZoneNames], #71
+  ,   ! Distance from Top of Thermal Chimney to Inlet 17 {m}, #72
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 17 #73
+  ,   ! Cross Sectional Areas of Air Channel Inlet 17 {m2}, #74
+  ,   ! Zone 18 Name [ZoneNames], #75
+  ,   ! Distance from Top of Thermal Chimney to Inlet 18 {m}, #76
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 18 #77
+  ,   ! Cross Sectional Areas of Air Channel Inlet 18 {m2}, #78
+  ,   ! Zone 19 Name [ZoneNames], #79
+  ,   ! Distance from Top of Thermal Chimney to Inlet 19 {m}, #80
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 19 #81
+  ,   ! Cross Sectional Areas of Air Channel Inlet 19 {m2}, #82
+  ,   ! Zone 20 Name [ZoneNames], #83
+  ,   ! Distance from Top of Thermal Chimney to Inlet 20 {m}, #84
+  ,   ! Relative Ratios of Air Flow Rates Passing through Zone 20 #85
+  ;   ! Cross Sectional Areas of Air Channel Inlet 20 {m2}, #86

@@ -1,0 +1,23 @@
+! Min Fields: 20
+Generator:InternalCombustionEngine,
+  ,   ! Name RefList: [GeneratorNames, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Rated Power Output {W}, #2
+  ,   ! Electric Circuit Node Name #3
+  ,   ! Minimum Part Load Ratio #4
+  ,   ! Maximum Part Load Ratio #5
+  ,   ! Optimum Part Load Ratio #6
+  ,   ! Shaft Power Curve Name [UnivariateFunctions], #7
+  ,   ! Jacket Heat Recovery Curve Name [UnivariateFunctions], #8
+  ,   ! Lube Heat Recovery Curve Name [UnivariateFunctions], #9
+  ,   ! Total Exhaust Energy Curve Name [UnivariateFunctions], #10
+  ,   ! Exhaust Temperature Curve Name [UnivariateFunctions], #11
+  ,   ! Coefficient 1 of U-Factor Times Area Curve #12
+  ,   ! Coefficient 2 of U-Factor Times Area Curve #13
+  ,   ! Maximum Exhaust Flow per Unit of Power Output {(kg/s)/W}, #14
+  ,   ! Design Minimum Exhaust Temperature {C}, #15
+  ,   ! Fuel Higher Heating Value {kJ/kg}, #16
+  0.0,   ! Design Heat Recovery Water Flow Rate {m3/s}, Def: 0.0, #17
+  ,   ! Heat Recovery Inlet Node Name #18
+  ,   ! Heat Recovery Outlet Node Name #19
+  Diesel,   ! Fuel Type Def: Diesel, [NaturalGas, Propane, Diesel, Gasoline, FuelOilNo1, FuelOilNo2, OtherFuel1, OtherFuel2], #20
+  80.0;   ! Heat Recovery Maximum Temperature {C}, Def: 80.0, #21

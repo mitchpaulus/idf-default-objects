@@ -1,0 +1,30 @@
+! Min Fields: 23
+Refrigeration:AirChiller,
+  ,   ! Name RefList: [RefrigerationCaseAndWalkInNames, RefrigerationCaseAndWalkInAndListNames, RefrigerationAirChillerNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Capacity Rating Type [UnitLoadFactorSensibleOnly, CapacityTotalSpecificConditions, EuropeanSC1Standard, EuropeanSC1NominalWet, EuropeanSC2Standard, EuropeanSC2NominalWet, EuropeanSC3Standard, FixedLinear, EuropeanSC3NominalWet, EuropeanSC4Standard, EuropeanSC4NominalWet, EuropeanSC5Standard, EuropeanSC5NominalWet], REQ, #3
+  ,   ! Rated Unit Load Factor {W/K}, #4
+  ,   ! Rated Capacity {W}, #5
+  85,   ! Rated Relative Humidity {percent}, Def: 85, #6
+  ,   ! Rated Cooling Source Temperature {C}, REQ, #7
+  ,   ! Rated Temperature Difference DT1 {deltaC}, REQ, #8
+  ,   ! Maximum Temperature Difference Between Inlet Air and Evaporating Temperature {deltaC}, #9
+  1.0,   ! Coil Material Correction Factor {dimensionless}, Def: 1.0, #10
+  1.0,   ! Refrigerant Correction Factor {dimensionless}, Def: 1.0, #11
+  ,   ! Capacity Correction Curve Type [LinearSHR60, QuadraticSHR, European, TabularRHxDT1xTRoom], #12
+  ,   ! Capacity Correction Curve Name [UnivariateFunctions, TrivariateFunctions], #13
+  1.48,   ! SHR60 Correction Factor {dimensionless}, Def: 1.48, #14
+  ,   ! Rated Total Heating Power {W}, REQ, #15
+  ,   ! Heating Power Schedule Name [ScheduleNames], #16
+  Fixed,   ! Fan Speed Control Type Def: Fixed, [Fixed, FixedLinear, VariableSpeed, TwoSpeed], #17
+  375.0,   ! Rated Fan Power {W}, Def: 375.0, #18
+  ,   ! Rated Air Flow {m3/s}, REQ, #19
+  0.2,   ! Minimum Fan Air Flow Ratio {dimensionless}, Def: 0.2, #20
+  Electric,   ! Defrost Type Def: Electric, [HotFluid, Electric, None, OffCycle], #21
+  TimeSchedule,   ! Defrost Control Type Def: TimeSchedule, [TimeSchedule, TemperatureTermination], #22
+  ,   ! Defrost Schedule Name [ScheduleNames], REQ, #23
+  ,   ! Defrost Drip-Down Schedule Name [ScheduleNames], #24
+  ,   ! Defrost Power {W}, #25
+  ,   ! Temperature Termination Defrost Fraction to Ice {dimensionless}, #26
+  Middle,   ! Vertical Location Def: Middle, [Ceiling, Middle, Floor], #27
+  0.0;   ! Average Refrigerant Charge Inventory {kg}, Def: 0.0, #28

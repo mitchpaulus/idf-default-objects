@@ -1,0 +1,13 @@
+Curve:Quartic,
+  ,   ! Name RefList: [UnivariateFunctions], REQ, #1
+  ,   ! Coefficient1 Constant REQ, #2
+  ,   ! Coefficient2 x REQ, #3
+  ,   ! Coefficient3 x**2 REQ, #4
+  ,   ! Coefficient4 x**3 REQ, #5
+  ,   ! Coefficient5 x**4 REQ, #6
+  ,   ! Minimum Value of x REQ, #7
+  ,   ! Maximum Value of x REQ, #8
+  ,   ! Minimum Curve Output #9
+  ,   ! Maximum Curve Output #10
+  Dimensionless,   ! Input Unit Type for X Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance], #11
+  Dimensionless;   ! Output Unit Type Def: Dimensionless, [Dimensionless, Capacity, Power, Temperature], #12

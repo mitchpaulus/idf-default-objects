@@ -1,0 +1,5 @@
+WindowGap:DeflectionState,
+  ,   ! Name RefList: [WindowGapDeflectionStates], REQ, #1
+  0.0,   ! Deflected Thickness {m}, Def: 0.0, #2
+  25,   ! Initial Temperature {C}, Def: 25, #3
+  101325;   ! Initial Pressure {Pa}, Def: 101325, #4

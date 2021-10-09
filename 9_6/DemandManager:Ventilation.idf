@@ -1,0 +1,12 @@
+! Min Fields: 10
+DemandManager:Ventilation,
+  ,   ! Name RefList: [DemandManagerNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Limit Control [Off, FixedRate, ReductionRatio], REQ, #3
+  ,   ! Minimum Limit Duration {minutes}, #4
+  ,   ! Fixed Rate {m3/s}, #5
+  ,   ! Reduction Ratio #6
+  ,   ! Limit Step Change #7
+  All,   ! Selection Control Def: All, [All, RotateMany, RotateOne], #8
+  ,   ! Rotation Duration {minutes}, #9
+  ;   ! Controller Outdoor Air 1 Name [OAControllerNames], REQ, #10

@@ -1,0 +1,7 @@
+! Min Fields: 3
+AirflowNetwork:Distribution:Component:ReliefAirFlow,
+  ,   ! Name RefList: [AFNReliefAirFlowNames, AirflowNetworkComponentNames], REQ, #1
+  ,   ! Outdoor Air Mixer Name [OutdoorAirMixers], REQ, #2
+  ,   ! Air Mass Flow Coefficient When No Outdoor Air Flow at Reference Conditions {kg/s}, REQ, #3
+  0.65,   ! Air Mass Flow Exponent When No Outdoor Air Flow {dimensionless}, Def: 0.65, #4
+  ;   ! Reference Crack Conditions [ReferenceCrackConditions], #5

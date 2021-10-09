@@ -1,0 +1,19 @@
+! Min Fields: 11
+HVACTemplate:Plant:MixedWaterLoop,
+  ,   ! Name REQ, #1
+  ,   ! Pump Schedule Name [ScheduleNames], #2
+  Intermittent,   ! Pump Control Type Def: Intermittent, [Intermittent, Continuous], #3
+  Default,   ! Operation Scheme Type Def: Default, [Default, UserDefined], #4
+  ,   ! Equipment Operation Schemes Name [PlantOperationSchemes], #5
+  ,   ! High Temperature Setpoint Schedule Name [ScheduleNames], #6
+  33.0,   ! High Temperature Design Setpoint {C}, Def: 33.0, #7
+  ,   ! Low Temperature Setpoint Schedule Name [ScheduleNames], #8
+  20.0,   ! Low Temperature Design Setpoint {C}, Def: 20.0, #9
+  ConstantFlow,   ! Water Pump Configuration Def: ConstantFlow, [VariableFlow, ConstantFlow], #10
+  179352,   ! Water Pump Rated Head {Pa}, Def: 179352, #11
+  SinglePump,   ! Water Pump Type Def: SinglePump, [SinglePump, PumpPerTowerOrBoiler, TwoHeaderedPumps, ThreeHeaderedPumps, FourHeaderedPumps, FiveHeaderedPumps], #12
+  Yes,   ! Supply Side Bypass Pipe Def: Yes, [Yes, No], #13
+  Yes,   ! Demand Side Bypass Pipe Def: Yes, [Yes, No], #14
+  Water,   ! Fluid Type Def: Water, [Water, EthyleneGlycol30, EthyleneGlycol40, EthyleneGlycol50, EthyleneGlycol60, PropyleneGlycol30, PropyleneGlycol40, PropyleneGlycol50, PropyleneGlycol60], #15
+  5.6,   ! Loop Design Delta Temperature {deltaC}, Def: 5.6, #16
+  SequentialLoad;   ! Load Distribution Scheme Def: SequentialLoad, [Optimal, SequentialLoad, UniformLoad, UniformPLR, SequentialUniformPLR], #17

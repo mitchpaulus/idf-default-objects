@@ -1,0 +1,3 @@
+GroundHeatTransfer:Basement:EquivSlab,
+  ,   ! APRatio: The area to perimeter ratio for this slab {m}, REQ, #1
+  ;   ! EquivSizing: Flag [TRUE, FALSE], REQ, #2

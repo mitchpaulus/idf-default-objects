@@ -1,0 +1,9 @@
+! Min Fields: 7
+GroundHeatTransfer:Basement:Interior,
+  TRUE,   ! COND: Flag: Is the basement conditioned? Def: TRUE, [TRUE, FALSE], #1
+  0.92,   ! HIN: Downward convection only heat transfer coefficient {W/m2-K}, Def: 0.92, #2
+  4.04,   ! HIN: Upward convection only heat transfer coefficient {W/m2-K}, Def: 4.04, #3
+  3.08,   ! HIN: Horizontal convection only heat transfer coefficient {W/m2-K}, Def: 3.08, #4
+  6.13,   ! HIN: Downward combined (convection and radiation) heat transfer coefficient {W/m2-K}, Def: 6.13, #5
+  9.26,   ! HIN: Upward combined (convection and radiation) heat transfer coefficient {W/m2-K}, Def: 9.26, #6
+  8.29;   ! HIN: Horizontal combined (convection and radiation) heat transfer coefficient {W/m2-K}, Def: 8.29, #7

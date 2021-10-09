@@ -1,0 +1,10 @@
+SetpointManager:MixedAir,
+  ,   ! Name REQ, #1
+  Temperature,   ! Control Variable Def: Temperature, [Temperature], #2
+  ,   ! Reference Setpoint Node Name REQ, #3
+  ,   ! Fan Inlet Node Name REQ, #4
+  ,   ! Fan Outlet Node Name REQ, #5
+  ,   ! Setpoint Node or NodeList Name REQ, #6
+  ,   ! Cooling Coil Inlet Node Name #7
+  ,   ! Cooling coil Outlet Node Name #8
+  7.2;   ! Minimum Temperature at Cooling Coil Outlet Node {C}, Def: 7.2, #9

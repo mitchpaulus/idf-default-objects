@@ -1,0 +1,5 @@
+! Min Fields: 3
+DesignSpecification:OutdoorAir:SpaceList,
+  ,   ! Name RefList: [DSOASpaceListNames], REQ, #1
+  ,   ! Space 1 Name [SpaceNames], REQ, #2
+  ;   ! Space 1 Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames], REQ, #3

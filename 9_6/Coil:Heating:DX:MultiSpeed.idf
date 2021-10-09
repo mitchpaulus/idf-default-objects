@@ -1,0 +1,85 @@
+! Min Fields: 40
+Coil:Heating:DX:MultiSpeed,
+  ,   ! Name RefList: [HeatingCoilsDXMultiSpeed, AFNCoilNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  -8.0,   ! Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}, Def: -8.0, #5
+  ,   ! Outdoor Dry-Bulb Temperature to Turn On Compressor {C}, #6
+  0.0,   ! Crankcase Heater Capacity {W}, Def: 0.0, #7
+  10.0,   ! Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater Operation {C}, Def: 10.0, #8
+  ,   ! Defrost Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #9
+  5.0,   ! Maximum Outdoor Dry-Bulb Temperature for Defrost Operation {C}, Def: 5.0, #10
+  ReverseCycle,   ! Defrost Strategy Def: ReverseCycle, [ReverseCycle, Resistive], #11
+  Timed,   ! Defrost Control Def: Timed, [Timed, OnDemand], #12
+  0.058333,   ! Defrost Time Period Fraction Def: 0.058333, #13
+  0.0,   ! Resistive Defrost Heater Capacity {W}, Def: 0.0, AS, #14
+  No,   ! Apply Part Load Fraction to Speeds Greater than 1 Def: No, [Yes, No], #15
+  ,   ! Fuel Type [Electricity, NaturalGas, Propane, Diesel, Gasoline, FuelOilNo1, FuelOilNo2, OtherFuel1, OtherFuel2], REQ, #16
+  4,   ! Region number for Calculating HSPF Def: 4, #17
+  ,   ! Number of Speeds REQ, #18
+  ,   ! Speed 1 Gross Rated Heating Capacity {W}, AS, REQ, #19
+  ,   ! Speed 1 Gross Rated Heating COP {W/W}, REQ, #20
+  ,   ! Speed 1 Rated Air Flow Rate {m3/s}, AS, REQ, #21
+  773.3,   ! Speed 1 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #22
+  ,   ! Speed 1 Heating Capacity Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], REQ, #23
+  ,   ! Speed 1 Heating Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #24
+  ,   ! Speed 1 Energy Input Ratio Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], REQ, #25
+  ,   ! Speed 1 Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #26
+  ,   ! Speed 1 Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #27
+  0.2,   ! Speed 1 Rated Waste Heat Fraction of Power Input {dimensionless}, Def: 0.2, #28
+  ,   ! Speed 1 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #29
+  ,   ! Speed 2 Gross Rated Heating Capacity {W}, AS, REQ, #30
+  ,   ! Speed 2 Gross Rated Heating COP {W/W}, REQ, #31
+  ,   ! Speed 2 Rated Air Flow Rate {m3/s}, AS, REQ, #32
+  773.3,   ! Speed 2 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #33
+  ,   ! Speed 2 Heating Capacity Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], REQ, #34
+  ,   ! Speed 2 Heating Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #35
+  ,   ! Speed 2 Energy Input Ratio Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], REQ, #36
+  ,   ! Speed 2 Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #37
+  ,   ! Speed 2 Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #38
+  0.2,   ! Speed 2 Rated Waste Heat Fraction of Power Input {dimensionless}, Def: 0.2, #39
+  ,   ! Speed 2 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #40
+  ,   ! Speed 3 Gross Rated Heating Capacity {W}, AS, #41
+  ,   ! Speed 3 Gross Rated Heating COP {W/W}, #42
+  ,   ! Speed 3 Rated Air Flow Rate {m3/s}, AS, #43
+  773.3,   ! Speed 3 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #44
+  ,   ! Speed 3 Heating Capacity Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #45
+  ,   ! Speed 3 Heating Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], #46
+  ,   ! Speed 3 Energy Input Ratio Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #47
+  ,   ! Speed 3 Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #48
+  ,   ! Speed 3 Part Load Fraction Correlation Curve Name [UnivariateFunctions], #49
+  0.2,   ! Speed 3 Rated Waste Heat Fraction of Power Input {dimensionless}, Def: 0.2, #50
+  ,   ! Speed 3 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #51
+  ,   ! Speed 4 Gross Rated Heating Capacity {W}, AS, #52
+  ,   ! Speed 4 Gross Rated Heating COP {W/W}, #53
+  ,   ! Speed 4 Rated Air Flow Rate {m3/s}, AS, #54
+  773.3,   ! Speed 4 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #55
+  ,   ! Speed 4 Heating Capacity Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #56
+  ,   ! Speed 4 Heating Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], #57
+  ,   ! Speed 4 Energy Input Ratio Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #58
+  ,   ! Speed 4 Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #59
+  ,   ! Speed 4 Part Load Fraction Correlation Curve Name [UnivariateFunctions], #60
+  0.2,   ! Speed 4 Rated Waste Heat Fraction of Power Input {dimensionless}, Def: 0.2, #61
+  ,   ! Speed 4 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #62
+  ,   ! Zone Name for Evaporator Placement #63
+  ,   ! Speed 1 Secondary Coil Air Flow Rate {m3/s}, AS, #64
+  1.25,   ! Speed 1 Secondary Coil Fan Flow Scaling Factor {m3/s}, Def: 1.25, #65
+  ,   ! Speed 1 Nominal Sensible Heat Ratio of Secondary Coil {m3/s}, #66
+  ,   ! Speed 1 Sensible Heat Ratio Modifier Function of Temperature Curve Name [BivariateFunctions], #67
+  ,   ! Speed 1 Sensible Heat Ratio Modifier Function of Flow Fraction Curve Name [UnivariateFunctions], #68
+  ,   ! Speed 2 Secondary Coil Air Flow Rate {m3/s}, AS, #69
+  1.25,   ! Speed 2 Secondary Coil Fan Flow Scaling Factor {m3/s}, Def: 1.25, #70
+  ,   ! Speed 2 Nominal Sensible Heat Ratio of Secondary Coil {m3/s}, #71
+  ,   ! Speed 2 Sensible Heat Ratio Modifier Function of Temperature Curve Name [BivariateFunctions], #72
+  ,   ! Speed 2 Sensible Heat Ratio Modifier Function of Flow Fraction Curve Name [UnivariateFunctions], #73
+  ,   ! Speed 3 Secondary Coil Air Flow Rate {m3/s}, AS, #74
+  1.25,   ! Speed 3 Secondary Coil Fan Flow Scaling Factor {m3/s}, Def: 1.25, #75
+  ,   ! Speed 3 Nominal Sensible Heat Ratio of Secondary Coil {m3/s}, #76
+  ,   ! Speed 3 Sensible Heat Ratio Modifier Function of Temperature Curve Name [BivariateFunctions], #77
+  ,   ! Speed 3 Sensible Heat Ratio Modifier Function of Flow Fraction Curve Name [UnivariateFunctions], #78
+  ,   ! Speed 4 Secondary Coil Air Flow Rate {m3/s}, AS, #79
+  1.25,   ! Speed 4 Secondary Coil Fan Flow Scaling Factor {m3/s}, Def: 1.25, #80
+  ,   ! Speed 4 Nominal Sensible Heat Ratio of Secondary Coil {m3/s}, #81
+  ,   ! Speed 4 Sensible Heat Ratio Modifier Function of Temperature Curve Name [BivariateFunctions], #82
+  ;   ! Speed 4 Sensible Heat Ratio Modifier Function of Flow Fraction Curve Name [UnivariateFunctions], #83

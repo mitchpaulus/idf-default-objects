@@ -1,0 +1,8 @@
+! Min Fields: 6
+ElectricLoadCenter:Generators,
+  ,   ! Name RefList: [GeneratorLists], REQ, #1
+  ,   ! Generator 1 Name [GeneratorNames], REQ, #2
+  ,   ! Generator 1 Object Type [Generator:InternalCombustionEngine, Generator:CombustionTurbine, Generator:Photovoltaic, Generator:PVWatts, Generator:FuelCell, Generator:MicroCHP, Generator:MicroTurbine, Generator:WindTurbine], REQ, #3
+  ,   ! Generator 1 Rated Electric Power Output {W}, #4
+  ,   ! Generator 1 Availability Schedule Name [ScheduleNames], #5
+  ;   ! Generator 1 Rated Thermal to Electrical Power Ratio #6

@@ -1,0 +1,12 @@
+Table:Lookup,
+  ,   ! Name RefList: [UnivariateFunctions, BivariateFunctions, TrivariateFunctions, QuadvariateFunctions, QuintvariateFunctions, MultivariateFunctions], REQ, #1
+  ,   ! Independent Variable List Name [IndependentVariableListName], REQ, #2
+  None,   ! Normalization Method Def: None, [None, DivisorOnly, AutomaticWithDivisor], #3
+  1.0,   ! Normalization Divisor Def: 1.0, #4
+  ,   ! Minimum Output #5
+  ,   ! Maximum Output #6
+  Dimensionless,   ! Output Unit Type Def: Dimensionless, [Dimensionless, Capacity, Power], #7
+  ,   ! External File Name #8
+  ,   ! External File Column Number #9
+  ,   ! External File Starting Row Number #10
+  ;   ! Output Value 1 #11

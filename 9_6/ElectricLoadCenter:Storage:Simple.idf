@@ -1,0 +1,11 @@
+ElectricLoadCenter:Storage:Simple,
+  ,   ! Name RefList: [ElecStorageList], #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], #3
+  ,   ! Radiative Fraction for Zone Heat Gains #4
+  ,   ! Nominal Energetic Efficiency for Charging #5
+  ,   ! Nominal Discharging Energetic Efficiency #6
+  ,   ! Maximum Storage Capacity {J}, #7
+  ,   ! Maximum Power for Discharging {W}, #8
+  ,   ! Maximum Power for Charging {W}, #9
+  ;   ! Initial State of Charge {J}, #10

@@ -1,0 +1,35 @@
+MaterialProperty:PhaseChange,
+  ,   ! Name [MaterialName], REQ, #1
+  0.0,   ! Temperature Coefficient for Thermal Conductivity {W/m-K2}, Def: 0.0, #2
+  ,   ! Temperature 1 {C}, REQ, #3
+  ,   ! Enthalpy 1 {J/kg}, REQ, #4
+  ,   ! Temperature 2 {C}, REQ, #5
+  ,   ! Enthalpy 2 {J/kg}, REQ, #6
+  ,   ! Temperature 3 {C}, REQ, #7
+  ,   ! Enthalpy 3 {J/kg}, REQ, #8
+  ,   ! Temperature 4 {C}, #9
+  ,   ! Enthalpy 4 {J/kg}, #10
+  ,   ! Temperature 5 {C}, #11
+  ,   ! Enthalpy 5 {J/kg}, #12
+  ,   ! Temperature 6 {C}, #13
+  ,   ! Enthalpy 6 {J/kg}, #14
+  ,   ! Temperature 7 {C}, #15
+  ,   ! Enthalpy 7 {J/kg}, #16
+  ,   ! Temperature 8 {C}, #17
+  ,   ! Enthalpy 8 {J/kg}, #18
+  ,   ! Temperature 9 {C}, #19
+  ,   ! Enthalpy 9 {J/kg}, #20
+  ,   ! Temperature 10 {C}, #21
+  ,   ! Enthalpy 10 {J/kg}, #22
+  ,   ! Temperature 11 {C}, #23
+  ,   ! Enthalpy 11 {J/kg}, #24
+  ,   ! Temperature 12 {C}, #25
+  ,   ! Enthalpy 12 {J/kg}, #26
+  ,   ! Temperature 13 {C}, #27
+  ,   ! Enthalpy 13 {J/kg}, #28
+  ,   ! Temperature 14 {C}, #29
+  ,   ! Enthalpy 14 {J/kg}, #30
+  ,   ! Temperature 15 {C}, #31
+  ,   ! Enthalpy 15 {J/kg}, #32
+  ,   ! Temperature 16 {C}, #33
+  ;   ! Enthalpy 16 {J/kg}, #34

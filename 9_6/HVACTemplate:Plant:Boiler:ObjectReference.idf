@@ -1,0 +1,7 @@
+! Min Fields: 4
+HVACTemplate:Plant:Boiler:ObjectReference,
+  ,   ! Name REQ, #1
+  Boiler:HotWater,   ! Boiler Object Type Def: Boiler:HotWater, [Boiler:HotWater], #2
+  ,   ! Boiler Name [Boilers], REQ, #3
+  ,   ! Priority #4
+  ;   ! Template Plant Loop Type [HotWater, MixedWater], #5

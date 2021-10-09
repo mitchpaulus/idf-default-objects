@@ -1,0 +1,97 @@
+! Min Fields: 56
+Coil:Cooling:DX:MultiSpeed,
+  ,   ! Name RefList: [CoolingCoilsDXMultiSpeed, DesuperHeatingWaterOnlySources, AFNCoilNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Condenser Air Inlet Node Name #5
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, EvaporativelyCooled], #6
+  -25.0,   ! Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}, Def: -25.0, #7
+  ,   ! Supply Water Storage Tank Name [WaterStorageTankNames], #8
+  ,   ! Condensate Collection Water Storage Tank Name [WaterStorageTankNames], #9
+  No,   ! Apply Part Load Fraction to Speeds Greater than 1 Def: No, [Yes, No], #10
+  No,   ! Apply Latent Degradation to Speeds Greater than 1 Def: No, [Yes, No], #11
+  0.0,   ! Crankcase Heater Capacity {W}, Def: 0.0, #12
+  10.0,   ! Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater Operation {C}, Def: 10.0, #13
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #14
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #15
+  ,   ! Basin Heater Operating Schedule Name [ScheduleNames], #16
+  ,   ! Fuel Type [Electricity, NaturalGas, Propane, Diesel, Gasoline, FuelOilNo1, FuelOilNo2, OtherFuel1, OtherFuel2], REQ, #17
+  ,   ! Number of Speeds REQ, #18
+  ,   ! Speed 1 Gross Rated Total Cooling Capacity {W}, AS, REQ, #19
+  ,   ! Speed 1 Gross Rated Sensible Heat Ratio AS, REQ, #20
+  3.0,   ! Speed 1 Gross Rated Cooling COP {W/W}, Def: 3.0, #21
+  ,   ! Speed 1 Rated Air Flow Rate {m3/s}, AS, REQ, #22
+  773.3,   ! Speed 1 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #23
+  ,   ! Speed 1 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #24
+  ,   ! Speed 1 Total Cooling Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #25
+  ,   ! Speed 1 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #26
+  ,   ! Speed 1 Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #27
+  ,   ! Speed 1 Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #28
+  0.0,   ! Speed 1 Nominal Time for Condensate Removal to Begin {s}, Def: 0.0, #29
+  0.0,   ! Speed 1 Ratio of Initial Moisture Evaporation Rate and Steady State Latent Capacity {dimensionless}, Def: 0.0, #30
+  0.0,   ! Speed 1 Maximum Cycling Rate {cycles/hr}, Def: 0.0, #31
+  0.0,   ! Speed 1 Latent Capacity Time Constant {s}, Def: 0.0, #32
+  0.2,   ! Speed 1 Rated Waste Heat Fraction of Power Input {dimensionless}, Def: 0.2, #33
+  ,   ! Speed 1 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #34
+  0.9,   ! Speed 1 Evaporative Condenser Effectiveness {dimensionless}, Def: 0.9, #35
+  ,   ! Speed 1 Evaporative Condenser Air Flow Rate {m3/s}, AS, #36
+  ,   ! Speed 1 Rated Evaporative Condenser Pump Power Consumption {W}, AS, #37
+  ,   ! Speed 2 Gross Rated Total Cooling Capacity {W}, AS, REQ, #38
+  ,   ! Speed 2 Gross Rated Sensible Heat Ratio AS, REQ, #39
+  3.0,   ! Speed 2 Gross Rated Cooling COP {W/W}, Def: 3.0, #40
+  ,   ! Speed 2 Rated Air Flow Rate {m3/s}, AS, REQ, #41
+  773.3,   ! Speed 2 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #42
+  ,   ! Speed 2 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #43
+  ,   ! Speed 2 Total Cooling Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #44
+  ,   ! Speed 2 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #45
+  ,   ! Speed 2 Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #46
+  ,   ! Speed 2 Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #47
+  0.0,   ! Speed 2 Nominal Time for Condensate Removal to Begin {s}, Def: 0.0, #48
+  0.0,   ! Speed 2 Ratio of Initial Moisture Evaporation Rate and steady state Latent Capacity {dimensionless}, Def: 0.0, #49
+  0.0,   ! Speed 2 Maximum Cycling Rate {cycles/hr}, Def: 0.0, #50
+  0.0,   ! Speed 2 Latent Capacity Time Constant {s}, Def: 0.0, #51
+  0.2,   ! Speed 2 Rated Waste Heat Fraction of Power Input {dimensionless}, Def: 0.2, #52
+  ,   ! Speed 2 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #53
+  0.9,   ! Speed 2 Evaporative Condenser Effectiveness {dimensionless}, Def: 0.9, #54
+  ,   ! Speed 2 Evaporative Condenser Air Flow Rate {m3/s}, AS, #55
+  ,   ! Speed 2 Rated Evaporative Condenser Pump Power Consumption {W}, AS, #56
+  ,   ! Speed 3 Gross Rated Total Cooling Capacity {W}, AS, #57
+  ,   ! Speed 3 Gross Rated Sensible Heat Ratio AS, #58
+  3.0,   ! Speed 3 Gross Rated Cooling COP {W/W}, Def: 3.0, #59
+  ,   ! Speed 3 Rated Air Flow Rate {m3/s}, AS, #60
+  773.3,   ! Speed 3 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #61
+  ,   ! Speed 3 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #62
+  ,   ! Speed 3 Total Cooling Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], #63
+  ,   ! Speed 3 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #64
+  ,   ! Speed 3 Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #65
+  ,   ! Speed 3 Part Load Fraction Correlation Curve Name [UnivariateFunctions], #66
+  0.0,   ! Speed 3 Nominal Time for Condensate Removal to Begin {s}, Def: 0.0, #67
+  0.0,   ! Speed 3 Ratio of Initial Moisture Evaporation Rate and steady state Latent Capacity {dimensionless}, Def: 0.0, #68
+  0.0,   ! Speed 3 Maximum Cycling Rate {cycles/hr}, Def: 0.0, #69
+  0.0,   ! Speed 3 Latent Capacity Time Constant {s}, Def: 0.0, #70
+  0.2,   ! Speed 3 Rated Waste Heat Fraction of Power Input {dimensionless}, Def: 0.2, #71
+  ,   ! Speed 3 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #72
+  0.9,   ! Speed 3 Evaporative Condenser Effectiveness {dimensionless}, Def: 0.9, #73
+  ,   ! Speed 3 Evaporative Condenser Air Flow Rate {m3/s}, AS, #74
+  ,   ! Speed 3 Rated Evaporative Condenser Pump Power Consumption {W}, AS, #75
+  ,   ! Speed 4 Gross Rated Total Cooling Capacity {W}, AS, #76
+  ,   ! Speed 4 Gross Rated Sensible Heat Ratio AS, #77
+  3.0,   ! Speed 4 Gross Rated Cooling COP {W/W}, Def: 3.0, #78
+  ,   ! Speed 4 Rated Air Flow Rate {m3/s}, AS, #79
+  773.3,   ! Speed 4 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #80
+  ,   ! Speed 4 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #81
+  ,   ! Speed 4 Total Cooling Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], #82
+  ,   ! Speed 4 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #83
+  ,   ! Speed 4 Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #84
+  ,   ! Speed 4 Part Load Fraction Correlation Curve Name [UnivariateFunctions], #85
+  0.0,   ! Speed 4 Nominal Time for Condensate Removal to Begin {s}, Def: 0.0, #86
+  0.0,   ! Speed 4 Ratio of Initial Moisture Evaporation Rate and steady state Latent Capacity {dimensionless}, Def: 0.0, #87
+  0.0,   ! Speed 4 Maximum Cycling Rate {cycles/hr}, Def: 0.0, #88
+  0.0,   ! Speed 4 Latent Capacity Time Constant {s}, Def: 0.0, #89
+  0.2,   ! Speed 4 Rated Waste Heat Fraction of Power Input {dimensionless}, Def: 0.2, #90
+  ,   ! Speed 4 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #91
+  0.9,   ! Speed 4 Evaporative Condenser Effectiveness {dimensionless}, Def: 0.9, #92
+  ,   ! Speed 4 Evaporative Condenser Air Flow Rate {m3/s}, AS, #93
+  ,   ! Speed 4 Rated Evaporative Condenser Pump Power Consumption {W}, AS, #94
+  ;   ! Zone Name for Condenser Placement [ZoneNames], #95

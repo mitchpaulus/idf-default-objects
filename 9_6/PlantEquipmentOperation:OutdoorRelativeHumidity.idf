@@ -1,0 +1,33 @@
+! Min Fields: 4
+PlantEquipmentOperation:OutdoorRelativeHumidity,
+  ,   ! Name RefList: [ControlSchemeList], REQ, #1
+  ,   ! Relative Humidity Range 1 Lower Limit {percent}, REQ, #2
+  ,   ! Relative Humidity Range 1 Upper Limit {percent}, REQ, #3
+  ,   ! Range 1 Equipment List Name [PlantAndCondenserEquipmentLists], REQ, #4
+  ,   ! Relative Humidity Range 2 Lower Limit {percent}, #5
+  ,   ! Relative Humidity Range 2 Upper Limit {percent}, #6
+  ,   ! Range 2 Equipment List Name [PlantAndCondenserEquipmentLists], #7
+  ,   ! Relative Humidity Range 3 Lower Limit {percent}, #8
+  ,   ! Relative Humidity Range 3 Upper Limit {percent}, #9
+  ,   ! Range 3 Equipment List Name [PlantAndCondenserEquipmentLists], #10
+  ,   ! Relative Humidity Range 4 Lower Limit {percent}, #11
+  ,   ! Relative Humidity Range 4 Upper Limit {percent}, #12
+  ,   ! Range 4 Equipment List Name [PlantAndCondenserEquipmentLists], #13
+  ,   ! Relative Humidity Range 5 Lower Limit {percent}, #14
+  ,   ! Relative Humidity Range 5 Upper Limit {percent}, #15
+  ,   ! Range 5 Equipment List Name [PlantAndCondenserEquipmentLists], #16
+  ,   ! Relative Humidity Range 6 Lower Limit {percent}, #17
+  ,   ! Relative Humidity Range 6 Upper Limit {percent}, #18
+  ,   ! Range 6 Equipment List Name [PlantAndCondenserEquipmentLists], #19
+  ,   ! Relative Humidity Range 7 Lower Limit {percent}, #20
+  ,   ! Relative Humidity Range 7 Upper Limit {percent}, #21
+  ,   ! Range 7 Equipment List Name [PlantAndCondenserEquipmentLists], #22
+  ,   ! Relative Humidity Range 8 Lower Limit {percent}, #23
+  ,   ! Relative Humidity Range 8 Upper Limit {percent}, #24
+  ,   ! Range 8 Equipment List Name [PlantAndCondenserEquipmentLists], #25
+  ,   ! Relative Humidity Range 9 Lower Limit {percent}, #26
+  ,   ! Relative Humidity Range 9 Upper Limit {percent}, #27
+  ,   ! Range 9 Equipment List Name [PlantAndCondenserEquipmentLists], #28
+  ,   ! Relative Humidity Range 10 Lower Limit {percent}, #29
+  ,   ! Relative Humidity Range 10 Upper Limit {percent}, #30
+  ;   ! Range 10 Equipment List Name [PlantAndCondenserEquipmentLists], #31

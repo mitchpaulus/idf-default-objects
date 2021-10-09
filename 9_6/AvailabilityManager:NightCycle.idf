@@ -1,0 +1,13 @@
+! Min Fields: 6
+AvailabilityManager:NightCycle,
+  ,   ! Name RefList: [SystemAvailabilityManagers], REQ, #1
+  ,   ! Applicability Schedule Name [ScheduleNames], REQ, #2
+  ,   ! Fan Schedule Name [ScheduleNames], REQ, #3
+  StayOff,   ! Control Type Def: StayOff, [StayOff, CycleOnAny, CycleOnControlZone, CycleOnAnyZoneFansOnly, CycleOnAnyCoolingOrHeatingZone, CycleOnAnyCoolingZone, CycleOnAnyHeatingZone, CycleOnAnyHeatingZoneFansOnly], #4
+  1.0,   ! Thermostat Tolerance {deltaC}, Def: 1.0, #5
+  FixedRunTime,   ! Cycling Run Time Control Type Def: FixedRunTime, [FixedRunTime, Thermostat, ThermostatWithMinimumRunTime], #6
+  3600.,   ! Cycling Run Time {s}, Def: 3600., #7
+  ,   ! Control Zone or Zone List Name [ZoneAndZoneListNames], #8
+  ,   ! Cooling Control Zone or Zone List Name [ZoneAndZoneListNames], #9
+  ,   ! Heating Control Zone or Zone List Name [ZoneAndZoneListNames], #10
+  ;   ! Heating Zone Fans Only Zone or Zone List Name [ZoneAndZoneListNames], #11

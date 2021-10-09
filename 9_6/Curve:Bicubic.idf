@@ -1,0 +1,21 @@
+Curve:Bicubic,
+  ,   ! Name RefList: [BivariateFunctions], REQ, #1
+  ,   ! Coefficient1 Constant REQ, #2
+  ,   ! Coefficient2 x REQ, #3
+  ,   ! Coefficient3 x**2 REQ, #4
+  ,   ! Coefficient4 y REQ, #5
+  ,   ! Coefficient5 y**2 REQ, #6
+  ,   ! Coefficient6 x*y REQ, #7
+  ,   ! Coefficient7 x**3 REQ, #8
+  ,   ! Coefficient8 y**3 REQ, #9
+  ,   ! Coefficient9 x**2*y REQ, #10
+  ,   ! Coefficient10 x*y**2 REQ, #11
+  ,   ! Minimum Value of x REQ, #12
+  ,   ! Maximum Value of x REQ, #13
+  ,   ! Minimum Value of y REQ, #14
+  ,   ! Maximum Value of y REQ, #15
+  ,   ! Minimum Curve Output #16
+  ,   ! Maximum Curve Output #17
+  Dimensionless,   ! Input Unit Type for X Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance], #18
+  Dimensionless,   ! Input Unit Type for Y Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance], #19
+  Dimensionless;   ! Output Unit Type Def: Dimensionless, [Dimensionless, Capacity, Power, Temperature], #20

@@ -1,0 +1,13 @@
+! Min Fields: 9
+ZoneHVAC:Baseboard:RadiantConvective:Water,
+  ,   ! Name RefList: [validBranchEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Design Object [BaseboardDesignObject], #2
+  ,   ! Availability Schedule Name [ScheduleNames], #3
+  ,   ! Inlet Node Name REQ, #4
+  ,   ! Outlet Node Name REQ, #5
+  87.78,   ! Rated Average Water Temperature {C}, Def: 87.78, #6
+  0.063,   ! Rated Water Mass Flow Rate {kg/s}, Def: 0.063, #7
+  autosize,   ! Heating Design Capacity {W}, Def: autosize, AS, #8
+  ,   ! Maximum Water Flow Rate {m3/s}, AS, REQ, #9
+  ,   ! Surface 1 Name [AllHeatTranSurfNames], #10
+  ;   ! Fraction of Radiant Energy to Surface 1 #11

@@ -1,0 +1,4 @@
+! Min Fields: 2
+ZoneList,
+  ,   ! Name RefList: [ZoneListNames, ZoneAndZoneListNames], REQ, #1
+  ;   ! Zone 1 Name [ZoneNames], REQ, #2

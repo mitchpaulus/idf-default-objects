@@ -1,0 +1,7 @@
+! Min Fields: 5
+DaylightingDevice:LightWell,
+  ,   ! Exterior Window Name [SubSurfNames], REQ, #1
+  ,   ! Height of Well {m}, REQ, #2
+  ,   ! Perimeter of Bottom of Well {m}, REQ, #3
+  ,   ! Area of Bottom of Well {m2}, REQ, #4
+  ;   ! Visible Reflectance of Well Walls {dimensionless}, REQ, #5

@@ -1,0 +1,6 @@
+! Min Fields: 3
+ZoneControl:Humidistat,
+  ,   ! Name RefList: [ZoneControlHumidistatNames], REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Humidifying Relative Humidity Setpoint Schedule Name [ScheduleNames], REQ, #3
+  ;   ! Dehumidifying Relative Humidity Setpoint Schedule Name [ScheduleNames], #4

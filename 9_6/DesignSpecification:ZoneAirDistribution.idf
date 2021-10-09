@@ -1,0 +1,8 @@
+! Min Fields: 1
+DesignSpecification:ZoneAirDistribution,
+  ,   ! Name RefList: [DesignSpecificationZoneAirDistributionNames], REQ, #1
+  1.0,   ! Zone Air Distribution Effectiveness in Cooling Mode {dimensionless}, Def: 1.0, #2
+  1.0,   ! Zone Air Distribution Effectiveness in Heating Mode {dimensionless}, Def: 1.0, #3
+  ,   ! Zone Air Distribution Effectiveness Schedule Name [ScheduleNames], #4
+  0.0,   ! Zone Secondary Recirculation Fraction {dimensionless}, Def: 0.0, #5
+  0.0;   ! Minimum Zone Ventilation Efficiency {dimensionless}, Def: 0.0, #6

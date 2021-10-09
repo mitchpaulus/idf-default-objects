@@ -1,0 +1,9 @@
+! Min Fields: 7
+SimulationControl,
+  No,   ! Do Zone Sizing Calculation Def: No, [Yes, No], #1
+  No,   ! Do System Sizing Calculation Def: No, [Yes, No], #2
+  No,   ! Do Plant Sizing Calculation Def: No, [Yes, No], #3
+  Yes,   ! Run Simulation for Sizing Periods Def: Yes, [Yes, No], #4
+  Yes,   ! Run Simulation for Weather File Run Periods Def: Yes, [Yes, No], #5
+  No,   ! Do HVAC Sizing Simulation for Sizing Periods Def: No, [Yes, No], #6
+  1;   ! Maximum Number of HVAC Sizing Simulation Passes Def: 1, #7

@@ -1,0 +1,10 @@
+! Min Fields: 5
+Coil:Heating:DX:VariableRefrigerantFlow,
+  ,   ! Name RefList: [HeatingCoilsDX, HeatingCoilsDXSingleSpeed, HeatingCoilsDXVarRefrigFlow], REQ, #1
+  ,   ! Availability Schedule [ScheduleNames], #2
+  ,   ! Gross Rated Heating Capacity {W}, AS, REQ, #3
+  ,   ! Rated Air Flow Rate {m3/s}, AS, REQ, #4
+  ,   ! Coil Air Inlet Node REQ, #5
+  ,   ! Coil Air Outlet Node REQ, #6
+  ,   ! Heating Capacity Ratio Modifier Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], REQ, #7
+  ;   ! Heating Capacity Modifier Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #8

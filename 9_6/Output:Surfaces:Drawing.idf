@@ -1,0 +1,4 @@
+Output:Surfaces:Drawing,
+  ,   ! Report Type [DXF, DXF:WireFrame, VRML], REQ, #1
+  Triangulate3DFace,   ! Report Specifications 1 Def: Triangulate3DFace, [Triangulate3DFace, ThickPolyline, RegularPolyline], #2
+  ;   ! Report Specifications 2 [ColorSchemes], #3
