@@ -1,0 +1,19 @@
+! Min Fields: 8
+ZoneHVAC:ForcedAir:UserDefined,
+  ,   ! Name RefList: [validBranchEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Overall Model Simulation Program Calling Manager Name [ProgramNames], #2
+  ,   ! Model Setup and Sizing Program Calling Manager Name [ProgramNames], #3
+  ,   ! Primary Air Inlet Node Name REQ, #4
+  ,   ! Primary Air Outlet Node Name REQ, #5
+  ,   ! Secondary Air Inlet Node Name #6
+  ,   ! Secondary Air Outlet Node Name #7
+  ,   ! Number of Plant Loop Connections REQ, #8
+  ,   ! Plant Connection 1 Inlet Node Name #9
+  ,   ! Plant Connection 1 Outlet Node Name #10
+  ,   ! Plant Connection 2 Inlet Node Name #11
+  ,   ! Plant Connection 2 Outlet Node Name #12
+  ,   ! Plant Connection 3 Inlet Node Name #13
+  ,   ! Plant Connection 3 Outlet Node Name #14
+  ,   ! Supply Inlet Water Storage Tank Name [WaterStorageTankNames], #15
+  ,   ! Collection Outlet Water Storage Tank Name [WaterStorageTankNames], #16
+  ;   ! Ambient Zone Name [ZoneNames], #17

@@ -1,0 +1,18 @@
+! Min Fields: 4
+WaterHeater:Sizing,
+  ,   ! WaterHeater Name [WaterHeaterNames], REQ, #1
+  ,   ! Design Mode [PeakDraw, ResidentialHUD-FHAMinimum, PerPerson, PerFloorArea, PerUnit, PerSolarCollectorArea], #2
+  ,   ! Time Storage Can Meet Peak Draw {hr}, #3
+  ,   ! Time for Tank Recovery {hr}, #4
+  ,   ! Nominal Tank Volume for Autosizing Plant Connections {m3}, #5
+  ,   ! Number of Bedrooms #6
+  ,   ! Number of Bathrooms #7
+  ,   ! Storage Capacity per Person {m3/person}, #8
+  ,   ! Recovery Capacity per Person {m3/hr-person}, #9
+  ,   ! Storage Capacity per Floor Area {m3/m2}, #10
+  ,   ! Recovery Capacity per Floor Area {m3/hr-m2}, #11
+  ,   ! Number of Units #12
+  ,   ! Storage Capacity per Unit {m3}, #13
+  ,   ! Recovery Capacity PerUnit {m3/hr}, #14
+  ,   ! Storage Capacity per Collector Area {m3/m2}, #15
+  ;   ! Height Aspect Ratio #16

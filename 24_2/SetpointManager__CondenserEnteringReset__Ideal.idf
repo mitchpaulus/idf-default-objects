@@ -1,0 +1,7 @@
+! Min Fields: 5
+SetpointManager:CondenserEnteringReset:Ideal,
+  ,   ! Name REQ, #1
+  Temperature,   ! Control Variable Def: Temperature, [Temperature], #2
+  11.1,   ! Minimum Lift {deltaC}, Def: 11.1, #3
+  32,   ! Maximum Condenser Entering Water Temperature {C}, Def: 32, #4
+  ;   ! Setpoint Node or NodeList Name REQ, #5

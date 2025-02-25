@@ -1,0 +1,33 @@
+! Min Fields: 4
+PlantEquipmentOperation:OutdoorDryBulb,
+  ,   ! Name RefList: [ControlSchemeList], REQ, #1
+  ,   ! Dry-Bulb Temperature Range 1 Lower Limit {C}, REQ, #2
+  ,   ! Dry-Bulb Temperature Range 1 Upper Limit {C}, REQ, #3
+  ,   ! Range 1 Equipment List Name [PlantAndCondenserEquipmentLists], REQ, #4
+  ,   ! Dry-Bulb Temperature Range 2 Lower Limit {C}, #5
+  ,   ! Dry-Bulb Temperature Range 2 Upper Limit {C}, #6
+  ,   ! Range 2 Equipment List Name [PlantAndCondenserEquipmentLists], #7
+  ,   ! Dry-Bulb Temperature Range 3 Lower Limit {C}, #8
+  ,   ! Dry-Bulb Temperature Range 3 Upper Limit {C}, #9
+  ,   ! Range 3 Equipment List Name [PlantAndCondenserEquipmentLists], #10
+  ,   ! Dry-Bulb Temperature Range 4 Lower Limit {C}, #11
+  ,   ! Dry-Bulb Temperature Range 4 Upper Limit {C}, #12
+  ,   ! Range 4 Equipment List Name [PlantAndCondenserEquipmentLists], #13
+  ,   ! Dry-Bulb Temperature Range 5 Lower Limit {C}, #14
+  ,   ! Dry-Bulb Temperature Range 5 Upper Limit {C}, #15
+  ,   ! Range 5 Equipment List Name [PlantAndCondenserEquipmentLists], #16
+  ,   ! Dry-Bulb Temperature Range 6 Lower Limit {C}, #17
+  ,   ! Dry-Bulb Temperature Range 6 Upper Limit {C}, #18
+  ,   ! Range 6 Equipment List Name [PlantAndCondenserEquipmentLists], #19
+  ,   ! Dry-Bulb Temperature Range 7 Lower Limit {C}, #20
+  ,   ! Dry-Bulb Temperature Range 7 Upper Limit {C}, #21
+  ,   ! Range 7 Equipment List Name [PlantAndCondenserEquipmentLists], #22
+  ,   ! Dry-Bulb Temperature Range 8 Lower Limit {C}, #23
+  ,   ! Dry-Bulb Temperature Range 8 Upper Limit {C}, #24
+  ,   ! Range 8 Equipment List Name [PlantAndCondenserEquipmentLists], #25
+  ,   ! Dry-Bulb Temperature Range 9 Lower Limit {C}, #26
+  ,   ! Dry-Bulb Temperature Range 9 Upper Limit {C}, #27
+  ,   ! Range 9 Equipment List Name [PlantAndCondenserEquipmentLists], #28
+  ,   ! Dry-Bulb Temperature Range 10 Lower Limit {C}, #29
+  ,   ! Dry-Bulb Temperature Range 10 Upper Limit {C}, #30
+  ;   ! Range 10 Equipment List Name [PlantAndCondenserEquipmentLists], #31

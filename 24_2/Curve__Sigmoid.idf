@@ -1,0 +1,13 @@
+Curve:Sigmoid,
+  ,   ! Name RefList: [UnivariateFunctions], REQ, #1
+  ,   ! Coefficient1 C1 REQ, #2
+  ,   ! Coefficient2 C2 REQ, #3
+  ,   ! Coefficient3 C3 REQ, #4
+  ,   ! Coefficient4 C4 REQ, #5
+  ,   ! Coefficient5 C5 REQ, #6
+  ,   ! Minimum Value of x REQ, #7
+  ,   ! Maximum Value of x REQ, #8
+  ,   ! Minimum Curve Output #9
+  ,   ! Maximum Curve Output #10
+  Dimensionless,   ! Input Unit Type for x Def: Dimensionless, [Dimensionless], #11
+  Dimensionless;   ! Output Unit Type Def: Dimensionless, [Dimensionless], #12

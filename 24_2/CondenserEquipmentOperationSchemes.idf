@@ -1,0 +1,27 @@
+! Min Fields: 4
+CondenserEquipmentOperationSchemes,
+  ,   ! Name RefList: [CondenserOperationSchemes], REQ, #1
+  ,   ! Control Scheme 1 Object Type [PlantEquipmentOperation:Uncontrolled, PlantEquipmentOperation:CoolingLoad, PlantEquipmentOperation:HeatingLoad, PlantEquipmentOperation:OutdoorDryBulb, PlantEquipmentOperation:OutdoorWetBulb, PlantEquipmentOperation:OutdoorRelativeHumidity, PlantEquipmentOperation:OutdoorDewpoint, PlantEquipmentOperation:OutdoorDryBulbDifference, PlantEquipmentOperation:OutdoorWetBulbDifference, PlantEquipmentOperation:OutdoorDewpointDifference, PlantEquipmentOperation:UserDefined], REQ, #2
+  ,   ! Control Scheme 1 Name [ControlSchemeList], REQ, #3
+  ,   ! Control Scheme 1 Schedule Name [ScheduleNames], REQ, #4
+  ,   ! Control Scheme 2 Object Type [PlantEquipmentOperation:Uncontrolled, PlantEquipmentOperation:CoolingLoad, PlantEquipmentOperation:HeatingLoad, PlantEquipmentOperation:OutdoorDryBulb, PlantEquipmentOperation:OutdoorWetBulb, PlantEquipmentOperation:OutdoorRelativeHumidity, PlantEquipmentOperation:OutdoorDewpoint, PlantEquipmentOperation:OutdoorDryBulbDifference, PlantEquipmentOperation:OutdoorWetBulbDifference, PlantEquipmentOperation:OutdoorDewpointDifference, PlantEquipmentOperation:UserDefined], #5
+  ,   ! Control Scheme 2 Name [ControlSchemeList], #6
+  ,   ! Control Scheme 2 Schedule Name [ScheduleNames], #7
+  ,   ! Control Scheme 3 Object Type [PlantEquipmentOperation:Uncontrolled, PlantEquipmentOperation:CoolingLoad, PlantEquipmentOperation:HeatingLoad, PlantEquipmentOperation:OutdoorDryBulb, PlantEquipmentOperation:OutdoorWetBulb, PlantEquipmentOperation:OutdoorRelativeHumidity, PlantEquipmentOperation:OutdoorDewpoint, PlantEquipmentOperation:OutdoorDryBulbDifference, PlantEquipmentOperation:OutdoorWetBulbDifference, PlantEquipmentOperation:OutdoorDewpointDifference, PlantEquipmentOperation:UserDefined], #8
+  ,   ! Control Scheme 3 Name [ControlSchemeList], #9
+  ,   ! Control Scheme 3 Schedule Name [ScheduleNames], #10
+  ,   ! Control Scheme 4 Object Type [PlantEquipmentOperation:Uncontrolled, PlantEquipmentOperation:CoolingLoad, PlantEquipmentOperation:HeatingLoad, PlantEquipmentOperation:OutdoorDryBulb, PlantEquipmentOperation:OutdoorWetBulb, PlantEquipmentOperation:OutdoorRelativeHumidity, PlantEquipmentOperation:OutdoorDewpoint, PlantEquipmentOperation:OutdoorDryBulbDifference, PlantEquipmentOperation:OutdoorWetBulbDifference, PlantEquipmentOperation:OutdoorDewpointDifference, PlantEquipmentOperation:UserDefined], #11
+  ,   ! Control Scheme 4 Name [ControlSchemeList], #12
+  ,   ! Control Scheme 4 Schedule Name [ScheduleNames], #13
+  ,   ! Control Scheme 5 Object Type [PlantEquipmentOperation:Uncontrolled, PlantEquipmentOperation:CoolingLoad, PlantEquipmentOperation:HeatingLoad, PlantEquipmentOperation:OutdoorDryBulb, PlantEquipmentOperation:OutdoorWetBulb, PlantEquipmentOperation:OutdoorRelativeHumidity, PlantEquipmentOperation:OutdoorDewpoint, PlantEquipmentOperation:OutdoorDryBulbDifference, PlantEquipmentOperation:OutdoorWetBulbDifference, PlantEquipmentOperation:OutdoorDewpointDifference, PlantEquipmentOperation:UserDefined], #14
+  ,   ! Control Scheme 5 Name [ControlSchemeList], #15
+  ,   ! Control Scheme 5 Schedule Name [ScheduleNames], #16
+  ,   ! Control Scheme 6 Object Type [PlantEquipmentOperation:Uncontrolled, PlantEquipmentOperation:CoolingLoad, PlantEquipmentOperation:HeatingLoad, PlantEquipmentOperation:OutdoorDryBulb, PlantEquipmentOperation:OutdoorWetBulb, PlantEquipmentOperation:OutdoorRelativeHumidity, PlantEquipmentOperation:OutdoorDewpoint, PlantEquipmentOperation:OutdoorDryBulbDifference, PlantEquipmentOperation:OutdoorWetBulbDifference, PlantEquipmentOperation:OutdoorDewpointDifference, PlantEquipmentOperation:UserDefined], #17
+  ,   ! Control Scheme 6 Name [ControlSchemeList], #18
+  ,   ! Control Scheme 6 Schedule Name [ScheduleNames], #19
+  ,   ! Control Scheme 7 Object Type [PlantEquipmentOperation:Uncontrolled, PlantEquipmentOperation:CoolingLoad, PlantEquipmentOperation:HeatingLoad, PlantEquipmentOperation:OutdoorDryBulb, PlantEquipmentOperation:OutdoorWetBulb, PlantEquipmentOperation:OutdoorRelativeHumidity, PlantEquipmentOperation:OutdoorDewpoint, PlantEquipmentOperation:OutdoorDryBulbDifference, PlantEquipmentOperation:OutdoorWetBulbDifference, PlantEquipmentOperation:OutdoorDewpointDifference, PlantEquipmentOperation:UserDefined], #20
+  ,   ! Control Scheme 7 Name [ControlSchemeList], #21
+  ,   ! Control Scheme 7 Schedule Name [ScheduleNames], #22
+  ,   ! Control Scheme 8 Object Type [PlantEquipmentOperation:Uncontrolled, PlantEquipmentOperation:CoolingLoad, PlantEquipmentOperation:HeatingLoad, PlantEquipmentOperation:OutdoorDryBulb, PlantEquipmentOperation:OutdoorWetBulb, PlantEquipmentOperation:OutdoorRelativeHumidity, PlantEquipmentOperation:OutdoorDewpoint, PlantEquipmentOperation:OutdoorDryBulbDifference, PlantEquipmentOperation:OutdoorWetBulbDifference, PlantEquipmentOperation:OutdoorDewpointDifference, PlantEquipmentOperation:UserDefined], #23
+  ,   ! Control Scheme 8 Name [ControlSchemeList], #24
+  ;   ! Control Scheme 8 Schedule Name [ScheduleNames], #25

@@ -1,0 +1,11 @@
+Curve:RectangularHyperbola2,
+  ,   ! Name RefList: [UnivariateFunctions], REQ, #1
+  ,   ! Coefficient1 C1 REQ, #2
+  ,   ! Coefficient2 C2 REQ, #3
+  ,   ! Coefficient3 C3 REQ, #4
+  ,   ! Minimum Value of x REQ, #5
+  ,   ! Maximum Value of x REQ, #6
+  ,   ! Minimum Curve Output #7
+  ,   ! Maximum Curve Output #8
+  Dimensionless,   ! Input Unit Type for x Def: Dimensionless, [Dimensionless], #9
+  Dimensionless;   ! Output Unit Type Def: Dimensionless, [Dimensionless], #10

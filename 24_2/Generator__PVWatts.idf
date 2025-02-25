@@ -1,0 +1,13 @@
+! Min Fields: 9
+Generator:PVWatts,
+  ,   ! Name RefList: [GeneratorNames], REQ, #1
+  ,   ! PVWatts Version [5], #2
+  ,   ! DC System Capacity {W}, REQ, #3
+  ,   ! Module Type [Standard, Premium, ThinFilm], REQ, #4
+  ,   ! Array Type [FixedOpenRack, FixedRoofMounted, OneAxis, OneAxisBacktracking, TwoAxis], REQ, #5
+  0.14,   ! System Losses Def: 0.14, #6
+  TiltAzimuth,   ! Array Geometry Type Def: TiltAzimuth, [TiltAzimuth, Surface], #7
+  20,   ! Tilt Angle {deg}, Def: 20, #8
+  180,   ! Azimuth Angle {deg}, Def: 180, #9
+  ,   ! Surface Name [AllShadingAndHTSurfNames], #10
+  0.4;   ! Ground Coverage Ratio Def: 0.4, #11

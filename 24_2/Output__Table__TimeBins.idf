@@ -1,0 +1,9 @@
+! Min Fields: 5
+Output:Table:TimeBins,
+  *,   ! Key Value Def: *, #1
+  ,   ! Variable Name REQ, #2
+  ,   ! Interval Start #3
+  ,   ! Interval Size #4
+  ,   ! Interval Count #5
+  ,   ! Schedule Name [ScheduleNames], #6
+  ;   ! Variable Type [Energy, Temperature, VolumetricFlow, Power], #7

@@ -1,0 +1,12 @@
+Table:IndependentVariable,
+  ,   ! Name RefList: [IndependentVariableName], REQ, #1
+  Linear,   ! Interpolation Method Def: Linear, [Linear, Cubic], #2
+  Constant,   ! Extrapolation Method Def: Constant, [Constant, Linear], #3
+  ,   ! Minimum Value #4
+  ,   ! Maximum Value #5
+  ,   ! Normalization Reference Value #6
+  Dimensionless,   ! Unit Type Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance, Angle], #7
+  ,   ! External File Name #8
+  ,   ! External File Column Number #9
+  ,   ! External File Starting Row Number #10
+  ;   ! Value 1 #11

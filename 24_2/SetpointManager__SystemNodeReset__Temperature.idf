@@ -1,0 +1,9 @@
+SetpointManager:SystemNodeReset:Temperature,
+  ,   ! Name REQ, #1
+  ,   ! Control Variable [Temperature, MaximumTemperature, MinimumTemperature], REQ, #2
+  ,   ! Setpoint at Low Reference Temperature {C}, REQ, #3
+  ,   ! Setpoint at High Reference Temperature {C}, REQ, #4
+  ,   ! Low Reference Temperature {C}, REQ, #5
+  ,   ! High Reference Temperature {C}, REQ, #6
+  ,   ! Reference Node Name REQ, #7
+  ;   ! Setpoint Node or NodeList Name REQ, #8

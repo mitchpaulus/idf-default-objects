@@ -1,0 +1,9 @@
+ComponentCost:Reference,
+  ,   ! Reference Building Line Item Costs {$}, #1
+  ,   ! Reference Building Miscellaneous Cost per Conditioned Area {$/m2}, #2
+  ,   ! Reference Building Design and Engineering Fees {dimensionless}, #3
+  ,   ! Reference Building Contractor Fee {dimensionless}, #4
+  ,   ! Reference Building Contingency #5
+  ,   ! Reference Building Permits, Bonding and Insurance {dimensionless}, #6
+  ,   ! Reference Building Commissioning Fee {dimensionless}, #7
+  ;   ! Reference Building Regional Adjustment Factor {dimensionless}, #8

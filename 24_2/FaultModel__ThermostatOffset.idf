@@ -1,0 +1,7 @@
+! Min Fields: 5
+FaultModel:ThermostatOffset,
+  ,   ! Name RefList: [ThermostatOffsetFaults], REQ, #1
+  ,   ! Thermostat Name [ZoneControlThermostaticNames], REQ, #2
+  ,   ! Availability Schedule Name [ScheduleNames], #3
+  ,   ! Severity Schedule Name [ScheduleNames], #4
+  2;   ! Reference Thermostat Offset {deltaC}, Def: 2, #5

@@ -16,4 +16,18 @@ HeatPump:AirToWater:FuelFired:Heating,
   NotModulated,   ! Flow Mode Def: NotModulated, [NotModulated, ConstantFlow, LeavingSetpointModulated], REQ, #14
   DryBulb,   ! Outdoor Air Temperature Curve Input Variable Def: DryBulb, [DryBulb, WetBulb], REQ, #15
   EnteringCondenser,   ! Water Temperature Curve Input Variable Def: EnteringCondenser, [EnteringCondenser, LeavingCondenser], REQ, #16
-  ;   ! Normalized Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #17
+  ,   ! Normalized Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #17
+  ,   ! Fuel Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #18
+  ,   ! Fuel Energy Input Ratio Function of PLR Curve Name [UnivariateFunctions], REQ, #19
+  0.1,   ! Minimum Part Load Ratio Def: 0.1, #20
+  1.0,   ! Maximum Part Load Ratio Def: 1.0, #21
+  Timed,   ! Defrost Control Type Def: Timed, [Timed, OnDemand], #22
+  0,   ! Defrost Operation Time Fraction Def: 0, #23
+  ,   ! Fuel Energy Input Ratio Defrost Adjustment Curve Name [UnivariateFunctions], #24
+  0,   ! Resistive Defrost Heater Capacity {W}, Def: 0, #25
+  5,   ! Maximum Outdoor Dry-bulb Temperature for Defrost Operation {C}, Def: 5, #26
+  ,   ! Cycling Ratio Factor Curve Name [UnivariateFunctions], #27
+  ,   ! Nominal Auxiliary Electric Power {W}, #28
+  ,   ! Auxiliary Electric Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #29
+  ,   ! Auxiliary Electric Energy Input Ratio Function of PLR Curve Name [UnivariateFunctions], #30
+  0;   ! Standby Electric Power {W}, Def: 0, #31

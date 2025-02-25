@@ -1,0 +1,15 @@
+Generator:FuelCell:AirSupply,
+  ,   ! Name RefList: [FCAirSupNames], REQ, #1
+  ,   ! Air Inlet Node Name #2
+  ,   ! Blower Power Curve Name [UnivariateFunctions], #3
+  ,   ! Blower Heat Loss Factor #4
+  ,   ! Air Supply Rate Calculation Mode [AirRatiobyStoics, QuadraticFunctionofElectricPower, QuadraticFunctionofFuelRate], REQ, #5
+  ,   ! Stoichiometric Ratio #6
+  ,   ! Air Rate Function of Electric Power Curve Name [UnivariateFunctions], #7
+  ,   ! Air Rate Air Temperature Coefficient #8
+  ,   ! Air Rate Function of Fuel Rate Curve Name [UnivariateFunctions], #9
+  ,   ! Air Intake Heat Recovery Mode [NoRecovery, RecoverBurnerInverterStorage, RecoverAuxiliaryBurner, RecoverInverterandStorage, RecoverInverter, RecoverElectricalStorage], REQ, #10
+  ,   ! Air Supply Constituent Mode [AmbientAir, UserDefinedConstituents], REQ, #11
+  ,   ! Number of UserDefined Constituents #12
+  ,   ! Constituent 1 Name [CarbonDioxide, Nitrogen, Oxygen, Water, Argon], #13
+  ;   ! Molar Fraction 1 #14

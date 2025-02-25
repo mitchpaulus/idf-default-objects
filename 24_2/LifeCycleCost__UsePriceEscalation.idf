@@ -1,0 +1,6 @@
+LifeCycleCost:UsePriceEscalation,
+  ,   ! LCC Price Escalation Name REQ, #1
+  ,   ! Resource [Electricity, ElectricityPurchased, ElectricityProduced, ElectricitySurplusSold, ElectricityNet, NaturalGas, DistrictCooling, DistrictHeatingWater, DistrictHeatingSteam, Gasoline, Diesel, Coal, FuelOilNo1, FuelOilNo2, Propane, OtherFuel1, OtherFuel2, Water], REQ, #2
+  ,   ! Escalation Start Year #3
+  January,   ! Escalation Start Month Def: January, [January, February, March, April, May, June, July, August, September, October, November, December], #4
+  ;   ! Year 1 Escalation #5

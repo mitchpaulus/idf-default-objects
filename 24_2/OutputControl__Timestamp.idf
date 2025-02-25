@@ -1,0 +1,3 @@
+OutputControl:Timestamp,
+  No,   ! ISO 8601 Format Def: No, [Yes, No], #1
+  No;   ! Timestamp at Beginning of Interval Def: No, [Yes, No], #2

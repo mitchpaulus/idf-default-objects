@@ -1,0 +1,4 @@
+! Min Fields: 2
+PythonPlugin:Variables,
+  ,   ! Name REQ, #1
+  ;   ! Variable Name 1 #2

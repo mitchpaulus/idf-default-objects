@@ -1,0 +1,20 @@
+ElectricLoadCenter:Transformer,
+  ,   ! Name RefList: [TransformerNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  PowerInFromGrid,   ! Transformer Usage Def: PowerInFromGrid, [PowerInFromGrid, PowerOutToGrid, LoadCenterPowerConditioning], #3
+  ,   ! Zone Name [ZoneNames], #4
+  0,   ! Radiative Fraction Def: 0, #5
+  ,   ! Rated Capacity {VA}, #6
+  3,   ! Phase Def: 3, [1, 3], #7
+  Aluminum,   ! Conductor Material Def: Aluminum, [Copper, Aluminum], #8
+  150,   ! Full Load Temperature Rise {C}, Def: 150, #9
+  0.1,   ! Fraction of Eddy Current Losses Def: 0.1, #10
+  RatedLosses,   ! Performance Input Method Def: RatedLosses, [RatedLosses, NominalEfficiency], #11
+  ,   ! Rated No Load Loss {W}, #12
+  ,   ! Rated Load Loss {W}, #13
+  0.98,   ! Nameplate Efficiency Def: 0.98, #14
+  0.35,   ! Per Unit Load for Nameplate Efficiency Def: 0.35, #15
+  75,   ! Reference Temperature for Nameplate Efficiency {C}, Def: 75, #16
+  ,   ! Per Unit Load for Maximum Efficiency #17
+  Yes,   ! Consider Transformer Loss for Utility Cost Def: Yes, [Yes, No], #18
+  ;   ! Meter 1 Name #19

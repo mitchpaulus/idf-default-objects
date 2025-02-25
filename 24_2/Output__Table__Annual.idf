@@ -1,0 +1,7 @@
+Output:Table:Annual,
+  ,   ! Name REQ, #1
+  ,   ! Filter #2
+  ,   ! Schedule Name [ScheduleNames], #3
+  ,   ! Variable or Meter or EMS Variable or Field 1 Name #4
+  ,   ! Aggregation Type for Variable or Meter 1 [SumOrAverage, Maximum, Minimum, ValueWhenMaximumOrMinimum, HoursNonZero, HoursZero, HoursPositive, HoursNonPositive, HoursNegative, HoursNonNegative, HourInTenBinsMinToMax, HourInTenBinsZeroToMax, HourInTenBinsMinToZero, SumOrAverageDuringHoursShown, MaximumDuringHoursShown, MinimumDuringHoursShown], #5
+  2;   ! Digits After Decimal 1 Def: 2, #6

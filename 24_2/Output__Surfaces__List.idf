@@ -1,0 +1,3 @@
+Output:Surfaces:List,
+  ,   ! Report Type [Details, Vertices, DetailsWithVertices, ViewFactorInfo, Lines, CostInfo, DecayCurvesFromComponentLoadsSummary], REQ, #1
+  ;   ! Report Specifications [IDF], #2

@@ -1,0 +1,7 @@
+! Min Fields: 5
+ThermalStorage:Ice:Simple,
+  ,   ! Name RefList: [IceThermalStorageEquipment, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Ice Storage Type [IceOnCoilInternal, IceOnCoilExternal], REQ, #2
+  ,   ! Capacity {GJ}, REQ, #3
+  ,   ! Inlet Node Name REQ, #4
+  ;   ! Outlet Node Name REQ, #5

@@ -1,0 +1,19 @@
+PlantEquipmentOperation:ChillerHeaterChangeover,
+  ,   ! Name RefList: [ControlSchemeList], REQ, #1
+  ,   ! Primary Cooling Plant Setpoint Temperature {C}, REQ, #2
+  ,   ! Secondary Distribution Cooling Plant Setpoint Temperature {C}, #3
+  ,   ! Primary Heating Plant Setpoint at Outdoor High Temperature {C}, REQ, #4
+  ,   ! Outdoor High Temperature {C}, REQ, #5
+  ,   ! Primary Heating Plant Setpoint at Outdoor Low Temperature {C}, REQ, #6
+  ,   ! Outdoor Low Temperature {C}, REQ, #7
+  ,   ! Secondary Distribution Heating Plant Setpoint Temperature {C}, #8
+  ,   ! Zone Load Polling ZoneList Name [ZoneListNames], #9
+  ,   ! Cooling Only Load Plant Equipment Operation Cooling Load Name [ControlSchemeList], #10
+  ,   ! Heating Only Load Plant Equipment Operation Heating Load Name [ControlSchemeList], #11
+  ,   ! Simultaneous Cooling And Heating Plant Equipment Operation Cooling Load Name [ControlSchemeList], #12
+  ,   ! Simultaneous Cooling And Heating Plant Equipment Operation Heating Load Name [ControlSchemeList], #13
+  ,   ! Dedicated Chilled Water Return Recovery Heat Pump Name [PLHPCoolingNames], #14
+  ,   ! Dedicated Hot Water Return Recovery Heat Pump Name [PLHPHeatingNames], #15
+  0.5,   ! Boiler Setpoint Temperature Offset {deltaC}, Def: 0.5, #16
+  ,   ! Primary Heating Plant Setpoint at Backup Outdoor Low Temperature {C}, #17
+  ;   ! Backup Outdoor Low Temperature {C}, #18

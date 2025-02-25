@@ -1,0 +1,25 @@
+Curve:QuintLinear,
+  ,   ! Name RefList: [QuintvariateFunctions], REQ, #1
+  ,   ! Coefficient1 Constant REQ, #2
+  ,   ! Coefficient2 v REQ, #3
+  ,   ! Coefficient3 w REQ, #4
+  ,   ! Coefficient4 x REQ, #5
+  ,   ! Coefficient5 y REQ, #6
+  ,   ! Coefficient6 z REQ, #7
+  ,   ! Minimum Value of v REQ, #8
+  ,   ! Maximum Value of v REQ, #9
+  ,   ! Minimum Value of w REQ, #10
+  ,   ! Maximum Value of w REQ, #11
+  ,   ! Minimum Value of x REQ, #12
+  ,   ! Maximum Value of x REQ, #13
+  ,   ! Minimum Value of y REQ, #14
+  ,   ! Maximum Value of y REQ, #15
+  ,   ! Minimum Value of z REQ, #16
+  ,   ! Maximum Value of z REQ, #17
+  ,   ! Minimum Curve Output #18
+  ,   ! Maximum Curve Output #19
+  Dimensionless,   ! Input Unit Type for v Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance, VolumetricFlowPerPower], #20
+  Dimensionless,   ! Input Unit Type for w Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance, VolumetricFlowPerPower], #21
+  Dimensionless,   ! Input Unit Type for x Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance, VolumetricFlowPerPower], #22
+  Dimensionless,   ! Input Unit Type for y Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance, VolumetricFlowPerPower], #23
+  Dimensionless;   ! Input Unit Type for z Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance, VolumetricFlowPerPower], #24

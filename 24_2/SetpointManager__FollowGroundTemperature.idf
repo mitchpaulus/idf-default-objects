@@ -1,0 +1,8 @@
+SetpointManager:FollowGroundTemperature,
+  ,   ! Name REQ, #1
+  Temperature,   ! Control Variable Def: Temperature, [Temperature, MinimumTemperature, MaximumTemperature], #2
+  ,   ! Reference Ground Temperature Object Type [Site:GroundTemperature:BuildingSurface, Site:GroundTemperature:Shallow, Site:GroundTemperature:Deep, Site:GroundTemperature:FCfactorMethod], #3
+  ,   ! Offset Temperature Difference {deltaC}, #4
+  ,   ! Maximum Setpoint Temperature {C}, #5
+  ,   ! Minimum Setpoint Temperature {C}, #6
+  ;   ! Setpoint Node or NodeList Name REQ, #7

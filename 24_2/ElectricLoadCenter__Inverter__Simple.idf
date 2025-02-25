@@ -1,0 +1,6 @@
+ElectricLoadCenter:Inverter:Simple,
+  ,   ! Name RefList: [InverterList], #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], #3
+  ,   ! Radiative Fraction #4
+  ;   ! Inverter Efficiency #5

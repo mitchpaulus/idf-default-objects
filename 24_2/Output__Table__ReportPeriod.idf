@@ -1,0 +1,11 @@
+Output:Table:ReportPeriod,
+  ,   ! Name, REQ, #1
+  ,   ! Report Name, [ThermalResilienceSummary, CO2ResilienceSummary, VisualResilienceSummary, AllResilienceSummaries], #2
+  ,   ! Begin Year #3
+  ,   ! Begin Month REQ, #4
+  ,   ! Begin Day of Month REQ, #5
+  ,   ! Begin Hour of Day REQ, #6
+  ,   ! End Year #7
+  ,   ! End Month REQ, #8
+  ,   ! End Day of Month REQ, #9
+  ;   ! End Hour of Day REQ, #10

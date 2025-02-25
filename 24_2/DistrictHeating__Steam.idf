@@ -1,0 +1,6 @@
+DistrictHeating:Steam,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes, validCondenserEquipmentTypes], REQ, #1
+  ,   ! Steam Inlet Node Name REQ, #2
+  ,   ! Steam Outlet Node Name REQ, #3
+  ,   ! Nominal Capacity {W}, AS, #4
+  ;   ! Capacity Fraction Schedule Name [ScheduleNames], #5

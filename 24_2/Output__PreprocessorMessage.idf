@@ -1,0 +1,13 @@
+Output:PreprocessorMessage,
+  ,   ! Preprocessor Name #1
+  ,   ! Error Severity [Information, Warning, Severe, Fatal], #2
+  ,   ! Message Line 1 #3
+  ,   ! Message Line 2 #4
+  ,   ! Message Line 3 #5
+  ,   ! Message Line 4 #6
+  ,   ! Message Line 5 #7
+  ,   ! Message Line 6 #8
+  ,   ! Message Line 7 #9
+  ,   ! Message Line 8 #10
+  ,   ! Message Line 9 #11
+  ;   ! Message Line 10 #12

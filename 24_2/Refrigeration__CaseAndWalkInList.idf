@@ -1,0 +1,3 @@
+Refrigeration:CaseAndWalkInList,
+  ,   ! Name RefList: [RefrigerationCaseAndWalkInAndListNames], REQ, #1
+  ;   ! Case or WalkIn 1 Name [RefrigerationCaseAndWalkInNames], #2

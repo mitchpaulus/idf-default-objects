@@ -1,0 +1,8 @@
+! Min Fields: 6
+FaultModel:Fouling:EvaporativeCooler,
+  ,   ! Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Severity Schedule Name [ScheduleNames], #3
+  ,   ! Evaporative Cooler Object Type [EvaporativeCooler:Indirect:WetCoil], REQ, #4
+  ,   ! Evaporative Cooler Object Name [Chillers], REQ, #5
+  1;   ! Fouling Factor {dimensionless}, Def: 1, #6

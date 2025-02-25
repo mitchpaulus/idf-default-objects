@@ -1,0 +1,4 @@
+! Min Fields: 2
+PlantEquipmentOperation:Uncontrolled,
+  ,   ! Name RefList: [ControlSchemeList], REQ, #1
+  ;   ! Equipment List Name [PlantAndCondenserEquipmentLists], REQ, #2

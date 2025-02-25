@@ -1,0 +1,5 @@
+! Min Fields: 1
+ElectricLoadCenter:Inverter:PVWatts,
+  ,   ! Name RefList: [InverterList], #1
+  1.10,   ! DC to AC Size Ratio Def: 1.10, #2
+  0.96;   ! Inverter Efficiency Def: 0.96, #3

@@ -1,0 +1,14 @@
+ComponentCost:LineItem,
+  ,   ! Name #1
+  ,   ! Type #2
+  ,   ! Line Item Type [General, Construction, Coil:DX, Coil:Cooling:DX, Coil:Cooling:DX:SingleSpeed, Coil:Heating:Fuel, Chiller:Electric, Daylighting:Controls, Shading:Zone:Detailed, Lights, Generator:Photovoltaic], REQ, #3
+  ,   ! Item Name REQ, #4
+  ,   ! Object End-Use Key #5
+  ,   ! Cost per Each {$}, #6
+  ,   ! Cost per Area {$/m2}, #7
+  ,   ! Cost per Unit of Output Capacity {$/kW}, #8
+  ,   ! Cost per Unit of Output Capacity per COP {$/kW}, #9
+  ,   ! Cost per Volume {$/m3}, #10
+  ,   ! Cost per Volume Rate {$/(m3/s)}, #11
+  ,   ! Cost per Energy per Temperature Difference {$/(W/K)}, #12
+  ;   ! Quantity {dimensionless}, #13

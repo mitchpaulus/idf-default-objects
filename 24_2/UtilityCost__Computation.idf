@@ -1,0 +1,33 @@
+UtilityCost:Computation,
+  ,   ! Name REQ, #1
+  ,   ! Tariff Name [UtilityCostTariffs], REQ, #2
+  ,   ! Compute Step 1 #3
+  ,   ! Compute Step 2 #4
+  ,   ! Compute Step 3 #5
+  ,   ! Compute Step 4 #6
+  ,   ! Compute Step 5 #7
+  ,   ! Compute Step 6 #8
+  ,   ! Compute Step 7 #9
+  ,   ! Compute Step 8 #10
+  ,   ! Compute Step 9 #11
+  ,   ! Compute Step 10 #12
+  ,   ! Compute Step 11 #13
+  ,   ! Compute Step 12 #14
+  ,   ! Compute Step 13 #15
+  ,   ! Compute Step 14 #16
+  ,   ! Compute Step 15 #17
+  ,   ! Compute Step 16 #18
+  ,   ! Compute Step 17 #19
+  ,   ! Compute Step 18 #20
+  ,   ! Compute Step 19 #21
+  ,   ! Compute Step 20 #22
+  ,   ! Compute Step 21 #23
+  ,   ! Compute Step 22 #24
+  ,   ! Compute Step 23 #25
+  ,   ! Compute Step 24 #26
+  ,   ! Compute Step 25 #27
+  ,   ! Compute Step 26 #28
+  ,   ! Compute Step 27 #29
+  ,   ! Compute Step 28 #30
+  ,   ! Compute Step 29 #31
+  ;   ! Compute Step 30 #32

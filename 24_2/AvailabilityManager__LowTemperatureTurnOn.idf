@@ -1,0 +1,4 @@
+AvailabilityManager:LowTemperatureTurnOn,
+  ,   ! Name RefList: [SystemAvailabilityManagers], REQ, #1
+  ,   ! Sensor Node Name REQ, #2
+  ;   ! Temperature {C}, REQ, #3

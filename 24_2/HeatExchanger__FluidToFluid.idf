@@ -1,0 +1,22 @@
+! Min Fields: 14
+HeatExchanger:FluidToFluid,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Loop Demand Side Inlet Node Name REQ, #3
+  ,   ! Loop Demand Side Outlet Node Name REQ, #4
+  ,   ! Loop Demand Side Design Flow Rate {m3/s}, AS, REQ, #5
+  ,   ! Loop Supply Side Inlet Node Name REQ, #6
+  ,   ! Loop Supply Side Outlet Node Name REQ, #7
+  ,   ! Loop Supply Side Design Flow Rate {m3/s}, AS, REQ, #8
+  Ideal,   ! Heat Exchange Model Type Def: Ideal, [CrossFlowBothUnMixed, CrossFlowBothMixed, CrossFlowSupplyMixedDemandUnMixed, CrossFlowSupplyUnMixedDemandMixed, ParallelFlow, CounterFlow, Ideal], #9
+  ,   ! Heat Exchanger U-Factor Times Area Value {W/K}, AS, REQ, #10
+  UncontrolledOn,   ! Control Type Def: UncontrolledOn, [UncontrolledOn, OperationSchemeModulated, OperationSchemeOnOff, HeatingSetpointModulated, HeatingSetpointOnOff, CoolingSetpointModulated, CoolingSetpointOnOff, DualDeadbandSetpointModulated, DualDeadbandSetpointOnOff, CoolingDifferentialOnOff, CoolingSetpointOnOffWithComponentOverride], #11
+  ,   ! Heat Exchanger Setpoint Node Name #12
+  0.01,   ! Minimum Temperature Difference to Activate Heat Exchanger {deltaC}, Def: 0.01, #13
+  LoopToLoop,   ! Heat Transfer Metering End Use Type Def: LoopToLoop, [FreeCooling, HeatRecovery, HeatRejection, HeatRecoveryForCooling, HeatRecoveryForHeating, LoopToLoop], #14
+  ,   ! Component Override Loop Supply Side Inlet Node Name #15
+  ,   ! Component Override Loop Demand Side Inlet Node Name #16
+  Loop,   ! Component Override Cooling Control Temperature Mode Def: Loop, [WetBulbTemperature, DryBulbTemperature, Loop], #17
+  1.0,   ! Sizing Factor Def: 1.0, #18
+  ,   ! Operation Minimum Temperature Limit {C}, #19
+  ;   ! Operation Maximum Temperature Limit {C}, #20

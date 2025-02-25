@@ -1,0 +1,8 @@
+! Min Fields: 6
+FaultModel:TemperatureSensorOffset:OutdoorAir,
+  ,   ! Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Severity Schedule Name [ScheduleNames], #3
+  ,   ! Controller Object Type [Controller:OutdoorAir], REQ, #4
+  ,   ! Controller Object Name [OAControllerNames], REQ, #5
+  0.0;   ! Temperature Sensor Offset {deltaC}, Def: 0.0, #6

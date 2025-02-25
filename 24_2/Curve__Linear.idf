@@ -1,0 +1,10 @@
+Curve:Linear,
+  ,   ! Name RefList: [UnivariateFunctions], REQ, #1
+  ,   ! Coefficient1 Constant REQ, #2
+  ,   ! Coefficient2 x REQ, #3
+  ,   ! Minimum Value of x REQ, #4
+  ,   ! Maximum Value of x REQ, #5
+  ,   ! Minimum Curve Output #6
+  ,   ! Maximum Curve Output #7
+  Dimensionless,   ! Input Unit Type for X Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, Pressure, MassFlow, Power, Distance], #8
+  Dimensionless;   ! Output Unit Type Def: Dimensionless, [Dimensionless, Capacity, Power, Temperature], #9

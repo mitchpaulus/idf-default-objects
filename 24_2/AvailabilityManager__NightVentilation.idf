@@ -1,0 +1,10 @@
+! Min Fields: 7
+AvailabilityManager:NightVentilation,
+  ,   ! Name RefList: [SystemAvailabilityManagers], REQ, #1
+  ,   ! Applicability Schedule Name [ScheduleNames], REQ, #2
+  ,   ! Fan Schedule Name [ScheduleNames], REQ, #3
+  ,   ! Ventilation Temperature Schedule Name [ScheduleNames], #4
+  2.0,   ! Ventilation Temperature Difference {deltaC}, Def: 2.0, #5
+  15.,   ! Ventilation Temperature Low Limit {C}, Def: 15., #6
+  1.,   ! Night Venting Flow Fraction Def: 1., #7
+  ;   ! Control Zone Name [ZoneNames], REQ, #8

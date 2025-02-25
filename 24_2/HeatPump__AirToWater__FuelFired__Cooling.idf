@@ -1,0 +1,28 @@
+! Min Fields: 26
+HeatPump:AirToWater:FuelFired:Cooling,
+  ,   ! Name RefList: [HeatPumpAirToWaterFuelFiredCoolingNames], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  ,   ! Air Source Node Name [OutdoorAirNodeNames], #4
+  ,   ! Companion Heating Heat Pump Name [HeatPumpAirToWaterFuelFiredHeatingNames], #5
+  NaturalGas,   ! Fuel Type Def: NaturalGas, [NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Diesel, Gasoline, Coal, OtherFuel1, OtherFuel2], REQ, #6
+  General,   ! End-Use Subcategory Def: General, #7
+  ,   ! Nominal Cooling Capacity {W}, AS, #8
+  1.0,   ! Nominal COP {W/W}, Def: 1.0, REQ, #9
+  ,   ! Design Flow Rate {m3/s}, AS, #10
+  7.0,   ! Design Supply Temperature {C}, Def: 7.0, #11
+  11.1,   ! Design Temperature Lift {deltaC}, Def: 11.1, AS, #12
+  1.0,   ! Sizing Factor Def: 1.0, #13
+  NotModulated,   ! Flow Mode Def: NotModulated, [NotModulated, ConstantFlow, LeavingSetpointModulated], REQ, #14
+  DryBulb,   ! Outdoor Air Temperature Curve Input Variable Def: DryBulb, [DryBulb, WetBulb], REQ, #15
+  EnteringEvaporator,   ! Water Temperature Curve Input Variable Def: EnteringEvaporator, [EnteringEvaporator, LeavingEvaporator], REQ, #16
+  ,   ! Normalized Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #17
+  ,   ! Fuel Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #18
+  ,   ! Fuel Energy Input Ratio Function of PLR Curve Name [UnivariateFunctions], REQ, #19
+  0.1,   ! Minimum Part Load Ratio Def: 0.1, #20
+  1.0,   ! Maximum Part Load Ratio Def: 1.0, #21
+  ,   ! Cycling Ratio Factor Curve Name [UnivariateFunctions], #22
+  ,   ! Nominal Auxiliary Electric Power {W}, #23
+  ,   ! Auxiliary Electric Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #24
+  ,   ! Auxiliary Electric Energy Input Ratio Function of PLR Curve Name [UnivariateFunctions], #25
+  0;   ! Standby Electric Power {W}, Def: 0, #26

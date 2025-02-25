@@ -1,0 +1,6 @@
+Meter:CustomDecrement,
+  ,   ! Name REQ, #1
+  ,   ! Resource Type [Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Diesel, Gasoline, Coal, OtherFuel1, OtherFuel2, DistrictHeatingWater, DistrictHeatingSteam, DistrictCooling, Water, Generic], #2
+  ,   ! Source Meter Name REQ, #3
+  ,   ! Key Name 1 #4
+  ;   ! Output Variable or Meter Name 1 #5

@@ -1,0 +1,9 @@
+SetpointManager:FollowSystemNodeTemperature,
+  ,   ! Name REQ, #1
+  Temperature,   ! Control Variable Def: Temperature, [Temperature, MinimumTemperature, MaximumTemperature], #2
+  ,   ! Reference Node Name #3
+  NodeDryBulb,   ! Reference Temperature Type Def: NodeDryBulb, [NodeWetBulb, NodeDryBulb], #4
+  ,   ! Offset Temperature Difference {deltaC}, #5
+  ,   ! Maximum Limit Setpoint Temperature {C}, #6
+  ,   ! Minimum Limit Setpoint Temperature {C}, #7
+  ;   ! Setpoint Node or NodeList Name REQ, #8

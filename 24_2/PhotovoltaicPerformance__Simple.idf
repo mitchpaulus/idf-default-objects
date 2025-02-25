@@ -1,0 +1,6 @@
+PhotovoltaicPerformance:Simple,
+  ,   ! Name RefList: [PVModules], #1
+  ,   ! Fraction of Surface Area with Active Solar Cells {dimensionless}, REQ, #2
+  ,   ! Conversion Efficiency Input Mode [Fixed, Scheduled], #3
+  ,   ! Value for Cell Efficiency if Fixed #4
+  ;   ! Efficiency Schedule Name [ScheduleNames], #5

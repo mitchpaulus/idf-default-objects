@@ -1,0 +1,41 @@
+Curve:Triquadratic,
+  ,   ! Name RefList: [TrivariateFunctions], REQ, #1
+  ,   ! Coefficient1 Constant #2
+  ,   ! Coefficient2 x**2 #3
+  ,   ! Coefficient3 x #4
+  ,   ! Coefficient4 y**2 #5
+  ,   ! Coefficient5 y #6
+  ,   ! Coefficient6 z**2 #7
+  ,   ! Coefficient7 z #8
+  ,   ! Coefficient8 x**2*y**2 #9
+  ,   ! Coefficient9 x*y #10
+  ,   ! Coefficient10 x*y**2 #11
+  ,   ! Coefficient11 x**2*y #12
+  ,   ! Coefficient12 x**2*z**2 #13
+  ,   ! Coefficient13 x*z #14
+  ,   ! Coefficient14 x*z**2 #15
+  ,   ! Coefficient15 x**2*z #16
+  ,   ! Coefficient16 y**2*z**2 #17
+  ,   ! Coefficient17 y*z #18
+  ,   ! Coefficient18 y*z**2 #19
+  ,   ! Coefficient19 y**2*z #20
+  ,   ! Coefficient20 x**2*y**2*z**2 #21
+  ,   ! Coefficient21 x**2*y**2*z #22
+  ,   ! Coefficient22 x**2*y*z**2 #23
+  ,   ! Coefficient23 x*y**2*z**2 #24
+  ,   ! Coefficient24 x**2*y*z #25
+  ,   ! Coefficient25 x*y**2*z #26
+  ,   ! Coefficient26 x*y*z**2 #27
+  ,   ! Coefficient27 x*y*z #28
+  ,   ! Minimum Value of x #29
+  ,   ! Maximum Value of x #30
+  ,   ! Minimum Value of y #31
+  ,   ! Maximum Value of y #32
+  ,   ! Minimum Value of z #33
+  ,   ! Maximum Value of z #34
+  ,   ! Minimum Curve Output #35
+  ,   ! Maximum Curve Output #36
+  Dimensionless,   ! Input Unit Type for X Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance], #37
+  Dimensionless,   ! Input Unit Type for Y Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance], #38
+  Dimensionless,   ! Input Unit Type for Z Def: Dimensionless, [Dimensionless, Temperature, VolumetricFlow, MassFlow, Power, Distance], #39
+  Dimensionless;   ! Output Unit Type Def: Dimensionless, [Dimensionless, Capacity, Power, Temperature], #40

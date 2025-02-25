@@ -1,0 +1,17 @@
+! Min Fields: 3
+UtilityCost:Variable,
+  ,   ! Name REQ, #1
+  ,   ! Tariff Name [UtilityCostTariffs], REQ, #2
+  Dimensionless,   ! Variable Type Def: Dimensionless, [Energy, Demand, Dimensionless, Currency], #3
+  ,   ! January Value #4
+  ,   ! February Value #5
+  ,   ! March Value #6
+  ,   ! April Value #7
+  ,   ! May Value #8
+  ,   ! June Value #9
+  ,   ! July Value #10
+  ,   ! August Value #11
+  ,   ! September Value #12
+  ,   ! October Value #13
+  ,   ! November Value #14
+  ;   ! December Value #15

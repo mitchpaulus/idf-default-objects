@@ -1,0 +1,3 @@
+FluidProperties:Name,
+  ,   ! Fluid Name RefList: [FluidNames, FluidAndGlycolNames], REQ, #1
+  ;   ! Fluid Type [Refrigerant, Glycol], REQ, #2

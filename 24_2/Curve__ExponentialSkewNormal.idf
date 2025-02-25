@@ -1,0 +1,12 @@
+Curve:ExponentialSkewNormal,
+  ,   ! Name RefList: [UnivariateFunctions], REQ, #1
+  ,   ! Coefficient1 C1 REQ, #2
+  ,   ! Coefficient2 C2 REQ, #3
+  ,   ! Coefficient3 C3 REQ, #4
+  ,   ! Coefficient4 C4 REQ, #5
+  ,   ! Minimum Value of x REQ, #6
+  ,   ! Maximum Value of x REQ, #7
+  ,   ! Minimum Curve Output #8
+  ,   ! Maximum Curve Output #9
+  Dimensionless,   ! Input Unit Type for x Def: Dimensionless, [Dimensionless], #10
+  Dimensionless;   ! Output Unit Type Def: Dimensionless, [Dimensionless], #11

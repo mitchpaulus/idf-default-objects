@@ -1,0 +1,43 @@
+WaterHeater:Mixed,
+  ,   ! Name RefList: [WaterHeaterNames, WaterHeaterMixedNames, validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  0.0,   ! Tank Volume {m3}, Def: 0.0, AS, #2
+  ,   ! Setpoint Temperature Schedule Name [ScheduleNames], REQ, #3
+  0.0,   ! Deadband Temperature Difference {deltaC}, Def: 0.0, #4
+  ,   ! Maximum Temperature Limit {C}, #5
+  Cycle,   ! Heater Control Type Def: Cycle, [Cycle, Modulate], #6
+  ,   ! Heater Maximum Capacity {W}, AS, #7
+  ,   ! Heater Minimum Capacity {W}, #8
+  0.0,   ! Heater Ignition Minimum Flow Rate {m3/s}, Def: 0.0, #9
+  0.0,   ! Heater Ignition Delay {s}, Def: 0.0, #10
+  ,   ! Heater Fuel Type [Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Coal, Diesel, Gasoline, OtherFuel1, OtherFuel2, DistrictHeatingWater, DistrictHeatingSteam], REQ, #11
+  ,   ! Heater Thermal Efficiency REQ, #12
+  ,   ! Part Load Factor Curve Name [UnivariateFunctions], #13
+  0.0,   ! Off Cycle Parasitic Fuel Consumption Rate {W}, Def: 0.0, #14
+  ,   ! Off Cycle Parasitic Fuel Type [Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Coal, Diesel, Gasoline, OtherFuel1, OtherFuel2, DistrictHeatingWater, DistrictHeatingSteam], #15
+  0.0,   ! Off Cycle Parasitic Heat Fraction to Tank Def: 0.0, #16
+  0.0,   ! On Cycle Parasitic Fuel Consumption Rate {W}, Def: 0.0, #17
+  ,   ! On Cycle Parasitic Fuel Type [Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Coal, Diesel, Gasoline, OtherFuel1, OtherFuel2, DistrictHeatingWater, DistrictHeatingSteam], #18
+  0.0,   ! On Cycle Parasitic Heat Fraction to Tank Def: 0.0, #19
+  ,   ! Ambient Temperature Indicator [Schedule, Zone, Outdoors], REQ, #20
+  ,   ! Ambient Temperature Schedule Name [ScheduleNames], #21
+  ,   ! Ambient Temperature Zone Name [ZoneNames], #22
+  ,   ! Ambient Temperature Outdoor Air Node Name #23
+  ,   ! Off Cycle Loss Coefficient to Ambient Temperature {W/K}, #24
+  1.0,   ! Off Cycle Loss Fraction to Zone Def: 1.0, #25
+  ,   ! On Cycle Loss Coefficient to Ambient Temperature {W/K}, #26
+  1.0,   ! On Cycle Loss Fraction to Zone Def: 1.0, #27
+  ,   ! Peak Use Flow Rate {m3/s}, #28
+  ,   ! Use Flow Rate Fraction Schedule Name [ScheduleNames], #29
+  ,   ! Cold Water Supply Temperature Schedule Name [ScheduleNames], #30
+  ,   ! Use Side Inlet Node Name #31
+  ,   ! Use Side Outlet Node Name #32
+  1.0,   ! Use Side Effectiveness Def: 1.0, #33
+  ,   ! Source Side Inlet Node Name #34
+  ,   ! Source Side Outlet Node Name #35
+  1.0,   ! Source Side Effectiveness Def: 1.0, #36
+  autosize,   ! Use Side Design Flow Rate {m3/s}, Def: autosize, AS, #37
+  autosize,   ! Source Side Design Flow Rate {m3/s}, Def: autosize, AS, #38
+  1.5,   ! Indirect Water Heating Recovery Time {hr}, Def: 1.5, #39
+  IndirectHeatPrimarySetpoint,   ! Source Side Flow Control Mode Def: IndirectHeatPrimarySetpoint, [StorageTank, IndirectHeatPrimarySetpoint, IndirectHeatAlternateSetpoint], #40
+  ,   ! Indirect Alternate Setpoint Temperature Schedule Name [ScheduleNames], #41
+  General;   ! End-Use Subcategory Def: General, #42

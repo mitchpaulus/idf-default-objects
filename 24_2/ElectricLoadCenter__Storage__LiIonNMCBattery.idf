@@ -1,0 +1,24 @@
+! Min Fields: 11
+ElectricLoadCenter:Storage:LiIonNMCBattery,
+  ,   ! Name RefList: [ElecStorageList], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], #3
+  0,   ! Radiative Fraction Def: 0, #4
+  KandlerSmith,   ! Lifetime Model Def: KandlerSmith, [None, KandlerSmith], #5
+  ,   ! Number of Cells in Series REQ, #6
+  ,   ! Number of Strings in Parallel REQ, #7
+  0.5,   ! Initial Fractional State of Charge Def: 0.5, #8
+  0.95,   ! DC to DC Charging Efficiency Def: 0.95, #9
+  ,   ! Battery Mass {kg}, REQ, #10
+  ,   ! Battery Surface Area {m2}, REQ, #11
+  1500,   ! Battery Specific Heat Capacity {J/kg-K}, Def: 1500, #12
+  7.5,   ! Heat Transfer Coefficient Between Battery and Ambient {W/m2-K}, Def: 7.5, #13
+  4.2,   ! Fully Charged Cell Voltage {V}, Def: 4.2, #14
+  3.53,   ! Cell Voltage at End of Exponential Zone {V}, Def: 3.53, #15
+  3.342,   ! Cell Voltage at End of Nominal Zone {V}, Def: 3.342, #16
+  3.342,   ! Default Nominal Cell Voltage {V}, Def: 3.342, #17
+  3.2,   ! Fully Charged Cell Capacity {Ah}, Def: 3.2, #18
+  0.8075,   ! Fraction of Cell Capacity Removed at the End of Exponential Zone Def: 0.8075, #19
+  0.976875,   ! Fraction of Cell Capacity Removed at the End of Nominal Zone Def: 0.976875, #20
+  1,   ! Charge Rate at Which Voltage vs Capacity Curve Was Generated Def: 1, #21
+  0.09;   ! Battery Cell Internal Electrical Resistance {ohms}, Def: 0.09, #22

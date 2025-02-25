@@ -1,0 +1,4 @@
+! Min Fields: 2
+Parametric:FileNameSuffix,
+  ,   ! Name #1
+  ;   ! Suffix for File Name in Run 1 #2

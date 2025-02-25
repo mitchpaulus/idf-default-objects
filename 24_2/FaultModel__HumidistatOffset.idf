@@ -1,0 +1,9 @@
+! Min Fields: 6
+FaultModel:HumidistatOffset,
+  ,   ! Name REQ, #1
+  ,   ! Humidistat Name [ZoneControlHumidistatNames], REQ, #2
+  ThermostatOffsetIndependent,   ! Humidistat Offset Type Def: ThermostatOffsetIndependent, [ThermostatOffsetIndependent, ThermostatOffsetDependent], #3
+  ,   ! Availability Schedule Name [ScheduleNames], #4
+  ,   ! Severity Schedule Name [ScheduleNames], #5
+  5,   ! Reference Humidistat Offset {percent}, Def: 5, #6
+  ;   ! Related Thermostat Offset Fault Name [ThermostatOffsetFaults], #7

@@ -1,0 +1,5 @@
+! Min Fields: 3
+EnergyManagementSystem:InternalVariable,
+  ,   ! Name REQ, #1
+  ,   ! Internal Data Index Key Name #2
+  ;   ! Internal Data Type REQ, #3

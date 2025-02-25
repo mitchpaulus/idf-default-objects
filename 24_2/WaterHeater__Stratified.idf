@@ -1,0 +1,68 @@
+WaterHeater:Stratified,
+  ,   ! Name RefList: [WaterHeaterNames, WaterHeaterStratifiedNames, validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  General,   ! End-Use Subcategory Def: General, #2
+  ,   ! Tank Volume {m3}, AS, REQ, #3
+  ,   ! Tank Height {m}, AS, REQ, #4
+  VerticalCylinder,   ! Tank Shape Def: VerticalCylinder, [VerticalCylinder, HorizontalCylinder, Other], #5
+  ,   ! Tank Perimeter {m}, #6
+  ,   ! Maximum Temperature Limit {C}, #7
+  MasterSlave,   ! Heater Priority Control Def: MasterSlave, [MasterSlave, Simultaneous], #8
+  ,   ! Heater 1 Setpoint Temperature Schedule Name [ScheduleNames], REQ, #9
+  0.0,   ! Heater 1 Deadband Temperature Difference {deltaC}, Def: 0.0, #10
+  ,   ! Heater 1 Capacity {W}, AS, #11
+  ,   ! Heater 1 Height {m}, #12
+  ,   ! Heater 2 Setpoint Temperature Schedule Name [ScheduleNames], REQ, #13
+  0.0,   ! Heater 2 Deadband Temperature Difference {deltaC}, Def: 0.0, #14
+  ,   ! Heater 2 Capacity {W}, #15
+  ,   ! Heater 2 Height {m}, #16
+  ,   ! Heater Fuel Type [Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Coal, Diesel, Gasoline, OtherFuel1, OtherFuel2, DistrictHeatingWater, DistrictHeatingSteam], REQ, #17
+  ,   ! Heater Thermal Efficiency REQ, #18
+  0.0,   ! Off Cycle Parasitic Fuel Consumption Rate {W}, Def: 0.0, #19
+  ,   ! Off Cycle Parasitic Fuel Type [Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Coal, Diesel, Gasoline, OtherFuel1, OtherFuel2, DistrictHeatingWater, DistrictHeatingSteam], #20
+  0.0,   ! Off Cycle Parasitic Heat Fraction to Tank Def: 0.0, #21
+  0.0,   ! Off Cycle Parasitic Height {m}, Def: 0.0, #22
+  0.0,   ! On Cycle Parasitic Fuel Consumption Rate {W}, Def: 0.0, #23
+  ,   ! On Cycle Parasitic Fuel Type [Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Coal, Diesel, Gasoline, OtherFuel1, OtherFuel2, DistrictHeatingWater, DistrictHeatingSteam], #24
+  0.0,   ! On Cycle Parasitic Heat Fraction to Tank Def: 0.0, #25
+  0.0,   ! On Cycle Parasitic Height {m}, Def: 0.0, #26
+  ,   ! Ambient Temperature Indicator [Schedule, Zone, Outdoors], REQ, #27
+  ,   ! Ambient Temperature Schedule Name [ScheduleNames], #28
+  ,   ! Ambient Temperature Zone Name [ZoneNames], #29
+  ,   ! Ambient Temperature Outdoor Air Node Name #30
+  ,   ! Uniform Skin Loss Coefficient per Unit Area to Ambient Temperature {W/m2-K}, #31
+  1.0,   ! Skin Loss Fraction to Zone Def: 1.0, #32
+  ,   ! Off Cycle Flue Loss Coefficient to Ambient Temperature {W/K}, #33
+  1.0,   ! Off Cycle Flue Loss Fraction to Zone Def: 1.0, #34
+  ,   ! Peak Use Flow Rate {m3/s}, #35
+  ,   ! Use Flow Rate Fraction Schedule Name [ScheduleNames], #36
+  ,   ! Cold Water Supply Temperature Schedule Name [ScheduleNames], #37
+  ,   ! Use Side Inlet Node Name #38
+  ,   ! Use Side Outlet Node Name #39
+  1.0,   ! Use Side Effectiveness Def: 1.0, #40
+  0.0,   ! Use Side Inlet Height {m}, Def: 0.0, #41
+  Autocalculate,   ! Use Side Outlet Height {m}, Def: Autocalculate, AC, #42
+  ,   ! Source Side Inlet Node Name #43
+  ,   ! Source Side Outlet Node Name #44
+  1.0,   ! Source Side Effectiveness Def: 1.0, #45
+  Autocalculate,   ! Source Side Inlet Height {m}, Def: Autocalculate, AC, #46
+  0.0,   ! Source Side Outlet Height {m}, Def: 0.0, #47
+  Fixed,   ! Inlet Mode Def: Fixed, [Fixed, Seeking], #48
+  autosize,   ! Use Side Design Flow Rate {m3/s}, Def: autosize, AS, #49
+  autosize,   ! Source Side Design Flow Rate {m3/s}, Def: autosize, AS, #50
+  1.5,   ! Indirect Water Heating Recovery Time {hr}, Def: 1.5, #51
+  1,   ! Number of Nodes Def: 1, #52
+  0.0,   ! Additional Destratification Conductivity {W/m-K}, Def: 0.0, #53
+  0.0,   ! Node 1 Additional Loss Coefficient {W/K}, Def: 0.0, #54
+  0.0,   ! Node 2 Additional Loss Coefficient {W/K}, Def: 0.0, #55
+  0.0,   ! Node 3 Additional Loss Coefficient {W/K}, Def: 0.0, #56
+  0.0,   ! Node 4 Additional Loss Coefficient {W/K}, Def: 0.0, #57
+  0.0,   ! Node 5 Additional Loss Coefficient {W/K}, Def: 0.0, #58
+  0.0,   ! Node 6 Additional Loss Coefficient {W/K}, Def: 0.0, #59
+  0.0,   ! Node 7 Additional Loss Coefficient {W/K}, Def: 0.0, #60
+  0.0,   ! Node 8 Additional Loss Coefficient {W/K}, Def: 0.0, #61
+  0.0,   ! Node 9 Additional Loss Coefficient {W/K}, Def: 0.0, #62
+  0.0,   ! Node 10 Additional Loss Coefficient {W/K}, Def: 0.0, #63
+  0.0,   ! Node 11 Additional Loss Coefficient {W/K}, Def: 0.0, #64
+  0.0,   ! Node 12 Additional Loss Coefficient {W/K}, Def: 0.0, #65
+  IndirectHeatPrimarySetpoint,   ! Source Side Flow Control Mode Def: IndirectHeatPrimarySetpoint, [StorageTank, IndirectHeatPrimarySetpoint, IndirectHeatAlternateSetpoint], #66
+  ;   ! Indirect Alternate Setpoint Temperature Schedule Name [ScheduleNames], #67

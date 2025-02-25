@@ -1,0 +1,9 @@
+! Min Fields: 6
+FaultModel:TemperatureSensorOffset:CoilSupplyAir,
+  ,   ! Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Severity Schedule Name [ScheduleNames], #3
+  ,   ! Coil Object Type [AirLoopHVAC:UnitarySystem, Coil:Heating:Electric, Coil:Heating:Gas, Coil:Heating:Desuperheater, Coil:Heating:Steam, Coil:Heating:Water, Coil:Cooling:Water, Coil:Cooling:Water:Detailedgeometry, CoilSystem:Cooling:DX, CoilSystem:Heating:DX], REQ, #4
+  ,   ! Coil Object Name [CoolingCoilName, CoolingCoilSystemName, DOAToZonalUnit, HeatingCoilName, HeatingCoilSystemName, HeatingCoilsElectricMultiStage, HeatingCoilsGasMultiStage, HeatingCoilsDesuperheater], REQ, #5
+  ,   ! Water Coil Controller Name [WaterCoilControllers], #6
+  0.0;   ! Reference Sensor Offset {deltaC}, Def: 0.0, #7

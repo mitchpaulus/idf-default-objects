@@ -1,0 +1,92 @@
+! Min Fields: 14
+CentralHeatPumpSystem,
+  ,   ! Name RefList: [validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  SmartMixing,   ! Control Method Def: SmartMixing, [SmartMixing], #2
+  ,   ! Cooling Loop Inlet Node Name REQ, #3
+  ,   ! Cooling Loop Outlet Node Name REQ, #4
+  ,   ! Source Loop Inlet Node Name REQ, #5
+  ,   ! Source Loop Outlet Node Name REQ, #6
+  ,   ! Heating Loop Inlet Node Name REQ, #7
+  ,   ! Heating Loop Outlet Node Name REQ, #8
+  0.0,   ! Ancillary Power {W}, Def: 0.0, #9
+  ,   ! Ancillary Operation Schedule Name [ScheduleNames], #10
+  ,   ! Chiller Heater Modules Performance Component Object Type 1 [ChillerHeaterPerformance:Electric:EIR], REQ, #11
+  ,   ! Chiller Heater Modules Performance Component Name 1 [ChillerHeaterEIRNames], REQ, #12
+  ,   ! Chiller Heater Modules Control Schedule Name 1 [ScheduleNames], REQ, #13
+  1,   ! Number of Chiller Heater Modules 1 Def: 1, #14
+  ,   ! Chiller Heater Modules Performance Component Object Type 2 [ChillerHeaterPerformance:Electric:EIR], #15
+  ,   ! Chiller Heater Modules Performance Component Name 2 [ChillerHeaterEIRNames], #16
+  ,   ! Chiller Heater Modules Control Schedule Name 2 [ScheduleNames], #17
+  1,   ! Number of Chiller Heater Modules 2 Def: 1, #18
+  ,   ! Chiller Heater Performance Component Object Type 3 [ChillerHeaterPerformance:Electric:EIR], #19
+  ,   ! Chiller Heater Performance Component Name 3 [ChillerHeaterEIRNames], #20
+  ,   ! Chiller Heater Modules Control Schedule Name 3 [ScheduleNames], #21
+  1,   ! Number of Chiller Heater Modules 3 Def: 1, #22
+  ,   ! Chiller Heater Modules Performance Component Object Type 4 [ChillerHeaterPerformance:Electric:EIR], #23
+  ,   ! Chiller Heater Modules Performance Component Name 4 [ChillerHeaterEIRNames], #24
+  ,   ! Chiller Heater Modules Control Schedule Name 4 [ScheduleNames], #25
+  1,   ! Number of Chiller Heater Modules 4 Def: 1, #26
+  ,   ! Chiller Heater Modules Performance Component Object Type 5 [ChillerHeaterPerformance:Electric:EIR], #27
+  ,   ! Chiller Heater Models Performance Component Name 5 [ChillerHeaterEIRNames], #28
+  ,   ! Chiller Heater Modules Control Schedule Name 5 [ScheduleNames], #29
+  1,   ! Number of Chiller Heater Modules 5 Def: 1, #30
+  ,   ! Chiller Heater Modules Performance Component Object Type 6 [ChillerHeaterPerformance:Electric:EIR], #31
+  ,   ! Chiller Heater Modules Performance Component Name 6 [ChillerHeaterEIRNames], #32
+  ,   ! Chiller Heater Modules Control Schedule Name 6 [ScheduleNames], #33
+  1,   ! Number of Chiller Heater Modules 6 Def: 1, #34
+  ,   ! Chiller Heater Modules Performance Component Object Type 7 [ChillerHeaterPerformance:Electric:EIR], #35
+  ,   ! Chiller Heater Modules Performance Component Name 7 [ChillerHeaterEIRNames], #36
+  ,   ! Chiller Heater Modules Control Schedule Name 7 [ScheduleNames], #37
+  1,   ! Number of Chiller Heater Modules 7 Def: 1, #38
+  ,   ! Chiller Heater Modules Performance Component Object Type 8 [ChillerHeaterPerformance:Electric:EIR], #39
+  ,   ! Chiller Heater Modules Performance Component Name 8 [ChillerHeaterEIRNames], #40
+  ,   ! Chiller Heater Modules Control Schedule Name 8 [ScheduleNames], #41
+  1,   ! Number of Chiller Heater Modules 8 Def: 1, #42
+  ,   ! Chiller Heater Modules Performance Component Object Type 9 [ChillerHeaterPerformance:Electric:EIR], #43
+  ,   ! Chiller Heater Modules Performance Component Name 9 [ChillerHeaterEIRNames], #44
+  ,   ! Chiller Heater Modules Control Schedule Name 9 [ScheduleNames], #45
+  1,   ! Number of Chiller Heater Modules 9 Def: 1, #46
+  ,   ! Chiller Heater Modules Performance Component Object Type 10 [ChillerHeaterPerformance:Electric:EIR], #47
+  ,   ! Chiller Heater Modules Performance Component Name 10 [ChillerHeaterEIRNames], #48
+  ,   ! Chiller Heater Modules Control Schedule Name 10 [ScheduleNames], #49
+  1,   ! Number of Chiller Heater Modules 10 Def: 1, #50
+  ,   ! Chiller Heater Modules Performance Component Object Type 11 [ChillerHeaterPerformance:Electric:EIR], #51
+  ,   ! Chiller Heater Modules Performance Component Name 11 [ChillerHeaterEIRNames], #52
+  ,   ! Chiller Heater Module Control Schedule Name 11 [ScheduleNames], #53
+  1,   ! Number of Chiller Heater Modules 11 Def: 1, #54
+  ,   ! Chiller Heater Modules Performance Component Object Type 12 [ChillerHeaterPerformance:Electric:EIR], #55
+  ,   ! Chiller Heater Modules Performance Component Name 12 [ChillerHeaterEIRNames], #56
+  ,   ! Chiller Heater Modules Control Schedule Name 12 [ScheduleNames], #57
+  1,   ! Number of Chiller Heater Modules 12 Def: 1, #58
+  ,   ! Chiller Heater Modules Performance Component Object Type 13 [ChillerHeaterPerformance:Electric:EIR], #59
+  ,   ! Chiller Heater Modules Performance Component Name 13 [ChillerHeaterEIRNames], #60
+  ,   ! Chiller Heater Modules Control Schedule Name 13 [ScheduleNames], #61
+  1,   ! Number of Chiller Heater Modules 13 Def: 1, #62
+  ,   ! Chiller Heater Modules Performance Component Object Type 14 [ChillerHeaterPerformance:Electric:EIR], #63
+  ,   ! Chiller Heater Modules Performance Component Name 14 [ChillerHeaterEIRNames], #64
+  ,   ! Chiller Heater Modules Control Schedule Name 14 [ScheduleNames], #65
+  1,   ! Number of Chiller Heater Modules 14 Def: 1, #66
+  ,   ! Chiller Heater Modules Performance Component Object Type 15 [ChillerHeaterPerformance:Electric:EIR], #67
+  ,   ! Chiller Heater Modules Performance Component Name 15 [ChillerHeaterEIRNames], #68
+  ,   ! Chiller Heater Modules Control Schedule Name 15 [ScheduleNames], #69
+  1,   ! Number of Chiller Heater Modules 15 Def: 1, #70
+  ,   ! Chiller Heater Modules Performance Component Object Type 16 [ChillerHeaterPerformance:Electric:EIR], #71
+  ,   ! Chiller Heater Modules Performance Component Name 16 [ChillerHeaterEIRNames], #72
+  ,   ! Chiller Heater Modules Control Schedule Name 16 [ScheduleNames], #73
+  1,   ! Number of Chiller Heater Modules 16 Def: 1, #74
+  ,   ! Chiller Heater Modules Performance Component Object Type 17 [ChillerHeaterPerformance:Electric:EIR], #75
+  ,   ! Chiller Heater Modules Performance Component Name 17 [ChillerHeaterEIRNames], #76
+  ,   ! Chiller Heater Modules Control Schedule Name 17 [ScheduleNames], #77
+  1,   ! Number of Chiller Heater Modules 17 Def: 1, #78
+  ,   ! Chiller Heater Modules Performance Component Object Type 18 [ChillerHeaterPerformance:Electric:EIR], #79
+  ,   ! Chiller Heater Modules Performance Component Name 18 [ChillerHeaterEIRNames], #80
+  ,   ! Chiller Heater Modules Control Control Schedule Name 18 [ScheduleNames], #81
+  1,   ! Number of Chiller Heater Modules 18 Def: 1, #82
+  ,   ! Chiller Heater Modules Performance Component Object Type 19 [ChillerHeaterPerformance:Electric:EIR], #83
+  ,   ! Chiller Heater Modules Performance Component Name 19 [ChillerHeaterEIRNames], #84
+  ,   ! Chiller Heater Modules Control Schedule Name 19 [ScheduleNames], #85
+  1,   ! Number of Chiller Heater Modules 19 Def: 1, #86
+  ,   ! Chiller Heater Modules Performance Component Object Type 20 [ChillerHeaterPerformance:Electric:EIR], #87
+  ,   ! Chiller Heater Modules Performance Component Name 20 [ChillerHeaterEIRNames], #88
+  ,   ! Chiller Heater Modules Control Schedule Name 20 [ScheduleNames], #89
+  1;   ! Number of Chiller Heater Modules 20 Def: 1, #90

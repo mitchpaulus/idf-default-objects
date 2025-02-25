@@ -1,0 +1,5 @@
+Generator:FuelCell:Inverter,
+  ,   ! Name RefList: [FCInverterNames], REQ, #1
+  ,   ! Inverter Efficiency Calculation Mode [Quadratic, Constant], #2
+  ,   ! Inverter Efficiency #3
+  ;   ! Efficiency Function of DC Power Curve Name [UnivariateFunctions], #4

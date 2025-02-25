@@ -1,0 +1,5 @@
+! Min Fields: 3
+EnergyManagementSystem:ProgramCallingManager,
+  ,   ! Name RefList: [ProgramNames], REQ, #1
+  ,   ! EnergyPlus Model Calling Point [BeginNewEnvironment, BeginZoneTimestepBeforeSetCurrentWeather, AfterNewEnvironmentWarmUpIsComplete, BeginZoneTimestepBeforeInitHeatBalance, BeginZoneTimestepAfterInitHeatBalance, BeginTimestepBeforePredictor, AfterPredictorBeforeHVACManagers, AfterPredictorAfterHVACManagers, InsideHVACSystemIterationLoop, EndOfZoneTimestepBeforeZoneReporting, EndOfZoneTimestepAfterZoneReporting, EndOfSystemTimestepBeforeHVACReporting, EndOfSystemTimestepAfterHVACReporting, EndOfZoneSizing, EndOfSystemSizing, AfterComponentInputReadIn, UserDefinedComponentModel, UnitarySystemSizing], #2
+  ;   ! Program Name 1 [ErlProgramNames], REQ, #3

@@ -1,0 +1,8 @@
+! Min Fields: 4
+EnergyManagementSystem:OutputVariable,
+  ,   ! Name REQ, #1
+  ,   ! EMS Variable Name REQ, #2
+  ,   ! Type of Data in Variable [Averaged, Summed], REQ, #3
+  ,   ! Update Frequency [ZoneTimestep, SystemTimestep], REQ, #4
+  ,   ! EMS Program or Subroutine Name #5
+  ;   ! Units #6

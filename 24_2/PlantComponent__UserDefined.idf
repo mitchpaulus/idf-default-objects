@@ -1,0 +1,34 @@
+! Min Fields: 9
+PlantComponent:UserDefined,
+  ,   ! Name RefList: [validPlantEquipmentNames, validCondenserEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validCondenserEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Main Model Program Calling Manager Name [ProgramNames], #2
+  ,   ! Number of Plant Loop Connections REQ, #3
+  ,   ! Plant Connection 1 Inlet Node Name REQ, #4
+  ,   ! Plant Connection 1 Outlet Node Name REQ, #5
+  ,   ! Plant Connection 1 Loading Mode [DemandsLoad, MeetsLoadWithPassiveCapacity, MeetsLoadWithNominalCapacity, MeetsLoadWithNominalCapacityLowOutLimit, MeetsLoadWithNominalCapacityHiOutLimit], REQ, #6
+  ,   ! Plant Connection 1 Loop Flow Request Mode [NeedsFlowIfLoopOn, NeedsFlowAndTurnsLoopOn, ReceivesWhateverFlowAvailable], REQ, #7
+  ,   ! Plant Connection 1 Initialization Program Calling Manager Name [ProgramNames], #8
+  ,   ! Plant Connection 1 Simulation Program Calling Manager Name [ProgramNames], #9
+  ,   ! Plant Connection 2 Inlet Node Name #10
+  ,   ! Plant Connection 2 Outlet Node Name #11
+  ,   ! Plant Connection 2 Loading Mode [DemandsLoad, MeetLoadWithPassiveCapacity, MeetLoadWithNominalCapacity, MeetLoadWithNominalCapacityLowOutLimit, MeetLoadWithNominalCapacityHiOutLimit], #12
+  ,   ! Plant Connection 2 Loop Flow Request Mode [NeedsFlowIfLoopOn, NeedsFlowAndTurnsLoopOn, ReceivesWhateverFlowAvailable], #13
+  ,   ! Plant Connection 2 Initialization Program Calling Manager Name [ProgramNames], #14
+  ,   ! Plant Connection 2 Simulation Program Calling Manager Name [ProgramNames], #15
+  ,   ! Plant Connection 3 Inlet Node Name #16
+  ,   ! Plant Connection 3 Outlet Node Name #17
+  ,   ! Plant Connection 3 Loading Mode [DemandsLoad, MeetLoadWithPassiveCapacity, MeetLoadWithNominalCapacity, MeetLoadWithNominalCapacityLowOutLimit, MeetLoadWithNominalCapacityHiOutLimit], #18
+  ,   ! Plant Connection 3 Loop Flow Request Mode [NeedsFlowIfLoopOn, NeedsFlowAndTurnsLoopOn, ReceivesWhateverFlowAvailable], #19
+  ,   ! Plant Connection 3 Initialization Program Calling Manager Name [ProgramNames], #20
+  ,   ! Plant Connection 3 Simulation Program Calling Manager Name [ProgramNames], #21
+  ,   ! Plant Connection 4 Inlet Node Name #22
+  ,   ! Plant Connection 4 Outlet Node Name #23
+  ,   ! Plant Connection 4 Loading Mode [DemandsLoad, MeetLoadWithPassiveCapacity, MeetLoadWithNominalCapacity, MeetLoadWithNominalCapacityLowOutLimit, MeetLoadWithNominalCapacityHiOutLimit], #24
+  ,   ! Plant Connection 4 Loop Flow Request Mode [NeedsFlowIfLoopOn, NeedsFlowAndTurnsLoopOn, ReceivesWhateverFlowAvailable], #25
+  ,   ! Plant Connection 4 Initialization Program Calling Manager Name [ProgramNames], #26
+  ,   ! Plant Connection 4 Simulation Program Calling Manager Name [ProgramNames], #27
+  ,   ! Air Connection Inlet Node Name #28
+  ,   ! Air Connection Outlet Node Name #29
+  ,   ! Supply Inlet Water Storage Tank Name [WaterStorageTankNames], #30
+  ,   ! Collection Outlet Water Storage Tank Name [WaterStorageTankNames], #31
+  ;   ! Ambient Zone Name [ZoneNames], #32

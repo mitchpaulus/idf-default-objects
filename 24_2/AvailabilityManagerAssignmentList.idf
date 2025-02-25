@@ -1,0 +1,5 @@
+! Min Fields: 3
+AvailabilityManagerAssignmentList,
+  ,   ! Name RefList: [SystemAvailabilityManagerLists], REQ, #1
+  ,   ! Availability Manager 1 Object Type [AvailabilityManager:Scheduled, AvailabilityManager:ScheduledOn, AvailabilityManager:ScheduledOff, AvailabilityManager:NightCycle, AvailabilityManager:DifferentialThermostat, AvailabilityManager:HighTemperatureTurnOff, AvailabilityManager:HighTemperatureTurnOn, AvailabilityManager:LowTemperatureTurnOff, AvailabilityManager:LowTemperatureTurnOn, AvailabilityManager:NightVentilation, AvailabilityManager:OptimumStart], REQ, #2
+  ;   ! Availability Manager 1 Name [SystemAvailabilityManagers], REQ, #3

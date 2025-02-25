@@ -1,0 +1,7 @@
+! Min Fields: 5
+SetpointManager:SingleZone:OneStageHeating,
+  ,   ! Name REQ, #1
+  99,   ! Heating Stage On Supply Air Setpoint Temperature {C}, Def: 99, #2
+  -99,   ! Heating Stage Off Supply Air Setpoint Temperature {C}, Def: -99, #3
+  ,   ! Control Zone Name [ZoneNames], REQ, #4
+  ;   ! Setpoint Node or NodeList Name REQ, #5

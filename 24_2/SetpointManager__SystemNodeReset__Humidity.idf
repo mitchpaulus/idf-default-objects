@@ -1,0 +1,9 @@
+SetpointManager:SystemNodeReset:Humidity,
+  ,   ! Name REQ, #1
+  ,   ! Control Variable [HumidityRatio, MaximumHumidityRatio, MinimumHumidityRatio], REQ, #2
+  ,   ! Setpoint at Low Reference Humidity Ratio {kgWater/kgDryAir}, REQ, #3
+  ,   ! Setpoint at High Reference Humidity Ratio {kgWater/kgDryAir}, REQ, #4
+  ,   ! Low Reference Humidity Ratio {kgWater/kgDryAir}, REQ, #5
+  ,   ! High Reference Humidity Ratio {kgWater/kgDryAir}, REQ, #6
+  ,   ! Reference Node Name REQ, #7
+  ;   ! Setpoint Node or NodeList Name REQ, #8

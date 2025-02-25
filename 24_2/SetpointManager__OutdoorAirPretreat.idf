@@ -1,0 +1,13 @@
+! Min Fields: 11
+SetpointManager:OutdoorAirPretreat,
+  ,   ! Name REQ, #1
+  ,   ! Control Variable [Temperature, HumidityRatio, MaximumHumidityRatio, MinimumHumidityRatio], #2
+  -99,   ! Minimum Setpoint Temperature {C}, Def: -99, #3
+  99,   ! Maximum Setpoint Temperature {C}, Def: 99, #4
+  0.00001,   ! Minimum Setpoint Humidity Ratio {kgWater/kgDryAir}, Def: 0.00001, #5
+  1.0,   ! Maximum Setpoint Humidity Ratio {kgWater/kgDryAir}, Def: 1.0, #6
+  ,   ! Reference Setpoint Node Name #7
+  ,   ! Mixed Air Stream Node Name REQ, #8
+  ,   ! Outdoor Air Stream Node Name REQ, #9
+  ,   ! Return Air Stream Node Name REQ, #10
+  ;   ! Setpoint Node or NodeList Name REQ, #11

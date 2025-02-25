@@ -1,0 +1,14 @@
+ElectricLoadCenter:Inverter:LookUpTable,
+  ,   ! Name RefList: [InverterList], #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], #3
+  ,   ! Radiative Fraction #4
+  ,   ! Rated Maximum Continuous Output Power {W}, #5
+  ,   ! Night Tare Loss Power {W}, #6
+  ,   ! Nominal Voltage Input {V}, #7
+  ,   ! Efficiency at 10% Power and Nominal Voltage #8
+  ,   ! Efficiency at 20% Power and Nominal Voltage #9
+  ,   ! Efficiency at 30% Power and Nominal Voltage #10
+  ,   ! Efficiency at 50% Power and Nominal Voltage #11
+  ,   ! Efficiency at 75% Power and Nominal Voltage #12
+  ;   ! Efficiency at 100% Power and Nominal Voltage #13
