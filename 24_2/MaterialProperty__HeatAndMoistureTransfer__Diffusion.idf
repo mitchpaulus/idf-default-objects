@@ -1,0 +1,53 @@
+MaterialProperty:HeatAndMoistureTransfer:Diffusion,
+  ,   ! Material Name [MaterialName], REQ, #1
+  ,   ! Number of Data Pairs REQ, #2
+  ,   ! Relative Humidity Fraction 1 {dimensionless}, REQ, #3
+  ,   ! Water Vapor Diffusion Resistance Factor 1 {dimensionless}, REQ, #4
+  ,   ! Relative Humidity Fraction 2 {dimensionless}, #5
+  ,   ! Water Vapor Diffusion Resistance Factor 2 {dimensionless}, #6
+  ,   ! Relative Humidity Fraction 3 {dimensionless}, #7
+  ,   ! Water Vapor Diffusion Resistance Factor 3 {dimensionless}, #8
+  ,   ! Relative Humidity Fraction 4 {dimensionless}, #9
+  ,   ! Water Vapor Diffusion Resistance Factor 4 {dimensionless}, #10
+  ,   ! Relative Humidity Fraction 5 {dimensionless}, #11
+  ,   ! Water Vapor Diffusion Resistance Factor 5 {dimensionless}, #12
+  ,   ! Relative Humidity Fraction 6 {dimensionless}, #13
+  ,   ! Water Vapor Diffusion Resistance Factor 6 {dimensionless}, #14
+  ,   ! Relative Humidity Fraction 7 {dimensionless}, #15
+  ,   ! Water Vapor Diffusion Resistance Factor 7 {dimensionless}, #16
+  ,   ! Relative Humidity Fraction 8 {dimensionless}, #17
+  ,   ! Water Vapor Diffusion Resistance Factor 8 {dimensionless}, #18
+  ,   ! Relative Humidity Fraction 9 {dimensionless}, #19
+  ,   ! Water Vapor Diffusion Resistance Factor 9 {dimensionless}, #20
+  ,   ! Relative Humidity Fraction 10 {dimensionless}, #21
+  ,   ! Water Vapor Diffusion Resistance Factor 10 {dimensionless}, #22
+  ,   ! Relative Humidity Fraction 11 {dimensionless}, #23
+  ,   ! Water Vapor Diffusion Resistance Factor 11 {dimensionless}, #24
+  ,   ! Relative Humidity Fraction 12 {dimensionless}, #25
+  ,   ! Water Vapor Diffusion Resistance Factor 12 {dimensionless}, #26
+  ,   ! Relative Humidity Fraction 13 {dimensionless}, #27
+  ,   ! Water Vapor Diffusion Resistance Factor 13 {dimensionless}, #28
+  ,   ! Relative Humidity Fraction 14 {dimensionless}, #29
+  ,   ! Water Vapor Diffusion Resistance Factor 14 {dimensionless}, #30
+  ,   ! Relative Humidity Fraction 15 {dimensionless}, #31
+  ,   ! Water Vapor Diffusion Resistance Factor 15 {dimensionless}, #32
+  ,   ! Relative Humidity Fraction 16 {dimensionless}, #33
+  ,   ! Water Vapor Diffusion Resistance Factor 16 {dimensionless}, #34
+  ,   ! Relative Humidity Fraction 17 {dimensionless}, #35
+  ,   ! Water Vapor Diffusion Resistance Factor 17 {dimensionless}, #36
+  ,   ! Relative Humidity Fraction 18 {dimensionless}, #37
+  ,   ! Water Vapor Diffusion Resistance Factor 18 {dimensionless}, #38
+  ,   ! Relative Humidity Fraction 19 {dimensionless}, #39
+  ,   ! Water Vapor Diffusion Resistance Factor 19 {dimensionless}, #40
+  ,   ! Relative Humidity Fraction 20 {dimensionless}, #41
+  ,   ! Water Vapor Diffusion Resistance Factor 20 {dimensionless}, #42
+  ,   ! Relative Humidity Fraction 21 {dimensionless}, #43
+  ,   ! Water Vapor Diffusion Resistance Factor 21 {dimensionless}, #44
+  ,   ! Relative Humidity Fraction 22 {dimensionless}, #45
+  ,   ! Water Vapor Diffusion Resistance Factor 22 {dimensionless}, #46
+  ,   ! Relative Humidity Fraction 23 {dimensionless}, #47
+  ,   ! Water Vapor Diffusion Resistance Factor 23 {dimensionless}, #48
+  ,   ! Relative Humidity Fraction 24 {dimensionless}, #49
+  ,   ! Water Vapor Diffusion Resistance Factor 24 {dimensionless}, #50
+  ,   ! Relative Humidity Fraction 25 {dimensionless}, #51
+  ;   ! Water Vapor Diffusion Resistance Factor 25 {dimensionless}, #52

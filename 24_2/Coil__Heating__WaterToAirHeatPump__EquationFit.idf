@@ -1,0 +1,17 @@
+! Min Fields: 15
+Coil:Heating:WaterToAirHeatPump:EquationFit,
+  ,   ! Name RefList: [HeatingCoilsWaterToAirHP, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Air Outlet Node Name REQ, #5
+  ,   ! Rated Air Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! Rated Water Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Gross Rated Heating Capacity {W}, AS, REQ, #8
+  ,   ! Gross Rated Heating COP {W/W}, REQ, #9
+  20,   ! Rated Entering Water Temperature {C}, Def: 20, #10
+  20,   ! Rated Entering Air Dry-Bulb Temperature {C}, Def: 20, #11
+  1.0,   ! Ratio of Rated Heating Capacity to Rated Cooling Capacity Def: 1.0, #12
+  ,   ! Heating Capacity Curve Name [QuadvariateFunctions], REQ, #13
+  ,   ! Heating Power Consumption Curve Name [QuadvariateFunctions], REQ, #14
+  ;   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #15

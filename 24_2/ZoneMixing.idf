@@ -1,0 +1,19 @@
+! Min Fields: 9
+ZoneMixing,
+  ,   ! Name REQ, #1
+  ,   ! Zone or Space Name [ZoneNames, SpaceNames], REQ, #2
+  ,   ! Schedule Name [ScheduleNames], #3
+  Flow/Zone,   ! Design Flow Rate Calculation Method Def: Flow/Zone, [Flow/Zone, Flow/Area, Flow/Person, AirChanges/Hour], #4
+  ,   ! Design Flow Rate {m3/s}, #5
+  ,   ! Flow Rate per Floor Area {m3/s-m2}, #6
+  ,   ! Flow Rate per Person {m3/s-person}, #7
+  ,   ! Air Changes per Hour {1/hr}, #8
+  ,   ! Source Zone or Space Name [ZoneNames, SpaceNames], REQ, #9
+  0,   ! Delta Temperature {deltaC}, Def: 0, #10
+  ,   ! Delta Temperature Schedule Name [ScheduleNames], #11
+  ,   ! Minimum Receiving Temperature Schedule Name [ScheduleNames], #12
+  ,   ! Maximum Receiving Temperature Schedule Name [ScheduleNames], #13
+  ,   ! Minimum Source Temperature Schedule Name [ScheduleNames], #14
+  ,   ! Maximum Source Temperature Schedule Name [ScheduleNames], #15
+  ,   ! Minimum Outdoor Temperature Schedule Name [ScheduleNames], #16
+  ;   ! Maximum Outdoor Temperature Schedule Name [ScheduleNames], #17

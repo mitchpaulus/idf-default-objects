@@ -1,0 +1,4 @@
+Site:HeightVariation,
+  0.22,   ! Wind Speed Profile Exponent Def: 0.22, #1
+  370.0,   ! Wind Speed Profile Boundary Layer Thickness {m}, Def: 370.0, #2
+  0.0065;   ! Air Temperature Gradient Coefficient {K/m}, Def: 0.0065, #3

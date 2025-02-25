@@ -1,0 +1,5 @@
+! Min Fields: 3
+SurfaceProperty:IncidentSolarMultiplier,
+  ,   ! Surface Name [SurfaceNames], REQ, #1
+  1.0,   ! Incident Solar Multiplier {dimensionless}, Def: 1.0, #2
+  ;   ! Incident Solar Multiplier Schedule Name [ScheduleNames], #3

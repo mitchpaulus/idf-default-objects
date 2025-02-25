@@ -1,0 +1,6 @@
+SurfaceProperty:ExposedFoundationPerimeter,
+  ,   ! Surface Name [FloorSurfaceNames], REQ, #1
+  ,   ! Exposed Perimeter Calculation Method [TotalExposedPerimeter, ExposedPerimeterFraction, BySegment], REQ, #2
+  ,   ! Total Exposed Perimeter {m}, #3
+  1.0,   ! Exposed Perimeter Fraction {dimensionless}, Def: 1.0, #4
+  Yes;   ! Surface Segment 1 Exposed Def: Yes, [Yes, No], #5

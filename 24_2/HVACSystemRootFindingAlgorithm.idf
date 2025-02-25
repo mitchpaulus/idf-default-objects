@@ -1,0 +1,3 @@
+HVACSystemRootFindingAlgorithm,
+  RegulaFalsi,   ! Algorithm Def: RegulaFalsi, [RegulaFalsi, Bisection, BisectionThenRegulaFalsi, RegulaFalsiThenBisection, Alternation], #1
+  5;   ! Number of Iterations Before Algorithm Switch Def: 5, #2

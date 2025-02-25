@@ -1,0 +1,5 @@
+! Min Fields: 5
+Schedule:Compact,
+  ,   ! Name RefList: [ScheduleNames], REQ, #1
+  ,   ! Schedule Type Limits Name [ScheduleTypeLimitsNames], #2
+  ;   ! Field 1 #3

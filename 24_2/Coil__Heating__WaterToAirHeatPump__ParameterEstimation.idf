@@ -1,0 +1,27 @@
+! Min Fields: 25
+Coil:Heating:WaterToAirHeatPump:ParameterEstimation,
+  ,   ! Name RefList: [HeatingCoilsWaterToAirHP, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Compressor Type [Reciprocating, Rotary, Scroll], REQ, #2
+  R22,   ! Refrigerant Type Def: R22, [FluidNames], #3
+  ,   ! Design Source Side Flow Rate {m3/s}, REQ, #4
+  ,   ! Gross Rated Heating Capacity {W}, REQ, #5
+  ,   ! High Pressure Cutoff {Pa}, REQ, #6
+  ,   ! Low Pressure Cutoff {Pa}, REQ, #7
+  ,   ! Water Inlet Node Name REQ, #8
+  ,   ! Water Outlet Node Name REQ, #9
+  ,   ! Air Inlet Node Name REQ, #10
+  ,   ! Air Outlet Node Name REQ, #11
+  ,   ! Load Side Total Heat Transfer Coefficient {W/K}, REQ, #12
+  ,   ! Superheat Temperature at the Evaporator Outlet {C}, REQ, #13
+  ,   ! Compressor Power Losses {W}, REQ, #14
+  ,   ! Compressor Efficiency REQ, #15
+  ,   ! Compressor Piston Displacement {m3/s}, #16
+  ,   ! Compressor Suction/Discharge Pressure Drop {Pa}, #17
+  ,   ! Compressor Clearance Factor {dimensionless}, #18
+  ,   ! Refrigerant Volume Flow Rate {m3/s}, #19
+  ,   ! Volume Ratio {dimensionless}, #20
+  ,   ! Leak Rate Coefficient {dimensionless}, #21
+  ,   ! Source Side Heat Transfer Coefficient {W/K}, #22
+  ,   ! Source Side Heat Transfer Resistance1 {dimensionless}, #23
+  ,   ! Source Side Heat Transfer Resistance2 {W/K}, #24
+  ;   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #25

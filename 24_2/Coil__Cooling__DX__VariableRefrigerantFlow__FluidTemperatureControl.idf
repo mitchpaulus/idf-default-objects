@@ -1,0 +1,11 @@
+! Min Fields: 6
+Coil:Cooling:DX:VariableRefrigerantFlow:FluidTemperatureControl,
+  ,   ! Name RefList: [CoolingCoilsDXVarRefrigFlowFluidTemperatureControl], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Coil Air Inlet Node REQ, #3
+  ,   ! Coil Air Outlet Node REQ, #4
+  ,   ! Rated Total Cooling Capacity {W}, AS, REQ, #5
+  ,   ! Rated Sensible Heat Ratio AS, REQ, #6
+  5.0,   ! Indoor Unit Reference Superheating {deltaC}, Def: 5.0, #7
+  ,   ! Indoor Unit Evaporating Temperature Function of Superheating Curve Name [UnivariateFunctions], REQ, #8
+  ;   ! Name of Water Storage Tank for Condensate Collection [WaterStorageTankNames], #9

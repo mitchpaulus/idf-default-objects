@@ -1,0 +1,31 @@
+! Min Fields: 29
+WindowMaterial:Blind,
+  ,   ! Name RefList: [MaterialName, WindowShadesScreensAndBlinds], REQ, #1
+  Horizontal,   ! Slat Orientation Def: Horizontal, [Horizontal, Vertical], #2
+  ,   ! Slat Width {m}, REQ, #3
+  ,   ! Slat Separation {m}, REQ, #4
+  0.00025,   ! Slat Thickness {m}, Def: 0.00025, #5
+  45,   ! Slat Angle {deg}, Def: 45, #6
+  221.0,   ! Slat Conductivity {W/m-K}, Def: 221.0, #7
+  0,   ! Slat Beam Solar Transmittance Def: 0, #8
+  ,   ! Front Side Slat Beam Solar Reflectance REQ, #9
+  ,   ! Back Side Slat Beam Solar Reflectance REQ, #10
+  0,   ! Slat Diffuse Solar Transmittance Def: 0, #11
+  ,   ! Front Side Slat Diffuse Solar Reflectance REQ, #12
+  ,   ! Back Side Slat Diffuse Solar Reflectance REQ, #13
+  ,   ! Slat Beam Visible Transmittance REQ, #14
+  ,   ! Front Side Slat Beam Visible Reflectance #15
+  ,   ! Back Side Slat Beam Visible Reflectance #16
+  0,   ! Slat Diffuse Visible Transmittance Def: 0, #17
+  ,   ! Front Side Slat Diffuse Visible Reflectance #18
+  ,   ! Back Side Slat Diffuse Visible Reflectance #19
+  0,   ! Slat Infrared Hemispherical Transmittance Def: 0, #20
+  0.9,   ! Front Side Slat Infrared Hemispherical Emissivity Def: 0.9, #21
+  0.9,   ! Back Side Slat Infrared Hemispherical Emissivity Def: 0.9, #22
+  0.050,   ! Blind to Glass Distance {m}, Def: 0.050, #23
+  0.5,   ! Blind Top Opening Multiplier Def: 0.5, #24
+  0.0,   ! Blind Bottom Opening Multiplier Def: 0.0, #25
+  0.5,   ! Blind Left Side Opening Multiplier Def: 0.5, #26
+  0.5,   ! Blind Right Side Opening Multiplier Def: 0.5, #27
+  0,   ! Minimum Slat Angle {deg}, Def: 0, #28
+  180;   ! Maximum Slat Angle {deg}, Def: 180, #29

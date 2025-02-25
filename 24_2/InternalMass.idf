@@ -1,0 +1,6 @@
+InternalMass,
+  ,   ! Name RefList: [AllHeatTranSurfNames, AllHeatTranAngFacNames, RadiantSurfaceNames], REQ, #1
+  ,   ! Construction Name [ConstructionNames], REQ, #2
+  ,   ! Zone or ZoneList Name [ZoneAndZoneListNames], #3
+  ,   ! Space or SpaceList Name [SpaceAndSpaceListNames], #4
+  ;   ! Surface Area {m2}, REQ, #5

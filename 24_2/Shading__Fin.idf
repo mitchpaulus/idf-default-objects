@@ -1,0 +1,13 @@
+Shading:Fin,
+  ,   ! Name RefList: [AttachedShadingSurfNames, AllShadingAndHTSurfNames, AllShadingSurfNames], REQ, #1
+  ,   ! Window or Door Name [SubSurfNames], REQ, #2
+  ,   ! Left Extension from Window/Door {m}, #3
+  ,   ! Left Distance Above Top of Window {m}, #4
+  ,   ! Left Distance Below Bottom of Window {m}, #5
+  90,   ! Left Tilt Angle from Window/Door {deg}, Def: 90, #6
+  ,   ! Left Depth {m}, #7
+  ,   ! Right Extension from Window/Door {m}, #8
+  ,   ! Right Distance Above Top of Window {m}, #9
+  ,   ! Right Distance Below Bottom of Window {m}, #10
+  90,   ! Right Tilt Angle from Window/Door {deg}, Def: 90, #11
+  ;   ! Right Depth {m}, #12

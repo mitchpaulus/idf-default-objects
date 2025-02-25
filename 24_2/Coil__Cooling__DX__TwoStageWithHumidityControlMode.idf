@@ -1,0 +1,25 @@
+! Min Fields: 11
+Coil:Cooling:DX:TwoStageWithHumidityControlMode,
+  ,   ! Name RefList: [CoolingCoilsDX, CoolingCoilsDXMultiModeOrSingleSpeed, DesuperHeatingCoilSources, AFNCoilNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  0.0,   ! Crankcase Heater Capacity {W}, Def: 0.0, #5
+  ,   ! Crankcase Heater Capacity Function of Temperature Curve Name [UnivariateFunctions], #6
+  10.0,   ! Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater Operation {C}, Def: 10.0, #7
+  1,   ! Number of Capacity Stages Def: 1, #8
+  0,   ! Number of Enhanced Dehumidification Modes Def: 0, #9
+  ,   ! Normal Mode Stage 1 Coil Performance Object Type [CoilPerformance:DX:Cooling], REQ, #10
+  ,   ! Normal Mode Stage 1 Coil Performance Name [CoilPerformanceDX], REQ, #11
+  ,   ! Normal Mode Stage 1+2 Coil Performance Object Type [CoilPerformance:DX:Cooling], #12
+  ,   ! Normal Mode Stage 1+2 Coil Performance Name [CoilPerformanceDX], #13
+  ,   ! Dehumidification Mode 1 Stage 1 Coil Performance Object Type [CoilPerformance:DX:Cooling], #14
+  ,   ! Dehumidification Mode 1 Stage 1 Coil Performance Name [CoilPerformanceDX], #15
+  ,   ! Dehumidification Mode 1 Stage 1+2 Coil Performance Object Type [CoilPerformance:DX:Cooling], #16
+  ,   ! Dehumidification Mode 1 Stage 1+2 Coil Performance Name [CoilPerformanceDX], #17
+  ,   ! Supply Water Storage Tank Name [WaterStorageTankNames], #18
+  ,   ! Condensate Collection Water Storage Tank Name [WaterStorageTankNames], #19
+  -25.0,   ! Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}, Def: -25.0, #20
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #21
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #22
+  ;   ! Basin Heater Operating Schedule Name [ScheduleNames], #23

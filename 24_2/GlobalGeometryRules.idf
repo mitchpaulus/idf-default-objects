@@ -1,0 +1,6 @@
+GlobalGeometryRules,
+  ,   ! Starting Vertex Position [UpperLeftCorner, LowerLeftCorner, UpperRightCorner, LowerRightCorner], REQ, #1
+  ,   ! Vertex Entry Direction [Counterclockwise, Clockwise], REQ, #2
+  ,   ! Coordinate System [Relative, World], REQ, #3
+  Relative,   ! Daylighting Reference Point Coordinate System Def: Relative, [Relative, World], #4
+  Relative;   ! Rectangular Surface Coordinate System Def: Relative, [Relative, World], #5

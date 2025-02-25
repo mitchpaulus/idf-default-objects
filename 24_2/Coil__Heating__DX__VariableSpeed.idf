@@ -1,0 +1,111 @@
+! Min Fields: 26
+Coil:Heating:DX:VariableSpeed,
+  ,   ! Name RefList: [HeatingCoilsDXVariableSpeed], REQ, #1
+  ,   ! Indoor Air Inlet Node Name REQ, #2
+  ,   ! Indoor Air Outlet Node Name REQ, #3
+  2,   ! Number of Speeds {dimensionless}, Def: 2, #4
+  2,   ! Nominal Speed Level {dimensionless}, Def: 2, #5
+  autosize,   ! Rated Heating Capacity At Selected Nominal Speed Level {W}, Def: autosize, AS, #6
+  autosize,   ! Rated Air Flow Rate At Selected Nominal Speed Level {m3/s}, Def: autosize, AS, #7
+  ,   ! Energy Part Load Fraction Curve Name [UnivariateFunctions], REQ, #8
+  ,   ! Defrost Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #9
+  -8.0,   ! Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}, Def: -8.0, #10
+  ,   ! Outdoor Dry-Bulb Temperature to Turn On Compressor {C}, #11
+  5.0,   ! Maximum Outdoor Dry-Bulb Temperature for Defrost Operation {C}, Def: 5.0, #12
+  0.0,   ! Crankcase Heater Capacity {W}, Def: 0.0, #13
+  ,   ! Crankcase Heater Capacity Function of Temperature Curve Name [UnivariateFunctions], #14
+  10.0,   ! Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater Operation {C}, Def: 10.0, #15
+  ReverseCycle,   ! Defrost Strategy Def: ReverseCycle, [ReverseCycle, Resistive], #16
+  Timed,   ! Defrost Control Def: Timed, [Timed, OnDemand], #17
+  0.058333,   ! Defrost Time Period Fraction Def: 0.058333, #18
+  0.0,   ! Resistive Defrost Heater Capacity {W}, Def: 0.0, AS, #19
+  ,   ! Speed 1 Reference Unit Gross Rated Heating Capacity {W}, REQ, #20
+  ,   ! Speed 1 Reference Unit Gross Rated Heating COP {W/W}, REQ, #21
+  ,   ! Speed 1 Reference Unit Rated Air Flow Rate {m3/s}, REQ, #22
+  773.3,   ! 2017 Speed 1 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #23
+  934.4,   ! 2023 Speed 1 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #24
+  ,   ! Speed 1 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #25
+  ,   ! Speed 1 Total  Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], REQ, #26
+  ,   ! Speed 1 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #27
+  ,   ! Speed 1 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], REQ, #28
+  ,   ! Speed 2 Reference Unit Gross Rated Heating Capacity {W}, #29
+  ,   ! Speed 2 Reference Unit Gross Rated Heating COP {W/W}, #30
+  ,   ! Speed 2 Reference Unit Rated Air Flow Rate {m3/s}, #31
+  773.3,   ! 2017 Speed 2 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #32
+  934.4,   ! 2023 Speed 2 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #33
+  ,   ! Speed 2 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #34
+  ,   ! Speed 2 Total  Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #35
+  ,   ! Speed 2 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #36
+  ,   ! Speed 2 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #37
+  ,   ! Speed 3 Reference Unit Gross Rated Heating Capacity {W}, #38
+  ,   ! Speed 3 Reference Unit Gross Rated Heating COP {W/W}, #39
+  ,   ! Speed 3 Reference Unit Rated Air Flow Rate {m3/s}, #40
+  773.3,   ! 2017 Speed 3 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #41
+  934.4,   ! 2023 Speed 3 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #42
+  ,   ! Speed 3 Heating Capacity Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #43
+  ,   ! Speed 3 Total  Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #44
+  ,   ! Speed 3 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #45
+  ,   ! Speed 3 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #46
+  ,   ! Speed 4 Reference Unit Gross Rated Heating Capacity {W}, #47
+  ,   ! Speed 4 Reference Unit Gross Rated Heating COP {W/W}, #48
+  ,   ! Speed 4 Reference Unit Rated Air Flow Rate {m3/s}, #49
+  773.3,   ! 2017 Speed 4 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #50
+  934.4,   ! 2023 Speed 4 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #51
+  ,   ! Speed 4 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #52
+  ,   ! Speed 4 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #53
+  ,   ! Speed 4 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #54
+  ,   ! Speed 4 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #55
+  ,   ! Speed 5 Reference Unit Gross Rated Heating Capacity {W}, #56
+  ,   ! Speed 5 Reference Unit Gross Rated Heating COP {W/W}, #57
+  ,   ! Speed 5 Reference Unit Rated Air Flow Rate {m3/s}, #58
+  773.3,   ! 2017 Speed 5 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #59
+  934.4,   ! 2023 Speed 5 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #60
+  ,   ! Speed 5 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #61
+  ,   ! Speed 5 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #62
+  ,   ! Speed 5 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #63
+  ,   ! Speed 5 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #64
+  ,   ! Speed 6 Reference Unit Gross Rated Heating Capacity {W}, #65
+  ,   ! Speed 6 Reference Unit Gross Rated Heating COP {W/W}, #66
+  ,   ! Speed 6 Reference Unit Rated Air Flow Rate {m3/s}, #67
+  773.3,   ! 2017 Speed 6 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #68
+  934.4,   ! 2023 Speed 6 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #69
+  ,   ! Speed 6 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #70
+  ,   ! Speed 6 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #71
+  ,   ! Speed 6 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #72
+  ,   ! Speed 6 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #73
+  ,   ! Speed 7 Reference Unit Gross Rated Heating Capacity {W}, #74
+  ,   ! Speed 7 Reference Unit Gross Rated Heating COP {W/W}, #75
+  ,   ! Speed 7 Reference Unit Rated Air Flow Rate {m3/s}, #76
+  773.3,   ! 2017 Speed 7 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #77
+  934.4,   ! 2023 Speed 7 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #78
+  ,   ! Speed 7 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #79
+  ,   ! Speed 7 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #80
+  ,   ! Speed 7 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #81
+  ,   ! Speed 7 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #82
+  ,   ! Speed 8 Reference Unit Gross Rated Heating Capacity {W}, #83
+  ,   ! Speed 8 Reference Unit Gross Rated Heating COP {W/W}, #84
+  ,   ! Speed 8 Reference Unit Rated Air Flow Rate {m3/s}, #85
+  773.3,   ! 2017 Speed 8 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #86
+  934.4,   ! 2023 Speed 8 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #87
+  ,   ! Speed 8 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #88
+  ,   ! Speed 8 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #89
+  ,   ! Speed 8 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #90
+  ,   ! Speed 8 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #91
+  ,   ! Speed 9 Reference Unit Gross Rated Heating Capacity {W}, #92
+  ,   ! Speed 9 Reference Unit Gross Rated Heating COP {W/W}, #93
+  ,   ! Speed 9 Reference Unit Rated Air Flow Rate {m3/s}, #94
+  773.3,   ! 2017 Speed 9 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #95
+  934.4,   ! 2023 Speed 9 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #96
+  ,   ! Speed 9 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #97
+  ,   ! Speed 9 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #98
+  ,   ! Speed 9 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #99
+  ,   ! Speed 9 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #100
+  ,   ! Speed 10 Reference Unit Gross Rated Heating Capacity {W}, #101
+  ,   ! Speed 10 Reference Unit Gross Rated Heating COP {W/W}, #102
+  ,   ! Speed 10 Reference Unit Rated Air Flow Rate {m3/s}, #103
+  773.3,   ! 2017 Speed 10 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #104
+  934.4,   ! 2023 Speed 10 Rated Supply Air Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #105
+  ,   ! Speed 10 Heating Capacity Function of Temperature Curve Name [BivariateFunctions], #106
+  ,   ! Speed 10 Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #107
+  ,   ! Speed 10 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #108
+  ;   ! Speed 10 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #109

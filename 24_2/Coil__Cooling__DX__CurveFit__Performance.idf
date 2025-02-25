@@ -1,0 +1,16 @@
+! Min Fields: 12
+Coil:Cooling:DX:CurveFit:Performance,
+  ,   ! Name RefList: [DXCoolingPerformanceNames], REQ, #1
+  0.0,   ! Crankcase Heater Capacity {W}, Def: 0.0, #2
+  ,   ! Crankcase Heater Capacity Function of Temperature Curve Name [UnivariateFunctions], #3
+  -25.0,   ! Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}, Def: -25.0, #4
+  10.0,   ! Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater Operation {C}, Def: 10.0, #5
+  ,   ! Unit Internal Static Air Pressure {Pa}, #6
+  Discrete,   ! Capacity Control Method Def: Discrete, [Discrete, Continuous], #7
+  0.0,   ! Evaporative Condenser Basin Heater Capacity {W/K}, Def: 0.0, #8
+  2.0,   ! Evaporative Condenser Basin Heater Setpoint Temperature {C}, Def: 2.0, #9
+  ,   ! Evaporative Condenser Basin Heater Operating Schedule Name [ScheduleNames], #10
+  Electricity,   ! Compressor Fuel Type Def: Electricity, [Electricity, NaturalGas, Propane, Diesel, Gasoline, FuelOilNo1, FuelOilNo2, OtherFuel1, OtherFuel2], #11
+  ,   ! Base Operating Mode [DXCoolingOperatingModeNames], REQ, #12
+  ,   ! Alternative Operating Mode 1 [DXCoolingOperatingModeNames], #13
+  ;   ! Alternative Operating Mode 2 [DXCoolingOperatingModeNames], #14

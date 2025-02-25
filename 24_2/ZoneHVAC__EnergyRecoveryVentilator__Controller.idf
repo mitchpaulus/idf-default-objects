@@ -1,0 +1,15 @@
+! Min Fields: 3
+ZoneHVAC:EnergyRecoveryVentilator:Controller,
+  ,   ! Name RefList: [ControllerStandAloneEnergyRecoveryVentilator], REQ, #1
+  ,   ! Temperature High Limit {C}, #2
+  ,   ! Temperature Low Limit {C}, #3
+  ,   ! Enthalpy High Limit {J/kg}, #4
+  ,   ! Dewpoint Temperature Limit {C}, #5
+  ,   ! Electronic Enthalpy Limit Curve Name [UnivariateFunctions], #6
+  NoExhaustAirTemperatureLimit,   ! Exhaust Air Temperature Limit Def: NoExhaustAirTemperatureLimit, [ExhaustAirTemperatureLimit, NoExhaustAirTemperatureLimit], #7
+  NoExhaustAirEnthalpyLimit,   ! Exhaust Air Enthalpy Limit Def: NoExhaustAirEnthalpyLimit, [ExhaustAirEnthalpyLimit, NoExhaustAirEnthalpyLimit], #8
+  ,   ! Time of Day Economizer Flow Control Schedule Name [ScheduleNames], #9
+  No,   ! High Humidity Control Flag Def: No, [Yes, No], #10
+  ,   ! Humidistat Control Zone Name [ZoneNames], #11
+  1.0,   ! High Humidity Outdoor Air Flow Ratio Def: 1.0, #12
+  Yes;   ! Control High Indoor Humidity Based on Outdoor Humidity Ratio Def: Yes, [Yes, No], #13

@@ -1,0 +1,13 @@
+! Min Fields: 7
+ZoneHVAC:EnergyRecoveryVentilator,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Heat Exchanger Name [HXAirToAirSensibleAndLatentNames], REQ, #3
+  ,   ! Supply Air Flow Rate {m3/s}, AS, REQ, #4
+  ,   ! Exhaust Air Flow Rate {m3/s}, AS, REQ, #5
+  ,   ! Supply Air Fan Name [FansOnOff, FansSystemModel], REQ, #6
+  ,   ! Exhaust Air Fan Name [FansOnOff, FansSystemModel], REQ, #7
+  ,   ! Controller Name [ControllerStandAloneEnergyRecoveryVentilator], #8
+  ,   ! Ventilation Rate per Unit Floor Area {m3/s-m2}, #9
+  ,   ! Ventilation Rate per Occupant {m3/s-person}, #10
+  ;   ! Availability Manager List Name [SystemAvailabilityManagerLists], #11

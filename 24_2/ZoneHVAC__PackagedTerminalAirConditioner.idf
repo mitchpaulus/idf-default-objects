@@ -1,0 +1,28 @@
+! Min Fields: 19
+ZoneHVAC:PackagedTerminalAirConditioner,
+  ,   ! Name RefList: [DOAToZonalUnit, ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Outdoor Air Mixer Object Type [OutdoorAir:Mixer], #5
+  ,   ! Outdoor Air Mixer Name [OutdoorAirMixers], #6
+  ,   ! Cooling Supply Air Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Heating Supply Air Flow Rate {m3/s}, AS, REQ, #8
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #9
+  Yes,   ! No Load Supply Air Flow Rate Control Set To Low Speed Def: Yes, [Yes, No], #10
+  ,   ! Cooling Outdoor Air Flow Rate {m3/s}, AS, REQ, #11
+  ,   ! Heating Outdoor Air Flow Rate {m3/s}, AS, REQ, #12
+  ,   ! No Load Outdoor Air Flow Rate {m3/s}, AS, #13
+  ,   ! Supply Air Fan Object Type [Fan:SystemModel, Fan:OnOff, Fan:ConstantVolume], REQ, #14
+  ,   ! Supply Air Fan Name [FansCVandOnOff, FansSystemModel], REQ, #15
+  ,   ! Heating Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Water, Coil:Heating:Steam], REQ, #16
+  ,   ! Heating Coil Name [HeatingCoilName], REQ, #17
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX, Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:VariableSpeed, CoilSystem:Cooling:DX:HeatExchangerAssisted], REQ, #18
+  ,   ! Cooling Coil Name [CoolingCoilsDXSingleSpeed, CoolingCoilsDXVariableSpeed, CoilCoolingDX], REQ, #19
+  DrawThrough,   ! Fan Placement Def: DrawThrough, [BlowThrough, DrawThrough], #20
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #21
+  ,   ! Availability Manager List Name [SystemAvailabilityManagerLists], #22
+  ,   ! Design Specification ZoneHVAC Sizing Object Name [DesignSpecificationZoneHVACSizingName], #23
+  None,   ! Capacity Control Method Def: None, [None, SingleZoneVAV], #24
+  autosize,   ! Minimum Supply Air Temperature in Cooling Mode {C}, Def: autosize, AS, #25
+  autosize;   ! Maximum Supply Air Temperature in Heating Mode {C}, Def: autosize, AS, #26

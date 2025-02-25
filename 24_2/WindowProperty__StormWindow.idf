@@ -1,0 +1,9 @@
+! Min Fields: 7
+WindowProperty:StormWindow,
+  ,   ! Window Name [SubSurfNames], REQ, #1
+  ,   ! Storm Glass Layer Name [GlazingMaterialName], REQ, #2
+  0.050,   ! Distance Between Storm Glass Layer and Adjacent Glass {m}, Def: 0.050, #3
+  ,   ! Month that Storm Glass Layer is Put On REQ, #4
+  ,   ! Day of Month that Storm Glass Layer is Put On REQ, #5
+  ,   ! Month that Storm Glass Layer is Taken Off REQ, #6
+  ;   ! Day of Month that Storm Glass Layer is Taken Off REQ, #7

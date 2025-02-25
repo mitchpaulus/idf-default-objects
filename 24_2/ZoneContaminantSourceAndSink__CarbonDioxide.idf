@@ -1,0 +1,5 @@
+ZoneContaminantSourceAndSink:CarbonDioxide,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Design Generation Rate {m3/s}, #3
+  ;   ! Schedule Name [ScheduleNames], REQ, #4

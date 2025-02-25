@@ -1,0 +1,19 @@
+! Min Fields: 31
+HeatPump:AirToWater:FuelFired:Heating,
+  ,   ! Name RefList: [HeatPumpAirToWaterFuelFiredHeatingNames], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  ,   ! Air Source Node Name [OutdoorAirNodeNames], #4
+  ,   ! Companion Cooling Heat Pump Name [HeatPumpAirToWaterFuelFiredCoolingNames], #5
+  NaturalGas,   ! Fuel Type Def: NaturalGas, [NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Diesel, Gasoline, Coal, OtherFuel1, OtherFuel2], REQ, #6
+  General,   ! End-Use Subcategory Def: General, #7
+  ,   ! Nominal Heating Capacity {W}, AS, #8
+  1.0,   ! Nominal COP {W/W}, Def: 1.0, REQ, #9
+  ,   ! Design Flow Rate {m3/s}, AS, #10
+  60,   ! Design Supply Temperature {C}, Def: 60, #11
+  11.1,   ! Design Temperature Lift {deltaC}, Def: 11.1, AS, #12
+  1.0,   ! Sizing Factor Def: 1.0, #13
+  NotModulated,   ! Flow Mode Def: NotModulated, [NotModulated, ConstantFlow, LeavingSetpointModulated], REQ, #14
+  DryBulb,   ! Outdoor Air Temperature Curve Input Variable Def: DryBulb, [DryBulb, WetBulb], REQ, #15
+  EnteringCondenser,   ! Water Temperature Curve Input Variable Def: EnteringCondenser, [EnteringCondenser, LeavingCondenser], REQ, #16
+  ;   ! Normalized Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #17

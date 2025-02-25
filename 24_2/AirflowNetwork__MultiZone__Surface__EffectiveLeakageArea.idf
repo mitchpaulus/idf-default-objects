@@ -1,0 +1,7 @@
+! Min Fields: 5
+AirflowNetwork:MultiZone:Surface:EffectiveLeakageArea,
+  ,   ! Name RefList: [SurfaceAirflowLeakageNames], REQ, #1
+  ,   ! Effective Leakage Area {m2}, REQ, #2
+  1.0,   ! Discharge Coefficient {dimensionless}, Def: 1.0, #3
+  4.0,   ! Reference Pressure Difference {Pa}, Def: 4.0, #4
+  .65;   ! Air Mass Flow Exponent {dimensionless}, Def: .65, #5

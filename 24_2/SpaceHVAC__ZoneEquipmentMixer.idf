@@ -1,0 +1,9 @@
+! Min Fields: 7
+SpaceHVAC:ZoneEquipmentMixer,
+  ,   ! Name RefList: [SpaceMixerNames], REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Zone Equipment Inlet Node Name REQ, #3
+  DesignCoolingLoad,   ! Space Fraction Method Def: DesignCoolingLoad, [DesignCoolingLoad, DesignHeatingLoad, FloorArea, Volume, PerimeterLength], #4
+  ,   ! Space 1 Name [SpaceNames], REQ, #5
+  autosize,   ! Space 1 Fraction {dimensionless}, Def: autosize, AS, #6
+  ;   ! Space 1 Node Name REQ, #7

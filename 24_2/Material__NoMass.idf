@@ -1,0 +1,8 @@
+! Min Fields: 3
+Material:NoMass,
+  ,   ! Name RefList: [MaterialName], REQ, #1
+  ,   ! Roughness [VeryRough, Rough, MediumRough, MediumSmooth, Smooth, VerySmooth], REQ, #2
+  ,   ! Thermal Resistance {m2-K/W}, REQ, #3
+  .9,   ! Thermal Absorptance Def: .9, #4
+  .7,   ! Solar Absorptance Def: .7, #5
+  .7;   ! Visible Absorptance Def: .7, #6

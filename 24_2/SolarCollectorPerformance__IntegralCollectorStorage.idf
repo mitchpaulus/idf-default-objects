@@ -1,0 +1,21 @@
+! Min Fields: 19
+SolarCollectorPerformance:IntegralCollectorStorage,
+  ,   ! Name RefList: [CollectorStoragePerformance], REQ, #1
+  RectangularTank,   ! ICS Collector Type Def: RectangularTank, [RectangularTank], #2
+  ,   ! Gross Area {m2}, #3
+  ,   ! Collector Water Volume {m3}, #4
+  0.40,   ! Bottom Heat Loss Conductance {W/m2-K}, Def: 0.40, #5
+  0.60,   ! Side Heat Loss Conductance {W/m2-K}, Def: 0.60, #6
+  0.8,   ! Aspect Ratio {m}, Def: 0.8, #7
+  0.20,   ! Collector Side Height {m}, Def: 0.20, #8
+  0,   ! Thermal Mass of Absorber Plate {J/m2-K}, Def: 0, #9
+  2,   ! Number of Covers Def: 2, #10
+  0.05,   ! Cover Spacing {m}, Def: 0.05, #11
+  1.526,   ! Refractive Index of Outer Cover {dimensionless}, Def: 1.526, #12
+  0.045,   ! Extinction Coefficient Times Thickness of Outer Cover {dimensionless}, Def: 0.045, #13
+  0.88,   ! Emissivity of Outer Cover {dimensionless}, Def: 0.88, #14
+  1.37,   ! Refractive Index of Inner Cover {dimensionless}, Def: 1.37, #15
+  0.008,   ! Extinction Coefficient Times Thickness of the inner Cover {dimensionless}, Def: 0.008, #16
+  0.88,   ! Emissivity of Inner Cover {dimensionless}, Def: 0.88, #17
+  0.96,   ! Absorptance of Absorber Plate {dimensionless}, Def: 0.96, #18
+  0.30;   ! Emissivity of Absorber Plate {dimensionless}, Def: 0.30, #19

@@ -1,0 +1,5 @@
+! Min Fields: 2
+ZoneAirHeatBalanceAlgorithm,
+  ThirdOrderBackwardDifference,   ! Algorithm Def: ThirdOrderBackwardDifference, [ThirdOrderBackwardDifference, AnalyticalSolution, EulerMethod], #1
+  No,   ! Do Space Heat Balance for Sizing Def: No, [No, Yes], #2
+  No;   ! Do Space Heat Balance for Simulation Def: No, [No, Yes], #3

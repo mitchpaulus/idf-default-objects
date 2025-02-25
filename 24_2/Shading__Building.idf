@@ -1,0 +1,9 @@
+Shading:Building,
+  ,   ! Name RefList: [AllShadingAndHTSurfNames, AllShadingSurfNames], REQ, #1
+  ,   ! Azimuth Angle {deg}, #2
+  90,   ! Tilt Angle {deg}, Def: 90, #3
+  ,   ! Starting X Coordinate {m}, #4
+  ,   ! Starting Y Coordinate {m}, #5
+  ,   ! Starting Z Coordinate {m}, #6
+  ,   ! Length {m}, #7
+  ;   ! Height {m}, #8

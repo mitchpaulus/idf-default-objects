@@ -1,0 +1,5 @@
+! Min Fields: 2
+AirflowNetwork:MultiZone:SpecifiedFlowRate,
+  ,   ! Name RefList: [SurfaceAirflowLeakageNames], REQ, #1
+  ,   ! Air Flow Value REQ, #2
+  MassFlow;   ! Air Flow Units Def: MassFlow, [VolumetricFlow, MassFlow], #3

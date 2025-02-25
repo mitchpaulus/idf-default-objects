@@ -1,0 +1,13 @@
+! Min Fields: 7
+Coil:Heating:Fuel,
+  ,   ! Name RefList: [HeatingCoilName, AFNCoilNames, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  NaturalGas,   ! Fuel Type Def: NaturalGas, [NaturalGas, Propane, Diesel, Gasoline, Coal, FuelOilNo1, FuelOilNo2, OtherFuel1, OtherFuel2], #3
+  0.8,   ! Burner Efficiency Def: 0.8, #4
+  ,   ! Nominal Capacity {W}, AS, #5
+  ,   ! Air Inlet Node Name REQ, #6
+  ,   ! Air Outlet Node Name REQ, #7
+  ,   ! Temperature Setpoint Node Name #8
+  ,   ! On Cycle Parasitic Electric Load {W}, #9
+  ,   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], #10
+  ;   ! Off Cycle Parasitic Fuel Load {W}, #11

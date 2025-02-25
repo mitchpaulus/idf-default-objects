@@ -1,0 +1,4 @@
+! Min Fields: 2
+Material:AirGap,
+  ,   ! Name RefList: [MaterialName], REQ, #1
+  ;   ! Thermal Resistance {m2-K/W}, REQ, #2

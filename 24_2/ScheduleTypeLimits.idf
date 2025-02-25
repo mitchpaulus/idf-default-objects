@@ -1,0 +1,6 @@
+ScheduleTypeLimits,
+  ,   ! Name RefList: [ScheduleTypeLimitsNames], REQ, #1
+  ,   ! Lower Limit Value #2
+  ,   ! Upper Limit Value #3
+  ,   ! Numeric Type [Continuous, Discrete], #4
+  Dimensionless;   ! Unit Type Def: Dimensionless, [Dimensionless, Temperature, DeltaTemperature, PrecipitationRate, Angle, ConvectionCoefficient, ActivityLevel, Velocity, Capacity, Power, Availability, Percent, Control, Mode], #5

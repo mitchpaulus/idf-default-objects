@@ -1,0 +1,45 @@
+! Min Fields: 20
+Coil:Cooling:DX:TwoSpeed,
+  ,   ! Name RefList: [CoolingCoilsDX, DesuperHeatingCoilSources, AFNCoilNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! High Speed Gross Rated Total Cooling Capacity {W}, AS, REQ, #3
+  ,   ! High Speed Rated Sensible Heat Ratio AS, REQ, #4
+  3.0,   ! High Speed Gross Rated Cooling COP {W/W}, Def: 3.0, #5
+  ,   ! High Speed Rated Air Flow Rate {m3/s}, AS, REQ, #6
+  773.3,   ! High Speed 2017 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #7
+  934.4,   ! High Speed 2023 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #8
+  ,   ! Unit Internal Static Air Pressure {Pa}, #9
+  ,   ! Air Inlet Node Name REQ, #10
+  ,   ! Air Outlet Node Name REQ, #11
+  ,   ! Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #12
+  ,   ! Total Cooling Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #13
+  ,   ! Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #14
+  ,   ! Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #15
+  ,   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #16
+  ,   ! Low Speed Gross Rated Total Cooling Capacity {W}, AS, REQ, #17
+  ,   ! Low Speed Gross Rated Sensible Heat Ratio AS, REQ, #18
+  3.0,   ! Low Speed Gross Rated Cooling COP {W/W}, Def: 3.0, #19
+  ,   ! Low Speed Rated Air Flow Rate {m3/s}, AS, REQ, #20
+  773.3,   ! Low Speed 2017 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #21
+  934.4,   ! Low Speed 2023 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #22
+  ,   ! Low Speed Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #23
+  ,   ! Low Speed Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #24
+  ,   ! Condenser Air Inlet Node Name #25
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, EvaporativelyCooled], #26
+  -25.0,   ! Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}, Def: -25.0, #27
+  0.9,   ! High Speed Evaporative Condenser Effectiveness {dimensionless}, Def: 0.9, #28
+  ,   ! High Speed Evaporative Condenser Air Flow Rate {m3/s}, AS, #29
+  ,   ! High Speed Evaporative Condenser Pump Rated Power Consumption {W}, AS, #30
+  0.9,   ! Low Speed Evaporative Condenser Effectiveness {dimensionless}, Def: 0.9, #31
+  ,   ! Low Speed Evaporative Condenser Air Flow Rate {m3/s}, AS, #32
+  ,   ! Low Speed Evaporative Condenser Pump Rated Power Consumption {W}, AS, #33
+  ,   ! Supply Water Storage Tank Name [WaterStorageTankNames], #34
+  ,   ! Condensate Collection Water Storage Tank Name [WaterStorageTankNames], #35
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #36
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #37
+  ,   ! Basin Heater Operating Schedule Name [ScheduleNames], #38
+  ,   ! Sensible Heat Ratio Function of Temperature Curve Name [BivariateFunctions], #39
+  ,   ! Sensible Heat Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #40
+  ,   ! Low Speed Sensible Heat Ratio Function of Temperature Curve Name [BivariateFunctions], #41
+  ,   ! Low Speed Sensible Heat Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #42
+  ;   ! Zone Name for Condenser Placement [ZoneNames], #43

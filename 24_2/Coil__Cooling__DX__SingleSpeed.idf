@@ -1,0 +1,39 @@
+! Min Fields: 18
+Coil:Cooling:DX:SingleSpeed,
+  ,   ! Name RefList: [CoolingCoilsDX, CoolingCoilsDXSingleSpeed, CoolingCoilsDXMultiModeOrSingleSpeed, DesuperHeatingCoilSources, AFNCoilNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Gross Rated Total Cooling Capacity {W}, AS, REQ, #3
+  ,   ! Gross Rated Sensible Heat Ratio AS, REQ, #4
+  3.0,   ! Gross Rated Cooling COP {W/W}, Def: 3.0, #5
+  ,   ! Rated Air Flow Rate {m3/s}, AS, REQ, #6
+  773.3,   ! 2017 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #7
+  934.4,   ! 2023 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #8
+  ,   ! Air Inlet Node Name REQ, #9
+  ,   ! Air Outlet Node Name REQ, #10
+  ,   ! Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #11
+  ,   ! Total Cooling Capacity Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #12
+  ,   ! Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #13
+  ,   ! Energy Input Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], REQ, #14
+  ,   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #15
+  -25.0,   ! Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}, Def: -25.0, #16
+  0.0,   ! Nominal Time for Condensate Removal to Begin {s}, Def: 0.0, #17
+  0.0,   ! Ratio of Initial Moisture Evaporation Rate and Steady State Latent Capacity {dimensionless}, Def: 0.0, #18
+  0.0,   ! Maximum Cycling Rate {cycles/hr}, Def: 0.0, #19
+  0.0,   ! Latent Capacity Time Constant {s}, Def: 0.0, #20
+  ,   ! Condenser Air Inlet Node Name #21
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, EvaporativelyCooled], #22
+  0.9,   ! Evaporative Condenser Effectiveness {dimensionless}, Def: 0.9, #23
+  ,   ! Evaporative Condenser Air Flow Rate {m3/s}, AS, #24
+  0.0,   ! Evaporative Condenser Pump Rated Power Consumption {W}, Def: 0.0, AS, #25
+  0.0,   ! Crankcase Heater Capacity {W}, Def: 0.0, #26
+  ,   ! Crankcase Heater Capacity Function of Temperature Curve Name [UnivariateFunctions], #27
+  10.0,   ! Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater Operation {C}, Def: 10.0, #28
+  ,   ! Supply Water Storage Tank Name [WaterStorageTankNames], #29
+  ,   ! Condensate Collection Water Storage Tank Name [WaterStorageTankNames], #30
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #31
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #32
+  ,   ! Basin Heater Operating Schedule Name [ScheduleNames], #33
+  ,   ! Sensible Heat Ratio Function of Temperature Curve Name [BivariateFunctions], #34
+  ,   ! Sensible Heat Ratio Function of Flow Fraction Curve Name [UnivariateFunctions], #35
+  No,   ! Report ASHRAE Standard 127 Performance Ratings Def: No, [Yes, No], #36
+  ;   ! Zone Name for Condenser Placement [ZoneNames], #37

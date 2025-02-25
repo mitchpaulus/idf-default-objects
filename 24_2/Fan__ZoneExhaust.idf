@@ -1,0 +1,14 @@
+! Min Fields: 7
+Fan:ZoneExhaust,
+  ,   ! Name RefList: [FansZoneExhaust, ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  0.6,   ! Fan Total Efficiency Def: 0.6, #3
+  ,   ! Pressure Rise {Pa}, REQ, #4
+  ,   ! Maximum Flow Rate {m3/s}, #5
+  ,   ! Air Inlet Node Name REQ, #6
+  ,   ! Air Outlet Node Name REQ, #7
+  General,   ! End-Use Subcategory Def: General, #8
+  ,   ! Flow Fraction Schedule Name [ScheduleNames], #9
+  Coupled,   ! System Availability Manager Coupling Mode Def: Coupled, [Coupled, Decoupled], #10
+  ,   ! Minimum Zone Temperature Limit Schedule Name [ScheduleNames], #11
+  ;   ! Balanced Exhaust Fraction Schedule Name [ScheduleNames], #12

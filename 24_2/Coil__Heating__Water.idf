@@ -1,0 +1,18 @@
+! Min Fields: 15
+Coil:Heating:Water,
+  ,   ! Name RefList: [HeatingCoilName, HeatingCoilsWater, AFNCoilNames, SimpleCoils, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  autosize,   ! U-Factor Times Area Value {W/K}, Def: autosize, AS, #3
+  autosize,   ! Maximum Water Flow Rate {m3/s}, Def: autosize, AS, #4
+  ,   ! Water Inlet Node Name REQ, #5
+  ,   ! Water Outlet Node Name REQ, #6
+  ,   ! Air Inlet Node Name REQ, #7
+  ,   ! Air Outlet Node Name REQ, #8
+  UFactorTimesAreaAndDesignWaterFlowRate,   ! Performance Input Method Def: UFactorTimesAreaAndDesignWaterFlowRate, [UFactorTimesAreaAndDesignWaterFlowRate, NominalCapacity], #9
+  autosize,   ! Rated Capacity {W}, Def: autosize, AS, #10
+  82.2,   ! Rated Inlet Water Temperature {C}, Def: 82.2, #11
+  16.6,   ! Rated Inlet Air Temperature {C}, Def: 16.6, #12
+  71.1,   ! Rated Outlet Water Temperature {C}, Def: 71.1, #13
+  32.2,   ! Rated Outlet Air Temperature {C}, Def: 32.2, #14
+  0.5,   ! Rated Ratio for Air and Water Convection Def: 0.5, #15
+  ;   ! Design Water Temperature Difference {deltaC}, #16

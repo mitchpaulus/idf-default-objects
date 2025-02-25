@@ -1,0 +1,20 @@
+! Min Fields: 12
+Boiler:HotWater,
+  ,   ! Name RefList: [Boilers, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Fuel Type [Electricity, NaturalGas, Propane, FuelOilNo1, FuelOilNo2, Coal, Diesel, Gasoline, OtherFuel1, OtherFuel2], REQ, #2
+  ,   ! Nominal Capacity {W}, AS, #3
+  ,   ! Nominal Thermal Efficiency REQ, #4
+  ,   ! Efficiency Curve Temperature Evaluation Variable [EnteringBoiler, LeavingBoiler], #5
+  ,   ! Normalized Boiler Efficiency Curve Name [UnivariateFunctions, BivariateFunctions], #6
+  autosize,   ! Design Water Flow Rate {m3/s}, Def: autosize, AS, #7
+  0.0,   ! Minimum Part Load Ratio Def: 0.0, #8
+  1.0,   ! Maximum Part Load Ratio Def: 1.0, #9
+  1.0,   ! Optimum Part Load Ratio Def: 1.0, #10
+  ,   ! Boiler Water Inlet Node Name REQ, #11
+  ,   ! Boiler Water Outlet Node Name REQ, #12
+  99.9,   ! Water Outlet Upper Temperature Limit {C}, Def: 99.9, #13
+  NotModulated,   ! Boiler Flow Mode Def: NotModulated, [ConstantFlow, LeavingSetpointModulated, NotModulated], #14
+  0.0,   ! On Cycle Parasitic Electric Load {W}, Def: 0.0, #15
+  1.0,   ! Sizing Factor Def: 1.0, #16
+  General,   ! End-Use Subcategory Def: General, #17
+  ;   ! Off Cycle Parasitic Fuel Load {W}, #18

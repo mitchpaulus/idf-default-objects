@@ -1,0 +1,20 @@
+! Min Fields: 14
+ZoneHVAC:HighTemperatureRadiant,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], REQ, #3
+  HeatingDesignCapacity,   ! Heating Design Capacity Method Def: HeatingDesignCapacity, [HeatingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedHeatingCapacity], #4
+  autosize,   ! Heating Design Capacity {W}, Def: autosize, AS, #5
+  ,   ! Heating Design Capacity Per Floor Area {W/m2}, #6
+  1.0,   ! Fraction of Autosized Heating Design Capacity Def: 1.0, #7
+  ,   ! Fuel Type [NaturalGas, Electricity], REQ, #8
+  0.9,   ! Combustion Efficiency Def: 0.9, #9
+  0.7,   ! Fraction of Input Converted to Radiant Energy Def: 0.7, #10
+  0.0,   ! Fraction of Input Converted to Latent Energy Def: 0.0, #11
+  0.0,   ! Fraction of Input that Is Lost Def: 0.0, #12
+  OperativeTemperature,   ! Temperature Control Type Def: OperativeTemperature, [MeanAirTemperature, MeanRadiantTemperature, OperativeTemperature, MeanAirTemperatureSetpoint, MeanRadiantTemperatureSetpoint, OperativeTemperatureSetpoint], #13
+  2.0,   ! Heating Throttling Range {deltaC}, Def: 2.0, #14
+  ,   ! Heating Setpoint Temperature Schedule Name [ScheduleNames], #15
+  ,   ! Fraction of Radiant Energy Incident on People #16
+  ,   ! Surface 1 Name [AllHeatTranSurfNames], #17
+  ;   ! Fraction of Radiant Energy to Surface 1 #18

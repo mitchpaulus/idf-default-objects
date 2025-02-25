@@ -1,0 +1,5 @@
+! Min Fields: 3
+Schedule:Week:Compact,
+  ,   ! Name RefList: [WeekScheduleNames], REQ, #1
+  ,   ! DayType List 1 [AllDays, AllOtherDays, Weekdays, Weekends, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Holiday, SummerDesignDay, WinterDesignDay, CustomDay1, CustomDay2], REQ, #2
+  ;   ! Schedule:Day Name 1 [DayScheduleNames], REQ, #3

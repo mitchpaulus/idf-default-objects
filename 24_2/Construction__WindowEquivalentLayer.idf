@@ -1,0 +1,14 @@
+! Min Fields: 2
+Construction:WindowEquivalentLayer,
+  ,   ! Name RefList: [ConstructionNames], REQ, #1
+  ,   ! Outside Layer [WindowEquivalentLayerMaterialNames], REQ, #2
+  ,   ! Layer 2 [WindowEquivalentLayerMaterialNames], #3
+  ,   ! Layer 3 [WindowEquivalentLayerMaterialNames], #4
+  ,   ! Layer 4 [WindowEquivalentLayerMaterialNames], #5
+  ,   ! Layer 5 [WindowEquivalentLayerMaterialNames], #6
+  ,   ! Layer 6 [WindowEquivalentLayerMaterialNames], #7
+  ,   ! Layer 7 [WindowEquivalentLayerMaterialNames], #8
+  ,   ! Layer 8 [WindowEquivalentLayerMaterialNames], #9
+  ,   ! Layer 9 [WindowEquivalentLayerMaterialNames], #10
+  ,   ! Layer 10 [WindowEquivalentLayerMaterialNames], #11
+  ;   ! Layer 11 [WindowEquivalentLayerMaterialNames], #12

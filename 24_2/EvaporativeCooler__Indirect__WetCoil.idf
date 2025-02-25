@@ -1,0 +1,15 @@
+! Min Fields: 13
+EvaporativeCooler:Indirect:WetCoil,
+  ,   ! Name RefList: [EvapCoolerNames, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Coil Maximum Efficiency REQ, #3
+  ,   ! Coil Flow Ratio #4
+  ,   ! Recirculating Water Pump Power Consumption {W}, REQ, #5
+  ,   ! Secondary Air Fan Flow Rate {m3/s}, REQ, #6
+  ,   ! Secondary Air Fan Total Efficiency REQ, #7
+  ,   ! Secondary Air Fan Delta Pressure {Pa}, REQ, #8
+  ,   ! Primary Air Inlet Node Name REQ, #9
+  ,   ! Primary Air Outlet Node Name REQ, #10
+  ,   ! Control Type #11
+  ,   ! Water Supply Storage Tank Name [WaterStorageTankNames], #12
+  ;   ! Secondary Air Inlet Node Name REQ, #13

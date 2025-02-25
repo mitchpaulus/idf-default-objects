@@ -1,0 +1,6 @@
+! Min Fields: 1
+Site:VariableLocation,
+  ,   ! Name REQ, #1
+  ,   ! Building Location Latitude Schedule [ScheduleNames], #2
+  ,   ! Building Location Longitude Schedule [ScheduleNames], #3
+  ;   ! Building Location Orientation Schedule [ScheduleNames], #4

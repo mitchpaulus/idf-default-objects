@@ -1,0 +1,2 @@
+SurfaceConvectionAlgorithm:Outside,
+  DOE-2;   ! Algorithm Def: DOE-2, [SimpleCombined, TARP, MoWiTT, DOE-2, AdaptiveConvectionAlgorithm], #1

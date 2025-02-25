@@ -1,0 +1,32 @@
+! Min Fields: 14
+Pump:VariableSpeed,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Inlet Node Name REQ, #2
+  ,   ! Outlet Node Name REQ, #3
+  ,   ! Design Maximum Flow Rate {m3/s}, AS, #4
+  179352,   ! Design Pump Head {Pa}, Def: 179352, #5
+  ,   ! Design Power Consumption {W}, AS, #6
+  0.9,   ! Motor Efficiency Def: 0.9, #7
+  0.0,   ! Fraction of Motor Inefficiencies to Fluid Stream Def: 0.0, #8
+  0.0,   ! Coefficient 1 of the Part Load Performance Curve Def: 0.0, #9
+  1.0,   ! Coefficient 2 of the Part Load Performance Curve Def: 1.0, #10
+  0.0,   ! Coefficient 3 of the Part Load Performance Curve Def: 0.0, #11
+  0.0,   ! Coefficient 4 of the Part Load Performance Curve Def: 0.0, #12
+  autosize,   ! Design Minimum Flow Rate {m3/s}, Def: autosize, AS, #13
+  Continuous,   ! Pump Control Type Def: Continuous, [Continuous, Intermittent], #14
+  ,   ! Pump Flow Rate Schedule Name [ScheduleNames], #15
+  ,   ! Pump Curve Name [UnivariateFunctions], #16
+  ,   ! Impeller Diameter {m}, #17
+  ,   ! VFD Control Type [ManualControl, PressureSetpointControl], #18
+  ,   ! Pump RPM Schedule Name [ScheduleNames], #19
+  ,   ! Minimum Pressure Schedule {Pa}, [ScheduleNames], #20
+  ,   ! Maximum Pressure Schedule {Pa}, [ScheduleNames], #21
+  ,   ! Minimum RPM Schedule {rev/min}, [ScheduleNames], #22
+  ,   ! Maximum RPM Schedule {rev/min}, [ScheduleNames], #23
+  ,   ! Zone Name [ZoneNames], #24
+  ,   ! Skin Loss Radiative Fraction #25
+  PowerPerFlowPerPressure,   ! Design Power Sizing Method Def: PowerPerFlowPerPressure, [PowerPerFlow, PowerPerFlowPerPressure], #26
+  348701.1,   ! Design Electric Power per Unit Flow Rate {W/(m3/s)}, Def: 348701.1, #27
+  1.282051282,   ! Design Shaft Power per Unit Flow Rate per Unit Head {W/((m3/s)-Pa)}, Def: 1.282051282, #28
+  0.0,   ! Design Minimum Flow Rate Fraction Def: 0.0, #29
+  General;   ! End-Use Subcategory Def: General, #30

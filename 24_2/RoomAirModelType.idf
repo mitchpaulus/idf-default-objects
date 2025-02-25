@@ -1,0 +1,6 @@
+! Min Fields: 4
+RoomAirModelType,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  Mixing,   ! Room-Air Modeling Type Def: Mixing, [Mixing, UserDefined, OneNodeDisplacementVentilation, ThreeNodeDisplacementVentilation, CrossVentilation, UnderFloorAirDistributionInterior, UnderFloorAirDistributionExterior, AirflowNetwork], #3
+  Direct;   ! Air Temperature Coupling Strategy Def: Direct, [Direct, Indirect], #4

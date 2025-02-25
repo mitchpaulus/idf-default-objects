@@ -1,0 +1,12 @@
+! Min Fields: 10
+MaterialProperty:MoisturePenetrationDepth:Settings,
+  ,   ! Name [MaterialName], REQ, #1
+  ,   ! Water Vapor Diffusion Resistance Factor {dimensionless}, REQ, #2
+  ,   ! Moisture Equation Coefficient a {dimensionless}, REQ, #3
+  ,   ! Moisture Equation Coefficient b {dimensionless}, REQ, #4
+  ,   ! Moisture Equation Coefficient c {dimensionless}, REQ, #5
+  ,   ! Moisture Equation Coefficient d {dimensionless}, REQ, #6
+  autocalculate,   ! Surface Layer Penetration Depth {m}, Def: autocalculate, AC, #7
+  autocalculate,   ! Deep Layer Penetration Depth {m}, Def: autocalculate, AC, #8
+  ,   ! Coating Layer Thickness {m}, REQ, #9
+  ;   ! Coating Layer Water Vapor Diffusion Resistance Factor {dimensionless}, REQ, #10

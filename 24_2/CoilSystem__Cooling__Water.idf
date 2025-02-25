@@ -1,0 +1,15 @@
+! Min Fields: 10
+CoilSystem:Cooling:Water,
+  ,   ! Name RefList: [validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Air Inlet Node Name REQ, #2
+  ,   ! Air Outlet Node Name REQ, #3
+  ,   ! Availability Schedule Name [ScheduleNames], #4
+  ,   ! Cooling Coil Object Type [Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry, CoilSystem:Cooling:Water:HeatExchangerAssisted], REQ, #5
+  ,   ! Cooling Coil Name [CoolingCoilsWater], REQ, #6
+  None,   ! Dehumidification Control Type Def: None, [None, Multimode, CoolReheat], #7
+  Yes,   ! Run on Sensible Load Def: Yes, [Yes, No], #8
+  No,   ! Run on Latent Load Def: No, [Yes, No], #9
+  0.0,   ! Minimum Air To Water Temperature Offset {deltaC}, Def: 0.0, #10
+  Yes,   ! Economizer Lockout Def: Yes, [Yes, No], #11
+  0.0,   ! Minimum Water Loop Temperature For Heat Recovery {C}, Def: 0.0, #12
+  ;   ! Companion Coil Used For Heat Recovery [CoolingCoilsWater], #13

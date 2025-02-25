@@ -1,0 +1,13 @@
+ZoneHVAC:ExhaustControl,
+  ,   ! Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], REQ, #3
+  ,   ! Inlet Node Name REQ, #4
+  ,   ! Outlet Node Name REQ, #5
+  autosize,   ! Design Exhaust Flow Rate {m3/s}, Def: autosize, AS, #6
+  Scheduled,   ! Flow Control Type Def: Scheduled, [Scheduled, FollowSupply], #7
+  ,   ! Exhaust Flow Fraction Schedule Name [ScheduleNames], #8
+  ,   ! Supply Node or NodeList Name #9
+  ,   ! Minimum Zone Temperature Limit Schedule Name [ScheduleNames], #10
+  ,   ! Minimum Exhaust Flow Fraction Schedule Name [ScheduleNames], #11
+  ;   ! Balanced Exhaust Fraction Schedule Name [ScheduleNames], #12

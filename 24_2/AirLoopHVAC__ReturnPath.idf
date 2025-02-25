@@ -1,0 +1,5 @@
+AirLoopHVAC:ReturnPath,
+  ,   ! Name REQ, #1
+  ,   ! Return Air Path Outlet Node Name REQ, #2
+  ,   ! Component 1 Object Type [AirLoopHVAC:ZoneMixer, AirLoopHVAC:ReturnPlenum], REQ, #3
+  ;   ! Component 1 Name [ReturnPathComponentNames], REQ, #4

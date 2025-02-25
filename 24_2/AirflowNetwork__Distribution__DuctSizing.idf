@@ -1,0 +1,10 @@
+! Min Fields: 8
+AirflowNetwork:Distribution:DuctSizing,
+  ,   ! Name REQ, #1
+  MaximumVelocity,   ! Duct Sizing Method Def: MaximumVelocity, [MaximumVelocity, PressureLoss, PressureLossWithMaximumVelocity], #2
+  1.0,   ! Duct Sizing Factor Def: 1.0, #3
+  5.0,   ! Maximum Airflow Velocity {m/s}, Def: 5.0, #4
+  ,   ! Total Pressure Loss Across Supply Trunk {Pa}, #5
+  ,   ! Total Pressure Loss Across Supply Branch {Pa}, #6
+  ,   ! Total Pressure Loss Across Return Trunk {Pa}, #7
+  ;   ! Total Pressure Loss Across Return Branch {Pa}, #8

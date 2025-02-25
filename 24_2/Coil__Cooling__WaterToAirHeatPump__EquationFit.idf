@@ -1,0 +1,24 @@
+! Min Fields: 22
+Coil:Cooling:WaterToAirHeatPump:EquationFit,
+  ,   ! Name RefList: [CoolingCoilsWaterToAirHP, validBranchEquipmentNames, DesuperHeatingWaterOnlySources], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Water Inlet Node Name REQ, #2
+  ,   ! Water Outlet Node Name REQ, #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Air Outlet Node Name REQ, #5
+  ,   ! Rated Air Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! Rated Water Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Gross Rated Total Cooling Capacity {W}, AS, REQ, #8
+  ,   ! Gross Rated Sensible Cooling Capacity {W}, AS, REQ, #9
+  ,   ! Gross Rated Cooling COP {W/W}, REQ, #10
+  30,   ! Rated Entering Water Temperature {C}, Def: 30, #11
+  27,   ! Rated Entering Air Dry-Bulb Temperature {C}, Def: 27, #12
+  19.0,   ! Rated Entering Air Wet-Bulb Temperature {C}, Def: 19.0, #13
+  ,   ! Total Cooling Capacity Curve Name [QuadvariateFunctions], REQ, #14
+  ,   ! Sensible Cooling Capacity Curve Name [QuintvariateFunctions], REQ, #15
+  ,   ! Cooling Power Consumption Curve Name [QuadvariateFunctions], REQ, #16
+  ,   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #17
+  0.0,   ! Nominal Time for Condensate Removal to Begin {s}, Def: 0.0, #18
+  0.0,   ! Ratio of Initial Moisture Evaporation Rate and Steady State Latent Capacity {dimensionless}, Def: 0.0, #19
+  0.0,   ! Maximum Cycling Rate {cycles/hr}, Def: 0.0, #20
+  0.0,   ! Latent Capacity Time Constant {s}, Def: 0.0, #21
+  60;   ! Fan Delay Time {s}, Def: 60, #22

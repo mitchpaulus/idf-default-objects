@@ -1,0 +1,147 @@
+! Min Fields: 35
+Coil:Cooling:DX:VariableSpeed,
+  ,   ! Name RefList: [CoolingCoilsDXVariableSpeed, DesuperHeatingCoilSources], REQ, #1
+  ,   ! Indoor Air Inlet Node Name REQ, #2
+  ,   ! Indoor Air Outlet Node Name REQ, #3
+  2,   ! Number of Speeds {dimensionless}, Def: 2, #4
+  2,   ! Nominal Speed Level {dimensionless}, Def: 2, #5
+  autosize,   ! Gross Rated Total Cooling Capacity At Selected Nominal Speed Level {W}, Def: autosize, AS, #6
+  autosize,   ! Rated Air Flow Rate At Selected Nominal Speed Level {m3/s}, Def: autosize, AS, #7
+  0,   ! Nominal Time for Condensate to Begin Leaving the Coil {s}, Def: 0, #8
+  0,   ! Initial Moisture Evaporation Rate Divided by Steady-State AC Latent Capacity {dimensionless}, Def: 0, #9
+  2.5,   ! Maximum Cycling Rate {cycles/hr}, Def: 2.5, #10
+  60,   ! Latent Capacity Time Constant {s}, Def: 60, #11
+  60,   ! Fan Delay Time {s}, Def: 60, #12
+  ,   ! Energy Part Load Fraction Curve Name [UnivariateFunctions], REQ, #13
+  ,   ! Condenser Air Inlet Node Name #14
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, EvaporativelyCooled], #15
+  0.0,   ! Evaporative Condenser Pump Rated Power Consumption {W}, Def: 0.0, AS, #16
+  0.0,   ! Crankcase Heater Capacity {W}, Def: 0.0, #17
+  ,   ! Crankcase Heater Capacity Function of Temperature Curve Name [UnivariateFunctions], #18
+  10.0,   ! Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater Operation {C}, Def: 10.0, #19
+  -25.0,   ! Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}, Def: -25.0, #20
+  ,   ! Supply Water Storage Tank Name [WaterStorageTankNames], #21
+  ,   ! Condensate Collection Water Storage Tank Name [WaterStorageTankNames], #22
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #23
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #24
+  ,   ! Basin Heater Operating Schedule Name [ScheduleNames], #25
+  ,   ! Speed 1 Reference Unit Gross Rated Total Cooling Capacity {W}, REQ, #26
+  ,   ! Speed 1 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, REQ, #27
+  ,   ! Speed 1 Reference Unit Gross Rated Cooling COP {W/W}, REQ, #28
+  ,   ! Speed 1 Reference Unit Rated Air Flow Rate {m3/s}, REQ, #29
+  773.3,   ! 2017 Speed 1 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #30
+  934.4,   ! 2023 Speed 1 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #31
+  ,   ! Speed 1 Reference Unit Rated Condenser Air Flow Rate {m3/s}, #32
+  ,   ! Speed 1 Reference Unit Rated Pad Effectiveness of Evap Precooling {dimensionless}, #33
+  ,   ! Speed 1 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #34
+  ,   ! Speed 1 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], REQ, #35
+  ,   ! Speed 1 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #36
+  ,   ! Speed 1 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], REQ, #37
+  ,   ! Speed 2 Reference Unit Gross Rated Total Cooling Capacity {W}, #38
+  ,   ! Speed 2 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #39
+  ,   ! Speed 2 Reference Unit Gross Rated Cooling COP {W/W}, #40
+  ,   ! Speed 2 Reference Unit Rated Air Flow Rate {m3/s}, #41
+  773.3,   ! 2017 Speed 2 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #42
+  934.4,   ! 2023 Speed 2 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #43
+  ,   ! Speed 2 Reference Unit Rated Condenser Air Flow Rate {m3/s}, #44
+  ,   ! Speed 2 Reference Unit Rated Pad Effectiveness of Evap Precooling {dimensionless}, #45
+  ,   ! Speed 2 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #46
+  ,   ! Speed 2 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #47
+  ,   ! Speed 2 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #48
+  ,   ! Speed 2 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #49
+  ,   ! Speed 3 Reference Unit Gross Rated Total Cooling Capacity {W}, #50
+  ,   ! Speed 3 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #51
+  ,   ! Speed 3 Reference Unit Gross Rated Cooling COP {W/W}, #52
+  ,   ! Speed 3 Reference Unit Rated Air Flow Rate {m3/s}, #53
+  773.3,   ! 2017 Speed 3 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #54
+  934.4,   ! 2023 Speed 3 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #55
+  ,   ! Speed 3 Reference Unit Rated Condenser Air Flow Rate {m3/s}, #56
+  ,   ! Speed 3 Reference Unit Rated Pad Effectiveness of Evap Precooling {dimensionless}, #57
+  ,   ! Speed 3 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #58
+  ,   ! Speed 3 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #59
+  ,   ! Speed 3 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #60
+  ,   ! Speed 3 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #61
+  ,   ! Speed 4 Reference Unit Gross Rated Total Cooling Capacity {W}, #62
+  ,   ! Speed 4 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #63
+  ,   ! Speed 4 Reference Unit Gross Rated Cooling COP {W/W}, #64
+  ,   ! Speed 4 Reference Unit Rated Air Flow Rate {m3/s}, #65
+  773.3,   ! 2017 Speed 4 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #66
+  934.4,   ! 2023 Speed 4 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #67
+  ,   ! Speed 4 Reference Unit Rated Condenser Air Flow Rate {m3/s}, #68
+  ,   ! Speed 4 Reference Unit Rated Pad Effectiveness of Evap Precooling {dimensionless}, #69
+  ,   ! Speed 4 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #70
+  ,   ! Speed 4 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #71
+  ,   ! Speed 4 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #72
+  ,   ! Speed 4 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #73
+  ,   ! Speed 5 Reference Unit Gross Rated Total Cooling Capacity {W}, #74
+  ,   ! Speed 5 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #75
+  ,   ! Speed 5 Reference Unit Gross Rated Cooling COP {W/W}, #76
+  ,   ! Speed 5 Reference Unit Rated Air Flow Rate {m3/s}, #77
+  773.3,   ! 2017 Speed 5 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #78
+  934.4,   ! 2023 Speed 5 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #79
+  ,   ! Speed 5 Reference Unit Rated Condenser Air Flow Rate {m3/s}, #80
+  ,   ! Speed 5 Reference Unit Rated Pad Effectiveness of Evap Precooling {dimensionless}, #81
+  ,   ! Speed 5 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #82
+  ,   ! Speed 5 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #83
+  ,   ! Speed 5 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #84
+  ,   ! Speed 5 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #85
+  ,   ! Speed 6 Reference Unit Gross Rated Total Cooling Capacity {W}, #86
+  ,   ! Speed 6 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #87
+  ,   ! Speed 6 Reference Unit Gross Rated Cooling COP {W/W}, #88
+  ,   ! Speed 6 Reference Unit Rated Air Flow Rate {m3/s}, #89
+  773.3,   ! 2017 Speed 6 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #90
+  934.4,   ! 2023 Speed 6 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #91
+  ,   ! Speed 6 Reference Unit Condenser Air Flow Rate {m3/s}, #92
+  ,   ! Speed 6 Reference Unit Rated Pad Effectiveness of Evap Precooling {dimensionless}, #93
+  ,   ! Speed 6 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #94
+  ,   ! Speed 6 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #95
+  ,   ! Speed 6 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #96
+  ,   ! Speed 6 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #97
+  ,   ! Speed 7 Reference Unit Gross Rated Total Cooling Capacity {W}, #98
+  ,   ! Speed 7 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #99
+  ,   ! Speed 7 Reference Unit Gross Rated Cooling COP {W/W}, #100
+  ,   ! Speed 7 Reference Unit Rated Air Flow Rate {m3/s}, #101
+  773.3,   ! 2017 Speed 7 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #102
+  934.4,   ! 2023 Speed 7 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #103
+  ,   ! Speed 7 Reference Unit Condenser Flow Rate {m3/s}, #104
+  ,   ! Speed 7 Reference Unit Rated Pad Effectiveness of Evap Precooling {dimensionless}, #105
+  ,   ! Speed 7 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #106
+  ,   ! Speed 7 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #107
+  ,   ! Speed 7 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #108
+  ,   ! Speed 7 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #109
+  ,   ! Speed 8 Reference Unit Gross Rated Total Cooling Capacity {W}, #110
+  ,   ! Speed 8 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #111
+  ,   ! Speed 8 Reference Unit Gross Rated Cooling COP {W/W}, #112
+  ,   ! Speed 8 Reference Unit Rated Air Flow Rate {m3/s}, #113
+  773.3,   ! 2017 Speed 8 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #114
+  934.4,   ! 2023 Speed 8 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #115
+  ,   ! Speed 8 Reference Unit Condenser Air Flow Rate {m3/s}, #116
+  ,   ! Speed 8 Reference Unit Rated Pad Effectiveness of Evap Precooling {dimensionless}, #117
+  ,   ! Speed 8 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #118
+  ,   ! Speed 8 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #119
+  ,   ! Speed 8 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #120
+  ,   ! Speed 8 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #121
+  ,   ! Speed 9 Reference Unit Gross Rated Total Cooling Capacity {W}, #122
+  ,   ! Speed 9 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #123
+  ,   ! Speed 9 Reference Unit Gross Rated Cooling COP {W/W}, #124
+  ,   ! Speed 9 Reference Unit Rated Air Flow Rate {m3/s}, #125
+  773.3,   ! 2017 Speed 9 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #126
+  934.4,   ! 2023 Speed 9 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #127
+  ,   ! Speed 9 Reference Unit Condenser Air Flow Rate {m3/s}, #128
+  ,   ! Speed 9 Reference Unit Rated Pad Effectiveness of Evap Precooling {dimensionless}, #129
+  ,   ! Speed 9 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #130
+  ,   ! Speed 9 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #131
+  ,   ! Speed 9 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #132
+  ,   ! Speed 9 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #133
+  ,   ! Speed 10 Reference Unit Gross Rated Total Cooling Capacity {W}, #134
+  ,   ! Speed 10 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #135
+  ,   ! Speed 10 Reference Unit Gross Rated Cooling COP {W/W}, #136
+  ,   ! Speed 10 Reference Unit Rated Air Flow Rate {m3/s}, #137
+  773.3,   ! 2017 Speed 10 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 773.3, #138
+  934.4,   ! 2023 Speed 10 Rated Evaporator Fan Power Per Volume Flow Rate {W/(m3/s)}, Def: 934.4, #139
+  ,   ! Speed 10 Reference Unit Condenser Air Flow Rate {m3/s}, #140
+  ,   ! Speed 10 Reference Unit Rated Pad Effectiveness of Evap Precooling {dimensionless}, #141
+  ,   ! Speed 10 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #142
+  ,   ! Speed 10 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #143
+  ,   ! Speed 10 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #144
+  ;   ! Speed 10 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #145

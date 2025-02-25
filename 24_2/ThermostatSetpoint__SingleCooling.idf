@@ -1,0 +1,3 @@
+ThermostatSetpoint:SingleCooling,
+  ,   ! Name RefList: [ControlTypeNames], REQ, #1
+  ;   ! Setpoint Temperature Schedule Name [ScheduleNames], #2

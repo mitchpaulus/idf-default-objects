@@ -1,0 +1,29 @@
+! Min Fields: 16
+Controller:OutdoorAir,
+  ,   ! Name RefList: [AirLoopControllers, OAControllerNames], REQ, #1
+  ,   ! Relief Air Outlet Node Name REQ, #2
+  ,   ! Return Air Node Name REQ, #3
+  ,   ! Mixed Air Node Name REQ, #4
+  ,   ! Actuator Node Name REQ, #5
+  ,   ! Minimum Outdoor Air Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! Maximum Outdoor Air Flow Rate {m3/s}, AS, REQ, #7
+  NoEconomizer,   ! Economizer Control Type Def: NoEconomizer, [FixedDryBulb, FixedEnthalpy, DifferentialDryBulb, DifferentialEnthalpy, FixedDewPointAndDryBulb, ElectronicEnthalpy, DifferentialDryBulbAndEnthalpy, NoEconomizer], #8
+  ModulateFlow,   ! Economizer Control Action Type Def: ModulateFlow, [ModulateFlow, MinimumFlowWithBypass], #9
+  ,   ! Economizer Maximum Limit Dry-Bulb Temperature {C}, #10
+  ,   ! Economizer Maximum Limit Enthalpy {J/kg}, #11
+  ,   ! Economizer Maximum Limit Dewpoint Temperature {C}, #12
+  ,   ! Electronic Enthalpy Limit Curve Name [UnivariateFunctions], #13
+  ,   ! Economizer Minimum Limit Dry-Bulb Temperature {C}, #14
+  NoLockout,   ! Lockout Type Def: NoLockout, [NoLockout, LockoutWithHeating, LockoutWithCompressor], #15
+  ProportionalMinimum,   ! Minimum Limit Type Def: ProportionalMinimum, [FixedMinimum, ProportionalMinimum], #16
+  ,   ! Minimum Outdoor Air Schedule Name [ScheduleNames], #17
+  ,   ! Minimum Fraction of Outdoor Air Schedule Name [ScheduleNames], #18
+  ,   ! Maximum Fraction of Outdoor Air Schedule Name [ScheduleNames], #19
+  ,   ! Mechanical Ventilation Controller Name [ControllerMechanicalVentNames], #20
+  ,   ! Time of Day Economizer Control Schedule Name [ScheduleNames], #21
+  No,   ! High Humidity Control Def: No, [Yes, No], #22
+  ,   ! Humidistat Control Zone Name [ZoneNames], #23
+  1.0,   ! High Humidity Outdoor Air Flow Ratio Def: 1.0, #24
+  Yes,   ! Control High Indoor Humidity Based on Outdoor Humidity Ratio Def: Yes, [Yes, No], #25
+  BypassWhenWithinEconomizerLimits,   ! Heat Recovery Bypass Control Type Def: BypassWhenWithinEconomizerLimits, [BypassWhenWithinEconomizerLimits, BypassWhenOAFlowGreaterThanMinimum], #26
+  InterlockedWithMechanicalCooling;   ! Economizer Operation Staging Def: InterlockedWithMechanicalCooling, [EconomizerFirst, InterlockedWithMechanicalCooling], #27

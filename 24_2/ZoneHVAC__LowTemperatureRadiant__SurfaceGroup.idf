@@ -1,0 +1,4 @@
+ZoneHVAC:LowTemperatureRadiant:SurfaceGroup,
+  ,   ! Name RefList: [RadiantGroupNames], REQ, #1
+  ,   ! Surface 1 Name [RadiantSurfaceNames], REQ, #2
+  ;   ! Flow Fraction for Surface 1 REQ, #3

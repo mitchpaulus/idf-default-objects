@@ -1,0 +1,23 @@
+! Min Fields: 14
+WindowMaterial:Glazing,
+  ,   ! Name RefList: [MaterialName, GlazingMaterialName, CFSGlazingName], REQ, #1
+  ,   ! Optical Data Type [SpectralAverage, Spectral, BSDF, SpectralAndAngle], REQ, #2
+  ,   ! Window Glass Spectral Data Set Name [SpectralDataSets], #3
+  ,   ! Thickness {m}, REQ, #4
+  ,   ! Solar Transmittance at Normal Incidence #5
+  ,   ! Front Side Solar Reflectance at Normal Incidence #6
+  ,   ! Back Side Solar Reflectance at Normal Incidence #7
+  ,   ! Visible Transmittance at Normal Incidence #8
+  ,   ! Front Side Visible Reflectance at Normal Incidence #9
+  ,   ! Back Side Visible Reflectance at Normal Incidence #10
+  0.0,   ! Infrared Transmittance at Normal Incidence Def: 0.0, #11
+  0.84,   ! Front Side Infrared Hemispherical Emissivity Def: 0.84, #12
+  0.84,   ! Back Side Infrared Hemispherical Emissivity Def: 0.84, #13
+  0.9,   ! Conductivity {W/m-K}, Def: 0.9, #14
+  1.0,   ! Dirt Correction Factor for Solar and Visible Transmittance Def: 1.0, #15
+  No,   ! Solar Diffusing Def: No, [No, Yes], #16
+  7.2e10,   ! Young's modulus {Pa}, Def: 7.2e10, #17
+  0.22,   ! Poisson's ratio Def: 0.22, #18
+  ,   ! Window Glass Spectral and Incident Angle Transmittance Data Set Table Name [BivariateFunctions], #19
+  ,   ! Window Glass Spectral and Incident Angle Front Reflectance Data Set Table Name [BivariateFunctions], #20
+  ;   ! Window Glass Spectral and Incident Angle Back Reflectance Data Set Table Name [BivariateFunctions], #21

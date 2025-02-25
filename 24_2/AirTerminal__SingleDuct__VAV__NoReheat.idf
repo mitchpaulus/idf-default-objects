@@ -1,0 +1,12 @@
+AirTerminal:SingleDuct:VAV:NoReheat,
+  ,   ! Name RefList: [AirTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Outlet Node Name REQ, #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Maximum Air Flow Rate {m3/s}, AS, REQ, #5
+  Constant,   ! Zone Minimum Air Flow Input Method Def: Constant, [Constant, FixedFlowRate, Scheduled], #6
+  autosize,   ! Constant Minimum Air Flow Fraction Def: autosize, AS, #7
+  autosize,   ! Fixed Minimum Air Flow Rate {m3/s}, Def: autosize, AS, #8
+  ,   ! Minimum Air Flow Fraction Schedule Name [ScheduleNames], #9
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames, DSOASpaceListNames], #10
+  ;   ! Minimum Air Flow Turndown Schedule Name [ScheduleNames], #11

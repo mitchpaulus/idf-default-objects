@@ -1,0 +1,18 @@
+! Min Fields: 16
+AirflowNetwork:SimulationControl,
+  ,   ! Name REQ, #1
+  NoMultizoneOrDistribution,   ! AirflowNetwork Control Def: NoMultizoneOrDistribution, [MultizoneWithDistribution, MultizoneWithoutDistribution, MultizoneWithDistributionOnlyDuringFanOperation, NoMultizoneOrDistribution], #2
+  SurfaceAverageCalculation,   ! Wind Pressure Coefficient Type Def: SurfaceAverageCalculation, [Input, SurfaceAverageCalculation], #3
+  OpeningHeight,   ! Height Selection for Local Wind Pressure Calculation Def: OpeningHeight, [ExternalNode, OpeningHeight], #4
+  LowRise,   ! Building Type Def: LowRise, [LowRise, HighRise], #5
+  500,   ! Maximum Number of Iterations {dimensionless}, Def: 500, #6
+  ZeroNodePressures,   ! Initialization Type Def: ZeroNodePressures, [LinearInitializationMethod, ZeroNodePressures], #7
+  1.E-4,   ! Relative Airflow Convergence Tolerance {dimensionless}, Def: 1.E-4, #8
+  1.E-6,   ! Absolute Airflow Convergence Tolerance {kg/s}, Def: 1.E-6, #9
+  -0.5,   ! Convergence Acceleration Limit {dimensionless}, Def: -0.5, #10
+  0.0,   ! Azimuth Angle of Long Axis of Building {deg}, Def: 0.0, #11
+  1.0,   ! Ratio of Building Width Along Short Axis to Width Along Long Axis Def: 1.0, #12
+  No,   ! Height Dependence of External Node Temperature Def: No, [Yes, No], #13
+  SkylineLU,   ! Solver Def: SkylineLU, [SkylineLU, ConjugateGradient], #14
+  No,   ! Allow Unsupported Zone Equipment Def: No, [Yes, No], #15
+  No;   ! Do Distribution Duct Sizing Calculation Def: No, [Yes, No], #16

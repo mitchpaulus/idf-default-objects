@@ -1,0 +1,7 @@
+! Min Fields: 5
+SpaceHVAC:ZoneReturnMixer,
+  ,   ! Name RefList: [SpaceMixerNames], REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Zone Return Air Node Name REQ, #3
+  ,   ! Space 1 Name [SpaceNames], REQ, #4
+  ;   ! Space 1 Return Air Node Name REQ, #5

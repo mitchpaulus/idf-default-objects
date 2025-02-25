@@ -1,0 +1,93 @@
+! Min Fields: 91
+SurfaceConvectionAlgorithm:Inside:AdaptiveModelSelections,
+  ,   ! Name #1
+  FohannoPolidoriVerticalWall,   ! Simple Buoyancy Vertical Wall Equation Source Def: FohannoPolidoriVerticalWall, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, KhalifaEq3WallAwayFromHeat, KhalifaEq6NonHeatedWalls, FohannoPolidoriVerticalWall, ISO15099Windows, UserCurve], #2
+  ,   ! Simple Buoyancy Vertical Wall User Curve Name [UserConvectionInsideModels], #3
+  AlamdariHammondStableHorizontal,   ! Simple Buoyancy Stable Horizontal Equation Source Def: AlamdariHammondStableHorizontal, [WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, UserCurve], #4
+  ,   ! Simple Buoyancy Stable Horizontal Equation User Curve Name [UserConvectionInsideModels], #5
+  AlamdariHammondUnstableHorizontal,   ! Simple Buoyancy Unstable Horizontal Equation Source Def: AlamdariHammondUnstableHorizontal, [WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, UserCurve], #6
+  ,   ! Simple Buoyancy Unstable Horizontal Equation User Curve Name [UserConvectionInsideModels], #7
+  WaltonStableHorizontalOrTilt,   ! Simple Buoyancy Stable Tilted Equation Source Def: WaltonStableHorizontalOrTilt, [WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, UserCurve], #8
+  ,   ! Simple Buoyancy Stable Tilted Equation User Curve Name [UserConvectionInsideModels], #9
+  WaltonUnstableHorizontalOrTilt,   ! Simple Buoyancy Unstable Tilted Equation Source Def: WaltonUnstableHorizontalOrTilt, [WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, UserCurve], #10
+  ,   ! Simple Buoyancy Unstable Tilted Equation User Curve Name [UserConvectionInsideModels], #11
+  ISO15099Windows,   ! Simple Buoyancy Windows Equation Source Def: ISO15099Windows, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, FohannoPolidoriVerticalWall, KaradagChilledCeiling, ISO15099Windows, UserCurve], #12
+  ,   ! Simple Buoyancy Windows Equation User Curve Name [UserConvectionInsideModels], #13
+  KhalifaEq3WallAwayFromHeat,   ! Floor Heat Ceiling Cool Vertical Wall Equation Source Def: KhalifaEq3WallAwayFromHeat, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, KhalifaEq3WallAwayFromHeat, FohannoPolidoriVerticalWall, ISO15099Windows, UserCurve], #14
+  ,   ! Floor Heat Ceiling Cool Vertical Wall Equation User Curve Name [UserConvectionInsideModels], #15
+  AlamdariHammondStableHorizontal,   ! Floor Heat Ceiling Cool Stable Horizontal Equation Source Def: AlamdariHammondStableHorizontal, [WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, UserCurve], #16
+  ,   ! Floor Heat Ceiling Cool Stable Horizontal Equation User Curve Name [UserConvectionInsideModels], #17
+  KhalifaEq4CeilingAwayFromHeat,   ! Floor Heat Ceiling Cool Unstable Horizontal Equation Source Def: KhalifaEq4CeilingAwayFromHeat, [WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, KhalifaEq4CeilingAwayFromHeat, UserCurve], #18
+  ,   ! Floor Heat Ceiling Cool Unstable Horizontal Equation User Curve Name [UserConvectionInsideModels], #19
+  AwbiHattonHeatedFloor,   ! Floor Heat Ceiling Cool Heated Floor Equation Source Def: AwbiHattonHeatedFloor, [WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, AwbiHattonHeatedFloor, UserCurve], #20
+  ,   ! Floor Heat Ceiling Cool Heated Floor Equation User Curve Name [UserConvectionInsideModels], #21
+  KaradagChilledCeiling,   ! Floor Heat Ceiling Cool Chilled Ceiling Equation Source Def: KaradagChilledCeiling, [WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, KaradagChilledCeiling, UserCurve], #22
+  ,   ! Floor Heat Ceiling Cool Chilled Ceiling Equation User Curve Name [UserConvectionInsideModels], #23
+  WaltonStableHorizontalOrTilt,   ! Floor Heat Ceiling Cool Stable Tilted Equation Source Def: WaltonStableHorizontalOrTilt, [WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, ISO15099Windows, UserCurve], #24
+  ,   ! Floor Heat Ceiling Cool Stable Tilted Equation User Curve Name [UserConvectionInsideModels], #25
+  WaltonUnstableHorizontalOrTilt,   ! Floor Heat Ceiling Cool Unstable Tilted Equation Source Def: WaltonUnstableHorizontalOrTilt, [WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, ISO15099Windows, UserCurve], #26
+  ,   ! Floor Heat Ceiling Cool Unstable Tilted Equation User Curve Name [UserConvectionInsideModels], #27
+  ISO15099Windows,   ! Floor Heat Ceiling Cool Window Equation Source Def: ISO15099Windows, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, ISO15099Windows, UserCurve], #28
+  ,   ! Floor Heat Ceiling Cool Window Equation User Curve Name [UserConvectionInsideModels], #29
+  KhalifaEq6NonHeatedWalls,   ! Wall Panel Heating Vertical Wall Equation Source Def: KhalifaEq6NonHeatedWalls, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, KhalifaEq6NonHeatedWalls, FohannoPolidoriVerticalWall, ISO15099Windows, UserCurve], #30
+  ,   ! Wall Panel Heating Vertical Wall Equation User Curve Name [UserConvectionInsideModels], #31
+  AwbiHattonHeatedWall,   ! Wall Panel Heating Heated Wall Equation Source Def: AwbiHattonHeatedWall, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, KhalifaEq5WallNearHeat, AwbiHattonHeatedWall, FohannoPolidoriVerticalWall, ISO15099Windows, UserCurve], #32
+  ,   ! Wall Panel Heating Heated Wall Equation User Curve Name [UserConvectionInsideModels], #33
+  AlamdariHammondStableHorizontal,   ! Wall Panel Heating Stable Horizontal Equation Source Def: AlamdariHammondStableHorizontal, [WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, UserCurve], #34
+  ,   ! Wall Panel Heating Stable Horizontal Equation User Curve Name [UserConvectionInsideModels], #35
+  KhalifaEq7Ceiling,   ! Wall Panel Heating Unstable Horizontal Equation Source Def: KhalifaEq7Ceiling, [ASHRAEVerticalWall, WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, KhalifaEq7Ceiling, KaradagChilledCeiling, UserCurve], #36
+  ,   ! Wall Panel Heating Unstable Horizontal Equation User Curve Name [UserConvectionInsideModels], #37
+  WaltonStableHorizontalOrTilt,   ! Wall Panel Heating Stable Tilted Equation Source Def: WaltonStableHorizontalOrTilt, [WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, ISO15099Windows, UserCurve], #38
+  ,   ! Wall Panel Heating Stable Tilted Equation User Curve Name [UserConvectionInsideModels], #39
+  WaltonUnstableHorizontalOrTilt,   ! Wall Panel Heating Unstable Tilted Equation Source Def: WaltonUnstableHorizontalOrTilt, [WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, ISO15099Windows, UserCurve], #40
+  ,   ! Wall Panel Heating Unstable Tilted Equation User Curve Name [UserConvectionInsideModels], #41
+  ISO15099Windows,   ! Wall Panel Heating Window Equation Source Def: ISO15099Windows, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, FohannoPolidoriVerticalWall, ISO15099Windows, UserCurve], #42
+  ,   ! Wall Panel Heating Window Equation User Curve Name [UserConvectionInsideModels], #43
+  FohannoPolidoriVerticalWall,   ! Convective Zone Heater Vertical Wall Equation Source Def: FohannoPolidoriVerticalWall, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, KhalifaEq3WallAwayFromHeat, KhalifaEq6NonHeatedWalls, FohannoPolidoriVerticalWall, ISO15099Windows, UserCurve], #44
+  ,   ! Convective Zone Heater Vertical Wall Equation User Curve Name [UserConvectionInsideModels], #45
+  KhalifaEq5WallNearHeat,   ! Convective Zone Heater Vertical Walls Near Heater Equation Source Def: KhalifaEq5WallNearHeat, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, KhalifaEq5WallNearHeat, AwbiHattonHeatedWall, FohannoPolidoriVerticalWall, ISO15099Windows, UserCurve], #46
+  ,   ! Convective Zone Heater Vertical Walls Near Heater Equation User Curve Name [UserConvectionInsideModels], #47
+  AlamdariHammondStableHorizontal,   ! Convective Zone Heater Stable Horizontal Equation Source Def: AlamdariHammondStableHorizontal, [WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, UserCurve], #48
+  ,   ! Convective Zone Heater Stable Horizontal Equation User Curve Name [UserConvectionInsideModels], #49
+  KhalifaEq7Ceiling,   ! Convective Zone Heater Unstable Horizontal Equation Source Def: KhalifaEq7Ceiling, [WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, KhalifaEq4CeilingAwayFromHeat, KhalifaEq7Ceiling, UserCurve], #50
+  ,   ! Convective Zone Heater Unstable Horizontal Equation User Curve Name [UserConvectionInsideModels], #51
+  WaltonStableHorizontalOrTilt,   ! Convective Zone Heater Stable Tilted Equation Source Def: WaltonStableHorizontalOrTilt, [WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, UserCurve], #52
+  ,   ! Convective Zone Heater Stable Tilted Equation User Curve Name [UserConvectionInsideModels], #53
+  WaltonUnstableHorizontalOrTilt,   ! Convective Zone Heater Unstable Tilted Equation Source Def: WaltonUnstableHorizontalOrTilt, [WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, UserCurve], #54
+  ,   ! Convective Zone Heater Unstable Tilted Equation User Curve Name [UserConvectionInsideModels], #55
+  ISO15099Windows,   ! Convective Zone Heater Windows Equation Source Def: ISO15099Windows, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, KhalifaEq3WallAwayFromHeat, FohannoPolidoriVerticalWall, ISO15099Windows, UserCurve], #56
+  ,   ! Convective Zone Heater Windows Equation User Curve Name [UserConvectionInsideModels], #57
+  GoldsteinNovoselacCeilingDiffuserWalls,   ! Central Air Diffuser Wall Equation Source Def: GoldsteinNovoselacCeilingDiffuserWalls, [ASHRAEVerticalWall, FisherPedersenCeilingDiffuserWalls, AlamdariHammondVerticalWall, BeausoleilMorrisonMixedAssistedWall, BeausoleilMorrisonMixedOpposingWall, FohannoPolidoriVerticalWall, ISO15099Windows, GoldsteinNovoselacCeilingDiffuserWalls, UserCurve], #58
+  ,   ! Central Air Diffuser Wall Equation User Curve Name [UserConvectionInsideModels], #59
+  FisherPedersenCeilingDiffuserCeiling,   ! Central Air Diffuser Ceiling Equation Source Def: FisherPedersenCeilingDiffuserCeiling, [FisherPedersenCeilingDiffuserCeiling, BeausoleilMorrisonMixedStableCeiling, BeausoleilMorrisonMixedUnstableCeiling, UserCurve], #60
+  ,   ! Central Air Diffuser Ceiling Equation User Curve Name [UserConvectionInsideModels], #61
+  GoldsteinNovoselacCeilingDiffuserFloor,   ! Central Air Diffuser Floor Equation Source Def: GoldsteinNovoselacCeilingDiffuserFloor, [FisherPedersenCeilingDiffuserFloor, BeausoleilMorrisonMixedStableFloor, BeausoleilMorrisonMixedUnstableFloor, GoldsteinNovoselacCeilingDiffuserFloor, UserCurve], #62
+  ,   ! Central Air Diffuser Floor Equation User Curve Name [UserConvectionInsideModels], #63
+  GoldsteinNovoselacCeilingDiffuserWindow,   ! Central Air Diffuser Window Equation Source Def: GoldsteinNovoselacCeilingDiffuserWindow, [ASHRAEVerticalWall, FisherPedersenCeilingDiffuserWalls, BeausoleilMorrisonMixedAssistedWall, BeausoleilMorrisonMixedOpposingWall, FohannoPolidoriVerticalWall, AlamdariHammondVerticalWall, ISO15099Windows, GoldsteinNovoselacCeilingDiffuserWindow, UserCurve], #64
+  ,   ! Central Air Diffuser Window Equation User Curve Name [UserConvectionInsideModels], #65
+  KhalifaEq3WallAwayFromHeat,   ! Mechanical Zone Fan Circulation Vertical Wall Equation Source Def: KhalifaEq3WallAwayFromHeat, [KhalifaEq3WallAwayFromHeat, ASHRAEVerticalWall, FisherPedersenCeilingDiffuserWalls, AlamdariHammondVerticalWall, BeausoleilMorrisonMixedAssistedWall, BeausoleilMorrisonMixedOpposingWall, FohannoPolidoriVerticalWall, ISO15099Windows, GoldsteinNovoselacCeilingDiffuserWalls, UserCurve], #66
+  ,   ! Mechanical Zone Fan Circulation Vertical Wall Equation User Curve Name [UserConvectionInsideModels], #67
+  AlamdariHammondStableHorizontal,   ! Mechanical Zone Fan Circulation Stable Horizontal Equation Source Def: AlamdariHammondStableHorizontal, [WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, UserCurve], #68
+  ,   ! Mechanical Zone Fan Circulation Stable Horizontal Equation User Curve Name [UserConvectionInsideModels], #69
+  KhalifaEq4CeilingAwayFromHeat,   ! Mechanical Zone Fan Circulation Unstable Horizontal Equation Source Def: KhalifaEq4CeilingAwayFromHeat, [KhalifaEq4CeilingAwayFromHeat, WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, UserCurve], #70
+  ,   ! Mechanical Zone Fan Circulation Unstable Horizontal Equation User Curve Name [UserConvectionInsideModels], #71
+  WaltonStableHorizontalOrTilt,   ! Mechanical Zone Fan Circulation Stable Tilted Equation Source Def: WaltonStableHorizontalOrTilt, [WaltonStableHorizontalOrTilt, UserCurve], #72
+  ,   ! Mechanical Zone Fan Circulation Stable Tilted Equation User Curve Name [UserConvectionInsideModels], #73
+  WaltonUnstableHorizontalOrTilt,   ! Mechanical Zone Fan Circulation Unstable Tilted Equation Source Def: WaltonUnstableHorizontalOrTilt, [WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, UserCurve], #74
+  ,   ! Mechanical Zone Fan Circulation Unstable Tilted Equation User Curve Name [UserConvectionInsideModels], #75
+  ISO15099Windows,   ! Mechanical Zone Fan Circulation Window Equation Source Def: ISO15099Windows, [ASHRAEVerticalWall, AlamdariHammondVerticalWall, FohannoPolidoriVerticalWall, ISO15099Windows, GoldsteinNovoselacCeilingDiffuserWindow, UserCurve], #76
+  ,   ! Mechanical Zone Fan Circulation Window Equation User Curve Name [UserConvectionInsideModels], #77
+  BeausoleilMorrisonMixedAssistedWall,   ! Mixed Regime Buoyancy Assisting Flow on Walls Equation Source Def: BeausoleilMorrisonMixedAssistedWall, [BeausoleilMorrisonMixedAssistedWall, AlamdariHammondVerticalWall, FohannoPolidoriVerticalWall, ASHRAEVerticalWall, FisherPedersenCeilingDiffuserWalls, GoldsteinNovoselacCeilingDiffuserWalls, UserCurve], #78
+  ,   ! Mixed Regime Buoyancy Assisting Flow on Walls Equation User Curve Name [UserConvectionInsideModels], #79
+  BeausoleilMorrisonMixedOpposingWall,   ! Mixed Regime Buoyancy Opposing Flow on Walls Equation Source Def: BeausoleilMorrisonMixedOpposingWall, [BeausoleilMorrisonMixedOpposingWall, AlamdariHammondVerticalWall, FohannoPolidoriVerticalWall, ASHRAEVerticalWall, FisherPedersenCeilingDiffuserWalls, GoldsteinNovoselacCeilingDiffuserWalls, UserCurve], #80
+  ,   ! Mixed Regime Buoyancy Opposing Flow on Walls Equation User Curve Name [UserConvectionInsideModels], #81
+  BeausoleilMorrisonMixedStableFloor,   ! Mixed Regime Stable Floor Equation Source Def: BeausoleilMorrisonMixedStableFloor, [BeausoleilMorrisonMixedStableFloor, WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, UserCurve], #82
+  ,   ! Mixed Regime Stable Floor Equation User Curve Name [UserConvectionInsideModels], #83
+  BeausoleilMorrisonMixedUnstableFloor,   ! Mixed Regime Unstable Floor Equation Source Def: BeausoleilMorrisonMixedUnstableFloor, [BeausoleilMorrisonMixedUnstableFloor, WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, UserCurve], #84
+  ,   ! Mixed Regime Unstable Floor Equation User Curve Name [UserConvectionInsideModels], #85
+  BeausoleilMorrisonMixedStableCeiling,   ! Mixed Regime Stable Ceiling Equation Source Def: BeausoleilMorrisonMixedStableCeiling, [BeausoleilMorrisonMixedStableCeiling, WaltonStableHorizontalOrTilt, AlamdariHammondStableHorizontal, UserCurve], #86
+  ,   ! Mixed Regime Stable Ceiling Equation User Curve Name [UserConvectionInsideModels], #87
+  BeausoleilMorrisonMixedUnstableCeiling,   ! Mixed Regime Unstable Ceiling Equation Source Def: BeausoleilMorrisonMixedUnstableCeiling, [BeausoleilMorrisonMixedUnstableCeiling, WaltonUnstableHorizontalOrTilt, AlamdariHammondUnstableHorizontal, UserCurve], #88
+  ,   ! Mixed Regime Unstable Ceiling Equation User Curve Name [UserConvectionInsideModels], #89
+  GoldsteinNovoselacCeilingDiffuserWindow,   ! Mixed Regime Window Equation Source Def: GoldsteinNovoselacCeilingDiffuserWindow, [GoldsteinNovoselacCeilingDiffuserWindow, ISO15099Windows, UserCurve], #90
+  ;   ! Mixed Regime Window Equation User Curve Name [UserConvectionInsideModels], #91

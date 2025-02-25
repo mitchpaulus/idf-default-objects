@@ -1,0 +1,5 @@
+SurfaceContaminantSourceAndSink:Generic:DepositionVelocitySink,
+  ,   ! Name REQ, #1
+  ,   ! Surface Name [SurfaceNames], REQ, #2
+  ,   ! Deposition Velocity {m/s}, #3
+  ;   ! Schedule Name [ScheduleNames], REQ, #4

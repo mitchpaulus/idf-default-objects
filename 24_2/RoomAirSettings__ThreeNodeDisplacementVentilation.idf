@@ -1,0 +1,8 @@
+! Min Fields: 6
+RoomAirSettings:ThreeNodeDisplacementVentilation,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Gain Distribution Schedule Name [ScheduleNames], REQ, #2
+  1.0,   ! Number of Plumes per Occupant Def: 1.0, #3
+  1.1,   ! Thermostat Height {m}, Def: 1.1, #4
+  1.1,   ! Comfort Height {m}, Def: 1.1, #5
+  0.4;   ! Temperature Difference Threshold for Reporting {deltaC}, Def: 0.4, #6

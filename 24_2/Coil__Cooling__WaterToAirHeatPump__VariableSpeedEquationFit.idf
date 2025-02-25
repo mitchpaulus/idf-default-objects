@@ -1,0 +1,149 @@
+! Min Fields: 30
+Coil:Cooling:WaterToAirHeatPump:VariableSpeedEquationFit,
+  ,   ! Name RefList: [CoolingCoilsWaterToAirVSHP, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Water-to-Refrigerant HX Water Inlet Node Name REQ, #2
+  ,   ! Water-to-Refrigerant HX Water Outlet Node Name REQ, #3
+  ,   ! Indoor Air Inlet Node Name REQ, #4
+  ,   ! Indoor Air Outlet Node Name REQ, #5
+  2,   ! Number of Speeds {dimensionless}, Def: 2, #6
+  2,   ! Nominal Speed Level {dimensionless}, Def: 2, #7
+  autosize,   ! Gross Rated Total Cooling Capacity At Selected Nominal Speed Level {W}, Def: autosize, AS, #8
+  autosize,   ! Rated Air Flow Rate At Selected Nominal Speed Level {m3/s}, Def: autosize, AS, #9
+  autosize,   ! Rated Water Flow Rate At Selected Nominal Speed Level {m3/s}, Def: autosize, AS, #10
+  0,   ! Nominal Time for Condensate to Begin Leaving the Coil {s}, Def: 0, #11
+  0,   ! Initial Moisture Evaporation Rate Divided by Steady-State AC Latent Capacity {dimensionless}, Def: 0, #12
+  0.0,   ! Maximum Cycling Rate {cycles/hr}, Def: 0.0, #13
+  0.0,   ! Latent Capacity Time Constant {s}, Def: 0.0, #14
+  60,   ! Fan Delay Time {s}, Def: 60, #15
+  0,   ! Flag for Using Hot Gas Reheat, 0 or 1 {dimensionless}, Def: 0, #16
+  ,   ! Energy Part Load Fraction Curve Name [UnivariateFunctions], REQ, #17
+  ,   ! Speed 1 Reference Unit Gross Rated Total Cooling Capacity {W}, REQ, #18
+  ,   ! Speed 1 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, REQ, #19
+  ,   ! Speed 1 Reference Unit Gross Rated Cooling COP {W/W}, REQ, #20
+  ,   ! Speed 1 Reference Unit Rated Air Flow Rate {m3/s}, REQ, #21
+  ,   ! Speed 1 Reference Unit Rated Water Flow Rate {m3/s}, REQ, #22
+  ,   ! Speed 1 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #23
+  ,   ! Speed 1 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], REQ, #24
+  ,   ! Speed 1 Total Cooling Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], REQ, #25
+  ,   ! Speed 1 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #26
+  ,   ! Speed 1 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], REQ, #27
+  ,   ! Speed 1 Energy Input Ratio Function of Water Flow Fraction Curve Name [UnivariateFunctions], REQ, #28
+  ,   ! Speed 1 Reference Unit Waste Heat Fraction of Input Power At Rated Conditions {dimensionless}, REQ, #29
+  ,   ! Speed 1 Waste Heat Function of Temperature Curve Name [BivariateFunctions], REQ, #30
+  ,   ! Speed 2 Reference Unit Gross Rated Total Cooling Capacity {W}, #31
+  ,   ! Speed 2 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #32
+  ,   ! Speed 2 Reference Unit Gross Rated Cooling COP {W/W}, #33
+  ,   ! Speed 2 Reference Unit Rated Air Flow Rate {m3/s}, #34
+  ,   ! Speed 2 Reference Unit Rated Water Flow Rate {m3/s}, #35
+  ,   ! Speed 2 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #36
+  ,   ! Speed 2 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #37
+  ,   ! Speed 2 Total Cooling Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #38
+  ,   ! Speed 2 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #39
+  ,   ! Speed 2 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #40
+  ,   ! Speed 2 Energy Input Ratio Function of Water Flow Fraction Curve Name [UnivariateFunctions], #41
+  ,   ! Speed 2 Reference Unit Waste Heat Fraction of Input Power At Rated Conditions {dimensionless}, #42
+  ,   ! Speed 2 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #43
+  ,   ! Speed 3 Reference Unit Gross Rated Total Cooling Capacity {W}, #44
+  ,   ! Speed 3 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #45
+  ,   ! Speed 3 Reference Unit Gross Rated Cooling COP {W/W}, #46
+  ,   ! Speed 3 Reference Unit Rated Air Flow Rate {m3/s}, #47
+  ,   ! Speed 3 Reference Unit Rated Water Flow Rate {m3/s}, #48
+  ,   ! Speed 3 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #49
+  ,   ! Speed 3 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #50
+  ,   ! Speed 3 Total Cooling Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #51
+  ,   ! Speed 3 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #52
+  ,   ! Speed 3 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #53
+  ,   ! Speed 3 Energy Input Ratio Function of Water Flow Fraction Curve Name [UnivariateFunctions], #54
+  ,   ! Speed 3 Reference Unit Waste Heat Fraction of Input Power At Rated Conditions {dimensionless}, #55
+  ,   ! Speed 3 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #56
+  ,   ! Speed 4 Reference Unit Gross Rated Total Cooling Capacity {W}, #57
+  ,   ! Speed 4 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #58
+  ,   ! Speed 4 Reference Unit Gross Rated Cooling COP {W/W}, #59
+  ,   ! Speed 4 Reference Unit Rated Air Flow Rate {m3/s}, #60
+  ,   ! Speed 4 Reference Unit Rated Water Flow Rate {m3/s}, #61
+  ,   ! Speed 4 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #62
+  ,   ! Speed 4 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #63
+  ,   ! Speed 4 Total Cooling Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #64
+  ,   ! Speed 4 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #65
+  ,   ! Speed 4 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #66
+  ,   ! Speed 4 Energy Input Ratio Function of Water Flow Fraction Curve Name [UnivariateFunctions], #67
+  ,   ! Speed 4 Reference Unit Waste Heat Fraction of Input Power At Rated Conditions {dimensionless}, #68
+  ,   ! Speed 4 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #69
+  ,   ! Speed 5 Reference Unit Gross Rated Total Cooling Capacity {W}, #70
+  ,   ! Speed 5 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #71
+  ,   ! Speed 5 Reference Unit Gross Rated Cooling COP {W/W}, #72
+  ,   ! Speed 5 Reference Unit Rated Air Flow Rate {m3/s}, #73
+  ,   ! Speed 5 Reference Unit Rated Water Flow Rate {m3/s}, #74
+  ,   ! Speed 5 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #75
+  ,   ! Speed 5 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #76
+  ,   ! Speed 5 Total Cooling Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #77
+  ,   ! Speed 5 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #78
+  ,   ! Speed 5 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #79
+  ,   ! Speed 5 Energy Input Ratio Function of Water Flow Fraction Curve Name [UnivariateFunctions], #80
+  ,   ! Speed 5 Reference Unit Waste Heat Fraction of Input Power At Rated Conditions {dimensionless}, #81
+  ,   ! Speed 5 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #82
+  ,   ! Speed 6 Reference Unit Gross Rated Total Cooling Capacity {W}, #83
+  ,   ! Speed 6 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #84
+  ,   ! Speed 6 Reference Unit Gross Rated Cooling COP {W/W}, #85
+  ,   ! Speed 6 Reference Unit Rated Air Flow Rate {m3/s}, #86
+  ,   ! Speed 6 Reference Unit Rated Water Flow Rate {m3/s}, #87
+  ,   ! Speed 6 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #88
+  ,   ! Speed 6 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #89
+  ,   ! Speed 6 Total Cooling Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #90
+  ,   ! Speed 6 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #91
+  ,   ! Speed 6 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #92
+  ,   ! Speed 6 Energy Input Ratio Function of Water Flow Fraction Curve Name [UnivariateFunctions], #93
+  ,   ! Speed 6 Reference Unit Waste Heat Fraction of Input Power At Rated Conditions {dimensionless}, #94
+  ,   ! Speed 6 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #95
+  ,   ! Speed 7 Reference Unit Gross Rated Total Cooling Capacity {W}, #96
+  ,   ! Speed 7 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #97
+  ,   ! Speed 7 Reference Unit Gross Rated Cooling COP {W/W}, #98
+  ,   ! Speed 7 Reference Unit Rated Air Flow Rate {m3/s}, #99
+  ,   ! Speed 7 Reference Unit Rated Water Flow Rate {m3/s}, #100
+  ,   ! Speed 7 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #101
+  ,   ! Speed 7 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #102
+  ,   ! Speed 7 Total Cooling Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #103
+  ,   ! Speed 7 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #104
+  ,   ! Speed 7 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #105
+  ,   ! Speed 7 Energy Input Ratio Function of Water Flow Fraction Curve Name [UnivariateFunctions], #106
+  ,   ! Speed 7 Reference Unit Waste Heat Fraction of Input Power At Rated Conditions {dimensionless}, #107
+  ,   ! Speed 7 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #108
+  ,   ! Speed 8 Reference Unit Gross Rated Total Cooling Capacity {W}, #109
+  ,   ! Speed 8 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #110
+  ,   ! Speed 8 Reference Unit Gross Rated Cooling COP {W/W}, #111
+  ,   ! Speed 8 Reference Unit Rated Air Flow Rate {m3/s}, #112
+  ,   ! Speed 8 Reference Unit Rated Water Flow Rate {m3/s}, #113
+  ,   ! Speed 8 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #114
+  ,   ! Speed 8 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #115
+  ,   ! Speed 8 Total Cooling Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #116
+  ,   ! Speed 8 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #117
+  ,   ! Speed 8 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #118
+  ,   ! Speed 8 Energy Input Ratio Function of Water Flow Fraction Curve Name [UnivariateFunctions], #119
+  ,   ! Speed 8 Reference Unit Waste Heat Fraction of Input Power At Rated Conditions {dimensionless}, #120
+  ,   ! Speed 8 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #121
+  ,   ! Speed 9 Reference Unit Gross Rated Total Cooling Capacity {W}, #122
+  ,   ! Speed 9 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #123
+  ,   ! Speed 9 Reference Unit Gross Rated Cooling COP {W/W}, #124
+  ,   ! Speed 9 Reference Unit Rated Air Flow Rate {m3/s}, #125
+  ,   ! Speed 9 Reference Unit Rated Water Flow Rate {m3/s}, #126
+  ,   ! Speed 9 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #127
+  ,   ! Speed 9 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #128
+  ,   ! Speed 9 Total Cooling Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #129
+  ,   ! Speed 9 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #130
+  ,   ! Speed 9 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #131
+  ,   ! Speed 9 Energy Input Ratio Function of Water Flow Fraction Curve Name [UnivariateFunctions], #132
+  ,   ! Speed 9 Reference Unit Waste Heat Fraction of Input Power At Rated Conditions {dimensionless}, #133
+  ,   ! Speed 9 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #134
+  ,   ! Speed 10 Reference Unit Gross Rated Total Cooling Capacity {W}, #135
+  ,   ! Speed 10 Reference Unit Gross Rated Sensible Heat Ratio {dimensionless}, #136
+  ,   ! Speed 10 Reference Unit Gross Rated Cooling COP {W/W}, #137
+  ,   ! Speed 10 Reference Unit Rated Air Flow Rate {m3/s}, #138
+  ,   ! Speed 10 Reference Unit Rated Water Flow Rate {m3/s}, #139
+  ,   ! Speed 10 Total Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #140
+  ,   ! Speed 10 Total Cooling Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #141
+  ,   ! Speed 10 Total Cooling Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #142
+  ,   ! Speed 10 Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #143
+  ,   ! Speed 10 Energy Input Ratio Function of Air Flow Fraction Curve Name [UnivariateFunctions], #144
+  ,   ! Speed 10 Energy Input Ratio Function of Water Flow Fraction Curve Name [UnivariateFunctions], #145
+  ,   ! Speed 10 Reference Unit Waste Heat Fraction of Input Power At Rated Conditions {dimensionless}, #146
+  ;   ! Speed 10 Waste Heat Function of Temperature Curve Name [BivariateFunctions], #147

@@ -1,0 +1,4 @@
+RoomAirSettings:OneNodeDisplacementVentilation,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Fraction of Convective Internal Loads Added to Floor Air #2
+  ;   ! Fraction of Infiltration Internal Loads Added to Floor Air #3

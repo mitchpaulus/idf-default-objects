@@ -1,0 +1,9 @@
+! Min Fields: 4
+SpaceHVAC:EquipmentConnections,
+  ,   ! Space Name [SpaceNames], REQ, #1
+  ,   ! Space Air Inlet Node or NodeList Name #2
+  ,   ! Space Air Exhaust Node or NodeList Name #3
+  ,   ! Space Air Node Name REQ, #4
+  ,   ! Space Return Air Node or NodeList Name #5
+  ,   ! Space Return Air Node 1 Flow Rate Fraction Schedule Name [ScheduleNames], #6
+  ;   ! Space Return Air Node 1 Flow Rate Basis Node or NodeList Name #7

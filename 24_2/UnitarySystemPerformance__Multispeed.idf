@@ -1,0 +1,8 @@
+UnitarySystemPerformance:Multispeed,
+  ,   ! Name RefList: [UnitarySystemPerformanceNames], REQ, #1
+  ,   ! Number of Speeds for Heating REQ, #2
+  ,   ! Number of Speeds for Cooling REQ, #3
+  No,   ! Single Mode Operation Def: No, [Yes, No], #4
+  1,   ! No Load Supply Air Flow Rate Ratio Def: 1, #5
+  ,   ! Heating Speed 1 Supply Air Flow Ratio AS, REQ, #6
+  ;   ! Cooling Speed 1 Supply Air Flow Ratio AS, REQ, #7

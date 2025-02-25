@@ -1,0 +1,17 @@
+! Min Fields: 15
+RoomAirSettings:UnderFloorAirDistributionInterior,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  autocalculate,   ! Number of Diffusers Def: autocalculate, AC, #2
+  autocalculate,   ! Power per Plume {W}, Def: autocalculate, AC, #3
+  Autocalculate,   ! Design Effective Area of Diffuser {m2}, Def: Autocalculate, AC, #4
+  Autocalculate,   ! Diffuser Slot Angle from Vertical {deg}, Def: Autocalculate, AC, #5
+  1.2,   ! Thermostat Height {m}, Def: 1.2, #6
+  1.1,   ! Comfort Height {m}, Def: 1.1, #7
+  0.4,   ! Temperature Difference Threshold for Reporting {deltaC}, Def: 0.4, #8
+  Swirl,   ! Floor Diffuser Type Def: Swirl, [Custom, Swirl, VariableArea, HorizontalSwirl, LinearBarGrille], #9
+  1.7,   ! Transition Height {m}, Def: 1.7, AC, #10
+  Autocalculate,   ! Coefficient A Def: Autocalculate, AC, #11
+  Autocalculate,   ! Coefficient B Def: Autocalculate, AC, #12
+  Autocalculate,   ! Coefficient C Def: Autocalculate, AC, #13
+  Autocalculate,   ! Coefficient D Def: Autocalculate, AC, #14
+  Autocalculate;   ! Coefficient E Def: Autocalculate, AC, #15

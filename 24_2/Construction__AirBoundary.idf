@@ -1,0 +1,6 @@
+! Min Fields: 4
+Construction:AirBoundary,
+  ,   ! Name RefList: [ConstructionNames], REQ, #1
+  None,   ! Air Exchange Method Def: None, [None, SimpleMixing], #2
+  0.5,   ! Simple Mixing Air Changes per Hour {1/hr}, Def: 0.5, #3
+  ;   ! Simple Mixing Schedule Name [ScheduleNames], #4

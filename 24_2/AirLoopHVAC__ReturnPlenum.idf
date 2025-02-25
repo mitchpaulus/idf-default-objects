@@ -1,0 +1,7 @@
+AirLoopHVAC:ReturnPlenum,
+  ,   ! Name RefList: [ReturnPathComponentNames], REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Zone Node Name REQ, #3
+  ,   ! Outlet Node Name REQ, #4
+  ,   ! Induced Air Outlet Node or NodeList Name #5
+  ;   ! Inlet 1 Node Name REQ, #6

@@ -1,0 +1,22 @@
+! Min Fields: 19
+ZoneHVAC:LowTemperatureRadiant:VariableFlow:Design,
+  ,   ! Name RefList: [RadiantDesignObject], #1
+  ConvectionOnly,   ! Fluid to Radiant Surface Heat Transfer Model Def: ConvectionOnly, [ConvectionOnly, ISOStandard], #2
+  0.013,   ! Hydronic Tubing Inside Diameter {m}, Def: 0.013, #3
+  0.016,   ! Hydronic Tubing Outside Diameter {m}, Def: 0.016, #4
+  0.35,   ! Hydronic Tubing Conductivity {W/m-K}, Def: 0.35, #5
+  MeanAirTemperature,   ! Temperature Control Type Def: MeanAirTemperature, [MeanAirTemperature, MeanRadiantTemperature, OperativeTemperature, OutdoorDryBulbTemperature, OutdoorWetBulbTemperature, SurfaceFaceTemperature, SurfaceInteriorTemperature], #6
+  HalfFlowPower,   ! Setpoint Control Type Def: HalfFlowPower, [HalfFlowPower, ZeroFlowPower], #7
+  HeatingDesignCapacity,   ! Heating Design Capacity Method Def: HeatingDesignCapacity, [HeatingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedHeatingCapacity], #8
+  ,   ! Heating Design Capacity Per Floor Area {W/m2}, #9
+  1.0,   ! Fraction of Autosized Heating Design Capacity Def: 1.0, #10
+  0.5,   ! Heating Control Throttling Range {deltaC}, Def: 0.5, #11
+  ,   ! Heating Control Temperature Schedule Name [ScheduleNames], #12
+  CoolingDesignCapacity,   ! Cooling Design Capacity Method Def: CoolingDesignCapacity, [None, CoolingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedCoolingCapacity], #13
+  ,   ! Cooling Design Capacity Per Floor Area {W/m2}, #14
+  ,   ! Fraction of Autosized Cooling Design Capacity #15
+  0.5,   ! Cooling Control Throttling Range {deltaC}, Def: 0.5, #16
+  ,   ! Cooling Control Temperature Schedule Name [ScheduleNames], #17
+  SimpleOff,   ! Condensation Control Type Def: SimpleOff, [Off, SimpleOff, VariableOff], #18
+  1.0,   ! Condensation Control Dewpoint Offset {C}, Def: 1.0, #19
+  ;   ! Changeover Delay Time Period Schedule [ScheduleNames], #20

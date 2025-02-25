@@ -1,0 +1,6 @@
+ZoneContaminantSourceAndSink:Generic:DecaySource,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Initial Emission Rate {m3/s}, #3
+  ,   ! Schedule Name [ScheduleNames], REQ, #4
+  ;   ! Delay Time Constant {s}, #5

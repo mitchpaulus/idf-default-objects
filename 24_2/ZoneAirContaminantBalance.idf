@@ -1,0 +1,5 @@
+ZoneAirContaminantBalance,
+  No,   ! Carbon Dioxide Concentration Def: No, [Yes, No], #1
+  ,   ! Outdoor Carbon Dioxide Schedule Name [ScheduleNames], #2
+  No,   ! Generic Contaminant Concentration Def: No, [Yes, No], #3
+  ;   ! Outdoor Generic Contaminant Schedule Name [ScheduleNames], #4

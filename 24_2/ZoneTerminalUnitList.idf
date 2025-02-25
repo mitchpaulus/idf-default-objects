@@ -1,0 +1,4 @@
+! Min Fields: 2
+ZoneTerminalUnitList,
+  ,   ! Zone Terminal Unit List Name RefList: [ZoneTerminalUnitListNames], REQ, #1
+  ;   ! Zone Terminal Unit Name 1 [ZoneTerminalUnitNames], REQ, #2

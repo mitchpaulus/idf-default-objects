@@ -1,0 +1,27 @@
+! Min Fields: 11
+Chiller:Electric:ASHRAE205,
+  ,   ! Name RefList: [Chillers, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Representation File Name REQ, #2
+  Linear,   ! Performance Interpolation Method Def: Linear, [Linear, Cubic], #3
+  autosize,   ! Rated Capacity {W}, Def: autosize, AS, #4
+  1.0,   ! Sizing Factor Def: 1.0, #5
+  ,   ! Ambient Temperature Indicator [Schedule, Zone, Outdoors], REQ, #6
+  ,   ! Ambient Temperature Schedule Name [ScheduleNames], #7
+  ,   ! Ambient Temperature Zone Name [ZoneNames], #8
+  ,   ! Ambient Temperature Outdoor Air Node Name #9
+  ,   ! Chilled Water Inlet Node Name REQ, #10
+  ,   ! Chilled Water Outlet Node Name REQ, #11
+  autosize,   ! Chilled Water Maximum Requested Flow Rate {m3/s}, Def: autosize, AS, #12
+  ,   ! Condenser Inlet Node Name #13
+  ,   ! Condenser Outlet Node Name #14
+  autosize,   ! Condenser Maximum Requested Flow Rate {m3/s}, Def: autosize, AS, #15
+  NotModulated,   ! Chiller Flow Mode Def: NotModulated, [ConstantFlow, LeavingSetpointModulated, NotModulated], #16
+  ,   ! Oil Cooler Inlet Node Name #17
+  ,   ! Oil Cooler Outlet Node Name #18
+  ,   ! Oil Cooler Design Flow Rate {m3/s}, #19
+  ,   ! Auxiliary Inlet Node Name #20
+  ,   ! Auxiliary Outlet Node Name #21
+  ,   ! Auxiliary Cooling Design Flow Rate {m3/s}, #22
+  ,   ! Heat Recovery Inlet Node Name #23
+  ,   ! Heat Recovery Outlet Node Name #24
+  General;   ! End-Use Subcategory Def: General, #25

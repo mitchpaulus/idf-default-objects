@@ -1,0 +1,25 @@
+! Min Fields: 19
+HeatExchanger:AirToAir:SensibleAndLatent,
+  ,   ! Name RefList: [HXAirToAirNames, HXAirToAirSensibleAndLatentNames, AFNHeatExchangerNames, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Nominal Supply Air Flow Rate {m3/s}, AS, REQ, #3
+  0.0,   ! Sensible Effectiveness at 100% Heating Air Flow {dimensionless}, Def: 0.0, #4
+  0.0,   ! Latent Effectiveness at 100% Heating Air Flow {dimensionless}, Def: 0.0, #5
+  0.0,   ! Sensible Effectiveness at 100% Cooling Air Flow {dimensionless}, Def: 0.0, #6
+  0.0,   ! Latent Effectiveness at 100% Cooling Air Flow {dimensionless}, Def: 0.0, #7
+  ,   ! Supply Air Inlet Node Name REQ, #8
+  ,   ! Supply Air Outlet Node Name REQ, #9
+  ,   ! Exhaust Air Inlet Node Name REQ, #10
+  ,   ! Exhaust Air Outlet Node Name REQ, #11
+  0.0,   ! Nominal Electric Power {W}, Def: 0.0, #12
+  No,   ! Supply Air Outlet Temperature Control Def: No, [No, Yes], #13
+  Plate,   ! Heat Exchanger Type Def: Plate, [Plate, Rotary], #14
+  None,   ! Frost Control Type Def: None, [None, ExhaustAirRecirculation, ExhaustOnly, MinimumExhaustTemperature], #15
+  1.7,   ! Threshold Temperature {C}, Def: 1.7, #16
+  0.083,   ! Initial Defrost Time Fraction {dimensionless}, Def: 0.083, #17
+  0.012,   ! Rate of Defrost Time Fraction Increase {1/K}, Def: 0.012, #18
+  Yes,   ! Economizer Lockout Def: Yes, [Yes, No], #19
+  ,   ! Sensible Effectiveness of Heating Air Flow Curve Name [UnivariateFunctions], #20
+  ,   ! Latent Effectiveness of Heating Air Flow Curve Name [UnivariateFunctions], #21
+  ,   ! Sensible Effectiveness of Cooling Air Flow Curve Name [UnivariateFunctions], #22
+  ;   ! Latent Effectiveness of Cooling Air Flow Curve Name [UnivariateFunctions], #23

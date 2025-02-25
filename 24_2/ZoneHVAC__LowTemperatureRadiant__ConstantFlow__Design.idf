@@ -1,0 +1,14 @@
+! Min Fields: 11
+ZoneHVAC:LowTemperatureRadiant:ConstantFlow:Design,
+  ,   ! Name RefList: [RadiantDesignObject], REQ, #1
+  ConvectionOnly,   ! Fluid to Radiant Surface Heat Transfer Model Def: ConvectionOnly, [ConvectionOnly, ISOStandard], #2
+  0.013,   ! Hydronic Tubing Inside Diameter {m}, Def: 0.013, #3
+  0.016,   ! Hydronic Tubing Outside Diameter {m}, Def: 0.016, #4
+  0.35,   ! Hydronic Tubing Conductivity {W/m-K}, Def: 0.35, #5
+  MeanAirTemperature,   ! Temperature Control Type Def: MeanAirTemperature, [MeanAirTemperature, MeanRadiantTemperature, OperativeTemperature, OutdoorDryBulbTemperature, OutdoorWetBulbTemperature, SurfaceFaceTemperature, SurfaceInteriorTemperature, RunningMeanOutdoorDryBulbTemperature], #6
+  0.8,   ! Running Mean Outdoor Dry-Bulb Temperature Weighting Factor Def: 0.8, #7
+  0.9,   ! Motor Efficiency Def: 0.9, #8
+  0.0,   ! Fraction of Motor Inefficiencies to Fluid Stream Def: 0.0, #9
+  SimpleOff,   ! Condensation Control Type Def: SimpleOff, [Off, SimpleOff, VariableOff], #10
+  1.0,   ! Condensation Control Dewpoint Offset {C}, Def: 1.0, #11
+  ;   ! Changeover Delay Time Period Schedule [ScheduleNames], #12

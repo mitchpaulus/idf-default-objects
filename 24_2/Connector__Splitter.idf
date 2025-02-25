@@ -1,0 +1,5 @@
+! Min Fields: 3
+Connector:Splitter,
+  ,   ! Name RefList: [PlantConnectors], REQ, #1
+  ,   ! Inlet Branch Name [Branches], REQ, #2
+  ;   ! Outlet Branch 1 Name [Branches], REQ, #3

@@ -1,0 +1,11 @@
+! Min Fields: 7
+EvaporativeCooler:Direct:CelDekPad,
+  ,   ! Name RefList: [EvapCoolerNames, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  autosize,   ! Direct Pad Area {m2}, Def: autosize, AS, #3
+  autosize,   ! Direct Pad Depth {m}, Def: autosize, AS, #4
+  ,   ! Recirculating Water Pump Power Consumption {W}, REQ, #5
+  ,   ! Air Inlet Node Name REQ, #6
+  ,   ! Air Outlet Node Name REQ, #7
+  ,   ! Control Type #8
+  ;   ! Water Supply Storage Tank Name [WaterStorageTankNames], #9

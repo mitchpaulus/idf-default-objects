@@ -1,0 +1,31 @@
+! Min Fields: 10
+People,
+  ,   ! Name RefList: [PeopleNames], REQ, #1
+  ,   ! Zone or ZoneList or Space or SpaceList Name [ZoneAndZoneListNames, SpaceAndSpaceListNames], REQ, #2
+  ,   ! Number of People Schedule Name [ScheduleNames], REQ, #3
+  People,   ! Number of People Calculation Method Def: People, [People, People/Area, Area/Person], #4
+  ,   ! Number of People #5
+  ,   ! People per Floor Area {person/m2}, #6
+  ,   ! Floor Area per Person {m2/person}, #7
+  0.3,   ! Fraction Radiant Def: 0.3, #8
+  autocalculate,   ! Sensible Heat Fraction Def: autocalculate, AC, #9
+  ,   ! Activity Level Schedule Name [ScheduleNames], REQ, #10
+  3.82E-8,   ! Carbon Dioxide Generation Rate {m3/s-W}, Def: 3.82E-8, #11
+  No,   ! Enable ASHRAE 55 Comfort Warnings Def: No, [Yes, No], #12
+  EnclosureAveraged,   ! Mean Radiant Temperature Calculation Type Def: EnclosureAveraged, [EnclosureAveraged, SurfaceWeighted, AngleFactor], #13
+  ,   ! Surface Name/Angle Factor List Name [AllHeatTranAngFacNames], #14
+  ,   ! Work Efficiency Schedule Name [ScheduleNames], #15
+  ClothingInsulationSchedule,   ! Clothing Insulation Calculation Method Def: ClothingInsulationSchedule, [ClothingInsulationSchedule, DynamicClothingModelASHRAE55, CalculationMethodSchedule], #16
+  ,   ! Clothing Insulation Calculation Method Schedule Name [ScheduleNames], #17
+  ,   ! Clothing Insulation Schedule Name [ScheduleNames], #18
+  ,   ! Air Velocity Schedule Name [ScheduleNames], #19
+  ,   ! Thermal Comfort Model 1 Type [Fanger, Pierce, KSU, AdaptiveASH55, AdaptiveCEN15251, CoolingEffectASH55, AnkleDraftASH55], #20
+  ,   ! Thermal Comfort Model 2 Type [Fanger, Pierce, KSU, AdaptiveASH55, AdaptiveCEN15251, CoolingEffectASH55, AnkleDraftASH55], #21
+  ,   ! Thermal Comfort Model 3 Type [Fanger, Pierce, KSU, AdaptiveASH55, AdaptiveCEN15251, CoolingEffectASH55, AnkleDraftASH55], #22
+  ,   ! Thermal Comfort Model 4 Type [Fanger, Pierce, KSU, AdaptiveASH55, AdaptiveCEN15251, CoolingEffectASH55, AnkleDraftASH55], #23
+  ,   ! Thermal Comfort Model 5 Type [Fanger, Pierce, KSU, AdaptiveASH55, AdaptiveCEN15251, CoolingEffectASH55, AnkleDraftASH55], #24
+  ,   ! Thermal Comfort Model 6 Type [Fanger, Pierce, KSU, AdaptiveASH55, AdaptiveCEN15251, CoolingEffectASH55, AnkleDraftASH55], #25
+  ,   ! Thermal Comfort Model 7 Type [Fanger, Pierce, KSU, AdaptiveASH55, AdaptiveCEN15251, CoolingEffectASH55, AnkleDraftASH55], #26
+  ,   ! Ankle Level Air Velocity Schedule Name [ScheduleNames], #27
+  15.56,   ! Cold Stress Temperature Threshold {C}, Def: 15.56, #28
+  30;   ! Heat Stress Temperature Threshold {C}, Def: 30, #29

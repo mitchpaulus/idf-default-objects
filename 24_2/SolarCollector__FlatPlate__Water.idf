@@ -1,0 +1,7 @@
+SolarCollector:FlatPlate:Water,
+  ,   ! Name RefList: [validBranchEquipmentNames, validPlantEquipmentNames], RefClassList: [validBranchEquipmentTypes, validPlantEquipmentTypes], REQ, #1
+  ,   ! SolarCollectorPerformance Name [FlatPlateSolarCollectorParameters], REQ, #2
+  ,   ! Surface Name [AllShadingAndHTSurfNames], REQ, #3
+  ,   ! Inlet Node Name REQ, #4
+  ,   ! Outlet Node Name REQ, #5
+  ;   ! Maximum Flow Rate {m3/s}, #6

@@ -1,0 +1,9 @@
+! Min Fields: 6
+AirTerminal:SingleDuct:VAV:HeatAndCool:NoReheat,
+  ,   ! Name RefList: [AirTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Outlet Node Name REQ, #3
+  ,   ! Air Inlet Node Name REQ, #4
+  ,   ! Maximum Air Flow Rate {m3/s}, AS, REQ, #5
+  ,   ! Zone Minimum Air Flow Fraction REQ, #6
+  ;   ! Minimum Air Flow Turndown Schedule Name [ScheduleNames], #7

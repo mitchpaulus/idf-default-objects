@@ -1,0 +1,7 @@
+! Min Fields: 5
+Daylighting:ReferencePoint,
+  ,   ! Name RefList: [DaylightReferencePointNames], REQ, #1
+  ,   ! Zone or Space Name [ZoneNames, SpaceNames], REQ, #2
+  ,   ! X-Coordinate of Reference Point {m}, REQ, #3
+  ,   ! Y-Coordinate of Reference Point {m}, REQ, #4
+  0.8;   ! Z-Coordinate of Reference Point {m}, Def: 0.8, #5

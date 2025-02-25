@@ -1,0 +1,17 @@
+! Min Fields: 15
+RoomAirSettings:UnderFloorAirDistributionExterior,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  Autocalculate,   ! Number of Diffusers per Zone Def: Autocalculate, AC, #2
+  autocalculate,   ! Power per Plume {W}, Def: autocalculate, AC, #3
+  Autocalculate,   ! Design Effective Area of Diffuser {m2}, Def: Autocalculate, AC, #4
+  autocalculate,   ! Diffuser Slot Angle from Vertical {deg}, Def: autocalculate, AC, #5
+  1.2,   ! Thermostat Height {m}, Def: 1.2, #6
+  1.1,   ! Comfort Height {m}, Def: 1.1, #7
+  0.4,   ! Temperature Difference Threshold for Reporting {deltaC}, Def: 0.4, #8
+  Swirl,   ! Floor Diffuser Type Def: Swirl, [Custom, Swirl, VariableArea, HorizontalSwirl, LinearBarGrille], #9
+  1.7,   ! Transition Height {m}, Def: 1.7, AC, #10
+  Autocalculate,   ! Coefficient A in formula Kc = A*Gamma**B + C + D*Gamma + E*Gamma**2 Def: Autocalculate, AC, #11
+  Autocalculate,   ! Coefficient B in formula Kc = A*Gamma**B + C + D*Gamma + E*Gamma**2 Def: Autocalculate, AC, #12
+  Autocalculate,   ! Coefficient C in formula Kc = A*Gamma**B + C + D*Gamma + E*Gamma**2 Def: Autocalculate, AC, #13
+  Autocalculate,   ! Coefficient D in formula Kc = A*Gamma**B + C + D*Gamma + E*Gamma**2 Def: Autocalculate, AC, #14
+  Autocalculate;   ! Coefficient E in formula Kc = A*Gamma**B + C + D*Gamma + E*Gamma**2 Def: Autocalculate, AC, #15

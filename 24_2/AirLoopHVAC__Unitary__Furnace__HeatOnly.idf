@@ -1,0 +1,15 @@
+! Min Fields: 13
+AirLoopHVAC:Unitary:Furnace:HeatOnly,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Furnace Air Inlet Node Name REQ, #3
+  ,   ! Furnace Air Outlet Node Name REQ, #4
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #5
+  80.0,   ! Maximum Supply Air Temperature {C}, Def: 80.0, AS, #6
+  ,   ! Heating Supply Air Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Controlling Zone or Thermostat Location [ZoneNames], REQ, #8
+  ,   ! Supply Fan Object Type [Fan:OnOff, Fan:ConstantVolume], REQ, #9
+  ,   ! Supply Fan Name [FansCVandOnOff], REQ, #10
+  BlowThrough,   ! Fan Placement Def: BlowThrough, [BlowThrough, DrawThrough], #11
+  ,   ! Heating Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Water, Coil:Heating:Steam], REQ, #12
+  ;   ! Heating Coil Name [HeatingCoilName], REQ, #13

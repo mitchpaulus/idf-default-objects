@@ -1,0 +1,5 @@
+ZoneContaminantSourceAndSink:Generic:DepositionRateSink,
+  ,   ! Name REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Deposition Rate {m/s}, #3
+  ;   ! Schedule Name [ScheduleNames], REQ, #4

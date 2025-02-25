@@ -1,0 +1,16 @@
+! Min Fields: 9
+WindowMaterial:Screen,
+  ,   ! Name RefList: [MaterialName, WindowShadesScreensAndBlinds], REQ, #1
+  ModelAsDiffuse,   ! Reflected Beam Transmittance Accounting Method Def: ModelAsDiffuse, [DoNotModel, ModelAsDirectBeam, ModelAsDiffuse], #2
+  ,   ! Diffuse Solar Reflectance {dimensionless}, REQ, #3
+  ,   ! Diffuse Visible Reflectance {dimensionless}, REQ, #4
+  0.9,   ! Thermal Hemispherical Emissivity {dimensionless}, Def: 0.9, #5
+  221.0,   ! Conductivity {W/m-K}, Def: 221.0, #6
+  ,   ! Screen Material Spacing {m}, REQ, #7
+  ,   ! Screen Material Diameter {m}, REQ, #8
+  0.025,   ! Screen to Glass Distance {m}, Def: 0.025, #9
+  0.0,   ! Top Opening Multiplier {dimensionless}, Def: 0.0, #10
+  0.0,   ! Bottom Opening Multiplier {dimensionless}, Def: 0.0, #11
+  0.0,   ! Left Side Opening Multiplier {dimensionless}, Def: 0.0, #12
+  0.0,   ! Right Side Opening Multiplier {dimensionless}, Def: 0.0, #13
+  0;   ! Angle of Resolution for Screen Transmittance Output Map {deg}, Def: 0, [0, 1, 2, 3, 5], #14

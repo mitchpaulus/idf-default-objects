@@ -1,0 +1,11 @@
+Pipe:Underground,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Construction Name [ConstructionNames], REQ, #2
+  ,   ! Fluid Inlet Node Name REQ, #3
+  ,   ! Fluid Outlet Node Name REQ, #4
+  ,   ! Sun Exposure [SunExposed, NoSun], REQ, #5
+  ,   ! Pipe Inside Diameter {m}, #6
+  ,   ! Pipe Length {m}, #7
+  ,   ! Soil Material Name REQ, #8
+  ,   ! Undisturbed Ground Temperature Model Type [Site:GroundTemperature:Undisturbed:FiniteDifference, Site:GroundTemperature:Undisturbed:KusudaAchenbach, Site:GroundTemperature:Undisturbed:Xing], REQ, #9
+  ;   ! Undisturbed Ground Temperature Model Name [UndisturbedGroundTempModels], REQ, #10

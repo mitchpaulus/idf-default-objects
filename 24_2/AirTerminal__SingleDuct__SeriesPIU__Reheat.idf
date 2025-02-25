@@ -1,0 +1,22 @@
+AirTerminal:SingleDuct:SeriesPIU:Reheat,
+  ,   ! Name RefList: [AirTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Maximum Air Flow Rate {m3/s}, AS, REQ, #3
+  ,   ! Maximum Primary Air Flow Rate {m3/s}, AS, REQ, #4
+  ,   ! Minimum Primary Air Flow Fraction AS, REQ, #5
+  ,   ! Supply Air Inlet Node Name #6
+  ,   ! Secondary Air Inlet Node Name #7
+  ,   ! Outlet Node Name #8
+  ,   ! Reheat Coil Air Inlet Node Name #9
+  ,   ! Zone Mixer Name [ZoneMixers], #10
+  ,   ! Fan Name [FansCV, FansSystemModel], #11
+  ,   ! Reheat Coil Object Type [Coil:Heating:Water, Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam], REQ, #12
+  ,   ! Reheat Coil Name [HeatingCoilName], REQ, #13
+  ,   ! Maximum Hot Water or Steam Flow Rate {m3/s}, AS, #14
+  0.0,   ! Minimum Hot Water or Steam Flow Rate {m3/s}, Def: 0.0, #15
+  0.001,   ! Convergence Tolerance Def: 0.001, #16
+  ConstantSpeed,   ! Fan Control Type Def: ConstantSpeed, [VariableSpeed, ConstantSpeed], #17
+  0.3,   ! Minimum Fan Turn Down Ratio {dimensionless}, Def: 0.3, #18
+  ,   ! Heating Control Type [Staged, Modulated], #19
+  32.1,   ! Design Heating Discharge Air Temperature {C}, Def: 32.1, #20
+  37.7;   ! High Limit Heating Discharge Air Temperature {C}, Def: 37.7, #21

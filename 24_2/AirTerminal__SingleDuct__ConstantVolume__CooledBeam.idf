@@ -1,0 +1,25 @@
+! Min Fields: 23
+AirTerminal:SingleDuct:ConstantVolume:CooledBeam,
+  ,   ! Name RefList: [AirTerminalUnitNames, validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Cooled Beam Type [Active, Passive], REQ, #3
+  ,   ! Supply Air Inlet Node Name REQ, #4
+  ,   ! Supply Air Outlet Node Name REQ, #5
+  ,   ! Chilled Water Inlet Node Name REQ, #6
+  ,   ! Chilled Water Outlet Node Name REQ, #7
+  autosize,   ! Supply Air Volumetric Flow Rate {m3/s}, Def: autosize, AS, #8
+  autosize,   ! Maximum Total Chilled Water Volumetric Flow Rate {m3/s}, Def: autosize, AS, #9
+  autosize,   ! Number of Beams Def: autosize, AS, #10
+  autosize,   ! Beam Length {m}, Def: autosize, AS, #11
+  15.0,   ! Design Inlet Water Temperature {C}, Def: 15.0, #12
+  17.0,   ! Design Outlet Water Temperature {C}, Def: 17.0, #13
+  5.422,   ! Coil Surface Area per Coil Length {m2/m}, Def: 5.422, #14
+  15.3,   ! Model Parameter a Def: 15.3, #15
+  0.0,   ! Model Parameter n1 Def: 0.0, #16
+  0.84,   ! Model Parameter n2 Def: 0.84, #17
+  0.12,   ! Model Parameter n3 Def: 0.12, #18
+  0.171,   ! Model Parameter a0 {m2/m}, Def: 0.171, #19
+  0.0057,   ! Model Parameter K1 Def: 0.0057, #20
+  0.4,   ! Model Parameter n Def: 0.4, #21
+  Autocalculate,   ! Coefficient of Induction Kin Def: Autocalculate, AC, #22
+  0.0145;   ! Leaving Pipe Inside Diameter {m}, Def: 0.0145, #23

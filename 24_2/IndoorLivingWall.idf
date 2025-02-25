@@ -1,0 +1,13 @@
+IndoorLivingWall,
+  ,   ! Name REQ, #1
+  ,   ! Surface Name [SurfaceNames], REQ, #2
+  ,   ! Schedule Name [ScheduleNames], REQ, #3
+  Penman-Monteith,   ! Evapotranspiration Calculation Method Def: Penman-Monteith, [Penman-Monteith, Stanghellini], #4
+  ,   ! Lighting Method [LED, Daylight, LED-Daylight], #5
+  ,   ! LED Intensity Schedule Name [ScheduleNames], #6
+  ,   ! Daylighting Control Name #7
+  ,   ! LED-Daylight Targeted Lighting Intensity Schedule Name [ScheduleNames], #8
+  ,   ! Total Leaf Area {m2}, #9
+  ,   ! LED Nominal Intensity {umol/m2-s}, #10
+  ,   ! LED Nominal Power {W}, #11
+  0.6;   ! Radiant Fraction of LED Lights Def: 0.6, #12

@@ -1,0 +1,28 @@
+! Min Fields: 15
+ZoneVentilation:DesignFlowRate,
+  ,   ! Name RefList: [VentilationNames], REQ, #1
+  ,   ! Zone or ZoneList or Space or SpaceList Name [ZoneAndZoneListNames, SpaceAndSpaceListNames], REQ, #2
+  ,   ! Schedule Name [ScheduleNames], #3
+  Flow/Zone,   ! Design Flow Rate Calculation Method Def: Flow/Zone, [Flow/Zone, Flow/Area, Flow/Person, AirChanges/Hour], #4
+  ,   ! Design Flow Rate {m3/s}, #5
+  ,   ! Flow Rate per Floor Area {m3/s-m2}, #6
+  ,   ! Flow Rate per Person {m3/s-person}, #7
+  ,   ! Air Changes per Hour {1/hr}, #8
+  Natural,   ! Ventilation Type Def: Natural, [Natural, Intake, Exhaust, Balanced], #9
+  0,   ! Fan Pressure Rise {Pa}, Def: 0, #10
+  1,   ! Fan Total Efficiency Def: 1, #11
+  1,   ! Constant Term Coefficient Def: 1, #12
+  0,   ! Temperature Term Coefficient Def: 0, #13
+  0,   ! Velocity Term Coefficient Def: 0, #14
+  0,   ! Velocity Squared Term Coefficient Def: 0, #15
+  -100,   ! Minimum Indoor Temperature {C}, Def: -100, #16
+  ,   ! Minimum Indoor Temperature Schedule Name [ScheduleNames], #17
+  100,   ! Maximum Indoor Temperature {C}, Def: 100, #18
+  ,   ! Maximum Indoor Temperature Schedule Name [ScheduleNames], #19
+  -100,   ! Delta Temperature {deltaC}, Def: -100, #20
+  ,   ! Delta Temperature Schedule Name [ScheduleNames], #21
+  -100,   ! Minimum Outdoor Temperature {C}, Def: -100, #22
+  ,   ! Minimum Outdoor Temperature Schedule Name [ScheduleNames], #23
+  100,   ! Maximum Outdoor Temperature {C}, Def: 100, #24
+  ,   ! Maximum Outdoor Temperature Schedule Name [ScheduleNames], #25
+  40;   ! Maximum Wind Speed {m/s}, Def: 40, #26

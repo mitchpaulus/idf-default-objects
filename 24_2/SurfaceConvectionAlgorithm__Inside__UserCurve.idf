@@ -1,0 +1,7 @@
+SurfaceConvectionAlgorithm:Inside:UserCurve,
+  ,   ! Name RefList: [UserConvectionInsideModels, UserConvectionModels], #1
+  ,   ! Reference Temperature for Convection Heat Transfer [MeanAirTemperature, AdjacentAirTemperature, SupplyAirTemperature], #2
+  ,   ! Hc Function of Temperature Difference Curve Name [UnivariateFunctions], #3
+  ,   ! Hc Function of Temperature Difference Divided by Height Curve Name [UnivariateFunctions], #4
+  ,   ! Hc Function of Air Change Rate Curve Name [UnivariateFunctions], #5
+  ;   ! Hc Function of Air System Volume Flow Rate Divided by Zone Perimeter Length Curve Name [UnivariateFunctions], #6

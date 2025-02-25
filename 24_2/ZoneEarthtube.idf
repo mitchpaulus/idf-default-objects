@@ -1,0 +1,26 @@
+! Min Fields: 22
+ZoneEarthtube,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Schedule Name [ScheduleNames], REQ, #2
+  ,   ! Design Flow Rate {m3/s}, REQ, #3
+  ,   ! Minimum Zone Temperature when Cooling {C}, REQ, #4
+  ,   ! Maximum Zone Temperature when Heating {C}, REQ, #5
+  ,   ! Delta Temperature {deltaC}, REQ, #6
+  Natural,   ! Earthtube Type Def: Natural, [Natural, Intake, Exhaust], #7
+  0,   ! Fan Pressure Rise {Pa}, Def: 0, #8
+  1,   ! Fan Total Efficiency Def: 1, #9
+  1,   ! Pipe Radius {m}, Def: 1, #10
+  0.2,   ! Pipe Thickness {m}, Def: 0.2, #11
+  15,   ! Pipe Length {m}, Def: 15, #12
+  200,   ! Pipe Thermal Conductivity {W/m-K}, Def: 200, #13
+  3,   ! Pipe Depth Under Ground Surface {m}, Def: 3, #14
+  HeavyAndDamp,   ! Soil Condition Def: HeavyAndDamp, [HeavyAndSaturated, HeavyAndDamp, HeavyAndDry, LightAndDry], #15
+  ,   ! Average Soil Surface Temperature {C}, REQ, #16
+  ,   ! Amplitude of Soil Surface Temperature {deltaC}, REQ, #17
+  ,   ! Phase Constant of Soil Surface Temperature {days}, REQ, #18
+  1,   ! Constant Term Flow Coefficient Def: 1, #19
+  0,   ! Temperature Term Flow Coefficient Def: 0, #20
+  0,   ! Velocity Term Flow Coefficient Def: 0, #21
+  0,   ! Velocity Squared Term Flow Coefficient Def: 0, #22
+  Basic,   ! Earth Tube Model Type Def: Basic, [Basic, Vertical], #23
+  ;   ! Earth Tube Model Parameters [EarthTubeParameterNames], #24

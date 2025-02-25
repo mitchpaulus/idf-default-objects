@@ -1,0 +1,8 @@
+! Min Fields: 5
+Site:Location,
+  ,   ! Name REQ, #1
+  0.0,   ! Latitude {deg}, Def: 0.0, #2
+  0.0,   ! Longitude {deg}, Def: 0.0, #3
+  0.0,   ! Time Zone {hr}, Def: 0.0, #4
+  0.0,   ! Elevation {m}, Def: 0.0, #5
+  No;   ! Keep Site Location Information Def: No, [Yes, No], #6

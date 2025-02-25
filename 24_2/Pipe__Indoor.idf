@@ -1,0 +1,11 @@
+Pipe:Indoor,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Construction Name [ConstructionNames], REQ, #2
+  ,   ! Fluid Inlet Node Name REQ, #3
+  ,   ! Fluid Outlet Node Name REQ, #4
+  Zone,   ! Environment Type Def: Zone, [Zone, Schedule], #5
+  ,   ! Ambient Temperature Zone Name [ZoneNames], #6
+  ,   ! Ambient Temperature Schedule Name [ScheduleNames], #7
+  ,   ! Ambient Air Velocity Schedule Name [ScheduleNames], #8
+  ,   ! Pipe Inside Diameter {m}, #9
+  ;   ! Pipe Length {m}, #10

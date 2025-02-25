@@ -1,0 +1,13 @@
+! Min Fields: 10
+SpaceHVAC:ZoneEquipmentSplitter,
+  ,   ! Name RefList: [SpaceSplitterNames], REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  ,   ! Zone Equipment Object Type [ZoneHVAC:TerminalUnit:VariableRefrigerantFlow, ZoneHVAC:AirDistributionUnit, ZoneHVAC:EnergyRecoveryVentilator, ZoneHVAC:EvaporativeCoolerUnit, ZoneHVAC:HybridUnitaryHVAC, ZoneHVAC:ForcedAir:UserDefined, ZoneHVAC:FourPipeFanCoil, ZoneHVAC:OutdoorAirUnit, ZoneHVAC:PackagedTerminalAirConditioner, ZoneHVAC:PackagedTerminalHeatPump, ZoneHVAC:UnitHeater, ZoneHVAC:UnitVentilator, ZoneHVAC:VentilatedSlab, ZoneHVAC:WaterToAirHeatPump, ZoneHVAC:WindowAirConditioner, ZoneHVAC:Baseboard:RadiantConvective:Electric, ZoneHVAC:Baseboard:RadiantConvective:Water, ZoneHVAC:Baseboard:RadiantConvective:Steam, ZoneHVAC:CoolingPanel:RadiantConvective:Water, ZoneHVAC:Baseboard:Convective:Electric, ZoneHVAC:Baseboard:Convective:Water, ZoneHVAC:HighTemperatureRadiant, ZoneHVAC:LowTemperatureRadiant:VariableFlow, ZoneHVAC:LowTemperatureRadiant:ConstantFlow, ZoneHVAC:LowTemperatureRadiant:Electric, ZoneHVAC:Dehumidifier:DX, ZoneHVAC:IdealLoadsAirSystem, ZoneHVAC:RefrigerationChillerSet, WaterHeater:HeatPump:PumpedCondenser, WaterHeater:HeatPump:WrappedCondenser, HeatExchanger:AirToAir:FlatPlate, AirLoopHVAC:UnitarySystem], REQ, #3
+  ,   ! Zone Equipment Name [ZoneEquipmentNames], REQ, #4
+  ,   ! Zone Equipment Outlet Node Name #5
+  SingleSpace,   ! Thermostat Control Method Def: SingleSpace, [SingleSpace, Maximum, Ideal], #6
+  ,   ! Control Space Name [SpaceNames], #7
+  DesignCoolingLoad,   ! Space Fraction Method Def: DesignCoolingLoad, [DesignCoolingLoad, DesignHeatingLoad, FloorArea, Volume, PerimeterLength], #8
+  ,   ! Space 1 Name [SpaceNames], REQ, #9
+  autosize,   ! Space 1 Fraction {dimensionless}, Def: autosize, AS, #10
+  ;   ! Space 1 Supply Node Name #11

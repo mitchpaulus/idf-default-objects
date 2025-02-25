@@ -1,0 +1,31 @@
+! Min Fields: 11
+WindowMaterial:Glazing:EquivalentLayer,
+  ,   ! Name RefList: [WindowEquivalentLayerMaterialNames], REQ, #1
+  SpectralAverage,   ! Optical Data Type Def: SpectralAverage, [Spectral, SpectralAverage], #2
+  ,   ! Window Glass Spectral Data Set Name [SpectralDataSets], #3
+  ,   ! Front Side Beam-Beam Solar Transmittance {dimensionless}, REQ, #4
+  ,   ! Back Side Beam-Beam Solar Transmittance {dimensionless}, REQ, #5
+  ,   ! Front Side Beam-Beam Solar Reflectance {dimensionless}, REQ, #6
+  ,   ! Back Side Beam-Beam Solar Reflectance {dimensionless}, REQ, #7
+  ,   ! Front Side Beam-Beam Visible Solar Transmittance {dimensionless}, #8
+  ,   ! Back Side Beam-Beam Visible Solar Transmittance {dimensionless}, #9
+  ,   ! Front Side Beam-Beam Visible Solar Reflectance {dimensionless}, #10
+  ,   ! Back Side Beam-Beam Visible Solar Reflectance {dimensionless}, #11
+  0.0,   ! Front Side Beam-Diffuse Solar Transmittance {dimensionless}, Def: 0.0, #12
+  0.0,   ! Back Side Beam-Diffuse Solar Transmittance {dimensionless}, Def: 0.0, #13
+  0.0,   ! Front Side Beam-Diffuse Solar Reflectance {dimensionless}, Def: 0.0, #14
+  0.0,   ! Back Side Beam-Diffuse Solar Reflectance {dimensionless}, Def: 0.0, #15
+  0.0,   ! Front Side Beam-Diffuse Visible Solar Transmittance {dimensionless}, Def: 0.0, #16
+  0.0,   ! Back Side Beam-Diffuse Visible Solar Transmittance {dimensionless}, Def: 0.0, #17
+  0.0,   ! Front Side Beam-Diffuse Visible Solar Reflectance {dimensionless}, Def: 0.0, #18
+  0.0,   ! Back Side Beam-Diffuse Visible Solar Reflectance {dimensionless}, Def: 0.0, #19
+  autocalculate,   ! Diffuse-Diffuse Solar Transmittance {dimensionless}, Def: autocalculate, AC, #20
+  autocalculate,   ! Front Side Diffuse-Diffuse Solar Reflectance {dimensionless}, Def: autocalculate, AC, #21
+  autocalculate,   ! Back Side Diffuse-Diffuse Solar Reflectance {dimensionless}, Def: autocalculate, AC, #22
+  autocalculate,   ! Diffuse-Diffuse Visible Solar Transmittance {dimensionless}, Def: autocalculate, AC, #23
+  autocalculate,   ! Front Side Diffuse-Diffuse Visible Solar Reflectance {dimensionless}, Def: autocalculate, AC, #24
+  autocalculate,   ! Back Side Diffuse-Diffuse Visible Solar Reflectance {dimensionless}, Def: autocalculate, AC, #25
+  0.0,   ! Infrared Transmittance (applies to front and back) {dimensionless}, Def: 0.0, #26
+  0.84,   ! Front Side Infrared Emissivity {dimensionless}, Def: 0.84, #27
+  0.84,   ! Back Side Infrared Emissivity {dimensionless}, Def: 0.84, #28
+  0.158;   ! Thermal Resistance {m2-K/W}, Def: 0.158, #29

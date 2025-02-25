@@ -1,0 +1,7 @@
+GroundHeatTransfer:Slab:MatlProps,
+  2300,   ! RHO: Slab Material density {kg/m3}, Def: 2300, #1
+  1200,   ! RHO: Soil Density {kg/m3}, Def: 1200, #2
+  650,   ! CP: Slab CP {J/kg-K}, Def: 650, #3
+  1200,   ! CP: Soil CP {J/kg-K}, Def: 1200, #4
+  0.9,   ! TCON: Slab k {W/m-K}, Def: 0.9, #5
+  1.0;   ! TCON: Soil k {W/m-K}, Def: 1.0, #6

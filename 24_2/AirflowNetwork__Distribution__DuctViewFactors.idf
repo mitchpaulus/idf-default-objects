@@ -1,0 +1,6 @@
+AirflowNetwork:Distribution:DuctViewFactors,
+  ,   ! Linkage Name [AirflowNetworkComponentNames], REQ, #1
+  0.0,   ! Duct Surface Exposure Fraction Def: 0.0, #2
+  0.9,   ! Duct Surface Emittance Def: 0.9, #3
+  ,   ! Surface 1 Name [AllHeatTranSurfNames], #4
+  ;   ! Surface 1 View Factor #5

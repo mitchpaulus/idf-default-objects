@@ -1,0 +1,14 @@
+GroundHeatTransfer:Basement:ComBldg,
+  22,   ! January average temperature {C}, Def: 22, #1
+  22,   ! February average temperature {C}, Def: 22, #2
+  22,   ! March average temperature {C}, Def: 22, #3
+  22,   ! April average temperature {C}, Def: 22, #4
+  22,   ! May average temperature {C}, Def: 22, #5
+  22,   ! June average temperature {C}, Def: 22, #6
+  22,   ! July average temperature {C}, Def: 22, #7
+  22,   ! August average temperature {C}, Def: 22, #8
+  22,   ! September average temperature {C}, Def: 22, #9
+  22,   ! October average temperature {C}, Def: 22, #10
+  22,   ! November average temperature {C}, Def: 22, #11
+  22,   ! December average temperature {C}, Def: 22, #12
+  0;   ! Daily variation sine wave amplitude {deltaC}, Def: 0, #13

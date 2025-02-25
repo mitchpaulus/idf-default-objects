@@ -1,0 +1,5 @@
+Site:SolarAndVisibleSpectrum,
+  ,   ! Name REQ, #1
+  Default,   ! Spectrum Data Method Def: Default, [Default, UserDefined], #2
+  ,   ! Solar Spectrum Data Object Name [SpectrumDataNames], #3
+  ;   ! Visible Spectrum Data Object Name [SpectrumDataNames], #4

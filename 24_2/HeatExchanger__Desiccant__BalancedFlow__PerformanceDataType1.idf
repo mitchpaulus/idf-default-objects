@@ -1,0 +1,54 @@
+! Min Fields: 52
+HeatExchanger:Desiccant:BalancedFlow:PerformanceDataType1,
+  ,   ! Name RefList: [DesiccantHXPerfData], REQ, #1
+  ,   ! Nominal Air Flow Rate {m3/s}, AS, #2
+  ,   ! Nominal Air Face Velocity {m/s}, AS, REQ, #3
+  0.0,   ! Nominal Electric Power {W}, Def: 0.0, #4
+  ,   ! Temperature Equation Coefficient 1 REQ, #5
+  ,   ! Temperature Equation Coefficient 2 REQ, #6
+  ,   ! Temperature Equation Coefficient 3 REQ, #7
+  ,   ! Temperature Equation Coefficient 4 REQ, #8
+  ,   ! Temperature Equation Coefficient 5 REQ, #9
+  ,   ! Temperature Equation Coefficient 6 REQ, #10
+  ,   ! Temperature Equation Coefficient 7 REQ, #11
+  ,   ! Temperature Equation Coefficient 8 REQ, #12
+  ,   ! Minimum Regeneration Inlet Air Humidity Ratio for Temperature Equation {kgWater/kgDryAir}, REQ, #13
+  ,   ! Maximum Regeneration Inlet Air Humidity Ratio for Temperature Equation {kgWater/kgDryAir}, REQ, #14
+  ,   ! Minimum Regeneration Inlet Air Temperature for Temperature Equation {C}, REQ, #15
+  ,   ! Maximum Regeneration Inlet Air Temperature for Temperature Equation {C}, REQ, #16
+  ,   ! Minimum Process Inlet Air Humidity Ratio for Temperature Equation {kgWater/kgDryAir}, REQ, #17
+  ,   ! Maximum Process Inlet Air Humidity Ratio for Temperature Equation {kgWater/kgDryAir}, REQ, #18
+  ,   ! Minimum Process Inlet Air Temperature for Temperature Equation {C}, REQ, #19
+  ,   ! Maximum Process Inlet Air Temperature for Temperature Equation {C}, REQ, #20
+  ,   ! Minimum Regeneration Air Velocity for Temperature Equation {m/s}, REQ, #21
+  ,   ! Maximum Regeneration Air Velocity for Temperature Equation {m/s}, REQ, #22
+  ,   ! Minimum Regeneration Outlet Air Temperature for Temperature Equation {C}, REQ, #23
+  ,   ! Maximum Regeneration Outlet Air Temperature for Temperature Equation {C}, REQ, #24
+  ,   ! Minimum Regeneration Inlet Air Relative Humidity for Temperature Equation {percent}, REQ, #25
+  ,   ! Maximum Regeneration Inlet Air Relative Humidity for Temperature Equation {percent}, REQ, #26
+  ,   ! Minimum Process Inlet Air Relative Humidity for Temperature Equation {percent}, REQ, #27
+  ,   ! Maximum Process Inlet Air Relative Humidity for Temperature Equation {percent}, REQ, #28
+  ,   ! Humidity Ratio Equation Coefficient 1 REQ, #29
+  ,   ! Humidity Ratio Equation Coefficient 2 REQ, #30
+  ,   ! Humidity Ratio Equation Coefficient 3 REQ, #31
+  ,   ! Humidity Ratio Equation Coefficient 4 REQ, #32
+  ,   ! Humidity Ratio Equation Coefficient 5 REQ, #33
+  ,   ! Humidity Ratio Equation Coefficient 6 REQ, #34
+  ,   ! Humidity Ratio Equation Coefficient 7 REQ, #35
+  ,   ! Humidity Ratio Equation Coefficient 8 REQ, #36
+  ,   ! Minimum Regeneration Inlet Air Humidity Ratio for Humidity Ratio Equation {kgWater/kgDryAir}, REQ, #37
+  ,   ! Maximum Regeneration Inlet Air Humidity Ratio for Humidity Ratio Equation {kgWater/kgDryAir}, REQ, #38
+  ,   ! Minimum Regeneration Inlet Air Temperature for Humidity Ratio Equation {C}, REQ, #39
+  ,   ! Maximum Regeneration Inlet Air Temperature for Humidity Ratio Equation {C}, REQ, #40
+  ,   ! Minimum Process Inlet Air Humidity Ratio for Humidity Ratio Equation {kgWater/kgDryAir}, REQ, #41
+  ,   ! Maximum Process Inlet Air Humidity Ratio for Humidity Ratio Equation {kgWater/kgDryAir}, REQ, #42
+  ,   ! Minimum Process Inlet Air Temperature for Humidity Ratio Equation {C}, REQ, #43
+  ,   ! Maximum Process Inlet Air Temperature for Humidity Ratio Equation {C}, REQ, #44
+  ,   ! Minimum Regeneration Air Velocity for Humidity Ratio Equation {m/s}, REQ, #45
+  ,   ! Maximum Regeneration Air Velocity for Humidity Ratio Equation {m/s}, REQ, #46
+  ,   ! Minimum Regeneration Outlet Air Humidity Ratio for Humidity Ratio Equation {kgWater/kgDryAir}, REQ, #47
+  ,   ! Maximum Regeneration Outlet Air Humidity Ratio for Humidity Ratio Equation {kgWater/kgDryAir}, REQ, #48
+  ,   ! Minimum Regeneration Inlet Air Relative Humidity for Humidity Ratio Equation {percent}, REQ, #49
+  ,   ! Maximum Regeneration Inlet Air Relative Humidity for Humidity Ratio Equation {percent}, REQ, #50
+  ,   ! Minimum Process Inlet Air Relative Humidity for Humidity Ratio Equation {percent}, REQ, #51
+  ;   ! Maximum Process Inlet Air Relative Humidity for Humidity Ratio Equation {percent}, REQ, #52

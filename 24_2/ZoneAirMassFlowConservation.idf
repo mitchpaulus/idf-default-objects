@@ -1,0 +1,5 @@
+! Min Fields: 3
+ZoneAirMassFlowConservation,
+  None,   ! Adjust Zone Mixing and Return For Air Mass Flow Balance Def: None, [AdjustMixingOnly, AdjustReturnOnly, AdjustMixingThenReturn, AdjustReturnThenMixing, None], #1
+  AddInfiltrationFlow,   ! Infiltration Balancing Method Def: AddInfiltrationFlow, [AddInfiltrationFlow, AdjustInfiltrationFlow, None], #2
+  MixingSourceZonesOnly;   ! Infiltration Balancing Zones Def: MixingSourceZonesOnly, [MixingSourceZonesOnly, AllZones], #3

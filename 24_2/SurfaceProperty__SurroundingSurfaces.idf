@@ -1,0 +1,10 @@
+! Min Fields: 8
+SurfaceProperty:SurroundingSurfaces,
+  ,   ! Name RefList: [SurroundingSurfacesNames], REQ, #1
+  0.5,   ! Sky View Factor Def: 0.5, #2
+  ,   ! Sky Temperature Schedule Name [ScheduleNames], #3
+  0.5,   ! Ground View Factor Def: 0.5, #4
+  ,   ! Ground Temperature Schedule Name [ScheduleNames], #5
+  ,   ! Surrounding Surface 1 Name REQ, #6
+  0.0,   ! Surrounding Surface 1 View Factor Def: 0.0, REQ, #7
+  ;   ! Surrounding Surface 1 Temperature Schedule Name [ScheduleNames], REQ, #8

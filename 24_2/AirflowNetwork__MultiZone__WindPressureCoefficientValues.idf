@@ -1,0 +1,40 @@
+! Min Fields: 4
+AirflowNetwork:MultiZone:WindPressureCoefficientValues,
+  ,   ! Name RefList: [WPCValueNames], REQ, #1
+  ,   ! AirflowNetwork:MultiZone:WindPressureCoefficientArray Name [WPCSetNames], REQ, #2
+  ,   ! Wind Pressure Coefficient Value 1 {dimensionless}, REQ, #3
+  ,   ! Wind Pressure Coefficient Value 2 {dimensionless}, REQ, #4
+  ,   ! Wind Pressure Coefficient Value 3 {dimensionless}, #5
+  ,   ! Wind Pressure Coefficient Value 4 {dimensionless}, #6
+  ,   ! Wind Pressure Coefficient Value 5 {dimensionless}, #7
+  ,   ! Wind Pressure Coefficient Value 6 {dimensionless}, #8
+  ,   ! Wind Pressure Coefficient Value 7 {dimensionless}, #9
+  ,   ! Wind Pressure Coefficient Value 8 {dimensionless}, #10
+  ,   ! Wind Pressure Coefficient Value 9 {dimensionless}, #11
+  ,   ! Wind Pressure Coefficient Value 10 {dimensionless}, #12
+  ,   ! Wind Pressure Coefficient Value 11 {dimensionless}, #13
+  ,   ! Wind Pressure Coefficient Value 12 {dimensionless}, #14
+  ,   ! Wind Pressure Coefficient Value 13 {dimensionless}, #15
+  ,   ! Wind Pressure Coefficient Value 14 {dimensionless}, #16
+  ,   ! Wind Pressure Coefficient Value 15 {dimensionless}, #17
+  ,   ! Wind Pressure Coefficient Value 16 {dimensionless}, #18
+  ,   ! Wind Pressure Coefficient Value 17 {dimensionless}, #19
+  ,   ! Wind Pressure Coefficient Value 18 {dimensionless}, #20
+  ,   ! Wind Pressure Coefficient Value 19 {dimensionless}, #21
+  ,   ! Wind Pressure Coefficient Value 20 {dimensionless}, #22
+  ,   ! Wind Pressure Coefficient Value 21 {dimensionless}, #23
+  ,   ! Wind Pressure Coefficient Value 22 {dimensionless}, #24
+  ,   ! Wind Pressure Coefficient Value 23 {dimensionless}, #25
+  ,   ! Wind Pressure Coefficient Value 24 {dimensionless}, #26
+  ,   ! Wind Pressure Coefficient Value 25 {dimensionless}, #27
+  ,   ! Wind Pressure Coefficient Value 26 {dimensionless}, #28
+  ,   ! Wind Pressure Coefficient Value 27 {dimensionless}, #29
+  ,   ! Wind Pressure Coefficient Value 28 {dimensionless}, #30
+  ,   ! Wind Pressure Coefficient Value 29 {dimensionless}, #31
+  ,   ! Wind Pressure Coefficient Value 30 {dimensionless}, #32
+  ,   ! Wind Pressure Coefficient Value 31 {dimensionless}, #33
+  ,   ! Wind Pressure Coefficient Value 32 {dimensionless}, #34
+  ,   ! Wind Pressure Coefficient Value 33 {dimensionless}, #35
+  ,   ! Wind Pressure Coefficient Value 34 {dimensionless}, #36
+  ,   ! Wind Pressure Coefficient Value 35 {dimensionless}, #37
+  ;   ! Wind Pressure Coefficient Value 36 {dimensionless}, #38

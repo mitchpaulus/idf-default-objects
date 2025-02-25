@@ -1,0 +1,4 @@
+! Min Fields: 2
+AirflowNetwork:Distribution:Component:Fan,
+  ,   ! Fan Name RefList: [AirflowNetworkComponentNames], [FansCVandOnOffandVAV, FansSystemModel], REQ, #1
+  Fan:ConstantVolume;   ! Supply Fan Object Type Def: Fan:ConstantVolume, [Fan:OnOff, Fan:ConstantVolume, Fan:VariableVolume, Fan:SystemModel], #2

@@ -1,0 +1,5 @@
+MaterialProperty:PhaseChange,
+  ,   ! Name [MaterialName], REQ, #1
+  0.0,   ! Temperature Coefficient for Thermal Conductivity {W/m-K2}, Def: 0.0, #2
+  ,   ! Temperature 1 {C}, REQ, #3
+  ;   ! Enthalpy 1 {J/kg}, REQ, #4

@@ -1,0 +1,7 @@
+! Min Fields: 3
+SurfaceProperty:GroundSurfaces,
+  ,   ! Name RefList: [GroundSurfacesNames], REQ, #1
+  ,   ! Ground Surface 1 Name REQ, #2
+  ,   ! Ground Surface 1 View Factor {dimensionless}, #3
+  ,   ! Ground Surface 1 Temperature Schedule Name [ScheduleNames], #4
+  ;   ! Ground Surface 1 Reflectance Schedule Name [ScheduleNames], #5

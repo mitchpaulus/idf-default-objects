@@ -1,0 +1,4 @@
+MaterialProperty:VariableThermalConductivity,
+  ,   ! Name [MaterialName], REQ, #1
+  ,   ! Temperature 1 {C}, REQ, #2
+  ;   ! Thermal Conductivity 1 {W/m-K}, REQ, #3

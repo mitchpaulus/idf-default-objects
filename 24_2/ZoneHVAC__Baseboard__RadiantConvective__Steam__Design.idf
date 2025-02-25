@@ -1,0 +1,9 @@
+! Min Fields: 7
+ZoneHVAC:Baseboard:RadiantConvective:Steam:Design,
+  ,   ! Name RefList: [validBranchEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  HeatingDesignCapacity,   ! Heating Design Capacity Method Def: HeatingDesignCapacity, [HeatingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedHeatingCapacity], #2
+  ,   ! Heating Design Capacity Per Floor Area {W/m2}, #3
+  1.0,   ! Fraction of Autosized Heating Design Capacity Def: 1.0, #4
+  0.001,   ! Convergence Tolerance Def: 0.001, #5
+  ,   ! Fraction Radiant REQ, #6
+  ;   ! Fraction of Radiant Energy Incident on People #7

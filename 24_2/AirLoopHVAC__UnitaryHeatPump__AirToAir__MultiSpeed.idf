@@ -1,0 +1,37 @@
+! Min Fields: 31
+AirLoopHVAC:UnitaryHeatPump:AirToAir:MultiSpeed,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Controlling Zone or Thermostat Location [ZoneNames], REQ, #5
+  ,   ! Supply Air Fan Object Type [Fan:OnOff, Fan:ConstantVolume], REQ, #6
+  ,   ! Supply Air Fan Name [FansCVandOnOff], REQ, #7
+  ,   ! Supply Air Fan Placement [BlowThrough, DrawThrough], REQ, #8
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #9
+  ,   ! Heating Coil Object Type [Coil:Heating:DX:MultiSpeed, Coil:Heating:Electric:MultiStage, Coil:Heating:Gas:MultiStage, Coil:Heating:Water, Coil:Heating:Steam], REQ, #10
+  ,   ! Heating Coil Name [HeatingCoilsDXMultiSpeed, HeatingCoilsElectricMultiStage, HeatingCoilsGasMultiStage], REQ, #11
+  -8.0,   ! Minimum Outdoor Dry-Bulb Temperature for Compressor Operation {C}, Def: -8.0, #12
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX:MultiSpeed], REQ, #13
+  ,   ! Cooling Coil Name [CoolingCoilsDXMultiSpeed], REQ, #14
+  ,   ! Supplemental Heating Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Water, Coil:Heating:Steam], #15
+  ,   ! Supplemental Heating Coil Name [HeatingCoilName], #16
+  ,   ! Maximum Supply Air Temperature from Supplemental Heater {C}, AS, #17
+  21.0,   ! Maximum Outdoor Dry-Bulb Temperature for Supplemental Heater Operation {C}, Def: 21.0, #18
+  0,   ! Auxiliary On-Cycle Electric Power {W}, Def: 0, #19
+  0,   ! Auxiliary Off-Cycle Electric Power {W}, Def: 0, #20
+  0.0,   ! Design Heat Recovery Water Flow Rate {m3/s}, Def: 0.0, #21
+  80.0,   ! Maximum Temperature for Heat Recovery {C}, Def: 80.0, #22
+  ,   ! Heat Recovery Water Inlet Node Name #23
+  ,   ! Heat Recovery Water Outlet Node Name #24
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #25
+  ,   ! Number of Speeds for Heating REQ, #26
+  ,   ! Number of Speeds for Cooling REQ, #27
+  ,   ! Heating Speed 1 Supply Air Flow Rate {m3/s}, AS, REQ, #28
+  ,   ! Heating Speed 2 Supply Air Flow Rate {m3/s}, AS, #29
+  ,   ! Heating Speed 3 Supply Air Flow Rate {m3/s}, AS, #30
+  ,   ! Heating Speed 4 Supply Air Flow Rate {m3/s}, AS, #31
+  ,   ! Cooling Speed 1 Supply Air Flow Rate {m3/s}, AS, REQ, #32
+  ,   ! Cooling Speed 2 Supply Air Flow Rate {m3/s}, AS, REQ, #33
+  ,   ! Cooling Speed 3 Supply Air Flow Rate {m3/s}, AS, #34
+  ;   ! Cooling Speed 4 Supply Air Flow Rate {m3/s}, AS, #35

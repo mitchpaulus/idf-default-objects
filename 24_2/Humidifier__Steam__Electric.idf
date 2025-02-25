@@ -1,0 +1,10 @@
+Humidifier:Steam:Electric,
+  ,   ! Name RefList: [validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Rated Capacity {m3/s}, AS, #3
+  ,   ! Rated Power {W}, AS, #4
+  ,   ! Rated Fan Power {W}, #5
+  ,   ! Standby Power {W}, #6
+  ,   ! Air Inlet Node Name #7
+  ,   ! Air Outlet Node Name #8
+  ;   ! Water Storage Tank Name [WaterStorageTankNames], #9

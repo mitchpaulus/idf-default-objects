@@ -1,0 +1,10 @@
+! Min Fields: 8
+ZoneInfiltration:FlowCoefficient,
+  ,   ! Name REQ, #1
+  ,   ! Zone or Space Name [ZoneNames, SpaceNames], REQ, #2
+  ,   ! Schedule Name [ScheduleNames], #3
+  ,   ! Flow Coefficient REQ, #4
+  ,   ! Stack Coefficient REQ, #5
+  0.67,   ! Pressure Exponent Def: 0.67, #6
+  ,   ! Wind Coefficient REQ, #7
+  ;   ! Shelter Factor REQ, #8

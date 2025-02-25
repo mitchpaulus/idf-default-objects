@@ -1,0 +1,20 @@
+! Min Fields: 16
+SwimmingPool:Indoor,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Surface Name [FloorSurfaceNames], REQ, #2
+  ,   ! Average Depth {m}, REQ, #3
+  ,   ! Activity Factor Schedule Name [ScheduleNames], REQ, #4
+  ,   ! Make-up Water Supply Schedule Name [ScheduleNames], #5
+  ,   ! Cover Schedule Name [ScheduleNames], REQ, #6
+  0.0,   ! Cover Evaporation Factor Def: 0.0, #7
+  0.0,   ! Cover Convection Factor Def: 0.0, #8
+  0.0,   ! Cover Short-Wavelength Radiation Factor Def: 0.0, #9
+  0.0,   ! Cover Long-Wavelength Radiation Factor Def: 0.0, #10
+  ,   ! Pool Water Inlet Node REQ, #11
+  ,   ! Pool Water Outlet Node REQ, #12
+  ,   ! Pool Heating System Maximum Water Flow Rate {m3/s}, #13
+  ,   ! Pool Miscellaneous Equipment Power {W/(m3/s)}, #14
+  ,   ! Setpoint Temperature Schedule [ScheduleNames], REQ, #15
+  ,   ! Maximum Number of People REQ, #16
+  ,   ! People Schedule [ScheduleNames], #17
+  ;   ! People Heat Gain Schedule [ScheduleNames], #18

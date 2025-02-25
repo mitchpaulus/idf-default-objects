@@ -1,0 +1,28 @@
+! Min Fields: 16
+AirflowNetwork:MultiZone:Component:DetailedOpening,
+  ,   ! Name RefList: [SurfaceAirflowLeakageNames], REQ, #1
+  ,   ! Air Mass Flow Coefficient When Opening is Closed {kg/s-m}, REQ, #2
+  0.65,   ! Air Mass Flow Exponent When Opening is Closed {dimensionless}, Def: 0.65, #3
+  NonPivoted,   ! Type of Rectangular Large Vertical Opening (LVO) Def: NonPivoted, [NonPivoted, HorizontallyPivoted], #4
+  0,   ! Extra Crack Length or Height of Pivoting Axis {m}, Def: 0, #5
+  ,   ! Number of Sets of Opening Factor Data REQ, #6
+  0,   ! Opening Factor 1 {dimensionless}, Def: 0, #7
+  0.001,   ! Discharge Coefficient for Opening Factor 1 {dimensionless}, Def: 0.001, #8
+  0,   ! Width Factor for Opening Factor 1 {dimensionless}, Def: 0, #9
+  0,   ! Height Factor for Opening Factor 1 {dimensionless}, Def: 0, #10
+  0,   ! Start Height Factor for Opening Factor 1 {dimensionless}, Def: 0, #11
+  ,   ! Opening Factor 2 {dimensionless}, REQ, #12
+  1,   ! Discharge Coefficient for Opening Factor 2 {dimensionless}, Def: 1, #13
+  1,   ! Width Factor for Opening Factor 2 {dimensionless}, Def: 1, #14
+  1,   ! Height Factor for Opening Factor 2 {dimensionless}, Def: 1, #15
+  0,   ! Start Height Factor for Opening Factor 2 {dimensionless}, Def: 0, #16
+  ,   ! Opening Factor 3 {dimensionless}, #17
+  0,   ! Discharge Coefficient for Opening Factor 3 {dimensionless}, Def: 0, #18
+  0,   ! Width Factor for Opening Factor 3 {dimensionless}, Def: 0, #19
+  0,   ! Height Factor for Opening Factor 3 {dimensionless}, Def: 0, #20
+  0,   ! Start Height Factor for Opening Factor 3 {dimensionless}, Def: 0, #21
+  ,   ! Opening Factor 4 {dimensionless}, #22
+  0,   ! Discharge Coefficient for Opening Factor 4 {dimensionless}, Def: 0, #23
+  0,   ! Width Factor for Opening Factor 4 {dimensionless}, Def: 0, #24
+  0,   ! Height Factor for Opening Factor 4 {dimensionless}, Def: 0, #25
+  0;   ! Start Height Factor for Opening Factor 4 {dimensionless}, Def: 0, #26

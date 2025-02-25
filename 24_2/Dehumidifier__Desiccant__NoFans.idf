@@ -1,0 +1,26 @@
+Dehumidifier:Desiccant:NoFans,
+  ,   ! Name RefList: [validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Process Air Inlet Node Name #3
+  ,   ! Process Air Outlet Node Name #4
+  ,   ! Regeneration Air Inlet Node Name #5
+  ,   ! Regeneration Fan Inlet Node Name #6
+  ,   ! Control Type [LeavingMaximumHumidityRatioSetpoint, SystemNodeMaximumHumidityRatioSetpoint], #7
+  ,   ! Leaving Maximum Humidity Ratio Setpoint {kgWater/kgDryAir}, #8
+  ,   ! Nominal Process Air Flow Rate {m3/s}, #9
+  ,   ! Nominal Process Air Velocity {m/s}, #10
+  ,   ! Rotor Power {W}, #11
+  ,   ! Regeneration Coil Object Type [Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Water, Coil:Heating:Steam], #12
+  ,   ! Regeneration Coil Name [HeatingCoilName], #13
+  ,   ! Regeneration Fan Object Type [Fan:SystemModel, Fan:VariableVolume, Fan:ConstantVolume], #14
+  ,   ! Regeneration Fan Name [FansCVandVAV, FansSystemModel], #15
+  ,   ! Performance Model Type [Default, UserCurves], #16
+  ,   ! Leaving Dry-Bulb Function of Entering Dry-Bulb and Humidity Ratio Curve Name [BivariateFunctions], #17
+  ,   ! Leaving Dry-Bulb Function of Air Velocity Curve Name [UnivariateFunctions], #18
+  ,   ! Leaving Humidity Ratio Function of Entering Dry-Bulb and Humidity Ratio Curve Name [BivariateFunctions], #19
+  ,   ! Leaving Humidity Ratio Function of Air Velocity Curve Name [UnivariateFunctions], #20
+  ,   ! Regeneration Energy Function of Entering Dry-Bulb and Humidity Ratio Curve Name [BivariateFunctions], #21
+  ,   ! Regeneration Energy Function of Air Velocity Curve Name [UnivariateFunctions], #22
+  ,   ! Regeneration Velocity Function of Entering Dry-Bulb and Humidity Ratio Curve Name [BivariateFunctions], #23
+  ,   ! Regeneration Velocity Function of Air Velocity Curve Name [UnivariateFunctions], #24
+  ;   ! Nominal Regeneration Temperature {C}, #25

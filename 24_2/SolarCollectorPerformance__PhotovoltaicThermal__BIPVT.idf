@@ -1,0 +1,17 @@
+SolarCollectorPerformance:PhotovoltaicThermal:BIPVT,
+  ,   ! Name RefList: [FlatPlatePVTParameters], #1
+  ,   ! Boundary Conditions Model Name [OSCMNames], REQ, #2
+  ,   ! Availability Schedule Name [ScheduleNames], #3
+  ,   ! Effective Plenum Gap Thickness Behind PV Modules {m}, REQ, #4
+  0.957,   ! PV Cell Normal Transmittance-Absorptance Product Def: 0.957, #5
+  0.87,   ! Backing Material Normal Transmittance-Absorptance Product Def: 0.87, #6
+  0.85,   ! Cladding Normal Transmittance-Absorptance Product Def: 0.85, #7
+  0.85,   ! Fraction of Collector Gross Area Covered by PV Module Def: 0.85, #8
+  0.9,   ! Fraction of PV Cell Area to PV Module Area Def: 0.9, #9
+  0.0044,   ! PV Module Top Thermal Resistance {m2-K/W}, Def: 0.0044, #10
+  0.0039,   ! PV Module Bottom Thermal Resistance {m2-K/W}, Def: 0.0039, #11
+  0.85,   ! PV Module Front Longwave Emissivity Def: 0.85, #12
+  0.9,   ! PV Module Back Longwave Emissivity Def: 0.9, #13
+  0.002,   ! Glass Thickness {m}, Def: 0.002, #14
+  1.526,   ! Glass Refraction Index Def: 1.526, #15
+  4.0;   ! Glass Extinction Coefficient {1/m}, Def: 4.0, #16

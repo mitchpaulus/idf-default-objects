@@ -1,0 +1,4 @@
+GroundHeatTransfer:Control,
+  ,   ! Name #1
+  No,   ! Run Basement Preprocessor Def: No, [Yes, No], #2
+  No;   ! Run Slab Preprocessor Def: No, [Yes, No], #3

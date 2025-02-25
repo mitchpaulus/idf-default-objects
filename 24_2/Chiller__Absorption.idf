@@ -1,0 +1,29 @@
+! Min Fields: 23
+Chiller:Absorption,
+  ,   ! Name RefList: [Chillers, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Nominal Capacity {W}, AS, REQ, #2
+  ,   ! Nominal Pumping Power {W}, AS, REQ, #3
+  ,   ! Chilled Water Inlet Node Name REQ, #4
+  ,   ! Chilled Water Outlet Node Name REQ, #5
+  ,   ! Condenser Inlet Node Name REQ, #6
+  ,   ! Condenser Outlet Node Name REQ, #7
+  ,   ! Minimum Part Load Ratio #8
+  ,   ! Maximum Part Load Ratio #9
+  ,   ! Optimum Part Load Ratio #10
+  ,   ! Design Condenser Inlet Temperature {C}, #11
+  ,   ! Design Chilled Water Flow Rate {m3/s}, AS, #12
+  ,   ! Design Condenser Water Flow Rate {m3/s}, AS, #13
+  ,   ! Coefficient 1 of the Hot Water or Steam Use Part Load Ratio Curve #14
+  ,   ! Coefficient 2 of the Hot Water or Steam Use Part Load Ratio Curve #15
+  ,   ! Coefficient 3 of the Hot Water or Steam Use Part Load Ratio Curve #16
+  ,   ! Coefficient 1 of the Pump Electric Use Part Load Ratio Curve #17
+  ,   ! Coefficient 2 of the Pump Electric Use Part Load Ratio Curve #18
+  ,   ! Coefficient 3 of the Pump Electric Use Part Load Ratio Curve #19
+  ,   ! Chilled Water Outlet Temperature Lower Limit {C}, #20
+  ,   ! Generator Inlet Node Name #21
+  ,   ! Generator Outlet Node Name #22
+  NotModulated,   ! Chiller Flow Mode Def: NotModulated, [ConstantFlow, LeavingSetpointModulated, NotModulated], #23
+  Steam,   ! Generator Heat Source Type Def: Steam, [Steam, HotWater], #24
+  ,   ! Design Generator Fluid Flow Rate {m3/s}, AS, #25
+  1.0,   ! Degree of Subcooling in Steam Generator {C}, Def: 1.0, #26
+  1.0;   ! Sizing Factor Def: 1.0, #27

@@ -1,0 +1,6 @@
+! Min Fields: 3
+WindowMaterial:SimpleGlazingSystem,
+  ,   ! Name RefList: [MaterialName, GlazingMaterialName], REQ, #1
+  ,   ! U-Factor {W/m2-K}, REQ, #2
+  ,   ! Solar Heat Gain Coefficient REQ, #3
+  ;   ! Visible Transmittance #4

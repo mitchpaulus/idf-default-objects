@@ -1,0 +1,22 @@
+! Min Fields: 18
+Coil:WaterHeating:Desuperheater,
+  ,   ! Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Setpoint Temperature Schedule Name [ScheduleNames], REQ, #3
+  5,   ! Dead Band Temperature Difference {deltaC}, Def: 5, #4
+  ,   ! Rated Heat Reclaim Recovery Efficiency #5
+  ,   ! Rated Inlet Water Temperature {C}, REQ, #6
+  ,   ! Rated Outdoor Air Temperature {C}, REQ, #7
+  ,   ! Maximum Inlet Water Temperature for Heat Reclaim {C}, REQ, #8
+  ,   ! Heat Reclaim Efficiency Function of Temperature Curve Name [BivariateFunctions], #9
+  ,   ! Water Inlet Node Name REQ, #10
+  ,   ! Water Outlet Node Name REQ, #11
+  WaterHeater:Mixed,   ! Tank Object Type Def: WaterHeater:Mixed, [WaterHeater:Mixed, WaterHeater:Stratified], #12
+  ,   ! Tank Name [WaterHeaterMixedNames, WaterHeaterStratifiedNames], REQ, #13
+  ,   ! Heating Source Object Type [Coil:Cooling:DX, Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:TwoSpeed, Coil:Cooling:DX:TwoStageWithHumidityControlMode, Coil:Cooling:DX:VariableSpeed, Coil:Cooling:DX:MultiSpeed, Coil:Cooling:WaterToAirHeatPump:EquationFit, Refrigeration:CompressorRack, Refrigeration:Condenser:AirCooled, Refrigeration:Condenser:EvaporativeCooled, Refrigeration:Condenser:WaterCooled], REQ, #14
+  ,   ! Heating Source Name [CoilCoolingDX, DesuperHeatingCoilSources, DesuperHeatingWaterOnlySources], REQ, #15
+  ,   ! Water Flow Rate {m3/s}, REQ, #16
+  0.0,   ! Water Pump Power {W}, Def: 0.0, #17
+  0.2,   ! Fraction of Pump Heat to Water Def: 0.2, #18
+  0,   ! On-Cycle Parasitic Electric Load {W}, Def: 0, #19
+  0;   ! Off-Cycle Parasitic Electric Load {W}, Def: 0, #20

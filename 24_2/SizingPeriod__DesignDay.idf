@@ -1,0 +1,29 @@
+SizingPeriod:DesignDay,
+  ,   ! Name RefList: [RunPeriodsAndDesignDays], REQ, #1
+  ,   ! Month REQ, #2
+  ,   ! Day of Month REQ, #3
+  ,   ! Day Type [Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Holiday, SummerDesignDay, WinterDesignDay, CustomDay1, CustomDay2], REQ, #4
+  ,   ! Maximum Dry-Bulb Temperature {C}, #5
+  0,   ! Daily Dry-Bulb Temperature Range {deltaC}, Def: 0, #6
+  DefaultMultipliers,   ! Dry-Bulb Temperature Range Modifier Type Def: DefaultMultipliers, [MultiplierSchedule, DifferenceSchedule, TemperatureProfileSchedule, DefaultMultipliers], #7
+  ,   ! Dry-Bulb Temperature Range Modifier Day Schedule Name [DayScheduleNames], #8
+  WetBulb,   ! Humidity Condition Type Def: WetBulb, [WetBulb, DewPoint, HumidityRatio, Enthalpy, RelativeHumiditySchedule, WetBulbProfileMultiplierSchedule, WetBulbProfileDifferenceSchedule, WetBulbProfileDefaultMultipliers], #9
+  ,   ! Wetbulb or DewPoint at Maximum Dry-Bulb {C}, #10
+  ,   ! Humidity Condition Day Schedule Name [DayScheduleNames], #11
+  ,   ! Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}, #12
+  ,   ! Enthalpy at Maximum Dry-Bulb {J/kg}, #13
+  ,   ! Daily Wet-Bulb Temperature Range {deltaC}, #14
+  ,   ! Barometric Pressure {Pa}, #15
+  ,   ! Wind Speed {m/s}, REQ, #16
+  ,   ! Wind Direction {deg}, REQ, #17
+  No,   ! Rain Indicator Def: No, [Yes, No], #18
+  No,   ! Snow Indicator Def: No, [Yes, No], #19
+  No,   ! Daylight Saving Time Indicator Def: No, [Yes, No], #20
+  ASHRAEClearSky,   ! Solar Model Indicator Def: ASHRAEClearSky, [ASHRAEClearSky, ZhangHuang, Schedule, ASHRAETau, ASHRAETau2017], #21
+  ,   ! Beam Solar Day Schedule Name [DayScheduleNames], #22
+  ,   ! Diffuse Solar Day Schedule Name [DayScheduleNames], #23
+  0,   ! ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}, Def: 0, #24
+  0,   ! ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}, Def: 0, #25
+  0.0,   ! Sky Clearness Def: 0.0, #26
+  ,   ! Maximum Number Warmup Days #27
+  FullResetAtBeginEnvironment;   ! Begin Environment Reset Mode Def: FullResetAtBeginEnvironment, [FullResetAtBeginEnvironment, SuppressAllBeginEnvironmentResets], #28

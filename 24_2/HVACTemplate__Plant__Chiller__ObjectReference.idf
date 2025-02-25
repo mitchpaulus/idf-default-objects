@@ -1,0 +1,6 @@
+! Min Fields: 4
+HVACTemplate:Plant:Chiller:ObjectReference,
+  ,   ! Name REQ, #1
+  Chiller:Electric:EIR,   ! Chiller Object Type Def: Chiller:Electric:EIR, [Chiller:Electric:EIR, Chiller:Electric:ReformulatedEIR], #2
+  ,   ! Chiller Name [Chillers], REQ, #3
+  ;   ! Priority #4

@@ -1,0 +1,11 @@
+! Min Fields: 8
+HeatExchanger:Desiccant:BalancedFlow,
+  ,   ! Name RefList: [HXDesiccantBalanced, HXAirToAirNames, AFNHeatExchangerNames, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Regeneration Air Inlet Node Name REQ, #3
+  ,   ! Regeneration Air Outlet Node Name REQ, #4
+  ,   ! Process Air Inlet Node Name REQ, #5
+  ,   ! Process Air Outlet Node Name REQ, #6
+  HeatExchanger:Desiccant:BalancedFlow:PerformanceDataType1,   ! Heat Exchanger Performance Object Type Def: HeatExchanger:Desiccant:BalancedFlow:PerformanceDataType1, [HeatExchanger:Desiccant:BalancedFlow:PerformanceDataType1], #7
+  ,   ! Heat Exchanger Performance Name [DesiccantHXPerfData], REQ, #8
+  No;   ! Economizer Lockout Def: No, [Yes, No], #9

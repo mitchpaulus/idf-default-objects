@@ -1,0 +1,15 @@
+ZoneCoolTower:Shower,
+  ,   ! Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone or Space Name [ZoneNames, SpaceNames], REQ, #3
+  ,   ! Water Supply Storage Tank Name [WaterStorageTankNames], #4
+  WindDrivenFlow,   ! Flow Control Type Def: WindDrivenFlow, [WaterFlowSchedule, WindDrivenFlow], #5
+  ,   ! Pump Flow Rate Schedule Name [ScheduleNames], REQ, #6
+  ,   ! Maximum Water Flow Rate {m3/s}, REQ, #7
+  ,   ! Effective Tower Height {m}, REQ, #8
+  ,   ! Airflow Outlet Area {m2}, REQ, #9
+  ,   ! Maximum Air Flow Rate {m3/s}, REQ, #10
+  ,   ! Minimum Indoor Temperature {C}, REQ, #11
+  ,   ! Fraction of Water Loss #12
+  ,   ! Fraction of Flow Schedule #13
+  ;   ! Rated Power Consumption {W}, REQ, #14

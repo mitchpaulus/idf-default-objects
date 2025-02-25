@@ -1,0 +1,26 @@
+! Min Fields: 1
+DesignSpecification:ZoneHVAC:Sizing,
+  ,   ! Name RefList: [DesignSpecificationZoneHVACSizingName], REQ, #1
+  SupplyAirFlowRate,   ! Cooling Supply Air Flow Rate Method Def: SupplyAirFlowRate, [None, SupplyAirFlowRate, FlowPerFloorArea, FractionOfAutosizedCoolingAirflow, FlowPerCoolingCapacity], #2
+  ,   ! Cooling Supply Air Flow Rate {m3/s}, AS, #3
+  ,   ! Cooling Supply Air Flow Rate Per Floor Area {m3/s-m2}, #4
+  ,   ! Cooling Fraction of Autosized Cooling Supply Air Flow Rate #5
+  ,   ! Cooling Supply Air Flow Rate Per Unit Cooling Capacity {m3/s-W}, #6
+  SupplyAirFlowRate,   ! No Load Supply Air Flow Rate Method Def: SupplyAirFlowRate, [None, SupplyAirFlowRate, FlowPerFloorArea, FractionOfAutosizedCoolingAirflow, FractionOfAutosizedHeatingAirflow], #7
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #8
+  ,   ! No Load Supply Air Flow Rate Per Floor Area {m3/s-m2}, #9
+  ,   ! No Load Fraction of Cooling Supply Air Flow Rate #10
+  ,   ! No Load Fraction of Heating Supply Air Flow Rate #11
+  SupplyAirFlowRate,   ! Heating Supply Air Flow Rate Method Def: SupplyAirFlowRate, [None, SupplyAirFlowRate, FlowPerFloorArea, FractionOfAutosizedHeatingAirflow, FlowPerHeatingCapacity], #12
+  ,   ! Heating Supply Air Flow Rate {m3/s}, AS, #13
+  ,   ! Heating Supply Air Flow Rate Per Floor Area {m3/s-m2}, #14
+  ,   ! Heating Fraction of Heating Supply Air Flow Rate #15
+  ,   ! Heating Supply Air Flow Rate Per Unit Heating Capacity {m3/s-W}, #16
+  None,   ! Cooling Design Capacity Method Def: None, [None, CoolingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedCoolingCapacity], #17
+  ,   ! Cooling Design Capacity {W}, AS, #18
+  ,   ! Cooling Design Capacity Per Floor Area {W/m2}, #19
+  ,   ! Fraction of Autosized Cooling Design Capacity #20
+  None,   ! Heating Design Capacity Method Def: None, [None, HeatingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedHeatingCapacity], #21
+  ,   ! Heating Design Capacity {W}, AS, #22
+  ,   ! Heating Design Capacity Per Floor Area {W/m2}, #23
+  ;   ! Fraction of Autosized Heating Design Capacity #24

@@ -1,0 +1,10 @@
+GroundHeatTransfer:Slab:Materials,
+  ,   ! NMAT: Number of materials REQ, #1
+  0.16,   ! ALBEDO: Surface Albedo: No Snow Def: 0.16, #2
+  0.40,   ! ALBEDO: Surface Albedo: Snow Def: 0.40, #3
+  0.94,   ! EPSLW: Surface Emissivity: No Snow Def: 0.94, #4
+  0.86,   ! EPSLW: Surface Emissivity: Snow Def: 0.86, #5
+  .75,   ! Z0: Surface Roughness: No Snow {cm}, Def: .75, #6
+  0.25,   ! Z0: Surface Roughness: Snow {cm}, Def: 0.25, #7
+  6.13,   ! HIN: Indoor HConv: Downward Flow {W/m2-K}, Def: 6.13, #8
+  9.26;   ! HIN: Indoor HConv: Upward {W/m2-K}, Def: 9.26, #9

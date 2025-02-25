@@ -1,0 +1,40 @@
+! Min Fields: 18
+HeatPump:PlantLoop:EIR:Heating,
+  ,   ! Name RefList: [PLHPHeatingNames, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Load Side Inlet Node Name REQ, #2
+  ,   ! Load Side Outlet Node Name REQ, #3
+  WaterSource,   ! Condenser Type Def: WaterSource, [WaterSource, AirSource], #4
+  ,   ! Source Side Inlet Node Name REQ, #5
+  ,   ! Source Side Outlet Node Name REQ, #6
+  ,   ! Heat Recovery Inlet Node Name #7
+  ,   ! Heat Recovery Outlet Node Name #8
+  ,   ! Companion Heat Pump Name [PLHPCoolingNames], #9
+  autosize,   ! Load Side Reference Flow Rate {m3/s}, Def: autosize, AS, #10
+  autosize,   ! Source Side Reference Flow Rate {m3/s}, Def: autosize, AS, #11
+  autosize,   ! Heat Recovery Reference Flow Rate {m3/s}, Def: autosize, AS, #12
+  autosize,   ! Reference Capacity {W}, Def: autosize, AS, #13
+  3.0,   ! Reference Coefficient of Performance {W/W}, Def: 3.0, #14
+  1.0,   ! Sizing Factor Def: 1.0, #15
+  ,   ! Capacity Modifier Function of Temperature Curve Name [BivariateFunctions], REQ, #16
+  ,   ! Electric Input to Output Ratio Modifier Function of Temperature Curve Name [BiVariateFunctions], REQ, #17
+  ,   ! Electric Input to Output Ratio Modifier Function of Part Load Ratio Curve Name [UnivariateFunctions], REQ, #18
+  1.0,   ! Heating To Cooling Capacity Sizing Ratio Def: 1.0, #19
+  CoolingCapacity,   ! Heat Pump Sizing Method Def: CoolingCapacity, [CoolingCapacity, HeatingCapacity, GreaterOfHeatingOrCooling], #20
+  Load,   ! Control Type Def: Load, [Setpoint, Load], #21
+  ConstantFlow,   ! Flow Mode Def: ConstantFlow, [ConstantFlow, VariableSpeedPumping], #22
+  0.0,   ! Minimum Part Load Ratio Def: 0.0, #23
+  -100.0,   ! Minimum Source Inlet Temperature {C}, Def: -100.0, #24
+  100.0,   ! Maximum Source Inlet Temperature {C}, Def: 100.0, #25
+  ,   ! Minimum Supply Water Temperature Curve Name [UniVariateFunctions], #26
+  ,   ! Maximum Supply Water Temperature Curve Name [UniVariateFunctions], #27
+  ,   ! Dry Outdoor Correction Factor Curve Name [UniVariateFunctions], #28
+  10.0,   ! Maximum Outdoor Dry Bulb Temperature For Defrost Operation Def: 10.0, #29
+  ,   ! Heat Pump Defrost Control [None, Timed, OnDemand, TimedEmpirical], #30
+  0.058333,   ! Heat Pump Defrost Time Period Fraction Def: 0.058333, #31
+  ,   ! Defrost Energy Input Ratio Function of Temperature Curve Name [BivariateFunctions], #32
+  ,   ! Timed Empirical Defrost Frequency Curve Name [UniVariateFunctions], #33
+  ,   ! Timed Empirical Defrost Heat Load Penalty Curve Name [UniVariateFunctions, BivariateFunctions], #34
+  ,   ! Timed Empirical Defrost Heat Input Energy Fraction Curve Name [UniVariateFunctions, BivariateFunctions], #35
+  4.5,   ! Minimum Heat Recovery Outlet Temperature {C}, Def: 4.5, #36
+  ,   ! Heat Recovery Capacity Modifier Function of Temperature Curve Name [BivariateFunctions], #37
+  ;   ! Heat Recovery Electric Input to Output Ratio Modifier Function of Temperature Curve Name [BiVariateFunctions], #38

@@ -1,0 +1,7 @@
+AirflowNetwork:ZoneControl:PressureController,
+  ,   ! Name RefList: [AirflowNetworkZoneControlPressureControllerNames], REQ, #1
+  ,   ! Control Zone Name [ZoneNames], REQ, #2
+  ,   ! Control Object Type [AirflowNetwork:MultiZone:Component:ZoneExhaustFan, AirflowNetwork:Distribution:Component:ReliefAirFlow], REQ, #3
+  ,   ! Control Object Name [AFNReliefAirFlowNames, FansZoneExhaust], REQ, #4
+  ,   ! Pressure Control Availability Schedule Name [ScheduleNames], #5
+  ;   ! Pressure Setpoint Schedule Name [ScheduleNames], REQ, #6

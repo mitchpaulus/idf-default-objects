@@ -1,0 +1,38 @@
+! Min Fields: 22
+Chiller:Electric:ReformulatedEIR,
+  ,   ! Name RefList: [Chillers, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Reference Capacity {W}, AS, REQ, #2
+  ,   ! Reference COP {W/W}, REQ, #3
+  6.67,   ! Reference Leaving Chilled Water Temperature {C}, Def: 6.67, #4
+  35.0,   ! Reference Leaving Condenser Water Temperature {C}, Def: 35.0, #5
+  ,   ! Reference Chilled Water Flow Rate {m3/s}, AS, #6
+  ,   ! Reference Condenser Water Flow Rate {m3/s}, AS, #7
+  ,   ! Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], REQ, #8
+  ,   ! Electric Input to Cooling Output Ratio Function of Temperature Curve Name [BivariateFunctions], REQ, #9
+  LeavingCondenserWaterTemperature,   ! Electric Input to Cooling Output Ratio Function of Part Load Ratio Curve Type Def: LeavingCondenserWaterTemperature, [LeavingCondenserWaterTemperature, Lift], #10
+  ,   ! Electric Input to Cooling Output Ratio Function of Part Load Ratio Curve Name [BivariateFunctions, TrivariateFunctions], REQ, #11
+  0.1,   ! Minimum Part Load Ratio Def: 0.1, #12
+  1.0,   ! Maximum Part Load Ratio Def: 1.0, #13
+  1.0,   ! Optimum Part Load Ratio Def: 1.0, #14
+  0.2,   ! Minimum Unloading Ratio Def: 0.2, #15
+  ,   ! Chilled Water Inlet Node Name REQ, #16
+  ,   ! Chilled Water Outlet Node Name REQ, #17
+  ,   ! Condenser Inlet Node Name REQ, #18
+  ,   ! Condenser Outlet Node Name REQ, #19
+  1.0,   ! Fraction of Compressor Electric Consumption Rejected by Condenser Def: 1.0, #20
+  2.0,   ! Leaving Chilled Water Lower Temperature Limit {C}, Def: 2.0, #21
+  NotModulated,   ! Chiller Flow Mode Type Def: NotModulated, [ConstantFlow, LeavingSetpointModulated, NotModulated], #22
+  0.0,   ! Design Heat Recovery Water Flow Rate {m3/s}, Def: 0.0, AS, #23
+  ,   ! Heat Recovery Inlet Node Name #24
+  ,   ! Heat Recovery Outlet Node Name #25
+  1.0,   ! Sizing Factor Def: 1.0, #26
+  ,   ! Condenser Heat Recovery Relative Capacity Fraction #27
+  ,   ! Heat Recovery Inlet High Temperature Limit Schedule Name [ScheduleNames], #28
+  ,   ! Heat Recovery Leaving Temperature Setpoint Node Name #29
+  General,   ! End-Use Subcategory Def: General, #30
+  ConstantFlow,   ! Condenser Flow Control Def: ConstantFlow, [ConstantFlow, ModulatedChillerPLR, ModulatedLoopPLR, ModulatedDeltaTemperature], #31
+  ,   ! Condenser Loop Flow Rate Fraction Function of Loop Part Load Ratio Curve Name [UnivariateFunctions], #32
+  ,   ! Temperature Difference Across Condenser Schedule Name [ScheduleNames], #33
+  ,   ! Condenser Minimum Flow Fraction #34
+  ,   ! Thermosiphon Capacity Fraction Curve Name [UniVariateFunctions], #35
+  0.0;   ! Thermosiphon Minimum Temperature Difference Def: 0.0, #36

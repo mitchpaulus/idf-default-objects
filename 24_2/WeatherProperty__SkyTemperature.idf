@@ -1,0 +1,5 @@
+WeatherProperty:SkyTemperature,
+  ,   ! Name [RunPeriodsAndDesignDays], #1
+  ClarkAllen,   ! Calculation Type Def: ClarkAllen, [ClarkAllen, Brunt, Idso, BerdahlMartin, ScheduleValue, DifferenceScheduleDryBulbValue, DifferenceScheduleDewPointValue], REQ, #2
+  ,   ! Schedule Name [DayScheduleNames, ScheduleNames], #3
+  Yes;   ! Use Weather File Horizontal IR Def: Yes, [Yes, No], #4

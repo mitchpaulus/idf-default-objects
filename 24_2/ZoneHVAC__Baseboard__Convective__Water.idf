@@ -1,0 +1,13 @@
+! Min Fields: 10
+ZoneHVAC:Baseboard:Convective:Water,
+  ,   ! Name RefList: [validBranchEquipmentNames, ZoneEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Inlet Node Name REQ, #3
+  ,   ! Outlet Node Name REQ, #4
+  HeatingDesignCapacity,   ! Heating Design Capacity Method Def: HeatingDesignCapacity, [HeatingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedHeatingCapacity], #5
+  autosize,   ! Heating Design Capacity {W}, Def: autosize, AS, #6
+  ,   ! Heating Design Capacity Per Floor Area {W/m2}, #7
+  1.0,   ! Fraction of Autosized Heating Design Capacity Def: 1.0, #8
+  ,   ! U-Factor Times Area Value {W/K}, AS, REQ, #9
+  ,   ! Maximum Water Flow Rate {m3/s}, AS, REQ, #10
+  0.001;   ! Convergence Tolerance Def: 0.001, #11

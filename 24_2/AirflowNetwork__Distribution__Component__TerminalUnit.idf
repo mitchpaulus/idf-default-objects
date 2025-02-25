@@ -1,0 +1,6 @@
+! Min Fields: 4
+AirflowNetwork:Distribution:Component:TerminalUnit,
+  ,   ! Terminal Unit Name RefList: [AirflowNetworkComponentNames], [AFNTerminalUnitNames], REQ, #1
+  ,   ! Terminal Unit Object Type [AirTerminal:SingleDuct:ConstantVolume:Reheat, AirTerminal:SingleDuct:VAV:Reheat], REQ, #2
+  ,   ! Air Path Length {m}, REQ, #3
+  ;   ! Air Path Hydraulic Diameter {m}, REQ, #4

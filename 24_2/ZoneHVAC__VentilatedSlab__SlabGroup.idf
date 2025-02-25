@@ -1,0 +1,9 @@
+ZoneHVAC:VentilatedSlab:SlabGroup,
+  ,   ! Name RefList: [VentSlabGroupNames], REQ, #1
+  ,   ! Zone 1 Name [ZoneNames], REQ, #2
+  ,   ! Surface 1 Name [RadiantSurfaceNames], REQ, #3
+  ,   ! Core Diameter for Surface 1 {m}, REQ, #4
+  ,   ! Core Length for Surface 1 {m}, REQ, #5
+  ,   ! Core Numbers for Surface 1 REQ, #6
+  ,   ! Slab Inlet Node Name for Surface 1 REQ, #7
+  ;   ! Slab Outlet Node Name for Surface 1 REQ, #8

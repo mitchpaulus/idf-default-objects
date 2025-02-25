@@ -1,0 +1,22 @@
+! Min Fields: 15
+Coil:WaterHeating:AirToWaterHeatPump:Wrapped,
+  ,   ! Name RefList: [HeatPumpWaterHeaterDXCoilsWrapped], REQ, #1
+  ,   ! Rated Heating Capacity {W}, REQ, #2
+  3.2,   ! Rated COP {W/W}, Def: 3.2, #3
+  0.85,   ! Rated Sensible Heat Ratio Def: 0.85, #4
+  19.7,   ! Rated Evaporator Inlet Air Dry-Bulb Temperature {C}, Def: 19.7, #5
+  13.5,   ! Rated Evaporator Inlet Air Wet-Bulb Temperature {C}, Def: 13.5, #6
+  57.5,   ! Rated Condenser Water Temperature {C}, Def: 57.5, #7
+  ,   ! Rated Evaporator Air Flow Rate {m3/s}, AC, #8
+  Yes,   ! Evaporator Fan Power Included in Rated COP Def: Yes, [Yes, No], #9
+  ,   ! Evaporator Air Inlet Node Name REQ, #10
+  ,   ! Evaporator Air Outlet Node Name REQ, #11
+  0,   ! Crankcase Heater Capacity {W}, Def: 0, #12
+  ,   ! Crankcase Heater Capacity Function of Temperature Curve Name [UnivariateFunctions], #13
+  10,   ! Maximum Ambient Temperature for Crankcase Heater Operation {C}, Def: 10, #14
+  WetBulbTemperature,   ! Evaporator Air Temperature Type for Curve Objects Def: WetBulbTemperature, [DryBulbTemperature, WetBulbTemperature], #15
+  ,   ! Heating Capacity Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #16
+  ,   ! Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #17
+  ,   ! Heating COP Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #18
+  ,   ! Heating COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], #19
+  ;   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], #20

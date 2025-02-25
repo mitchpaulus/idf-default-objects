@@ -1,0 +1,8 @@
+! Min Fields: 1
+DesignSpecification:AirTerminal:Sizing,
+  ,   ! Name RefList: [DesignSpecificationAirTerminalSizingName], REQ, #1
+  1.0,   ! Fraction of Design Cooling Load {dimensionless}, Def: 1.0, #2
+  1.0,   ! Cooling Design Supply Air Temperature Difference Ratio {dimensionless}, Def: 1.0, #3
+  1.0,   ! Fraction of Design Heating Load {dimensionless}, Def: 1.0, #4
+  1.0,   ! Heating Design Supply Air Temperature Difference Ratio {dimensionless}, Def: 1.0, #5
+  1.0;   ! Fraction of Minimum Outdoor Air Flow {dimensionless}, Def: 1.0, #6

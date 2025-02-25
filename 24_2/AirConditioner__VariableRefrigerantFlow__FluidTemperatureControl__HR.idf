@@ -1,0 +1,63 @@
+! Min Fields: 58
+AirConditioner:VariableRefrigerantFlow:FluidTemperatureControl:HR,
+  ,   ! Name REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Terminal Unit List Name [ZoneTerminalUnitListNames], REQ, #3
+  R410A,   ! Refrigerant Type Def: R410A, [FluidNames], #4
+  40000,   ! Rated Evaporative Capacity {W}, Def: 40000, AS, #5
+  0.35,   ! Rated Compressor Power Per Unit of Rated Evaporative Capacity {dimensionless}, Def: 0.35, #6
+  -6.0,   ! Minimum Outdoor Air Temperature in Cooling Only Mode {C}, Def: -6.0, #7
+  43.0,   ! Maximum Outdoor Air Temperature in Cooling Only Mode {C}, Def: 43.0, #8
+  -20.0,   ! Minimum Outdoor Air Temperature in Heating Only Mode {C}, Def: -20.0, #9
+  16.0,   ! Maximum Outdoor Air Temperature in Heating Only Mode {C}, Def: 16.0, #10
+  -20.0,   ! Minimum Outdoor Temperature in Heat Recovery Mode {C}, Def: -20.0, #11
+  43.0,   ! Maximum Outdoor Temperature in Heat Recovery Mode {C}, Def: 43.0, #12
+  VariableTemp,   ! Refrigerant Temperature Control Algorithm for Indoor Unit Def: VariableTemp, [ConstantTemp, VariableTemp], #13
+  6.0,   ! Reference Evaporating Temperature for Indoor Unit {C}, Def: 6.0, #14
+  44.0,   ! Reference Condensing Temperature for Indoor Unit {C}, Def: 44.0, #15
+  4.0,   ! Variable Evaporating Temperature Minimum for Indoor Unit {C}, Def: 4.0, #16
+  13.0,   ! Variable Evaporating Temperature Maximum for Indoor Unit {C}, Def: 13.0, #17
+  42.0,   ! Variable Condensing Temperature Minimum for Indoor Unit {C}, Def: 42.0, #18
+  46.0,   ! Variable Condensing Temperature Maximum for Indoor Unit {C}, Def: 46.0, #19
+  3,   ! Outdoor Unit Evaporator Reference Superheating {deltaC}, Def: 3, #20
+  5,   ! Outdoor Unit Condenser Reference Subcooling {deltaC}, Def: 5, #21
+  0.4,   ! Outdoor Unit Evaporator Rated Bypass Factor {dimensionless}, Def: 0.4, #22
+  0.2,   ! Outdoor Unit Condenser Rated Bypass Factor {dimensionless}, Def: 0.2, #23
+  5,   ! Difference between Outdoor Unit Evaporating Temperature and Outdoor Air Temperature in Heat Recovery Mode {deltaC}, Def: 5, #24
+  0.3,   ! Outdoor Unit Heat Exchanger Capacity Ratio {dimensionless}, Def: 0.3, #25
+  4.25E-3,   ! Outdoor Unit Fan Power Per Unit of Rated Evaporative Capacity {dimensionless}, Def: 4.25E-3, #26
+  7.50E-5,   ! Outdoor Unit Fan Flow Rate Per Unit of Rated Evaporative Capacity {m3/s-W}, Def: 7.50E-5, #27
+  ,   ! Outdoor Unit Evaporating Temperature Function of Superheating Curve Name [UnivariateFunctions], REQ, #28
+  ,   ! Outdoor Unit Condensing Temperature Function of Subcooling Curve Name [UnivariateFunctions], REQ, #29
+  0.0762,   ! Diameter of Main Pipe for Suction Gas {m}, Def: 0.0762, #30
+  0.0762,   ! Diameter of Main Pipe for Discharge Gas {m}, Def: 0.0762, #31
+  30.0,   ! Length of Main Pipe Connecting Outdoor Unit to the First Branch Joint {m}, Def: 30.0, #32
+  36.0,   ! Equivalent Length of Main Pipe Connecting Outdoor Unit to the First Branch Joint {m}, Def: 36.0, #33
+  5.0,   ! Height Difference Between Outdoor Unit and Indoor Units {m}, Def: 5.0, #34
+  0.02,   ! Main Pipe Insulation Thickness {m}, Def: 0.02, #35
+  0.032,   ! Main Pipe Insulation Thermal Conductivity {W/m-K}, Def: 0.032, #36
+  33.0,   ! Crankcase Heater Power per Compressor {W}, Def: 33.0, #37
+  2,   ! Number of Compressors {dimensionless}, Def: 2, #38
+  0.5,   ! Ratio of Compressor Size to Total Compressor Capacity {W/W}, Def: 0.5, #39
+  5.0,   ! Maximum Outdoor Dry-Bulb Temperature for Crankcase Heater {C}, Def: 5.0, #40
+  Resistive,   ! Defrost Strategy Def: Resistive, [ReverseCycle, Resistive], #41
+  Timed,   ! Defrost Control Def: Timed, [Timed, OnDemand], #42
+  ,   ! Defrost Energy Input Ratio Modifier Function of Temperature Curve Name [BivariateFunctions], #43
+  0.058333,   ! Defrost Time Period Fraction Def: 0.058333, #44
+  0.0,   ! Resistive Defrost Heater Capacity {W}, Def: 0.0, AS, #45
+  5.0,   ! Maximum Outdoor Dry-bulb Temperature for Defrost Operation {C}, Def: 5.0, #46
+  1,   ! Initial Heat Recovery Cooling Capacity Fraction {W/W}, Def: 1, #47
+  0,   ! Heat Recovery Cooling Capacity Time Constant {hr}, Def: 0, #48
+  1,   ! Initial Heat Recovery Cooling Energy Fraction {W/W}, Def: 1, #49
+  0,   ! Heat Recovery Cooling Energy Time Constant {hr}, Def: 0, #50
+  1,   ! Initial Heat Recovery Heating Capacity Fraction {W/W}, Def: 1, #51
+  0,   ! Heat Recovery Heating Capacity Time Constant {hr}, Def: 0, #52
+  1,   ! Initial Heat Recovery Heating Energy Fraction {W/W}, Def: 1, #53
+  0,   ! Heat Recovery Heating Energy Time Constant {hr}, Def: 0, #54
+  4500000.0,   ! Compressor maximum delta Pressure {Pa}, Def: 4500000.0, #55
+  0.95,   ! Compressor Inverter Efficiency {dimensionless}, Def: 0.95, #56
+  1.0,   ! Compressor Evaporative Capacity Correction Factor {dimensionless}, Def: 1.0, #57
+  2,   ! Number of Compressor Loading Index Entries Def: 2, #58
+  ,   ! Compressor Speed at Loading Index 1 {rev/min}, REQ, #59
+  ,   ! Loading Index 1 Evaporative Capacity Multiplier Function of Temperature Curve Name [BivariateFunctions], REQ, #60
+  ;   ! Loading Index 1 Compressor Power Multiplier Function of Temperature Curve Name [BivariateFunctions], REQ, #61

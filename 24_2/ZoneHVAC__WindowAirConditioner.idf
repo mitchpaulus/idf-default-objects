@@ -1,0 +1,19 @@
+! Min Fields: 15
+ZoneHVAC:WindowAirConditioner,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Maximum Supply Air Flow Rate {m3/s}, AS, REQ, #3
+  ,   ! Maximum Outdoor Air Flow Rate {m3/s}, AS, REQ, #4
+  ,   ! Air Inlet Node Name REQ, #5
+  ,   ! Air Outlet Node Name REQ, #6
+  ,   ! Outdoor Air Mixer Object Type [OutdoorAir:Mixer], REQ, #7
+  ,   ! Outdoor Air Mixer Name [OutdoorAirMixers], REQ, #8
+  ,   ! Supply Air Fan Object Type [Fan:SystemModel, Fan:OnOff, Fan:ConstantVolume], REQ, #9
+  ,   ! Supply Air Fan Name [FansCVandOnOff, FansSystemModel], REQ, #10
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX:SingleSpeed, CoilSystem:Cooling:DX:HeatExchangerAssisted, Coil:Cooling:DX:VariableSpeed], REQ, #11
+  ,   ! DX Cooling Coil Name [CoolingCoilsDXSingleSpeed, CoolingCoilsDXVariableSpeed], REQ, #12
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #13
+  ,   ! Fan Placement [BlowThrough, DrawThrough], REQ, #14
+  0.001,   ! Cooling Convergence Tolerance Def: 0.001, #15
+  ,   ! Availability Manager List Name [SystemAvailabilityManagerLists], #16
+  ;   ! Design Specification ZoneHVAC Sizing Object Name [DesignSpecificationZoneHVACSizingName], #17

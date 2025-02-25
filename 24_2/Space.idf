@@ -1,0 +1,9 @@
+! Min Fields: 6
+Space,
+  ,   ! Name RefList: [SpaceNames, SpaceAndSpaceListNames, ZoneAndZoneListAndSpaceAndSpaceListNames], REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  autocalculate,   ! Ceiling Height {m}, Def: autocalculate, AC, #3
+  autocalculate,   ! Volume {m3}, Def: autocalculate, AC, #4
+  autocalculate,   ! Floor Area {m2}, Def: autocalculate, AC, #5
+  General,   ! Space Type Def: General, #6
+  ;   ! Tag 1 #7

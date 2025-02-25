@@ -1,0 +1,19 @@
+! Min Fields: 12
+Chiller:ConstantCOP,
+  ,   ! Name RefList: [Chillers, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Nominal Capacity {W}, AS, REQ, #2
+  ,   ! Nominal COP {W/W}, REQ, #3
+  ,   ! Design Chilled Water Flow Rate {m3/s}, AS, #4
+  ,   ! Design Condenser Water Flow Rate {m3/s}, AS, #5
+  ,   ! Chilled Water Inlet Node Name REQ, #6
+  ,   ! Chilled Water Outlet Node Name REQ, #7
+  ,   ! Condenser Inlet Node Name #8
+  ,   ! Condenser Outlet Node Name #9
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, WaterCooled, EvaporativelyCooled], #10
+  NotModulated,   ! Chiller Flow Mode Def: NotModulated, [ConstantFlow, LeavingSetpointModulated, NotModulated], #11
+  1.0,   ! Sizing Factor Def: 1.0, #12
+  0.0,   ! Basin Heater Capacity {W/K}, Def: 0.0, #13
+  2.0,   ! Basin Heater Setpoint Temperature {C}, Def: 2.0, #14
+  ,   ! Basin Heater Operating Schedule Name [ScheduleNames], #15
+  ,   ! Thermosiphon Capacity Fraction Curve Name [UniVariateFunctions], #16
+  0.0;   ! Thermosiphon Minimum Temperature Difference Def: 0.0, #17

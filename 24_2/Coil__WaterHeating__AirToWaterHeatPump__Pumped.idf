@@ -1,0 +1,31 @@
+! Min Fields: 22
+Coil:WaterHeating:AirToWaterHeatPump:Pumped,
+  ,   ! Name RefList: [HeatPumpWaterHeaterDXCoilsPumped], REQ, #1
+  ,   ! Rated Heating Capacity {W}, REQ, #2
+  3.2,   ! Rated COP {W/W}, Def: 3.2, #3
+  0.85,   ! Rated Sensible Heat Ratio Def: 0.85, #4
+  19.7,   ! Rated Evaporator Inlet Air Dry-Bulb Temperature {C}, Def: 19.7, #5
+  13.5,   ! Rated Evaporator Inlet Air Wet-Bulb Temperature {C}, Def: 13.5, #6
+  57.5,   ! Rated Condenser Inlet Water Temperature {C}, Def: 57.5, #7
+  ,   ! Rated Evaporator Air Flow Rate {m3/s}, AC, #8
+  ,   ! Rated Condenser Water Flow Rate {m3/s}, AC, #9
+  Yes,   ! Evaporator Fan Power Included in Rated COP Def: Yes, [Yes, No], #10
+  No,   ! Condenser Pump Power Included in Rated COP Def: No, [Yes, No], #11
+  No,   ! Condenser Pump Heat Included in Rated Heating Capacity and Rated COP Def: No, [Yes, No], #12
+  0,   ! Condenser Water Pump Power {W}, Def: 0, #13
+  0.2,   ! Fraction of Condenser Pump Heat to Water Def: 0.2, #14
+  ,   ! Evaporator Air Inlet Node Name REQ, #15
+  ,   ! Evaporator Air Outlet Node Name REQ, #16
+  ,   ! Condenser Water Inlet Node Name REQ, #17
+  ,   ! Condenser Water Outlet Node Name REQ, #18
+  0,   ! Crankcase Heater Capacity {W}, Def: 0, #19
+  ,   ! Crankcase Heater Capacity Function of Temperature Curve Name [UnivariateFunctions], #20
+  10,   ! Maximum Ambient Temperature for Crankcase Heater Operation {C}, Def: 10, #21
+  WetBulbTemperature,   ! Evaporator Air Temperature Type for Curve Objects Def: WetBulbTemperature, [DryBulbTemperature, WetBulbTemperature], #22
+  ,   ! Heating Capacity Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #23
+  ,   ! Heating Capacity Function of Air Flow Fraction Curve Name [UnivariateFunctions], #24
+  ,   ! Heating Capacity Function of Water Flow Fraction Curve Name [UnivariateFunctions], #25
+  ,   ! Heating COP Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], #26
+  ,   ! Heating COP Function of Air Flow Fraction Curve Name [UnivariateFunctions], #27
+  ,   ! Heating COP Function of Water Flow Fraction Curve Name [UnivariateFunctions], #28
+  ;   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], #29

@@ -1,0 +1,35 @@
+! Min Fields: 31
+HVACTemplate:Zone:VAV:FanPowered,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Template VAV System Name [CompactHVACSystemVAV], REQ, #2
+  ,   ! Template Thermostat Name [CompactHVACThermostats], #3
+  autosize,   ! Primary Supply Air Maximum Flow Rate {m3/s}, Def: autosize, AS, #4
+  ,   ! Zone Heating Sizing Factor #5
+  ,   ! Zone Cooling Sizing Factor #6
+  autosize,   ! Primary Supply Air Minimum Flow Fraction Def: autosize, AS, #7
+  autosize,   ! Secondary Supply Air Maximum Flow Rate {m3/s}, Def: autosize, AS, #8
+  Parallel,   ! Flow Type Def: Parallel, [Series, Parallel, SeriesFromPlenum, ParallelFromPlenum], #9
+  autosize,   ! Parallel Fan On Flow Fraction Def: autosize, AS, #10
+  Flow/Person,   ! Outdoor Air Method Def: Flow/Person, [Flow/Person, Flow/Zone, Flow/Area, Sum, Maximum, DetailedSpecification], #11
+  0.00944,   ! Outdoor Air Flow Rate per Person {m3/s}, Def: 0.00944, #12
+  0.0,   ! Outdoor Air Flow Rate per Zone Floor Area {m3/s-m2}, Def: 0.0, #13
+  0.0,   ! Outdoor Air Flow Rate per Zone {m3/s}, Def: 0.0, #14
+  Electric,   ! Reheat Coil Type Def: Electric, [HotWater, Electric, Gas], #15
+  ,   ! Reheat Coil Availability Schedule Name [ScheduleNames], #16
+  0.7,   ! Fan Total Efficiency Def: 0.7, #17
+  1000,   ! Fan Delta Pressure {Pa}, Def: 1000, #18
+  0.9,   ! Fan Motor Efficiency Def: 0.9, #19
+  ,   ! Supply Plenum Name [ZoneNames], #20
+  ,   ! Return Plenum Name [ZoneNames], #21
+  None,   ! Baseboard Heating Type Def: None, [HotWater, Electric, None], #22
+  ,   ! Baseboard Heating Availability Schedule Name [ScheduleNames], #23
+  autosize,   ! Baseboard Heating Capacity {W}, Def: autosize, AS, #24
+  SystemSupplyAirTemperature,   ! Zone Cooling Design Supply Air Temperature Input Method Def: SystemSupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference, SystemSupplyAirTemperature], #25
+  12.8,   ! Zone Cooling Design Supply Air Temperature {C}, Def: 12.8, #26
+  11.11,   ! Zone Cooling Design Supply Air Temperature Difference {deltaC}, Def: 11.11, #27
+  SupplyAirTemperature,   ! Zone Heating Design Supply Air Temperature Input Method Def: SupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference], #28
+  50.0,   ! Zone Heating Design Supply Air Temperature {C}, Def: 50.0, #29
+  30.0,   ! Zone Heating Design Supply Air Temperature Difference {deltaC}, Def: 30.0, #30
+  ,   ! Zone PIU Fan Schedule Name [ScheduleNames], #31
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames, DSOASpaceListNames], #32
+  ;   ! Design Specification Zone Air Distribution Object Name [DesignSpecificationZoneAirDistributionNames], #33

@@ -1,0 +1,35 @@
+! Min Fields: 30
+ZoneHVAC:TerminalUnit:VariableRefrigerantFlow,
+  ,   ! Zone Terminal Unit Name RefList: [ZoneTerminalUnitNames, DOAToZonalUnit, ZoneEquipmentNames, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Terminal Unit Availability Schedule [ScheduleNames], #2
+  ,   ! Terminal Unit Air Inlet Node Name REQ, #3
+  ,   ! Terminal Unit Air Outlet Node Name REQ, #4
+  ,   ! Cooling Supply Air Flow Rate {m3/s}, AS, #5
+  ,   ! No Cooling Supply Air Flow Rate {m3/s}, AS, #6
+  ,   ! Heating Supply Air Flow Rate {m3/s}, AS, #7
+  ,   ! No Heating Supply Air Flow Rate {m3/s}, AS, #8
+  ,   ! Cooling Outdoor Air Flow Rate {m3/s}, AS, #9
+  ,   ! Heating Outdoor Air Flow Rate {m3/s}, AS, #10
+  ,   ! No Load Outdoor Air Flow Rate {m3/s}, AS, #11
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #12
+  BlowThrough,   ! Supply Air Fan Placement Def: BlowThrough, [BlowThrough, DrawThrough], #13
+  Fan:ConstantVolume,   ! Supply Air Fan Object Type Def: Fan:ConstantVolume, [Fan:SystemModel, Fan:OnOff, Fan:ConstantVolume], #14
+  ,   ! Supply Air Fan Object Name [FansCVandOnOffandVAV, FansSystemModel], #15
+  ,   ! Outside Air Mixer Object Type [OutdoorAir:Mixer], #16
+  ,   ! Outside Air Mixer Object Name [OutdoorAirMixers], #17
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX:VariableRefrigerantFlow, Coil:Cooling:DX:VariableRefrigerantFlow:FluidTemperatureControl], #18
+  ,   ! Cooling Coil Object Name [CoolingCoilsDXVarRefrigFlow, CoolingCoilsDXVarRefrigFlowFluidTemperatureControl], #19
+  ,   ! Heating Coil Object Type [Coil:Heating:DX:VariableRefrigerantFlow, Coil:Heating:DX:VariableRefrigerantFlow:FluidTemperatureControl], #20
+  ,   ! Heating Coil Object Name [HeatingCoilsDXVarRefrigFlow, HeatingCoilsDXVarRefrigFlowFluidTemperatureControl], #21
+  0,   ! Zone Terminal Unit On Parasitic Electric Energy Use {W}, Def: 0, #22
+  0,   ! Zone Terminal Unit Off Parasitic Electric Energy Use {W}, Def: 0, #23
+  1.0,   ! Rated Heating Capacity Sizing Ratio {W/W}, Def: 1.0, #24
+  ,   ! Availability Manager List Name [SystemAvailabilityManagerLists], #25
+  ,   ! Design Specification ZoneHVAC Sizing Object Name [DesignSpecificationZoneHVACSizingName], #26
+  ,   ! Supplemental Heating Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Water, Coil:Heating:Steam], #27
+  ,   ! Supplemental Heating Coil Name [HeatingCoilName], #28
+  autosize,   ! Maximum Supply Air Temperature from Supplemental Heater {C}, Def: autosize, AS, REQ, #29
+  21.0,   ! Maximum Outdoor Dry-Bulb Temperature for Supplemental Heater Operation {C}, Def: 21.0, #30
+  ,   ! Controlling Zone or Thermostat Location [ZoneNames], #31
+  ,   ! Design Specification Multispeed Object Type [UnitarySystemPerformance:Multispeed], #32
+  ;   ! Design Specification Multispeed Object Name [UnitarySystemPerformanceNames], #33

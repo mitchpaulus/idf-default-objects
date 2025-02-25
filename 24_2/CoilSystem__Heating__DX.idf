@@ -1,0 +1,6 @@
+! Min Fields: 4
+CoilSystem:Heating:DX,
+  ,   ! Name RefList: [HeatingCoilSystemName, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Heating Coil Object Type [Coil:Heating:DX:SingleSpeed, Coil:Heating:DX:VariableSpeed], REQ, #3
+  ;   ! Heating Coil Name [HeatingCoilsDXSingleSpeed, HeatingCoilsDXVariableSpeed], REQ, #4

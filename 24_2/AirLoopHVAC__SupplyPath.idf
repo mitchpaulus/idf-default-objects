@@ -1,0 +1,5 @@
+AirLoopHVAC:SupplyPath,
+  ,   ! Name REQ, #1
+  ,   ! Supply Air Path Inlet Node Name REQ, #2
+  ,   ! Component 1 Object Type [AirLoopHVAC:ZoneSplitter, AirLoopHVAC:SupplyPlenum], REQ, #3
+  ;   ! Component 1 Name [SupplyPathComponentNames], REQ, #4

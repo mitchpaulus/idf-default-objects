@@ -1,0 +1,21 @@
+! Min Fields: 8
+ZoneVentilation:WindandStackOpenArea,
+  ,   ! Name RefList: [VentilationNames], REQ, #1
+  ,   ! Zone or Space Name [ZoneNames, SpaceNames], REQ, #2
+  0,   ! Opening Area {m2}, Def: 0, #3
+  ,   ! Opening Area Fraction Schedule Name [ScheduleNames], #4
+  Autocalculate,   ! Opening Effectiveness {dimensionless}, Def: Autocalculate, AC, #5
+  0,   ! Effective Angle {deg}, Def: 0, #6
+  0,   ! Height Difference {m}, Def: 0, #7
+  Autocalculate,   ! Discharge Coefficient for Opening Def: Autocalculate, AC, #8
+  -100,   ! Minimum Indoor Temperature {C}, Def: -100, #9
+  ,   ! Minimum Indoor Temperature Schedule Name [ScheduleNames], #10
+  100,   ! Maximum Indoor Temperature {C}, Def: 100, #11
+  ,   ! Maximum Indoor Temperature Schedule Name [ScheduleNames], #12
+  -100,   ! Delta Temperature {deltaC}, Def: -100, #13
+  ,   ! Delta Temperature Schedule Name [ScheduleNames], #14
+  -100,   ! Minimum Outdoor Temperature {C}, Def: -100, #15
+  ,   ! Minimum Outdoor Temperature Schedule Name [ScheduleNames], #16
+  100,   ! Maximum Outdoor Temperature {C}, Def: 100, #17
+  ,   ! Maximum Outdoor Temperature Schedule Name [ScheduleNames], #18
+  40;   ! Maximum Wind Speed {m/s}, Def: 40, #19

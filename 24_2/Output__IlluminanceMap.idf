@@ -1,0 +1,11 @@
+! Min Fields: 9
+Output:IlluminanceMap,
+  ,   ! Name REQ, #1
+  ,   ! Zone or Space Name [ZoneNames, SpaceNames], REQ, #2
+  0.0,   ! Z height {m}, Def: 0.0, #3
+  0.0,   ! X Minimum Coordinate {m}, Def: 0.0, #4
+  1.0,   ! X Maximum Coordinate {m}, Def: 1.0, #5
+  2,   ! Number of X Grid Points Def: 2, #6
+  0.0,   ! Y Minimum Coordinate {m}, Def: 0.0, #7
+  1.0,   ! Y Maximum Coordinate {m}, Def: 1.0, #8
+  2;   ! Number of Y Grid Points Def: 2, #9

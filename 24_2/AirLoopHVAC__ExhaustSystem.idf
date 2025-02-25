@@ -1,0 +1,6 @@
+! Min Fields: 4
+AirLoopHVAC:ExhaustSystem,
+  ,   ! Name REQ, #1
+  ,   ! Zone Mixer Name [ZoneMixers], REQ, #2
+  ,   ! Fan Object Type [Fan:SystemModel, Fan:ComponentModel], REQ, #3
+  ;   ! Fan Name [FansSystemModel, FansComponentModel], REQ, #4

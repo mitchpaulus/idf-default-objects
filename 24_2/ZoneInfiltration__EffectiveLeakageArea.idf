@@ -1,0 +1,8 @@
+! Min Fields: 6
+ZoneInfiltration:EffectiveLeakageArea,
+  ,   ! Name REQ, #1
+  ,   ! Zone or Space Name [ZoneNames, SpaceNames], REQ, #2
+  ,   ! Schedule Name [ScheduleNames], #3
+  ,   ! Effective Air Leakage Area {cm2}, REQ, #4
+  ,   ! Stack Coefficient REQ, #5
+  ;   ! Wind Coefficient REQ, #6

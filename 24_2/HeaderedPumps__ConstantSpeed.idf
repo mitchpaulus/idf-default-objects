@@ -1,0 +1,20 @@
+! Min Fields: 9
+HeaderedPumps:ConstantSpeed,
+  ,   ! Name RefList: [validBranchEquipmentNames], RefClassList: [validBranchEquipmentTypes], REQ, #1
+  ,   ! Inlet Node Name REQ, #2
+  ,   ! Outlet Node Name REQ, #3
+  ,   ! Total Design Flow Rate {m3/s}, AS, #4
+  ,   ! Number of Pumps in Bank #5
+  Sequential,   ! Flow Sequencing Control Scheme Def: Sequential, [Sequential], #6
+  179352,   ! Design Pump Head {Pa}, Def: 179352, #7
+  ,   ! Design Power Consumption {W}, AS, #8
+  0.9,   ! Motor Efficiency Def: 0.9, #9
+  0.0,   ! Fraction of Motor Inefficiencies to Fluid Stream Def: 0.0, #10
+  Continuous,   ! Pump Control Type Def: Continuous, [Continuous, Intermittent], #11
+  ,   ! Pump Flow Rate Schedule Name [ScheduleNames], #12
+  ,   ! Zone Name [ZoneNames], #13
+  ,   ! Skin Loss Radiative Fraction #14
+  PowerPerFlowPerPressure,   ! Design Power Sizing Method Def: PowerPerFlowPerPressure, [PowerPerFlow, PowerPerFlowPerPressure], #15
+  348701.1,   ! Design Electric Power per Unit Flow Rate {W/(m3/s)}, Def: 348701.1, #16
+  1.282051282,   ! Design Shaft Power per Unit Flow Rate per Unit Head {W/((m3/s)-Pa)}, Def: 1.282051282, #17
+  General;   ! End-Use Subcategory Def: General, #18

@@ -1,0 +1,5 @@
+! Min Fields: 2
+ZoneGroup,
+  ,   ! Name REQ, #1
+  ,   ! Zone List Name [ZoneListNames], REQ, #2
+  1;   ! Zone List Multiplier Def: 1, #3

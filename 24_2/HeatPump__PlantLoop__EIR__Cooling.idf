@@ -1,0 +1,32 @@
+! Min Fields: 18
+HeatPump:PlantLoop:EIR:Cooling,
+  ,   ! Name RefList: [PLHPCoolingNames, validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  ,   ! Load Side Inlet Node Name REQ, #2
+  ,   ! Load Side Outlet Node Name REQ, #3
+  WaterSource,   ! Condenser Type Def: WaterSource, [WaterSource, AirSource], #4
+  ,   ! Source Side Inlet Node Name REQ, #5
+  ,   ! Source Side Outlet Node Name REQ, #6
+  ,   ! Heat Recovery Inlet Node Name #7
+  ,   ! Heat Recovery Outlet Node Name #8
+  ,   ! Companion Heat Pump Name [PLHPHeatingNames], #9
+  autosize,   ! Load Side Reference Flow Rate {m3/s}, Def: autosize, AS, #10
+  autosize,   ! Source Side Reference Flow Rate {m3/s}, Def: autosize, AS, #11
+  autosize,   ! Heat Recovery Reference Flow Rate {m3/s}, Def: autosize, AS, #12
+  autosize,   ! Reference Capacity {W}, Def: autosize, AS, #13
+  3.0,   ! Reference Coefficient of Performance {W/W}, Def: 3.0, #14
+  1.0,   ! Sizing Factor Def: 1.0, #15
+  ,   ! Capacity Modifier Function of Temperature Curve Name [BivariateFunctions], REQ, #16
+  ,   ! Electric Input to Output Ratio Modifier Function of Temperature Curve Name [BivariateFunctions], REQ, #17
+  ,   ! Electric Input to Output Ratio Modifier Function of Part Load Ratio Curve Name [UniVariateFunctions], REQ, #18
+  Load,   ! Control Type Def: Load, [Setpoint, Load], #19
+  ConstantFlow,   ! Flow Mode Def: ConstantFlow, [ConstantFlow, VariableSpeedPumping], #20
+  0.0,   ! Minimum Part Load Ratio Def: 0.0, #21
+  -100.0,   ! Minimum Source Inlet Temperature {C}, Def: -100.0, #22
+  100.0,   ! Maximum Source Inlet Temperature {C}, Def: 100.0, #23
+  ,   ! Minimum Supply Water Temperature Curve Name [UniVariateFunctions], #24
+  ,   ! Maximum Supply Water Temperature Curve Name [UniVariateFunctions], #25
+  60.0,   ! Maximum Heat Recovery Outlet Temperature {C}, Def: 60.0, #26
+  ,   ! Heat Recovery Capacity Modifier Function of Temperature Curve Name [BivariateFunctions], #27
+  ,   ! Heat Recovery Electric Input to Output Ratio Modifier Function of Temperature Curve Name [BivariateFunctions], #28
+  ,   ! Thermosiphon Capacity Fraction Curve Name [UniVariateFunctions], #29
+  0.0;   ! Thermosiphon Minimum Temperature Difference Def: 0.0, #30

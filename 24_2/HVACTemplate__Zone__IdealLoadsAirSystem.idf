@@ -1,0 +1,32 @@
+! Min Fields: 26
+HVACTemplate:Zone:IdealLoadsAirSystem,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Template Thermostat Name [CompactHVACThermostats], #2
+  ,   ! System Availability Schedule Name [ScheduleNames], #3
+  50,   ! Maximum Heating Supply Air Temperature {C}, Def: 50, #4
+  13,   ! Minimum Cooling Supply Air Temperature {C}, Def: 13, #5
+  0.0156,   ! Maximum Heating Supply Air Humidity Ratio {kgWater/kgDryAir}, Def: 0.0156, #6
+  0.0077,   ! Minimum Cooling Supply Air Humidity Ratio {kgWater/kgDryAir}, Def: 0.0077, #7
+  NoLimit,   ! Heating Limit Def: NoLimit, [NoLimit, LimitFlowRate, LimitCapacity, LimitFlowRateAndCapacity], #8
+  ,   ! Maximum Heating Air Flow Rate {m3/s}, AS, #9
+  ,   ! Maximum Sensible Heating Capacity {W}, AS, #10
+  NoLimit,   ! Cooling Limit Def: NoLimit, [NoLimit, LimitFlowRate, LimitCapacity, LimitFlowRateAndCapacity], #11
+  ,   ! Maximum Cooling Air Flow Rate {m3/s}, AS, #12
+  ,   ! Maximum Total Cooling Capacity {W}, AS, #13
+  ,   ! Heating Availability Schedule Name [ScheduleNames], #14
+  ,   ! Cooling Availability Schedule Name [ScheduleNames], #15
+  ConstantSensibleHeatRatio,   ! Dehumidification Control Type Def: ConstantSensibleHeatRatio, [ConstantSensibleHeatRatio, Humidistat, None, ConstantSupplyHumidityRatio], #16
+  0.7,   ! Cooling Sensible Heat Ratio {dimensionless}, Def: 0.7, #17
+  60.0,   ! Dehumidification Setpoint {percent}, Def: 60.0, #18
+  None,   ! Humidification Control Type Def: None, [None, Humidistat, ConstantSupplyHumidityRatio], #19
+  30.0,   ! Humidification Setpoint {percent}, Def: 30.0, #20
+  None,   ! Outdoor Air Method Def: None, [None, Flow/Person, Flow/Zone, Flow/Area, Sum, Maximum, DetailedSpecification], #21
+  0.00944,   ! Outdoor Air Flow Rate per Person {m3/s}, Def: 0.00944, #22
+  0.0,   ! Outdoor Air Flow Rate per Zone Floor Area {m3/s-m2}, Def: 0.0, #23
+  0.0,   ! Outdoor Air Flow Rate per Zone {m3/s}, Def: 0.0, #24
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames, DSOASpaceListNames], #25
+  None,   ! Demand Controlled Ventilation Type Def: None, [None, OccupancySchedule, CO2Setpoint], #26
+  NoEconomizer,   ! Outdoor Air Economizer Type Def: NoEconomizer, [NoEconomizer, DifferentialDryBulb, DifferentialEnthalpy], #27
+  None,   ! Heat Recovery Type Def: None, [None, Sensible, Enthalpy], #28
+  0.70,   ! Sensible Heat Recovery Effectiveness {dimensionless}, Def: 0.70, #29
+  0.65;   ! Latent Heat Recovery Effectiveness {dimensionless}, Def: 0.65, #30

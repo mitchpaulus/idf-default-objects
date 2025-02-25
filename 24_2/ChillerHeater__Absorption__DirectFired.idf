@@ -1,0 +1,36 @@
+! Min Fields: 34
+ChillerHeater:Absorption:DirectFired,
+  ,   ! Name RefList: [validPlantEquipmentNames, validBranchEquipmentNames], RefClassList: [validPlantEquipmentTypes, validBranchEquipmentTypes], REQ, #1
+  autosize,   ! Nominal Cooling Capacity {W}, Def: autosize, AS, #2
+  0.8,   ! Heating to Cooling Capacity Ratio Def: 0.8, #3
+  0.97,   ! Fuel Input to Cooling Output Ratio Def: 0.97, #4
+  1.25,   ! Fuel Input to Heating Output Ratio Def: 1.25, #5
+  0.01,   ! Electric Input to Cooling Output Ratio Def: 0.01, #6
+  0,   ! Electric Input to Heating Output Ratio Def: 0, #7
+  ,   ! Chilled Water Inlet Node Name REQ, #8
+  ,   ! Chilled Water Outlet Node Name REQ, #9
+  ,   ! Condenser Inlet Node Name REQ, #10
+  ,   ! Condenser Outlet Node Name #11
+  ,   ! Hot Water Inlet Node Name REQ, #12
+  ,   ! Hot Water Outlet Node Name REQ, #13
+  0.1,   ! Minimum Part Load Ratio Def: 0.1, #14
+  1.0,   ! Maximum Part Load Ratio Def: 1.0, #15
+  1.0,   ! Optimum Part Load Ratio Def: 1.0, #16
+  29,   ! Design Entering Condenser Water Temperature {C}, Def: 29, #17
+  7,   ! Design Leaving Chilled Water Temperature {C}, Def: 7, #18
+  autosize,   ! Design Chilled Water Flow Rate {m3/s}, Def: autosize, AS, #19
+  autosize,   ! Design Condenser Water Flow Rate {m3/s}, Def: autosize, AS, #20
+  autosize,   ! Design Hot Water Flow Rate {m3/s}, Def: autosize, AS, #21
+  ,   ! Cooling Capacity Function of Temperature Curve Name [BivariateFunctions], #22
+  ,   ! Fuel Input to Cooling Output Ratio Function of Temperature Curve Name [BivariateFunctions], #23
+  ,   ! Fuel Input to Cooling Output Ratio Function of Part Load Ratio Curve Name [UnivariateFunctions], #24
+  ,   ! Electric Input to Cooling Output Ratio Function of Temperature Curve Name [BivariateFunctions], #25
+  ,   ! Electric Input to Cooling Output Ratio Function of Part Load Ratio Curve Name [UnivariateFunctions], #26
+  ,   ! Heating Capacity Function of Cooling Capacity Curve Name [UnivariateFunctions], #27
+  ,   ! Fuel Input to Heat Output Ratio During Heating Only Operation Curve Name [UnivariateFunctions], #28
+  EnteringCondenser,   ! Temperature Curve Input Variable Def: EnteringCondenser, [LeavingCondenser, EnteringCondenser], #29
+  WaterCooled,   ! Condenser Type Def: WaterCooled, [AirCooled, WaterCooled], #30
+  2.0,   ! Chilled Water Temperature Lower Limit {C}, Def: 2.0, #31
+  0.0,   ! Fuel Higher Heating Value {kJ/kg}, Def: 0.0, #32
+  NaturalGas,   ! Fuel Type Def: NaturalGas, [NaturalGas, Propane, Diesel, Gasoline, FuelOilNo1, FuelOilNo2, OtherFuel1, OtherFuel2], #33
+  1.0;   ! Sizing Factor Def: 1.0, #34

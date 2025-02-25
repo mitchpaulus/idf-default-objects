@@ -1,0 +1,8 @@
+MaterialProperty:VariableAbsorptance,
+  ,   ! Name REQ, #1
+  ,   ! Reference Material Name [MaterialName], REQ, #2
+  SurfaceTemperature,   ! Control Signal Def: SurfaceTemperature, [SurfaceTemperature, SurfaceReceivedSolarRadiation, SpaceHeatingCoolingMode, Scheduled], REQ, #3
+  ,   ! Thermal Absorptance Function Name #4
+  ,   ! Thermal Absorptance Schedule Name #5
+  ,   ! Solar Absorptance Function Name #6
+  ;   ! Solar Absorptance Schedule Name #7

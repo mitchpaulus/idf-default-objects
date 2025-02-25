@@ -1,0 +1,38 @@
+Fan:ComponentModel,
+  ,   ! Name RefList: [Fans, FansComponentModel, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Air Inlet Node Name REQ, #2
+  ,   ! Air Outlet Node Name REQ, #3
+  ,   ! Availability Schedule Name [ScheduleNames], #4
+  ,   ! Maximum Flow Rate {m3/s}, AS, #5
+  ,   ! Minimum Flow Rate {m3/s}, AS, #6
+  1.0,   ! Fan Sizing Factor Def: 1.0, #7
+  ,   ! Fan Wheel Diameter {m}, REQ, #8
+  ,   ! Fan Outlet Area {m2}, REQ, #9
+  ,   ! Maximum Fan Static Efficiency REQ, #10
+  ,   ! Euler Number at Maximum Fan Static Efficiency REQ, #11
+  ,   ! Maximum Dimensionless Fan Airflow REQ, #12
+  1.0,   ! Motor Fan Pulley Ratio Def: 1.0, AS, #13
+  ,   ! Belt Maximum Torque {N-m}, AS, REQ, #14
+  1.0,   ! Belt Sizing Factor Def: 1.0, #15
+  0.167,   ! Belt Fractional Torque Transition Def: 0.167, #16
+  ,   ! Motor Maximum Speed {rev/min}, REQ, #17
+  ,   ! Maximum Motor Output Power {W}, AS, REQ, #18
+  1.0,   ! Motor Sizing Factor Def: 1.0, #19
+  1.0,   ! Motor In Airstream Fraction Def: 1.0, #20
+  ,   ! VFD Efficiency Type [Speed, Power], #21
+  ,   ! Maximum VFD Output Power {W}, AS, REQ, #22
+  1.0,   ! VFD Sizing Factor Def: 1.0, #23
+  ,   ! Fan Pressure Rise Curve Name [BivariateFunctions], REQ, #24
+  ,   ! Duct Static Pressure Reset Curve Name [UnivariateFunctions], REQ, #25
+  ,   ! Normalized Fan Static Efficiency Curve Name-Non-Stall Region [UnivariateFunctions], REQ, #26
+  ,   ! Normalized Fan Static Efficiency Curve Name-Stall Region [UnivariateFunctions], REQ, #27
+  ,   ! Normalized Dimensionless Airflow Curve Name-Non-Stall Region [UnivariateFunctions], REQ, #28
+  ,   ! Normalized Dimensionless Airflow Curve Name-Stall Region [UnivariateFunctions], REQ, #29
+  ,   ! Maximum Belt Efficiency Curve Name [UnivariateFunctions], #30
+  ,   ! Normalized Belt Efficiency Curve Name - Region 1 [UnivariateFunctions], #31
+  ,   ! Normalized Belt Efficiency Curve Name - Region 2 [UnivariateFunctions], #32
+  ,   ! Normalized Belt Efficiency Curve Name - Region 3 [UnivariateFunctions], #33
+  ,   ! Maximum Motor Efficiency Curve Name [UnivariateFunctions], #34
+  ,   ! Normalized Motor Efficiency Curve Name [UnivariateFunctions], #35
+  ,   ! VFD Efficiency Curve Name [UnivariateFunctions], #36
+  General;   ! End-Use Subcategory Def: General, #37

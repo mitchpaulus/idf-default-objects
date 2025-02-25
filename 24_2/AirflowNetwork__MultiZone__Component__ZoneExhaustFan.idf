@@ -1,0 +1,6 @@
+! Min Fields: 3
+AirflowNetwork:MultiZone:Component:ZoneExhaustFan,
+  ,   ! Name RefList: [SurfaceAirflowLeakageNames], [FansZoneExhaust], REQ, #1
+  ,   ! Air Mass Flow Coefficient When the Zone Exhaust Fan is Off at Reference Conditions {kg/s}, REQ, #2
+  0.65,   ! Air Mass Flow Exponent When the Zone Exhaust Fan is Off {dimensionless}, Def: 0.65, #3
+  ;   ! Reference Crack Conditions [ReferenceCrackConditions], #4

@@ -1,0 +1,7 @@
+! Min Fields: 5
+GroundHeatTransfer:Slab:Insulation,
+  0.0,   ! RINS: R value of under slab insulation {m2-K/W}, Def: 0.0, #1
+  0.0,   ! DINS: Width of strip of under slab insulation {m}, Def: 0.0, #2
+  0.0,   ! RVINS: R value of vertical insulation {m2-K/W}, Def: 0.0, #3
+  0,   ! ZVINS: Depth of vertical insulation {m}, Def: 0, #4
+  0;   ! IVINS: Flag: Is there vertical insulation Def: 0, [0, 1], #5

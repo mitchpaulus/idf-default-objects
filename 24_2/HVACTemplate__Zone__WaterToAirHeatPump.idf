@@ -1,0 +1,45 @@
+! Min Fields: 43
+HVACTemplate:Zone:WaterToAirHeatPump,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Template Thermostat Name [CompactHVACThermostats], #2
+  autosize,   ! Cooling Supply Air Flow Rate {m3/s}, Def: autosize, AS, #3
+  autosize,   ! Heating Supply Air Flow Rate {m3/s}, Def: autosize, AS, #4
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #5
+  ,   ! Zone Heating Sizing Factor #6
+  ,   ! Zone Cooling Sizing Factor #7
+  Flow/Person,   ! Outdoor Air Method Def: Flow/Person, [Flow/Person, Flow/Zone, Flow/Area, Sum, Maximum, DetailedSpecification], #8
+  0.00944,   ! Outdoor Air Flow Rate per Person {m3/s}, Def: 0.00944, #9
+  0.0,   ! Outdoor Air Flow Rate per Zone Floor Area {m3/s-m2}, Def: 0.0, #10
+  0.0,   ! Outdoor Air Flow Rate per Zone {m3/s}, Def: 0.0, #11
+  ,   ! System Availability Schedule Name [ScheduleNames], #12
+  ,   ! Supply Fan Operating Mode Schedule Name [ScheduleNames], #13
+  DrawThrough,   ! Supply Fan Placement Def: DrawThrough, [BlowThrough, DrawThrough], #14
+  0.7,   ! Supply Fan Total Efficiency Def: 0.7, #15
+  75,   ! Supply Fan Delta Pressure {Pa}, Def: 75, #16
+  0.9,   ! Supply Fan Motor Efficiency Def: 0.9, #17
+  Coil:Cooling:WaterToAirHeatPump:EquationFit,   ! Cooling Coil Type Def: Coil:Cooling:WaterToAirHeatPump:EquationFit, [Coil:Cooling:WaterToAirHeatPump:EquationFit], #18
+  autosize,   ! Cooling Coil Gross Rated Total Capacity {W}, Def: autosize, AS, #19
+  autosize,   ! Cooling Coil Gross Rated Sensible Heat Ratio Def: autosize, AS, #20
+  3.5,   ! Cooling Coil Gross Rated COP {W/W}, Def: 3.5, #21
+  Coil:Heating:WaterToAirHeatPump:EquationFit,   ! Heat Pump Heating Coil Type Def: Coil:Heating:WaterToAirHeatPump:EquationFit, [Coil:Heating:WaterToAirHeatPump:EquationFit], #22
+  autosize,   ! Heat Pump Heating Coil Gross Rated Capacity {W}, Def: autosize, AS, #23
+  4.2,   ! Heat Pump Heating Coil Gross Rated COP {W/W}, Def: 4.2, #24
+  ,   ! Supplemental Heating Coil Availability Schedule Name [ScheduleNames], #25
+  autosize,   ! Supplemental Heating Coil Capacity {W}, Def: autosize, AS, #26
+  2.5,   ! Maximum Cycling Rate {cycles/hr}, Def: 2.5, #27
+  60.0,   ! Latent Capacity Time Constant {s}, Def: 60.0, #28
+  60,   ! Heat Pump Fan Delay Time {s}, Def: 60, #29
+  ,   ! Dedicated Outdoor Air System Name [HVACTemplateDOASSystems], #30
+  Electric,   ! Supplemental Heating Coil Type Def: Electric, [Electric, HotWater], #31
+  SupplyAirTemperature,   ! Zone Cooling Design Supply Air Temperature Input Method Def: SupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference], #32
+  14.0,   ! Zone Cooling Design Supply Air Temperature {C}, Def: 14.0, #33
+  11.11,   ! Zone Cooling Design Supply Air Temperature Difference {deltaC}, Def: 11.11, #34
+  SupplyAirTemperature,   ! Zone Heating Design Supply Air Temperature Input Method Def: SupplyAirTemperature, [SupplyAirTemperature, TemperatureDifference], #35
+  50.0,   ! Zone Heating Design Supply Air Temperature {C}, Def: 50.0, #36
+  30.0,   ! Zone Heating Design Supply Air Temperature Difference {deltaC}, Def: 30.0, #37
+  Cycling,   ! Heat Pump Coil Water Flow Mode Def: Cycling, [Constant, Cycling, ConstantOnDemand], #38
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames, DSOASpaceListNames], #39
+  ,   ! Design Specification Zone Air Distribution Object Name [DesignSpecificationZoneAirDistributionNames], #40
+  None,   ! Baseboard Heating Type Def: None, [HotWater, Electric, None], #41
+  ,   ! Baseboard Heating Availability Schedule Name [ScheduleNames], #42
+  autosize;   ! Baseboard Heating Capacity {W}, Def: autosize, AS, #43

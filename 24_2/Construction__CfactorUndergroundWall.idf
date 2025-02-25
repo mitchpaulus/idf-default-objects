@@ -1,0 +1,4 @@
+Construction:CfactorUndergroundWall,
+  ,   ! Name RefList: [ConstructionNames], REQ, #1
+  ,   ! C-Factor {W/m2-K}, REQ, #2
+  ;   ! Height {m}, REQ, #3

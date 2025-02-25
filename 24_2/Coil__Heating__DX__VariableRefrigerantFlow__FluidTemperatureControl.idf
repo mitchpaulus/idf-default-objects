@@ -1,0 +1,9 @@
+! Min Fields: 5
+Coil:Heating:DX:VariableRefrigerantFlow:FluidTemperatureControl,
+  ,   ! Name RefList: [HeatingCoilsDXVarRefrigFlowFluidTemperatureControl], REQ, #1
+  ,   ! Availability Schedule [ScheduleNames], #2
+  ,   ! Coil Air Inlet Node REQ, #3
+  ,   ! Coil Air Outlet Node REQ, #4
+  ,   ! Rated Total Heating Capacity {W}, AS, REQ, #5
+  5.0,   ! Indoor Unit Reference Subcooling {deltaC}, Def: 5.0, #6
+  ;   ! Indoor Unit Condensing Temperature Function of Subcooling Curve Name [UnivariateFunctions], REQ, #7

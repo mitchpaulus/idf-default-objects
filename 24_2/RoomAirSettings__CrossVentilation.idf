@@ -1,0 +1,4 @@
+RoomAirSettings:CrossVentilation,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Gain Distribution Schedule Name [ScheduleNames], REQ, #2
+  ;   ! Airflow Region Used for Thermal Comfort Evaluation [Jet, Recirculation], #3

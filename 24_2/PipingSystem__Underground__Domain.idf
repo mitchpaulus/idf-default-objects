@@ -1,0 +1,33 @@
+! Min Fields: 31
+PipingSystem:Underground:Domain,
+  ,   ! Name REQ, #1
+  ,   ! Xmax {m}, REQ, #2
+  ,   ! Ymax {m}, REQ, #3
+  ,   ! Zmax {m}, REQ, #4
+  4,   ! X-Direction Mesh Density Parameter Def: 4, #5
+  ,   ! X-Direction Mesh Type [Uniform, SymmetricGeometric], REQ, #6
+  1.3,   ! X-Direction Geometric Coefficient Def: 1.3, #7
+  4,   ! Y-Direction Mesh Density Parameter Def: 4, #8
+  ,   ! Y-Direction Mesh Type [Uniform, SymmetricGeometric], REQ, #9
+  1.3,   ! Y-Direction Geometric Coefficient Def: 1.3, #10
+  4,   ! Z-Direction Mesh Density Parameter Def: 4, #11
+  ,   ! Z-Direction Mesh Type [Uniform, SymmetricGeometric], REQ, #12
+  1.3,   ! Z-Direction Geometric Coefficient Def: 1.3, #13
+  ,   ! Soil Thermal Conductivity {W/m-K}, REQ, #14
+  ,   ! Soil Density {kg/m3}, REQ, #15
+  ,   ! Soil Specific Heat {J/kg-K}, REQ, #16
+  30,   ! Soil Moisture Content Volume Fraction {percent}, Def: 30, #17
+  50,   ! Soil Moisture Content Volume Fraction at Saturation {percent}, Def: 50, #18
+  ,   ! Undisturbed Ground Temperature Model Type [Site:GroundTemperature:Undisturbed:FiniteDifference, Site:GroundTemperature:Undisturbed:KusudaAchenbach, Site:GroundTemperature:Undisturbed:Xing], REQ, #19
+  ,   ! Undisturbed Ground Temperature Model Name [UndisturbedGroundTempModels], REQ, #20
+  No,   ! This Domain Includes Basement Surface Interaction Def: No, [Yes, No], #21
+  ,   ! Width of Basement Floor in Ground Domain {m}, #22
+  ,   ! Depth of Basement Wall In Ground Domain {m}, #23
+  ,   ! Shift Pipe X Coordinates By Basement Width [Yes, No], #24
+  ,   ! Name of Basement Wall Boundary Condition Model [OSCMNames], #25
+  ,   ! Name of Basement Floor Boundary Condition Model [OSCMNames], #26
+  0.001,   ! Convergence Criterion for the Outer Cartesian Domain Iteration Loop {deltaC}, Def: 0.001, #27
+  500,   ! Maximum Iterations in the Outer Cartesian Domain Iteration Loop Def: 500, #28
+  0.4,   ! Evapotranspiration Ground Cover Parameter Def: 0.4, #29
+  ,   ! Number of Pipe Circuits Entered for this Domain REQ, #30
+  ;   ! Pipe Circuit 1 [PipingSystemUndergroundCircuitNames], REQ, #31

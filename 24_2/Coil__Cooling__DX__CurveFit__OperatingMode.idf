@@ -1,0 +1,24 @@
+! Min Fields: 13
+Coil:Cooling:DX:CurveFit:OperatingMode,
+  ,   ! Name RefList: [DXCoolingOperatingModeNames], REQ, #1
+  autosize,   ! Rated Gross Total Cooling Capacity {W}, Def: autosize, AS, #2
+  ,   ! Rated Evaporator Air Flow Rate {m3/s}, AS, #3
+  ,   ! Rated Condenser Air Flow Rate {m3/s}, AS, #4
+  0.0,   ! Maximum Cycling Rate {cycles/hr}, Def: 0.0, #5
+  0.0,   ! Ratio of Initial Moisture Evaporation Rate and Steady State Latent Capacity {dimensionless}, Def: 0.0, #6
+  0.0,   ! Latent Capacity Time Constant {s}, Def: 0.0, #7
+  0.0,   ! Nominal Time for Condensate Removal to Begin {s}, Def: 0.0, #8
+  No,   ! Apply Latent Degradation to Speeds Greater than 1 Def: No, [Yes, No], #9
+  AirCooled,   ! Condenser Type Def: AirCooled, [AirCooled, EvaporativelyCooled], #10
+  0.0,   ! Nominal Evaporative Condenser Pump Power {W}, Def: 0.0, AS, #11
+  ,   ! Nominal Speed Number #12
+  ,   ! Speed 1 Name [DXCoolingSpeedNames], REQ, #13
+  ,   ! Speed 2 Name [DXCoolingSpeedNames], #14
+  ,   ! Speed 3 Name [DXCoolingSpeedNames], #15
+  ,   ! Speed 4 Name [DXCoolingSpeedNames], #16
+  ,   ! Speed 5 Name [DXCoolingSpeedNames], #17
+  ,   ! Speed 6 Name [DXCoolingSpeedNames], #18
+  ,   ! Speed 7 Name [DXCoolingSpeedNames], #19
+  ,   ! Speed 8 Name [DXCoolingSpeedNames], #20
+  ,   ! Speed 9 Name [DXCoolingSpeedNames], #21
+  ;   ! Speed 10 Name [DXCoolingSpeedNames], #22

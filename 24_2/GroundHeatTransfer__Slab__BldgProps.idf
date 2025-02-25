@@ -1,0 +1,18 @@
+GroundHeatTransfer:Slab:BldgProps,
+  10,   ! IYRS: Number of years to iterate Def: 10, #1
+  ,   ! Shape: Slab shape #2
+  ,   ! HBLDG: Building height {m}, #3
+  22,   ! TIN1: January Indoor Average Temperature Setpoint {C}, Def: 22, #4
+  22,   ! TIN2: February Indoor Average Temperature Setpoint {C}, Def: 22, #5
+  22,   ! TIN3: March Indoor Average Temperature Setpoint {C}, Def: 22, #6
+  22,   ! TIN4: April Indoor Average Temperature Setpoint {C}, Def: 22, #7
+  22,   ! TIN5: May Indoor Average Temperature Setpoint {C}, Def: 22, #8
+  22,   ! TIN6: June Indoor Average Temperature Setpoint {C}, Def: 22, #9
+  22,   ! TIN7: July Indoor Average Temperature Setpoint {C}, Def: 22, #10
+  22,   ! TIN8: August Indoor Average Temperature Setpoint {C}, Def: 22, #11
+  22,   ! TIN9: September Indoor Average Temperature Setpoint {C}, Def: 22, #12
+  22,   ! TIN10: October Indoor Average Temperature Setpoint {C}, Def: 22, #13
+  22,   ! TIN11: November Indoor Average Temperature Setpoint {C}, Def: 22, #14
+  22,   ! TIN12: December Indoor Average Temperature Setpoint {C}, Def: 22, #15
+  0,   ! TINAmp: Daily Indoor sine wave variation amplitude {deltaC}, Def: 0, #16
+  0.1;   ! ConvTol: Convergence Tolerance Def: 0.1, #17

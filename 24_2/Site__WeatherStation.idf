@@ -1,0 +1,5 @@
+Site:WeatherStation,
+  10.0,   ! Wind Sensor Height Above Ground {m}, Def: 10.0, #1
+  0.14,   ! Wind Speed Profile Exponent Def: 0.14, #2
+  270.0,   ! Wind Speed Profile Boundary Layer Thickness {m}, Def: 270.0, #3
+  1.5;   ! Air Temperature Sensor Height Above Ground {m}, Def: 1.5, #4

@@ -1,0 +1,18 @@
+WindowShadingControl,
+  ,   ! Name RefList: [WindowShadeControlNames], REQ, #1
+  ,   ! Zone Name [ZoneNames], REQ, #2
+  1,   ! Shading Control Sequence Number Def: 1, #3
+  ,   ! Shading Type [InteriorShade, ExteriorShade, ExteriorScreen, InteriorBlind, ExteriorBlind, BetweenGlassShade, BetweenGlassBlind, SwitchableGlazing], REQ, #4
+  ,   ! Construction with Shading Name [ConstructionNames], #5
+  ,   ! Shading Control Type [AlwaysOn, AlwaysOff, OnIfScheduleAllows, OnIfHighSolarOnWindow, OnIfHighHorizontalSolar, OnIfHighOutdoorAirTemperature, OnIfHighZoneAirTemperature, OnIfHighZoneCooling, OnIfHighGlare, MeetDaylightIlluminanceSetpoint, OnNightIfLowOutdoorTempAndOffDay, OnNightIfLowInsideTempAndOffDay, OnNightIfHeatingAndOffDay, OnNightIfLowOutdoorTempAndOnDayIfCooling, OnNightIfHeatingAndOnDayIfCooling, OffNightAndOnDayIfCoolingAndHighSolarOnWindow, OnNightAndOnDayIfCoolingAndHighSolarOnWindow, OnIfHighOutdoorAirTempAndHighSolarOnWindow, OnIfHighOutdoorAirTempAndHighHorizontalSolar, OnIfHighZoneAirTempAndHighSolarOnWindow, OnIfHighZoneAirTempAndHighHorizontalSolar, OnIfHighSolarOrHighLuminanceTillMidnight, OnIfHighSolarOrHighLuminanceTillSunset, OnIfHighSolarOrHighLuminanceTillNextMorning], REQ, #6
+  ,   ! Schedule Name [ScheduleNames], #7
+  ,   ! Setpoint {W/m2, W or deg C}, #8
+  No,   ! Shading Control Is Scheduled Def: No, [No, Yes], #9
+  No,   ! Glare Control Is Active Def: No, [No, Yes], #10
+  ,   ! Shading Device Material Name [WindowShadesScreensAndBlinds], #11
+  FixedSlatAngle,   ! Type of Slat Angle Control for Blinds Def: FixedSlatAngle, [FixedSlatAngle, ScheduledSlatAngle, BlockBeamSolar], #12
+  ,   ! Slat Angle Schedule Name [ScheduleNames], #13
+  ,   ! Setpoint 2 {W/m2, deg C or cd/m2}, #14
+  ,   ! Daylighting Control Object Name [DaylightingControlNames], #15
+  Sequential,   ! Multiple Surface Control Type Def: Sequential, [Sequential, Group], #16
+  ;   ! Fenestration Surface 1 Name [GlazedExtSubSurfNames], REQ, #17

@@ -1,0 +1,14 @@
+! Min Fields: 7
+HVACTemplate:Plant:Chiller,
+  ,   ! Name REQ, #1
+  ,   ! Chiller Type [DistrictChilledWater, ElectricCentrifugalChiller, ElectricScrewChiller, ElectricReciprocatingChiller], REQ, #2
+  autosize,   ! Capacity {W}, Def: autosize, AS, #3
+  ,   ! Nominal COP {W/W}, REQ, #4
+  WaterCooled,   ! Condenser Type Def: WaterCooled, [AirCooled, WaterCooled, EvaporativelyCooled], #5
+  ,   ! Priority #6
+  1.0,   ! Sizing Factor Def: 1.0, #7
+  0.0,   ! Minimum Part Load Ratio Def: 0.0, #8
+  1.0,   ! Maximum Part Load Ratio Def: 1.0, #9
+  1.0,   ! Optimum Part Load Ratio Def: 1.0, #10
+  0.25,   ! Minimum Unloading Ratio Def: 0.25, #11
+  5.0;   ! Leaving Chilled Water Lower Temperature Limit {C}, Def: 5.0, #12

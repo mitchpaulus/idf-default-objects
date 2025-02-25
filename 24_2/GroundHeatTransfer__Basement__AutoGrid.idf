@@ -1,0 +1,7 @@
+GroundHeatTransfer:Basement:AutoGrid,
+  15,   ! CLEARANCE: Distance from outside of wall to edge, {m}, Def: 15, #1
+  ,   ! SLABX: X dimension of the building slab {m}, REQ, #2
+  ,   ! SLABY: Y dimension of the building slab {m}, REQ, #3
+  0,   ! ConcAGHeight: Height of the foundation wall above grade {m}, Def: 0, #4
+  0.1,   ! SlabDepth: Thickness of the floor slab {m}, Def: 0.1, #5
+  2;   ! BaseDepth: Depth of the basement wall below grade {m}, Def: 2, #6

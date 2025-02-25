@@ -1,0 +1,8 @@
+! Min Fields: 6
+ZoneEarthtube:Parameters,
+  ,   ! Earth Tube Model Parameters Name RefList: [EarthTubeParameterNames], REQ, #1
+  5,   ! Nodes Above Earth Tube {dimensionless}, Def: 5, #2
+  3,   ! Nodes Below Earth Tube {dimensionless}, Def: 3, #3
+  1.0,   ! Earth Tube Dimensionless Boundary Above {dimensionless}, Def: 1.0, #4
+  0.25,   ! Earth Tube Dimensionless Boundary Below {dimensionless}, Def: 0.25, #5
+  4.0;   ! Earth Tube Solution Space Width {dimensionless}, Def: 4.0, #6

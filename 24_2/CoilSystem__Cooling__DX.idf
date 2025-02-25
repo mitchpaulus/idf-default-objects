@@ -1,0 +1,14 @@
+! Min Fields: 7
+CoilSystem:Cooling:DX,
+  ,   ! Name RefList: [CoolingCoilSystemName, validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! DX Cooling Coil System Inlet Node Name REQ, #3
+  ,   ! DX Cooling Coil System Outlet Node Name REQ, #4
+  ,   ! DX Cooling Coil System Sensor Node Name REQ, #5
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX, Coil:Cooling:DX:SingleSpeed, CoilSystem:Cooling:DX:HeatExchangerAssisted, Coil:Cooling:DX:TwoSpeed, Coil:Cooling:DX:TwoStageWithHumidityControlMode, Coil:Cooling:DX:VariableSpeed, Coil:Cooling:DX:SingleSpeed:ThermalStorage], REQ, #6
+  ,   ! Cooling Coil Name [CoilCoolingDX, CoolingCoilsDX, CoolingCoilsDXVariableSpeed], REQ, #7
+  None,   ! Dehumidification Control Type Def: None, [None, Multimode, CoolReheat], #8
+  Yes,   ! Run on Sensible Load Def: Yes, [Yes, No], #9
+  No,   ! Run on Latent Load Def: No, [Yes, No], #10
+  No,   ! Use Outdoor Air DX Cooling Coil Def: No, [Yes, No], #11
+  2.0;   ! Outdoor Air DX Cooling Coil Leaving Minimum Air Temperature {C}, Def: 2.0, #12

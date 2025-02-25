@@ -1,0 +1,7 @@
+SolarCollectorPerformance:PhotovoltaicThermal:Simple,
+  ,   ! Name RefList: [FlatPlatePVTParameters], #1
+  ,   ! Fraction of Surface Area with Active Thermal Collector {dimensionless}, REQ, #2
+  ,   ! Thermal Conversion Efficiency Input Mode Type [Fixed, Scheduled], #3
+  ,   ! Value for Thermal Conversion Efficiency if Fixed #4
+  ,   ! Thermal Conversion Efficiency Schedule Name [ScheduleNames], #5
+  0.84;   ! Front Surface Emittance Def: 0.84, #6

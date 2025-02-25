@@ -1,0 +1,20 @@
+! Min Fields: 8
+Dehumidifier:Desiccant:System,
+  ,   ! Name RefList: [validBranchEquipmentNames, validOASysEquipmentNames], RefClassList: [validBranchEquipmentTypes, validOASysEquipmentTypes], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Desiccant Heat Exchanger Object Type [HeatExchanger:Desiccant:BalancedFlow], REQ, #3
+  ,   ! Desiccant Heat Exchanger Name [HXDesiccantBalanced], REQ, #4
+  ,   ! Sensor Node Name REQ, #5
+  ,   ! Regeneration Air Fan Object Type [Fan:SystemModel, Fan:OnOff, Fan:ConstantVolume], REQ, #6
+  ,   ! Regeneration Air Fan Name [FansOnOffandVAV, FansSystemModel], REQ, #7
+  DrawThrough,   ! Regeneration Air Fan Placement Def: DrawThrough, [BlowThrough, DrawThrough], #8
+  ,   ! Regeneration Air Heater Object Type [Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Water, Coil:Heating:Steam], #9
+  ,   ! Regeneration Air Heater Name [HeatingCoilName], #10
+  46.0,   ! Regeneration Inlet Air Setpoint Temperature {C}, Def: 46.0, #11
+  ,   ! Companion Cooling Coil Object Type [Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:TwoStageWithHumidityControlMode, Coil:Cooling:DX:VariableSpeed], #12
+  ,   ! Companion Cooling Coil Name [CoolingCoilsDXMultiModeOrSingleSpeed, CoolingCoilsDXVariableSpeed], #13
+  No,   ! Companion Cooling Coil Upstream of Dehumidifier Process Inlet Def: No, [Yes, No], #14
+  No,   ! Companion Coil Regeneration Air Heating Def: No, [Yes, No], #15
+  ,   ! Exhaust Fan Maximum Flow Rate {m3/s}, #16
+  ,   ! Exhaust Fan Maximum Power {W}, #17
+  ;   ! Exhaust Fan Power Curve Name [UnivariateFunctions], #18

@@ -1,0 +1,4 @@
+Schedule:Constant,
+  ,   ! Name RefList: [ScheduleNames], REQ, #1
+  ,   ! Schedule Type Limits Name [ScheduleTypeLimitsNames], #2
+  0;   ! Hourly Value Def: 0, #3

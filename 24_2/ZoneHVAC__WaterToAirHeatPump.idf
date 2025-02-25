@@ -1,0 +1,33 @@
+! Min Fields: 22
+ZoneHVAC:WaterToAirHeatPump,
+  ,   ! Name RefList: [DOAToZonalUnit, ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Outdoor Air Mixer Object Type [OutdoorAir:Mixer], #5
+  ,   ! Outdoor Air Mixer Name [OutdoorAirMixers], #6
+  ,   ! Cooling Supply Air Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Heating Supply Air Flow Rate {m3/s}, AS, REQ, #8
+  ,   ! No Load Supply Air Flow Rate {m3/s}, AS, #9
+  Yes,   ! No Load Supply Air Flow Rate Control Set To Low Speed Def: Yes, [Yes, No], #10
+  ,   ! Cooling Outdoor Air Flow Rate {m3/s}, AS, REQ, #11
+  ,   ! Heating Outdoor Air Flow Rate {m3/s}, AS, REQ, #12
+  ,   ! No Load Outdoor Air Flow Rate {m3/s}, AS, #13
+  ,   ! Supply Air Fan Object Type [Fan:SystemModel, Fan:OnOff], REQ, #14
+  ,   ! Supply Air Fan Name [FansOnOff, FansSystemModel], REQ, #15
+  ,   ! Heating Coil Object Type [Coil:Heating:WaterToAirHeatPump:EquationFit, Coil:Heating:WaterToAirHeatPump:VariableSpeedEquationFit], REQ, #16
+  ,   ! Heating Coil Name [HeatingCoilsWaterToAirHP, HeatingCoilsWaterToAirVSHP], REQ, #17
+  ,   ! Cooling Coil Object Type [Coil:Cooling:WaterToAirHeatPump:EquationFit, Coil:Cooling:WaterToAirHeatPump:VariableSpeedEquationFit], REQ, #18
+  ,   ! Cooling Coil Name [CoolingCoilsWaterToAirHP, CoolingCoilsWaterToAirVSHP], REQ, #19
+  ,   ! Supplemental Heating Coil Object Type [Coil:Heating:Fuel, Coil:Heating:Electric, Coil:Heating:Water, Coil:Heating:Steam], REQ, #20
+  ,   ! Supplemental Heating Coil Name [HeatingCoilName], REQ, #21
+  autosize,   ! Maximum Supply Air Temperature from Supplemental Heater {C}, Def: autosize, AS, REQ, #22
+  21.0,   ! Maximum Outdoor Dry-Bulb Temperature for Supplemental Heater Operation {C}, Def: 21.0, #23
+  ,   ! Outdoor Dry-Bulb Temperature Sensor Node Name #24
+  BlowThrough,   ! Fan Placement Def: BlowThrough, [BlowThrough, DrawThrough], #25
+  ,   ! Supply Air Fan Operating Mode Schedule Name [ScheduleNames], #26
+  ,   ! Availability Manager List Name [SystemAvailabilityManagerLists], #27
+  Cycling,   ! Heat Pump Coil Water Flow Mode Def: Cycling, [Constant, Cycling, ConstantOnDemand], #28
+  ,   ! Design Specification ZoneHVAC Sizing Object Name [DesignSpecificationZoneHVACSizingName], #29
+  ,   ! Design Specification Multispeed Object Type [UnitarySystemPerformance:Multispeed], #30
+  ;   ! Design Specification Multispeed Object Name [UnitarySystemPerformanceNames], #31

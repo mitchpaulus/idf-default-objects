@@ -1,0 +1,7 @@
+! Min Fields: 5
+CoilSystem:Cooling:DX:HeatExchangerAssisted,
+  ,   ! Name RefList: [CoolingCoilsDX, CoolingCoilsDXSingleSpeed, CoolingCoilsDXMultiModeOrSingleSpeed], REQ, #1
+  ,   ! Heat Exchanger Object Type [HeatExchanger:AirToAir:FlatPlate, HeatExchanger:AirToAir:SensibleAndLatent, HeatExchanger:Desiccant:BalancedFlow], REQ, #2
+  ,   ! Heat Exchanger Name [HXAirToAirNames], REQ, #3
+  ,   ! Cooling Coil Object Type [Coil:Cooling:DX, Coil:Cooling:DX:SingleSpeed, Coil:Cooling:DX:VariableSpeed], REQ, #4
+  ;   ! Cooling Coil Name [CoilCoolingDX, CoolingCoilsDXSingleSpeed, CoolingCoilsDXVariableSpeed], REQ, #5

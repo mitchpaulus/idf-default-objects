@@ -1,0 +1,10 @@
+OutdoorAir:Node,
+  ,   ! Name RefList: [OutdoorAirNodeNames], REQ, #1
+  -1.0,   ! Height Above Ground {m}, Def: -1.0, #2
+  ,   ! Drybulb Temperature Schedule Name [ScheduleNames], #3
+  ,   ! Wetbulb Temperature Schedule Name [ScheduleNames], #4
+  ,   ! Wind Speed Schedule Name [ScheduleNames], #5
+  ,   ! Wind Direction Schedule Name [ScheduleNames], #6
+  ,   ! Wind Pressure Coefficient Curve Name [WPCValueNames, UnivariateFunctions], #7
+  No,   ! Symmetric Wind Pressure Coefficient Curve Def: No, [Yes, No], #8
+  Absolute;   ! Wind Angle Type Def: Absolute, [Absolute, Relative], #9

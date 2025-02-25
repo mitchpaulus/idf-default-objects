@@ -1,0 +1,16 @@
+! Min Fields: 13
+ZoneHVAC:Dehumidifier:DX,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Inlet Node Name REQ, #3
+  ,   ! Air Outlet Node Name REQ, #4
+  ,   ! Rated Water Removal {L/day}, REQ, #5
+  ,   ! Rated Energy Factor {L/kWh}, REQ, #6
+  ,   ! Rated Air Flow Rate {m3/s}, REQ, #7
+  ,   ! Water Removal Curve Name [BivariateFunctions], REQ, #8
+  ,   ! Energy Factor Curve Name [BivariateFunctions], REQ, #9
+  ,   ! Part Load Fraction Correlation Curve Name [UnivariateFunctions], REQ, #10
+  10.0,   ! Minimum Dry-Bulb Temperature for Dehumidifier Operation {C}, Def: 10.0, #11
+  35.0,   ! Maximum Dry-Bulb Temperature for Dehumidifier Operation {C}, Def: 35.0, #12
+  0.0,   ! Off-Cycle Parasitic Electric Load {W}, Def: 0.0, #13
+  ;   ! Condensate Collection Water Storage Tank Name [WaterStorageTankNames], #14

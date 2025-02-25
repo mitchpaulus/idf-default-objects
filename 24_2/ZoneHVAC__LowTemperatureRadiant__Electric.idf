@@ -1,0 +1,14 @@
+! Min Fields: 12
+ZoneHVAC:LowTemperatureRadiant:Electric,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], #3
+  ,   ! Surface Name or Radiant Surface Group Name [RadiantSurfaceNames, RadiantGroupNames], #4
+  HeatingDesignCapacity,   ! Heating Design Capacity Method Def: HeatingDesignCapacity, [HeatingDesignCapacity, CapacityPerFloorArea, FractionOfAutosizedHeatingCapacity], #5
+  autosize,   ! Heating Design Capacity {W}, Def: autosize, AS, #6
+  ,   ! Heating Design Capacity Per Floor Area {W/m2}, #7
+  1.0,   ! Fraction of Autosized Heating Design Capacity Def: 1.0, #8
+  MeanAirTemperature,   ! Temperature Control Type Def: MeanAirTemperature, [MeanAirTemperature, MeanRadiantTemperature, OperativeTemperature, OutdoorDryBulbTemperature, OutdoorWetBulbTemperature, SurfaceFaceTemperature, SurfaceInteriorTemperature], #9
+  HalfFlowPower,   ! Setpoint Control Type Def: HalfFlowPower, [HalfFlowPower, ZeroFlowPower], #10
+  0,   ! Heating Throttling Range {deltaC}, Def: 0, #11
+  ;   ! Heating Setpoint Temperature Schedule Name [ScheduleNames], REQ, #12

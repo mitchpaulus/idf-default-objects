@@ -1,0 +1,4 @@
+! Min Fields: 2
+RoomAir:Node:AirflowNetwork:AdjacentSurfaceList,
+  ,   ! Name RefList: [RoomAirNodeSurfaceLists], #1
+  ;   ! Surface 1 Name [AllHeatTranSurfNames], #2

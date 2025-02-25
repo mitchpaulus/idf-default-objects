@@ -1,0 +1,7 @@
+! Min Fields: 4
+AirflowNetwork:IntraZone:Linkage,
+  ,   ! Name RefList: [AirflowNetwork LinkageNames], REQ, #1
+  ,   ! Node 1 Name [AirflowNetworkNodeNames, ZoneNames], REQ, #2
+  ,   ! Node 2 Name [AirflowNetworkNodeNames, ZoneNames], REQ, #3
+  ,   ! Component Name [AirflowNetworkComponentNames], #4
+  ;   ! AirflowNetwork:MultiZone:Surface Name [SurfAndSubSurfNames], #5

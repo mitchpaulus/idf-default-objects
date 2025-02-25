@@ -1,0 +1,12 @@
+! Min Fields: 9
+Coil:Cooling:DX:VariableRefrigerantFlow,
+  ,   ! Name RefList: [CoolingCoilsDXVarRefrigFlow], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Gross Rated Total Cooling Capacity {W}, AS, REQ, #3
+  ,   ! Gross Rated Sensible Heat Ratio AS, REQ, #4
+  ,   ! Rated Air Flow Rate {m3/s}, AS, REQ, #5
+  ,   ! Cooling Capacity Ratio Modifier Function of Temperature Curve Name [UnivariateFunctions, BivariateFunctions], REQ, #6
+  ,   ! Cooling Capacity Modifier Curve Function of Flow Fraction Name [UnivariateFunctions], REQ, #7
+  ,   ! Coil Air Inlet Node REQ, #8
+  ,   ! Coil Air Outlet Node REQ, #9
+  ;   ! Name of Water Storage Tank for Condensate Collection [WaterStorageTankNames], #10

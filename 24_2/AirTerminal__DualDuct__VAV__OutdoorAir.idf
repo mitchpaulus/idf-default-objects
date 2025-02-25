@@ -1,0 +1,10 @@
+! Min Fields: 7
+AirTerminal:DualDuct:VAV:OutdoorAir,
+  ,   ! Name RefList: [AirTerminalUnitNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Air Outlet Node Name REQ, #3
+  ,   ! Outdoor Air Inlet Node Name REQ, #4
+  ,   ! Recirculated Air Inlet Node Name #5
+  ,   ! Maximum Terminal Air Flow Rate {m3/s}, AS, REQ, #6
+  ,   ! Design Specification Outdoor Air Object Name [DesignSpecificationOutdoorAirNames, DSOASpaceListNames], REQ, #7
+  ;   ! Per Person Ventilation Rate Mode [CurrentOccupancy, DesignOccupancy], #8

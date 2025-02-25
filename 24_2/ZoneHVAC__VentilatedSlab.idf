@@ -1,0 +1,42 @@
+! Min Fields: 32
+ZoneHVAC:VentilatedSlab,
+  ,   ! Name RefList: [ZoneEquipmentNames], REQ, #1
+  ,   ! Availability Schedule Name [ScheduleNames], #2
+  ,   ! Zone Name [ZoneNames], REQ, #3
+  ,   ! Surface Name or Radiant Surface Group Name [RadiantSurfaceNames, VentSlabGroupNames], #4
+  ,   ! Maximum Air Flow Rate {m3/s}, AS, REQ, #5
+  ,   ! Outdoor Air Control Type [VariablePercent, FixedTemperature, FixedAmount], REQ, #6
+  ,   ! Minimum Outdoor Air Flow Rate {m3/s}, AS, REQ, #7
+  ,   ! Minimum Outdoor Air Schedule Name [ScheduleNames], REQ, #8
+  ,   ! Maximum Outdoor Air Flow Rate {m3/s}, AS, REQ, #9
+  ,   ! Maximum Outdoor Air Fraction or Temperature Schedule Name [ScheduleNames], REQ, #10
+  SlabOnly,   ! System Configuration Type Def: SlabOnly, [SlabOnly, SlabAndZone, SeriesSlabs], #11
+  0.05,   ! Hollow Core Inside Diameter {m}, Def: 0.05, #12
+  ,   ! Hollow Core Length {m}, #13
+  ,   ! Number of Cores #14
+  OutdoorDryBulbTemperature,   ! Temperature Control Type Def: OutdoorDryBulbTemperature, [MeanAirTemperature, MeanRadiantTemperature, OperativeTemperature, OutdoorDryBulbTemperature, OutdoorWetBulbTemperature, SurfaceTemperature, ZoneAirDewPointTemperature], #15
+  ,   ! Heating High Air Temperature Schedule Name [ScheduleNames], REQ, #16
+  ,   ! Heating Low Air Temperature Schedule Name [ScheduleNames], REQ, #17
+  ,   ! Heating High Control Temperature Schedule Name [ScheduleNames], REQ, #18
+  ,   ! Heating Low Control Temperature Schedule Name [ScheduleNames], REQ, #19
+  ,   ! Cooling High Air Temperature Schedule Name [ScheduleNames], REQ, #20
+  ,   ! Cooling Low Air Temperature Schedule Name [ScheduleNames], REQ, #21
+  ,   ! Cooling High Control Temperature Schedule Name [ScheduleNames], REQ, #22
+  ,   ! Cooling Low Control Temperature Schedule Name [ScheduleNames], REQ, #23
+  ,   ! Return Air Node Name REQ, #24
+  ,   ! Slab In Node Name REQ, #25
+  ,   ! Zone Supply Air Node Name #26
+  ,   ! Outdoor Air Node Name REQ, #27
+  ,   ! Relief Air Node Name REQ, #28
+  ,   ! Outdoor Air Mixer Outlet Node Name REQ, #29
+  ,   ! Fan Outlet Node Name REQ, #30
+  ,   ! Fan Name [FansCV, FansSystemModel], REQ, #31
+  ,   ! Coil Option Type [None, Heating, Cooling, HeatingAndCooling], REQ, #32
+  ,   ! Heating Coil Object Type [Coil:Heating:Water, Coil:Heating:Electric, Coil:Heating:Fuel, Coil:Heating:Steam], #33
+  ,   ! Heating Coil Name [HeatingCoilName], #34
+  ,   ! Hot Water or Steam Inlet Node Name #35
+  ,   ! Cooling Coil Object Type [Coil:Cooling:Water, Coil:Cooling:Water:DetailedGeometry, CoilSystem:Cooling:Water:HeatExchangerAssisted], #36
+  ,   ! Cooling Coil Name [CoolingCoilsWater], #37
+  ,   ! Cold Water Inlet Node Name #38
+  ,   ! Availability Manager List Name [SystemAvailabilityManagerLists], #39
+  ;   ! Design Specification ZoneHVAC Sizing Object Name [DesignSpecificationZoneHVACSizingName], #40

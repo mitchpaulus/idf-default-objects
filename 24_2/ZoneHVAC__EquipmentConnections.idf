@@ -1,0 +1,9 @@
+ZoneHVAC:EquipmentConnections,
+  ,   ! Zone Name [ZoneNames], REQ, #1
+  ,   ! Zone Conditioning Equipment List Name [ZoneEquipmentLists], REQ, #2
+  ,   ! Zone Air Inlet Node or NodeList Name #3
+  ,   ! Zone Air Exhaust Node or NodeList Name #4
+  ,   ! Zone Air Node Name REQ, #5
+  ,   ! Zone Return Air Node or NodeList Name #6
+  ,   ! Zone Return Air Node 1 Flow Rate Fraction Schedule Name [ScheduleNames], #7
+  ;   ! Zone Return Air Node 1 Flow Rate Basis Node or NodeList Name #8

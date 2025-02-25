@@ -1,0 +1,25 @@
+! Min Fields: 23
+SolarCollector:UnglazedTranspired,
+  ,   ! Name RefList: [UTSCNames, validOASysEquipmentNames], RefClassList: [validOASysEquipmentTypes], REQ, #1
+  ,   ! Boundary Conditions Model Name [OSCMNames], REQ, #2
+  ,   ! Availability Schedule Name [ScheduleNames], #3
+  ,   ! Inlet Node Name #4
+  ,   ! Outlet Node Name #5
+  ,   ! Setpoint Node Name #6
+  ,   ! Zone Node Name #7
+  ,   ! Free Heating Setpoint Schedule Name [ScheduleNames], #8
+  ,   ! Diameter of Perforations in Collector {m}, REQ, #9
+  ,   ! Distance Between Perforations in Collector {m}, REQ, #10
+  ,   ! Thermal Emissivity of Collector Surface {dimensionless}, REQ, #11
+  ,   ! Solar Absorbtivity of Collector Surface {dimensionless}, REQ, #12
+  ,   ! Effective Overall Height of Collector REQ, #13
+  ,   ! Effective Gap Thickness of Plenum Behind Collector {m}, REQ, #14
+  ,   ! Effective Cross Section Area of Plenum Behind Collector {m2}, REQ, #15
+  Square,   ! Hole Layout Pattern for Pitch Def: Square, [Triangle, Square], #16
+  Kutscher1994,   ! Heat Exchange Effectiveness Correlation Def: Kutscher1994, [Kutscher1994, VanDeckerHollandsBrunger2001], #17
+  1.0,   ! Ratio of Actual Collector Surface Area to Projected Surface Area {dimensionless}, Def: 1.0, #18
+  ,   ! Roughness of Collector [VeryRough, Rough, MediumRough, MediumSmooth, Smooth, VerySmooth], REQ, #19
+  ,   ! Collector Thickness {m}, #20
+  0.25,   ! Effectiveness for Perforations with Respect to Wind {dimensionless}, Def: 0.25, #21
+  0.65,   ! Discharge Coefficient for Openings with Respect to Buoyancy Driven Flow {dimensionless}, Def: 0.65, #22
+  ;   ! Surface 1 Name [AllShadingAndHTSurfNames], REQ, #23
